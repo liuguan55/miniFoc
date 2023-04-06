@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/Users/dengzhijun/Desktop/opt/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-gcc -DCMAKE_CXX_COMPILER=/Users/dengzhijun/Desktop/opt/gcc-arm-none-eabi-5_4-2016q3/bin/arm-none-eabi-g++ -G "CodeBlocks - Unix Makefiles" /Users/dengzhijun/CLionProjects/miniFoc_F4
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/dengzhijun/CLionProjects/miniFoc_F4/cmake-build-debug

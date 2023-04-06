@@ -1,0 +1,62 @@
+#THIS FILE IS AUTO GENERATED FROM THE TEMPLATE! DO NOT CHANGE!
+SET(CMAKE_SYSTEM_NAME Generic)
+SET(CMAKE_SYSTEM_VERSION 1)
+cmake_minimum_required(VERSION 3.7)
+
+# specify cross compilers and tools
+SET(CMAKE_C_COMPILER_WORKS 8)
+SET(CMAKE_C_COMPILER arm-none-eabi-gcc)
+SET(CMAKE_CXX_COMPILER_WORKS 8)
+SET(CMAKE_CXX_COMPILER arm-none-eabi-g++)
+set(CMAKE_ASM_COMPILER  arm-none-eabi-gcc)
+set(CMAKE_AR arm-none-eabi-ar)
+set(CMAKE_OBJCOPY arm-none-eabi-objcopy)
+set(CMAKE_OBJDUMP arm-none-eabi-objdump)
+set(SIZE arm-none-eabi-size)
+
+set(CMAKE_VERBOSE_MAKEFILE ON)
+
+SET(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F405RGTX_FLASH.ld)
+
+#Uncomment for hardware floating point
+SET(FPU_FLAGS "-mfloat-abi=hard -mfpu=fpv4-sp-d16")
+add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -D__FPU_PRESENT=1)
+#add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING )
+#Uncomment for software floating point
+#SET(FPU_FLAGS "-mfloat-abi=soft")
+
+SET(COMMON_FLAGS
+    "-mcpu=cortex-m4 ${FPU_FLAGS} -mthumb -mthumb-interwork -ffunction-sections -fdata-sections \
+    -g -fno-common -fmessage-length=0 ")
+
+SET(CMAKE_CXX_FLAGS "${COMMON_FLAGS} -std=c++11 ")
+SET(CMAKE_C_FLAGS "${COMMON_FLAGS} -std=gnu99 ")
+SET(CMAKE_EXE_LINKER_FLAGS_INIT "-Wl,-gc-sections,--print-memory-usage -T ${LINKER_SCRIPT}")
+
+PROJECT(miniFoc_F4 C CXX ASM)
+set(CMAKE_CXX_STANDARD 11 )
+
+#add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -D__FPU_PRESENT=1)
+add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx)
+
+file(GLOB_RECURSE SOURCES "Core/*.*" "FATFS/*.*" "Middlewares/*.*" "Drivers/*.*" "USB_DEVICE/*.*"
+        "libs/*.*"
+        "GUI/*.*"
+        "Device/*.*"
+        )
+
+include_directories(Device/ libs/sfud/inc libs/ libs/cm_backtrace libs/easyflash libs/easyflash/inc libs/easylogger libs/easylogger/inc GUI/ Core/Inc FATFS/Target FATFS/App USB_DEVICE/App USB_DEVICE/Target Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Middlewares/Third_Party/FreeRTOS/Source/include Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F Middlewares/Third_Party/FatFs/src Middlewares/ST/STM32_USB_Device_Library/Core/Inc Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include)
+
+add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
+
+set(CMAKE_EXE_LINKER_FLAGS
+    "${CMAKE_EXE_LINKER_FLAGS} -Wl,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map")
+
+set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
+set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)
+
+add_custom_command(TARGET ${PROJECT_NAME}.elf POST_BUILD
+        COMMAND ${CMAKE_OBJCOPY} -Oihex $<TARGET_FILE:${PROJECT_NAME}.elf> ${HEX_FILE}
+        COMMAND ${CMAKE_OBJCOPY} -Obinary $<TARGET_FILE:${PROJECT_NAME}.elf> ${BIN_FILE}
+        COMMENT "Building ${HEX_FILE}
+Building ${BIN_FILE}")
