@@ -3,7 +3,7 @@
 //
 
 #include "Current.h"
-#include "MiniCommon.h"
+#include "../../../framework/MiniCommon.h"
 #include "adc.h"
 
 typedef struct {

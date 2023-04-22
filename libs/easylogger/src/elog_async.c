@@ -34,7 +34,7 @@
 #ifdef ELOG_ASYNC_OUTPUT_USING_PTHREAD
 #include <pthread.h>
 #include <sched.h>
-#include "MiniCommon.h"
+#include "../../../framework/MiniCommon.h"
 /* thread default stack size */
 #ifndef ELOG_ASYNC_OUTPUT_PTHREAD_STACK_SIZE
 #if PTHREAD_STACK_MIN > 4*1024

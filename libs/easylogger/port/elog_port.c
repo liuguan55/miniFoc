@@ -29,7 +29,8 @@
 #include <elog.h>
 #include <stdlib.h>
 #include <string.h>
-#include "MiniCommon.h"
+#include <sys/time.h>
+#include "../../../framework/MiniCommon.h"
 #include "elog_flash.h"
 
 static osMutexId_t logMutex = NULL;
@@ -106,10 +107,15 @@ void elog_port_output_unlock(void) {
 const char *elog_port_get_time(void) {
 
   /* add your code here */
+  struct timeval tv;
+  struct tm *t;
   static char buf[32];
 
+  gettimeofday(&tv, NULL);
+  t = localtime(&tv.tv_sec);
   memset(buf, 0, sizeof(buf));
-  snprintf(buf, sizeof(buf), "%d", MiniCommon_millis());
+  snprintf(buf, sizeof(buf), "%d-%d-%d %d:%d:%d.%ld", 1900+t->tm_year, 1+t->tm_mon, t->tm_mday, t->tm_hour, t->tm_min, t->tm_sec, tv.tv_usec/1000);
+
 
   return buf;
 }

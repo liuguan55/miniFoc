@@ -32,7 +32,7 @@
 #include <string.h>
 #include <stdarg.h>
 #include <stdio.h>
-#include "MiniCommon.h"
+#include "../../../framework/MiniCommon.h"
 
 #if !defined(ELOG_OUTPUT_LVL)
     #error "Please configure static driver log level (in elog_cfg.h)"

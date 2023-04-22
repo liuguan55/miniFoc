@@ -21,13 +21,16 @@
 #include "gui.h"
 #include "MiniButton.h"
 #include "MiniShell.h"
-#include "norflash/W25Qxx.h"
 #include "sfud.h"
 #include "fatfs.h"
+#include "usbd_cdc_if.h"
+#include "debug/heap_trace.h"
+#include "platform_init.h"
+#include "MiniMotor.h"
 
 #define FIRMWARE_NAME                   "MiNIFoc_f4"
 #define HARDWARE_VERSION               "V1.0.2"
-#define SOFTWARE_VERSION               "V0.1.1"
+#define SOFTWARE_VERSION               SDK_VERSION_STR
 
 enum {
   LED_OFF = 0,

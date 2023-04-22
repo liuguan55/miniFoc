@@ -29,28 +29,34 @@ SET(COMMON_FLAGS
     "-mcpu=cortex-m4 ${FPU_FLAGS} -mthumb -mthumb-interwork -ffunction-sections -fdata-sections \
     -g -fno-common -fmessage-length=0 ")
 
+SET(COMMON_LDFLAGS "-Wl,--wrap,_malloc_r -Wl,--wrap,_realloc_r -Wl,--wrap,_free_r \
+        -Wl,--wrap,gettimeofday -Wl,--wrap,settimeofday -Wl,--wrap,time")
+
 SET(CMAKE_CXX_FLAGS "${COMMON_FLAGS} -std=c++11 ")
 SET(CMAKE_C_FLAGS "${COMMON_FLAGS} -std=gnu99 ")
-SET(CMAKE_EXE_LINKER_FLAGS_INIT "-Wl,-gc-sections,--print-memory-usage -T ${LINKER_SCRIPT}")
+SET(CMAKE_EXE_LINKER_FLAGS "-Wl,-gc-sections,--print-memory-usage -T ${LINKER_SCRIPT}")
 
 PROJECT(miniFoc_F4 C CXX ASM)
 set(CMAKE_CXX_STANDARD 11 )
 
 #add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -D__FPU_PRESENT=1)
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx)
+add_definitions(-D__CONFIG_MALLOC_TRACE -DHEAP_BACKTRACE)
 
 file(GLOB_RECURSE SOURCES "Core/*.*" "FATFS/*.*" "Middlewares/*.*" "Drivers/*.*" "USB_DEVICE/*.*"
         "libs/*.*"
         "GUI/*.*"
         "Device/*.*"
+        "framework/*.*"
+        "src/*.*"
         )
 
-include_directories(Device/ libs/sfud/inc libs/ libs/cm_backtrace libs/easyflash libs/easyflash/inc libs/easylogger libs/easylogger/inc GUI/ Core/Inc FATFS/Target FATFS/App USB_DEVICE/App USB_DEVICE/Target Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Middlewares/Third_Party/FreeRTOS/Source/include Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F Middlewares/Third_Party/FatFs/src Middlewares/ST/STM32_USB_Device_Library/Core/Inc Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include)
+include_directories(include/ libc/ framework/ Device/ libs/sfud/inc libs/ libs/cm_backtrace libs/easyflash libs/easyflash/inc libs/easylogger libs/easylogger/inc GUI/ Core/Inc FATFS/Target FATFS/App USB_DEVICE/App USB_DEVICE/Target Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Middlewares/Third_Party/FreeRTOS/Source/include Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F Middlewares/Third_Party/FatFs/src Middlewares/ST/STM32_USB_Device_Library/Core/Inc Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include)
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
 
 set(CMAKE_EXE_LINKER_FLAGS
-    "${CMAKE_EXE_LINKER_FLAGS} -Wl,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map")
+    "${CMAKE_EXE_LINKER_FLAGS} ${COMMON_LDFLAGS} -Wl,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map")
 
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
 set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)

@@ -34,7 +34,7 @@
 #include "cmsis_os.h"
 #include <stdio.h>
 #include <string.h>
-#include "MiniCommon.h"
+#include "../../../framework/MiniCommon.h"
 
 /* base address of the flash sectors */
 #define ADDR_FLASH_SECTOR_0      ((uint32_t)0x08000000) /* Base address of Sector 0, 16 K bytes   */
@@ -362,4 +362,6 @@ void ef_print(const char *format, ...) {
   va_end(args);
 
   MiniUart_writeData(MINI_CONSOLE_USART_IDX, logBuff, strlen(logBuff));
+
+  usb_write_data(logBuff, strlen(logBuff));
 }

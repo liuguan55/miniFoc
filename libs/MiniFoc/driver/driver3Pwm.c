@@ -3,7 +3,7 @@
 //
 
 #include "driver.h"
-#include "MiniCommon.h"
+#include "../../../framework/MiniCommon.h"
 
 #define PWM_HANDLE &htim2
 #define M1_Enable    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4, GPIO_PIN_SET);          //高电平使能
@@ -23,6 +23,8 @@ static void  pwmInit(void)
 
 static void  setPwm(float Ta, float Tb , float Tc)
 {
+//  log_d("Ta %4.2f %4.2f %4.2f\n",Ta,Tb,Tc);
+
   __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_2, Ta * PWM_Period);
   __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_3, Tb * PWM_Period);
   __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_4, Tc * PWM_Period);

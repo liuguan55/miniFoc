@@ -29,7 +29,7 @@
 #include <sfud.h>
 #include <stdarg.h>
 #include "spi.h"
-#include "MiniCommon.h"
+#include "../../../framework/MiniCommon.h"
 
 extern SPI_HandleTypeDef hspi2;
 

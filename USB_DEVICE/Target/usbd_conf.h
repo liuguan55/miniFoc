@@ -35,7 +35,7 @@
 #include "stm32f4xx_hal.h"
 
 /* USER CODE BEGIN INCLUDE */
-
+#define USE_USBD_COMPOSITE
 /* USER CODE END INCLUDE */
 
 /** @addtogroup USBD_OTG_DRIVER
@@ -63,7 +63,7 @@
   */
 
 /*---------- -----------*/
-#define USBD_MAX_NUM_INTERFACES     1U
+#define USBD_MAX_NUM_INTERFACES     3U
 /*---------- -----------*/
 #define USBD_MAX_NUM_CONFIGURATION     1U
 /*---------- -----------*/
@@ -74,6 +74,11 @@
 #define USBD_LPM_ENABLED     0U
 /*---------- -----------*/
 #define USBD_SELF_POWERED     1U
+
+#define MSC_MEDIA_PACKET     512U
+#define CDC_FS_BINTERVAL     0x20U
+
+#define USBD_SUPPORT_USER_STRING_DESC  1U
 
 /****************************************/
 /* #define for FS and HS identification */

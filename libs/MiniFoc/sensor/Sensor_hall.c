@@ -4,7 +4,7 @@
 
 #include "Sensor.h"
 
-#include "MiniCommon.h"
+#include "../../../framework/MiniCommon.h"
 #define LOG_TAG "HALL"
 
 #define  POLE_PAIR      8      //12bit

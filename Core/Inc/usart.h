@@ -29,7 +29,7 @@ extern "C" {
 #include "main.h"
 
 /* USER CODE BEGIN Includes */
-
+#include "lwrb/lwrb.h"
 /* USER CODE END Includes */
 
 extern UART_HandleTypeDef huart1;
@@ -41,6 +41,8 @@ extern UART_HandleTypeDef huart1;
 void MX_USART1_UART_Init(void);
 
 /* USER CODE BEGIN Prototypes */
+lwrb_t * Mini_getlwrbHandle(void);
+
 signed short MiniUart_readData(int uartCh, char *data, unsigned short dataSize);
 signed short MiniUart_writeData(int uartCh, char *data, unsigned short dataSize);
 /* USER CODE END Prototypes */

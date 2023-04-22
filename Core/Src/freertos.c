@@ -25,8 +25,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "MiniCommon.h"
-#include "MiniMotor.h"
+#include "../../framework/MiniCommon.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -37,13 +36,6 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 //PID_Datatype *spring_pid;
-
-osThreadId_t appTaskHandle;
-const osThreadAttr_t appTask_attributes = {
-    .name = "appTask",
-    .stack_size = 256 * 4,
-    .priority = (osPriority_t)osPriorityBelowNormal,
-};
 osThreadId_t openLoopPosControlTaskHandle;
 const osThreadAttr_t OpenPosTask_attributes = {
     .name = "OpenPos",
@@ -96,7 +88,6 @@ const osThreadAttr_t SelectTask_attributes = {
 /* USER CODE END Variables */
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
-void StartAppTask(void *argument);
 
 void SuspendToRunOtherTask(osThreadId_t other_task);
 
@@ -133,7 +124,7 @@ osThreadId_t defaultTaskHandle;
 const osThreadAttr_t defaultTask_attributes = {
     .name = "defaultTask",
     .stack_size = 512 * 4,
-    .priority = (osPriority_t)osPriorityBelowNormal,
+    .priority = (osPriority_t)osPriorityLow,
 };
 
 /* Private function prototypes -----------------------------------------------*/
@@ -201,7 +192,6 @@ void MX_FREERTOS_Init(void) {
 //
 //  taskSelectTaskHandle = osThreadNew(TaskSelectTask, NULL, &SelectTask_attributes);
 //
-  appTaskHandle = osThreadNew(StartAppTask, NULL, &appTask_attributes);
   /* USER CODE END RTOS_THREADS */
 
   /* USER CODE BEGIN RTOS_EVENTS */
@@ -221,40 +211,15 @@ void StartDefaultTask(void *argument) {
   /* init code for USB_DEVICE */
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN StartDefaultTask */
-  MiniFatfs_init();
-  MiniShell_Init();
-  MiniShell_Run();
+  platform_init();
 
-  easyflash_init();
-  test_env();
-//  /* initialize EasyLogger */
-  elog_flash_init();
-  elog_init();
-//  /* set EasyLogger log format */
-  elog_set_fmt(ELOG_LVL_ASSERT, ELOG_FMT_ALL);
-  elog_set_fmt(ELOG_LVL_ERROR, ELOG_FMT_LVL | ELOG_FMT_TAG | ELOG_FMT_TIME | ELOG_FMT_P_INFO);
-  elog_set_fmt(ELOG_LVL_WARN, ELOG_FMT_LVL | ELOG_FMT_TAG | ELOG_FMT_TIME | ELOG_FMT_P_INFO);
-  elog_set_fmt(ELOG_LVL_INFO, ELOG_FMT_LVL | ELOG_FMT_TAG | ELOG_FMT_TIME | ELOG_FMT_P_INFO);
-  elog_set_fmt(ELOG_LVL_DEBUG, ELOG_FMT_LVL | ELOG_FMT_TAG | ELOG_FMT_TIME | ELOG_FMT_P_INFO);
-  elog_set_fmt(ELOG_LVL_VERBOSE, ELOG_FMT_LVL | ELOG_FMT_TAG | ELOG_FMT_TIME | ELOG_FMT_P_INFO);
-  elog_set_text_color_enabled(true);
-  elog_start();
-
-  MiniButton_init();
-  MiniButton_run();
-
-  MiniMotor_init();
-
-  TickType_t xLastWakeTime = xTaskGetTickCount();
   /* Infinite loop */
   for (;;) {
-    MiniMotor_run();
-    MiniCommon_delayMs(1);
-//	MiniCommon_led1Toggle();
-//	MiniCommon_led2Toggle();
-//	MiniCommon_led3Toggle();
-//	MiniCommon_delayMs(1000);
+    MiniCommon_led1Toggle();
+    MiniCommon_delayMs(1000);
   }
+
+
   /* USER CODE END StartDefaultTask */
 }
 
@@ -556,47 +521,7 @@ void KnobTask(void *argument) {
 }
 
 #endif
-void StartAppTask(void *argument) {
-  /* USER CODE BEGIN StartDefaultTask */
-  /* Infinite loop */
-  for (;;) {
-    MiniCommon_led1Toggle();
-    MiniCommon_delayMs(1000);
-  }
-  /* USER CODE END StartDefaultTask */
-}
 
-static void test_env(void) {
-  uint32_t i_boot_times = NULL;
-  char *c_old_boot_times, c_new_boot_times[11] = {0};
 
-  /* get the boot count number from Env */
-  c_old_boot_times = ef_get_env("boot_times");
-  assert_param(c_old_boot_times);
-  i_boot_times = atol(c_old_boot_times);
-  /* boot count +1 */
-  i_boot_times++;
-  printf("The system now boot %d times\n\r", i_boot_times);
-  /* interger to string */
-  sprintf(c_new_boot_times, "%ld", i_boot_times);
-  /* set and store the boot count number to Env */
-  ef_set_env("boot_times", c_new_boot_times);
-  ef_save_env();
-}
-
-void RunTimeStatsTask(void) {
-  static char InfoBuffer[1024] = {0};
-
-  memset(InfoBuffer, 0, sizeof(InfoBuffer));
-  /*打印任务信息*/
-  vTaskList(InfoBuffer);
-  printf("%s", InfoBuffer);
-}
-
-SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC) | SHELL_CMD_DISABLE_RETURN,
-                 top, RunTimeStatsTask, run
-                     times
-                     stats
-                     task);
 /* USER CODE END Application */
 

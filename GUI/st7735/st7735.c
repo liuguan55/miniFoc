@@ -4,7 +4,7 @@
 #include "malloc.h"
 #include "string.h"
 #include <stdio.h>
-#include "MiniCommon.h"
+#include "../../framework/MiniCommon.h"
 
 #define DELAY 0x80
 

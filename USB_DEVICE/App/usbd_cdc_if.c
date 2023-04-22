@@ -22,7 +22,9 @@
 #include "usbd_cdc_if.h"
 
 /* USER CODE BEGIN INCLUDE */
-
+#include <stdio.h>
+#include <stdbool.h>
+#include "usart.h"
 /* USER CODE END INCLUDE */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -31,7 +33,7 @@
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-
+static bool gIsInitalized = false ;
 /* USER CODE END PV */
 
 /** @addtogroup STM32_USB_OTG_DEVICE_LIBRARY
@@ -152,6 +154,7 @@ USBD_CDC_ItfTypeDef USBD_Interface_fops_FS =
 static int8_t CDC_Init_FS(void)
 {
   /* USER CODE BEGIN 3 */
+  gIsInitalized = true;
   /* Set Application Buffers */
   USBD_CDC_SetTxBuffer(&hUsbDeviceFS, UserTxBufferFS, 0);
   USBD_CDC_SetRxBuffer(&hUsbDeviceFS, UserRxBufferFS);
@@ -166,6 +169,7 @@ static int8_t CDC_Init_FS(void)
 static int8_t CDC_DeInit_FS(void)
 {
   /* USER CODE BEGIN 4 */
+  gIsInitalized = false ;
   return (USBD_OK);
   /* USER CODE END 4 */
 }
@@ -224,6 +228,13 @@ static int8_t CDC_Control_FS(uint8_t cmd, uint8_t* pbuf, uint16_t length)
     break;
 
     case CDC_GET_LINE_CODING:
+    pbuf[0] = (uint8_t)(115200);
+    pbuf[1] = (uint8_t)(115200 >> 8);
+    pbuf[2] = (uint8_t)(115200 >> 16);
+    pbuf[3] = (uint8_t)(115200 >> 24);
+    pbuf[4] = 0;  // stop bits (1)
+    pbuf[5] = 0;  // parity (none)
+    pbuf[6] = 8;  // number of bits (8)
 
     break;
 
@@ -263,6 +274,10 @@ static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
   /* USER CODE BEGIN 6 */
   USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
   USBD_CDC_ReceivePacket(&hUsbDeviceFS);
+
+  lwrb_t *rb = Mini_getlwrbHandle();
+  lwrb_write(rb, Buf, *Len);
+
   return (USBD_OK);
   /* USER CODE END 6 */
 }
@@ -282,8 +297,12 @@ uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len)
 {
   uint8_t result = USBD_OK;
   /* USER CODE BEGIN 7 */
-  USBD_CDC_HandleTypeDef *hcdc = (USBD_CDC_HandleTypeDef*)hUsbDeviceFS.pClassData;
-  if (hcdc->TxState != 0){
+  if (!gIsInitalized){
+    return USBD_FAIL;
+  }
+
+  USBD_CDC_HandleTypeDef *hcdc = (USBD_CDC_HandleTypeDef*)USBD_getCDCHandle();
+  if (hcdc && hcdc->TxState != 0){
     return USBD_BUSY;
   }
   USBD_CDC_SetTxBuffer(&hUsbDeviceFS, Buf, Len);
@@ -318,6 +337,16 @@ static int8_t CDC_TransmitCplt_FS(uint8_t *Buf, uint32_t *Len, uint8_t epnum)
 /* USER CODE BEGIN PRIVATE_FUNCTIONS_IMPLEMENTATION */
 
 #include <stdarg.h>
+
+void usb_write_data(const char *data, size_t dataSize)
+{
+  if (dataSize > APP_TX_DATA_SIZE){
+    dataSize = APP_TX_DATA_SIZE;
+  }
+
+  memcpy(UserTxBufferFS, data, dataSize);
+  CDC_Transmit_FS(UserTxBufferFS, dataSize);
+}
 
 void usb_printf(const char *format, ...)
 {

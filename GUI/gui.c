@@ -4,7 +4,7 @@
 #include "st7735/image.h"
 //#include "FOC_utils.h"
 #include "lvgl/lvgl.h"
-#include "MiniButton.h"
+#include "../framework/MiniButton.h"
 #include "elog.h"
 
 #define LOG_TAG "GUI"

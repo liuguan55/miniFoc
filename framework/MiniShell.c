@@ -71,6 +71,8 @@ signed short ShellRead(char *data, unsigned short dataSize) {
 }
 
 signed short ShellWrite(char *data, unsigned short dataSize) {
+  usb_write_data(data, dataSize);
+
   return MiniUart_writeData(MINI_SHELL_USART_IDX, data, dataSize);
 }
 

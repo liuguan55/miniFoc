@@ -39,10 +39,16 @@ ENTRY(Reset_Handler)
 /* Highest address of the user mode stack */
 _estack = ORIGIN(RAM) + LENGTH(RAM); /* end of "RAM" Ram type memory */
 
-_Min_Heap_Size = 0x200 ; /* required amount of heap */
-_Min_Stack_Size = 0x400 ; /* required amount of stack */
+_Min_Heap_Size = 0x800 ; /* required amount of heap */
+_Min_Stack_Size = 0x800 ; /* required amount of stack */
 
+__StackTop = _estack;
+__stack = __StackTop;
 _sstack = _estack - _Min_Stack_Size;
+__StackLimit = _sstack;
+
+__heap_end__ = _sstack;
+
 /* Memories definition */
 MEMORY
 {
@@ -66,6 +72,7 @@ SECTIONS
   .text :
   {
     . = ALIGN(4);
+    __text_start__ = .;
     _stext = .;
     *(.text)           /* .text sections (code) */
     *(.text*)          /* .text* sections (code) */
@@ -77,6 +84,7 @@ SECTIONS
 
     . = ALIGN(4);
     _etext = .;        /* define a global symbols at end of code */
+    __text_end__ = .;
   } >FLASH
 
   /* Constant data into "FLASH" Rom type memory */
@@ -135,20 +143,23 @@ SECTIONS
   } >FLASH
 
   /* Used by the startup to initialize data */
+  . = ALIGN(4);
+  __etext = .;
   _sidata = LOADADDR(.data);
 
   /* Initialized data sections into "RAM" Ram type memory */
   .data :
   {
     . = ALIGN(4);
+    __data_start__ = .;
     _sdata = .;        /* create a global symbol at data start */
     *(.data)           /* .data sections */
     *(.data*)          /* .data* sections */
     *(.RamFunc)        /* .RamFunc sections */
     *(.RamFunc*)       /* .RamFunc* sections */
     . = ALIGN(4);
-    _edata = .;        /* define a global symbol at data end */
-
+    __data_end__ = .;
+    _edata = .;
   } >RAM AT> FLASH
 
   _siccmram = LOADADDR(.ccmram);
@@ -190,9 +201,13 @@ SECTIONS
   ._user_heap_stack :
   {
     . = ALIGN(8);
+    __end__ = .;
+    __heap_start__ = .;
     PROVIDE ( end = . );
     PROVIDE ( _end = . );
+    end = __end__;
     . = . + _Min_Heap_Size;
+    __HeapLimit = .;
     . = . + _Min_Stack_Size;
     . = ALIGN(8);
   } >RAM

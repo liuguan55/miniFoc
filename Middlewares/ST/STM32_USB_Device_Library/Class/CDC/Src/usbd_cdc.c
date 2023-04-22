@@ -58,8 +58,8 @@ EndBSPDependencies */
 /* Includes ------------------------------------------------------------------*/
 #include "usbd_cdc.h"
 #include "usbd_ctlreq.h"
-
-
+#include "usbd_desc.h"
+#include <stdio.h>
 /** @addtogroup STM32_USB_DEVICE_LIBRARY
   * @{
   */
@@ -108,7 +108,6 @@ static uint8_t USBD_CDC_EP0_RxReady(USBD_HandleTypeDef *pdev);
 #ifndef USE_USBD_COMPOSITE
 static uint8_t *USBD_CDC_GetFSCfgDesc(uint16_t *length);
 static uint8_t *USBD_CDC_GetHSCfgDesc(uint16_t *length);
-static uint8_t *USBD_CDC_GetOtherSpeedCfgDesc(uint16_t *length);
 static uint8_t *USBD_CDC_GetOtherSpeedCfgDesc(uint16_t *length);
 uint8_t *USBD_CDC_GetDeviceQualifierDescriptor(uint16_t *length);
 #endif /* USE_USBD_COMPOSITE  */
@@ -162,6 +161,7 @@ USBD_ClassTypeDef  USBD_CDC =
   USBD_CDC_GetOtherSpeedCfgDesc,
   USBD_CDC_GetDeviceQualifierDescriptor,
 #endif /* USE_USBD_COMPOSITE  */
+  USBD_UsrStrDescriptor
 };
 
 #ifndef USE_USBD_COMPOSITE
@@ -277,7 +277,12 @@ static uint8_t CDCCmdEpAdd = CDC_CMD_EP;
 /** @defgroup USBD_CDC_Private_Functions
   * @{
   */
+static USBD_CDC_HandleTypeDef *gHcdc = NULL;
 
+USBD_CDC_HandleTypeDef * USBD_getCDCHandle(void)
+{
+  return gHcdc ;
+}
 /**
   * @brief  USBD_CDC_Init
   *         Initialize the CDC interface
@@ -302,7 +307,7 @@ static uint8_t USBD_CDC_Init(USBD_HandleTypeDef *pdev, uint8_t cfgidx)
 
   pdev->pClassDataCmsit[pdev->classId] = (void *)hcdc;
   pdev->pClassData = pdev->pClassDataCmsit[pdev->classId];
-
+  gHcdc = pdev->pClassData;
 #ifdef USE_USBD_COMPOSITE
   /* Get the Endpoints addresses allocated for this class instance */
   CDCInEpAdd  = USBD_CoreGetEPAdd(pdev, USBD_EP_IN, USBD_EP_TYPE_BULK);
@@ -740,9 +745,10 @@ uint8_t USBD_CDC_RegisterInterface(USBD_HandleTypeDef *pdev,
   {
     return (uint8_t)USBD_FAIL;
   }
-
+  pdev->classId --;
+  
   pdev->pUserData[pdev->classId] = fops;
-
+  pdev->classId ++;
   return (uint8_t)USBD_OK;
 }
 

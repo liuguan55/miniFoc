@@ -29,6 +29,11 @@ static uint8_t usart1_Rxbuffer[USART_RXBUFFER_SIZE] = {0};
 
 static lwrb_t usart1_lwrbHandle;
 static uint8_t usart1_lwrbBuffer[LWRB_BUFFER_SIZE] = {0};
+
+lwrb_t * Mini_getlwrbHandle(void)
+{
+  return &usart1_lwrbHandle;
+}
 /* USER CODE END 0 */
 
 UART_HandleTypeDef huart1;

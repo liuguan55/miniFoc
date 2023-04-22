@@ -15,7 +15,7 @@
   *
   ******************************************************************************
   */
-#include "MiniCommon.h"
+#include "../../framework/MiniCommon.h"
 /* USER CODE END Header */
 #include "fatfs.h"
 
@@ -63,6 +63,7 @@ DWORD get_fattime(void)
 
 int MiniFatfs_init(void)
 {
+//  return 0;
   retSD = f_mount(&SDFatFS, SDPath, 1);
   if (retSD != FR_OK){
     if (retSD == FR_NO_FILESYSTEM){

@@ -20,9 +20,9 @@
 #include "usbd_core.h"
 
 #ifdef USE_USBD_COMPOSITE
-#include "usbd_composite_builder.h"
+#include "usbd_composite.h"
 #endif /* USE_USBD_COMPOSITE */
-
+#include <stdio.h>
 /** @addtogroup STM32_USBD_DEVICE_LIBRARY
   * @{
   */

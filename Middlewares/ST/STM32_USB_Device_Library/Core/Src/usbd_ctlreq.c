@@ -21,7 +21,7 @@
 #include "usbd_ioreq.h"
 
 #ifdef USE_USBD_COMPOSITE
-#include "usbd_composite_builder.h"
+#include "usbd_composite.h"
 #endif /* USE_USBD_COMPOSITE */
 
 /** @addtogroup STM32_USBD_STATE_DEVICE_LIBRARY

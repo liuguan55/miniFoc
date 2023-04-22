@@ -3,7 +3,7 @@
 //
 
 #include "Sensor.h"
-#include "MiniCommon.h"
+#include "../../../framework/MiniCommon.h"
 
 #define LOG_TAG "TLE5012B"
 

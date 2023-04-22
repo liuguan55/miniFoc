@@ -36,7 +36,7 @@
  * Created on: 2015-07-28
  */
 #include <elog.h>
-#include "MiniCommon.h"
+#include "../../../../framework/MiniCommon.h"
 #include "elog_flash.h"
 
 static osMutexId_t flashPortMutex = NULL;
@@ -46,12 +46,12 @@ static osMutexId_t flashPortMutex = NULL;
  * @return result
  */
 ElogErrCode elog_flash_port_init(void) {
-    ElogErrCode result = ELOG_NO_ERR;
-    
-    /* add your code here */
-    flashPortMutex = osMutexNew(NULL);
+  ElogErrCode result = ELOG_NO_ERR;
 
-    return result;
+  /* add your code here */
+  flashPortMutex = osMutexNew(NULL);
+
+  return result;
 }
 
 /**
@@ -61,25 +61,27 @@ ElogErrCode elog_flash_port_init(void) {
  * @param size log size
  */
 void elog_flash_port_output(const char *log, size_t size) {
-    
-    /* add your code here */
-     MiniUart_writeData(MINI_CONSOLE_USART_IDX,log, size);
+
+  /* add your code here */
+  MiniUart_writeData(MINI_CONSOLE_USART_IDX, log, size);
+
+  usb_write_data(log, size);
 }
 
 /**
  * flash log lock
  */
 void elog_flash_port_lock(void) {
-    
-    /* add your code here */
-    osMutexAcquire(flashPortMutex, portMAX_DELAY);
+
+  /* add your code here */
+  osMutexAcquire(flashPortMutex, portMAX_DELAY);
 }
 
 /**
  * flash log unlock
  */
 void elog_flash_port_unlock(void) {
-    
-    /* add your code here */
-    osMutexRelease(flashPortMutex);
+
+  /* add your code here */
+  osMutexRelease(flashPortMutex);
 }

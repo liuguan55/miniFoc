@@ -80,7 +80,6 @@ void MX_TIM2_Init(void) {
 
   /* USER CODE END TIM2_Init 2 */
   HAL_TIM_MspPostInit(&htim2);
-
 }
 /* TIM4 init function */
 void MX_TIM4_Init(void) {
@@ -138,7 +137,7 @@ void HAL_TIM_Base_MspInit(TIM_HandleTypeDef *tim_baseHandle) {
     __HAL_RCC_TIM4_CLK_ENABLE();
 
     /* TIM4 interrupt Init */
-    HAL_NVIC_SetPriority(TIM4_IRQn, 5, 0);
+    HAL_NVIC_SetPriority(TIM4_IRQn, 3, 0);
     HAL_NVIC_EnableIRQ(TIM4_IRQn);
     /* USER CODE BEGIN TIM4_MspInit 1 */
 
@@ -203,6 +202,13 @@ void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef *tim_baseHandle) {
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
   if (htim->Instance == TIM4) {
     FreeRTOSRunTimeTicks++;
+
+    static int timerCnt = 0;
+
+    if (++timerCnt >= 20){
+      timerCnt = 0;
+      HAL_IncTick();
+    }
   }
 }
 

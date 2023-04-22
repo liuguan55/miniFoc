@@ -4,7 +4,7 @@
 
 #include "Sensor.h"
 
-#include "MiniCommon.h"
+#include "../../../framework/MiniCommon.h"
 #include "adc.h"
 #define LOG_TAG "AS5600"
 

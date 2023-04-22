@@ -16,7 +16,7 @@
 #include "elog_flash.h"
 #include "elog.h"
 #include "easyflash.h"
-#include "MiniCommon.h"
+#include "../../framework/MiniCommon.h"
 #if SHELL_USING_CMD_EXPORT == 1
 /**
  * @brief 默认用户

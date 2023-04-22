@@ -3,7 +3,7 @@
 //
 
 #include "Sensor.h"
-#include "MiniCommon.h"
+#include "../../../framework/MiniCommon.h"
 
 #define LOG_TAG "AS5600"
 
@@ -59,6 +59,7 @@ static float AS5600_getAngle(struct FocSensor *senosr)
   }
 
   ctx->angle_data = readAs5600RawData(senosr->interface);
+//  printf("angle_data %d\n",ctx->angle_data);
   // tracking the number of rotations
   // in order to expand angle range form [0,2PI] to basically infinity
   ctx->d_angle = ctx->angle_data - ctx->raw_data_prev;
