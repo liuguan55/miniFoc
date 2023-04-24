@@ -31,7 +31,6 @@ uint8_t  readBuf[512];
 uint8_t  writeBuf[512];
 BYTE work[_MAX_SS];
 char *fileName = "test.csv";
-uint32_t writeLen;
 uint32_t readLen;
 
 static uint8_t sd_initalize = 0;
@@ -84,6 +83,8 @@ int MiniFatfs_init(void)
 	sd_initalize = 1;
     printf("mount fatfs success\n");
   }
+
+  return 0;
 }
 
 int MiniFatfs_writeLog(const char *filename, const char *data, int len)
@@ -102,7 +103,7 @@ int MiniFatfs_writeLog(const char *filename, const char *data, int len)
     return 0;
   }
 
-  ret = f_write(&file, data, len, &writeLen);
+  ret = f_write(&file, data, len, (UINT *)&writeLen);
 
   f_close(&file);
 
@@ -124,15 +125,19 @@ int fatfs_test(void)
   }
 
   sprintf((char *)writeBuf,"%s","11,44,33\n");
-  retSD = f_write(&SDFile,writeBuf,strlen((const char *)writeBuf),&writeLen);
+
+  int writeLen;
+  retSD = f_write(&SDFile,writeBuf,strlen((const char *)writeBuf),(UINT *)&writeLen);
   retSD = f_close(&SDFile);
 
   retSD = f_open(&SDFile,fileName,FA_OPEN_EXISTING|FA_READ);
-  retSD = f_read(&SDFile,readBuf,512,&readLen);
+  retSD = f_read(&SDFile,readBuf,512,(UINT *)&readLen);
   f_close(&SDFile);
   printf("%s",readBuf);
 
   f_mount(NULL,SDPath,1);
+
+  return 0;
 }
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC)|SHELL_CMD_DISABLE_RETURN,
 sdcardTest, fatfs_test, test sdcard );

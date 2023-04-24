@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include "MiniCommon.h"
 
+#undef LOG_TAG
 #define LOG_TAG "MiniButton"
 
 osThreadId_t buttonTaskHandle;
@@ -133,13 +134,11 @@ void MiniButton_init(void) {
   button_start(&cancelButton);
 }
 
-void *buttonTickTask(void *args) {
-  while (1) {
+void buttonTickTask(void *args) {
+  for(;;) {
     button_ticks();
     MiniCommon_delayMs(10);
   }
-
-  return NULL;
 }
 
 void MiniButton_run(void) {

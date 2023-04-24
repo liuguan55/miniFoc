@@ -81,5 +81,5 @@ uint32_t system_get_heap_size(void) {
     __sbrk_heap_end = &_end;
   }
 
-  return __sbrk_heap_end - 0x20000000;
+  return (ptrdiff_t)__sbrk_heap_end - 0x20000000;
 }

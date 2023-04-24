@@ -69,7 +69,7 @@ void elog_port_output(const char *log, size_t size) {
   /* add your code here */
 //  MiniUart_writeData(MINI_CONSOLE_USART_IDX, log, size);
 //  logWrite(LOG_ALL_OBJ, LOG_DEBUG, log);
-  logWriteBuffer(LOG_ALL_OBJ, LOG_DEBUG, log, size);
+  logWriteBuffer(LOG_ALL_OBJ, LOG_DEBUG, (char *)log, size);
   MiniFatfs_writeLog("mini.log", log, size);
 }
 
@@ -132,7 +132,7 @@ const char *elog_port_get_p_info(void) {
   memset(info, 0, sizeof(info));
 
   osThreadId_t id = osThreadGetId();
-  char *thName = osThreadGetName(id);
+  const char *thName = osThreadGetName(id);
   if (thName) {
 	memcpy(info, thName, configMAX_TASK_NAME_LEN);
   }

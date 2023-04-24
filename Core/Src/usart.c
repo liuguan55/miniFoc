@@ -153,7 +153,7 @@ signed short MiniUart_writeData(int uartCh, char *data, unsigned short dataSize)
     handle = &huart1;
   }
 
-  HAL_StatusTypeDef status = HAL_UART_Transmit(handle, data, dataSize, 100);
+  HAL_StatusTypeDef status = HAL_UART_Transmit(handle, (const uint8_t *)data, dataSize, 100);
   if (status != HAL_OK) {
     return -1;
   }

@@ -105,7 +105,6 @@
 
 /** Descriptor for the Usb device. */
 extern USBD_DescriptorsTypeDef FS_Desc;
-static void Get_SerialNum(void);
 
 /* USER CODE BEGIN EXPORTED_VARIABLES */
 

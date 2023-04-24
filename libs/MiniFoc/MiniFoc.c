@@ -5,6 +5,7 @@
 #include "BLDCMotor.h"
 #include "../../framework/MiniCommon.h"
 
+#undef LOG_TAG
 #define LOG_TAG "MINIFOC"
 
 int MiniFoc_nativeInit(Motor_t *motor, MotorType_t motorType, char *sensorName, char *driverName) {
@@ -25,7 +26,7 @@ int MiniFoc_nativeInit(Motor_t *motor, MotorType_t motorType, char *sensorName, 
     }
     driver->init();
 
-    BLDCMotor_t *bldcMotor = (BldcDriver_t *)motor;
+    BLDCMotor_t *bldcMotor = (BLDCMotor_t *)motor;
     bldcMotor->driver = driver;
   }
 
@@ -240,6 +241,8 @@ int MiniFoc_disable(Motor_t *motor) {
   }
 
   motor->enabled = 0;
+
+  return 0;
 }
 
 int MiniFoc_enable(Motor_t *motor) {
@@ -251,4 +254,6 @@ int MiniFoc_enable(Motor_t *motor) {
   }
 
   motor->enabled = 1;
+
+  return 0;
 }

@@ -8,7 +8,7 @@
 
 
 static void test_env(void) {
-  uint32_t i_boot_times = NULL;
+  uint32_t i_boot_times = 0;
   char *c_old_boot_times, c_new_boot_times[11] = {0};
 
   /* get the boot count number from Env */
@@ -17,7 +17,7 @@ static void test_env(void) {
   i_boot_times = atol(c_old_boot_times);
   /* boot count +1 */
   i_boot_times++;
-  printf("The system now boot %d times\n\r", i_boot_times);
+  printf("The system now boot %lu times\n\r", i_boot_times);
   /* interger to string */
   sprintf(c_new_boot_times, "%ld", i_boot_times);
   /* set and store the boot count number to Env */
@@ -42,12 +42,7 @@ SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC) |
 
 static void platform_show_info(void)
 {
-  uint8_t dbg_en = 0;
-
 #if PLATFORM_SHOW_DEBUG_INFO
-  dbg_en = 1;
-#endif /* PLATFORM_SHOW_INFO */
-
   extern uint8_t __text_start__[];
   extern uint8_t __text_end__[];
   extern uint8_t __etext[];
@@ -87,15 +82,17 @@ static void platform_show_info(void)
           __heap_start__, __heap_end__,
           __heap_end__ - __heap_start__);
 
-  printf("cpu  clock %9u Hz\n", HAL_RCC_GetHCLKFreq());
-  printf("sys  clock %9u Hz\n", HAL_RCC_GetSysClockFreq());
-  printf("pclk  clock %9u Hz\n", HAL_RCC_GetPCLK1Freq());
-  printf("pclk2  clock %9u Hz\n", HAL_RCC_GetPCLK2Freq());
+  printf("cpu  clock %9lu Hz\n", HAL_RCC_GetHCLKFreq());
+  printf("sys  clock %9lu Hz\n", HAL_RCC_GetSysClockFreq());
+  printf("pclk  clock %9lu Hz\n", HAL_RCC_GetPCLK1Freq());
+  printf("pclk2  clock %9lu Hz\n", HAL_RCC_GetPCLK2Freq());
 
   printf("====================================================================\n\n");
+
+#endif /* PLATFORM_SHOW_INFO */
 }
 
-static platform_level1_init(void)
+static void platform_level1_init(void)
 {
   cm_backtrace_init(FIRMWARE_NAME, HARDWARE_VERSION, SOFTWARE_VERSION);
 

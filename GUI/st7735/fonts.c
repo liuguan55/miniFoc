@@ -591,5 +591,5 @@ const uint8_t Font16x16[][32] = {
 		0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00},/*"~",94*/
 };
 
-FontDef Font_8x16 = {8, 16, Font8x16};
-FontDef Font_16x16 = {16, 16, Font16x16};
+FontDef Font_8x16 = {8, 16, (const uint8_t *)Font8x16};
+FontDef Font_16x16 = {16, 16, (const uint8_t *)Font16x16};

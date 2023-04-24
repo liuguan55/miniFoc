@@ -90,25 +90,25 @@ char * shellNumToString(char *str)
  * @param char 数字
  * @return code 字符
  */
-static char shellNumToExt(char code)
-{
-  if ((code >= '0') && (code <= '9'))
-  {
-	return code -'0';
-  }
-  else if ((code >= 'a') && (code <= 'f'))
-  {
-	return code - 'a' + 10;
-  }
-  else if ((code >= 'A') && (code <= 'F'))
-  {
-	return code - 'A' + 10;
-  }
-  else
-  {
-	return 0;
-  }
-}
+//static char shellNumToExt(char code)
+//{
+//  if ((code >= '0') && (code <= '9'))
+//  {
+//	return code -'0';
+//  }
+//  else if ((code >= 'a') && (code <= 'f'))
+//  {
+//	return code - 'a' + 10;
+//  }
+//  else if ((code >= 'A') && (code <= 'F'))
+//  {
+//	return code - 'A' + 10;
+//  }
+//  else
+//  {
+//	return 0;
+//  }
+//}
 
 /**
  * @brief 解析字符参数
@@ -335,7 +335,7 @@ int shellExtRun(Shell *shell, ShellCommand *command, int argc, char *argv[])
     for (int i = 0; i < argc - 1; i++)
     {
       	if (reserveChar){
-		  params[i] = shellExtParseString(argv[i + 1]);
+		  params[i] = (unsigned int) shellExtParseString(argv[i + 1]);
       	}else{
 		  params[i] = shellExtParsePara(shell, argv[i + 1]);
 		}

@@ -6,6 +6,7 @@
 
 #include "../../../framework/MiniCommon.h"
 
+#undef LOG_TAG
 #define LOG_TAG "AS5047p"
 
 #define  AS5047P_Angle    0xFFFF     //
@@ -36,13 +37,13 @@ static unsigned short readRawData(SensorInterface_t *interface)
 
   uint16_t sendData = AS5047P_Angle;
   SPI2_CS1_L;
-  HAL_SPI_TransmitReceive(interface->handle, &sendData,  &u16Data, 2, interface->timeout);
+  HAL_SPI_TransmitReceive(interface->handle, (uint8_t *)&sendData,  (uint8_t *)&u16Data, 2, interface->timeout);
   SPI2_CS1_H;
   delay_s(20);  //1us
 
   SPI2_CS1_L;
   sendData = 0;
-  HAL_SPI_TransmitReceive(interface->handle, &sendData,  &u16Data, 2, interface->timeout);
+  HAL_SPI_TransmitReceive(interface->handle, (uint8_t *)&sendData,  (uint8_t *)&u16Data, 2, interface->timeout);
   SPI2_CS1_H;
   delay_s(20);  //1us
 
@@ -132,7 +133,7 @@ static float AS5047p_getVelocity(struct FocSensor *sensor)
   return vel;
 }
 
-static int AS5047p_needSearch(void)
+static int AS5047p_needSearch(struct FocSensor *sensor)
 {
   return 0;
 }

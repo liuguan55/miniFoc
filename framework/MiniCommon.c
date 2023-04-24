@@ -9,6 +9,7 @@
 #include "cmsis_os.h"
 #include <stdio.h>
 
+#undef LOG_TAG
 #define LOG_TAG "COMMON"
 
 uint32_t MiniCommon_millis(void) {

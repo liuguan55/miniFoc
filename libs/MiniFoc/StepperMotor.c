@@ -7,6 +7,7 @@
 #include "CurrentSense.h"
 #include "../../framework/MiniCommon.h"
 
+#undef LOG_TAG
 #define LOG_TAG "STEPPER MOTOR"
 
 void StepperMotor_initFOC(Motor_t *motorBase, float zero_electric_offset, Direction _sensor_direction) {
@@ -304,6 +305,8 @@ void StepperMotor_move(Motor_t *motorBase, float new_target) {
       ctx->current_sp =
           StepperMotor_angleOpenloop(motorBase, ctx->shaft_angle_sp); // returns the voltage that is set to the motor
       break;
+      case Type_control_end:
+          break;
   }
 }
 

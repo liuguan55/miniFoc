@@ -39,7 +39,6 @@ enum {
 
 #define MODULE_INIT  __attribute__((constructor))
 
-#define offsetof(TYPE, MEMBER) ((size_t) &((TYPE *)0)->MEMBER)
 #define  container_of(ptr, type, member) ({    \
      const typeof( ((type *)0)->member ) *__mptr = (ptr); \
      (type *)( (char *)__mptr - offsetof(type,member) );})
@@ -50,6 +49,7 @@ enum {
 #define MINI_SHELL_USART_IDX MINI_CONSOLE_USART_IDX
 #define MINI_SHELL_BUFFER_SIZE (128 * 4)
 #define MINI_SHELL_TASK_STACK_SIZE (512 * 4)
+
 
 void MiniCommon_led(int on);
 void MiniCommon_delayMs(uint32_t ms);

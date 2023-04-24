@@ -5,6 +5,7 @@
 #include "Sensor.h"
 #include "../../../framework/MiniCommon.h"
 
+#undef LOG_TAG
 #define LOG_TAG "AS5600"
 
 #define  AS5600_Address  0x36
@@ -119,7 +120,7 @@ static float AS5600_getVelocity(struct FocSensor *sensor)
   return vel;
 }
 
-static int AS5600_needSearch(void)
+static int AS5600_needSearch(struct FocSensor *sensor)
 {
   return 0;
 }

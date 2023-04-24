@@ -6,6 +6,8 @@
 
 #include "../../../framework/MiniCommon.h"
 #include "adc.h"
+
+#undef LOG_TAG
 #define LOG_TAG "AS5600"
 
 #define  CPR      1023      //12bit
@@ -115,7 +117,7 @@ static float getVelocity(struct FocSensor *sensor)
   return vel;
 }
 
-static int needSearch(void)
+static int needSearch(struct FocSensor *sensor)
 {
   return 0;
 }

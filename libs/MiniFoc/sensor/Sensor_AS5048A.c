@@ -6,6 +6,8 @@
 
 #include "../../../framework/MiniCommon.h"
 
+
+#undef LOG_TAG
 #define LOG_TAG "AS5048a"
 
 #define  AS5048a_CPR      1023      //12bit
@@ -24,7 +26,7 @@ static AS5048aContext_t AS5048aCtx = {0};
 
 static unsigned short readRawData(SensorInterface_t *interface)
 {
-  unsigned short  u16Data;
+  unsigned short  u16Data = 0;
 
   return u16Data;
 }
@@ -112,7 +114,7 @@ static float AS5048a_getVelocity(struct FocSensor *sensor)
   return vel;
 }
 
-static int AS5048A_needSearch(void)
+static int AS5048A_needSearch(struct FocSensor *sensor)
 {
   return 0;
 }

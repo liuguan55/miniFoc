@@ -7,6 +7,7 @@
 #include "CurrentSense.h"
 #include "../../framework/MiniCommon.h"
 
+#undef LOG_TAG
 #define LOG_TAG "FOC"
 
 static int trap_120_map[6][3] = {
@@ -48,7 +49,7 @@ BLDCContext_t *BLDCMotor_getContext(Motor_t *motorBase) {
 BldcDriver_t *BLDCMotor_getDriver(Motor_t *motorBase) {
   BLDCMotor_t *motor = container_of(motorBase, BLDCMotor_t, motorBase);
 
-  return &motor->driver;
+  return motor->driver;
 }
 
 void BLDCMotor_initFOC(Motor_t *motorBase, float zero_electric_offset, Direction _sensor_direction) {
@@ -387,6 +388,8 @@ void BLDCMotor_move(Motor_t *motorBase, float new_target) {
       ctx->current_sp =
           BLDCMotor_angleOpenloop(motorBase, ctx->shaft_angle_sp); // returns the voltage that is set to the motor
       break;
+      case Type_control_end:
+          break;
   }
 }
 

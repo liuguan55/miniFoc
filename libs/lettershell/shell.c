@@ -1770,8 +1770,6 @@ void resetEnv(int argc, char *argv[]) {
 	return;
   }
 
-  char *key = argv[1];
-
   ef_env_set_default();
 
   log_i("reset envs\n");

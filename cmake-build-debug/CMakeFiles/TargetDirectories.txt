@@ -1,3 +1,3 @@
-/Users/dengzhijun/CLionProjects/miniFoc_F4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/dengzhijun/CLionProjects/miniFoc_F4/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/dengzhijun/CLionProjects/miniFoc_F4/cmake-build-debug/CMakeFiles/miniFoc_F4.elf.dir
+D:/work/cmake-build-debug/CMakeFiles/miniFoc_F4.elf.dir
+D:/work/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/work/cmake-build-debug/CMakeFiles/rebuild_cache.dir

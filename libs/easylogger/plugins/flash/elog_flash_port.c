@@ -63,7 +63,7 @@ ElogErrCode elog_flash_port_init(void) {
 void elog_flash_port_output(const char *log, size_t size) {
 
   /* add your code here */
-  MiniUart_writeData(MINI_CONSOLE_USART_IDX, log, size);
+  MiniUart_writeData(MINI_CONSOLE_USART_IDX, (char *)log, size);
 
   usb_write_data(log, size);
 }

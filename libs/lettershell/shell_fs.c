@@ -40,7 +40,6 @@ SHELL_EXPORT_CMD(
  * 
  */
 void shellLS(void) {
-  size_t count;
   char *buffer;
 
   Shell *shell = shellGetCurrent();
@@ -49,7 +48,7 @@ void shellLS(void) {
 
   buffer = SHELL_MALLOC(SHELL_FS_LIST_FILE_BUFFER_MAX);
   SHELL_ASSERT(buffer, return);
-  count = shellFs->listdir(shellGetPath(shell), buffer, SHELL_FS_LIST_FILE_BUFFER_MAX);
+  shellFs->listdir(shellGetPath(shell), buffer, SHELL_FS_LIST_FILE_BUFFER_MAX);
 
   shellWriteString(shell, buffer);
 
@@ -187,7 +186,7 @@ void shellCAT(char *filename) {
 	SHELL_ASSERT(buffer, return);
 
 	while (!f_eof(&file)) {
-	  res = f_read(&file, content, SHELL_FS_LIST_FILE_BUFFER_MAX, &readLen);
+	  res = f_read(&file, content, SHELL_FS_LIST_FILE_BUFFER_MAX, (UINT *)&readLen);
 	  if (res != FR_OK) {
 		break;
 	  }
@@ -214,7 +213,7 @@ SHELL_EXPORT_CMD(
  */
 void shellMV(char *oldPath, char *newPath) {
   FRESULT res;
-  char *buffer;
+
   Shell *shell = shellGetCurrent();
   res = f_rename(oldPath, newPath);
   if (res != FR_OK) {

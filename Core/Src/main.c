@@ -69,9 +69,8 @@ void MX_FREERTOS_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 int __io_putchar(int ch) {
-  MiniUart_writeData(MINI_CONSOLE_USART_IDX, &ch, 1);
-
-  usb_write_data(&ch, 1);
+  usb_write_data((const char *)&ch, 1);
+  return MiniUart_writeData(MINI_CONSOLE_USART_IDX, (char *)&ch, 1);
 }
 
 static void USB_Status_Init(void) {

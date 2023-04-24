@@ -48,6 +48,8 @@ int MiniBldcDriverManager_unregister(const char *name)
 {
   BldcDriver_t *driver =MiniBldcDriverManager_findByName(name);
   listRemove(&g_bldcDriverList, driver);
+
+  return 0;
 }
 
 void MiniStepperDriverManager_init(void)
@@ -58,15 +60,19 @@ void MiniStepperDriverManager_init(void)
 int MiniStepperDriverManager_register(StepperDriver_t *driver)
 {
   listInsert(&g_stepperDriverList, driver);
+
+  return 0;
 }
 
 int MiniStepperDriverManager_unregister(const char *name)
 {
-  StepperDriver_t *driver =MiniStepperDriverManager_findByName(name);
+  StepperDriver_t *driver = MiniStepperDriverManager_findByName(name);
   listRemove(&g_stepperDriverList, driver);
+
+  return 0;
 }
 
-BldcDriver_t* MiniStepperDriverManager_findByName(const char *name)
+StepperDriver_t* MiniStepperDriverManager_findByName(const char *name)
 {
   size_t driverNum = listLength(&g_stepperDriverList);
 

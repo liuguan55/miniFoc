@@ -34,6 +34,8 @@ void *listPop(list *l) {
 
 void *listPush(list *l, void *data) {
   listInsert(l, data);
+
+  return NULL;
 }
 
 void listInsert(list *l, void *val) {

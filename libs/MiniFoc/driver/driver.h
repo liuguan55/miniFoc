@@ -30,7 +30,7 @@ BldcDriver_t* MiniBldcDriverManager_findByName(const char *name);
 void MiniStepperDriverManager_init(void);
 int MiniStepperDriverManager_register(StepperDriver_t *driver);
 int MiniStepperDriverManager_unregister(const char *name);
-BldcDriver_t* MiniStepperDriverManager_findByName(const char *name);
+StepperDriver_t* MiniStepperDriverManager_findByName(const char *name);
 
 
 #endif //MINIFOC_F4_LIBS_SIMPLEFOC_OUTPUT_OUTPUT_H_

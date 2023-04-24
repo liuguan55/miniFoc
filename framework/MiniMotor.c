@@ -6,17 +6,18 @@
 #include "MiniFoc/MiniFoc.h"
 #include "MiniCommon.h"
 
+#undef LOG_TAG
 #define  LOG_TAG "MOTOR"
 static BLDCMotor_t motor = {0};
 
 void MiniMotor_init(void) {
-  MiniFoc_setZeroElectricOffset(&motor, 2.5802);
-  MiniFoc_setSensorDirection(&motor, CW);
-  MiniFoc_init(&motor, MOTOR_TYPE_BLDC, "AS5600@1", "3PWM");
+  MiniFoc_setZeroElectricOffset((Motor_t *)&motor, 2.5802);
+  MiniFoc_setSensorDirection((Motor_t *)&motor, CW);
+  MiniFoc_init((Motor_t *)&motor, MOTOR_TYPE_BLDC, "AS5600@1", "3PWM");
 }
 
 void MiniMotor_run(void) {
-  MiniFoc_run(&motor);
+  MiniFoc_run((Motor_t *)&motor);
 }
 
 void MiniMotor_setController(int argc, char *argv[]) {
@@ -29,7 +30,7 @@ void MiniMotor_setController(int argc, char *argv[]) {
   }
 
   log_i("controller %d", value);
-  MiniFoc_setController(&motor, value);
+  MiniFoc_setController((Motor_t *)&motor, value);
 }
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN) | SHELL_CMD_DISABLE_RETURN,
                  focSetControl, MiniMotor_setController, set
@@ -46,7 +47,7 @@ void MiniMotor_setTorque(int argc, char *argv[]) {
   }
 
   log_i("torque_controller %d", value);
-  MiniFoc_setTorque(&motor, value);
+  MiniFoc_setTorque((Motor_t *)&motor, value);
 }
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN) | SHELL_CMD_DISABLE_RETURN,
                  focSetTorque, MiniMotor_setTorque, set
@@ -58,7 +59,7 @@ void MiniMotor_setTarget(int argc, char *argv[]) {
 
   float value = atoff(argv[1]);
   log_i("target %4.2f", value);
-  MiniFoc_setTarget(&motor, value);
+  MiniFoc_setTarget((Motor_t *)&motor, value);
 }
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN) | SHELL_CMD_DISABLE_RETURN,
                  focSetTarget, MiniMotor_setTarget, set

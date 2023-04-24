@@ -534,6 +534,7 @@ static uint8_t *USBD_CMPSIT_GetFSCfgDesc(uint16_t *length)
 }
 static uint8_t *USBD_CMPSIT_GetHSCfgDesc(uint16_t *length)
 {
+    return 0;
 }
 static uint8_t *USBD_CMPSIT_GetOtherSpeedCfgDesc(uint16_t *length)
 {

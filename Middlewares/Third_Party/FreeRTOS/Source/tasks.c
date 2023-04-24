@@ -4467,7 +4467,7 @@ TCB_t *pxTCB;
 				}
 			  	if( ulStatsAsPercentage > 0UL ){
 				  /* Write the rest of the string. */
-				  sprintf( pcWriteBuffer, "\t%c\t%u\t%u/%u\t\t%u%%\r\n", cStatus, ( unsigned int ) pxTaskStatusArray[ x ].uxCurrentPriority, ( unsigned int ) pxTaskStatusArray[ x ].usStackHighWaterMark,( unsigned int ) pxTaskStatusArray[ x ].uxSizeOfStack ,ulStatsAsPercentage); /*lint !e586 sprintf() allowed as this is compiled with many compilers and this is a utility function only - not part of the core kernel implementation. */
+				  sprintf( pcWriteBuffer, "\t%c\t%u\t%u/%u\t\t%lu%%\r\n", cStatus, ( unsigned int ) pxTaskStatusArray[ x ].uxCurrentPriority, ( unsigned int ) pxTaskStatusArray[ x ].usStackHighWaterMark,( unsigned int ) pxTaskStatusArray[ x ].uxSizeOfStack ,ulStatsAsPercentage); /*lint !e586 sprintf() allowed as this is compiled with many compilers and this is a utility function only - not part of the core kernel implementation. */
 				}else{
 				  /* Write the rest of the string. */
 				  sprintf( pcWriteBuffer, "\t%c\t%u\t%u/%u\t\t<1%%\r\n", cStatus, ( unsigned int ) pxTaskStatusArray[ x ].uxCurrentPriority, ( unsigned int ) pxTaskStatusArray[ x ].usStackHighWaterMark,( unsigned int ) pxTaskStatusArray[ x ].uxSizeOfStack); /*lint !e586 sprintf() allowed as this is compiled with many compilers and this is a utility function only - not part of the core kernel implementation. */

@@ -42,6 +42,7 @@
 #include "usart.h"
 #include "MiniCommon.h"
 
+#undef LOG_TAG
 #define LOG_TAG "MINISHELL"
 
 static char shellBuffer[MINI_SHELL_BUFFER_SIZE] = {0};
@@ -111,7 +112,6 @@ void terminalLogWrite(char *buffer, short len) {
  */
 size_t userShellListDir(char *path, char *buffer, size_t maxLen) {
   DIR dir;
-  struct dirent *ptr;
   FRESULT res;
   FILINFO fno;
 
@@ -161,11 +161,11 @@ void MiniShell_Init(void) {
   shellSetPath(&miniShell, shellPathBuffer);
   shellInit(&miniShell, shellBuffer, sizeof(shellBuffer));
 
-  shellFs.getcwd = f_getcwd;
-  shellFs.chdir = f_chdir;
+  shellFs.getcwd = (size_t (*)(char *, size_t))f_getcwd;
+  shellFs.chdir = (size_t (*)(char *))f_chdir;
   shellFs.listdir = userShellListDir;
-  shellFs.mkdir = f_mkdir;
-  shellFs.unlink = f_unlink;
+  shellFs.mkdir = (size_t (*)(char *))f_mkdir;
+  shellFs.unlink = (size_t (*)(char *))f_unlink;
   shellFsInit(&shellFs, shellPathBuffer, 512);
   shellCompanionAdd(&miniShell, SHELL_COMPANION_ID_FS, &shellFs);
 

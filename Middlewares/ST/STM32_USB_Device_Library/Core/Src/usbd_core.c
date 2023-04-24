@@ -350,7 +350,7 @@ USBD_StatusTypeDef  USBD_UnRegisterClassComposite(USBD_HandleTypeDef *pdev)
   }
 
   /* Reset the configuration descriptor */
-  (void)USBD_CMPST_ClearConfDesc(pdev);
+//  (void)USBD_CMPST_ClearConfDesc(pdev);
 
   /* Reset the class ID and number of classes */
   pdev->classId = 0U;

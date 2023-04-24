@@ -5,6 +5,7 @@
 #include "elog.h"
 #include <stdio.h>
 
+#undef LOG_TAG
 #define LOG_TAG "FOC SENSOR"
 
 

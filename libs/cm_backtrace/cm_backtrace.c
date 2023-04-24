@@ -189,7 +189,7 @@ void cm_backtrace_init(const char *firmware_name, const char *hardware_ver, cons
 #endif
 
     if (main_stack_size == 0) {
-        cmb_println(print_info[PRINT_MAIN_STACK_CFG_ERROR]);
+        cmb_println((char *)print_info[PRINT_MAIN_STACK_CFG_ERROR]);
         return;
     }
 
@@ -200,7 +200,7 @@ void cm_backtrace_init(const char *firmware_name, const char *hardware_ver, cons
  * print firmware information, such as: firmware name, hardware version, software version
  */
 void cm_backtrace_firmware_info(void) {
-    cmb_println(print_info[PRINT_FIRMWARE_INFO], fw_name, hw_ver, sw_ver);
+    cmb_println((char *)print_info[PRINT_FIRMWARE_INFO], fw_name, hw_ver, sw_ver);
 }
 
 #ifdef CMB_USING_OS_PLATFORM
@@ -267,9 +267,9 @@ static const char *get_cur_thread_name(void) {
 static void dump_stack(uint32_t stack_start_addr, size_t stack_size, uint32_t *stack_pointer) {
     if (stack_is_overflow) {
         if (on_thread_before_fault) {
-            cmb_println(print_info[PRINT_THREAD_STACK_OVERFLOW], stack_pointer);
+            cmb_println((char *)print_info[PRINT_THREAD_STACK_OVERFLOW], stack_pointer);
         } else {
-            cmb_println(print_info[PRINT_MAIN_STACK_OVERFLOW], stack_pointer);
+            cmb_println((char *)print_info[PRINT_MAIN_STACK_OVERFLOW], stack_pointer);
         }
         if ((uint32_t) stack_pointer < stack_start_addr) {
             stack_pointer = (uint32_t *) stack_start_addr;
@@ -277,7 +277,7 @@ static void dump_stack(uint32_t stack_start_addr, size_t stack_size, uint32_t *s
             stack_pointer = (uint32_t *) (stack_start_addr + stack_size);
         }
     }
-    cmb_println(print_info[PRINT_THREAD_STACK_INFO]);
+    cmb_println((char *)print_info[PRINT_THREAD_STACK_INFO]);
     for (; (uint32_t) stack_pointer < stack_start_addr + stack_size; stack_pointer++) {
         cmb_println("  addr: %08x    data: %08x", stack_pointer, *stack_pointer);
     }
@@ -395,10 +395,10 @@ static void print_call_stack(uint32_t sp) {
     }
 
     if (cur_depth) {
-        cmb_println(print_info[PRINT_CALL_STACK_INFO], fw_name, CMB_ELF_FILE_EXTENSION_NAME, cur_depth * (8 + 1),
+        cmb_println((char *)print_info[PRINT_CALL_STACK_INFO], fw_name, CMB_ELF_FILE_EXTENSION_NAME, cur_depth * (8 + 1),
                 call_stack_info);
     } else {
-        cmb_println(print_info[PRINT_CALL_STACK_ERR]);
+        cmb_println((char *)print_info[PRINT_CALL_STACK_ERR]);
     }
 }
 
@@ -420,14 +420,14 @@ void cm_backtrace_assert(uint32_t sp) {
 #ifdef CMB_USING_OS_PLATFORM
     /* OS environment */
     if (cur_stack_pointer == cmb_get_msp()) {
-        cmb_println(print_info[PRINT_ASSERT_ON_HANDLER]);
+        cmb_println((char *)print_info[PRINT_ASSERT_ON_HANDLER]);
 
 #ifdef CMB_USING_DUMP_STACK_INFO
         dump_stack(main_stack_start_addr, main_stack_size, (uint32_t *) sp);
 #endif /* CMB_USING_DUMP_STACK_INFO */
 
     } else if (cur_stack_pointer == cmb_get_psp()) {
-        cmb_println(print_info[PRINT_ASSERT_ON_THREAD], get_cur_thread_name());
+        cmb_println((char *)print_info[PRINT_ASSERT_ON_THREAD], get_cur_thread_name());
 
 #ifdef CMB_USING_DUMP_STACK_INFO
         uint32_t stack_start_addr;
@@ -456,65 +456,65 @@ void cm_backtrace_assert(uint32_t sp) {
  */
 static void fault_diagnosis(void) {
     if (regs.hfsr.bits.VECTBL) {
-        cmb_println(print_info[PRINT_HFSR_VECTBL]);
+        cmb_println((char *)print_info[PRINT_HFSR_VECTBL]);
     }
     if (regs.hfsr.bits.FORCED) {
         /* Memory Management Fault */
         if (regs.mfsr.value) {
             if (regs.mfsr.bits.IACCVIOL) {
-                cmb_println(print_info[PRINT_MFSR_IACCVIOL]);
+                cmb_println((char *)print_info[PRINT_MFSR_IACCVIOL]);
             }
             if (regs.mfsr.bits.DACCVIOL) {
-                cmb_println(print_info[PRINT_MFSR_DACCVIOL]);
+                cmb_println((char *)print_info[PRINT_MFSR_DACCVIOL]);
             }
             if (regs.mfsr.bits.MUNSTKERR) {
-                cmb_println(print_info[PRINT_MFSR_MUNSTKERR]);
+                cmb_println((char *)print_info[PRINT_MFSR_MUNSTKERR]);
             }
             if (regs.mfsr.bits.MSTKERR) {
-                cmb_println(print_info[PRINT_MFSR_MSTKERR]);
+                cmb_println((char *)print_info[PRINT_MFSR_MSTKERR]);
             }
 
 #if (CMB_CPU_PLATFORM_TYPE == CMB_CPU_ARM_CORTEX_M4) || (CMB_CPU_PLATFORM_TYPE == CMB_CPU_ARM_CORTEX_M7) || \
     (CMB_CPU_PLATFORM_TYPE == CMB_CPU_ARM_CORTEX_M33)
             if (regs.mfsr.bits.MLSPERR) {
-                cmb_println(print_info[PRINT_MFSR_MLSPERR]);
+                cmb_println((char *)print_info[PRINT_MFSR_MLSPERR]);
             }
 #endif
 
             if (regs.mfsr.bits.MMARVALID) {
                 if (regs.mfsr.bits.IACCVIOL || regs.mfsr.bits.DACCVIOL) {
-                    cmb_println(print_info[PRINT_MMAR], regs.mmar);
+                    cmb_println((char *)print_info[PRINT_MMAR], regs.mmar);
                 }
             }
         }
         /* Bus Fault */
         if (regs.bfsr.value) {
             if (regs.bfsr.bits.IBUSERR) {
-                cmb_println(print_info[PRINT_BFSR_IBUSERR]);
+                cmb_println((char *)print_info[PRINT_BFSR_IBUSERR]);
             }
             if (regs.bfsr.bits.PRECISERR) {
-                cmb_println(print_info[PRINT_BFSR_PRECISERR]);
+                cmb_println((char *)print_info[PRINT_BFSR_PRECISERR]);
             }
             if (regs.bfsr.bits.IMPREISERR) {
-                cmb_println(print_info[PRINT_BFSR_IMPREISERR]);
+                cmb_println((char *)print_info[PRINT_BFSR_IMPREISERR]);
             }
             if (regs.bfsr.bits.UNSTKERR) {
-                cmb_println(print_info[PRINT_BFSR_UNSTKERR]);
+                cmb_println((char *)print_info[PRINT_BFSR_UNSTKERR]);
             }
             if (regs.bfsr.bits.STKERR) {
-                cmb_println(print_info[PRINT_BFSR_STKERR]);
+                cmb_println((char *)print_info[PRINT_BFSR_STKERR]);
             }
 
 #if (CMB_CPU_PLATFORM_TYPE == CMB_CPU_ARM_CORTEX_M4) || (CMB_CPU_PLATFORM_TYPE == CMB_CPU_ARM_CORTEX_M7) || \
     (CMB_CPU_PLATFORM_TYPE == CMB_CPU_ARM_CORTEX_M33)
             if (regs.bfsr.bits.LSPERR) {
-                cmb_println(print_info[PRINT_BFSR_LSPERR]);
+                cmb_println((char *)print_info[PRINT_BFSR_LSPERR]);
             }
 #endif
 
             if (regs.bfsr.bits.BFARVALID) {
                 if (regs.bfsr.bits.PRECISERR) {
-                    cmb_println(print_info[PRINT_BFAR], regs.bfar);
+                    cmb_println((char *)print_info[PRINT_BFAR], regs.bfar);
                 }
             }
 
@@ -522,16 +522,16 @@ static void fault_diagnosis(void) {
         /* Usage Fault */
         if (regs.ufsr.value) {
             if (regs.ufsr.bits.UNDEFINSTR) {
-                cmb_println(print_info[PRINT_UFSR_UNDEFINSTR]);
+                cmb_println((char *)print_info[PRINT_UFSR_UNDEFINSTR]);
             }
             if (regs.ufsr.bits.INVSTATE) {
-                cmb_println(print_info[PRINT_UFSR_INVSTATE]);
+                cmb_println((char *)print_info[PRINT_UFSR_INVSTATE]);
             }
             if (regs.ufsr.bits.INVPC) {
-                cmb_println(print_info[PRINT_UFSR_INVPC]);
+                cmb_println((char *)print_info[PRINT_UFSR_INVPC]);
             }
             if (regs.ufsr.bits.NOCP) {
-                cmb_println(print_info[PRINT_UFSR_NOCP]);
+                cmb_println((char *)print_info[PRINT_UFSR_NOCP]);
             }
 #if (CMB_CPU_PLATFORM_TYPE == CMB_CPU_ARM_CORTEX_M33)
             if (regs.ufsr.bits.STKOF) {
@@ -539,10 +539,10 @@ static void fault_diagnosis(void) {
             }
 #endif
             if (regs.ufsr.bits.UNALIGNED) {
-                cmb_println(print_info[PRINT_UFSR_UNALIGNED]);
+                cmb_println((char *)print_info[PRINT_UFSR_UNALIGNED]);
             }
             if (regs.ufsr.bits.DIVBYZERO0) {
-                cmb_println(print_info[PRINT_UFSR_DIVBYZERO0]);
+                cmb_println((char *)print_info[PRINT_UFSR_DIVBYZERO0]);
             }
         }
     }
@@ -550,19 +550,19 @@ static void fault_diagnosis(void) {
     if (regs.hfsr.bits.DEBUGEVT) {
         if (regs.dfsr.value) {
             if (regs.dfsr.bits.HALTED) {
-                cmb_println(print_info[PRINT_DFSR_HALTED]);
+                cmb_println((char *)print_info[PRINT_DFSR_HALTED]);
             }
             if (regs.dfsr.bits.BKPT) {
-                cmb_println(print_info[PRINT_DFSR_BKPT]);
+                cmb_println((char *)print_info[PRINT_DFSR_BKPT]);
             }
             if (regs.dfsr.bits.DWTTRAP) {
-                cmb_println(print_info[PRINT_DFSR_DWTTRAP]);
+                cmb_println((char *)print_info[PRINT_DFSR_DWTTRAP]);
             }
             if (regs.dfsr.bits.VCATCH) {
-                cmb_println(print_info[PRINT_DFSR_VCATCH]);
+                cmb_println((char *)print_info[PRINT_DFSR_VCATCH]);
             }
             if (regs.dfsr.bits.EXTERNAL) {
-                cmb_println(print_info[PRINT_DFSR_EXTERNAL]);
+                cmb_println((char *)print_info[PRINT_DFSR_EXTERNAL]);
             }
         }
     }
@@ -608,7 +608,7 @@ void cm_backtrace_fault(uint32_t fault_handler_lr, uint32_t fault_handler_sp) {
     on_thread_before_fault = fault_handler_lr & (1UL << 2);
     /* check which stack was used before (MSP or PSP) */
     if (on_thread_before_fault) {
-        cmb_println(print_info[PRINT_FAULT_ON_THREAD], get_cur_thread_name() != NULL ? get_cur_thread_name() : "NO_NAME");
+        cmb_println((char *)print_info[PRINT_FAULT_ON_THREAD], get_cur_thread_name() != NULL ? get_cur_thread_name() : "NO_NAME");
         saved_regs_addr = stack_pointer = cmb_get_psp();
 
 #ifdef CMB_USING_DUMP_STACK_INFO
@@ -616,7 +616,7 @@ void cm_backtrace_fault(uint32_t fault_handler_lr, uint32_t fault_handler_sp) {
 #endif /* CMB_USING_DUMP_STACK_INFO */
 
     } else {
-        cmb_println(print_info[PRINT_FAULT_ON_HANDLER]);
+        cmb_println((char *)print_info[PRINT_FAULT_ON_HANDLER]);
     }
 #else
     /* bare metal(no OS) environment */
@@ -643,7 +643,7 @@ void cm_backtrace_fault(uint32_t fault_handler_lr, uint32_t fault_handler_sp) {
     /* the stack frame may be get failed when it is overflow  */
     if (!stack_is_overflow) {
         /* dump register */
-        cmb_println(print_info[PRINT_REGS_TITLE]);
+        cmb_println((char *)print_info[PRINT_REGS_TITLE]);
 
         regs.saved.r0        = ((uint32_t *)saved_regs_addr)[0];  // Register R0
         regs.saved.r1        = ((uint32_t *)saved_regs_addr)[1];  // Register R1

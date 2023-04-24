@@ -7,6 +7,7 @@
 #include "../framework/MiniButton.h"
 #include "elog.h"
 
+#undef LOG_TAG
 #define LOG_TAG "GUI"
 
 const char foc_mode_name[FOC_CONTROL_MODE_NUM][20] = {
@@ -82,8 +83,6 @@ void gui_draw_triangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint1
 }
 
 void gui_draw_init(const char *init_info, uint8_t refresh) {
-    static const int delay_time = 200;
-
     if (refresh) {
         ST7735_FillScreen(BACKGROUND_COLOR);
 //        ST7735_DrawImage(0, 0, ST7735_WIDTH, ST7735_HEIGHT, gImage_1);

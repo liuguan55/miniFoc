@@ -30,6 +30,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
+#undef LOG_TAG
 #define LOG_TAG  "FREERTOS"
 /* USER CODE END PTD */
 
@@ -112,7 +113,6 @@ void KnobTask(void *argument);
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-static void test_env(void);
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
