@@ -48,6 +48,8 @@ int MiniCurrentManager_unregisterCurrent(const char *currentName)
 {
   FocCurrent_t *current = MiniCurrentManager_findCurrentByName(currentName);
   listRemove(&g_currentList, current);
+
+  return 0;
 }
 
 
