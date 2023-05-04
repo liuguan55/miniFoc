@@ -35,6 +35,8 @@
 //#define __asm       __asm
 //#define __weak      __weak
 
+ #define WARN_IF_UNUSED
+
 #elif defined(__GNUC__)
 /* GNU Compiler */
 
@@ -49,7 +51,7 @@
 #define __always_inline    inline __attribute__((always_inline))
 #endif
 
-
+#define WARN_IF_UNUSED __attribute__ ((warn_unused_result))
 
 #ifndef __noinline
 #define __noinline  __attribute__((__noinline__))
@@ -60,6 +62,23 @@
 #define __weak      __attribute__((weak))
 
 #define __ccmram __attribute__((section (".ccmram")))
+
+#pragma GCC diagnostic warning "-Wall"
+#pragma GCC diagnostic warning "-Wextra"
+#pragma GCC diagnostic warning "-Wlogical-op"
+#pragma GCC diagnostic ignored "-Wredundant-decls"
+
+// used to pack structures
+#define PACKED __attribute__((__packed__))
+
+#define MODULE_INIT  __attribute__((constructor))
+// this can be used to optimize individual functions
+#define OPTIMIZE(level) __attribute__((optimize(level)))
+
+
+#ifndef UNUSED
+#define UNUSED(X) (void)X      /* To avoid gcc/g++ warnings */
+#endif
 
 #else
 #error "Compiler not supported."

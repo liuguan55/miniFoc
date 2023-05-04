@@ -12,14 +12,37 @@
 #include "main.h"
 #include "cmsis_os.h"
 
+/**
+ * brief: delay ms
+ * @param ms
+ */
 static inline void MiniFoc_delayMs(uint32_t ms)
 {
   osDelay(ms);
 }
 
+/**
+ * brief: Get current time of ms
+ * @return
+ */
 static inline uint32_t MiniFoc_millis(void)
 {
   return osKernelGetTickCount();
+}
+
+/**
+ * brief:Get elapsed time according to now
+ * @param ms
+ * @return
+ */
+static  inline uint32_t MiniFoc_elapsed(uint32_t ms){
+    uint32_t now = MiniFoc_millis();
+    uint32_t diff = 0;
+    if (ms <= now){
+        diff = now - ms ;
+    }
+
+    return diff ;
 }
 
 float MiniFoc_getVbus(void);

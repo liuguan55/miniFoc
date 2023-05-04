@@ -33,6 +33,8 @@
 					<Add option="-D__CONFIG_MALLOC_TRACE"/>
 					<Add option="-DHEAP_BACKTRACE"/>
 					<Add directory="D:/work/include"/>
+					<Add directory="D:/work/project"/>
+					<Add directory="D:/work/modules"/>
 					<Add directory="D:/work/libc"/>
 					<Add directory="D:/work/framework"/>
 					<Add directory="D:/work/Device"/>
@@ -44,6 +46,7 @@
 					<Add directory="D:/work/libs/easylogger"/>
 					<Add directory="D:/work/libs/easylogger/inc"/>
 					<Add directory="D:/work/GUI"/>
+					<Add directory="D:/work/Core"/>
 					<Add directory="D:/work/Core/Inc"/>
 					<Add directory="D:/work/FATFS/Target"/>
 					<Add directory="D:/work/FATFS/App"/>
@@ -90,6 +93,8 @@
 					<Add option="-D__CONFIG_MALLOC_TRACE"/>
 					<Add option="-DHEAP_BACKTRACE"/>
 					<Add directory="D:/work/include"/>
+					<Add directory="D:/work/project"/>
+					<Add directory="D:/work/modules"/>
 					<Add directory="D:/work/libc"/>
 					<Add directory="D:/work/framework"/>
 					<Add directory="D:/work/Device"/>
@@ -101,6 +106,7 @@
 					<Add directory="D:/work/libs/easylogger"/>
 					<Add directory="D:/work/libs/easylogger/inc"/>
 					<Add directory="D:/work/GUI"/>
+					<Add directory="D:/work/Core"/>
 					<Add directory="D:/work/Core/Inc"/>
 					<Add directory="D:/work/FATFS/Target"/>
 					<Add directory="D:/work/FATFS/App"/>
@@ -857,6 +863,18 @@
 		<Unit filename="D:/work/framework/MiniShell.h">
 			<Option target="miniFoc_F4.elf"/>
 		</Unit>
+		<Unit filename="D:/work/framework/UnityManager.c">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/framework/UnityManager.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/framework/littlefsManager.c">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/framework/littlefsManager.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
 		<Unit filename="D:/work/framework/platform_init.c">
 			<Option target="miniFoc_F4.elf"/>
 		</Unit>
@@ -1124,6 +1142,120 @@
 		<Unit filename="D:/work/libs/easylogger/src/elog_utils.c">
 			<Option target="miniFoc_F4.elf"/>
 		</Unit>
+		<Unit filename="D:/work/libs/gtest/gtest-death-test.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/gtest-message.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/gtest-param-test.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/gtest-param-test.h.pump">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/gtest-printers.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/gtest-spi.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/gtest-test-part.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/gtest-typed-test.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/gtest.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/gtest_pred_impl.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/gtest_prod.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/custom/README.md">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/custom/gtest-port.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/custom/gtest-printers.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/custom/gtest.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/gtest-death-test-internal.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/gtest-filepath.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/gtest-internal.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/gtest-linked_ptr.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/gtest-param-util-generated.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/gtest-param-util-generated.h.pump">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/gtest-param-util.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/gtest-port-arch.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/gtest-port.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/gtest-string.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/gtest-tuple.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/gtest-tuple.h.pump">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/gtest-type-util.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/internal/gtest-type-util.h.pump">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/src/gtest-all.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/src/gtest-death-test.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/src/gtest-filepath.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/src/gtest-internal-inl.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/src/gtest-port.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/src/gtest-printers.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/src/gtest-test-part.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/src/gtest-typed-test.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/gtest/src/gtest.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
 		<Unit filename="D:/work/libs/lettershell/cmd_ping.c">
 			<Option target="miniFoc_F4.elf"/>
 		</Unit>
@@ -1158,6 +1290,18 @@
 			<Option target="miniFoc_F4.elf"/>
 		</Unit>
 		<Unit filename="D:/work/libs/lettershell/shell_fs.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/littlefs/lfs.c">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/littlefs/lfs.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/littlefs/lfs_util.c">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/libs/littlefs/lfs_util.h">
 			<Option target="miniFoc_F4.elf"/>
 		</Unit>
 		<Unit filename="D:/work/libs/lvgl/.codecov.yml">
@@ -4701,6 +4845,399 @@
 			<Option target="miniFoc_F4.elf"/>
 		</Unit>
 		<Unit filename="D:/work/libs/unity/unity_internals.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/AP_HAL.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/AP_HAL_Board.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/AP_HAL_Namespace.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/AnalogIn.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/GPIO.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/HAL.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/I2CDriver.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/Mutex.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/RCInput.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/RCOutput.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/SPIDriver.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/Scheduler.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/Semaphores.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/Storage.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/UARTDriver.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/UARTDriver.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/Util.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/Util.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/utility/AP_Progmem.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/utility/AP_Progmem_Identity.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/utility/BetterStream.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/utility/FastDelegate.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/utility/Print.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/utility/Print.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/utility/Stream.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/utility/ftoa_engine.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/utility/ftoa_engine.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/utility/print_vprintf.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/utility/print_vprintf.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/utility/utoa_invert.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL/utility/xtoa_fast.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/AP_HAL_Empty.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/AP_HAL_Empty_Main.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/AP_HAL_Empty_Namespace.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/AP_HAL_Empty_Private.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/AnalogIn.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/AnalogIn.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/GPIO.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/GPIO.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/HAL_Empty_Class.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/HAL_Empty_Class.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/I2CDriver.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/I2CDriver.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/Mutex.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/Mutex.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/PrivateMember.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/PrivateMember.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/RCInput.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/RCInput.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/RCOutput.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/RCOutput.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/SPIDriver.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/SPIDriver.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/Scheduler.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/Scheduler.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/Semaphores.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/Semaphores.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/Storage.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/Storage.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/UARTDriver.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/UARTDriver.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_Empty/Util.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/AP_HAL_STM32.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/AP_HAL_STM32_Main.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/AP_HAL_STM32_Namespace.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/AP_HAL_STM32_Private.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/AnalogIn.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/AnalogIn.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/GPIO.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/GPIO.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/HAL_STM32_Class.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/HAL_STM32_Class.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/I2CDriver.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/I2CDriver.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/Mutex.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/Mutex.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/PrivateMember.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/PrivateMember.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/RCInput.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/RCInput.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/RCOutput.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/RCOutput.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/SPIDriver.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/SPIDriver.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/Scheduler.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/Scheduler.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/Semaphores.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/Semaphores.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/Storage.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/Storage.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/UARTDriver.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/UARTDriver.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/Util.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_HAL_STM32/Util.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/AP_Math.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/AP_Math.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/edc.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/edc.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/keywords.txt">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/location.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/matrix3.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/matrix3.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/polygon.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/polygon.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/quaternion.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/quaternion.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/rotations.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/vector2.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/vector2.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/vector3.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/vector3.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/AP_Math/vectorN.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/Filter/AverageFilter.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/Filter/Butter.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/Filter/DerivativeFilter.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/Filter/DerivativeFilter.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/Filter/Filter.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/Filter/FilterClass.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/Filter/FilterWithBuffer.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/Filter/LowPassFilter.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/Filter/LowPassFilter2p.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/Filter/LowPassFilter2p.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/Filter/ModeFilter.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/Filter/keywords.txt">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/PID/PID.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/PID/PID.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/modules/PID/keywords.txt">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/project/test/app.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/project/test/app.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/project/test/test.cpp">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/project/test/test.h">
 			<Option target="miniFoc_F4.elf"/>
 		</Unit>
 		<Unit filename="D:/work/src/debug/backtrace.c">

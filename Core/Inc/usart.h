@@ -41,10 +41,11 @@ extern UART_HandleTypeDef huart1;
 void MX_USART1_UART_Init(void);
 
 /* USER CODE BEGIN Prototypes */
-lwrb_t * Mini_getlwrbHandle(void);
+lwrb_t * Mini_getlwrbHandle(uint8_t usart_num);
 
 signed short MiniUart_readData(int uartCh, char *data, unsigned short dataSize);
 signed short MiniUart_writeData(int uartCh, char *data, unsigned short dataSize);
+void HAL_UART_Enable_Rx_IT(UART_HandleTypeDef *huart);
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus

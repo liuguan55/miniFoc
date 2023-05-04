@@ -40,6 +40,7 @@
 extern "C" {
 #endif
 
+#define  SFUD_DEBUG_MODE
 /* debug print function. Must be implement by user. */
 #ifdef SFUD_DEBUG_MODE
 #ifndef SFUD_DEBUG

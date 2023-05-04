@@ -10,13 +10,6 @@
 #undef LOG_TAG
 #define LOG_TAG "MiniButton"
 
-osThreadId_t buttonTaskHandle;
-const osThreadAttr_t buttonTask_attributes = {
-    .name = "buttonTask",
-    .stack_size = 512 * 4,
-    .priority = (osPriority_t)osPriorityNormal,
-};
-
 uint8_t button_press_pending_flag = 0;
 uint8_t button_left_press_pending_flag = 0;
 uint8_t button_right_press_pending_flag = 0;
@@ -29,120 +22,121 @@ struct Button confirmButton;
 struct Button cancelButton;
 
 uint8_t readLeftButtonLevel(uint8_t button_id_) {
-  UNUSED(button_id_);
+    UNUSED(button_id_);
 
-  return HAL_GPIO_ReadPin(BUTTON_LEFT_Port, BUTTON_LEFT_PIN);
+    return HAL_GPIO_ReadPin(BUTTON_LEFT_Port, BUTTON_LEFT_PIN);
 }
 
 uint8_t readRightButtonLevel(uint8_t button_id_) {
-  UNUSED(button_id_);
+    UNUSED(button_id_);
 
-  return HAL_GPIO_ReadPin(BUTTON_RIGHT_Port, BUTTON_RIGHT_PIN);
+    return HAL_GPIO_ReadPin(BUTTON_RIGHT_Port, BUTTON_RIGHT_PIN);
 }
 
 uint8_t readConfirmButtonLevel(uint8_t button_id_) {
-  UNUSED(button_id_);
+    UNUSED(button_id_);
 
-  return HAL_GPIO_ReadPin(BUTTON_CONFIRM_Port, BUTTON_CONFIRM_PIN);
+    return HAL_GPIO_ReadPin(BUTTON_CONFIRM_Port, BUTTON_CONFIRM_PIN);
 }
 
 uint8_t readCancelButtonLevel(uint8_t button_id_) {
-  UNUSED(button_id_);
+    UNUSED(button_id_);
 
-  return HAL_GPIO_ReadPin(BUTTON_CANCEL, BUTTON_CANCEL_PIN);
+    return HAL_GPIO_ReadPin(BUTTON_CANCEL, BUTTON_CANCEL_PIN);
 }
 
 uint8_t MiniButton_read(uint8_t id) {
-  uint8_t buttonState = 0;
+    uint8_t buttonState = 0;
 
-  switch (id) {
-    case 0: {
-      buttonState = readLeftButtonLevel(id);
+    switch (id) {
+        case 0: {
+            buttonState = readLeftButtonLevel(id);
+        }
+            break;
+        case 1: {
+            buttonState = readRightButtonLevel(id);
+        }
+            break;
+        case 2: {
+            buttonState = readConfirmButtonLevel(id);
+        }
+            break;
+        case 3: {
+            buttonState = readCancelButtonLevel(id);
+        }
+            break;
+        default:
+            break;
     }
-      break;
-    case 1: {
-      buttonState = readRightButtonLevel(id);
-    }
-      break;
-    case 2: {
-      buttonState = readConfirmButtonLevel(id);
-    }
-      break;
-    case 3: {
-      buttonState = readCancelButtonLevel(id);
-    }
-      break;
-    default: break;
-  }
 
-  return buttonState;
+    return buttonState;
 }
 
 void buttonCallback(void *args) {
-  struct Button *btn = (struct Button *)args;
+    struct Button *btn = (struct Button *) args;
 
-  button_press_pending_flag = 1;
-//  log_d("id %d event %d", btn->button_id, btn->event);
-  switch (btn->button_id) {
-    case 0: {
-      button_left_press_pending_flag = 1;
+    button_press_pending_flag = 1;
+    log_d("id %d event %d", btn->button_id, btn->event);
+    switch (btn->button_id) {
+        case 0: {
+            button_left_press_pending_flag = 1;
 //	  log_d("press left\n");
-    }
-      break;
-    case 1: {
-      button_right_press_pending_flag = 1;
+        }
+            break;
+        case 1: {
+            button_right_press_pending_flag = 1;
 //	  log_d("press right\n");
-    }
-      break;
-    case 2: {
-      button_confirm_press_pending_flag = 1;
+        }
+            break;
+        case 2: {
+            button_confirm_press_pending_flag = 1;
 //	  log_d("press confirm\n");
-    }
-      break;
-    case 3: {
-      button_cancel_press_pending_flag = 1;
+        }
+            break;
+        case 3: {
+            button_cancel_press_pending_flag = 1;
 //	  log_d("press press\n");
+        }
+            break;
     }
-      break;
-  }
 }
 
 void button_reset_all_flags() {
-  button_press_pending_flag = 0;
+    button_press_pending_flag = 0;
 
-  button_left_press_pending_flag = 0;
-  button_right_press_pending_flag = 0;
-  button_confirm_press_pending_flag = 0;
-  button_cancel_press_pending_flag = 0;
+    button_left_press_pending_flag = 0;
+    button_right_press_pending_flag = 0;
+    button_confirm_press_pending_flag = 0;
+    button_cancel_press_pending_flag = 0;
 }
 
 void MiniButton_init(void) {
-  button_init(&leftButton, readLeftButtonLevel, 0, 0);
-  button_attach(&leftButton, SINGLE_CLICK, buttonCallback);
-  button_start(&leftButton);
+    button_init(&leftButton, readLeftButtonLevel, 0, 0);
+    button_attach(&leftButton, SINGLE_CLICK, buttonCallback);
+    button_start(&leftButton);
 
-  button_init(&rightButton, readRightButtonLevel, 0, 1);
-  button_attach(&rightButton, SINGLE_CLICK, buttonCallback);
-  button_start(&rightButton);
+    button_init(&rightButton, readRightButtonLevel, 0, 1);
+    button_attach(&rightButton, SINGLE_CLICK, buttonCallback);
+    button_start(&rightButton);
 
-  button_init(&confirmButton, readConfirmButtonLevel, 0, 2);
-  button_attach(&confirmButton, SINGLE_CLICK, buttonCallback);
-  button_start(&confirmButton);
+    button_init(&confirmButton, readConfirmButtonLevel, 0, 2);
+    button_attach(&confirmButton, SINGLE_CLICK, buttonCallback);
+    button_start(&confirmButton);
 
-  button_init(&cancelButton, readCancelButtonLevel, 0, 3);
-  button_attach(&cancelButton, SINGLE_CLICK, buttonCallback);
-  button_start(&cancelButton);
+    button_init(&cancelButton, readCancelButtonLevel, 0, 3);
+    button_attach(&cancelButton, SINGLE_CLICK, buttonCallback);
+    button_start(&cancelButton);
 }
 
 void buttonTickTask(void *args) {
-  for(;;) {
+    UNUSED(args);
+
     button_ticks();
-    MiniCommon_delayMs(10);
-  }
 }
 
 void MiniButton_run(void) {
-  buttonTaskHandle = osThreadNew(buttonTickTask, NULL, &buttonTask_attributes);
+    osTimerId_t btnTimer = osTimerNew(buttonTickTask, osTimerPeriodic, NULL, NULL);
+    osTimerStart(btnTimer, 10);
 }
 
 //void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {

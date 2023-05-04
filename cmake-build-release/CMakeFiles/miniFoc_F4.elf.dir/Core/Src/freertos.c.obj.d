@@ -135,4 +135,4 @@ CMakeFiles/miniFoc_F4.elf.dir/Core/Src/freertos.c.obj: \
  D:\work\Middlewares\ST\STM32_USB_Device_Library\Core\Inc/usbd_ctlreq.h \
  D:\work\include/debug/heap_trace.h d:\work\framework\platform_init.h \
  D:\work\include/version.h D:\work\include/compiler.h \
- d:\work\framework\MiniMotor.h
+ d:\work\framework\MiniMotor.h D:\work\project/test/test.h

@@ -275,7 +275,7 @@ static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
   USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
   USBD_CDC_ReceivePacket(&hUsbDeviceFS);
 
-  lwrb_t *rb = Mini_getlwrbHandle();
+  lwrb_t *rb = Mini_getlwrbHandle(1);
   lwrb_write(rb, Buf, *Len);
 
   return (USBD_OK);

@@ -1793,7 +1793,7 @@ void gen_numname (
 	UINT seq			/* Sequence number */
 )
 {
-	BYTE ns[9], c;
+	BYTE ns[32], c;
 	UINT i, j;
 	WCHAR wc;
 	DWORD sr;

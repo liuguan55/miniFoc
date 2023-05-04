@@ -36,79 +36,10 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-//PID_Datatype *spring_pid;
-osThreadId_t openLoopPosControlTaskHandle;
-const osThreadAttr_t OpenPosTask_attributes = {
-    .name = "OpenPos",
-    .stack_size = 256 * 4,
-    .priority = (osPriority_t)osPriorityNormal,
-};
-osThreadId_t openLoopVelControlTaskHandle;
-const osThreadAttr_t OpenVelTask_attributes = {
-    .name = "OpenVel",
-    .stack_size = 256 * 4,
-    .priority = (osPriority_t)osPriorityNormal,
-};
-osThreadId_t torqueControlTaskHandle;
-const osThreadAttr_t TorCtrlTask_attributes = {
-    .name = "TorCtrl",
-    .stack_size = 256 * 4,
-    .priority = (osPriority_t)osPriorityNormal,
-};
-osThreadId_t velocityControlTaskHandle;
-const osThreadAttr_t VelCtrlTask_attributes = {
-    .name = "VelCtrl",
-    .stack_size = 256 * 4,
-    .priority = (osPriority_t)osPriorityNormal,
-};
-osThreadId_t positionControlTaskHandle;
-const osThreadAttr_t PosCtrlTask_attributes = {
-    .name = "PosCtrl",
-    .stack_size = 256 * 4,
-    .priority = (osPriority_t)osPriorityNormal,
-};
-osThreadId_t springTaskHandle;
-const osThreadAttr_t SpringTask_attributes = {
-    .name = "Spring",
-    .stack_size = 256 * 4,
-    .priority = (osPriority_t)osPriorityNormal,
-};
-osThreadId_t knobTaskHandle;
-const osThreadAttr_t KnobTask_attributes = {
-    .name = "Knob",
-    .stack_size = 256 * 4,
-    .priority = (osPriority_t)osPriorityNormal,
-};
-osThreadId_t taskSelectTaskHandle;
-const osThreadAttr_t SelectTask_attributes = {
-    .name = "Select",
-    .stack_size = 256 * 4,
-    .priority = (osPriority_t)osPriorityNormal,
-};
-
 /* USER CODE END Variables */
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
 
-void SuspendToRunOtherTask(osThreadId_t other_task);
-
-void TaskSelectTask(void *argument);
-
-void OpenLoopPosControlTask(void *argument);
-
-void OpenLoopVelControlTask(void *argument);
-
-void TorqueControlTask(void *argument);
-
-void VelocityControlTask(void *argument);
-
-void PositionControlTask(void *argument);
-
-void SpringTask(void *argument);
-
-void DampTask(void *argument);
-
-void KnobTask(void *argument);
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -122,9 +53,9 @@ void KnobTask(void *argument);
 /* Definitions for defaultTask */
 osThreadId_t defaultTaskHandle;
 const osThreadAttr_t defaultTask_attributes = {
-    .name = "defaultTask",
-    .stack_size = 512 * 4,
-    .priority = (osPriority_t)osPriorityLow,
+        .name = "defaultTask",
+        .stack_size = 512 * 4,
+        .priority = (osPriority_t) osPriorityLow,
 };
 
 /* Private function prototypes -----------------------------------------------*/
@@ -135,6 +66,7 @@ const osThreadAttr_t defaultTask_attributes = {
 void StartDefaultTask(void *argument);
 
 extern void MX_USB_DEVICE_Init(void);
+
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
 /**
@@ -143,60 +75,37 @@ void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
   * @retval None
   */
 void MX_FREERTOS_Init(void) {
-  /* USER CODE BEGIN Init */
+    /* USER CODE BEGIN Init */
 
-  /* USER CODE END Init */
+    /* USER CODE END Init */
 
-  /* USER CODE BEGIN RTOS_MUTEX */
-  /* add mutexes, ... */
-  /* USER CODE END RTOS_MUTEX */
+    /* USER CODE BEGIN RTOS_MUTEX */
+    /* add mutexes, ... */
+    /* USER CODE END RTOS_MUTEX */
 
-  /* USER CODE BEGIN RTOS_SEMAPHORES */
-  /* add semaphores, ... */
-  /* USER CODE END RTOS_SEMAPHORES */
+    /* USER CODE BEGIN RTOS_SEMAPHORES */
+    /* add semaphores, ... */
+    /* USER CODE END RTOS_SEMAPHORES */
 
-  /* USER CODE BEGIN RTOS_TIMERS */
-  /* start timers, add new ones, ... */
-  /* USER CODE END RTOS_TIMERS */
+    /* USER CODE BEGIN RTOS_TIMERS */
+    /* start timers, add new ones, ... */
+    /* USER CODE END RTOS_TIMERS */
 
-  /* USER CODE BEGIN RTOS_QUEUES */
-  /* add queues, ... */
-  /* USER CODE END RTOS_QUEUES */
+    /* USER CODE BEGIN RTOS_QUEUES */
+    /* add queues, ... */
+    /* USER CODE END RTOS_QUEUES */
 
-  /* Create the thread(s) */
-  /* creation of defaultTask */
-  defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
+    /* Create the thread(s) */
+    /* creation of defaultTask */
+    defaultTaskHandle = osThreadNew(StartDefaultTask, NULL, &defaultTask_attributes);
 
-  /* USER CODE BEGIN RTOS_THREADS */
-  /* add threads, ... */
-//  openLoopPosControlTaskHandle = osThreadNew(OpenLoopPosControlTask, NULL, &OpenPosTask_attributes);
-//  osThreadSuspend(openLoopPosControlTaskHandle);
-//
-//  openLoopVelControlTaskHandle = osThreadNew(OpenLoopVelControlTask, NULL, &OpenVelTask_attributes);
-//  osThreadSuspend(openLoopVelControlTaskHandle);
-//
-//  torqueControlTaskHandle = osThreadNew(TorqueControlTask, NULL, &TorCtrlTask_attributes);
-//  osThreadSuspend(torqueControlTaskHandle);
-//
-//  velocityControlTaskHandle = osThreadNew(VelocityControlTask, NULL, &VelCtrlTask_attributes);
-//  osThreadSuspend(velocityControlTaskHandle);
-//
-//  positionControlTaskHandle = osThreadNew(PositionControlTask, NULL, &PosCtrlTask_attributes);
-//  osThreadSuspend(positionControlTaskHandle);
-//
-//  springTaskHandle = osThreadNew(SpringTask, NULL, &SpringTask_attributes);
-//  osThreadSuspend(springTaskHandle);
-//
-//  knobTaskHandle = osThreadNew(KnobTask, NULL, &KnobTask_attributes);
-//  osThreadSuspend(knobTaskHandle);
-//
-//  taskSelectTaskHandle = osThreadNew(TaskSelectTask, NULL, &SelectTask_attributes);
-//
-  /* USER CODE END RTOS_THREADS */
+    /* USER CODE BEGIN RTOS_THREADS */
+    /* add threads, ... */
+    /* USER CODE END RTOS_THREADS */
 
-  /* USER CODE BEGIN RTOS_EVENTS */
-  /* add events, ... */
-  /* USER CODE END RTOS_EVENTS */
+    /* USER CODE BEGIN RTOS_EVENTS */
+    /* add events, ... */
+    /* USER CODE END RTOS_EVENTS */
 
 }
 
@@ -207,20 +116,23 @@ void MX_FREERTOS_Init(void) {
   * @retval None
   */
 /* USER CODE END Header_StartDefaultTask */
+#include "test/test.h"
 void StartDefaultTask(void *argument) {
-  /* init code for USB_DEVICE */
-  MX_USB_DEVICE_Init();
-  /* USER CODE BEGIN StartDefaultTask */
-  platform_init();
+    UNUSED(argument);
+    /* init code for USB_DEVICE */
+    MX_USB_DEVICE_Init();
+    /* USER CODE BEGIN StartDefaultTask */
+    platform_init();
 
-  /* Infinite loop */
-  for (;;) {
-    MiniCommon_led1Toggle();
-    MiniCommon_delayMs(1000);
-  }
+    app_init();
+    /* Infinite loop */
+    for (;;) {
+        MiniCommon_led1Toggle();
+        MiniCommon_delayMs(1000);
+    }
 
 
-  /* USER CODE END StartDefaultTask */
+    /* USER CODE END StartDefaultTask */
 }
 
 #if 0

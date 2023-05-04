@@ -27,6 +27,8 @@
 #include "debug/heap_trace.h"
 #include "platform_init.h"
 #include "MiniMotor.h"
+#include "UnityManager.h"
+#include "littlefsManager.h"
 
 #define FIRMWARE_NAME                   "MiNIFoc_f4"
 #define HARDWARE_VERSION               "V1.0.2"
@@ -37,7 +39,6 @@ enum {
   LED_ON,
 };
 
-#define MODULE_INIT  __attribute__((constructor))
 
 #define  container_of(ptr, type, member) ({    \
      const typeof( ((type *)0)->member ) *__mptr = (ptr); \
@@ -51,15 +52,25 @@ enum {
 #define MINI_SHELL_TASK_STACK_SIZE (512 * 4)
 
 
-void MiniCommon_led(int on);
-void MiniCommon_delayMs(uint32_t ms);
-uint32_t MiniCommon_millis(void);
+static  inline void MiniCommon_delayMs(uint32_t ms) {
+    osDelay(ms);
+}
+
+static  inline uint32_t MiniCommon_millis(void) {
+    return osKernelGetTickCount();
+}
+static  inline uint32_t MiniCommon_elapsed(uint32_t ms){
+    uint32_t now = MiniFoc_millis();
+    uint32_t diff = 0;
+    if (ms <= now){
+        diff = now - ms ;
+    }
+
+    return diff ;
+}
+
 void MiniCommon_led1On(int on);
 void MiniCommon_led1Toggle(void);
-void MiniCommon_led2On(int on);
-void MiniCommon_led2Toggle(void);
-void MiniCommon_led3On(int on);
-void MiniCommon_led3Toggle(void);
 void *MiniCommon_malloc(size_t size);
 void *MiniCommon_calloc(size_t memb, size_t size);
 void MiniCommon_free(void *ptr);

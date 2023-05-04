@@ -2251,6 +2251,54 @@ framework/MiniShell.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/MiniShell.c.s
 .PHONY : framework/MiniShell.c.s
 
+framework/UnityManager.obj: framework/UnityManager.c.obj
+.PHONY : framework/UnityManager.obj
+
+# target to build an object file
+framework/UnityManager.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/UnityManager.c.obj
+.PHONY : framework/UnityManager.c.obj
+
+framework/UnityManager.i: framework/UnityManager.c.i
+.PHONY : framework/UnityManager.i
+
+# target to preprocess a source file
+framework/UnityManager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/UnityManager.c.i
+.PHONY : framework/UnityManager.c.i
+
+framework/UnityManager.s: framework/UnityManager.c.s
+.PHONY : framework/UnityManager.s
+
+# target to generate assembly for a file
+framework/UnityManager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/UnityManager.c.s
+.PHONY : framework/UnityManager.c.s
+
+framework/littlefsManager.obj: framework/littlefsManager.c.obj
+.PHONY : framework/littlefsManager.obj
+
+# target to build an object file
+framework/littlefsManager.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.obj
+.PHONY : framework/littlefsManager.c.obj
+
+framework/littlefsManager.i: framework/littlefsManager.c.i
+.PHONY : framework/littlefsManager.i
+
+# target to preprocess a source file
+framework/littlefsManager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.i
+.PHONY : framework/littlefsManager.c.i
+
+framework/littlefsManager.s: framework/littlefsManager.c.s
+.PHONY : framework/littlefsManager.s
+
+# target to generate assembly for a file
+framework/littlefsManager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.s
+.PHONY : framework/littlefsManager.c.s
+
 framework/platform_init.obj: framework/platform_init.c.obj
 .PHONY : framework/platform_init.obj
 
@@ -3411,6 +3459,198 @@ libs/easylogger/src/elog_utils.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_utils.c.s
 .PHONY : libs/easylogger/src/elog_utils.c.s
 
+libs/gtest/src/gtest-all.obj: libs/gtest/src/gtest-all.cpp.obj
+.PHONY : libs/gtest/src/gtest-all.obj
+
+# target to build an object file
+libs/gtest/src/gtest-all.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-all.cpp.obj
+.PHONY : libs/gtest/src/gtest-all.cpp.obj
+
+libs/gtest/src/gtest-all.i: libs/gtest/src/gtest-all.cpp.i
+.PHONY : libs/gtest/src/gtest-all.i
+
+# target to preprocess a source file
+libs/gtest/src/gtest-all.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-all.cpp.i
+.PHONY : libs/gtest/src/gtest-all.cpp.i
+
+libs/gtest/src/gtest-all.s: libs/gtest/src/gtest-all.cpp.s
+.PHONY : libs/gtest/src/gtest-all.s
+
+# target to generate assembly for a file
+libs/gtest/src/gtest-all.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-all.cpp.s
+.PHONY : libs/gtest/src/gtest-all.cpp.s
+
+libs/gtest/src/gtest-death-test.obj: libs/gtest/src/gtest-death-test.cpp.obj
+.PHONY : libs/gtest/src/gtest-death-test.obj
+
+# target to build an object file
+libs/gtest/src/gtest-death-test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-death-test.cpp.obj
+.PHONY : libs/gtest/src/gtest-death-test.cpp.obj
+
+libs/gtest/src/gtest-death-test.i: libs/gtest/src/gtest-death-test.cpp.i
+.PHONY : libs/gtest/src/gtest-death-test.i
+
+# target to preprocess a source file
+libs/gtest/src/gtest-death-test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-death-test.cpp.i
+.PHONY : libs/gtest/src/gtest-death-test.cpp.i
+
+libs/gtest/src/gtest-death-test.s: libs/gtest/src/gtest-death-test.cpp.s
+.PHONY : libs/gtest/src/gtest-death-test.s
+
+# target to generate assembly for a file
+libs/gtest/src/gtest-death-test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-death-test.cpp.s
+.PHONY : libs/gtest/src/gtest-death-test.cpp.s
+
+libs/gtest/src/gtest-filepath.obj: libs/gtest/src/gtest-filepath.cpp.obj
+.PHONY : libs/gtest/src/gtest-filepath.obj
+
+# target to build an object file
+libs/gtest/src/gtest-filepath.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-filepath.cpp.obj
+.PHONY : libs/gtest/src/gtest-filepath.cpp.obj
+
+libs/gtest/src/gtest-filepath.i: libs/gtest/src/gtest-filepath.cpp.i
+.PHONY : libs/gtest/src/gtest-filepath.i
+
+# target to preprocess a source file
+libs/gtest/src/gtest-filepath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-filepath.cpp.i
+.PHONY : libs/gtest/src/gtest-filepath.cpp.i
+
+libs/gtest/src/gtest-filepath.s: libs/gtest/src/gtest-filepath.cpp.s
+.PHONY : libs/gtest/src/gtest-filepath.s
+
+# target to generate assembly for a file
+libs/gtest/src/gtest-filepath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-filepath.cpp.s
+.PHONY : libs/gtest/src/gtest-filepath.cpp.s
+
+libs/gtest/src/gtest-port.obj: libs/gtest/src/gtest-port.cpp.obj
+.PHONY : libs/gtest/src/gtest-port.obj
+
+# target to build an object file
+libs/gtest/src/gtest-port.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-port.cpp.obj
+.PHONY : libs/gtest/src/gtest-port.cpp.obj
+
+libs/gtest/src/gtest-port.i: libs/gtest/src/gtest-port.cpp.i
+.PHONY : libs/gtest/src/gtest-port.i
+
+# target to preprocess a source file
+libs/gtest/src/gtest-port.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-port.cpp.i
+.PHONY : libs/gtest/src/gtest-port.cpp.i
+
+libs/gtest/src/gtest-port.s: libs/gtest/src/gtest-port.cpp.s
+.PHONY : libs/gtest/src/gtest-port.s
+
+# target to generate assembly for a file
+libs/gtest/src/gtest-port.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-port.cpp.s
+.PHONY : libs/gtest/src/gtest-port.cpp.s
+
+libs/gtest/src/gtest-printers.obj: libs/gtest/src/gtest-printers.cpp.obj
+.PHONY : libs/gtest/src/gtest-printers.obj
+
+# target to build an object file
+libs/gtest/src/gtest-printers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-printers.cpp.obj
+.PHONY : libs/gtest/src/gtest-printers.cpp.obj
+
+libs/gtest/src/gtest-printers.i: libs/gtest/src/gtest-printers.cpp.i
+.PHONY : libs/gtest/src/gtest-printers.i
+
+# target to preprocess a source file
+libs/gtest/src/gtest-printers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-printers.cpp.i
+.PHONY : libs/gtest/src/gtest-printers.cpp.i
+
+libs/gtest/src/gtest-printers.s: libs/gtest/src/gtest-printers.cpp.s
+.PHONY : libs/gtest/src/gtest-printers.s
+
+# target to generate assembly for a file
+libs/gtest/src/gtest-printers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-printers.cpp.s
+.PHONY : libs/gtest/src/gtest-printers.cpp.s
+
+libs/gtest/src/gtest-test-part.obj: libs/gtest/src/gtest-test-part.cpp.obj
+.PHONY : libs/gtest/src/gtest-test-part.obj
+
+# target to build an object file
+libs/gtest/src/gtest-test-part.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-test-part.cpp.obj
+.PHONY : libs/gtest/src/gtest-test-part.cpp.obj
+
+libs/gtest/src/gtest-test-part.i: libs/gtest/src/gtest-test-part.cpp.i
+.PHONY : libs/gtest/src/gtest-test-part.i
+
+# target to preprocess a source file
+libs/gtest/src/gtest-test-part.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-test-part.cpp.i
+.PHONY : libs/gtest/src/gtest-test-part.cpp.i
+
+libs/gtest/src/gtest-test-part.s: libs/gtest/src/gtest-test-part.cpp.s
+.PHONY : libs/gtest/src/gtest-test-part.s
+
+# target to generate assembly for a file
+libs/gtest/src/gtest-test-part.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-test-part.cpp.s
+.PHONY : libs/gtest/src/gtest-test-part.cpp.s
+
+libs/gtest/src/gtest-typed-test.obj: libs/gtest/src/gtest-typed-test.cpp.obj
+.PHONY : libs/gtest/src/gtest-typed-test.obj
+
+# target to build an object file
+libs/gtest/src/gtest-typed-test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-typed-test.cpp.obj
+.PHONY : libs/gtest/src/gtest-typed-test.cpp.obj
+
+libs/gtest/src/gtest-typed-test.i: libs/gtest/src/gtest-typed-test.cpp.i
+.PHONY : libs/gtest/src/gtest-typed-test.i
+
+# target to preprocess a source file
+libs/gtest/src/gtest-typed-test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-typed-test.cpp.i
+.PHONY : libs/gtest/src/gtest-typed-test.cpp.i
+
+libs/gtest/src/gtest-typed-test.s: libs/gtest/src/gtest-typed-test.cpp.s
+.PHONY : libs/gtest/src/gtest-typed-test.s
+
+# target to generate assembly for a file
+libs/gtest/src/gtest-typed-test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-typed-test.cpp.s
+.PHONY : libs/gtest/src/gtest-typed-test.cpp.s
+
+libs/gtest/src/gtest.obj: libs/gtest/src/gtest.cpp.obj
+.PHONY : libs/gtest/src/gtest.obj
+
+# target to build an object file
+libs/gtest/src/gtest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest.cpp.obj
+.PHONY : libs/gtest/src/gtest.cpp.obj
+
+libs/gtest/src/gtest.i: libs/gtest/src/gtest.cpp.i
+.PHONY : libs/gtest/src/gtest.i
+
+# target to preprocess a source file
+libs/gtest/src/gtest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest.cpp.i
+.PHONY : libs/gtest/src/gtest.cpp.i
+
+libs/gtest/src/gtest.s: libs/gtest/src/gtest.cpp.s
+.PHONY : libs/gtest/src/gtest.s
+
+# target to generate assembly for a file
+libs/gtest/src/gtest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest.cpp.s
+.PHONY : libs/gtest/src/gtest.cpp.s
+
 libs/lettershell/cmd_ping.obj: libs/lettershell/cmd_ping.c.obj
 .PHONY : libs/lettershell/cmd_ping.obj
 
@@ -3578,6 +3818,54 @@ libs/lettershell/shell_fs.s: libs/lettershell/shell_fs.c.s
 libs/lettershell/shell_fs.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_fs.c.s
 .PHONY : libs/lettershell/shell_fs.c.s
+
+libs/littlefs/lfs.obj: libs/littlefs/lfs.c.obj
+.PHONY : libs/littlefs/lfs.obj
+
+# target to build an object file
+libs/littlefs/lfs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs.c.obj
+.PHONY : libs/littlefs/lfs.c.obj
+
+libs/littlefs/lfs.i: libs/littlefs/lfs.c.i
+.PHONY : libs/littlefs/lfs.i
+
+# target to preprocess a source file
+libs/littlefs/lfs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs.c.i
+.PHONY : libs/littlefs/lfs.c.i
+
+libs/littlefs/lfs.s: libs/littlefs/lfs.c.s
+.PHONY : libs/littlefs/lfs.s
+
+# target to generate assembly for a file
+libs/littlefs/lfs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs.c.s
+.PHONY : libs/littlefs/lfs.c.s
+
+libs/littlefs/lfs_util.obj: libs/littlefs/lfs_util.c.obj
+.PHONY : libs/littlefs/lfs_util.obj
+
+# target to build an object file
+libs/littlefs/lfs_util.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs_util.c.obj
+.PHONY : libs/littlefs/lfs_util.c.obj
+
+libs/littlefs/lfs_util.i: libs/littlefs/lfs_util.c.i
+.PHONY : libs/littlefs/lfs_util.i
+
+# target to preprocess a source file
+libs/littlefs/lfs_util.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs_util.c.i
+.PHONY : libs/littlefs/lfs_util.c.i
+
+libs/littlefs/lfs_util.s: libs/littlefs/lfs_util.c.s
+.PHONY : libs/littlefs/lfs_util.s
+
+# target to generate assembly for a file
+libs/littlefs/lfs_util.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs_util.c.s
+.PHONY : libs/littlefs/lfs_util.c.s
 
 libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.obj: libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj
 .PHONY : libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.obj
@@ -14523,6 +14811,1110 @@ libs/unity/unity.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/libs/unity/unity.c.s
 .PHONY : libs/unity/unity.c.s
 
+modules/AP_HAL/UARTDriver.obj: modules/AP_HAL/UARTDriver.cpp.obj
+.PHONY : modules/AP_HAL/UARTDriver.obj
+
+# target to build an object file
+modules/AP_HAL/UARTDriver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/UARTDriver.cpp.obj
+.PHONY : modules/AP_HAL/UARTDriver.cpp.obj
+
+modules/AP_HAL/UARTDriver.i: modules/AP_HAL/UARTDriver.cpp.i
+.PHONY : modules/AP_HAL/UARTDriver.i
+
+# target to preprocess a source file
+modules/AP_HAL/UARTDriver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/UARTDriver.cpp.i
+.PHONY : modules/AP_HAL/UARTDriver.cpp.i
+
+modules/AP_HAL/UARTDriver.s: modules/AP_HAL/UARTDriver.cpp.s
+.PHONY : modules/AP_HAL/UARTDriver.s
+
+# target to generate assembly for a file
+modules/AP_HAL/UARTDriver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/UARTDriver.cpp.s
+.PHONY : modules/AP_HAL/UARTDriver.cpp.s
+
+modules/AP_HAL/Util.obj: modules/AP_HAL/Util.cpp.obj
+.PHONY : modules/AP_HAL/Util.obj
+
+# target to build an object file
+modules/AP_HAL/Util.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/Util.cpp.obj
+.PHONY : modules/AP_HAL/Util.cpp.obj
+
+modules/AP_HAL/Util.i: modules/AP_HAL/Util.cpp.i
+.PHONY : modules/AP_HAL/Util.i
+
+# target to preprocess a source file
+modules/AP_HAL/Util.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/Util.cpp.i
+.PHONY : modules/AP_HAL/Util.cpp.i
+
+modules/AP_HAL/Util.s: modules/AP_HAL/Util.cpp.s
+.PHONY : modules/AP_HAL/Util.s
+
+# target to generate assembly for a file
+modules/AP_HAL/Util.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/Util.cpp.s
+.PHONY : modules/AP_HAL/Util.cpp.s
+
+modules/AP_HAL/utility/Print.obj: modules/AP_HAL/utility/Print.cpp.obj
+.PHONY : modules/AP_HAL/utility/Print.obj
+
+# target to build an object file
+modules/AP_HAL/utility/Print.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/Print.cpp.obj
+.PHONY : modules/AP_HAL/utility/Print.cpp.obj
+
+modules/AP_HAL/utility/Print.i: modules/AP_HAL/utility/Print.cpp.i
+.PHONY : modules/AP_HAL/utility/Print.i
+
+# target to preprocess a source file
+modules/AP_HAL/utility/Print.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/Print.cpp.i
+.PHONY : modules/AP_HAL/utility/Print.cpp.i
+
+modules/AP_HAL/utility/Print.s: modules/AP_HAL/utility/Print.cpp.s
+.PHONY : modules/AP_HAL/utility/Print.s
+
+# target to generate assembly for a file
+modules/AP_HAL/utility/Print.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/Print.cpp.s
+.PHONY : modules/AP_HAL/utility/Print.cpp.s
+
+modules/AP_HAL/utility/ftoa_engine.obj: modules/AP_HAL/utility/ftoa_engine.cpp.obj
+.PHONY : modules/AP_HAL/utility/ftoa_engine.obj
+
+# target to build an object file
+modules/AP_HAL/utility/ftoa_engine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/ftoa_engine.cpp.obj
+.PHONY : modules/AP_HAL/utility/ftoa_engine.cpp.obj
+
+modules/AP_HAL/utility/ftoa_engine.i: modules/AP_HAL/utility/ftoa_engine.cpp.i
+.PHONY : modules/AP_HAL/utility/ftoa_engine.i
+
+# target to preprocess a source file
+modules/AP_HAL/utility/ftoa_engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/ftoa_engine.cpp.i
+.PHONY : modules/AP_HAL/utility/ftoa_engine.cpp.i
+
+modules/AP_HAL/utility/ftoa_engine.s: modules/AP_HAL/utility/ftoa_engine.cpp.s
+.PHONY : modules/AP_HAL/utility/ftoa_engine.s
+
+# target to generate assembly for a file
+modules/AP_HAL/utility/ftoa_engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/ftoa_engine.cpp.s
+.PHONY : modules/AP_HAL/utility/ftoa_engine.cpp.s
+
+modules/AP_HAL/utility/print_vprintf.obj: modules/AP_HAL/utility/print_vprintf.cpp.obj
+.PHONY : modules/AP_HAL/utility/print_vprintf.obj
+
+# target to build an object file
+modules/AP_HAL/utility/print_vprintf.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/print_vprintf.cpp.obj
+.PHONY : modules/AP_HAL/utility/print_vprintf.cpp.obj
+
+modules/AP_HAL/utility/print_vprintf.i: modules/AP_HAL/utility/print_vprintf.cpp.i
+.PHONY : modules/AP_HAL/utility/print_vprintf.i
+
+# target to preprocess a source file
+modules/AP_HAL/utility/print_vprintf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/print_vprintf.cpp.i
+.PHONY : modules/AP_HAL/utility/print_vprintf.cpp.i
+
+modules/AP_HAL/utility/print_vprintf.s: modules/AP_HAL/utility/print_vprintf.cpp.s
+.PHONY : modules/AP_HAL/utility/print_vprintf.s
+
+# target to generate assembly for a file
+modules/AP_HAL/utility/print_vprintf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/print_vprintf.cpp.s
+.PHONY : modules/AP_HAL/utility/print_vprintf.cpp.s
+
+modules/AP_HAL/utility/utoa_invert.obj: modules/AP_HAL/utility/utoa_invert.cpp.obj
+.PHONY : modules/AP_HAL/utility/utoa_invert.obj
+
+# target to build an object file
+modules/AP_HAL/utility/utoa_invert.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/utoa_invert.cpp.obj
+.PHONY : modules/AP_HAL/utility/utoa_invert.cpp.obj
+
+modules/AP_HAL/utility/utoa_invert.i: modules/AP_HAL/utility/utoa_invert.cpp.i
+.PHONY : modules/AP_HAL/utility/utoa_invert.i
+
+# target to preprocess a source file
+modules/AP_HAL/utility/utoa_invert.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/utoa_invert.cpp.i
+.PHONY : modules/AP_HAL/utility/utoa_invert.cpp.i
+
+modules/AP_HAL/utility/utoa_invert.s: modules/AP_HAL/utility/utoa_invert.cpp.s
+.PHONY : modules/AP_HAL/utility/utoa_invert.s
+
+# target to generate assembly for a file
+modules/AP_HAL/utility/utoa_invert.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/utoa_invert.cpp.s
+.PHONY : modules/AP_HAL/utility/utoa_invert.cpp.s
+
+modules/AP_HAL_Empty/AnalogIn.obj: modules/AP_HAL_Empty/AnalogIn.cpp.obj
+.PHONY : modules/AP_HAL_Empty/AnalogIn.obj
+
+# target to build an object file
+modules/AP_HAL_Empty/AnalogIn.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/AnalogIn.cpp.obj
+.PHONY : modules/AP_HAL_Empty/AnalogIn.cpp.obj
+
+modules/AP_HAL_Empty/AnalogIn.i: modules/AP_HAL_Empty/AnalogIn.cpp.i
+.PHONY : modules/AP_HAL_Empty/AnalogIn.i
+
+# target to preprocess a source file
+modules/AP_HAL_Empty/AnalogIn.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/AnalogIn.cpp.i
+.PHONY : modules/AP_HAL_Empty/AnalogIn.cpp.i
+
+modules/AP_HAL_Empty/AnalogIn.s: modules/AP_HAL_Empty/AnalogIn.cpp.s
+.PHONY : modules/AP_HAL_Empty/AnalogIn.s
+
+# target to generate assembly for a file
+modules/AP_HAL_Empty/AnalogIn.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/AnalogIn.cpp.s
+.PHONY : modules/AP_HAL_Empty/AnalogIn.cpp.s
+
+modules/AP_HAL_Empty/GPIO.obj: modules/AP_HAL_Empty/GPIO.cpp.obj
+.PHONY : modules/AP_HAL_Empty/GPIO.obj
+
+# target to build an object file
+modules/AP_HAL_Empty/GPIO.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/GPIO.cpp.obj
+.PHONY : modules/AP_HAL_Empty/GPIO.cpp.obj
+
+modules/AP_HAL_Empty/GPIO.i: modules/AP_HAL_Empty/GPIO.cpp.i
+.PHONY : modules/AP_HAL_Empty/GPIO.i
+
+# target to preprocess a source file
+modules/AP_HAL_Empty/GPIO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/GPIO.cpp.i
+.PHONY : modules/AP_HAL_Empty/GPIO.cpp.i
+
+modules/AP_HAL_Empty/GPIO.s: modules/AP_HAL_Empty/GPIO.cpp.s
+.PHONY : modules/AP_HAL_Empty/GPIO.s
+
+# target to generate assembly for a file
+modules/AP_HAL_Empty/GPIO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/GPIO.cpp.s
+.PHONY : modules/AP_HAL_Empty/GPIO.cpp.s
+
+modules/AP_HAL_Empty/HAL_Empty_Class.obj: modules/AP_HAL_Empty/HAL_Empty_Class.cpp.obj
+.PHONY : modules/AP_HAL_Empty/HAL_Empty_Class.obj
+
+# target to build an object file
+modules/AP_HAL_Empty/HAL_Empty_Class.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/HAL_Empty_Class.cpp.obj
+.PHONY : modules/AP_HAL_Empty/HAL_Empty_Class.cpp.obj
+
+modules/AP_HAL_Empty/HAL_Empty_Class.i: modules/AP_HAL_Empty/HAL_Empty_Class.cpp.i
+.PHONY : modules/AP_HAL_Empty/HAL_Empty_Class.i
+
+# target to preprocess a source file
+modules/AP_HAL_Empty/HAL_Empty_Class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/HAL_Empty_Class.cpp.i
+.PHONY : modules/AP_HAL_Empty/HAL_Empty_Class.cpp.i
+
+modules/AP_HAL_Empty/HAL_Empty_Class.s: modules/AP_HAL_Empty/HAL_Empty_Class.cpp.s
+.PHONY : modules/AP_HAL_Empty/HAL_Empty_Class.s
+
+# target to generate assembly for a file
+modules/AP_HAL_Empty/HAL_Empty_Class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/HAL_Empty_Class.cpp.s
+.PHONY : modules/AP_HAL_Empty/HAL_Empty_Class.cpp.s
+
+modules/AP_HAL_Empty/I2CDriver.obj: modules/AP_HAL_Empty/I2CDriver.cpp.obj
+.PHONY : modules/AP_HAL_Empty/I2CDriver.obj
+
+# target to build an object file
+modules/AP_HAL_Empty/I2CDriver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/I2CDriver.cpp.obj
+.PHONY : modules/AP_HAL_Empty/I2CDriver.cpp.obj
+
+modules/AP_HAL_Empty/I2CDriver.i: modules/AP_HAL_Empty/I2CDriver.cpp.i
+.PHONY : modules/AP_HAL_Empty/I2CDriver.i
+
+# target to preprocess a source file
+modules/AP_HAL_Empty/I2CDriver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/I2CDriver.cpp.i
+.PHONY : modules/AP_HAL_Empty/I2CDriver.cpp.i
+
+modules/AP_HAL_Empty/I2CDriver.s: modules/AP_HAL_Empty/I2CDriver.cpp.s
+.PHONY : modules/AP_HAL_Empty/I2CDriver.s
+
+# target to generate assembly for a file
+modules/AP_HAL_Empty/I2CDriver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/I2CDriver.cpp.s
+.PHONY : modules/AP_HAL_Empty/I2CDriver.cpp.s
+
+modules/AP_HAL_Empty/Mutex.obj: modules/AP_HAL_Empty/Mutex.cpp.obj
+.PHONY : modules/AP_HAL_Empty/Mutex.obj
+
+# target to build an object file
+modules/AP_HAL_Empty/Mutex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Mutex.cpp.obj
+.PHONY : modules/AP_HAL_Empty/Mutex.cpp.obj
+
+modules/AP_HAL_Empty/Mutex.i: modules/AP_HAL_Empty/Mutex.cpp.i
+.PHONY : modules/AP_HAL_Empty/Mutex.i
+
+# target to preprocess a source file
+modules/AP_HAL_Empty/Mutex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Mutex.cpp.i
+.PHONY : modules/AP_HAL_Empty/Mutex.cpp.i
+
+modules/AP_HAL_Empty/Mutex.s: modules/AP_HAL_Empty/Mutex.cpp.s
+.PHONY : modules/AP_HAL_Empty/Mutex.s
+
+# target to generate assembly for a file
+modules/AP_HAL_Empty/Mutex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Mutex.cpp.s
+.PHONY : modules/AP_HAL_Empty/Mutex.cpp.s
+
+modules/AP_HAL_Empty/PrivateMember.obj: modules/AP_HAL_Empty/PrivateMember.cpp.obj
+.PHONY : modules/AP_HAL_Empty/PrivateMember.obj
+
+# target to build an object file
+modules/AP_HAL_Empty/PrivateMember.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/PrivateMember.cpp.obj
+.PHONY : modules/AP_HAL_Empty/PrivateMember.cpp.obj
+
+modules/AP_HAL_Empty/PrivateMember.i: modules/AP_HAL_Empty/PrivateMember.cpp.i
+.PHONY : modules/AP_HAL_Empty/PrivateMember.i
+
+# target to preprocess a source file
+modules/AP_HAL_Empty/PrivateMember.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/PrivateMember.cpp.i
+.PHONY : modules/AP_HAL_Empty/PrivateMember.cpp.i
+
+modules/AP_HAL_Empty/PrivateMember.s: modules/AP_HAL_Empty/PrivateMember.cpp.s
+.PHONY : modules/AP_HAL_Empty/PrivateMember.s
+
+# target to generate assembly for a file
+modules/AP_HAL_Empty/PrivateMember.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/PrivateMember.cpp.s
+.PHONY : modules/AP_HAL_Empty/PrivateMember.cpp.s
+
+modules/AP_HAL_Empty/RCInput.obj: modules/AP_HAL_Empty/RCInput.cpp.obj
+.PHONY : modules/AP_HAL_Empty/RCInput.obj
+
+# target to build an object file
+modules/AP_HAL_Empty/RCInput.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCInput.cpp.obj
+.PHONY : modules/AP_HAL_Empty/RCInput.cpp.obj
+
+modules/AP_HAL_Empty/RCInput.i: modules/AP_HAL_Empty/RCInput.cpp.i
+.PHONY : modules/AP_HAL_Empty/RCInput.i
+
+# target to preprocess a source file
+modules/AP_HAL_Empty/RCInput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCInput.cpp.i
+.PHONY : modules/AP_HAL_Empty/RCInput.cpp.i
+
+modules/AP_HAL_Empty/RCInput.s: modules/AP_HAL_Empty/RCInput.cpp.s
+.PHONY : modules/AP_HAL_Empty/RCInput.s
+
+# target to generate assembly for a file
+modules/AP_HAL_Empty/RCInput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCInput.cpp.s
+.PHONY : modules/AP_HAL_Empty/RCInput.cpp.s
+
+modules/AP_HAL_Empty/RCOutput.obj: modules/AP_HAL_Empty/RCOutput.cpp.obj
+.PHONY : modules/AP_HAL_Empty/RCOutput.obj
+
+# target to build an object file
+modules/AP_HAL_Empty/RCOutput.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCOutput.cpp.obj
+.PHONY : modules/AP_HAL_Empty/RCOutput.cpp.obj
+
+modules/AP_HAL_Empty/RCOutput.i: modules/AP_HAL_Empty/RCOutput.cpp.i
+.PHONY : modules/AP_HAL_Empty/RCOutput.i
+
+# target to preprocess a source file
+modules/AP_HAL_Empty/RCOutput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCOutput.cpp.i
+.PHONY : modules/AP_HAL_Empty/RCOutput.cpp.i
+
+modules/AP_HAL_Empty/RCOutput.s: modules/AP_HAL_Empty/RCOutput.cpp.s
+.PHONY : modules/AP_HAL_Empty/RCOutput.s
+
+# target to generate assembly for a file
+modules/AP_HAL_Empty/RCOutput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCOutput.cpp.s
+.PHONY : modules/AP_HAL_Empty/RCOutput.cpp.s
+
+modules/AP_HAL_Empty/SPIDriver.obj: modules/AP_HAL_Empty/SPIDriver.cpp.obj
+.PHONY : modules/AP_HAL_Empty/SPIDriver.obj
+
+# target to build an object file
+modules/AP_HAL_Empty/SPIDriver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/SPIDriver.cpp.obj
+.PHONY : modules/AP_HAL_Empty/SPIDriver.cpp.obj
+
+modules/AP_HAL_Empty/SPIDriver.i: modules/AP_HAL_Empty/SPIDriver.cpp.i
+.PHONY : modules/AP_HAL_Empty/SPIDriver.i
+
+# target to preprocess a source file
+modules/AP_HAL_Empty/SPIDriver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/SPIDriver.cpp.i
+.PHONY : modules/AP_HAL_Empty/SPIDriver.cpp.i
+
+modules/AP_HAL_Empty/SPIDriver.s: modules/AP_HAL_Empty/SPIDriver.cpp.s
+.PHONY : modules/AP_HAL_Empty/SPIDriver.s
+
+# target to generate assembly for a file
+modules/AP_HAL_Empty/SPIDriver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/SPIDriver.cpp.s
+.PHONY : modules/AP_HAL_Empty/SPIDriver.cpp.s
+
+modules/AP_HAL_Empty/Scheduler.obj: modules/AP_HAL_Empty/Scheduler.cpp.obj
+.PHONY : modules/AP_HAL_Empty/Scheduler.obj
+
+# target to build an object file
+modules/AP_HAL_Empty/Scheduler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Scheduler.cpp.obj
+.PHONY : modules/AP_HAL_Empty/Scheduler.cpp.obj
+
+modules/AP_HAL_Empty/Scheduler.i: modules/AP_HAL_Empty/Scheduler.cpp.i
+.PHONY : modules/AP_HAL_Empty/Scheduler.i
+
+# target to preprocess a source file
+modules/AP_HAL_Empty/Scheduler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Scheduler.cpp.i
+.PHONY : modules/AP_HAL_Empty/Scheduler.cpp.i
+
+modules/AP_HAL_Empty/Scheduler.s: modules/AP_HAL_Empty/Scheduler.cpp.s
+.PHONY : modules/AP_HAL_Empty/Scheduler.s
+
+# target to generate assembly for a file
+modules/AP_HAL_Empty/Scheduler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Scheduler.cpp.s
+.PHONY : modules/AP_HAL_Empty/Scheduler.cpp.s
+
+modules/AP_HAL_Empty/Semaphores.obj: modules/AP_HAL_Empty/Semaphores.cpp.obj
+.PHONY : modules/AP_HAL_Empty/Semaphores.obj
+
+# target to build an object file
+modules/AP_HAL_Empty/Semaphores.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Semaphores.cpp.obj
+.PHONY : modules/AP_HAL_Empty/Semaphores.cpp.obj
+
+modules/AP_HAL_Empty/Semaphores.i: modules/AP_HAL_Empty/Semaphores.cpp.i
+.PHONY : modules/AP_HAL_Empty/Semaphores.i
+
+# target to preprocess a source file
+modules/AP_HAL_Empty/Semaphores.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Semaphores.cpp.i
+.PHONY : modules/AP_HAL_Empty/Semaphores.cpp.i
+
+modules/AP_HAL_Empty/Semaphores.s: modules/AP_HAL_Empty/Semaphores.cpp.s
+.PHONY : modules/AP_HAL_Empty/Semaphores.s
+
+# target to generate assembly for a file
+modules/AP_HAL_Empty/Semaphores.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Semaphores.cpp.s
+.PHONY : modules/AP_HAL_Empty/Semaphores.cpp.s
+
+modules/AP_HAL_Empty/Storage.obj: modules/AP_HAL_Empty/Storage.cpp.obj
+.PHONY : modules/AP_HAL_Empty/Storage.obj
+
+# target to build an object file
+modules/AP_HAL_Empty/Storage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Storage.cpp.obj
+.PHONY : modules/AP_HAL_Empty/Storage.cpp.obj
+
+modules/AP_HAL_Empty/Storage.i: modules/AP_HAL_Empty/Storage.cpp.i
+.PHONY : modules/AP_HAL_Empty/Storage.i
+
+# target to preprocess a source file
+modules/AP_HAL_Empty/Storage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Storage.cpp.i
+.PHONY : modules/AP_HAL_Empty/Storage.cpp.i
+
+modules/AP_HAL_Empty/Storage.s: modules/AP_HAL_Empty/Storage.cpp.s
+.PHONY : modules/AP_HAL_Empty/Storage.s
+
+# target to generate assembly for a file
+modules/AP_HAL_Empty/Storage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Storage.cpp.s
+.PHONY : modules/AP_HAL_Empty/Storage.cpp.s
+
+modules/AP_HAL_Empty/UARTDriver.obj: modules/AP_HAL_Empty/UARTDriver.cpp.obj
+.PHONY : modules/AP_HAL_Empty/UARTDriver.obj
+
+# target to build an object file
+modules/AP_HAL_Empty/UARTDriver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/UARTDriver.cpp.obj
+.PHONY : modules/AP_HAL_Empty/UARTDriver.cpp.obj
+
+modules/AP_HAL_Empty/UARTDriver.i: modules/AP_HAL_Empty/UARTDriver.cpp.i
+.PHONY : modules/AP_HAL_Empty/UARTDriver.i
+
+# target to preprocess a source file
+modules/AP_HAL_Empty/UARTDriver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/UARTDriver.cpp.i
+.PHONY : modules/AP_HAL_Empty/UARTDriver.cpp.i
+
+modules/AP_HAL_Empty/UARTDriver.s: modules/AP_HAL_Empty/UARTDriver.cpp.s
+.PHONY : modules/AP_HAL_Empty/UARTDriver.s
+
+# target to generate assembly for a file
+modules/AP_HAL_Empty/UARTDriver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/UARTDriver.cpp.s
+.PHONY : modules/AP_HAL_Empty/UARTDriver.cpp.s
+
+modules/AP_HAL_STM32/AnalogIn.obj: modules/AP_HAL_STM32/AnalogIn.cpp.obj
+.PHONY : modules/AP_HAL_STM32/AnalogIn.obj
+
+# target to build an object file
+modules/AP_HAL_STM32/AnalogIn.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/AnalogIn.cpp.obj
+.PHONY : modules/AP_HAL_STM32/AnalogIn.cpp.obj
+
+modules/AP_HAL_STM32/AnalogIn.i: modules/AP_HAL_STM32/AnalogIn.cpp.i
+.PHONY : modules/AP_HAL_STM32/AnalogIn.i
+
+# target to preprocess a source file
+modules/AP_HAL_STM32/AnalogIn.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/AnalogIn.cpp.i
+.PHONY : modules/AP_HAL_STM32/AnalogIn.cpp.i
+
+modules/AP_HAL_STM32/AnalogIn.s: modules/AP_HAL_STM32/AnalogIn.cpp.s
+.PHONY : modules/AP_HAL_STM32/AnalogIn.s
+
+# target to generate assembly for a file
+modules/AP_HAL_STM32/AnalogIn.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/AnalogIn.cpp.s
+.PHONY : modules/AP_HAL_STM32/AnalogIn.cpp.s
+
+modules/AP_HAL_STM32/GPIO.obj: modules/AP_HAL_STM32/GPIO.cpp.obj
+.PHONY : modules/AP_HAL_STM32/GPIO.obj
+
+# target to build an object file
+modules/AP_HAL_STM32/GPIO.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/GPIO.cpp.obj
+.PHONY : modules/AP_HAL_STM32/GPIO.cpp.obj
+
+modules/AP_HAL_STM32/GPIO.i: modules/AP_HAL_STM32/GPIO.cpp.i
+.PHONY : modules/AP_HAL_STM32/GPIO.i
+
+# target to preprocess a source file
+modules/AP_HAL_STM32/GPIO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/GPIO.cpp.i
+.PHONY : modules/AP_HAL_STM32/GPIO.cpp.i
+
+modules/AP_HAL_STM32/GPIO.s: modules/AP_HAL_STM32/GPIO.cpp.s
+.PHONY : modules/AP_HAL_STM32/GPIO.s
+
+# target to generate assembly for a file
+modules/AP_HAL_STM32/GPIO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/GPIO.cpp.s
+.PHONY : modules/AP_HAL_STM32/GPIO.cpp.s
+
+modules/AP_HAL_STM32/HAL_STM32_Class.obj: modules/AP_HAL_STM32/HAL_STM32_Class.cpp.obj
+.PHONY : modules/AP_HAL_STM32/HAL_STM32_Class.obj
+
+# target to build an object file
+modules/AP_HAL_STM32/HAL_STM32_Class.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/HAL_STM32_Class.cpp.obj
+.PHONY : modules/AP_HAL_STM32/HAL_STM32_Class.cpp.obj
+
+modules/AP_HAL_STM32/HAL_STM32_Class.i: modules/AP_HAL_STM32/HAL_STM32_Class.cpp.i
+.PHONY : modules/AP_HAL_STM32/HAL_STM32_Class.i
+
+# target to preprocess a source file
+modules/AP_HAL_STM32/HAL_STM32_Class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/HAL_STM32_Class.cpp.i
+.PHONY : modules/AP_HAL_STM32/HAL_STM32_Class.cpp.i
+
+modules/AP_HAL_STM32/HAL_STM32_Class.s: modules/AP_HAL_STM32/HAL_STM32_Class.cpp.s
+.PHONY : modules/AP_HAL_STM32/HAL_STM32_Class.s
+
+# target to generate assembly for a file
+modules/AP_HAL_STM32/HAL_STM32_Class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/HAL_STM32_Class.cpp.s
+.PHONY : modules/AP_HAL_STM32/HAL_STM32_Class.cpp.s
+
+modules/AP_HAL_STM32/I2CDriver.obj: modules/AP_HAL_STM32/I2CDriver.cpp.obj
+.PHONY : modules/AP_HAL_STM32/I2CDriver.obj
+
+# target to build an object file
+modules/AP_HAL_STM32/I2CDriver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/I2CDriver.cpp.obj
+.PHONY : modules/AP_HAL_STM32/I2CDriver.cpp.obj
+
+modules/AP_HAL_STM32/I2CDriver.i: modules/AP_HAL_STM32/I2CDriver.cpp.i
+.PHONY : modules/AP_HAL_STM32/I2CDriver.i
+
+# target to preprocess a source file
+modules/AP_HAL_STM32/I2CDriver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/I2CDriver.cpp.i
+.PHONY : modules/AP_HAL_STM32/I2CDriver.cpp.i
+
+modules/AP_HAL_STM32/I2CDriver.s: modules/AP_HAL_STM32/I2CDriver.cpp.s
+.PHONY : modules/AP_HAL_STM32/I2CDriver.s
+
+# target to generate assembly for a file
+modules/AP_HAL_STM32/I2CDriver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/I2CDriver.cpp.s
+.PHONY : modules/AP_HAL_STM32/I2CDriver.cpp.s
+
+modules/AP_HAL_STM32/Mutex.obj: modules/AP_HAL_STM32/Mutex.cpp.obj
+.PHONY : modules/AP_HAL_STM32/Mutex.obj
+
+# target to build an object file
+modules/AP_HAL_STM32/Mutex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Mutex.cpp.obj
+.PHONY : modules/AP_HAL_STM32/Mutex.cpp.obj
+
+modules/AP_HAL_STM32/Mutex.i: modules/AP_HAL_STM32/Mutex.cpp.i
+.PHONY : modules/AP_HAL_STM32/Mutex.i
+
+# target to preprocess a source file
+modules/AP_HAL_STM32/Mutex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Mutex.cpp.i
+.PHONY : modules/AP_HAL_STM32/Mutex.cpp.i
+
+modules/AP_HAL_STM32/Mutex.s: modules/AP_HAL_STM32/Mutex.cpp.s
+.PHONY : modules/AP_HAL_STM32/Mutex.s
+
+# target to generate assembly for a file
+modules/AP_HAL_STM32/Mutex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Mutex.cpp.s
+.PHONY : modules/AP_HAL_STM32/Mutex.cpp.s
+
+modules/AP_HAL_STM32/PrivateMember.obj: modules/AP_HAL_STM32/PrivateMember.cpp.obj
+.PHONY : modules/AP_HAL_STM32/PrivateMember.obj
+
+# target to build an object file
+modules/AP_HAL_STM32/PrivateMember.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/PrivateMember.cpp.obj
+.PHONY : modules/AP_HAL_STM32/PrivateMember.cpp.obj
+
+modules/AP_HAL_STM32/PrivateMember.i: modules/AP_HAL_STM32/PrivateMember.cpp.i
+.PHONY : modules/AP_HAL_STM32/PrivateMember.i
+
+# target to preprocess a source file
+modules/AP_HAL_STM32/PrivateMember.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/PrivateMember.cpp.i
+.PHONY : modules/AP_HAL_STM32/PrivateMember.cpp.i
+
+modules/AP_HAL_STM32/PrivateMember.s: modules/AP_HAL_STM32/PrivateMember.cpp.s
+.PHONY : modules/AP_HAL_STM32/PrivateMember.s
+
+# target to generate assembly for a file
+modules/AP_HAL_STM32/PrivateMember.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/PrivateMember.cpp.s
+.PHONY : modules/AP_HAL_STM32/PrivateMember.cpp.s
+
+modules/AP_HAL_STM32/RCInput.obj: modules/AP_HAL_STM32/RCInput.cpp.obj
+.PHONY : modules/AP_HAL_STM32/RCInput.obj
+
+# target to build an object file
+modules/AP_HAL_STM32/RCInput.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCInput.cpp.obj
+.PHONY : modules/AP_HAL_STM32/RCInput.cpp.obj
+
+modules/AP_HAL_STM32/RCInput.i: modules/AP_HAL_STM32/RCInput.cpp.i
+.PHONY : modules/AP_HAL_STM32/RCInput.i
+
+# target to preprocess a source file
+modules/AP_HAL_STM32/RCInput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCInput.cpp.i
+.PHONY : modules/AP_HAL_STM32/RCInput.cpp.i
+
+modules/AP_HAL_STM32/RCInput.s: modules/AP_HAL_STM32/RCInput.cpp.s
+.PHONY : modules/AP_HAL_STM32/RCInput.s
+
+# target to generate assembly for a file
+modules/AP_HAL_STM32/RCInput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCInput.cpp.s
+.PHONY : modules/AP_HAL_STM32/RCInput.cpp.s
+
+modules/AP_HAL_STM32/RCOutput.obj: modules/AP_HAL_STM32/RCOutput.cpp.obj
+.PHONY : modules/AP_HAL_STM32/RCOutput.obj
+
+# target to build an object file
+modules/AP_HAL_STM32/RCOutput.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCOutput.cpp.obj
+.PHONY : modules/AP_HAL_STM32/RCOutput.cpp.obj
+
+modules/AP_HAL_STM32/RCOutput.i: modules/AP_HAL_STM32/RCOutput.cpp.i
+.PHONY : modules/AP_HAL_STM32/RCOutput.i
+
+# target to preprocess a source file
+modules/AP_HAL_STM32/RCOutput.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCOutput.cpp.i
+.PHONY : modules/AP_HAL_STM32/RCOutput.cpp.i
+
+modules/AP_HAL_STM32/RCOutput.s: modules/AP_HAL_STM32/RCOutput.cpp.s
+.PHONY : modules/AP_HAL_STM32/RCOutput.s
+
+# target to generate assembly for a file
+modules/AP_HAL_STM32/RCOutput.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCOutput.cpp.s
+.PHONY : modules/AP_HAL_STM32/RCOutput.cpp.s
+
+modules/AP_HAL_STM32/SPIDriver.obj: modules/AP_HAL_STM32/SPIDriver.cpp.obj
+.PHONY : modules/AP_HAL_STM32/SPIDriver.obj
+
+# target to build an object file
+modules/AP_HAL_STM32/SPIDriver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/SPIDriver.cpp.obj
+.PHONY : modules/AP_HAL_STM32/SPIDriver.cpp.obj
+
+modules/AP_HAL_STM32/SPIDriver.i: modules/AP_HAL_STM32/SPIDriver.cpp.i
+.PHONY : modules/AP_HAL_STM32/SPIDriver.i
+
+# target to preprocess a source file
+modules/AP_HAL_STM32/SPIDriver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/SPIDriver.cpp.i
+.PHONY : modules/AP_HAL_STM32/SPIDriver.cpp.i
+
+modules/AP_HAL_STM32/SPIDriver.s: modules/AP_HAL_STM32/SPIDriver.cpp.s
+.PHONY : modules/AP_HAL_STM32/SPIDriver.s
+
+# target to generate assembly for a file
+modules/AP_HAL_STM32/SPIDriver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/SPIDriver.cpp.s
+.PHONY : modules/AP_HAL_STM32/SPIDriver.cpp.s
+
+modules/AP_HAL_STM32/Scheduler.obj: modules/AP_HAL_STM32/Scheduler.cpp.obj
+.PHONY : modules/AP_HAL_STM32/Scheduler.obj
+
+# target to build an object file
+modules/AP_HAL_STM32/Scheduler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Scheduler.cpp.obj
+.PHONY : modules/AP_HAL_STM32/Scheduler.cpp.obj
+
+modules/AP_HAL_STM32/Scheduler.i: modules/AP_HAL_STM32/Scheduler.cpp.i
+.PHONY : modules/AP_HAL_STM32/Scheduler.i
+
+# target to preprocess a source file
+modules/AP_HAL_STM32/Scheduler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Scheduler.cpp.i
+.PHONY : modules/AP_HAL_STM32/Scheduler.cpp.i
+
+modules/AP_HAL_STM32/Scheduler.s: modules/AP_HAL_STM32/Scheduler.cpp.s
+.PHONY : modules/AP_HAL_STM32/Scheduler.s
+
+# target to generate assembly for a file
+modules/AP_HAL_STM32/Scheduler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Scheduler.cpp.s
+.PHONY : modules/AP_HAL_STM32/Scheduler.cpp.s
+
+modules/AP_HAL_STM32/Semaphores.obj: modules/AP_HAL_STM32/Semaphores.cpp.obj
+.PHONY : modules/AP_HAL_STM32/Semaphores.obj
+
+# target to build an object file
+modules/AP_HAL_STM32/Semaphores.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Semaphores.cpp.obj
+.PHONY : modules/AP_HAL_STM32/Semaphores.cpp.obj
+
+modules/AP_HAL_STM32/Semaphores.i: modules/AP_HAL_STM32/Semaphores.cpp.i
+.PHONY : modules/AP_HAL_STM32/Semaphores.i
+
+# target to preprocess a source file
+modules/AP_HAL_STM32/Semaphores.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Semaphores.cpp.i
+.PHONY : modules/AP_HAL_STM32/Semaphores.cpp.i
+
+modules/AP_HAL_STM32/Semaphores.s: modules/AP_HAL_STM32/Semaphores.cpp.s
+.PHONY : modules/AP_HAL_STM32/Semaphores.s
+
+# target to generate assembly for a file
+modules/AP_HAL_STM32/Semaphores.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Semaphores.cpp.s
+.PHONY : modules/AP_HAL_STM32/Semaphores.cpp.s
+
+modules/AP_HAL_STM32/Storage.obj: modules/AP_HAL_STM32/Storage.cpp.obj
+.PHONY : modules/AP_HAL_STM32/Storage.obj
+
+# target to build an object file
+modules/AP_HAL_STM32/Storage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Storage.cpp.obj
+.PHONY : modules/AP_HAL_STM32/Storage.cpp.obj
+
+modules/AP_HAL_STM32/Storage.i: modules/AP_HAL_STM32/Storage.cpp.i
+.PHONY : modules/AP_HAL_STM32/Storage.i
+
+# target to preprocess a source file
+modules/AP_HAL_STM32/Storage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Storage.cpp.i
+.PHONY : modules/AP_HAL_STM32/Storage.cpp.i
+
+modules/AP_HAL_STM32/Storage.s: modules/AP_HAL_STM32/Storage.cpp.s
+.PHONY : modules/AP_HAL_STM32/Storage.s
+
+# target to generate assembly for a file
+modules/AP_HAL_STM32/Storage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Storage.cpp.s
+.PHONY : modules/AP_HAL_STM32/Storage.cpp.s
+
+modules/AP_HAL_STM32/UARTDriver.obj: modules/AP_HAL_STM32/UARTDriver.cpp.obj
+.PHONY : modules/AP_HAL_STM32/UARTDriver.obj
+
+# target to build an object file
+modules/AP_HAL_STM32/UARTDriver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/UARTDriver.cpp.obj
+.PHONY : modules/AP_HAL_STM32/UARTDriver.cpp.obj
+
+modules/AP_HAL_STM32/UARTDriver.i: modules/AP_HAL_STM32/UARTDriver.cpp.i
+.PHONY : modules/AP_HAL_STM32/UARTDriver.i
+
+# target to preprocess a source file
+modules/AP_HAL_STM32/UARTDriver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/UARTDriver.cpp.i
+.PHONY : modules/AP_HAL_STM32/UARTDriver.cpp.i
+
+modules/AP_HAL_STM32/UARTDriver.s: modules/AP_HAL_STM32/UARTDriver.cpp.s
+.PHONY : modules/AP_HAL_STM32/UARTDriver.s
+
+# target to generate assembly for a file
+modules/AP_HAL_STM32/UARTDriver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/UARTDriver.cpp.s
+.PHONY : modules/AP_HAL_STM32/UARTDriver.cpp.s
+
+modules/AP_HAL_STM32/Util.obj: modules/AP_HAL_STM32/Util.cpp.obj
+.PHONY : modules/AP_HAL_STM32/Util.obj
+
+# target to build an object file
+modules/AP_HAL_STM32/Util.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Util.cpp.obj
+.PHONY : modules/AP_HAL_STM32/Util.cpp.obj
+
+modules/AP_HAL_STM32/Util.i: modules/AP_HAL_STM32/Util.cpp.i
+.PHONY : modules/AP_HAL_STM32/Util.i
+
+# target to preprocess a source file
+modules/AP_HAL_STM32/Util.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Util.cpp.i
+.PHONY : modules/AP_HAL_STM32/Util.cpp.i
+
+modules/AP_HAL_STM32/Util.s: modules/AP_HAL_STM32/Util.cpp.s
+.PHONY : modules/AP_HAL_STM32/Util.s
+
+# target to generate assembly for a file
+modules/AP_HAL_STM32/Util.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Util.cpp.s
+.PHONY : modules/AP_HAL_STM32/Util.cpp.s
+
+modules/AP_Math/AP_Math.obj: modules/AP_Math/AP_Math.cpp.obj
+.PHONY : modules/AP_Math/AP_Math.obj
+
+# target to build an object file
+modules/AP_Math/AP_Math.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/AP_Math.cpp.obj
+.PHONY : modules/AP_Math/AP_Math.cpp.obj
+
+modules/AP_Math/AP_Math.i: modules/AP_Math/AP_Math.cpp.i
+.PHONY : modules/AP_Math/AP_Math.i
+
+# target to preprocess a source file
+modules/AP_Math/AP_Math.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/AP_Math.cpp.i
+.PHONY : modules/AP_Math/AP_Math.cpp.i
+
+modules/AP_Math/AP_Math.s: modules/AP_Math/AP_Math.cpp.s
+.PHONY : modules/AP_Math/AP_Math.s
+
+# target to generate assembly for a file
+modules/AP_Math/AP_Math.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/AP_Math.cpp.s
+.PHONY : modules/AP_Math/AP_Math.cpp.s
+
+modules/AP_Math/edc.obj: modules/AP_Math/edc.cpp.obj
+.PHONY : modules/AP_Math/edc.obj
+
+# target to build an object file
+modules/AP_Math/edc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/edc.cpp.obj
+.PHONY : modules/AP_Math/edc.cpp.obj
+
+modules/AP_Math/edc.i: modules/AP_Math/edc.cpp.i
+.PHONY : modules/AP_Math/edc.i
+
+# target to preprocess a source file
+modules/AP_Math/edc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/edc.cpp.i
+.PHONY : modules/AP_Math/edc.cpp.i
+
+modules/AP_Math/edc.s: modules/AP_Math/edc.cpp.s
+.PHONY : modules/AP_Math/edc.s
+
+# target to generate assembly for a file
+modules/AP_Math/edc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/edc.cpp.s
+.PHONY : modules/AP_Math/edc.cpp.s
+
+modules/AP_Math/location.obj: modules/AP_Math/location.cpp.obj
+.PHONY : modules/AP_Math/location.obj
+
+# target to build an object file
+modules/AP_Math/location.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/location.cpp.obj
+.PHONY : modules/AP_Math/location.cpp.obj
+
+modules/AP_Math/location.i: modules/AP_Math/location.cpp.i
+.PHONY : modules/AP_Math/location.i
+
+# target to preprocess a source file
+modules/AP_Math/location.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/location.cpp.i
+.PHONY : modules/AP_Math/location.cpp.i
+
+modules/AP_Math/location.s: modules/AP_Math/location.cpp.s
+.PHONY : modules/AP_Math/location.s
+
+# target to generate assembly for a file
+modules/AP_Math/location.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/location.cpp.s
+.PHONY : modules/AP_Math/location.cpp.s
+
+modules/AP_Math/matrix3.obj: modules/AP_Math/matrix3.cpp.obj
+.PHONY : modules/AP_Math/matrix3.obj
+
+# target to build an object file
+modules/AP_Math/matrix3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/matrix3.cpp.obj
+.PHONY : modules/AP_Math/matrix3.cpp.obj
+
+modules/AP_Math/matrix3.i: modules/AP_Math/matrix3.cpp.i
+.PHONY : modules/AP_Math/matrix3.i
+
+# target to preprocess a source file
+modules/AP_Math/matrix3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/matrix3.cpp.i
+.PHONY : modules/AP_Math/matrix3.cpp.i
+
+modules/AP_Math/matrix3.s: modules/AP_Math/matrix3.cpp.s
+.PHONY : modules/AP_Math/matrix3.s
+
+# target to generate assembly for a file
+modules/AP_Math/matrix3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/matrix3.cpp.s
+.PHONY : modules/AP_Math/matrix3.cpp.s
+
+modules/AP_Math/polygon.obj: modules/AP_Math/polygon.cpp.obj
+.PHONY : modules/AP_Math/polygon.obj
+
+# target to build an object file
+modules/AP_Math/polygon.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/polygon.cpp.obj
+.PHONY : modules/AP_Math/polygon.cpp.obj
+
+modules/AP_Math/polygon.i: modules/AP_Math/polygon.cpp.i
+.PHONY : modules/AP_Math/polygon.i
+
+# target to preprocess a source file
+modules/AP_Math/polygon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/polygon.cpp.i
+.PHONY : modules/AP_Math/polygon.cpp.i
+
+modules/AP_Math/polygon.s: modules/AP_Math/polygon.cpp.s
+.PHONY : modules/AP_Math/polygon.s
+
+# target to generate assembly for a file
+modules/AP_Math/polygon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/polygon.cpp.s
+.PHONY : modules/AP_Math/polygon.cpp.s
+
+modules/AP_Math/quaternion.obj: modules/AP_Math/quaternion.cpp.obj
+.PHONY : modules/AP_Math/quaternion.obj
+
+# target to build an object file
+modules/AP_Math/quaternion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/quaternion.cpp.obj
+.PHONY : modules/AP_Math/quaternion.cpp.obj
+
+modules/AP_Math/quaternion.i: modules/AP_Math/quaternion.cpp.i
+.PHONY : modules/AP_Math/quaternion.i
+
+# target to preprocess a source file
+modules/AP_Math/quaternion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/quaternion.cpp.i
+.PHONY : modules/AP_Math/quaternion.cpp.i
+
+modules/AP_Math/quaternion.s: modules/AP_Math/quaternion.cpp.s
+.PHONY : modules/AP_Math/quaternion.s
+
+# target to generate assembly for a file
+modules/AP_Math/quaternion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/quaternion.cpp.s
+.PHONY : modules/AP_Math/quaternion.cpp.s
+
+modules/AP_Math/vector2.obj: modules/AP_Math/vector2.cpp.obj
+.PHONY : modules/AP_Math/vector2.obj
+
+# target to build an object file
+modules/AP_Math/vector2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector2.cpp.obj
+.PHONY : modules/AP_Math/vector2.cpp.obj
+
+modules/AP_Math/vector2.i: modules/AP_Math/vector2.cpp.i
+.PHONY : modules/AP_Math/vector2.i
+
+# target to preprocess a source file
+modules/AP_Math/vector2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector2.cpp.i
+.PHONY : modules/AP_Math/vector2.cpp.i
+
+modules/AP_Math/vector2.s: modules/AP_Math/vector2.cpp.s
+.PHONY : modules/AP_Math/vector2.s
+
+# target to generate assembly for a file
+modules/AP_Math/vector2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector2.cpp.s
+.PHONY : modules/AP_Math/vector2.cpp.s
+
+modules/AP_Math/vector3.obj: modules/AP_Math/vector3.cpp.obj
+.PHONY : modules/AP_Math/vector3.obj
+
+# target to build an object file
+modules/AP_Math/vector3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector3.cpp.obj
+.PHONY : modules/AP_Math/vector3.cpp.obj
+
+modules/AP_Math/vector3.i: modules/AP_Math/vector3.cpp.i
+.PHONY : modules/AP_Math/vector3.i
+
+# target to preprocess a source file
+modules/AP_Math/vector3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector3.cpp.i
+.PHONY : modules/AP_Math/vector3.cpp.i
+
+modules/AP_Math/vector3.s: modules/AP_Math/vector3.cpp.s
+.PHONY : modules/AP_Math/vector3.s
+
+# target to generate assembly for a file
+modules/AP_Math/vector3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector3.cpp.s
+.PHONY : modules/AP_Math/vector3.cpp.s
+
+modules/Filter/DerivativeFilter.obj: modules/Filter/DerivativeFilter.cpp.obj
+.PHONY : modules/Filter/DerivativeFilter.obj
+
+# target to build an object file
+modules/Filter/DerivativeFilter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/DerivativeFilter.cpp.obj
+.PHONY : modules/Filter/DerivativeFilter.cpp.obj
+
+modules/Filter/DerivativeFilter.i: modules/Filter/DerivativeFilter.cpp.i
+.PHONY : modules/Filter/DerivativeFilter.i
+
+# target to preprocess a source file
+modules/Filter/DerivativeFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/DerivativeFilter.cpp.i
+.PHONY : modules/Filter/DerivativeFilter.cpp.i
+
+modules/Filter/DerivativeFilter.s: modules/Filter/DerivativeFilter.cpp.s
+.PHONY : modules/Filter/DerivativeFilter.s
+
+# target to generate assembly for a file
+modules/Filter/DerivativeFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/DerivativeFilter.cpp.s
+.PHONY : modules/Filter/DerivativeFilter.cpp.s
+
+modules/Filter/LowPassFilter2p.obj: modules/Filter/LowPassFilter2p.cpp.obj
+.PHONY : modules/Filter/LowPassFilter2p.obj
+
+# target to build an object file
+modules/Filter/LowPassFilter2p.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/LowPassFilter2p.cpp.obj
+.PHONY : modules/Filter/LowPassFilter2p.cpp.obj
+
+modules/Filter/LowPassFilter2p.i: modules/Filter/LowPassFilter2p.cpp.i
+.PHONY : modules/Filter/LowPassFilter2p.i
+
+# target to preprocess a source file
+modules/Filter/LowPassFilter2p.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/LowPassFilter2p.cpp.i
+.PHONY : modules/Filter/LowPassFilter2p.cpp.i
+
+modules/Filter/LowPassFilter2p.s: modules/Filter/LowPassFilter2p.cpp.s
+.PHONY : modules/Filter/LowPassFilter2p.s
+
+# target to generate assembly for a file
+modules/Filter/LowPassFilter2p.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/LowPassFilter2p.cpp.s
+.PHONY : modules/Filter/LowPassFilter2p.cpp.s
+
+modules/PID/PID.obj: modules/PID/PID.cpp.obj
+.PHONY : modules/PID/PID.obj
+
+# target to build an object file
+modules/PID/PID.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/PID/PID.cpp.obj
+.PHONY : modules/PID/PID.cpp.obj
+
+modules/PID/PID.i: modules/PID/PID.cpp.i
+.PHONY : modules/PID/PID.i
+
+# target to preprocess a source file
+modules/PID/PID.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/PID/PID.cpp.i
+.PHONY : modules/PID/PID.cpp.i
+
+modules/PID/PID.s: modules/PID/PID.cpp.s
+.PHONY : modules/PID/PID.s
+
+# target to generate assembly for a file
+modules/PID/PID.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/modules/PID/PID.cpp.s
+.PHONY : modules/PID/PID.cpp.s
+
+project/test/app.obj: project/test/app.cpp.obj
+.PHONY : project/test/app.obj
+
+# target to build an object file
+project/test/app.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/test/app.cpp.obj
+.PHONY : project/test/app.cpp.obj
+
+project/test/app.i: project/test/app.cpp.i
+.PHONY : project/test/app.i
+
+# target to preprocess a source file
+project/test/app.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/test/app.cpp.i
+.PHONY : project/test/app.cpp.i
+
+project/test/app.s: project/test/app.cpp.s
+.PHONY : project/test/app.s
+
+# target to generate assembly for a file
+project/test/app.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/test/app.cpp.s
+.PHONY : project/test/app.cpp.s
+
+project/test/test.obj: project/test/test.cpp.obj
+.PHONY : project/test/test.obj
+
+# target to build an object file
+project/test/test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/test/test.cpp.obj
+.PHONY : project/test/test.cpp.obj
+
+project/test/test.i: project/test/test.cpp.i
+.PHONY : project/test/test.i
+
+# target to preprocess a source file
+project/test/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/test/test.cpp.i
+.PHONY : project/test/test.cpp.i
+
+project/test/test.s: project/test/test.cpp.s
+.PHONY : project/test/test.s
+
+# target to generate assembly for a file
+project/test/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/test/test.cpp.s
+.PHONY : project/test/test.cpp.s
+
 src/debug/backtrace.obj: src/debug/backtrace.c.obj
 .PHONY : src/debug/backtrace.obj
 
@@ -14917,6 +16309,12 @@ help:
 	@echo ... framework/MiniShell.obj
 	@echo ... framework/MiniShell.i
 	@echo ... framework/MiniShell.s
+	@echo ... framework/UnityManager.obj
+	@echo ... framework/UnityManager.i
+	@echo ... framework/UnityManager.s
+	@echo ... framework/littlefsManager.obj
+	@echo ... framework/littlefsManager.i
+	@echo ... framework/littlefsManager.s
 	@echo ... framework/platform_init.obj
 	@echo ... framework/platform_init.i
 	@echo ... framework/platform_init.s
@@ -15062,6 +16460,30 @@ help:
 	@echo ... libs/easylogger/src/elog_utils.obj
 	@echo ... libs/easylogger/src/elog_utils.i
 	@echo ... libs/easylogger/src/elog_utils.s
+	@echo ... libs/gtest/src/gtest-all.obj
+	@echo ... libs/gtest/src/gtest-all.i
+	@echo ... libs/gtest/src/gtest-all.s
+	@echo ... libs/gtest/src/gtest-death-test.obj
+	@echo ... libs/gtest/src/gtest-death-test.i
+	@echo ... libs/gtest/src/gtest-death-test.s
+	@echo ... libs/gtest/src/gtest-filepath.obj
+	@echo ... libs/gtest/src/gtest-filepath.i
+	@echo ... libs/gtest/src/gtest-filepath.s
+	@echo ... libs/gtest/src/gtest-port.obj
+	@echo ... libs/gtest/src/gtest-port.i
+	@echo ... libs/gtest/src/gtest-port.s
+	@echo ... libs/gtest/src/gtest-printers.obj
+	@echo ... libs/gtest/src/gtest-printers.i
+	@echo ... libs/gtest/src/gtest-printers.s
+	@echo ... libs/gtest/src/gtest-test-part.obj
+	@echo ... libs/gtest/src/gtest-test-part.i
+	@echo ... libs/gtest/src/gtest-test-part.s
+	@echo ... libs/gtest/src/gtest-typed-test.obj
+	@echo ... libs/gtest/src/gtest-typed-test.i
+	@echo ... libs/gtest/src/gtest-typed-test.s
+	@echo ... libs/gtest/src/gtest.obj
+	@echo ... libs/gtest/src/gtest.i
+	@echo ... libs/gtest/src/gtest.s
 	@echo ... libs/lettershell/cmd_ping.obj
 	@echo ... libs/lettershell/cmd_ping.i
 	@echo ... libs/lettershell/cmd_ping.s
@@ -15083,6 +16505,12 @@ help:
 	@echo ... libs/lettershell/shell_fs.obj
 	@echo ... libs/lettershell/shell_fs.i
 	@echo ... libs/lettershell/shell_fs.s
+	@echo ... libs/littlefs/lfs.obj
+	@echo ... libs/littlefs/lfs.i
+	@echo ... libs/littlefs/lfs.s
+	@echo ... libs/littlefs/lfs_util.obj
+	@echo ... libs/littlefs/lfs_util.i
+	@echo ... libs/littlefs/lfs_util.s
 	@echo ... libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.obj
 	@echo ... libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.i
 	@echo ... libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.s
@@ -16451,6 +17879,144 @@ help:
 	@echo ... libs/unity/unity.obj
 	@echo ... libs/unity/unity.i
 	@echo ... libs/unity/unity.s
+	@echo ... modules/AP_HAL/UARTDriver.obj
+	@echo ... modules/AP_HAL/UARTDriver.i
+	@echo ... modules/AP_HAL/UARTDriver.s
+	@echo ... modules/AP_HAL/Util.obj
+	@echo ... modules/AP_HAL/Util.i
+	@echo ... modules/AP_HAL/Util.s
+	@echo ... modules/AP_HAL/utility/Print.obj
+	@echo ... modules/AP_HAL/utility/Print.i
+	@echo ... modules/AP_HAL/utility/Print.s
+	@echo ... modules/AP_HAL/utility/ftoa_engine.obj
+	@echo ... modules/AP_HAL/utility/ftoa_engine.i
+	@echo ... modules/AP_HAL/utility/ftoa_engine.s
+	@echo ... modules/AP_HAL/utility/print_vprintf.obj
+	@echo ... modules/AP_HAL/utility/print_vprintf.i
+	@echo ... modules/AP_HAL/utility/print_vprintf.s
+	@echo ... modules/AP_HAL/utility/utoa_invert.obj
+	@echo ... modules/AP_HAL/utility/utoa_invert.i
+	@echo ... modules/AP_HAL/utility/utoa_invert.s
+	@echo ... modules/AP_HAL_Empty/AnalogIn.obj
+	@echo ... modules/AP_HAL_Empty/AnalogIn.i
+	@echo ... modules/AP_HAL_Empty/AnalogIn.s
+	@echo ... modules/AP_HAL_Empty/GPIO.obj
+	@echo ... modules/AP_HAL_Empty/GPIO.i
+	@echo ... modules/AP_HAL_Empty/GPIO.s
+	@echo ... modules/AP_HAL_Empty/HAL_Empty_Class.obj
+	@echo ... modules/AP_HAL_Empty/HAL_Empty_Class.i
+	@echo ... modules/AP_HAL_Empty/HAL_Empty_Class.s
+	@echo ... modules/AP_HAL_Empty/I2CDriver.obj
+	@echo ... modules/AP_HAL_Empty/I2CDriver.i
+	@echo ... modules/AP_HAL_Empty/I2CDriver.s
+	@echo ... modules/AP_HAL_Empty/Mutex.obj
+	@echo ... modules/AP_HAL_Empty/Mutex.i
+	@echo ... modules/AP_HAL_Empty/Mutex.s
+	@echo ... modules/AP_HAL_Empty/PrivateMember.obj
+	@echo ... modules/AP_HAL_Empty/PrivateMember.i
+	@echo ... modules/AP_HAL_Empty/PrivateMember.s
+	@echo ... modules/AP_HAL_Empty/RCInput.obj
+	@echo ... modules/AP_HAL_Empty/RCInput.i
+	@echo ... modules/AP_HAL_Empty/RCInput.s
+	@echo ... modules/AP_HAL_Empty/RCOutput.obj
+	@echo ... modules/AP_HAL_Empty/RCOutput.i
+	@echo ... modules/AP_HAL_Empty/RCOutput.s
+	@echo ... modules/AP_HAL_Empty/SPIDriver.obj
+	@echo ... modules/AP_HAL_Empty/SPIDriver.i
+	@echo ... modules/AP_HAL_Empty/SPIDriver.s
+	@echo ... modules/AP_HAL_Empty/Scheduler.obj
+	@echo ... modules/AP_HAL_Empty/Scheduler.i
+	@echo ... modules/AP_HAL_Empty/Scheduler.s
+	@echo ... modules/AP_HAL_Empty/Semaphores.obj
+	@echo ... modules/AP_HAL_Empty/Semaphores.i
+	@echo ... modules/AP_HAL_Empty/Semaphores.s
+	@echo ... modules/AP_HAL_Empty/Storage.obj
+	@echo ... modules/AP_HAL_Empty/Storage.i
+	@echo ... modules/AP_HAL_Empty/Storage.s
+	@echo ... modules/AP_HAL_Empty/UARTDriver.obj
+	@echo ... modules/AP_HAL_Empty/UARTDriver.i
+	@echo ... modules/AP_HAL_Empty/UARTDriver.s
+	@echo ... modules/AP_HAL_STM32/AnalogIn.obj
+	@echo ... modules/AP_HAL_STM32/AnalogIn.i
+	@echo ... modules/AP_HAL_STM32/AnalogIn.s
+	@echo ... modules/AP_HAL_STM32/GPIO.obj
+	@echo ... modules/AP_HAL_STM32/GPIO.i
+	@echo ... modules/AP_HAL_STM32/GPIO.s
+	@echo ... modules/AP_HAL_STM32/HAL_STM32_Class.obj
+	@echo ... modules/AP_HAL_STM32/HAL_STM32_Class.i
+	@echo ... modules/AP_HAL_STM32/HAL_STM32_Class.s
+	@echo ... modules/AP_HAL_STM32/I2CDriver.obj
+	@echo ... modules/AP_HAL_STM32/I2CDriver.i
+	@echo ... modules/AP_HAL_STM32/I2CDriver.s
+	@echo ... modules/AP_HAL_STM32/Mutex.obj
+	@echo ... modules/AP_HAL_STM32/Mutex.i
+	@echo ... modules/AP_HAL_STM32/Mutex.s
+	@echo ... modules/AP_HAL_STM32/PrivateMember.obj
+	@echo ... modules/AP_HAL_STM32/PrivateMember.i
+	@echo ... modules/AP_HAL_STM32/PrivateMember.s
+	@echo ... modules/AP_HAL_STM32/RCInput.obj
+	@echo ... modules/AP_HAL_STM32/RCInput.i
+	@echo ... modules/AP_HAL_STM32/RCInput.s
+	@echo ... modules/AP_HAL_STM32/RCOutput.obj
+	@echo ... modules/AP_HAL_STM32/RCOutput.i
+	@echo ... modules/AP_HAL_STM32/RCOutput.s
+	@echo ... modules/AP_HAL_STM32/SPIDriver.obj
+	@echo ... modules/AP_HAL_STM32/SPIDriver.i
+	@echo ... modules/AP_HAL_STM32/SPIDriver.s
+	@echo ... modules/AP_HAL_STM32/Scheduler.obj
+	@echo ... modules/AP_HAL_STM32/Scheduler.i
+	@echo ... modules/AP_HAL_STM32/Scheduler.s
+	@echo ... modules/AP_HAL_STM32/Semaphores.obj
+	@echo ... modules/AP_HAL_STM32/Semaphores.i
+	@echo ... modules/AP_HAL_STM32/Semaphores.s
+	@echo ... modules/AP_HAL_STM32/Storage.obj
+	@echo ... modules/AP_HAL_STM32/Storage.i
+	@echo ... modules/AP_HAL_STM32/Storage.s
+	@echo ... modules/AP_HAL_STM32/UARTDriver.obj
+	@echo ... modules/AP_HAL_STM32/UARTDriver.i
+	@echo ... modules/AP_HAL_STM32/UARTDriver.s
+	@echo ... modules/AP_HAL_STM32/Util.obj
+	@echo ... modules/AP_HAL_STM32/Util.i
+	@echo ... modules/AP_HAL_STM32/Util.s
+	@echo ... modules/AP_Math/AP_Math.obj
+	@echo ... modules/AP_Math/AP_Math.i
+	@echo ... modules/AP_Math/AP_Math.s
+	@echo ... modules/AP_Math/edc.obj
+	@echo ... modules/AP_Math/edc.i
+	@echo ... modules/AP_Math/edc.s
+	@echo ... modules/AP_Math/location.obj
+	@echo ... modules/AP_Math/location.i
+	@echo ... modules/AP_Math/location.s
+	@echo ... modules/AP_Math/matrix3.obj
+	@echo ... modules/AP_Math/matrix3.i
+	@echo ... modules/AP_Math/matrix3.s
+	@echo ... modules/AP_Math/polygon.obj
+	@echo ... modules/AP_Math/polygon.i
+	@echo ... modules/AP_Math/polygon.s
+	@echo ... modules/AP_Math/quaternion.obj
+	@echo ... modules/AP_Math/quaternion.i
+	@echo ... modules/AP_Math/quaternion.s
+	@echo ... modules/AP_Math/vector2.obj
+	@echo ... modules/AP_Math/vector2.i
+	@echo ... modules/AP_Math/vector2.s
+	@echo ... modules/AP_Math/vector3.obj
+	@echo ... modules/AP_Math/vector3.i
+	@echo ... modules/AP_Math/vector3.s
+	@echo ... modules/Filter/DerivativeFilter.obj
+	@echo ... modules/Filter/DerivativeFilter.i
+	@echo ... modules/Filter/DerivativeFilter.s
+	@echo ... modules/Filter/LowPassFilter2p.obj
+	@echo ... modules/Filter/LowPassFilter2p.i
+	@echo ... modules/Filter/LowPassFilter2p.s
+	@echo ... modules/PID/PID.obj
+	@echo ... modules/PID/PID.i
+	@echo ... modules/PID/PID.s
+	@echo ... project/test/app.obj
+	@echo ... project/test/app.i
+	@echo ... project/test/app.s
+	@echo ... project/test/test.obj
+	@echo ... project/test/test.i
+	@echo ... project/test/test.s
 	@echo ... src/debug/backtrace.obj
 	@echo ... src/debug/backtrace.i
 	@echo ... src/debug/backtrace.s

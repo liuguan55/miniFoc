@@ -30,7 +30,7 @@ static uint8_t usart1_Rxbuffer[USART_RXBUFFER_SIZE] = {0};
 static lwrb_t usart1_lwrbHandle;
 static uint8_t usart1_lwrbBuffer[LWRB_BUFFER_SIZE] = {0};
 
-lwrb_t * Mini_getlwrbHandle(void)
+lwrb_t * Mini_getlwrbHandle(uint8_t usart_num)
 {
   return &usart1_lwrbHandle;
 }
@@ -66,6 +66,10 @@ void MX_USART1_UART_Init(void) {
   HAL_UART_Receive_IT(&huart1, usart1_Rxbuffer, sizeof(usart1_Rxbuffer));
   /* USER CODE END USART1_Init 2 */
 
+}
+
+void HAL_UART_Enable_Rx_IT(UART_HandleTypeDef *huart) {
+    HAL_UART_Receive_IT(huart, usart1_Rxbuffer, sizeof(usart1_Rxbuffer));
 }
 
 void HAL_UART_MspInit(UART_HandleTypeDef *uartHandle) {

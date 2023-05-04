@@ -32,7 +32,7 @@ SET(COMMON_FLAGS
 SET(COMMON_LDFLAGS "-Wl,--wrap,_malloc_r -Wl,--wrap,_realloc_r -Wl,--wrap,_free_r \
         -Wl,--wrap,gettimeofday -Wl,--wrap,settimeofday -Wl,--wrap,time")
 
-SET(CMAKE_CXX_FLAGS "${COMMON_FLAGS} -std=c++11 ")
+SET(CMAKE_CXX_FLAGS "${COMMON_FLAGS} -std=c++11")
 SET(CMAKE_C_FLAGS "${COMMON_FLAGS} -std=gnu99 ")
 SET(CMAKE_EXE_LINKER_FLAGS "-Wl,-gc-sections,--print-memory-usage -T ${LINKER_SCRIPT}")
 
@@ -49,9 +49,11 @@ file(GLOB_RECURSE SOURCES "Core/*.*" "FATFS/*.*" "Middlewares/*.*" "Drivers/*.*"
         "Device/*.*"
         "framework/*.*"
         "src/*.*"
+        "modules/*.*"
+        "project/*.*"
         )
 
-include_directories(include/ libc/ framework/ Device/ libs/sfud/inc libs/ libs/cm_backtrace libs/easyflash libs/easyflash/inc libs/easylogger libs/easylogger/inc GUI/ Core/Inc FATFS/Target FATFS/App USB_DEVICE/App USB_DEVICE/Target Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Middlewares/Third_Party/FreeRTOS/Source/include Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F Middlewares/Third_Party/FatFs/src Middlewares/ST/STM32_USB_Device_Library/Core/Inc Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include)
+include_directories(include/ project/ modules/ libc/ framework/ Device/ libs/sfud/inc libs/ libs/cm_backtrace libs/easyflash libs/easyflash/inc libs/easylogger libs/easylogger/inc GUI/ Core Core/Inc FATFS/Target FATFS/App USB_DEVICE/App USB_DEVICE/Target Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Middlewares/Third_Party/FreeRTOS/Source/include Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F Middlewares/Third_Party/FatFs/src Middlewares/ST/STM32_USB_Device_Library/Core/Inc Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include)
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
 

@@ -12,14 +12,6 @@
 #undef LOG_TAG
 #define LOG_TAG "COMMON"
 
-uint32_t MiniCommon_millis(void) {
-  return osKernelGetTickCount();
-}
-
-void MiniCommon_delayMs(uint32_t ms) {
-  osDelay(ms);
-}
-
 void MiniCommon_led1On(int on) {
   if (on) {
     HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
@@ -29,18 +21,6 @@ void MiniCommon_led1On(int on) {
 }
 void MiniCommon_led1Toggle(void) {
   HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-}
-
-void MiniCommon_led2On(int on) {
-
-}
-void MiniCommon_led2Toggle(void) {
-}
-
-void MiniCommon_le31On(int on) {
-
-}
-void MiniCommon_led3Toggle(void) {
 }
 
 void *MiniCommon_malloc(size_t size) {

@@ -450,9 +450,9 @@ fsm_create (fsm_t **fsm,
      * default a name if needed
      */
     if (name) {
-        strncpy(temp_fsm->fsm_name, name, FSM_NAME_LEN);
+        strncpy(temp_fsm->fsm_name, name, FSM_NAME_LEN - 1);
     } else {
-        strncpy(temp_fsm->fsm_name, "State Machine", FSM_NAME_LEN);
+        strncpy(temp_fsm->fsm_name, "State Machine", FSM_NAME_LEN - 1);
     }
 
     /*

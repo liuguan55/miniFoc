@@ -1,23 +1,4 @@
-/*
- * @Author: liuguan
- * @Date: 2022-06-14 15:48:49
- * @LastEditors: liuguan
- * @LastEditTime: 2022-07-16 23:00:21
- * @FilePath: /esp8266-rtos/src/espShell.c
- * @Description: 
- * 
- * Copyright (c) 2022 by liuguan, All Rights Reserved. 
- */
-/*
- * @Author: liuguan
- * @Date: 2022-06-14 15:48:49
- * @LastEditors: liuguan
- * @LastEditTime: 2022-06-14 15:48:50
- * @FilePath: /esp8266-rtos/src/espShell.c
- * @Description: 
- * 
- * Copyright (c) 2022 by liuguan, All Rights Reserved. 
- */
+
 /**
  * Copyright 2022 dengzhijun
  * 

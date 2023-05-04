@@ -1316,10 +1316,38 @@ CMakeFiles/miniFoc_F4.elf.dir/framework/MiniShell.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniFoc_F4.elf.dir/framework/MiniShell.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\work\framework\MiniShell.c -o CMakeFiles\miniFoc_F4.elf.dir\framework\MiniShell.c.s
 
+CMakeFiles/miniFoc_F4.elf.dir/framework/UnityManager.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/framework/UnityManager.c.obj: D:/work/framework/UnityManager.c
+CMakeFiles/miniFoc_F4.elf.dir/framework/UnityManager.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/miniFoc_F4.elf.dir/framework/UnityManager.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/framework/UnityManager.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\framework\UnityManager.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\framework\UnityManager.c.obj -c D:\work\framework\UnityManager.c
+
+CMakeFiles/miniFoc_F4.elf.dir/framework/UnityManager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniFoc_F4.elf.dir/framework/UnityManager.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\work\framework\UnityManager.c > CMakeFiles\miniFoc_F4.elf.dir\framework\UnityManager.c.i
+
+CMakeFiles/miniFoc_F4.elf.dir/framework/UnityManager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniFoc_F4.elf.dir/framework/UnityManager.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\work\framework\UnityManager.c -o CMakeFiles\miniFoc_F4.elf.dir\framework\UnityManager.c.s
+
+CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.obj: D:/work/framework/littlefsManager.c
+CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\framework\littlefsManager.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\framework\littlefsManager.c.obj -c D:\work\framework\littlefsManager.c
+
+CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\work\framework\littlefsManager.c > CMakeFiles\miniFoc_F4.elf.dir\framework\littlefsManager.c.i
+
+CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\work\framework\littlefsManager.c -o CMakeFiles\miniFoc_F4.elf.dir\framework\littlefsManager.c.s
+
 CMakeFiles/miniFoc_F4.elf.dir/framework/platform_init.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/framework/platform_init.c.obj: D:/work/framework/platform_init.c
 CMakeFiles/miniFoc_F4.elf.dir/framework/platform_init.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/miniFoc_F4.elf.dir/framework/platform_init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/miniFoc_F4.elf.dir/framework/platform_init.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/framework/platform_init.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\framework\platform_init.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\framework\platform_init.c.obj -c D:\work\framework\platform_init.c
 
 CMakeFiles/miniFoc_F4.elf.dir/framework/platform_init.c.i: cmake_force
@@ -1333,7 +1361,7 @@ CMakeFiles/miniFoc_F4.elf.dir/framework/platform_init.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/EFSM/fsm.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/EFSM/fsm.c.obj: D:/work/libs/EFSM/fsm.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/EFSM/fsm.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/EFSM/fsm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/EFSM/fsm.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/EFSM/fsm.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\EFSM\fsm.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\EFSM\fsm.c.obj -c D:\work\libs\EFSM\fsm.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/EFSM/fsm.c.i: cmake_force
@@ -1347,7 +1375,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/EFSM/fsm.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/BLDCMotor.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/BLDCMotor.c.obj: D:/work/libs/MiniFoc/BLDCMotor.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/BLDCMotor.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/BLDCMotor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/BLDCMotor.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/BLDCMotor.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\BLDCMotor.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\BLDCMotor.c.obj -c D:\work\libs\MiniFoc\BLDCMotor.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/BLDCMotor.c.i: cmake_force
@@ -1361,7 +1389,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/BLDCMotor.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/CurrentSense.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/CurrentSense.c.obj: D:/work/libs/MiniFoc/CurrentSense.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/CurrentSense.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/CurrentSense.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/CurrentSense.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/CurrentSense.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\CurrentSense.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\CurrentSense.c.obj -c D:\work\libs\MiniFoc\CurrentSense.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/CurrentSense.c.i: cmake_force
@@ -1375,7 +1403,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/CurrentSense.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/FOCMotor.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/FOCMotor.c.obj: D:/work/libs/MiniFoc/FOCMotor.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/FOCMotor.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/FOCMotor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/FOCMotor.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/FOCMotor.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\FOCMotor.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\FOCMotor.c.obj -c D:\work\libs\MiniFoc\FOCMotor.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/FOCMotor.c.i: cmake_force
@@ -1389,7 +1417,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/FOCMotor.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/MiniFoc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/MiniFoc.c.obj: D:/work/libs/MiniFoc/MiniFoc.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/MiniFoc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/MiniFoc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/MiniFoc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/MiniFoc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\MiniFoc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\MiniFoc.c.obj -c D:\work\libs\MiniFoc\MiniFoc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/MiniFoc.c.i: cmake_force
@@ -1403,7 +1431,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/MiniFoc.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/StepperMotor.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/StepperMotor.c.obj: D:/work/libs/MiniFoc/StepperMotor.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/StepperMotor.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/StepperMotor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/StepperMotor.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/StepperMotor.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\StepperMotor.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\StepperMotor.c.obj -c D:\work\libs\MiniFoc\StepperMotor.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/StepperMotor.c.i: cmake_force
@@ -1417,7 +1445,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/StepperMotor.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/core/list.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/core/list.c.obj: D:/work/libs/MiniFoc/core/list.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/core/list.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/core/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/core/list.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/core/list.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\core\list.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\core\list.c.obj -c D:\work\libs\MiniFoc\core\list.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/core/list.c.i: cmake_force
@@ -1431,7 +1459,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/core/list.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/Current.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/Current.c.obj: D:/work/libs/MiniFoc/current/Current.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/Current.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/Current.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/Current.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/Current.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\current\Current.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\current\Current.c.obj -c D:\work\libs\MiniFoc\current\Current.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/Current.c.i: cmake_force
@@ -1445,7 +1473,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/Current.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/inlineCurrentSense.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/inlineCurrentSense.c.obj: D:/work/libs/MiniFoc/current/inlineCurrentSense.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/inlineCurrentSense.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/inlineCurrentSense.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/inlineCurrentSense.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/inlineCurrentSense.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\current\inlineCurrentSense.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\current\inlineCurrentSense.c.obj -c D:\work\libs\MiniFoc\current\inlineCurrentSense.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/inlineCurrentSense.c.i: cmake_force
@@ -1459,7 +1487,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/current/inlineCurrentSense.c.s: cmake
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver.c.obj: D:/work/libs/MiniFoc/driver/driver.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\driver\driver.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\driver\driver.c.obj -c D:\work\libs\MiniFoc\driver\driver.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver.c.i: cmake_force
@@ -1473,7 +1501,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver2Pwm.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver2Pwm.c.obj: D:/work/libs/MiniFoc/driver/driver2Pwm.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver2Pwm.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver2Pwm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver2Pwm.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver2Pwm.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\driver\driver2Pwm.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\driver\driver2Pwm.c.obj -c D:\work\libs\MiniFoc\driver\driver2Pwm.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver2Pwm.c.i: cmake_force
@@ -1487,7 +1515,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver2Pwm.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver3Pwm.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver3Pwm.c.obj: D:/work/libs/MiniFoc/driver/driver3Pwm.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver3Pwm.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver3Pwm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver3Pwm.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver3Pwm.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\driver\driver3Pwm.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\driver\driver3Pwm.c.obj -c D:\work\libs\MiniFoc\driver\driver3Pwm.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver3Pwm.c.i: cmake_force
@@ -1501,7 +1529,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver3Pwm.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver4Pwm.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver4Pwm.c.obj: D:/work/libs/MiniFoc/driver/driver4Pwm.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver4Pwm.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver4Pwm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver4Pwm.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver4Pwm.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\driver\driver4Pwm.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\driver\driver4Pwm.c.obj -c D:\work\libs\MiniFoc\driver\driver4Pwm.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver4Pwm.c.i: cmake_force
@@ -1515,7 +1543,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver4Pwm.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver6Pwm.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver6Pwm.c.obj: D:/work/libs/MiniFoc/driver/driver6Pwm.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver6Pwm.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver6Pwm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver6Pwm.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver6Pwm.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\driver\driver6Pwm.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\driver\driver6Pwm.c.obj -c D:\work\libs\MiniFoc\driver\driver6Pwm.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver6Pwm.c.i: cmake_force
@@ -1529,7 +1557,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/driver/driver6Pwm.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/foc_utils.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/foc_utils.c.obj: D:/work/libs/MiniFoc/foc_utils.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/foc_utils.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/foc_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/foc_utils.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/foc_utils.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\foc_utils.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\foc_utils.c.obj -c D:\work\libs\MiniFoc\foc_utils.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/foc_utils.c.i: cmake_force
@@ -1543,7 +1571,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/foc_utils.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/lowpass_filter.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/lowpass_filter.c.obj: D:/work/libs/MiniFoc/lowpass_filter.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/lowpass_filter.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/lowpass_filter.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/lowpass_filter.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/lowpass_filter.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\lowpass_filter.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\lowpass_filter.c.obj -c D:\work\libs\MiniFoc\lowpass_filter.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/lowpass_filter.c.i: cmake_force
@@ -1557,7 +1585,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/lowpass_filter.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/pid.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/pid.c.obj: D:/work/libs/MiniFoc/pid.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/pid.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/pid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/pid.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/pid.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\pid.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\pid.c.obj -c D:\work\libs\MiniFoc\pid.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/pid.c.i: cmake_force
@@ -1571,7 +1599,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/pid.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/platorm/stm32/hal_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/platorm/stm32/hal_port.c.obj: D:/work/libs/MiniFoc/platorm/stm32/hal_port.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/platorm/stm32/hal_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/platorm/stm32/hal_port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/platorm/stm32/hal_port.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/platorm/stm32/hal_port.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\platorm\stm32\hal_port.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\platorm\stm32\hal_port.c.obj -c D:\work\libs\MiniFoc\platorm\stm32\hal_port.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/platorm/stm32/hal_port.c.i: cmake_force
@@ -1585,7 +1613,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/platorm/stm32/hal_port.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor.c.obj: D:/work/libs/MiniFoc/sensor/Sensor.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor.c.obj -c D:\work\libs\MiniFoc\sensor\Sensor.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor.c.i: cmake_force
@@ -1599,7 +1627,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5047p.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5047p.c.obj: D:/work/libs/MiniFoc/sensor/Sensor_AS5047p.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5047p.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5047p.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5047p.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5047p.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_AS5047p.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_AS5047p.c.obj -c D:\work\libs\MiniFoc\sensor\Sensor_AS5047p.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5047p.c.i: cmake_force
@@ -1613,7 +1641,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5047p.c.s: cmake_forc
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5048A.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5048A.c.obj: D:/work/libs/MiniFoc/sensor/Sensor_AS5048A.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5048A.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5048A.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5048A.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5048A.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_AS5048A.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_AS5048A.c.obj -c D:\work\libs\MiniFoc\sensor\Sensor_AS5048A.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5048A.c.i: cmake_force
@@ -1627,7 +1655,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5048A.c.s: cmake_forc
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600.c.obj: D:/work/libs/MiniFoc/sensor/Sensor_AS5600.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_AS5600.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_AS5600.c.obj -c D:\work\libs\MiniFoc\sensor\Sensor_AS5600.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600.c.i: cmake_force
@@ -1641,7 +1669,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600Analog.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600Analog.c.obj: D:/work/libs/MiniFoc/sensor/Sensor_AS5600Analog.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600Analog.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600Analog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600Analog.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600Analog.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_AS5600Analog.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_AS5600Analog.c.obj -c D:\work\libs\MiniFoc\sensor\Sensor_AS5600Analog.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600Analog.c.i: cmake_force
@@ -1655,7 +1683,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_AS5600Analog.c.s: cmake
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_MA730.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_MA730.c.obj: D:/work/libs/MiniFoc/sensor/Sensor_MA730.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_MA730.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_MA730.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_MA730.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_MA730.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_MA730.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_MA730.c.obj -c D:\work\libs\MiniFoc\sensor\Sensor_MA730.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_MA730.c.i: cmake_force
@@ -1669,7 +1697,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_MA730.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_TLE5012B.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_TLE5012B.c.obj: D:/work/libs/MiniFoc/sensor/Sensor_TLE5012B.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_TLE5012B.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_TLE5012B.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_TLE5012B.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_TLE5012B.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_TLE5012B.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_TLE5012B.c.obj -c D:\work\libs\MiniFoc\sensor\Sensor_TLE5012B.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_TLE5012B.c.i: cmake_force
@@ -1683,7 +1711,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_TLE5012B.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_encoder.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_encoder.c.obj: D:/work/libs/MiniFoc/sensor/Sensor_encoder.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_encoder.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_encoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_encoder.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_encoder.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_encoder.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_encoder.c.obj -c D:\work\libs\MiniFoc\sensor\Sensor_encoder.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_encoder.c.i: cmake_force
@@ -1697,7 +1725,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_encoder.c.s: cmake_forc
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_hall.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_hall.c.obj: D:/work/libs/MiniFoc/sensor/Sensor_hall.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_hall.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_hall.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_hall.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_hall.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_hall.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\MiniFoc\sensor\Sensor_hall.c.obj -c D:\work\libs\MiniFoc\sensor\Sensor_hall.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_hall.c.i: cmake_force
@@ -1711,7 +1739,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/sensor/Sensor_hall.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/cQueue/cQueue.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/cQueue/cQueue.c.obj: D:/work/libs/cQueue/cQueue.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/cQueue/cQueue.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/cQueue/cQueue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/cQueue/cQueue.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/cQueue/cQueue.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\cQueue\cQueue.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\cQueue\cQueue.c.obj -c D:\work\libs\cQueue\cQueue.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/cQueue/cQueue.c.i: cmake_force
@@ -1725,7 +1753,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/cQueue/cQueue.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/cm_backtrace/cm_backtrace.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/cm_backtrace/cm_backtrace.c.obj: D:/work/libs/cm_backtrace/cm_backtrace.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/cm_backtrace/cm_backtrace.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/cm_backtrace/cm_backtrace.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/cm_backtrace/cm_backtrace.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/cm_backtrace/cm_backtrace.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\cm_backtrace\cm_backtrace.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\cm_backtrace\cm_backtrace.c.obj -c D:\work\libs\cm_backtrace\cm_backtrace.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/cm_backtrace/cm_backtrace.c.i: cmake_force
@@ -1738,7 +1766,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/cm_backtrace/cm_backtrace.c.s: cmake_force
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj: D:/work/libs/cm_backtrace/fault_handler/gcc/cmb_fault.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building ASM object CMakeFiles/miniFoc_F4.elf.dir/libs/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building ASM object CMakeFiles/miniFoc_F4.elf.dir/libs/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\miniFoc_F4.elf.dir\libs\cm_backtrace\fault_handler\gcc\cmb_fault.S.obj -c D:\work\libs\cm_backtrace\fault_handler\gcc\cmb_fault.S
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/cm_backtrace/fault_handler/gcc/cmb_fault.S.i: cmake_force
@@ -1752,7 +1780,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/cm_backtrace/fault_handler/gcc/cmb_fault.S.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/ef_types.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/ef_types.c.obj: D:/work/libs/easyflash/plugins/types/ef_types.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/ef_types.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/ef_types.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/ef_types.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/ef_types.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\plugins\types\ef_types.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\plugins\types\ef_types.c.obj -c D:\work\libs\easyflash\plugins\types\ef_types.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/ef_types.c.i: cmake_force
@@ -1766,7 +1794,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/ef_types.c.s: cmake_f
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/cJSON.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/cJSON.c.obj: D:/work/libs/easyflash/plugins/types/struct2json/src/cJSON.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/cJSON.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/cJSON.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/cJSON.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/cJSON.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\plugins\types\struct2json\src\cJSON.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\plugins\types\struct2json\src\cJSON.c.obj -c D:\work\libs\easyflash\plugins\types\struct2json\src\cJSON.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/cJSON.c.i: cmake_force
@@ -1780,7 +1808,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/cJSON
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/s2j.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/s2j.c.obj: D:/work/libs/easyflash/plugins/types/struct2json/src/s2j.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/s2j.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/s2j.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/s2j.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/s2j.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\plugins\types\struct2json\src\s2j.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\plugins\types\struct2json\src\s2j.c.obj -c D:\work\libs\easyflash\plugins\types\struct2json\src\s2j.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/s2j.c.i: cmake_force
@@ -1794,7 +1822,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/plugins/types/struct2json/src/s2j.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/port/ef_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/port/ef_port.c.obj: D:/work/libs/easyflash/port/ef_port.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/port/ef_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/port/ef_port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/port/ef_port.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/port/ef_port.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\port\ef_port.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\port\ef_port.c.obj -c D:\work\libs\easyflash\port\ef_port.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/port/ef_port.c.i: cmake_force
@@ -1808,7 +1836,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/port/ef_port.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/easyflash.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/easyflash.c.obj: D:/work/libs/easyflash/src/easyflash.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/easyflash.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/easyflash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/easyflash.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/easyflash.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\src\easyflash.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\src\easyflash.c.obj -c D:\work\libs\easyflash\src\easyflash.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/easyflash.c.i: cmake_force
@@ -1822,7 +1850,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/easyflash.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env.c.obj: D:/work/libs/easyflash/src/ef_env.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\src\ef_env.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\src\ef_env.c.obj -c D:\work\libs\easyflash\src\ef_env.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env.c.i: cmake_force
@@ -1836,7 +1864,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy.c.obj: D:/work/libs/easyflash/src/ef_env_legacy.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\src\ef_env_legacy.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\src\ef_env_legacy.c.obj -c D:\work\libs\easyflash\src\ef_env_legacy.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy.c.i: cmake_force
@@ -1850,7 +1878,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy_wl.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy_wl.c.obj: D:/work/libs/easyflash/src/ef_env_legacy_wl.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy_wl.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy_wl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy_wl.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy_wl.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\src\ef_env_legacy_wl.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\src\ef_env_legacy_wl.c.obj -c D:\work\libs\easyflash\src\ef_env_legacy_wl.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy_wl.c.i: cmake_force
@@ -1864,7 +1892,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_env_legacy_wl.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_iap.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_iap.c.obj: D:/work/libs/easyflash/src/ef_iap.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_iap.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_iap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_iap.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_iap.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\src\ef_iap.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\src\ef_iap.c.obj -c D:\work\libs\easyflash\src\ef_iap.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_iap.c.i: cmake_force
@@ -1878,7 +1906,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_iap.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_log.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_log.c.obj: D:/work/libs/easyflash/src/ef_log.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_log.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_log.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_log.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_log.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\src\ef_log.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\src\ef_log.c.obj -c D:\work\libs\easyflash\src\ef_log.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_log.c.i: cmake_force
@@ -1892,7 +1920,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_log.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_utils.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_utils.c.obj: D:/work/libs/easyflash/src/ef_utils.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_utils.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_utils.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_utils.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\src\ef_utils.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easyflash\src\ef_utils.c.obj -c D:\work\libs\easyflash\src\ef_utils.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_utils.c.i: cmake_force
@@ -1906,7 +1934,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easyflash/src/ef_utils.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash.c.obj: D:/work/libs/easylogger/plugins/flash/elog_flash.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easylogger\plugins\flash\elog_flash.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easylogger\plugins\flash\elog_flash.c.obj -c D:\work\libs\easylogger\plugins\flash\elog_flash.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash.c.i: cmake_force
@@ -1920,7 +1948,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash_port.c.obj: D:/work/libs/easylogger/plugins/flash/elog_flash_port.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash_port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash_port.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash_port.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easylogger\plugins\flash\elog_flash_port.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easylogger\plugins\flash\elog_flash_port.c.obj -c D:\work\libs\easylogger\plugins\flash\elog_flash_port.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash_port.c.i: cmake_force
@@ -1934,7 +1962,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/plugins/flash/elog_flash_port.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/port/elog_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/port/elog_port.c.obj: D:/work/libs/easylogger/port/elog_port.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/port/elog_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/port/elog_port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/port/elog_port.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/port/elog_port.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easylogger\port\elog_port.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easylogger\port\elog_port.c.obj -c D:\work\libs\easylogger\port\elog_port.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/port/elog_port.c.i: cmake_force
@@ -1948,7 +1976,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/port/elog_port.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog.c.obj: D:/work/libs/easylogger/src/elog.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easylogger\src\elog.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easylogger\src\elog.c.obj -c D:\work\libs\easylogger\src\elog.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog.c.i: cmake_force
@@ -1962,7 +1990,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_async.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_async.c.obj: D:/work/libs/easylogger/src/elog_async.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_async.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_async.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_async.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_async.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easylogger\src\elog_async.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easylogger\src\elog_async.c.obj -c D:\work\libs\easylogger\src\elog_async.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_async.c.i: cmake_force
@@ -1976,7 +2004,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_async.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_buf.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_buf.c.obj: D:/work/libs/easylogger/src/elog_buf.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_buf.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_buf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_buf.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_buf.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easylogger\src\elog_buf.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easylogger\src\elog_buf.c.obj -c D:\work\libs\easylogger\src\elog_buf.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_buf.c.i: cmake_force
@@ -1990,7 +2018,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_buf.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_utils.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_utils.c.obj: D:/work/libs/easylogger/src/elog_utils.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_utils.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_utils.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_utils.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\easylogger\src\elog_utils.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\easylogger\src\elog_utils.c.obj -c D:\work\libs\easylogger\src\elog_utils.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_utils.c.i: cmake_force
@@ -2001,10 +2029,122 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_utils.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\work\libs\easylogger\src\elog_utils.c -o CMakeFiles\miniFoc_F4.elf.dir\libs\easylogger\src\elog_utils.c.s
 
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-all.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-all.cpp.obj: D:/work/libs/gtest/src/gtest-all.cpp
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-all.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-all.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-all.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-all.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-all.cpp.obj -c D:\work\libs\gtest\src\gtest-all.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-all.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-all.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\libs\gtest\src\gtest-all.cpp > CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-all.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-all.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-all.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\libs\gtest\src\gtest-all.cpp -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-all.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-death-test.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-death-test.cpp.obj: D:/work/libs/gtest/src/gtest-death-test.cpp
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-death-test.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-death-test.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-death-test.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-death-test.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-death-test.cpp.obj -c D:\work\libs\gtest\src\gtest-death-test.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-death-test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-death-test.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\libs\gtest\src\gtest-death-test.cpp > CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-death-test.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-death-test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-death-test.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\libs\gtest\src\gtest-death-test.cpp -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-death-test.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-filepath.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-filepath.cpp.obj: D:/work/libs/gtest/src/gtest-filepath.cpp
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-filepath.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-filepath.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-filepath.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-filepath.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-filepath.cpp.obj -c D:\work\libs\gtest\src\gtest-filepath.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-filepath.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-filepath.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\libs\gtest\src\gtest-filepath.cpp > CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-filepath.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-filepath.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-filepath.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\libs\gtest\src\gtest-filepath.cpp -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-filepath.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-port.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-port.cpp.obj: D:/work/libs/gtest/src/gtest-port.cpp
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-port.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-port.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-port.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-port.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-port.cpp.obj -c D:\work\libs\gtest\src\gtest-port.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-port.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-port.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\libs\gtest\src\gtest-port.cpp > CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-port.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-port.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-port.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\libs\gtest\src\gtest-port.cpp -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-port.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-printers.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-printers.cpp.obj: D:/work/libs/gtest/src/gtest-printers.cpp
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-printers.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-printers.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-printers.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-printers.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-printers.cpp.obj -c D:\work\libs\gtest\src\gtest-printers.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-printers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-printers.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\libs\gtest\src\gtest-printers.cpp > CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-printers.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-printers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-printers.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\libs\gtest\src\gtest-printers.cpp -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-printers.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-test-part.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-test-part.cpp.obj: D:/work/libs/gtest/src/gtest-test-part.cpp
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-test-part.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-test-part.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-test-part.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-test-part.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-test-part.cpp.obj -c D:\work\libs\gtest\src\gtest-test-part.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-test-part.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-test-part.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\libs\gtest\src\gtest-test-part.cpp > CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-test-part.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-test-part.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-test-part.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\libs\gtest\src\gtest-test-part.cpp -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-test-part.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-typed-test.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-typed-test.cpp.obj: D:/work/libs/gtest/src/gtest-typed-test.cpp
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-typed-test.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-typed-test.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-typed-test.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-typed-test.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-typed-test.cpp.obj -c D:\work\libs\gtest\src\gtest-typed-test.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-typed-test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-typed-test.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\libs\gtest\src\gtest-typed-test.cpp > CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-typed-test.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-typed-test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-typed-test.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\libs\gtest\src\gtest-typed-test.cpp -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest-typed-test.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest.cpp.obj: D:/work/libs/gtest/src/gtest.cpp
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest.cpp.obj -c D:\work\libs\gtest\src\gtest.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\libs\gtest\src\gtest.cpp > CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\libs\gtest\src\gtest.cpp -o CMakeFiles\miniFoc_F4.elf.dir\libs\gtest\src\gtest.cpp.s
+
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/cmd_ping.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/cmd_ping.c.obj: D:/work/libs/lettershell/cmd_ping.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/cmd_ping.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/cmd_ping.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/cmd_ping.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/cmd_ping.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lettershell\cmd_ping.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lettershell\cmd_ping.c.obj -c D:\work\libs\lettershell\cmd_ping.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/cmd_ping.c.i: cmake_force
@@ -2018,7 +2158,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/cmd_ping.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/log.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/log.c.obj: D:/work/libs/lettershell/log.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/log.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/log.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/log.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/log.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lettershell\log.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lettershell\log.c.obj -c D:\work\libs\lettershell\log.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/log.c.i: cmake_force
@@ -2032,7 +2172,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/log.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell.c.obj: D:/work/libs/lettershell/shell.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lettershell\shell.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lettershell\shell.c.obj -c D:\work\libs\lettershell\shell.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell.c.i: cmake_force
@@ -2046,7 +2186,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_cmd_list.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_cmd_list.c.obj: D:/work/libs/lettershell/shell_cmd_list.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_cmd_list.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_cmd_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_cmd_list.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_cmd_list.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lettershell\shell_cmd_list.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lettershell\shell_cmd_list.c.obj -c D:\work\libs\lettershell\shell_cmd_list.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_cmd_list.c.i: cmake_force
@@ -2060,7 +2200,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_cmd_list.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_companion.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_companion.c.obj: D:/work/libs/lettershell/shell_companion.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_companion.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_companion.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_companion.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_companion.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lettershell\shell_companion.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lettershell\shell_companion.c.obj -c D:\work\libs\lettershell\shell_companion.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_companion.c.i: cmake_force
@@ -2074,7 +2214,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_companion.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_ext.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_ext.c.obj: D:/work/libs/lettershell/shell_ext.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_ext.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_ext.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_ext.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_ext.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lettershell\shell_ext.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lettershell\shell_ext.c.obj -c D:\work\libs\lettershell\shell_ext.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_ext.c.i: cmake_force
@@ -2088,7 +2228,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_ext.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_fs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_fs.c.obj: D:/work/libs/lettershell/shell_fs.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_fs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_fs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_fs.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_fs.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lettershell\shell_fs.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lettershell\shell_fs.c.obj -c D:\work\libs\lettershell\shell_fs.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_fs.c.i: cmake_force
@@ -2099,10 +2239,38 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_fs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_fs.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\work\libs\lettershell\shell_fs.c -o CMakeFiles\miniFoc_F4.elf.dir\libs\lettershell\shell_fs.c.s
 
+CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs.c.obj: D:/work/libs/littlefs/lfs.c
+CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\littlefs\lfs.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\littlefs\lfs.c.obj -c D:\work\libs\littlefs\lfs.c
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\work\libs\littlefs\lfs.c > CMakeFiles\miniFoc_F4.elf.dir\libs\littlefs\lfs.c.i
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\work\libs\littlefs\lfs.c -o CMakeFiles\miniFoc_F4.elf.dir\libs\littlefs\lfs.c.s
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs_util.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs_util.c.obj: D:/work/libs/littlefs/lfs_util.c
+CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs_util.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs_util.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs_util.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\littlefs\lfs_util.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\littlefs\lfs_util.c.obj -c D:\work\libs\littlefs\lfs_util.c
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs_util.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs_util.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\work\libs\littlefs\lfs_util.c > CMakeFiles\miniFoc_F4.elf.dir\libs\littlefs\lfs_util.c.i
+
+CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs_util.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs_util.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\work\libs\littlefs\lfs_util.c -o CMakeFiles\miniFoc_F4.elf.dir\libs\littlefs\lfs_util.c.s
+
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj: D:/work/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_alpha16.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_alpha16.c.obj -c D:\work\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_alpha16.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.i: cmake_force
@@ -2116,7 +2284,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cog
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj: D:/work/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_argb.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_argb.c.obj -c D:\work\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_argb.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.i: cmake_force
@@ -2130,7 +2298,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cog
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj: D:/work/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_chroma_keyed.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_chroma_keyed.c.obj -c D:\work\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_chroma_keyed.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.i: cmake_force
@@ -2144,7 +2312,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cog
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj: D:/work/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_indexed16.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_indexed16.c.obj -c D:\work\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_indexed16.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.i: cmake_force
@@ -2158,7 +2326,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cog
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj: D:/work/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_rgb.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_rgb.c.obj -c D:\work\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_rgb.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.i: cmake_force
@@ -2172,7 +2340,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cog
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj: D:/work/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_rgb565a8.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_rgb565a8.c.obj -c D:\work\libs\lvgl\demos\benchmark\assets\img_benchmark_cogwheel_rgb565a8.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.i: cmake_force
@@ -2186,7 +2354,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cog
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj: D:/work/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\lv_font_bechmark_montserrat_12_compr_az.c.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\lv_font_bechmark_montserrat_12_compr_az.c.c.obj -c D:\work\libs\lvgl\demos\benchmark\assets\lv_font_bechmark_montserrat_12_compr_az.c.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.i: cmake_force
@@ -2200,7 +2368,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj: D:/work/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\lv_font_bechmark_montserrat_16_compr_az.c.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\lv_font_bechmark_montserrat_16_compr_az.c.c.obj -c D:\work\libs\lvgl\demos\benchmark\assets\lv_font_bechmark_montserrat_16_compr_az.c.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.i: cmake_force
@@ -2214,7 +2382,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj: D:/work/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\lv_font_bechmark_montserrat_28_compr_az.c.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\assets\lv_font_bechmark_montserrat_28_compr_az.c.c.obj -c D:\work\libs\lvgl\demos\benchmark\assets\lv_font_bechmark_montserrat_28_compr_az.c.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.i: cmake_force
@@ -2228,7 +2396,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/lv_font_bechmark_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/lv_demo_benchmark.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/lv_demo_benchmark.c.obj: D:/work/libs/lvgl/demos/benchmark/lv_demo_benchmark.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/lv_demo_benchmark.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/lv_demo_benchmark.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/lv_demo_benchmark.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/lv_demo_benchmark.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\lv_demo_benchmark.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\benchmark\lv_demo_benchmark.c.obj -c D:\work\libs\lvgl\demos\benchmark\lv_demo_benchmark.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/lv_demo_benchmark.c.i: cmake_force
@@ -2242,7 +2410,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/lv_demo_benchmark.c.s: c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj: D:/work/libs/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\keypad_encoder\lv_demo_keypad_encoder.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\keypad_encoder\lv_demo_keypad_encoder.c.obj -c D:\work\libs\lvgl\demos\keypad_encoder\lv_demo_keypad_encoder.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.i: cmake_force
@@ -2256,7 +2424,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/keypad_encoder/lv_demo_keypad_enco
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_corner_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_corner_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_corner_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.i: cmake_force
@@ -2270,7 +2438,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_list_pause.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_list_pause.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_list_pause.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.i: cmake_force
@@ -2284,7 +2452,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_list_pause_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_list_pause_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_list_pause_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.i: cmake_force
@@ -2298,7 +2466,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_list_play.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_list_play.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_list_play.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.i: cmake_force
@@ -2312,7 +2480,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_list_play_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_list_play_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_list_play_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.i: cmake_force
@@ -2326,7 +2494,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_loop.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_loop.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_loop.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.i: cmake_force
@@ -2340,7 +2508,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_loop_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_loop_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_loop_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.i: cmake_force
@@ -2354,7 +2522,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_next.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_next.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_next.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.i: cmake_force
@@ -2368,7 +2536,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_next_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_next_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_next_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.i: cmake_force
@@ -2382,7 +2550,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_pause.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_pause.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_pause.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.i: cmake_force
@@ -2396,7 +2564,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_pause_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_pause_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_pause_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.i: cmake_force
@@ -2410,7 +2578,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_play.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_play.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_play.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.i: cmake_force
@@ -2424,7 +2592,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_play_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_play_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_play_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.i: cmake_force
@@ -2438,7 +2606,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_prev.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_prev.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_prev.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.i: cmake_force
@@ -2452,7 +2620,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_prev_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_prev_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_prev_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.i: cmake_force
@@ -2466,7 +2634,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_rnd.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_rnd.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_rnd.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.i: cmake_force
@@ -2480,7 +2648,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_rnd_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_rnd_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_btn_rnd_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.i: cmake_force
@@ -2494,7 +2662,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_btn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_corner_left.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_corner_left.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_corner_left.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.i: cmake_force
@@ -2508,7 +2676,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cor
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_corner_left_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_corner_left_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_corner_left_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.i: cmake_force
@@ -2522,7 +2690,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cor
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_corner_right.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_corner_right.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_corner_right.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.i: cmake_force
@@ -2536,7 +2704,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cor
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_corner_right_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_corner_right_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_corner_right_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.i: cmake_force
@@ -2550,7 +2718,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cor
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_1.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.i: cmake_force
@@ -2564,7 +2732,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cov
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_1_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_1_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_1_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.i: cmake_force
@@ -2578,7 +2746,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cov
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_2.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.i: cmake_force
@@ -2592,7 +2760,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cov
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_2_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_2_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_2_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.i: cmake_force
@@ -2606,7 +2774,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cov
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_3.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.i: cmake_force
@@ -2620,7 +2788,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cov
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_3_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_3_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_cover_3_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.i: cmake_force
@@ -2634,7 +2802,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_cov
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_1.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.i: cmake_force
@@ -2648,7 +2816,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_ico
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_1_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_1_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_1_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.i: cmake_force
@@ -2662,7 +2830,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_ico
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_2.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.i: cmake_force
@@ -2676,7 +2844,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_ico
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_2_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_2_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_2_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.i: cmake_force
@@ -2690,7 +2858,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_ico
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_3.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.i: cmake_force
@@ -2704,7 +2872,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_ico
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_3_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_3_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_3_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.i: cmake_force
@@ -2718,7 +2886,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_ico
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_4.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_4.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_4.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.i: cmake_force
@@ -2732,7 +2900,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_ico
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_4_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_4_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_icon_4_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.i: cmake_force
@@ -2746,7 +2914,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_ico
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_list_border.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_list_border.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_list_border.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.i: cmake_force
@@ -2760,7 +2928,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_lis
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_list_border_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_list_border_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_list_border_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.i: cmake_force
@@ -2774,7 +2942,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_lis
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_logo.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_logo.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_logo.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_logo.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_logo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_logo.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_logo.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_logo.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_logo.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_logo.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_logo.c.i: cmake_force
@@ -2788,7 +2956,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_log
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_slider_knob.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_slider_knob.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_slider_knob.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.i: cmake_force
@@ -2802,7 +2970,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_sli
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_slider_knob_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_slider_knob_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_slider_knob_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.i: cmake_force
@@ -2816,7 +2984,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_sli
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_wave_bottom.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_wave_bottom.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_wave_bottom.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.i: cmake_force
@@ -2830,7 +2998,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wav
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_wave_bottom_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_wave_bottom_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_wave_bottom_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.i: cmake_force
@@ -2844,7 +3012,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wav
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_wave_top.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_wave_top.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_wave_top.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.i: cmake_force
@@ -2858,7 +3026,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wav
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj: D:/work/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_wave_top_large.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\assets\img_lv_demo_music_wave_top_large.c.obj -c D:\work\libs\lvgl\demos\music\assets\img_lv_demo_music_wave_top_large.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.i: cmake_force
@@ -2872,7 +3040,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/assets/img_lv_demo_music_wav
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music.c.obj: D:/work/libs/lvgl/demos/music/lv_demo_music.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\lv_demo_music.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\lv_demo_music.c.obj -c D:\work\libs\lvgl\demos\music\lv_demo_music.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music.c.i: cmake_force
@@ -2886,7 +3054,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_list.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_list.c.obj: D:/work/libs/lvgl/demos/music/lv_demo_music_list.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_list.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_list.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_list.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\lv_demo_music_list.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\lv_demo_music_list.c.obj -c D:\work\libs\lvgl\demos\music\lv_demo_music_list.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_list.c.i: cmake_force
@@ -2900,7 +3068,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_list.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_main.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_main.c.obj: D:/work/libs/lvgl/demos/music/lv_demo_music_main.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_main.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_main.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_main.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\lv_demo_music_main.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\music\lv_demo_music_main.c.obj -c D:\work\libs\lvgl\demos\music\lv_demo_music_main.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_main.c.i: cmake_force
@@ -2914,7 +3082,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/music/lv_demo_music_main.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/stress/lv_demo_stress.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/stress/lv_demo_stress.c.obj: D:/work/libs/lvgl/demos/stress/lv_demo_stress.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/stress/lv_demo_stress.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/stress/lv_demo_stress.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/stress/lv_demo_stress.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/stress/lv_demo_stress.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\stress\lv_demo_stress.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\stress\lv_demo_stress.c.obj -c D:\work\libs\lvgl\demos\stress\lv_demo_stress.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/stress/lv_demo_stress.c.i: cmake_force
@@ -2928,7 +3096,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/stress/lv_demo_stress.c.s: cmake_f
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_clothes.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_clothes.c.obj: D:/work/libs/lvgl/demos/widgets/assets/img_clothes.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_clothes.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_clothes.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_clothes.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_clothes.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\widgets\assets\img_clothes.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\widgets\assets\img_clothes.c.obj -c D:\work\libs\lvgl\demos\widgets\assets\img_clothes.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_clothes.c.i: cmake_force
@@ -2942,7 +3110,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_clothes.c.s: cm
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.obj: D:/work/libs/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\widgets\assets\img_demo_widgets_avatar.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\widgets\assets\img_demo_widgets_avatar.c.obj -c D:\work\libs\lvgl\demos\widgets\assets\img_demo_widgets_avatar.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.i: cmake_force
@@ -2956,7 +3124,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_demo_widgets_av
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_lvgl_logo.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_lvgl_logo.c.obj: D:/work/libs/lvgl/demos/widgets/assets/img_lvgl_logo.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_lvgl_logo.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_lvgl_logo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_lvgl_logo.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_lvgl_logo.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\widgets\assets\img_lvgl_logo.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\widgets\assets\img_lvgl_logo.c.obj -c D:\work\libs\lvgl\demos\widgets\assets\img_lvgl_logo.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_lvgl_logo.c.i: cmake_force
@@ -2970,7 +3138,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/assets/img_lvgl_logo.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/lv_demo_widgets.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/lv_demo_widgets.c.obj: D:/work/libs/lvgl/demos/widgets/lv_demo_widgets.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/lv_demo_widgets.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/lv_demo_widgets.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/lv_demo_widgets.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/lv_demo_widgets.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\widgets\lv_demo_widgets.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\demos\widgets\lv_demo_widgets.c.obj -c D:\work\libs\lvgl\demos\widgets\lv_demo_widgets.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/lv_demo_widgets.c.i: cmake_force
@@ -2984,7 +3152,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/widgets/lv_demo_widgets.c.s: cmake
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/env_support/rt-thread/lv_rt_thread_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/env_support/rt-thread/lv_rt_thread_port.c.obj: D:/work/libs/lvgl/env_support/rt-thread/lv_rt_thread_port.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/env_support/rt-thread/lv_rt_thread_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/env_support/rt-thread/lv_rt_thread_port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/env_support/rt-thread/lv_rt_thread_port.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/env_support/rt-thread/lv_rt_thread_port.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\env_support\rt-thread\lv_rt_thread_port.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\env_support\rt-thread\lv_rt_thread_port.c.obj -c D:\work\libs\lvgl\env_support\rt-thread\lv_rt_thread_port.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/env_support/rt-thread/lv_rt_thread_port.c.i: cmake_force
@@ -2998,7 +3166,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/env_support/rt-thread/lv_rt_thread_port.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_1.c.obj: D:/work/libs/lvgl/examples/anim/lv_example_anim_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\anim\lv_example_anim_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\anim\lv_example_anim_1.c.obj -c D:\work\libs\lvgl\examples\anim\lv_example_anim_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_1.c.i: cmake_force
@@ -3012,7 +3180,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_1.c.s: cma
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_2.c.obj: D:/work/libs/lvgl/examples/anim/lv_example_anim_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\anim\lv_example_anim_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\anim\lv_example_anim_2.c.obj -c D:\work\libs\lvgl\examples\anim\lv_example_anim_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_2.c.i: cmake_force
@@ -3026,7 +3194,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_2.c.s: cma
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_3.c.obj: D:/work/libs/lvgl/examples/anim/lv_example_anim_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\anim\lv_example_anim_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\anim\lv_example_anim_3.c.obj -c D:\work\libs\lvgl\examples\anim\lv_example_anim_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_3.c.i: cmake_force
@@ -3040,7 +3208,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_3.c.s: cma
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_timeline_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_timeline_1.c.obj: D:/work/libs/lvgl/examples/anim/lv_example_anim_timeline_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_timeline_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_timeline_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_timeline_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_timeline_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\anim\lv_example_anim_timeline_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\anim\lv_example_anim_timeline_1.c.obj -c D:\work\libs\lvgl\examples\anim\lv_example_anim_timeline_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_timeline_1.c.i: cmake_force
@@ -3054,7 +3222,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/anim/lv_example_anim_timeline_1
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg001.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg001.c.obj: D:/work/libs/lvgl/examples/assets/animimg001.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg001.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg001.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg001.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg001.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\animimg001.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\animimg001.c.obj -c D:\work\libs\lvgl\examples\assets\animimg001.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg001.c.i: cmake_force
@@ -3068,7 +3236,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg001.c.s: cmake_fo
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg002.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg002.c.obj: D:/work/libs/lvgl/examples/assets/animimg002.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg002.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg002.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg002.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg002.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\animimg002.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\animimg002.c.obj -c D:\work\libs\lvgl\examples\assets\animimg002.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg002.c.i: cmake_force
@@ -3082,7 +3250,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg002.c.s: cmake_fo
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg003.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg003.c.obj: D:/work/libs/lvgl/examples/assets/animimg003.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg003.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg003.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg003.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg003.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\animimg003.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\animimg003.c.obj -c D:\work\libs\lvgl\examples\assets\animimg003.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg003.c.i: cmake_force
@@ -3096,7 +3264,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/animimg003.c.s: cmake_fo
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/emoji/img_emoji_F617.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/emoji/img_emoji_F617.c.obj: D:/work/libs/lvgl/examples/assets/emoji/img_emoji_F617.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/emoji/img_emoji_F617.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/emoji/img_emoji_F617.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/emoji/img_emoji_F617.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/emoji/img_emoji_F617.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\emoji\img_emoji_F617.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\emoji\img_emoji_F617.c.obj -c D:\work\libs\lvgl\examples\assets\emoji\img_emoji_F617.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/emoji/img_emoji_F617.c.i: cmake_force
@@ -3110,7 +3278,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/emoji/img_emoji_F617.c.s
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_caret_down.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_caret_down.c.obj: D:/work/libs/lvgl/examples/assets/img_caret_down.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_caret_down.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_caret_down.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_caret_down.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_caret_down.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_caret_down.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_caret_down.c.obj -c D:\work\libs\lvgl\examples\assets\img_caret_down.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_caret_down.c.i: cmake_force
@@ -3124,7 +3292,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_caret_down.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_alpha16.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_alpha16.c.obj: D:/work/libs/lvgl/examples/assets/img_cogwheel_alpha16.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_alpha16.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_alpha16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_alpha16.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_alpha16.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_cogwheel_alpha16.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_cogwheel_alpha16.c.obj -c D:\work\libs\lvgl\examples\assets\img_cogwheel_alpha16.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_alpha16.c.i: cmake_force
@@ -3138,7 +3306,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_alpha16.c.s
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_argb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_argb.c.obj: D:/work/libs/lvgl/examples/assets/img_cogwheel_argb.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_argb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_argb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_argb.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_argb.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_cogwheel_argb.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_cogwheel_argb.c.obj -c D:\work\libs\lvgl\examples\assets\img_cogwheel_argb.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_argb.c.i: cmake_force
@@ -3152,7 +3320,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_argb.c.s: c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.obj: D:/work/libs/lvgl/examples/assets/img_cogwheel_chroma_keyed.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_cogwheel_chroma_keyed.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_cogwheel_chroma_keyed.c.obj -c D:\work\libs\lvgl\examples\assets\img_cogwheel_chroma_keyed.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.i: cmake_force
@@ -3166,7 +3334,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_chroma_keye
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_indexed16.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_indexed16.c.obj: D:/work/libs/lvgl/examples/assets/img_cogwheel_indexed16.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_indexed16.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_indexed16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_indexed16.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_indexed16.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_cogwheel_indexed16.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_cogwheel_indexed16.c.obj -c D:\work\libs\lvgl\examples\assets\img_cogwheel_indexed16.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_indexed16.c.i: cmake_force
@@ -3180,7 +3348,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_indexed16.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_rgb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_rgb.c.obj: D:/work/libs/lvgl/examples/assets/img_cogwheel_rgb.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_rgb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_rgb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_rgb.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_rgb.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_cogwheel_rgb.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_cogwheel_rgb.c.obj -c D:\work\libs\lvgl\examples\assets\img_cogwheel_rgb.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_rgb.c.i: cmake_force
@@ -3194,7 +3362,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_cogwheel_rgb.c.s: cm
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_hand.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_hand.c.obj: D:/work/libs/lvgl/examples/assets/img_hand.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_hand.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_hand.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_hand.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_hand.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_hand.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_hand.c.obj -c D:\work\libs\lvgl\examples\assets\img_hand.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_hand.c.i: cmake_force
@@ -3208,7 +3376,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_hand.c.s: cmake_forc
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_skew_strip.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_skew_strip.c.obj: D:/work/libs/lvgl/examples/assets/img_skew_strip.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_skew_strip.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_skew_strip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_skew_strip.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_skew_strip.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_skew_strip.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_skew_strip.c.obj -c D:\work\libs\lvgl\examples\assets\img_skew_strip.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_skew_strip.c.i: cmake_force
@@ -3222,7 +3390,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_skew_strip.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_star.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_star.c.obj: D:/work/libs/lvgl/examples/assets/img_star.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_star.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_star.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_star.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_star.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_star.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\img_star.c.obj -c D:\work\libs\lvgl\examples\assets\img_star.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_star.c.i: cmake_force
@@ -3236,7 +3404,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/img_star.c.s: cmake_forc
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_left.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_left.c.obj: D:/work/libs/lvgl/examples/assets/imgbtn_left.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_left.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_left.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_left.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_left.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\imgbtn_left.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\imgbtn_left.c.obj -c D:\work\libs\lvgl\examples\assets\imgbtn_left.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_left.c.i: cmake_force
@@ -3250,7 +3418,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_left.c.s: cmake_f
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_mid.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_mid.c.obj: D:/work/libs/lvgl/examples/assets/imgbtn_mid.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_mid.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_mid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_mid.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_mid.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\imgbtn_mid.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\imgbtn_mid.c.obj -c D:\work\libs\lvgl\examples\assets\imgbtn_mid.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_mid.c.i: cmake_force
@@ -3264,7 +3432,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_mid.c.s: cmake_fo
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_right.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_right.c.obj: D:/work/libs/lvgl/examples/assets/imgbtn_right.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_right.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_right.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_right.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_right.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\imgbtn_right.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\assets\imgbtn_right.c.obj -c D:\work\libs\lvgl\examples\assets\imgbtn_right.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_right.c.i: cmake_force
@@ -3278,7 +3446,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/assets/imgbtn_right.c.s: cmake_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_1.c.obj: D:/work/libs/lvgl/examples/event/lv_example_event_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\event\lv_example_event_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\event\lv_example_event_1.c.obj -c D:\work\libs\lvgl\examples\event\lv_example_event_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_1.c.i: cmake_force
@@ -3292,7 +3460,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_1.c.s: c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_2.c.obj: D:/work/libs/lvgl/examples/event/lv_example_event_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\event\lv_example_event_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\event\lv_example_event_2.c.obj -c D:\work\libs\lvgl\examples\event\lv_example_event_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_2.c.i: cmake_force
@@ -3306,7 +3474,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_2.c.s: c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_3.c.obj: D:/work/libs/lvgl/examples/event/lv_example_event_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\event\lv_example_event_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\event\lv_example_event_3.c.obj -c D:\work\libs\lvgl\examples\event\lv_example_event_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_3.c.i: cmake_force
@@ -3320,7 +3488,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_3.c.s: c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_4.c.obj: D:/work/libs/lvgl/examples/event/lv_example_event_4.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_4.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_4.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\event\lv_example_event_4.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\event\lv_example_event_4.c.obj -c D:\work\libs\lvgl\examples\event\lv_example_event_4.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_4.c.i: cmake_force
@@ -3334,7 +3502,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/event/lv_example_event_4.c.s: c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_1.c.obj: D:/work/libs/lvgl/examples/get_started/lv_example_get_started_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\get_started\lv_example_get_started_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\get_started\lv_example_get_started_1.c.obj -c D:\work\libs\lvgl\examples\get_started\lv_example_get_started_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_1.c.i: cmake_force
@@ -3348,7 +3516,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_star
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_2.c.obj: D:/work/libs/lvgl/examples/get_started/lv_example_get_started_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\get_started\lv_example_get_started_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\get_started\lv_example_get_started_2.c.obj -c D:\work\libs\lvgl\examples\get_started\lv_example_get_started_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_2.c.i: cmake_force
@@ -3362,7 +3530,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_star
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_3.c.obj: D:/work/libs/lvgl/examples/get_started/lv_example_get_started_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\get_started\lv_example_get_started_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\get_started\lv_example_get_started_3.c.obj -c D:\work\libs\lvgl\examples\get_started\lv_example_get_started_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_started_3.c.i: cmake_force
@@ -3376,7 +3544,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/get_started/lv_example_get_star
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_1.c.obj: D:/work/libs/lvgl/examples/layouts/flex/lv_example_flex_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\flex\lv_example_flex_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\flex\lv_example_flex_1.c.obj -c D:\work\libs\lvgl\examples\layouts\flex\lv_example_flex_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_1.c.i: cmake_force
@@ -3390,7 +3558,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_1.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_2.c.obj: D:/work/libs/lvgl/examples/layouts/flex/lv_example_flex_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\flex\lv_example_flex_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\flex\lv_example_flex_2.c.obj -c D:\work\libs\lvgl\examples\layouts\flex\lv_example_flex_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_2.c.i: cmake_force
@@ -3404,7 +3572,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_2.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_3.c.obj: D:/work/libs/lvgl/examples/layouts/flex/lv_example_flex_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\flex\lv_example_flex_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\flex\lv_example_flex_3.c.obj -c D:\work\libs\lvgl\examples\layouts\flex\lv_example_flex_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_3.c.i: cmake_force
@@ -3418,7 +3586,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_3.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_4.c.obj: D:/work/libs/lvgl/examples/layouts/flex/lv_example_flex_4.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_4.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_4.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\flex\lv_example_flex_4.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\flex\lv_example_flex_4.c.obj -c D:\work\libs\lvgl\examples\layouts\flex\lv_example_flex_4.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_4.c.i: cmake_force
@@ -3432,7 +3600,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_4.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_5.c.obj: D:/work/libs/lvgl/examples/layouts/flex/lv_example_flex_5.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_5.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_5.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\flex\lv_example_flex_5.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\flex\lv_example_flex_5.c.obj -c D:\work\libs\lvgl\examples\layouts\flex\lv_example_flex_5.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_5.c.i: cmake_force
@@ -3446,7 +3614,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_5.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_6.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_6.c.obj: D:/work/libs/lvgl/examples/layouts/flex/lv_example_flex_6.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_6.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_6.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_6.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\flex\lv_example_flex_6.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\flex\lv_example_flex_6.c.obj -c D:\work\libs\lvgl\examples\layouts\flex\lv_example_flex_6.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_6.c.i: cmake_force
@@ -3460,7 +3628,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/flex/lv_example_flex_6.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_1.c.obj: D:/work/libs/lvgl/examples/layouts/grid/lv_example_grid_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\grid\lv_example_grid_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\grid\lv_example_grid_1.c.obj -c D:\work\libs\lvgl\examples\layouts\grid\lv_example_grid_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_1.c.i: cmake_force
@@ -3474,7 +3642,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_1.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_2.c.obj: D:/work/libs/lvgl/examples/layouts/grid/lv_example_grid_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\grid\lv_example_grid_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\grid\lv_example_grid_2.c.obj -c D:\work\libs\lvgl\examples\layouts\grid\lv_example_grid_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_2.c.i: cmake_force
@@ -3488,7 +3656,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_2.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_3.c.obj: D:/work/libs/lvgl/examples/layouts/grid/lv_example_grid_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\grid\lv_example_grid_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\grid\lv_example_grid_3.c.obj -c D:\work\libs\lvgl\examples\layouts\grid\lv_example_grid_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_3.c.i: cmake_force
@@ -3502,7 +3670,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_3.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_4.c.obj: D:/work/libs/lvgl/examples/layouts/grid/lv_example_grid_4.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_4.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_4.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\grid\lv_example_grid_4.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\grid\lv_example_grid_4.c.obj -c D:\work\libs\lvgl\examples\layouts\grid\lv_example_grid_4.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_4.c.i: cmake_force
@@ -3516,7 +3684,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_4.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_5.c.obj: D:/work/libs/lvgl/examples/layouts/grid/lv_example_grid_5.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_5.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_5.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\grid\lv_example_grid_5.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\grid\lv_example_grid_5.c.obj -c D:\work\libs\lvgl\examples\layouts\grid\lv_example_grid_5.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_5.c.i: cmake_force
@@ -3530,7 +3698,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_5.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_6.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_6.c.obj: D:/work/libs/lvgl/examples/layouts/grid/lv_example_grid_6.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_6.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_6.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_6.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\grid\lv_example_grid_6.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\layouts\grid\lv_example_grid_6.c.obj -c D:\work\libs\lvgl\examples\layouts\grid\lv_example_grid_6.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_6.c.i: cmake_force
@@ -3544,7 +3712,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/layouts/grid/lv_example_grid_6.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/bmp/lv_example_bmp_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/bmp/lv_example_bmp_1.c.obj: D:/work/libs/lvgl/examples/libs/bmp/lv_example_bmp_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/bmp/lv_example_bmp_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/bmp/lv_example_bmp_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/bmp/lv_example_bmp_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/bmp/lv_example_bmp_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\bmp\lv_example_bmp_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\bmp\lv_example_bmp_1.c.obj -c D:\work\libs\lvgl\examples\libs\bmp\lv_example_bmp_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/bmp/lv_example_bmp_1.c.i: cmake_force
@@ -3558,7 +3726,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/bmp/lv_example_bmp_1.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj: D:/work/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\ffmpeg\lv_example_ffmpeg_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\ffmpeg\lv_example_ffmpeg_1.c.obj -c D:\work\libs\lvgl\examples\libs\ffmpeg\lv_example_ffmpeg_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.i: cmake_force
@@ -3572,7 +3740,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj: D:/work/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\ffmpeg\lv_example_ffmpeg_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\ffmpeg\lv_example_ffmpeg_2.c.obj -c D:\work\libs\lvgl\examples\libs\ffmpeg\lv_example_ffmpeg_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.i: cmake_force
@@ -3586,7 +3754,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/freetype/lv_example_freetype_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/freetype/lv_example_freetype_1.c.obj: D:/work/libs/lvgl/examples/libs/freetype/lv_example_freetype_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/freetype/lv_example_freetype_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/freetype/lv_example_freetype_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/freetype/lv_example_freetype_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/freetype/lv_example_freetype_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\freetype\lv_example_freetype_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\freetype\lv_example_freetype_1.c.obj -c D:\work\libs\lvgl\examples\libs\freetype\lv_example_freetype_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/freetype/lv_example_freetype_1.c.i: cmake_force
@@ -3600,7 +3768,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/freetype/lv_example_freety
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/img_bulb_gif.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/img_bulb_gif.c.obj: D:/work/libs/lvgl/examples/libs/gif/img_bulb_gif.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/img_bulb_gif.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/img_bulb_gif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/img_bulb_gif.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/img_bulb_gif.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\gif\img_bulb_gif.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\gif\img_bulb_gif.c.obj -c D:\work\libs\lvgl\examples\libs\gif\img_bulb_gif.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/img_bulb_gif.c.i: cmake_force
@@ -3614,7 +3782,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/img_bulb_gif.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/lv_example_gif_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/lv_example_gif_1.c.obj: D:/work/libs/lvgl/examples/libs/gif/lv_example_gif_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/lv_example_gif_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/lv_example_gif_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/lv_example_gif_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/lv_example_gif_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\gif\lv_example_gif_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\gif\lv_example_gif_1.c.obj -c D:\work\libs\lvgl\examples\libs\gif\lv_example_gif_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/lv_example_gif_1.c.i: cmake_force
@@ -3628,7 +3796,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/gif/lv_example_gif_1.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/img_wink_png.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/img_wink_png.c.obj: D:/work/libs/lvgl/examples/libs/png/img_wink_png.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/img_wink_png.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/img_wink_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/img_wink_png.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/img_wink_png.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\png\img_wink_png.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\png\img_wink_png.c.obj -c D:\work\libs\lvgl\examples\libs\png\img_wink_png.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/img_wink_png.c.i: cmake_force
@@ -3642,7 +3810,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/img_wink_png.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/lv_example_png_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/lv_example_png_1.c.obj: D:/work/libs/lvgl/examples/libs/png/lv_example_png_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/lv_example_png_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/lv_example_png_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/lv_example_png_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/lv_example_png_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\png\lv_example_png_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\png\lv_example_png_1.c.obj -c D:\work\libs\lvgl\examples\libs\png\lv_example_png_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/lv_example_png_1.c.i: cmake_force
@@ -3656,7 +3824,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/png/lv_example_png_1.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.obj: D:/work/libs/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\qrcode\lv_example_qrcode_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\qrcode\lv_example_qrcode_1.c.obj -c D:\work\libs\lvgl\examples\libs\qrcode\lv_example_qrcode_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.i: cmake_force
@@ -3670,7 +3838,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/qrcode/lv_example_qrcode_1
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.obj: D:/work/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\rlottie\lv_example_rlottie_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\rlottie\lv_example_rlottie_1.c.obj -c D:\work\libs\lvgl\examples\libs\rlottie\lv_example_rlottie_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.i: cmake_force
@@ -3684,7 +3852,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.obj: D:/work/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\rlottie\lv_example_rlottie_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\rlottie\lv_example_rlottie_2.c.obj -c D:\work\libs\lvgl\examples\libs\rlottie\lv_example_rlottie_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.i: cmake_force
@@ -3698,7 +3866,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.obj: D:/work/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\rlottie\lv_example_rlottie_approve.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\rlottie\lv_example_rlottie_approve.c.obj -c D:\work\libs\lvgl\examples\libs\rlottie\lv_example_rlottie_approve.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.i: cmake_force
@@ -3712,7 +3880,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/rlottie/lv_example_rlottie
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.obj: D:/work/libs/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\sjpg\lv_example_sjpg_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\libs\sjpg\lv_example_sjpg_1.c.obj -c D:\work\libs\lvgl\examples\libs\sjpg\lv_example_sjpg_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.i: cmake_force
@@ -3726,7 +3894,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.s
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_fragment_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_fragment_1.c.obj: D:/work/libs/lvgl/examples/others/fragment/lv_example_fragment_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_fragment_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_fragment_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_fragment_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_fragment_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\fragment\lv_example_fragment_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\fragment\lv_example_fragment_1.c.obj -c D:\work\libs\lvgl\examples\others\fragment\lv_example_fragment_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_fragment_1.c.i: cmake_force
@@ -3740,7 +3908,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_frag
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_fragment_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_fragment_2.c.obj: D:/work/libs/lvgl/examples/others/fragment/lv_example_fragment_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_fragment_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_fragment_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_fragment_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_fragment_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\fragment\lv_example_fragment_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\fragment\lv_example_fragment_2.c.obj -c D:\work\libs\lvgl\examples\others\fragment\lv_example_fragment_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_fragment_2.c.i: cmake_force
@@ -3754,7 +3922,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/fragment/lv_example_frag
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.obj: D:/work/libs/lvgl/examples/others/gridnav/lv_example_gridnav_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\gridnav\lv_example_gridnav_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\gridnav\lv_example_gridnav_1.c.obj -c D:\work\libs\lvgl\examples\others\gridnav\lv_example_gridnav_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.i: cmake_force
@@ -3768,7 +3936,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.obj: D:/work/libs/lvgl/examples/others/gridnav/lv_example_gridnav_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\gridnav\lv_example_gridnav_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\gridnav\lv_example_gridnav_2.c.obj -c D:\work\libs\lvgl\examples\others\gridnav\lv_example_gridnav_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.i: cmake_force
@@ -3782,7 +3950,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.obj: D:/work/libs/lvgl/examples/others/gridnav/lv_example_gridnav_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\gridnav\lv_example_gridnav_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\gridnav\lv_example_gridnav_3.c.obj -c D:\work\libs\lvgl\examples\others\gridnav\lv_example_gridnav_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.i: cmake_force
@@ -3796,7 +3964,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.obj: D:/work/libs/lvgl/examples/others/gridnav/lv_example_gridnav_4.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\gridnav\lv_example_gridnav_4.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\gridnav\lv_example_gridnav_4.c.obj -c D:\work\libs\lvgl\examples\others\gridnav\lv_example_gridnav_4.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.i: cmake_force
@@ -3810,7 +3978,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/gridnav/lv_example_gridn
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.obj: D:/work/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\ime\lv_example_ime_pinyin_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\ime\lv_example_ime_pinyin_1.c.obj -c D:\work\libs\lvgl\examples\others\ime\lv_example_ime_pinyin_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.i: cmake_force
@@ -3824,7 +3992,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyi
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.obj: D:/work/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\ime\lv_example_ime_pinyin_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\ime\lv_example_ime_pinyin_2.c.obj -c D:\work\libs\lvgl\examples\others\ime\lv_example_ime_pinyin_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.i: cmake_force
@@ -3838,7 +4006,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/ime/lv_example_ime_pinyi
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.obj: D:/work/libs/lvgl/examples/others/imgfont/lv_example_imgfont_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\imgfont\lv_example_imgfont_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\imgfont\lv_example_imgfont_1.c.obj -c D:\work\libs\lvgl\examples\others\imgfont\lv_example_imgfont_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.i: cmake_force
@@ -3852,7 +4020,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/imgfont/lv_example_imgfo
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_1.c.obj: D:/work/libs/lvgl/examples/others/monkey/lv_example_monkey_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\monkey\lv_example_monkey_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\monkey\lv_example_monkey_1.c.obj -c D:\work\libs\lvgl\examples\others\monkey\lv_example_monkey_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_1.c.i: cmake_force
@@ -3866,7 +4034,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_2.c.obj: D:/work/libs/lvgl/examples/others/monkey/lv_example_monkey_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\monkey\lv_example_monkey_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\monkey\lv_example_monkey_2.c.obj -c D:\work\libs\lvgl\examples\others\monkey\lv_example_monkey_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_2.c.i: cmake_force
@@ -3880,7 +4048,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_3.c.obj: D:/work/libs/lvgl/examples/others/monkey/lv_example_monkey_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\monkey\lv_example_monkey_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\monkey\lv_example_monkey_3.c.obj -c D:\work\libs\lvgl\examples\others\monkey\lv_example_monkey_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey_3.c.i: cmake_force
@@ -3894,7 +4062,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/monkey/lv_example_monkey
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_1.c.obj: D:/work/libs/lvgl/examples/others/msg/lv_example_msg_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\msg\lv_example_msg_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\msg\lv_example_msg_1.c.obj -c D:\work\libs\lvgl\examples\others\msg\lv_example_msg_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_1.c.i: cmake_force
@@ -3908,7 +4076,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_1.c.s
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_2.c.obj: D:/work/libs/lvgl/examples/others/msg/lv_example_msg_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\msg\lv_example_msg_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\msg\lv_example_msg_2.c.obj -c D:\work\libs\lvgl\examples\others\msg\lv_example_msg_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_2.c.i: cmake_force
@@ -3922,7 +4090,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_2.c.s
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_3.c.obj: D:/work/libs/lvgl/examples/others/msg/lv_example_msg_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\msg\lv_example_msg_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\msg\lv_example_msg_3.c.obj -c D:\work\libs\lvgl\examples\others\msg\lv_example_msg_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_3.c.i: cmake_force
@@ -3936,7 +4104,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/msg/lv_example_msg_3.c.s
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.obj: D:/work/libs/lvgl/examples/others/snapshot/lv_example_snapshot_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\snapshot\lv_example_snapshot_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\others\snapshot\lv_example_snapshot_1.c.obj -c D:\work\libs\lvgl\examples\others\snapshot\lv_example_snapshot_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.i: cmake_force
@@ -3950,7 +4118,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/others/snapshot/lv_example_snap
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_disp_template.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_disp_template.c.obj: D:/work/libs/lvgl/examples/porting/lv_port_disp_template.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_disp_template.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_disp_template.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_disp_template.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_disp_template.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\porting\lv_port_disp_template.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\porting\lv_port_disp_template.c.obj -c D:\work\libs\lvgl\examples\porting\lv_port_disp_template.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_disp_template.c.i: cmake_force
@@ -3964,7 +4132,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_disp_template.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_fs_template.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_fs_template.c.obj: D:/work/libs/lvgl/examples/porting/lv_port_fs_template.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_fs_template.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_fs_template.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_fs_template.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_fs_template.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\porting\lv_port_fs_template.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\porting\lv_port_fs_template.c.obj -c D:\work\libs\lvgl\examples\porting\lv_port_fs_template.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_fs_template.c.i: cmake_force
@@ -3978,7 +4146,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_fs_template.c.s
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_indev_template.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_indev_template.c.obj: D:/work/libs/lvgl/examples/porting/lv_port_indev_template.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_indev_template.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_indev_template.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_indev_template.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_indev_template.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\porting\lv_port_indev_template.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\porting\lv_port_indev_template.c.obj -c D:\work\libs\lvgl\examples\porting\lv_port_indev_template.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_indev_template.c.i: cmake_force
@@ -3992,7 +4160,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/porting/lv_port_indev_template.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_1.c.obj: D:/work/libs/lvgl/examples/scroll/lv_example_scroll_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\scroll\lv_example_scroll_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\scroll\lv_example_scroll_1.c.obj -c D:\work\libs\lvgl\examples\scroll\lv_example_scroll_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_1.c.i: cmake_force
@@ -4006,7 +4174,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_1.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_2.c.obj: D:/work/libs/lvgl/examples/scroll/lv_example_scroll_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\scroll\lv_example_scroll_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\scroll\lv_example_scroll_2.c.obj -c D:\work\libs\lvgl\examples\scroll\lv_example_scroll_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_2.c.i: cmake_force
@@ -4020,7 +4188,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_2.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_3.c.obj: D:/work/libs/lvgl/examples/scroll/lv_example_scroll_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\scroll\lv_example_scroll_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\scroll\lv_example_scroll_3.c.obj -c D:\work\libs\lvgl\examples\scroll\lv_example_scroll_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_3.c.i: cmake_force
@@ -4034,7 +4202,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_3.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_4.c.obj: D:/work/libs/lvgl/examples/scroll/lv_example_scroll_4.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_4.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_4.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\scroll\lv_example_scroll_4.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\scroll\lv_example_scroll_4.c.obj -c D:\work\libs\lvgl\examples\scroll\lv_example_scroll_4.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_4.c.i: cmake_force
@@ -4048,7 +4216,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_4.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_5.c.obj: D:/work/libs/lvgl/examples/scroll/lv_example_scroll_5.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_5.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_5.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\scroll\lv_example_scroll_5.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\scroll\lv_example_scroll_5.c.obj -c D:\work\libs\lvgl\examples\scroll\lv_example_scroll_5.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_5.c.i: cmake_force
@@ -4062,7 +4230,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_5.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_6.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_6.c.obj: D:/work/libs/lvgl/examples/scroll/lv_example_scroll_6.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_6.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_6.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_6.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\scroll\lv_example_scroll_6.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\scroll\lv_example_scroll_6.c.obj -c D:\work\libs\lvgl\examples\scroll\lv_example_scroll_6.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_6.c.i: cmake_force
@@ -4076,7 +4244,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/scroll/lv_example_scroll_6.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_1.c.obj: D:/work/libs/lvgl/examples/styles/lv_example_style_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_1.c.obj -c D:\work\libs\lvgl\examples\styles\lv_example_style_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_1.c.i: cmake_force
@@ -4090,7 +4258,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_1.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_10.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_10.c.obj: D:/work/libs/lvgl/examples/styles/lv_example_style_10.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_10.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_10.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_10.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_10.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_10.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_10.c.obj -c D:\work\libs\lvgl\examples\styles\lv_example_style_10.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_10.c.i: cmake_force
@@ -4104,7 +4272,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_10.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_11.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_11.c.obj: D:/work/libs/lvgl/examples/styles/lv_example_style_11.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_11.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_11.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_11.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_11.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_11.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_11.c.obj -c D:\work\libs\lvgl\examples\styles\lv_example_style_11.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_11.c.i: cmake_force
@@ -4118,7 +4286,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_11.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_12.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_12.c.obj: D:/work/libs/lvgl/examples/styles/lv_example_style_12.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_12.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_12.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_12.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_12.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_12.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_12.c.obj -c D:\work\libs\lvgl\examples\styles\lv_example_style_12.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_12.c.i: cmake_force
@@ -4132,7 +4300,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_12.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_13.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_13.c.obj: D:/work/libs/lvgl/examples/styles/lv_example_style_13.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_13.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_13.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_13.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_13.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_13.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_13.c.obj -c D:\work\libs\lvgl\examples\styles\lv_example_style_13.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_13.c.i: cmake_force
@@ -4146,7 +4314,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_13.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_14.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_14.c.obj: D:/work/libs/lvgl/examples/styles/lv_example_style_14.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_14.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_14.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_14.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_14.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_14.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_14.c.obj -c D:\work\libs\lvgl\examples\styles\lv_example_style_14.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_14.c.i: cmake_force
@@ -4160,7 +4328,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_14.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_15.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_15.c.obj: D:/work/libs/lvgl/examples/styles/lv_example_style_15.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_15.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_15.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_15.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_15.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_15.c.obj -c D:\work\libs\lvgl\examples\styles\lv_example_style_15.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_15.c.i: cmake_force
@@ -4174,7 +4342,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_15.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_2.c.obj: D:/work/libs/lvgl/examples/styles/lv_example_style_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_2.c.obj -c D:\work\libs\lvgl\examples\styles\lv_example_style_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_2.c.i: cmake_force
@@ -4188,7 +4356,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_2.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_3.c.obj: D:/work/libs/lvgl/examples/styles/lv_example_style_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_3.c.obj -c D:\work\libs\lvgl\examples\styles\lv_example_style_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_3.c.i: cmake_force
@@ -4202,7 +4370,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_3.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_4.c.obj: D:/work/libs/lvgl/examples/styles/lv_example_style_4.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_4.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_4.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_4.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_4.c.obj -c D:\work\libs\lvgl\examples\styles\lv_example_style_4.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_4.c.i: cmake_force
@@ -4216,7 +4384,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_4.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_5.c.obj: D:/work/libs/lvgl/examples/styles/lv_example_style_5.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_5.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_5.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_5.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_5.c.obj -c D:\work\libs\lvgl\examples\styles\lv_example_style_5.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_5.c.i: cmake_force
@@ -4230,7 +4398,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_5.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_6.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_6.c.obj: D:/work/libs/lvgl/examples/styles/lv_example_style_6.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_6.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_6.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_6.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_6.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_6.c.obj -c D:\work\libs\lvgl\examples\styles\lv_example_style_6.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_6.c.i: cmake_force
@@ -4244,7 +4412,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_6.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_7.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_7.c.obj: D:/work/libs/lvgl/examples/styles/lv_example_style_7.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_7.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_7.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_7.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_7.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_7.c.obj -c D:\work\libs\lvgl\examples\styles\lv_example_style_7.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_7.c.i: cmake_force
@@ -4258,7 +4426,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_7.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_8.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_8.c.obj: D:/work/libs/lvgl/examples/styles/lv_example_style_8.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_8.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_8.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_8.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_8.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_8.c.obj -c D:\work\libs\lvgl\examples\styles\lv_example_style_8.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_8.c.i: cmake_force
@@ -4272,7 +4440,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_8.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_9.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_9.c.obj: D:/work/libs/lvgl/examples/styles/lv_example_style_9.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_9.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_9.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_9.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_9.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_9.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\styles\lv_example_style_9.c.obj -c D:\work\libs\lvgl\examples\styles\lv_example_style_9.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_9.c.i: cmake_force
@@ -4286,7 +4454,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/styles/lv_example_style_9.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.obj: D:/work/libs/lvgl/examples/widgets/animimg/lv_example_animimg_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\animimg\lv_example_animimg_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\animimg\lv_example_animimg_1.c.obj -c D:\work\libs\lvgl\examples\widgets\animimg\lv_example_animimg_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.i: cmake_force
@@ -4300,7 +4468,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/animimg/lv_example_anim
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_1.c.obj: D:/work/libs/lvgl/examples/widgets/arc/lv_example_arc_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\arc\lv_example_arc_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\arc\lv_example_arc_1.c.obj -c D:\work\libs\lvgl\examples\widgets\arc\lv_example_arc_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_1.c.i: cmake_force
@@ -4314,7 +4482,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_1.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_2.c.obj: D:/work/libs/lvgl/examples/widgets/arc/lv_example_arc_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\arc\lv_example_arc_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\arc\lv_example_arc_2.c.obj -c D:\work\libs\lvgl\examples\widgets\arc\lv_example_arc_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_2.c.i: cmake_force
@@ -4328,7 +4496,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/arc/lv_example_arc_2.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_1.c.obj: D:/work/libs/lvgl/examples/widgets/bar/lv_example_bar_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\bar\lv_example_bar_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\bar\lv_example_bar_1.c.obj -c D:\work\libs\lvgl\examples\widgets\bar\lv_example_bar_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_1.c.i: cmake_force
@@ -4342,7 +4510,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_1.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_2.c.obj: D:/work/libs/lvgl/examples/widgets/bar/lv_example_bar_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\bar\lv_example_bar_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\bar\lv_example_bar_2.c.obj -c D:\work\libs\lvgl\examples\widgets\bar\lv_example_bar_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_2.c.i: cmake_force
@@ -4356,7 +4524,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_2.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_3.c.obj: D:/work/libs/lvgl/examples/widgets/bar/lv_example_bar_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\bar\lv_example_bar_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\bar\lv_example_bar_3.c.obj -c D:\work\libs\lvgl\examples\widgets\bar\lv_example_bar_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_3.c.i: cmake_force
@@ -4370,7 +4538,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_3.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_4.c.obj: D:/work/libs/lvgl/examples/widgets/bar/lv_example_bar_4.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_4.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_4.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\bar\lv_example_bar_4.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\bar\lv_example_bar_4.c.obj -c D:\work\libs\lvgl\examples\widgets\bar\lv_example_bar_4.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_4.c.i: cmake_force
@@ -4384,7 +4552,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_4.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_5.c.obj: D:/work/libs/lvgl/examples/widgets/bar/lv_example_bar_5.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_5.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_5.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\bar\lv_example_bar_5.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\bar\lv_example_bar_5.c.obj -c D:\work\libs\lvgl\examples\widgets\bar\lv_example_bar_5.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_5.c.i: cmake_force
@@ -4398,7 +4566,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_5.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_6.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_6.c.obj: D:/work/libs/lvgl/examples/widgets/bar/lv_example_bar_6.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_6.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_6.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_6.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\bar\lv_example_bar_6.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\bar\lv_example_bar_6.c.obj -c D:\work\libs\lvgl\examples\widgets\bar\lv_example_bar_6.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_6.c.i: cmake_force
@@ -4412,7 +4580,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/bar/lv_example_bar_6.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_1.c.obj: D:/work/libs/lvgl/examples/widgets/btn/lv_example_btn_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\btn\lv_example_btn_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\btn\lv_example_btn_1.c.obj -c D:\work\libs\lvgl\examples\widgets\btn\lv_example_btn_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_1.c.i: cmake_force
@@ -4426,7 +4594,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_1.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_2.c.obj: D:/work/libs/lvgl/examples/widgets/btn/lv_example_btn_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\btn\lv_example_btn_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\btn\lv_example_btn_2.c.obj -c D:\work\libs\lvgl\examples\widgets\btn\lv_example_btn_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_2.c.i: cmake_force
@@ -4440,7 +4608,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_2.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_3.c.obj: D:/work/libs/lvgl/examples/widgets/btn/lv_example_btn_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\btn\lv_example_btn_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\btn\lv_example_btn_3.c.obj -c D:\work\libs\lvgl\examples\widgets\btn\lv_example_btn_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_3.c.i: cmake_force
@@ -4454,7 +4622,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btn/lv_example_btn_3.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj: D:/work/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_1.c.obj -c D:\work\libs\lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.i: cmake_force
@@ -4468,7 +4636,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_bt
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj: D:/work/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_2.c.obj -c D:\work\libs\lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.i: cmake_force
@@ -4482,7 +4650,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_bt
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj: D:/work/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_3.c.obj -c D:\work\libs\lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.i: cmake_force
@@ -4496,7 +4664,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/btnmatrix/lv_example_bt
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.obj: D:/work/libs/lvgl/examples/widgets/calendar/lv_example_calendar_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\calendar\lv_example_calendar_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\calendar\lv_example_calendar_1.c.obj -c D:\work\libs\lvgl\examples\widgets\calendar\lv_example_calendar_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.i: cmake_force
@@ -4510,7 +4678,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/calendar/lv_example_cal
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.obj: D:/work/libs/lvgl/examples/widgets/canvas/lv_example_canvas_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\canvas\lv_example_canvas_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\canvas\lv_example_canvas_1.c.obj -c D:\work\libs\lvgl\examples\widgets\canvas\lv_example_canvas_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.i: cmake_force
@@ -4524,7 +4692,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canva
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.obj: D:/work/libs/lvgl/examples/widgets/canvas/lv_example_canvas_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\canvas\lv_example_canvas_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\canvas\lv_example_canvas_2.c.obj -c D:\work\libs\lvgl\examples\widgets\canvas\lv_example_canvas_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.i: cmake_force
@@ -4538,7 +4706,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/canvas/lv_example_canva
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_1.c.obj: D:/work/libs/lvgl/examples/widgets/chart/lv_example_chart_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_1.c.obj -c D:\work\libs\lvgl\examples\widgets\chart\lv_example_chart_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_1.c.i: cmake_force
@@ -4552,7 +4720,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_2.c.obj: D:/work/libs/lvgl/examples/widgets/chart/lv_example_chart_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_2.c.obj -c D:\work\libs\lvgl\examples\widgets\chart\lv_example_chart_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_2.c.i: cmake_force
@@ -4566,7 +4734,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_3.c.obj: D:/work/libs/lvgl/examples/widgets/chart/lv_example_chart_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_3.c.obj -c D:\work\libs\lvgl\examples\widgets\chart\lv_example_chart_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_3.c.i: cmake_force
@@ -4580,7 +4748,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_4.c.obj: D:/work/libs/lvgl/examples/widgets/chart/lv_example_chart_4.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_4.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_4.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_4.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_4.c.obj -c D:\work\libs\lvgl\examples\widgets\chart\lv_example_chart_4.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_4.c.i: cmake_force
@@ -4594,7 +4762,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_5.c.obj: D:/work/libs/lvgl/examples/widgets/chart/lv_example_chart_5.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_5.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_5.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_5.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_5.c.obj -c D:\work\libs\lvgl\examples\widgets\chart\lv_example_chart_5.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_5.c.i: cmake_force
@@ -4608,7 +4776,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_6.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_6.c.obj: D:/work/libs/lvgl/examples/widgets/chart/lv_example_chart_6.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_6.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_6.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_6.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_6.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_6.c.obj -c D:\work\libs\lvgl\examples\widgets\chart\lv_example_chart_6.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_6.c.i: cmake_force
@@ -4622,7 +4790,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_7.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_7.c.obj: D:/work/libs/lvgl/examples/widgets/chart/lv_example_chart_7.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_7.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_7.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_7.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_7.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_7.c.obj -c D:\work\libs\lvgl\examples\widgets\chart\lv_example_chart_7.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_7.c.i: cmake_force
@@ -4636,7 +4804,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_8.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_8.c.obj: D:/work/libs/lvgl/examples/widgets/chart/lv_example_chart_8.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_8.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_8.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_8.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_8.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_8.c.obj -c D:\work\libs\lvgl\examples\widgets\chart\lv_example_chart_8.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_8.c.i: cmake_force
@@ -4650,7 +4818,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_9.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_9.c.obj: D:/work/libs/lvgl/examples/widgets/chart/lv_example_chart_9.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_9.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_9.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_9.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_9.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_9.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\chart\lv_example_chart_9.c.obj -c D:\work\libs\lvgl\examples\widgets\chart\lv_example_chart_9.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_9.c.i: cmake_force
@@ -4664,7 +4832,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/chart/lv_example_chart_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.obj: D:/work/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\checkbox\lv_example_checkbox_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\checkbox\lv_example_checkbox_1.c.obj -c D:\work\libs\lvgl\examples\widgets\checkbox\lv_example_checkbox_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.i: cmake_force
@@ -4678,7 +4846,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_che
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.obj: D:/work/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\checkbox\lv_example_checkbox_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\checkbox\lv_example_checkbox_2.c.obj -c D:\work\libs\lvgl\examples\widgets\checkbox\lv_example_checkbox_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.i: cmake_force
@@ -4692,7 +4860,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/checkbox/lv_example_che
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj: D:/work/libs/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\colorwheel\lv_example_colorwheel_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\colorwheel\lv_example_colorwheel_1.c.obj -c D:\work\libs\lvgl\examples\widgets\colorwheel\lv_example_colorwheel_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.i: cmake_force
@@ -4706,7 +4874,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/colorwheel/lv_example_c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.obj: D:/work/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\dropdown\lv_example_dropdown_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\dropdown\lv_example_dropdown_1.c.obj -c D:\work\libs\lvgl\examples\widgets\dropdown\lv_example_dropdown_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.i: cmake_force
@@ -4720,7 +4888,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dro
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.obj: D:/work/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\dropdown\lv_example_dropdown_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\dropdown\lv_example_dropdown_2.c.obj -c D:\work\libs\lvgl\examples\widgets\dropdown\lv_example_dropdown_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.i: cmake_force
@@ -4734,7 +4902,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dro
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.obj: D:/work/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\dropdown\lv_example_dropdown_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\dropdown\lv_example_dropdown_3.c.obj -c D:\work\libs\lvgl\examples\widgets\dropdown\lv_example_dropdown_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.i: cmake_force
@@ -4748,7 +4916,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/dropdown/lv_example_dro
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_1.c.obj: D:/work/libs/lvgl/examples/widgets/img/lv_example_img_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\img\lv_example_img_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\img\lv_example_img_1.c.obj -c D:\work\libs\lvgl\examples\widgets\img\lv_example_img_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_1.c.i: cmake_force
@@ -4762,7 +4930,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_1.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_2.c.obj: D:/work/libs/lvgl/examples/widgets/img/lv_example_img_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\img\lv_example_img_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\img\lv_example_img_2.c.obj -c D:\work\libs\lvgl\examples\widgets\img\lv_example_img_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_2.c.i: cmake_force
@@ -4776,7 +4944,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_2.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_3.c.obj: D:/work/libs/lvgl/examples/widgets/img/lv_example_img_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\img\lv_example_img_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\img\lv_example_img_3.c.obj -c D:\work\libs\lvgl\examples\widgets\img\lv_example_img_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_3.c.i: cmake_force
@@ -4790,7 +4958,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_3.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_4.c.obj: D:/work/libs/lvgl/examples/widgets/img/lv_example_img_4.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_4.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_4.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\img\lv_example_img_4.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\img\lv_example_img_4.c.obj -c D:\work\libs\lvgl\examples\widgets\img\lv_example_img_4.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_4.c.i: cmake_force
@@ -4804,7 +4972,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/img/lv_example_img_4.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj: D:/work/libs/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\imgbtn\lv_example_imgbtn_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\imgbtn\lv_example_imgbtn_1.c.obj -c D:\work\libs\lvgl\examples\widgets\imgbtn\lv_example_imgbtn_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.i: cmake_force
@@ -4818,7 +4986,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/imgbtn/lv_example_imgbt
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.obj: D:/work/libs/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\keyboard\lv_example_keyboard_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\keyboard\lv_example_keyboard_1.c.obj -c D:\work\libs\lvgl\examples\widgets\keyboard\lv_example_keyboard_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.i: cmake_force
@@ -4832,7 +5000,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/keyboard/lv_example_key
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_1.c.obj: D:/work/libs/lvgl/examples/widgets/label/lv_example_label_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\label\lv_example_label_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\label\lv_example_label_1.c.obj -c D:\work\libs\lvgl\examples\widgets\label\lv_example_label_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_1.c.i: cmake_force
@@ -4846,7 +5014,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_2.c.obj: D:/work/libs/lvgl/examples/widgets/label/lv_example_label_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\label\lv_example_label_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\label\lv_example_label_2.c.obj -c D:\work\libs\lvgl\examples\widgets\label\lv_example_label_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_2.c.i: cmake_force
@@ -4860,7 +5028,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_3.c.obj: D:/work/libs/lvgl/examples/widgets/label/lv_example_label_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\label\lv_example_label_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\label\lv_example_label_3.c.obj -c D:\work\libs\lvgl\examples\widgets\label\lv_example_label_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_3.c.i: cmake_force
@@ -4874,7 +5042,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_4.c.obj: D:/work/libs/lvgl/examples/widgets/label/lv_example_label_4.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_4.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_4.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\label\lv_example_label_4.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\label\lv_example_label_4.c.obj -c D:\work\libs\lvgl\examples\widgets\label\lv_example_label_4.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_4.c.i: cmake_force
@@ -4888,7 +5056,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_5.c.obj: D:/work/libs/lvgl/examples/widgets/label/lv_example_label_5.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_5.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_5.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\label\lv_example_label_5.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\label\lv_example_label_5.c.obj -c D:\work\libs\lvgl\examples\widgets\label\lv_example_label_5.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_5.c.i: cmake_force
@@ -4902,7 +5070,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/label/lv_example_label_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/led/lv_example_led_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/led/lv_example_led_1.c.obj: D:/work/libs/lvgl/examples/widgets/led/lv_example_led_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/led/lv_example_led_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/led/lv_example_led_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/led/lv_example_led_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/led/lv_example_led_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\led\lv_example_led_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\led\lv_example_led_1.c.obj -c D:\work\libs\lvgl\examples\widgets\led\lv_example_led_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/led/lv_example_led_1.c.i: cmake_force
@@ -4916,7 +5084,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/led/lv_example_led_1.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/line/lv_example_line_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/line/lv_example_line_1.c.obj: D:/work/libs/lvgl/examples/widgets/line/lv_example_line_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/line/lv_example_line_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/line/lv_example_line_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/line/lv_example_line_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/line/lv_example_line_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\line\lv_example_line_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\line\lv_example_line_1.c.obj -c D:\work\libs\lvgl\examples\widgets\line\lv_example_line_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/line/lv_example_line_1.c.i: cmake_force
@@ -4930,7 +5098,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/line/lv_example_line_1.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_1.c.obj: D:/work/libs/lvgl/examples/widgets/list/lv_example_list_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\list\lv_example_list_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\list\lv_example_list_1.c.obj -c D:\work\libs\lvgl\examples\widgets\list\lv_example_list_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_1.c.i: cmake_force
@@ -4944,7 +5112,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_1.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_2.c.obj: D:/work/libs/lvgl/examples/widgets/list/lv_example_list_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\list\lv_example_list_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\list\lv_example_list_2.c.obj -c D:\work\libs\lvgl\examples\widgets\list\lv_example_list_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_2.c.i: cmake_force
@@ -4958,7 +5126,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/list/lv_example_list_2.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_1.c.obj: D:/work/libs/lvgl/examples/widgets/menu/lv_example_menu_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\menu\lv_example_menu_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\menu\lv_example_menu_1.c.obj -c D:\work\libs\lvgl\examples\widgets\menu\lv_example_menu_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_1.c.i: cmake_force
@@ -4972,7 +5140,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_1.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_2.c.obj: D:/work/libs/lvgl/examples/widgets/menu/lv_example_menu_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\menu\lv_example_menu_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\menu\lv_example_menu_2.c.obj -c D:\work\libs\lvgl\examples\widgets\menu\lv_example_menu_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_2.c.i: cmake_force
@@ -4986,7 +5154,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_2.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_3.c.obj: D:/work/libs/lvgl/examples/widgets/menu/lv_example_menu_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\menu\lv_example_menu_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\menu\lv_example_menu_3.c.obj -c D:\work\libs\lvgl\examples\widgets\menu\lv_example_menu_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_3.c.i: cmake_force
@@ -5000,7 +5168,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_3.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_4.c.obj: D:/work/libs/lvgl/examples/widgets/menu/lv_example_menu_4.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_4.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_4.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\menu\lv_example_menu_4.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\menu\lv_example_menu_4.c.obj -c D:\work\libs\lvgl\examples\widgets\menu\lv_example_menu_4.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_4.c.i: cmake_force
@@ -5014,7 +5182,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_4.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_5.c.obj: D:/work/libs/lvgl/examples/widgets/menu/lv_example_menu_5.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_5.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_366) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_5.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_5.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\menu\lv_example_menu_5.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\menu\lv_example_menu_5.c.obj -c D:\work\libs\lvgl\examples\widgets\menu\lv_example_menu_5.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_5.c.i: cmake_force
@@ -5028,7 +5196,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/menu/lv_example_menu_5.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_1.c.obj: D:/work/libs/lvgl/examples/widgets/meter/lv_example_meter_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_367) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\meter\lv_example_meter_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\meter\lv_example_meter_1.c.obj -c D:\work\libs\lvgl\examples\widgets\meter\lv_example_meter_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_1.c.i: cmake_force
@@ -5042,7 +5210,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_2.c.obj: D:/work/libs/lvgl/examples/widgets/meter/lv_example_meter_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_368) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\meter\lv_example_meter_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\meter\lv_example_meter_2.c.obj -c D:\work\libs\lvgl\examples\widgets\meter\lv_example_meter_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_2.c.i: cmake_force
@@ -5056,7 +5224,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_3.c.obj: D:/work/libs/lvgl/examples/widgets/meter/lv_example_meter_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_369) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\meter\lv_example_meter_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\meter\lv_example_meter_3.c.obj -c D:\work\libs\lvgl\examples\widgets\meter\lv_example_meter_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_3.c.i: cmake_force
@@ -5070,7 +5238,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_4.c.obj: D:/work/libs/lvgl/examples/widgets/meter/lv_example_meter_4.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_370) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_4.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_4.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\meter\lv_example_meter_4.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\meter\lv_example_meter_4.c.obj -c D:\work\libs\lvgl\examples\widgets\meter\lv_example_meter_4.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_4.c.i: cmake_force
@@ -5084,7 +5252,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/meter/lv_example_meter_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.obj: D:/work/libs/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_371) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\msgbox\lv_example_msgbox_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\msgbox\lv_example_msgbox_1.c.obj -c D:\work\libs\lvgl\examples\widgets\msgbox\lv_example_msgbox_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.i: cmake_force
@@ -5098,7 +5266,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/msgbox/lv_example_msgbo
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_1.c.obj: D:/work/libs/lvgl/examples/widgets/obj/lv_example_obj_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_372) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\obj\lv_example_obj_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\obj\lv_example_obj_1.c.obj -c D:\work\libs\lvgl\examples\widgets\obj\lv_example_obj_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_1.c.i: cmake_force
@@ -5112,7 +5280,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_1.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_2.c.obj: D:/work/libs/lvgl/examples/widgets/obj/lv_example_obj_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_373) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\obj\lv_example_obj_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\obj\lv_example_obj_2.c.obj -c D:\work\libs\lvgl\examples\widgets\obj\lv_example_obj_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_2.c.i: cmake_force
@@ -5126,7 +5294,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/obj/lv_example_obj_2.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_1.c.obj: D:/work/libs/lvgl/examples/widgets/roller/lv_example_roller_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_374) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\roller\lv_example_roller_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\roller\lv_example_roller_1.c.obj -c D:\work\libs\lvgl\examples\widgets\roller\lv_example_roller_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_1.c.i: cmake_force
@@ -5140,7 +5308,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_rolle
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_2.c.obj: D:/work/libs/lvgl/examples/widgets/roller/lv_example_roller_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_375) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\roller\lv_example_roller_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\roller\lv_example_roller_2.c.obj -c D:\work\libs\lvgl\examples\widgets\roller\lv_example_roller_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_2.c.i: cmake_force
@@ -5154,7 +5322,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_rolle
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_3.c.obj: D:/work/libs/lvgl/examples/widgets/roller/lv_example_roller_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_376) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\roller\lv_example_roller_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\roller\lv_example_roller_3.c.obj -c D:\work\libs\lvgl\examples\widgets\roller\lv_example_roller_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_roller_3.c.i: cmake_force
@@ -5168,7 +5336,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/roller/lv_example_rolle
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_1.c.obj: D:/work/libs/lvgl/examples/widgets/slider/lv_example_slider_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_377) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\slider\lv_example_slider_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\slider\lv_example_slider_1.c.obj -c D:\work\libs\lvgl\examples\widgets\slider\lv_example_slider_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_1.c.i: cmake_force
@@ -5182,7 +5350,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slide
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_2.c.obj: D:/work/libs/lvgl/examples/widgets/slider/lv_example_slider_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_366) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_378) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\slider\lv_example_slider_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\slider\lv_example_slider_2.c.obj -c D:\work\libs\lvgl\examples\widgets\slider\lv_example_slider_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_2.c.i: cmake_force
@@ -5196,7 +5364,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slide
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_3.c.obj: D:/work/libs/lvgl/examples/widgets/slider/lv_example_slider_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_367) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\slider\lv_example_slider_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\slider\lv_example_slider_3.c.obj -c D:\work\libs\lvgl\examples\widgets\slider\lv_example_slider_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slider_3.c.i: cmake_force
@@ -5210,7 +5378,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/slider/lv_example_slide
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/span/lv_example_span_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/span/lv_example_span_1.c.obj: D:/work/libs/lvgl/examples/widgets/span/lv_example_span_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/span/lv_example_span_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_368) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/span/lv_example_span_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/span/lv_example_span_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/span/lv_example_span_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\span\lv_example_span_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\span\lv_example_span_1.c.obj -c D:\work\libs\lvgl\examples\widgets\span\lv_example_span_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/span/lv_example_span_1.c.i: cmake_force
@@ -5224,7 +5392,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/span/lv_example_span_1.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.obj: D:/work/libs/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_369) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\spinbox\lv_example_spinbox_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\spinbox\lv_example_spinbox_1.c.obj -c D:\work\libs\lvgl\examples\widgets\spinbox\lv_example_spinbox_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.i: cmake_force
@@ -5238,7 +5406,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinbox/lv_example_spin
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.obj: D:/work/libs/lvgl/examples/widgets/spinner/lv_example_spinner_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_370) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_382) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\spinner\lv_example_spinner_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\spinner\lv_example_spinner_1.c.obj -c D:\work\libs\lvgl\examples\widgets\spinner\lv_example_spinner_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.i: cmake_force
@@ -5252,7 +5420,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/spinner/lv_example_spin
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/switch/lv_example_switch_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/switch/lv_example_switch_1.c.obj: D:/work/libs/lvgl/examples/widgets/switch/lv_example_switch_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/switch/lv_example_switch_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_371) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/switch/lv_example_switch_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_383) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/switch/lv_example_switch_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/switch/lv_example_switch_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\switch\lv_example_switch_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\switch\lv_example_switch_1.c.obj -c D:\work\libs\lvgl\examples\widgets\switch\lv_example_switch_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/switch/lv_example_switch_1.c.i: cmake_force
@@ -5266,7 +5434,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/switch/lv_example_switc
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_1.c.obj: D:/work/libs/lvgl/examples/widgets/table/lv_example_table_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_372) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_384) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\table\lv_example_table_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\table\lv_example_table_1.c.obj -c D:\work\libs\lvgl\examples\widgets\table\lv_example_table_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_1.c.i: cmake_force
@@ -5280,7 +5448,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_2.c.obj: D:/work/libs/lvgl/examples/widgets/table/lv_example_table_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_373) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_385) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\table\lv_example_table_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\table\lv_example_table_2.c.obj -c D:\work\libs\lvgl\examples\widgets\table\lv_example_table_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_2.c.i: cmake_force
@@ -5294,7 +5462,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/table/lv_example_table_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.obj: D:/work/libs/lvgl/examples/widgets/tabview/lv_example_tabview_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_374) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_386) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\tabview\lv_example_tabview_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\tabview\lv_example_tabview_1.c.obj -c D:\work\libs\lvgl\examples\widgets\tabview\lv_example_tabview_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.i: cmake_force
@@ -5308,7 +5476,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabv
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.obj: D:/work/libs/lvgl/examples/widgets/tabview/lv_example_tabview_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_375) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_387) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\tabview\lv_example_tabview_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\tabview\lv_example_tabview_2.c.obj -c D:\work\libs\lvgl\examples\widgets\tabview\lv_example_tabview_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.i: cmake_force
@@ -5322,7 +5490,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tabview/lv_example_tabv
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.obj: D:/work/libs/lvgl/examples/widgets/textarea/lv_example_textarea_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_376) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_388) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\textarea\lv_example_textarea_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\textarea\lv_example_textarea_1.c.obj -c D:\work\libs\lvgl\examples\widgets\textarea\lv_example_textarea_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.i: cmake_force
@@ -5336,7 +5504,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_tex
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.obj: D:/work/libs/lvgl/examples/widgets/textarea/lv_example_textarea_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_377) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_389) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\textarea\lv_example_textarea_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\textarea\lv_example_textarea_2.c.obj -c D:\work\libs\lvgl\examples\widgets\textarea\lv_example_textarea_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.i: cmake_force
@@ -5350,7 +5518,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_tex
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.obj: D:/work/libs/lvgl/examples/widgets/textarea/lv_example_textarea_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_378) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_390) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\textarea\lv_example_textarea_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\textarea\lv_example_textarea_3.c.obj -c D:\work\libs\lvgl\examples\widgets\textarea\lv_example_textarea_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.i: cmake_force
@@ -5364,7 +5532,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/textarea/lv_example_tex
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.obj: D:/work/libs/lvgl/examples/widgets/tileview/lv_example_tileview_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_391) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\tileview\lv_example_tileview_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\tileview\lv_example_tileview_1.c.obj -c D:\work\libs\lvgl\examples\widgets\tileview\lv_example_tileview_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.i: cmake_force
@@ -5378,7 +5546,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/tileview/lv_example_til
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/win/lv_example_win_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/win/lv_example_win_1.c.obj: D:/work/libs/lvgl/examples/widgets/win/lv_example_win_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/win/lv_example_win_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/win/lv_example_win_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_392) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/win/lv_example_win_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/win/lv_example_win_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\win\lv_example_win_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\examples\widgets\win\lv_example_win_1.c.obj -c D:\work\libs\lvgl\examples\widgets\win\lv_example_win_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/win/lv_example_win_1.c.i: cmake_force
@@ -5392,7 +5560,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/examples/widgets/win/lv_example_win_1.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_disp.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_disp.c.obj: D:/work/libs/lvgl/src/core/lv_disp.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_disp.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_disp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_393) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_disp.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_disp.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_disp.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_disp.c.obj -c D:\work\libs\lvgl\src\core\lv_disp.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_disp.c.i: cmake_force
@@ -5406,7 +5574,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_disp.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_event.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_event.c.obj: D:/work/libs/lvgl/src/core/lv_event.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_event.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_382) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_event.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_394) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_event.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_event.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_event.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_event.c.obj -c D:\work\libs\lvgl\src\core\lv_event.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_event.c.i: cmake_force
@@ -5420,7 +5588,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_event.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_group.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_group.c.obj: D:/work/libs/lvgl/src/core/lv_group.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_group.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_383) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_group.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_395) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_group.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_group.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_group.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_group.c.obj -c D:\work\libs\lvgl\src\core\lv_group.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_group.c.i: cmake_force
@@ -5434,7 +5602,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_group.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev.c.obj: D:/work/libs/lvgl/src/core/lv_indev.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_384) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_396) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_indev.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_indev.c.obj -c D:\work\libs\lvgl\src\core\lv_indev.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev.c.i: cmake_force
@@ -5448,7 +5616,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev_scroll.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev_scroll.c.obj: D:/work/libs/lvgl/src/core/lv_indev_scroll.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev_scroll.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_385) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev_scroll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_397) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev_scroll.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev_scroll.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_indev_scroll.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_indev_scroll.c.obj -c D:\work\libs\lvgl\src\core\lv_indev_scroll.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev_scroll.c.i: cmake_force
@@ -5462,7 +5630,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_indev_scroll.c.s: cmake_forc
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj.c.obj: D:/work/libs/lvgl/src/core/lv_obj.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_386) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_398) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj.c.obj -c D:\work\libs\lvgl\src\core\lv_obj.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj.c.i: cmake_force
@@ -5476,7 +5644,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_class.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_class.c.obj: D:/work/libs/lvgl/src/core/lv_obj_class.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_class.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_387) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_class.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_399) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_class.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_class.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj_class.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj_class.c.obj -c D:\work\libs\lvgl\src\core\lv_obj_class.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_class.c.i: cmake_force
@@ -5490,7 +5658,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_class.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_draw.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_draw.c.obj: D:/work/libs/lvgl/src/core/lv_obj_draw.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_draw.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_388) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_draw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_400) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_draw.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_draw.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj_draw.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj_draw.c.obj -c D:\work\libs\lvgl\src\core\lv_obj_draw.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_draw.c.i: cmake_force
@@ -5504,7 +5672,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_draw.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_pos.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_pos.c.obj: D:/work/libs/lvgl/src/core/lv_obj_pos.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_pos.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_389) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_pos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_401) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_pos.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_pos.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj_pos.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj_pos.c.obj -c D:\work\libs\lvgl\src\core\lv_obj_pos.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_pos.c.i: cmake_force
@@ -5518,7 +5686,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_pos.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_scroll.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_scroll.c.obj: D:/work/libs/lvgl/src/core/lv_obj_scroll.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_scroll.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_390) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_scroll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_402) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_scroll.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_scroll.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj_scroll.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj_scroll.c.obj -c D:\work\libs\lvgl\src\core\lv_obj_scroll.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_scroll.c.i: cmake_force
@@ -5532,7 +5700,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_scroll.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style.c.obj: D:/work/libs/lvgl/src/core/lv_obj_style.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_391) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_403) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj_style.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj_style.c.obj -c D:\work\libs\lvgl\src\core\lv_obj_style.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style.c.i: cmake_force
@@ -5546,7 +5714,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style_gen.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style_gen.c.obj: D:/work/libs/lvgl/src/core/lv_obj_style_gen.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style_gen.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_392) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style_gen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_404) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style_gen.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style_gen.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj_style_gen.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj_style_gen.c.obj -c D:\work\libs\lvgl\src\core\lv_obj_style_gen.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style_gen.c.i: cmake_force
@@ -5560,7 +5728,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_style_gen.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_tree.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_tree.c.obj: D:/work/libs/lvgl/src/core/lv_obj_tree.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_tree.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_393) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_tree.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_405) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_tree.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_tree.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj_tree.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_obj_tree.c.obj -c D:\work\libs\lvgl\src\core\lv_obj_tree.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_tree.c.i: cmake_force
@@ -5574,7 +5742,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_obj_tree.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_refr.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_refr.c.obj: D:/work/libs/lvgl/src/core/lv_refr.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_refr.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_394) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_refr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_406) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_refr.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_refr.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_refr.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_refr.c.obj -c D:\work\libs\lvgl\src\core\lv_refr.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_refr.c.i: cmake_force
@@ -5588,7 +5756,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_refr.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_theme.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_theme.c.obj: D:/work/libs/lvgl/src/core/lv_theme.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_theme.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_395) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_theme.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_407) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_theme.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_theme.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_theme.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\core\lv_theme.c.obj -c D:\work\libs\lvgl\src\core\lv_theme.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_theme.c.i: cmake_force
@@ -5602,7 +5770,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/core/lv_theme.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.obj: D:/work/libs/lvgl/src/draw/arm2d/lv_gpu_arm2d.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_396) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_408) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\arm2d\lv_gpu_arm2d.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\arm2d\lv_gpu_arm2d.c.obj -c D:\work\libs\lvgl\src\draw\arm2d\lv_gpu_arm2d.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.i: cmake_force
@@ -5616,7 +5784,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.s: cmake_f
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw.c.obj: D:/work/libs/lvgl/src/draw/lv_draw.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_397) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_409) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw.c.obj -c D:\work\libs\lvgl\src\draw\lv_draw.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw.c.i: cmake_force
@@ -5630,7 +5798,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_arc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_arc.c.obj: D:/work/libs/lvgl/src/draw/lv_draw_arc.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_arc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_398) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_410) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_arc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_arc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_arc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_arc.c.obj -c D:\work\libs\lvgl\src\draw\lv_draw_arc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_arc.c.i: cmake_force
@@ -5644,7 +5812,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_arc.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_img.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_img.c.obj: D:/work/libs/lvgl/src/draw/lv_draw_img.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_img.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_399) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_411) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_img.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_img.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_img.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_img.c.obj -c D:\work\libs\lvgl\src\draw\lv_draw_img.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_img.c.i: cmake_force
@@ -5658,7 +5826,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_img.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_label.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_label.c.obj: D:/work/libs/lvgl/src/draw/lv_draw_label.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_label.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_400) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_412) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_label.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_label.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_label.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_label.c.obj -c D:\work\libs\lvgl\src\draw\lv_draw_label.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_label.c.i: cmake_force
@@ -5672,7 +5840,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_label.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_layer.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_layer.c.obj: D:/work/libs/lvgl/src/draw/lv_draw_layer.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_layer.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_401) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_layer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_413) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_layer.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_layer.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_layer.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_layer.c.obj -c D:\work\libs\lvgl\src\draw\lv_draw_layer.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_layer.c.i: cmake_force
@@ -5686,7 +5854,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_layer.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_line.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_line.c.obj: D:/work/libs/lvgl/src/draw/lv_draw_line.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_line.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_402) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_414) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_line.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_line.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_line.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_line.c.obj -c D:\work\libs\lvgl\src\draw\lv_draw_line.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_line.c.i: cmake_force
@@ -5700,7 +5868,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_line.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_mask.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_mask.c.obj: D:/work/libs/lvgl/src/draw/lv_draw_mask.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_mask.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_403) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_mask.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_415) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_mask.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_mask.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_mask.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_mask.c.obj -c D:\work\libs\lvgl\src\draw\lv_draw_mask.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_mask.c.i: cmake_force
@@ -5714,7 +5882,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_mask.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_rect.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_rect.c.obj: D:/work/libs/lvgl/src/draw/lv_draw_rect.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_rect.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_404) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_416) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_rect.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_rect.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_rect.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_rect.c.obj -c D:\work\libs\lvgl\src\draw\lv_draw_rect.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_rect.c.i: cmake_force
@@ -5728,7 +5896,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_rect.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_transform.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_transform.c.obj: D:/work/libs/lvgl/src/draw/lv_draw_transform.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_transform.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_405) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_transform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_417) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_transform.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_transform.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_transform.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_transform.c.obj -c D:\work\libs\lvgl\src\draw\lv_draw_transform.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_transform.c.i: cmake_force
@@ -5742,7 +5910,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_transform.c.s: cmake_fo
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_triangle.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_triangle.c.obj: D:/work/libs/lvgl/src/draw/lv_draw_triangle.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_triangle.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_406) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_triangle.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_418) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_triangle.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_triangle.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_triangle.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_draw_triangle.c.obj -c D:\work\libs\lvgl\src\draw\lv_draw_triangle.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_triangle.c.i: cmake_force
@@ -5756,7 +5924,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_draw_triangle.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_buf.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_buf.c.obj: D:/work/libs/lvgl/src/draw/lv_img_buf.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_buf.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_407) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_buf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_419) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_buf.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_buf.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_img_buf.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_img_buf.c.obj -c D:\work\libs\lvgl\src\draw\lv_img_buf.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_buf.c.i: cmake_force
@@ -5770,7 +5938,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_buf.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_cache.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_cache.c.obj: D:/work/libs/lvgl/src/draw/lv_img_cache.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_cache.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_408) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_cache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_420) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_cache.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_cache.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_img_cache.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_img_cache.c.obj -c D:\work\libs\lvgl\src\draw\lv_img_cache.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_cache.c.i: cmake_force
@@ -5784,7 +5952,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_cache.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_decoder.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_decoder.c.obj: D:/work/libs/lvgl/src/draw/lv_img_decoder.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_decoder.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_409) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_decoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_421) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_decoder.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_decoder.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_img_decoder.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\lv_img_decoder.c.obj -c D:\work\libs\lvgl\src\draw\lv_img_decoder.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_decoder.c.i: cmake_force
@@ -5798,7 +5966,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/lv_img_decoder.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/lv_gpu_nxp.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/lv_gpu_nxp.c.obj: D:/work/libs/lvgl/src/draw/nxp/lv_gpu_nxp.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/lv_gpu_nxp.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_410) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/lv_gpu_nxp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_422) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/lv_gpu_nxp.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/lv_gpu_nxp.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\lv_gpu_nxp.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\lv_gpu_nxp.c.obj -c D:\work\libs\lvgl\src\draw\nxp\lv_gpu_nxp.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/lv_gpu_nxp.c.i: cmake_force
@@ -5812,7 +5980,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/lv_gpu_nxp.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: D:/work/libs/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_411) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_423) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\pxp\lv_draw_pxp_blend.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\pxp\lv_draw_pxp_blend.c.obj -c D:\work\libs\lvgl\src\draw\nxp\pxp\lv_draw_pxp_blend.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.i: cmake_force
@@ -5826,7 +5994,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: D:/work/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_412) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_424) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\pxp\lv_gpu_nxp_pxp.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\pxp\lv_gpu_nxp_pxp.c.obj -c D:\work\libs\lvgl\src\draw\nxp\pxp\lv_gpu_nxp_pxp.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.i: cmake_force
@@ -5840,7 +6008,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.s: cma
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: D:/work/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_413) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_425) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\pxp\lv_gpu_nxp_pxp_osa.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\pxp\lv_gpu_nxp_pxp_osa.c.obj -c D:\work\libs\lvgl\src\draw\nxp\pxp\lv_gpu_nxp_pxp_osa.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.i: cmake_force
@@ -5854,7 +6022,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: D:/work/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_414) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_426) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\vglite\lv_draw_vglite_arc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\vglite\lv_draw_vglite_arc.c.obj -c D:\work\libs\lvgl\src\draw\nxp\vglite\lv_draw_vglite_arc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i: cmake_force
@@ -5868,7 +6036,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: D:/work/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_415) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_427) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\vglite\lv_draw_vglite_blend.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\vglite\lv_draw_vglite_blend.c.obj -c D:\work\libs\lvgl\src\draw\nxp\vglite\lv_draw_vglite_blend.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.i: cmake_force
@@ -5882,7 +6050,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: D:/work/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_416) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_428) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\vglite\lv_draw_vglite_rect.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\vglite\lv_draw_vglite_rect.c.obj -c D:\work\libs\lvgl\src\draw\nxp\vglite\lv_draw_vglite_rect.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.i: cmake_force
@@ -5896,7 +6064,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_gpu_nxp_vglite.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_gpu_nxp_vglite.c.obj: D:/work/libs/lvgl/src/draw/nxp/vglite/lv_gpu_nxp_vglite.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_gpu_nxp_vglite.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_417) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_gpu_nxp_vglite.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_429) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_gpu_nxp_vglite.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_gpu_nxp_vglite.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\vglite\lv_gpu_nxp_vglite.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\nxp\vglite\lv_gpu_nxp_vglite.c.obj -c D:\work\libs\lvgl\src\draw\nxp\vglite\lv_gpu_nxp_vglite.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_gpu_nxp_vglite.c.i: cmake_force
@@ -5910,7 +6078,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/nxp/vglite/lv_gpu_nxp_vglite.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl.c.obj: D:/work/libs/lvgl/src/draw/sdl/lv_draw_sdl.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_418) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_430) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl.c.obj -c D:\work\libs\lvgl\src\draw\sdl\lv_draw_sdl.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl.c.i: cmake_force
@@ -5924,7 +6092,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl.c.s: cmake_forc
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.obj: D:/work/libs/lvgl/src/draw/sdl/lv_draw_sdl_arc.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_419) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_431) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_arc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_arc.c.obj -c D:\work\libs\lvgl\src\draw\sdl\lv_draw_sdl_arc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.i: cmake_force
@@ -5938,7 +6106,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.s: cmake_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.obj: D:/work/libs/lvgl/src/draw/sdl/lv_draw_sdl_bg.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_420) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_432) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_bg.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_bg.c.obj -c D:\work\libs\lvgl\src\draw\sdl\lv_draw_sdl_bg.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.i: cmake_force
@@ -5952,7 +6120,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.s: cmake_f
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.obj: D:/work/libs/lvgl/src/draw/sdl/lv_draw_sdl_composite.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_421) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_433) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_composite.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_composite.c.obj -c D:\work\libs\lvgl\src\draw\sdl\lv_draw_sdl_composite.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.i: cmake_force
@@ -5966,7 +6134,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_img.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_img.c.obj: D:/work/libs/lvgl/src/draw/sdl/lv_draw_sdl_img.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_img.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_422) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_434) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_img.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_img.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_img.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_img.c.obj -c D:\work\libs\lvgl\src\draw\sdl\lv_draw_sdl_img.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_img.c.i: cmake_force
@@ -5980,7 +6148,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_img.c.s: cmake_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_label.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_label.c.obj: D:/work/libs/lvgl/src/draw/sdl/lv_draw_sdl_label.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_label.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_423) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_435) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_label.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_label.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_label.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_label.c.obj -c D:\work\libs\lvgl\src\draw\sdl\lv_draw_sdl_label.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_label.c.i: cmake_force
@@ -5994,7 +6162,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_label.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.obj: D:/work/libs/lvgl/src/draw/sdl/lv_draw_sdl_layer.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_424) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_436) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_layer.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_layer.c.obj -c D:\work\libs\lvgl\src\draw\sdl\lv_draw_sdl_layer.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.i: cmake_force
@@ -6008,7 +6176,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_line.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_line.c.obj: D:/work/libs/lvgl/src/draw/sdl/lv_draw_sdl_line.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_line.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_425) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_437) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_line.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_line.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_line.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_line.c.obj -c D:\work\libs\lvgl\src\draw\sdl\lv_draw_sdl_line.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_line.c.i: cmake_force
@@ -6022,7 +6190,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_line.c.s: cmake
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.obj: D:/work/libs/lvgl/src/draw/sdl/lv_draw_sdl_mask.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_426) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_438) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_mask.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_mask.c.obj -c D:\work\libs\lvgl\src\draw\sdl\lv_draw_sdl_mask.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.i: cmake_force
@@ -6036,7 +6204,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.s: cmake
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.obj: D:/work/libs/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_427) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_439) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_polygon.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_polygon.c.obj -c D:\work\libs\lvgl\src\draw\sdl\lv_draw_sdl_polygon.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.i: cmake_force
@@ -6050,7 +6218,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.s: cm
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.obj: D:/work/libs/lvgl/src/draw/sdl/lv_draw_sdl_rect.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_428) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_440) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_rect.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_rect.c.obj -c D:\work\libs\lvgl\src\draw\sdl\lv_draw_sdl_rect.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.i: cmake_force
@@ -6064,7 +6232,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.s: cmake
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: D:/work/libs/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_429) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_441) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_stack_blur.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_stack_blur.c.obj -c D:\work\libs\lvgl\src\draw\sdl\lv_draw_sdl_stack_blur.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.i: cmake_force
@@ -6078,7 +6246,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: D:/work/libs/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_430) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_442) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_texture_cache.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_texture_cache.c.obj -c D:\work\libs\lvgl\src\draw\sdl\lv_draw_sdl_texture_cache.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.i: cmake_force
@@ -6092,7 +6260,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.obj: D:/work/libs/lvgl/src/draw/sdl/lv_draw_sdl_utils.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_431) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_443) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_utils.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sdl\lv_draw_sdl_utils.c.obj -c D:\work\libs\lvgl\src\draw\sdl\lv_draw_sdl_utils.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.i: cmake_force
@@ -6106,7 +6274,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: D:/work/libs/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_432) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_444) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\stm32_dma2d\lv_gpu_stm32_dma2d.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\stm32_dma2d\lv_gpu_stm32_dma2d.c.obj -c D:\work\libs\lvgl\src\draw\stm32_dma2d\lv_gpu_stm32_dma2d.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i: cmake_force
@@ -6120,7 +6288,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw.c.obj: D:/work/libs/lvgl/src/draw/sw/lv_draw_sw.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_433) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_445) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw.c.obj -c D:\work\libs\lvgl\src\draw\sw\lv_draw_sw.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw.c.i: cmake_force
@@ -6134,7 +6302,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj: D:/work/libs/lvgl/src/draw/sw/lv_draw_sw_arc.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_434) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_446) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_arc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_arc.c.obj -c D:\work\libs\lvgl\src\draw\sw\lv_draw_sw_arc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_arc.c.i: cmake_force
@@ -6148,7 +6316,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_arc.c.s: cmake_fo
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_blend.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_blend.c.obj: D:/work/libs/lvgl/src/draw/sw/lv_draw_sw_blend.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_blend.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_435) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_blend.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_447) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_blend.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_blend.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_blend.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_blend.c.obj -c D:\work\libs\lvgl\src\draw\sw\lv_draw_sw_blend.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_blend.c.i: cmake_force
@@ -6162,7 +6330,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_blend.c.s: cmake_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_dither.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_dither.c.obj: D:/work/libs/lvgl/src/draw/sw/lv_draw_sw_dither.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_dither.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_436) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_dither.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_448) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_dither.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_dither.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_dither.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_dither.c.obj -c D:\work\libs\lvgl\src\draw\sw\lv_draw_sw_dither.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_dither.c.i: cmake_force
@@ -6176,7 +6344,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_dither.c.s: cmake
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj: D:/work/libs/lvgl/src/draw/sw/lv_draw_sw_gradient.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_437) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_449) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_gradient.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_gradient.c.obj -c D:\work\libs\lvgl\src\draw\sw\lv_draw_sw_gradient.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_gradient.c.i: cmake_force
@@ -6190,7 +6358,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_gradient.c.s: cma
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_img.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_img.c.obj: D:/work/libs/lvgl/src/draw/sw/lv_draw_sw_img.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_img.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_438) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_450) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_img.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_img.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_img.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_img.c.obj -c D:\work\libs\lvgl\src\draw\sw\lv_draw_sw_img.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_img.c.i: cmake_force
@@ -6204,7 +6372,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_img.c.s: cmake_fo
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_layer.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_layer.c.obj: D:/work/libs/lvgl/src/draw/sw/lv_draw_sw_layer.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_layer.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_439) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_layer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_451) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_layer.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_layer.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_layer.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_layer.c.obj -c D:\work\libs\lvgl\src\draw\sw\lv_draw_sw_layer.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_layer.c.i: cmake_force
@@ -6218,7 +6386,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_layer.c.s: cmake_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj: D:/work/libs/lvgl/src/draw/sw/lv_draw_sw_letter.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_440) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_452) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_letter.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_letter.c.obj -c D:\work\libs\lvgl\src\draw\sw\lv_draw_sw_letter.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_letter.c.i: cmake_force
@@ -6232,7 +6400,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_letter.c.s: cmake
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_line.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_line.c.obj: D:/work/libs/lvgl/src/draw/sw/lv_draw_sw_line.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_line.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_441) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_453) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_line.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_line.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_line.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_line.c.obj -c D:\work\libs\lvgl\src\draw\sw\lv_draw_sw_line.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_line.c.i: cmake_force
@@ -6246,7 +6414,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_line.c.s: cmake_f
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_polygon.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_polygon.c.obj: D:/work/libs/lvgl/src/draw/sw/lv_draw_sw_polygon.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_polygon.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_442) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_polygon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_454) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_polygon.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_polygon.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_polygon.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_polygon.c.obj -c D:\work\libs\lvgl\src\draw\sw\lv_draw_sw_polygon.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_polygon.c.i: cmake_force
@@ -6260,7 +6428,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_polygon.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_rect.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_rect.c.obj: D:/work/libs/lvgl/src/draw/sw/lv_draw_sw_rect.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_rect.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_443) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_455) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_rect.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_rect.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_rect.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_rect.c.obj -c D:\work\libs\lvgl\src\draw\sw\lv_draw_sw_rect.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_rect.c.i: cmake_force
@@ -6274,7 +6442,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_rect.c.s: cmake_f
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj: D:/work/libs/lvgl/src/draw/sw/lv_draw_sw_transform.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_444) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_456) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_transform.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\sw\lv_draw_sw_transform.c.obj -c D:\work\libs\lvgl\src\draw\sw\lv_draw_sw_transform.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_transform.c.i: cmake_force
@@ -6288,7 +6456,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/sw/lv_draw_sw_transform.c.s: cm
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: D:/work/libs/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_445) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_457) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\swm341_dma2d\lv_gpu_swm341_dma2d.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\draw\swm341_dma2d\lv_gpu_swm341_dma2d.c.obj -c D:\work\libs\lvgl\src\draw\swm341_dma2d\lv_gpu_swm341_dma2d.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.i: cmake_force
@@ -6302,7 +6470,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/flex/lv_flex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/flex/lv_flex.c.obj: D:/work/libs/lvgl/src/extra/layouts/flex/lv_flex.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/flex/lv_flex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_446) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/flex/lv_flex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_458) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/flex/lv_flex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/flex/lv_flex.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\layouts\flex\lv_flex.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\layouts\flex\lv_flex.c.obj -c D:\work\libs\lvgl\src\extra\layouts\flex\lv_flex.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/flex/lv_flex.c.i: cmake_force
@@ -6316,7 +6484,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/flex/lv_flex.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/grid/lv_grid.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/grid/lv_grid.c.obj: D:/work/libs/lvgl/src/extra/layouts/grid/lv_grid.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/grid/lv_grid.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_447) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/grid/lv_grid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_459) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/grid/lv_grid.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/grid/lv_grid.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\layouts\grid\lv_grid.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\layouts\grid\lv_grid.c.obj -c D:\work\libs\lvgl\src\extra\layouts\grid\lv_grid.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/grid/lv_grid.c.i: cmake_force
@@ -6330,7 +6498,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/layouts/grid/lv_grid.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/bmp/lv_bmp.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/bmp/lv_bmp.c.obj: D:/work/libs/lvgl/src/extra/libs/bmp/lv_bmp.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/bmp/lv_bmp.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_448) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/bmp/lv_bmp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_460) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/bmp/lv_bmp.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/bmp/lv_bmp.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\bmp\lv_bmp.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\bmp\lv_bmp.c.obj -c D:\work\libs\lvgl\src\extra\libs\bmp\lv_bmp.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/bmp/lv_bmp.c.i: cmake_force
@@ -6344,7 +6512,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/bmp/lv_bmp.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: D:/work/libs/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_449) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_461) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\ffmpeg\lv_ffmpeg.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\ffmpeg\lv_ffmpeg.c.obj -c D:\work\libs\lvgl\src\extra\libs\ffmpeg\lv_ffmpeg.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.i: cmake_force
@@ -6358,7 +6526,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.s: cma
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/freetype/lv_freetype.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/freetype/lv_freetype.c.obj: D:/work/libs/lvgl/src/extra/libs/freetype/lv_freetype.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/freetype/lv_freetype.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_450) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/freetype/lv_freetype.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_462) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/freetype/lv_freetype.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/freetype/lv_freetype.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\freetype\lv_freetype.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\freetype\lv_freetype.c.obj -c D:\work\libs\lvgl\src\extra\libs\freetype\lv_freetype.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/freetype/lv_freetype.c.i: cmake_force
@@ -6372,7 +6540,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/freetype/lv_freetype.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: D:/work/libs/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_451) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_463) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\fsdrv\lv_fs_fatfs.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\fsdrv\lv_fs_fatfs.c.obj -c D:\work\libs\lvgl\src\extra\libs\fsdrv\lv_fs_fatfs.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.i: cmake_force
@@ -6386,7 +6554,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.s: cm
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.obj: D:/work/libs/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_452) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_464) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\fsdrv\lv_fs_posix.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\fsdrv\lv_fs_posix.c.obj -c D:\work\libs\lvgl\src\extra\libs\fsdrv\lv_fs_posix.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.i: cmake_force
@@ -6400,7 +6568,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.s: cm
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: D:/work/libs/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_453) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_465) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\fsdrv\lv_fs_stdio.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\fsdrv\lv_fs_stdio.c.obj -c D:\work\libs\lvgl\src\extra\libs\fsdrv\lv_fs_stdio.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.i: cmake_force
@@ -6414,7 +6582,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.s: cm
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.obj: D:/work/libs/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_454) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_466) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\fsdrv\lv_fs_win32.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\fsdrv\lv_fs_win32.c.obj -c D:\work\libs\lvgl\src\extra\libs\fsdrv\lv_fs_win32.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.i: cmake_force
@@ -6428,7 +6596,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.s: cm
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/gifdec.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/gifdec.c.obj: D:/work/libs/lvgl/src/extra/libs/gif/gifdec.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/gifdec.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_455) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/gifdec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_467) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/gifdec.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/gifdec.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\gif\gifdec.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\gif\gifdec.c.obj -c D:\work\libs\lvgl\src\extra\libs\gif\gifdec.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/gifdec.c.i: cmake_force
@@ -6442,7 +6610,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/gifdec.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/lv_gif.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/lv_gif.c.obj: D:/work/libs/lvgl/src/extra/libs/gif/lv_gif.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/lv_gif.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_456) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/lv_gif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_468) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/lv_gif.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/lv_gif.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\gif\lv_gif.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\gif\lv_gif.c.obj -c D:\work\libs\lvgl\src\extra\libs\gif\lv_gif.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/lv_gif.c.i: cmake_force
@@ -6456,7 +6624,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/gif/lv_gif.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lodepng.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lodepng.c.obj: D:/work/libs/lvgl/src/extra/libs/png/lodepng.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lodepng.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_457) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lodepng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_469) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lodepng.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lodepng.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\png\lodepng.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\png\lodepng.c.obj -c D:\work\libs\lvgl\src\extra\libs\png\lodepng.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lodepng.c.i: cmake_force
@@ -6470,7 +6638,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lodepng.c.s: cmake_fo
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lv_png.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lv_png.c.obj: D:/work/libs/lvgl/src/extra/libs/png/lv_png.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lv_png.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_458) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lv_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_470) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lv_png.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lv_png.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\png\lv_png.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\png\lv_png.c.obj -c D:\work\libs\lvgl\src\extra\libs\png\lv_png.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lv_png.c.i: cmake_force
@@ -6484,7 +6652,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/png/lv_png.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/lv_qrcode.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/lv_qrcode.c.obj: D:/work/libs/lvgl/src/extra/libs/qrcode/lv_qrcode.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/lv_qrcode.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_459) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/lv_qrcode.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_471) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/lv_qrcode.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/lv_qrcode.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\qrcode\lv_qrcode.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\qrcode\lv_qrcode.c.obj -c D:\work\libs\lvgl\src\extra\libs\qrcode\lv_qrcode.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/lv_qrcode.c.i: cmake_force
@@ -6498,7 +6666,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/lv_qrcode.c.s: cma
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj: D:/work/libs/lvgl/src/extra/libs/qrcode/qrcodegen.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_460) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_472) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\qrcode\qrcodegen.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\qrcode\qrcodegen.c.obj -c D:\work\libs\lvgl\src\extra\libs\qrcode\qrcodegen.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/qrcodegen.c.i: cmake_force
@@ -6512,7 +6680,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/qrcode/qrcodegen.c.s: cma
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/rlottie/lv_rlottie.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/rlottie/lv_rlottie.c.obj: D:/work/libs/lvgl/src/extra/libs/rlottie/lv_rlottie.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/rlottie/lv_rlottie.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_461) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/rlottie/lv_rlottie.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_473) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/rlottie/lv_rlottie.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/rlottie/lv_rlottie.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\rlottie\lv_rlottie.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\rlottie\lv_rlottie.c.obj -c D:\work\libs\lvgl\src\extra\libs\rlottie\lv_rlottie.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/rlottie/lv_rlottie.c.i: cmake_force
@@ -6526,7 +6694,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/rlottie/lv_rlottie.c.s: c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/lv_sjpg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/lv_sjpg.c.obj: D:/work/libs/lvgl/src/extra/libs/sjpg/lv_sjpg.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/lv_sjpg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_462) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/lv_sjpg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_474) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/lv_sjpg.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/lv_sjpg.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\sjpg\lv_sjpg.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\sjpg\lv_sjpg.c.obj -c D:\work\libs\lvgl\src\extra\libs\sjpg\lv_sjpg.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/lv_sjpg.c.i: cmake_force
@@ -6540,7 +6708,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/lv_sjpg.c.s: cmake_f
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/tjpgd.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/tjpgd.c.obj: D:/work/libs/lvgl/src/extra/libs/sjpg/tjpgd.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/tjpgd.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_463) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/tjpgd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_475) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/tjpgd.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/tjpgd.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\sjpg\tjpgd.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\libs\sjpg\tjpgd.c.obj -c D:\work\libs\lvgl\src\extra\libs\sjpg\tjpgd.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/tjpgd.c.i: cmake_force
@@ -6554,7 +6722,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/libs/sjpg/tjpgd.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/lv_extra.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/lv_extra.c.obj: D:/work/libs/lvgl/src/extra/lv_extra.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/lv_extra.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_464) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/lv_extra.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_476) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/lv_extra.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/lv_extra.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\lv_extra.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\lv_extra.c.obj -c D:\work\libs\lvgl\src\extra\lv_extra.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/lv_extra.c.i: cmake_force
@@ -6568,7 +6736,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/lv_extra.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment.c.obj: D:/work/libs/lvgl/src/extra/others/fragment/lv_fragment.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_465) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_477) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\fragment\lv_fragment.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\fragment\lv_fragment.c.obj -c D:\work\libs\lvgl\src\extra\others\fragment\lv_fragment.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment.c.i: cmake_force
@@ -6582,7 +6750,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment_manager.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment_manager.c.obj: D:/work/libs/lvgl/src/extra/others/fragment/lv_fragment_manager.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment_manager.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_466) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment_manager.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_478) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment_manager.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment_manager.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\fragment\lv_fragment_manager.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\fragment\lv_fragment_manager.c.obj -c D:\work\libs\lvgl\src\extra\others\fragment\lv_fragment_manager.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment_manager.c.i: cmake_force
@@ -6596,7 +6764,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/fragment/lv_fragment_ma
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/gridnav/lv_gridnav.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/gridnav/lv_gridnav.c.obj: D:/work/libs/lvgl/src/extra/others/gridnav/lv_gridnav.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/gridnav/lv_gridnav.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_467) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/gridnav/lv_gridnav.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_479) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/gridnav/lv_gridnav.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/gridnav/lv_gridnav.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\gridnav\lv_gridnav.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\gridnav\lv_gridnav.c.obj -c D:\work\libs\lvgl\src\extra\others\gridnav\lv_gridnav.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/gridnav/lv_gridnav.c.i: cmake_force
@@ -6610,7 +6778,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/gridnav/lv_gridnav.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/ime/lv_ime_pinyin.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/ime/lv_ime_pinyin.c.obj: D:/work/libs/lvgl/src/extra/others/ime/lv_ime_pinyin.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/ime/lv_ime_pinyin.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_468) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/ime/lv_ime_pinyin.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_480) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/ime/lv_ime_pinyin.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/ime/lv_ime_pinyin.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\ime\lv_ime_pinyin.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\ime\lv_ime_pinyin.c.obj -c D:\work\libs\lvgl\src\extra\others\ime\lv_ime_pinyin.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/ime/lv_ime_pinyin.c.i: cmake_force
@@ -6624,7 +6792,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/ime/lv_ime_pinyin.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/imgfont/lv_imgfont.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/imgfont/lv_imgfont.c.obj: D:/work/libs/lvgl/src/extra/others/imgfont/lv_imgfont.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/imgfont/lv_imgfont.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_469) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/imgfont/lv_imgfont.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_481) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/imgfont/lv_imgfont.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/imgfont/lv_imgfont.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\imgfont\lv_imgfont.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\imgfont\lv_imgfont.c.obj -c D:\work\libs\lvgl\src\extra\others\imgfont\lv_imgfont.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/imgfont/lv_imgfont.c.i: cmake_force
@@ -6638,7 +6806,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/imgfont/lv_imgfont.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/monkey/lv_monkey.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/monkey/lv_monkey.c.obj: D:/work/libs/lvgl/src/extra/others/monkey/lv_monkey.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/monkey/lv_monkey.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_470) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/monkey/lv_monkey.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_482) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/monkey/lv_monkey.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/monkey/lv_monkey.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\monkey\lv_monkey.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\monkey\lv_monkey.c.obj -c D:\work\libs\lvgl\src\extra\others\monkey\lv_monkey.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/monkey/lv_monkey.c.i: cmake_force
@@ -6652,7 +6820,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/monkey/lv_monkey.c.s: c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/msg/lv_msg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/msg/lv_msg.c.obj: D:/work/libs/lvgl/src/extra/others/msg/lv_msg.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/msg/lv_msg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_471) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/msg/lv_msg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_483) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/msg/lv_msg.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/msg/lv_msg.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\msg\lv_msg.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\msg\lv_msg.c.obj -c D:\work\libs\lvgl\src\extra\others\msg\lv_msg.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/msg/lv_msg.c.i: cmake_force
@@ -6666,7 +6834,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/msg/lv_msg.c.s: cmake_f
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/snapshot/lv_snapshot.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/snapshot/lv_snapshot.c.obj: D:/work/libs/lvgl/src/extra/others/snapshot/lv_snapshot.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/snapshot/lv_snapshot.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_472) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/snapshot/lv_snapshot.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_484) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/snapshot/lv_snapshot.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/snapshot/lv_snapshot.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\snapshot\lv_snapshot.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\others\snapshot\lv_snapshot.c.obj -c D:\work\libs\lvgl\src\extra\others\snapshot\lv_snapshot.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/snapshot/lv_snapshot.c.i: cmake_force
@@ -6680,7 +6848,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/others/snapshot/lv_snapshot.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/basic/lv_theme_basic.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/basic/lv_theme_basic.c.obj: D:/work/libs/lvgl/src/extra/themes/basic/lv_theme_basic.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/basic/lv_theme_basic.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_473) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/basic/lv_theme_basic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_485) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/basic/lv_theme_basic.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/basic/lv_theme_basic.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\themes\basic\lv_theme_basic.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\themes\basic\lv_theme_basic.c.obj -c D:\work\libs\lvgl\src\extra\themes\basic\lv_theme_basic.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/basic/lv_theme_basic.c.i: cmake_force
@@ -6694,7 +6862,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/basic/lv_theme_basic.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/default/lv_theme_default.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/default/lv_theme_default.c.obj: D:/work/libs/lvgl/src/extra/themes/default/lv_theme_default.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/default/lv_theme_default.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_474) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/default/lv_theme_default.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_486) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/default/lv_theme_default.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/default/lv_theme_default.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\themes\default\lv_theme_default.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\themes\default\lv_theme_default.c.obj -c D:\work\libs\lvgl\src\extra\themes\default\lv_theme_default.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/default/lv_theme_default.c.i: cmake_force
@@ -6708,7 +6876,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/default/lv_theme_defaul
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/mono/lv_theme_mono.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/mono/lv_theme_mono.c.obj: D:/work/libs/lvgl/src/extra/themes/mono/lv_theme_mono.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/mono/lv_theme_mono.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_475) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/mono/lv_theme_mono.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_487) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/mono/lv_theme_mono.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/mono/lv_theme_mono.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\themes\mono\lv_theme_mono.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\themes\mono\lv_theme_mono.c.obj -c D:\work\libs\lvgl\src\extra\themes\mono\lv_theme_mono.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/mono/lv_theme_mono.c.i: cmake_force
@@ -6722,7 +6890,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/themes/mono/lv_theme_mono.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/animimg/lv_animimg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/animimg/lv_animimg.c.obj: D:/work/libs/lvgl/src/extra/widgets/animimg/lv_animimg.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/animimg/lv_animimg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_476) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/animimg/lv_animimg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_488) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/animimg/lv_animimg.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/animimg/lv_animimg.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\animimg\lv_animimg.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\animimg\lv_animimg.c.obj -c D:\work\libs\lvgl\src\extra\widgets\animimg\lv_animimg.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/animimg/lv_animimg.c.i: cmake_force
@@ -6736,7 +6904,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/animimg/lv_animimg.c.s
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar.c.obj: D:/work/libs/lvgl/src/extra/widgets/calendar/lv_calendar.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_477) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_489) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\calendar\lv_calendar.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\calendar\lv_calendar.c.obj -c D:\work\libs\lvgl\src\extra\widgets\calendar\lv_calendar.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar.c.i: cmake_force
@@ -6750,7 +6918,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: D:/work/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_478) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_490) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\calendar\lv_calendar_header_arrow.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\calendar\lv_calendar_header_arrow.c.obj -c D:\work\libs\lvgl\src\extra\widgets\calendar\lv_calendar_header_arrow.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i: cmake_force
@@ -6764,7 +6932,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_h
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: D:/work/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_479) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_491) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\calendar\lv_calendar_header_dropdown.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\calendar\lv_calendar_header_dropdown.c.obj -c D:\work\libs\lvgl\src\extra\widgets\calendar\lv_calendar_header_dropdown.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i: cmake_force
@@ -6778,7 +6946,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/calendar/lv_calendar_h
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/chart/lv_chart.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/chart/lv_chart.c.obj: D:/work/libs/lvgl/src/extra/widgets/chart/lv_chart.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/chart/lv_chart.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_480) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/chart/lv_chart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_492) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/chart/lv_chart.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/chart/lv_chart.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\chart\lv_chart.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\chart\lv_chart.c.obj -c D:\work\libs\lvgl\src\extra\widgets\chart\lv_chart.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/chart/lv_chart.c.i: cmake_force
@@ -6792,7 +6960,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/chart/lv_chart.c.s: cm
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: D:/work/libs/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_481) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_493) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\colorwheel\lv_colorwheel.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\colorwheel\lv_colorwheel.c.obj -c D:\work\libs\lvgl\src\extra\widgets\colorwheel\lv_colorwheel.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.i: cmake_force
@@ -6806,7 +6974,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/colorwheel/lv_colorwhe
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: D:/work/libs/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_482) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_494) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\imgbtn\lv_imgbtn.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\imgbtn\lv_imgbtn.c.obj -c D:\work\libs\lvgl\src\extra\widgets\imgbtn\lv_imgbtn.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.i: cmake_force
@@ -6820,7 +6988,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.obj: D:/work/libs/lvgl/src/extra/widgets/keyboard/lv_keyboard.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_483) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_495) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\keyboard\lv_keyboard.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\keyboard\lv_keyboard.c.obj -c D:\work\libs\lvgl\src\extra\widgets\keyboard\lv_keyboard.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.i: cmake_force
@@ -6834,7 +7002,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/keyboard/lv_keyboard.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/led/lv_led.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/led/lv_led.c.obj: D:/work/libs/lvgl/src/extra/widgets/led/lv_led.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/led/lv_led.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_484) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/led/lv_led.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_496) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/led/lv_led.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/led/lv_led.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\led\lv_led.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\led\lv_led.c.obj -c D:\work\libs\lvgl\src\extra\widgets\led\lv_led.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/led/lv_led.c.i: cmake_force
@@ -6848,7 +7016,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/led/lv_led.c.s: cmake_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/list/lv_list.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/list/lv_list.c.obj: D:/work/libs/lvgl/src/extra/widgets/list/lv_list.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/list/lv_list.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_485) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/list/lv_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_497) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/list/lv_list.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/list/lv_list.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\list\lv_list.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\list\lv_list.c.obj -c D:\work\libs\lvgl\src\extra\widgets\list\lv_list.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/list/lv_list.c.i: cmake_force
@@ -6862,7 +7030,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/list/lv_list.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/menu/lv_menu.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/menu/lv_menu.c.obj: D:/work/libs/lvgl/src/extra/widgets/menu/lv_menu.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/menu/lv_menu.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_486) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/menu/lv_menu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_498) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/menu/lv_menu.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/menu/lv_menu.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\menu\lv_menu.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\menu\lv_menu.c.obj -c D:\work\libs\lvgl\src\extra\widgets\menu\lv_menu.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/menu/lv_menu.c.i: cmake_force
@@ -6876,7 +7044,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/menu/lv_menu.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/meter/lv_meter.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/meter/lv_meter.c.obj: D:/work/libs/lvgl/src/extra/widgets/meter/lv_meter.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/meter/lv_meter.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_487) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/meter/lv_meter.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_499) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/meter/lv_meter.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/meter/lv_meter.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\meter\lv_meter.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\meter\lv_meter.c.obj -c D:\work\libs\lvgl\src\extra\widgets\meter\lv_meter.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/meter/lv_meter.c.i: cmake_force
@@ -6890,7 +7058,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/meter/lv_meter.c.s: cm
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.obj: D:/work/libs/lvgl/src/extra/widgets/msgbox/lv_msgbox.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_488) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_500) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\msgbox\lv_msgbox.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\msgbox\lv_msgbox.c.obj -c D:\work\libs\lvgl\src\extra\widgets\msgbox\lv_msgbox.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.i: cmake_force
@@ -6904,7 +7072,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/span/lv_span.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/span/lv_span.c.obj: D:/work/libs/lvgl/src/extra/widgets/span/lv_span.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/span/lv_span.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_489) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/span/lv_span.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_501) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/span/lv_span.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/span/lv_span.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\span\lv_span.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\span\lv_span.c.obj -c D:\work\libs\lvgl\src\extra\widgets\span\lv_span.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/span/lv_span.c.i: cmake_force
@@ -6918,7 +7086,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/span/lv_span.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.obj: D:/work/libs/lvgl/src/extra/widgets/spinbox/lv_spinbox.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_490) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_502) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\spinbox\lv_spinbox.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\spinbox\lv_spinbox.c.obj -c D:\work\libs\lvgl\src\extra\widgets\spinbox\lv_spinbox.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.i: cmake_force
@@ -6932,7 +7100,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.s
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinner/lv_spinner.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinner/lv_spinner.c.obj: D:/work/libs/lvgl/src/extra/widgets/spinner/lv_spinner.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinner/lv_spinner.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_491) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinner/lv_spinner.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_503) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinner/lv_spinner.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinner/lv_spinner.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\spinner\lv_spinner.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\spinner\lv_spinner.c.obj -c D:\work\libs\lvgl\src\extra\widgets\spinner\lv_spinner.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinner/lv_spinner.c.i: cmake_force
@@ -6946,7 +7114,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/spinner/lv_spinner.c.s
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tabview/lv_tabview.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tabview/lv_tabview.c.obj: D:/work/libs/lvgl/src/extra/widgets/tabview/lv_tabview.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tabview/lv_tabview.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_492) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tabview/lv_tabview.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_504) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tabview/lv_tabview.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tabview/lv_tabview.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\tabview\lv_tabview.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\tabview\lv_tabview.c.obj -c D:\work\libs\lvgl\src\extra\widgets\tabview\lv_tabview.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tabview/lv_tabview.c.i: cmake_force
@@ -6960,7 +7128,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tabview/lv_tabview.c.s
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tileview/lv_tileview.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tileview/lv_tileview.c.obj: D:/work/libs/lvgl/src/extra/widgets/tileview/lv_tileview.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tileview/lv_tileview.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_493) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tileview/lv_tileview.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_505) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tileview/lv_tileview.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tileview/lv_tileview.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\tileview\lv_tileview.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\tileview\lv_tileview.c.obj -c D:\work\libs\lvgl\src\extra\widgets\tileview\lv_tileview.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tileview/lv_tileview.c.i: cmake_force
@@ -6974,7 +7142,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/tileview/lv_tileview.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/win/lv_win.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/win/lv_win.c.obj: D:/work/libs/lvgl/src/extra/widgets/win/lv_win.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/win/lv_win.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_494) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/win/lv_win.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_506) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/win/lv_win.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/win/lv_win.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\win\lv_win.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\extra\widgets\win\lv_win.c.obj -c D:\work\libs\lvgl\src\extra\widgets\win\lv_win.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/win/lv_win.c.i: cmake_force
@@ -6988,7 +7156,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/extra/widgets/win/lv_win.c.s: cmake_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font.c.obj: D:/work/libs/lvgl/src/font/lv_font.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_495) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_507) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font.c.obj -c D:\work\libs\lvgl\src\font\lv_font.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font.c.i: cmake_force
@@ -7002,7 +7170,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: D:/work/libs/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_496) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_508) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_dejavu_16_persian_hebrew.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_dejavu_16_persian_hebrew.c.obj -c D:\work\libs\lvgl\src\font\lv_font_dejavu_16_persian_hebrew.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.i: cmake_force
@@ -7016,7 +7184,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_dejavu_16_persian_hebre
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_fmt_txt.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_fmt_txt.c.obj: D:/work/libs/lvgl/src/font/lv_font_fmt_txt.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_fmt_txt.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_497) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_fmt_txt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_509) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_fmt_txt.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_fmt_txt.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_fmt_txt.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_fmt_txt.c.obj -c D:\work\libs\lvgl\src\font\lv_font_fmt_txt.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_fmt_txt.c.i: cmake_force
@@ -7030,7 +7198,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_fmt_txt.c.s: cmake_forc
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_loader.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_loader.c.obj: D:/work/libs/lvgl/src/font/lv_font_loader.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_loader.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_498) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_loader.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_510) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_loader.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_loader.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_loader.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_loader.c.obj -c D:\work\libs\lvgl\src\font\lv_font_loader.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_loader.c.i: cmake_force
@@ -7044,7 +7212,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_loader.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_10.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_10.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_10.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_10.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_499) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_10.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_511) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_10.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_10.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_10.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_10.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_10.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_10.c.i: cmake_force
@@ -7058,7 +7226,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_10.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_12.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_500) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_512) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_12.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_12.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_12.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12.c.i: cmake_force
@@ -7072,7 +7240,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12_subpx.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12_subpx.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_12_subpx.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12_subpx.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_501) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12_subpx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_513) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12_subpx.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12_subpx.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_12_subpx.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_12_subpx.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_12_subpx.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12_subpx.c.i: cmake_force
@@ -7086,7 +7254,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_12_subpx.c.s
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_14.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_14.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_14.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_14.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_502) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_14.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_514) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_14.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_14.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_14.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_14.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_14.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_14.c.i: cmake_force
@@ -7100,7 +7268,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_14.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_16.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_16.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_16.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_16.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_503) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_515) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_16.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_16.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_16.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_16.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_16.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_16.c.i: cmake_force
@@ -7114,7 +7282,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_16.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_18.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_18.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_18.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_18.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_504) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_18.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_516) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_18.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_18.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_18.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_18.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_18.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_18.c.i: cmake_force
@@ -7128,7 +7296,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_18.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_20.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_20.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_20.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_20.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_505) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_20.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_517) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_20.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_20.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_20.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_20.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_20.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_20.c.i: cmake_force
@@ -7142,7 +7310,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_20.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_22.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_22.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_22.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_22.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_506) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_22.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_518) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_22.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_22.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_22.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_22.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_22.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_22.c.i: cmake_force
@@ -7156,7 +7324,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_22.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_24.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_24.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_24.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_24.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_507) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_24.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_519) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_24.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_24.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_24.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_24.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_24.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_24.c.i: cmake_force
@@ -7170,7 +7338,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_24.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_26.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_26.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_26.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_26.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_508) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_26.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_520) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_26.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_26.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_26.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_26.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_26.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_26.c.i: cmake_force
@@ -7184,7 +7352,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_26.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_28.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_509) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_521) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_28.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_28.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_28.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28.c.i: cmake_force
@@ -7198,7 +7366,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_28_compressed.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_510) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_522) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_28_compressed.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_28_compressed.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_28_compressed.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28_compressed.c.i: cmake_force
@@ -7212,7 +7380,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_28_compresse
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_30.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_30.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_30.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_30.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_511) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_30.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_523) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_30.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_30.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_30.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_30.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_30.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_30.c.i: cmake_force
@@ -7226,7 +7394,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_30.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_32.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_32.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_32.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_32.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_512) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_524) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_32.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_32.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_32.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_32.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_32.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_32.c.i: cmake_force
@@ -7240,7 +7408,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_32.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_34.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_34.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_34.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_34.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_513) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_34.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_525) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_34.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_34.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_34.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_34.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_34.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_34.c.i: cmake_force
@@ -7254,7 +7422,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_34.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_36.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_36.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_36.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_36.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_514) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_36.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_526) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_36.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_36.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_36.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_36.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_36.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_36.c.i: cmake_force
@@ -7268,7 +7436,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_36.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_38.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_38.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_38.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_38.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_515) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_38.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_527) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_38.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_38.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_38.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_38.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_38.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_38.c.i: cmake_force
@@ -7282,7 +7450,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_38.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_40.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_40.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_40.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_40.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_516) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_40.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_528) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_40.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_40.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_40.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_40.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_40.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_40.c.i: cmake_force
@@ -7296,7 +7464,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_40.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_42.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_42.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_42.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_42.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_517) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_42.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_529) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_42.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_42.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_42.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_42.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_42.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_42.c.i: cmake_force
@@ -7310,7 +7478,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_42.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_44.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_44.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_44.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_44.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_518) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_44.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_530) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_44.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_44.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_44.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_44.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_44.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_44.c.i: cmake_force
@@ -7324,7 +7492,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_44.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_46.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_46.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_46.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_46.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_519) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_46.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_531) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_46.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_46.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_46.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_46.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_46.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_46.c.i: cmake_force
@@ -7338,7 +7506,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_46.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_48.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_48.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_48.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_48.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_520) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_48.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_532) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_48.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_48.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_48.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_48.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_48.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_48.c.i: cmake_force
@@ -7352,7 +7520,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_48.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_8.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_8.c.obj: D:/work/libs/lvgl/src/font/lv_font_montserrat_8.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_8.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_521) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_533) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_8.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_8.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_8.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_montserrat_8.c.obj -c D:\work\libs\lvgl\src\font\lv_font_montserrat_8.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_8.c.i: cmake_force
@@ -7366,7 +7534,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_montserrat_8.c.s: cmake
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_simsun_16_cjk.c.obj: D:/work/libs/lvgl/src/font/lv_font_simsun_16_cjk.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_522) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_simsun_16_cjk.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_534) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_simsun_16_cjk.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_simsun_16_cjk.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_simsun_16_cjk.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_simsun_16_cjk.c.obj -c D:\work\libs\lvgl\src\font\lv_font_simsun_16_cjk.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_simsun_16_cjk.c.i: cmake_force
@@ -7380,7 +7548,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_simsun_16_cjk.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_16.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_16.c.obj: D:/work/libs/lvgl/src/font/lv_font_unscii_16.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_16.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_523) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_535) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_16.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_16.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_unscii_16.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_unscii_16.c.obj -c D:\work\libs\lvgl\src\font\lv_font_unscii_16.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_16.c.i: cmake_force
@@ -7394,7 +7562,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_16.c.s: cmake_fo
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_8.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_8.c.obj: D:/work/libs/lvgl/src/font/lv_font_unscii_8.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_8.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_524) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_536) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_8.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_8.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_unscii_8.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\font\lv_font_unscii_8.c.obj -c D:\work\libs\lvgl\src\font\lv_font_unscii_8.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_8.c.i: cmake_force
@@ -7408,7 +7576,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/font/lv_font_unscii_8.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_disp.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_disp.c.obj: D:/work/libs/lvgl/src/hal/lv_hal_disp.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_disp.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_525) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_disp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_537) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_disp.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_disp.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\hal\lv_hal_disp.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\hal\lv_hal_disp.c.obj -c D:\work\libs\lvgl\src\hal\lv_hal_disp.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_disp.c.i: cmake_force
@@ -7422,7 +7590,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_disp.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_indev.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_indev.c.obj: D:/work/libs/lvgl/src/hal/lv_hal_indev.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_indev.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_526) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_indev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_538) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_indev.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_indev.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\hal\lv_hal_indev.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\hal\lv_hal_indev.c.obj -c D:\work\libs\lvgl\src\hal\lv_hal_indev.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_indev.c.i: cmake_force
@@ -7436,7 +7604,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_indev.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_tick.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_tick.c.obj: D:/work/libs/lvgl/src/hal/lv_hal_tick.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_tick.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_527) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_tick.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_539) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_tick.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_tick.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\hal\lv_hal_tick.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\hal\lv_hal_tick.c.obj -c D:\work\libs\lvgl\src\hal\lv_hal_tick.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_tick.c.i: cmake_force
@@ -7450,7 +7618,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/hal/lv_hal_tick.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim.c.obj: D:/work/libs/lvgl/src/misc/lv_anim.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_528) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_540) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_anim.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_anim.c.obj -c D:\work\libs\lvgl\src\misc\lv_anim.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim.c.i: cmake_force
@@ -7464,7 +7632,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim_timeline.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim_timeline.c.obj: D:/work/libs/lvgl/src/misc/lv_anim_timeline.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim_timeline.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_529) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim_timeline.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_541) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim_timeline.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim_timeline.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_anim_timeline.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_anim_timeline.c.obj -c D:\work\libs\lvgl\src\misc\lv_anim_timeline.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim_timeline.c.i: cmake_force
@@ -7478,7 +7646,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_anim_timeline.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_area.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_area.c.obj: D:/work/libs/lvgl/src/misc/lv_area.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_area.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_530) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_area.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_542) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_area.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_area.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_area.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_area.c.obj -c D:\work\libs\lvgl\src\misc\lv_area.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_area.c.i: cmake_force
@@ -7492,7 +7660,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_area.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_async.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_async.c.obj: D:/work/libs/lvgl/src/misc/lv_async.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_async.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_531) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_async.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_543) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_async.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_async.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_async.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_async.c.obj -c D:\work\libs\lvgl\src\misc\lv_async.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_async.c.i: cmake_force
@@ -7506,7 +7674,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_async.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_bidi.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_bidi.c.obj: D:/work/libs/lvgl/src/misc/lv_bidi.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_bidi.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_532) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_bidi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_544) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_bidi.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_bidi.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_bidi.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_bidi.c.obj -c D:\work\libs\lvgl\src\misc\lv_bidi.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_bidi.c.i: cmake_force
@@ -7520,7 +7688,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_bidi.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_color.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_color.c.obj: D:/work/libs/lvgl/src/misc/lv_color.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_color.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_533) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_color.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_545) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_color.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_color.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_color.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_color.c.obj -c D:\work\libs\lvgl\src\misc\lv_color.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_color.c.i: cmake_force
@@ -7534,7 +7702,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_color.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_fs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_fs.c.obj: D:/work/libs/lvgl/src/misc/lv_fs.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_fs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_534) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_fs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_546) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_fs.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_fs.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_fs.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_fs.c.obj -c D:\work\libs\lvgl\src\misc\lv_fs.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_fs.c.i: cmake_force
@@ -7548,7 +7716,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_fs.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_gc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_gc.c.obj: D:/work/libs/lvgl/src/misc/lv_gc.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_gc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_535) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_gc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_547) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_gc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_gc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_gc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_gc.c.obj -c D:\work\libs\lvgl\src\misc\lv_gc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_gc.c.i: cmake_force
@@ -7562,7 +7730,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_gc.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_ll.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_ll.c.obj: D:/work/libs/lvgl/src/misc/lv_ll.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_ll.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_536) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_ll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_548) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_ll.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_ll.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_ll.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_ll.c.obj -c D:\work\libs\lvgl\src\misc\lv_ll.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_ll.c.i: cmake_force
@@ -7576,7 +7744,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_ll.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_log.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_log.c.obj: D:/work/libs/lvgl/src/misc/lv_log.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_log.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_537) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_log.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_549) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_log.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_log.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_log.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_log.c.obj -c D:\work\libs\lvgl\src\misc\lv_log.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_log.c.i: cmake_force
@@ -7590,7 +7758,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_log.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_lru.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_lru.c.obj: D:/work/libs/lvgl/src/misc/lv_lru.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_lru.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_538) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_lru.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_550) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_lru.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_lru.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_lru.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_lru.c.obj -c D:\work\libs\lvgl\src\misc\lv_lru.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_lru.c.i: cmake_force
@@ -7604,7 +7772,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_lru.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_math.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_math.c.obj: D:/work/libs/lvgl/src/misc/lv_math.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_math.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_539) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_551) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_math.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_math.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_math.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_math.c.obj -c D:\work\libs\lvgl\src\misc\lv_math.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_math.c.i: cmake_force
@@ -7618,7 +7786,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_math.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_mem.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_mem.c.obj: D:/work/libs/lvgl/src/misc/lv_mem.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_mem.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_540) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_mem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_552) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_mem.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_mem.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_mem.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_mem.c.obj -c D:\work\libs\lvgl\src\misc\lv_mem.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_mem.c.i: cmake_force
@@ -7632,7 +7800,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_mem.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_printf.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_printf.c.obj: D:/work/libs/lvgl/src/misc/lv_printf.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_printf.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_541) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_553) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_printf.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_printf.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_printf.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_printf.c.obj -c D:\work\libs\lvgl\src\misc\lv_printf.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_printf.c.i: cmake_force
@@ -7646,7 +7814,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_printf.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style.c.obj: D:/work/libs/lvgl/src/misc/lv_style.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_542) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_554) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_style.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_style.c.obj -c D:\work\libs\lvgl\src\misc\lv_style.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style.c.i: cmake_force
@@ -7660,7 +7828,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style_gen.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style_gen.c.obj: D:/work/libs/lvgl/src/misc/lv_style_gen.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style_gen.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_543) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style_gen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_555) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style_gen.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style_gen.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_style_gen.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_style_gen.c.obj -c D:\work\libs\lvgl\src\misc\lv_style_gen.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style_gen.c.i: cmake_force
@@ -7674,7 +7842,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_style_gen.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_templ.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_templ.c.obj: D:/work/libs/lvgl/src/misc/lv_templ.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_templ.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_544) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_templ.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_556) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_templ.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_templ.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_templ.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_templ.c.obj -c D:\work\libs\lvgl\src\misc\lv_templ.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_templ.c.i: cmake_force
@@ -7688,7 +7856,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_templ.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_timer.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_timer.c.obj: D:/work/libs/lvgl/src/misc/lv_timer.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_timer.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_545) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_557) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_timer.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_timer.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_timer.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_timer.c.obj -c D:\work\libs\lvgl\src\misc\lv_timer.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_timer.c.i: cmake_force
@@ -7702,7 +7870,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_timer.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_tlsf.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_tlsf.c.obj: D:/work/libs/lvgl/src/misc/lv_tlsf.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_tlsf.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_546) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_tlsf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_558) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_tlsf.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_tlsf.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_tlsf.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_tlsf.c.obj -c D:\work\libs\lvgl\src\misc\lv_tlsf.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_tlsf.c.i: cmake_force
@@ -7716,7 +7884,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_tlsf.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt.c.obj: D:/work/libs/lvgl/src/misc/lv_txt.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_547) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_559) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_txt.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_txt.c.obj -c D:\work\libs\lvgl\src\misc\lv_txt.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt.c.i: cmake_force
@@ -7730,7 +7898,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt_ap.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt_ap.c.obj: D:/work/libs/lvgl/src/misc/lv_txt_ap.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt_ap.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_548) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt_ap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_560) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt_ap.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt_ap.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_txt_ap.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_txt_ap.c.obj -c D:\work\libs\lvgl\src\misc\lv_txt_ap.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt_ap.c.i: cmake_force
@@ -7744,7 +7912,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_txt_ap.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_utils.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_utils.c.obj: D:/work/libs/lvgl/src/misc/lv_utils.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_utils.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_549) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_561) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_utils.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_utils.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_utils.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\misc\lv_utils.c.obj -c D:\work\libs\lvgl\src\misc\lv_utils.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_utils.c.i: cmake_force
@@ -7758,7 +7926,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/misc/lv_utils.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_arc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_arc.c.obj: D:/work/libs/lvgl/src/widgets/lv_arc.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_arc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_550) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_562) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_arc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_arc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_arc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_arc.c.obj -c D:\work\libs\lvgl\src\widgets\lv_arc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_arc.c.i: cmake_force
@@ -7772,7 +7940,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_arc.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_bar.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_bar.c.obj: D:/work/libs/lvgl/src/widgets/lv_bar.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_bar.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_551) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_bar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_563) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_bar.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_bar.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_bar.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_bar.c.obj -c D:\work\libs\lvgl\src\widgets\lv_bar.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_bar.c.i: cmake_force
@@ -7786,7 +7954,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_bar.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btn.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btn.c.obj: D:/work/libs/lvgl/src/widgets/lv_btn.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btn.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_552) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btn.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_564) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btn.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btn.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_btn.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_btn.c.obj -c D:\work\libs\lvgl\src\widgets\lv_btn.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btn.c.i: cmake_force
@@ -7800,7 +7968,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btn.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btnmatrix.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btnmatrix.c.obj: D:/work/libs/lvgl/src/widgets/lv_btnmatrix.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btnmatrix.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_553) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btnmatrix.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_565) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btnmatrix.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btnmatrix.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_btnmatrix.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_btnmatrix.c.obj -c D:\work\libs\lvgl\src\widgets\lv_btnmatrix.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btnmatrix.c.i: cmake_force
@@ -7814,7 +7982,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_btnmatrix.c.s: cmake_forc
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_canvas.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_canvas.c.obj: D:/work/libs/lvgl/src/widgets/lv_canvas.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_canvas.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_554) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_canvas.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_566) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_canvas.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_canvas.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_canvas.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_canvas.c.obj -c D:\work\libs\lvgl\src\widgets\lv_canvas.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_canvas.c.i: cmake_force
@@ -7828,7 +7996,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_canvas.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_checkbox.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_checkbox.c.obj: D:/work/libs/lvgl/src/widgets/lv_checkbox.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_checkbox.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_555) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_checkbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_567) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_checkbox.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_checkbox.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_checkbox.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_checkbox.c.obj -c D:\work\libs\lvgl\src\widgets\lv_checkbox.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_checkbox.c.i: cmake_force
@@ -7842,7 +8010,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_checkbox.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_dropdown.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_dropdown.c.obj: D:/work/libs/lvgl/src/widgets/lv_dropdown.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_dropdown.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_556) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_dropdown.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_568) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_dropdown.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_dropdown.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_dropdown.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_dropdown.c.obj -c D:\work\libs\lvgl\src\widgets\lv_dropdown.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_dropdown.c.i: cmake_force
@@ -7856,7 +8024,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_dropdown.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_img.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_img.c.obj: D:/work/libs/lvgl/src/widgets/lv_img.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_img.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_557) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_569) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_img.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_img.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_img.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_img.c.obj -c D:\work\libs\lvgl\src\widgets\lv_img.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_img.c.i: cmake_force
@@ -7870,7 +8038,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_img.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_label.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_label.c.obj: D:/work/libs/lvgl/src/widgets/lv_label.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_label.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_558) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_570) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_label.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_label.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_label.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_label.c.obj -c D:\work\libs\lvgl\src\widgets\lv_label.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_label.c.i: cmake_force
@@ -7884,7 +8052,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_label.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_line.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_line.c.obj: D:/work/libs/lvgl/src/widgets/lv_line.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_line.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_559) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_571) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_line.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_line.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_line.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_line.c.obj -c D:\work\libs\lvgl\src\widgets\lv_line.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_line.c.i: cmake_force
@@ -7898,7 +8066,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_line.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_objx_templ.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_objx_templ.c.obj: D:/work/libs/lvgl/src/widgets/lv_objx_templ.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_objx_templ.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_560) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_objx_templ.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_572) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_objx_templ.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_objx_templ.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_objx_templ.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_objx_templ.c.obj -c D:\work\libs\lvgl\src\widgets\lv_objx_templ.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_objx_templ.c.i: cmake_force
@@ -7912,7 +8080,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_objx_templ.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_roller.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_roller.c.obj: D:/work/libs/lvgl/src/widgets/lv_roller.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_roller.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_561) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_roller.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_573) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_roller.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_roller.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_roller.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_roller.c.obj -c D:\work\libs\lvgl\src\widgets\lv_roller.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_roller.c.i: cmake_force
@@ -7926,7 +8094,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_roller.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_slider.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_slider.c.obj: D:/work/libs/lvgl/src/widgets/lv_slider.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_slider.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_562) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_slider.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_574) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_slider.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_slider.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_slider.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_slider.c.obj -c D:\work\libs\lvgl\src\widgets\lv_slider.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_slider.c.i: cmake_force
@@ -7940,7 +8108,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_slider.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_switch.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_switch.c.obj: D:/work/libs/lvgl/src/widgets/lv_switch.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_switch.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_563) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_switch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_575) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_switch.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_switch.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_switch.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_switch.c.obj -c D:\work\libs\lvgl\src\widgets\lv_switch.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_switch.c.i: cmake_force
@@ -7954,7 +8122,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_switch.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_table.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_table.c.obj: D:/work/libs/lvgl/src/widgets/lv_table.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_table.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_564) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_table.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_576) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_table.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_table.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_table.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_table.c.obj -c D:\work\libs\lvgl\src\widgets\lv_table.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_table.c.i: cmake_force
@@ -7968,7 +8136,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_table.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_textarea.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_textarea.c.obj: D:/work/libs/lvgl/src/widgets/lv_textarea.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_textarea.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_565) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_textarea.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_577) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_textarea.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_textarea.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_textarea.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\src\widgets\lv_textarea.c.obj -c D:\work\libs\lvgl\src\widgets\lv_textarea.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_textarea.c.i: cmake_force
@@ -7982,7 +8150,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/src/widgets/lv_textarea.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/makefile/test.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/makefile/test.c.obj: D:/work/libs/lvgl/tests/makefile/test.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/makefile/test.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_566) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/makefile/test.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_578) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/makefile/test.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/makefile/test.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\makefile\test.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\makefile\test.c.obj -c D:\work\libs\lvgl\tests\makefile\test.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/makefile/test.c.i: cmake_force
@@ -7996,7 +8164,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/makefile/test.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_indev.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_indev.c.obj: D:/work/libs/lvgl/tests/src/lv_test_indev.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_indev.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_567) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_indev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_579) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_indev.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_indev.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\lv_test_indev.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\lv_test_indev.c.obj -c D:\work\libs\lvgl\tests\src\lv_test_indev.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_indev.c.i: cmake_force
@@ -8010,7 +8178,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_indev.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_init.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_init.c.obj: D:/work/libs/lvgl/tests/src/lv_test_init.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_init.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_568) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_580) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_init.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_init.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\lv_test_init.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\lv_test_init.c.obj -c D:\work\libs\lvgl\tests\src\lv_test_init.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_init.c.i: cmake_force
@@ -8024,7 +8192,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/lv_test_init.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/_test_template.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/_test_template.c.obj: D:/work/libs/lvgl/tests/src/test_cases/_test_template.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/_test_template.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_569) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/_test_template.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_581) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/_test_template.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/_test_template.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\_test_template.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\_test_template.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\_test_template.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/_test_template.c.i: cmake_force
@@ -8038,7 +8206,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/_test_template.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_arc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_arc.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_arc.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_arc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_570) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_582) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_arc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_arc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_arc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_arc.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_arc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_arc.c.i: cmake_force
@@ -8052,7 +8220,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_arc.c.s: cmake
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_bar.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_bar.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_bar.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_bar.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_571) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_bar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_583) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_bar.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_bar.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_bar.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_bar.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_bar.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_bar.c.i: cmake_force
@@ -8066,7 +8234,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_bar.c.s: cmake
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_checkbox.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_checkbox.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_checkbox.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_checkbox.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_572) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_checkbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_584) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_checkbox.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_checkbox.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_checkbox.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_checkbox.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_checkbox.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_checkbox.c.i: cmake_force
@@ -8080,7 +8248,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_checkbox.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_config.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_config.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_config.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_config.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_573) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_config.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_585) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_config.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_config.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_config.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_config.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_config.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_config.c.i: cmake_force
@@ -8094,7 +8262,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_config.c.s: cm
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_stress.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_stress.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_demo_stress.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_stress.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_574) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_stress.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_586) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_stress.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_stress.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_demo_stress.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_demo_stress.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_demo_stress.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_stress.c.i: cmake_force
@@ -8108,7 +8276,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_stress.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_widgets.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_widgets.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_demo_widgets.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_widgets.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_575) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_widgets.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_587) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_widgets.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_widgets.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_demo_widgets.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_demo_widgets.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_demo_widgets.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_widgets.c.i: cmake_force
@@ -8122,7 +8290,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_demo_widgets.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_dropdown.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_dropdown.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_dropdown.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_dropdown.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_576) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_dropdown.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_588) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_dropdown.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_dropdown.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_dropdown.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_dropdown.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_dropdown.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_dropdown.c.i: cmake_force
@@ -8136,7 +8304,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_dropdown.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_event.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_event.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_event.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_event.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_577) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_event.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_589) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_event.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_event.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_event.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_event.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_event.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_event.c.i: cmake_force
@@ -8150,7 +8318,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_event.c.s: cma
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_font_loader.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_font_loader.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_font_loader.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_font_loader.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_578) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_font_loader.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_590) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_font_loader.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_font_loader.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_font_loader.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_font_loader.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_font_loader.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_font_loader.c.i: cmake_force
@@ -8164,7 +8332,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_font_loader.c.
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_fs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_fs.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_fs.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_fs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_579) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_fs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_591) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_fs.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_fs.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_fs.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_fs.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_fs.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_fs.c.i: cmake_force
@@ -8178,7 +8346,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_fs.c.s: cmake_
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_line.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_line.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_line.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_line.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_580) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_592) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_line.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_line.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_line.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_line.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_line.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_line.c.i: cmake_force
@@ -8192,7 +8360,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_line.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_mem.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_mem.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_mem.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_mem.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_581) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_mem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_593) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_mem.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_mem.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_mem.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_mem.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_mem.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_mem.c.i: cmake_force
@@ -8206,7 +8374,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_mem.c.s: cmake
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_obj_tree.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_obj_tree.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_obj_tree.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_obj_tree.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_582) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_obj_tree.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_594) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_obj_tree.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_obj_tree.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_obj_tree.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_obj_tree.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_obj_tree.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_obj_tree.c.i: cmake_force
@@ -8220,7 +8388,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_obj_tree.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_slider.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_slider.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_slider.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_slider.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_583) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_slider.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_595) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_slider.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_slider.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_slider.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_slider.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_slider.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_slider.c.i: cmake_force
@@ -8234,7 +8402,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_slider.c.s: cm
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_snapshot.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_snapshot.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_snapshot.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_snapshot.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_584) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_snapshot.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_596) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_snapshot.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_snapshot.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_snapshot.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_snapshot.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_snapshot.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_snapshot.c.i: cmake_force
@@ -8248,7 +8416,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_snapshot.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_style.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_style.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_style.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_style.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_585) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_style.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_597) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_style.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_style.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_style.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_style.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_style.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_style.c.i: cmake_force
@@ -8262,7 +8430,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_style.c.s: cma
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_switch.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_switch.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_switch.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_switch.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_586) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_switch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_598) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_switch.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_switch.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_switch.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_switch.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_switch.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_switch.c.i: cmake_force
@@ -8276,7 +8444,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_switch.c.s: cm
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_table.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_table.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_table.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_table.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_587) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_table.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_599) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_table.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_table.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_table.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_table.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_table.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_table.c.i: cmake_force
@@ -8290,7 +8458,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_table.c.s: cma
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_textarea.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_textarea.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_textarea.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_textarea.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_588) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_textarea.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_600) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_textarea.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_textarea.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_textarea.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_textarea.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_textarea.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_textarea.c.i: cmake_force
@@ -8304,7 +8472,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_textarea.c.s: 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_txt.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_txt.c.obj: D:/work/libs/lvgl/tests/src/test_cases/test_txt.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_txt.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_589) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_txt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_601) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_txt.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_txt.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_txt.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_cases\test_txt.c.obj -c D:\work\libs\lvgl\tests\src\test_cases\test_txt.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_txt.c.i: cmake_force
@@ -8318,7 +8486,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_cases/test_txt.c.s: cmake
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_1.c.obj: D:/work/libs/lvgl/tests/src/test_fonts/font_1.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_1.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_590) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_602) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_1.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_1.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_fonts\font_1.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_fonts\font_1.c.obj -c D:\work\libs\lvgl\tests\src\test_fonts\font_1.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_1.c.i: cmake_force
@@ -8332,7 +8500,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_1.c.s: cmake_f
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_2.c.obj: D:/work/libs/lvgl/tests/src/test_fonts/font_2.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_591) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_603) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_fonts\font_2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_fonts\font_2.c.obj -c D:\work\libs\lvgl\tests\src\test_fonts\font_2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_2.c.i: cmake_force
@@ -8346,7 +8514,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_2.c.s: cmake_f
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_3.c.obj: D:/work/libs/lvgl/tests/src/test_fonts/font_3.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_3.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_592) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_604) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_3.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_3.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_fonts\font_3.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\src\test_fonts\font_3.c.obj -c D:\work\libs\lvgl\tests\src\test_fonts\font_3.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_3.c.i: cmake_force
@@ -8360,7 +8528,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/src/test_fonts/font_3.c.s: cmake_f
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity.c.obj: D:/work/libs/lvgl/tests/unity/unity.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_593) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_605) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\unity\unity.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\unity\unity.c.obj -c D:\work\libs\lvgl\tests\unity\unity.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity.c.i: cmake_force
@@ -8374,7 +8542,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity_support.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity_support.c.obj: D:/work/libs/lvgl/tests/unity/unity_support.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity_support.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_594) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity_support.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_606) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity_support.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity_support.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\unity\unity_support.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lvgl\tests\unity\unity_support.c.obj -c D:\work\libs\lvgl\tests\unity\unity_support.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity_support.c.i: cmake_force
@@ -8388,7 +8556,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/tests/unity/unity_support.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/libs/lwrb/lwrb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/lwrb/lwrb.c.obj: D:/work/libs/lwrb/lwrb.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/lwrb/lwrb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_595) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lwrb/lwrb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_607) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/lwrb/lwrb.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/lwrb/lwrb.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\lwrb\lwrb.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\lwrb\lwrb.c.obj -c D:\work\libs\lwrb\lwrb.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/lwrb/lwrb.c.i: cmake_force
@@ -8402,7 +8570,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/lwrb/lwrb.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/multiButton/multi_button.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/multiButton/multi_button.c.obj: D:/work/libs/multiButton/multi_button.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/multiButton/multi_button.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_596) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/multiButton/multi_button.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_608) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/multiButton/multi_button.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/multiButton/multi_button.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\multiButton\multi_button.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\multiButton\multi_button.c.obj -c D:\work\libs\multiButton\multi_button.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/multiButton/multi_button.c.i: cmake_force
@@ -8416,7 +8584,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/multiButton/multi_button.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/multiTimer/MultiTimer.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/multiTimer/MultiTimer.c.obj: D:/work/libs/multiTimer/MultiTimer.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/multiTimer/MultiTimer.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_597) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/multiTimer/MultiTimer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_609) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/multiTimer/MultiTimer.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/multiTimer/MultiTimer.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\multiTimer\MultiTimer.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\multiTimer\MultiTimer.c.obj -c D:\work\libs\multiTimer\MultiTimer.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/multiTimer/MultiTimer.c.i: cmake_force
@@ -8430,7 +8598,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/multiTimer/MultiTimer.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/port/sfud_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/port/sfud_port.c.obj: D:/work/libs/sfud/port/sfud_port.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/port/sfud_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_598) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/port/sfud_port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_610) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/port/sfud_port.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/port/sfud_port.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\sfud\port\sfud_port.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\sfud\port\sfud_port.c.obj -c D:\work\libs\sfud\port\sfud_port.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/port/sfud_port.c.i: cmake_force
@@ -8444,7 +8612,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/port/sfud_port.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud.c.obj: D:/work/libs/sfud/src/sfud.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_599) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_611) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\sfud\src\sfud.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\sfud\src\sfud.c.obj -c D:\work\libs\sfud\src\sfud.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud.c.i: cmake_force
@@ -8458,7 +8626,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud_sfdp.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud_sfdp.c.obj: D:/work/libs/sfud/src/sfud_sfdp.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud_sfdp.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_600) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud_sfdp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_612) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud_sfdp.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud_sfdp.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\sfud\src\sfud_sfdp.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\sfud\src\sfud_sfdp.c.obj -c D:\work\libs\sfud\src\sfud_sfdp.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud_sfdp.c.i: cmake_force
@@ -8472,7 +8640,7 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud_sfdp.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/libs/unity/unity.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/libs/unity/unity.c.obj: D:/work/libs/unity/unity.c
 CMakeFiles/miniFoc_F4.elf.dir/libs/unity/unity.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_601) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/unity/unity.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_613) "Building C object CMakeFiles/miniFoc_F4.elf.dir/libs/unity/unity.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/libs/unity/unity.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\libs\unity\unity.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\libs\unity\unity.c.obj -c D:\work\libs\unity\unity.c
 
 CMakeFiles/miniFoc_F4.elf.dir/libs/unity/unity.c.i: cmake_force
@@ -8483,10 +8651,654 @@ CMakeFiles/miniFoc_F4.elf.dir/libs/unity/unity.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniFoc_F4.elf.dir/libs/unity/unity.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\work\libs\unity\unity.c -o CMakeFiles\miniFoc_F4.elf.dir\libs\unity\unity.c.s
 
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/UARTDriver.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/UARTDriver.cpp.obj: D:/work/modules/AP_HAL/UARTDriver.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/UARTDriver.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_614) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/UARTDriver.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/UARTDriver.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\UARTDriver.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\UARTDriver.cpp.obj -c D:\work\modules\AP_HAL\UARTDriver.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/UARTDriver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/UARTDriver.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL\UARTDriver.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\UARTDriver.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/UARTDriver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/UARTDriver.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL\UARTDriver.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\UARTDriver.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/Util.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/Util.cpp.obj: D:/work/modules/AP_HAL/Util.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/Util.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_615) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/Util.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/Util.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\Util.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\Util.cpp.obj -c D:\work\modules\AP_HAL\Util.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/Util.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/Util.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL\Util.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\Util.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/Util.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/Util.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL\Util.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\Util.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/Print.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/Print.cpp.obj: D:/work/modules/AP_HAL/utility/Print.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/Print.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_616) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/Print.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/Print.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\Print.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\Print.cpp.obj -c D:\work\modules\AP_HAL\utility\Print.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/Print.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/Print.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL\utility\Print.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\Print.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/Print.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/Print.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL\utility\Print.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\Print.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/ftoa_engine.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/ftoa_engine.cpp.obj: D:/work/modules/AP_HAL/utility/ftoa_engine.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/ftoa_engine.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_617) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/ftoa_engine.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/ftoa_engine.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\ftoa_engine.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\ftoa_engine.cpp.obj -c D:\work\modules\AP_HAL\utility\ftoa_engine.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/ftoa_engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/ftoa_engine.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL\utility\ftoa_engine.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\ftoa_engine.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/ftoa_engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/ftoa_engine.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL\utility\ftoa_engine.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\ftoa_engine.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/print_vprintf.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/print_vprintf.cpp.obj: D:/work/modules/AP_HAL/utility/print_vprintf.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/print_vprintf.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_618) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/print_vprintf.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/print_vprintf.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\print_vprintf.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\print_vprintf.cpp.obj -c D:\work\modules\AP_HAL\utility\print_vprintf.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/print_vprintf.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/print_vprintf.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL\utility\print_vprintf.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\print_vprintf.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/print_vprintf.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/print_vprintf.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL\utility\print_vprintf.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\print_vprintf.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/utoa_invert.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/utoa_invert.cpp.obj: D:/work/modules/AP_HAL/utility/utoa_invert.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/utoa_invert.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_619) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/utoa_invert.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/utoa_invert.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\utoa_invert.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\utoa_invert.cpp.obj -c D:\work\modules\AP_HAL\utility\utoa_invert.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/utoa_invert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/utoa_invert.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL\utility\utoa_invert.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\utoa_invert.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/utoa_invert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/utoa_invert.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL\utility\utoa_invert.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL\utility\utoa_invert.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/AnalogIn.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/AnalogIn.cpp.obj: D:/work/modules/AP_HAL_Empty/AnalogIn.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/AnalogIn.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_620) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/AnalogIn.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/AnalogIn.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\AnalogIn.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\AnalogIn.cpp.obj -c D:\work\modules\AP_HAL_Empty\AnalogIn.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/AnalogIn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/AnalogIn.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_Empty\AnalogIn.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\AnalogIn.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/AnalogIn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/AnalogIn.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_Empty\AnalogIn.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\AnalogIn.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/GPIO.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/GPIO.cpp.obj: D:/work/modules/AP_HAL_Empty/GPIO.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/GPIO.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_621) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/GPIO.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/GPIO.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\GPIO.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\GPIO.cpp.obj -c D:\work\modules\AP_HAL_Empty\GPIO.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/GPIO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/GPIO.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_Empty\GPIO.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\GPIO.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/GPIO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/GPIO.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_Empty\GPIO.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\GPIO.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/HAL_Empty_Class.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/HAL_Empty_Class.cpp.obj: D:/work/modules/AP_HAL_Empty/HAL_Empty_Class.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/HAL_Empty_Class.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_622) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/HAL_Empty_Class.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/HAL_Empty_Class.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\HAL_Empty_Class.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\HAL_Empty_Class.cpp.obj -c D:\work\modules\AP_HAL_Empty\HAL_Empty_Class.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/HAL_Empty_Class.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/HAL_Empty_Class.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_Empty\HAL_Empty_Class.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\HAL_Empty_Class.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/HAL_Empty_Class.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/HAL_Empty_Class.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_Empty\HAL_Empty_Class.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\HAL_Empty_Class.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/I2CDriver.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/I2CDriver.cpp.obj: D:/work/modules/AP_HAL_Empty/I2CDriver.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/I2CDriver.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_623) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/I2CDriver.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/I2CDriver.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\I2CDriver.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\I2CDriver.cpp.obj -c D:\work\modules\AP_HAL_Empty\I2CDriver.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/I2CDriver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/I2CDriver.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_Empty\I2CDriver.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\I2CDriver.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/I2CDriver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/I2CDriver.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_Empty\I2CDriver.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\I2CDriver.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Mutex.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Mutex.cpp.obj: D:/work/modules/AP_HAL_Empty/Mutex.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Mutex.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_624) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Mutex.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Mutex.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Mutex.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Mutex.cpp.obj -c D:\work\modules\AP_HAL_Empty\Mutex.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Mutex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Mutex.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_Empty\Mutex.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Mutex.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Mutex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Mutex.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_Empty\Mutex.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Mutex.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/PrivateMember.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/PrivateMember.cpp.obj: D:/work/modules/AP_HAL_Empty/PrivateMember.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/PrivateMember.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_625) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/PrivateMember.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/PrivateMember.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\PrivateMember.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\PrivateMember.cpp.obj -c D:\work\modules\AP_HAL_Empty\PrivateMember.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/PrivateMember.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/PrivateMember.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_Empty\PrivateMember.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\PrivateMember.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/PrivateMember.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/PrivateMember.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_Empty\PrivateMember.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\PrivateMember.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCInput.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCInput.cpp.obj: D:/work/modules/AP_HAL_Empty/RCInput.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCInput.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_626) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCInput.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCInput.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\RCInput.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\RCInput.cpp.obj -c D:\work\modules\AP_HAL_Empty\RCInput.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCInput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCInput.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_Empty\RCInput.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\RCInput.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCInput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCInput.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_Empty\RCInput.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\RCInput.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCOutput.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCOutput.cpp.obj: D:/work/modules/AP_HAL_Empty/RCOutput.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCOutput.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_627) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCOutput.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCOutput.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\RCOutput.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\RCOutput.cpp.obj -c D:\work\modules\AP_HAL_Empty\RCOutput.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCOutput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCOutput.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_Empty\RCOutput.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\RCOutput.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCOutput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCOutput.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_Empty\RCOutput.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\RCOutput.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/SPIDriver.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/SPIDriver.cpp.obj: D:/work/modules/AP_HAL_Empty/SPIDriver.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/SPIDriver.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_628) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/SPIDriver.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/SPIDriver.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\SPIDriver.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\SPIDriver.cpp.obj -c D:\work\modules\AP_HAL_Empty\SPIDriver.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/SPIDriver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/SPIDriver.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_Empty\SPIDriver.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\SPIDriver.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/SPIDriver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/SPIDriver.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_Empty\SPIDriver.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\SPIDriver.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Scheduler.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Scheduler.cpp.obj: D:/work/modules/AP_HAL_Empty/Scheduler.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Scheduler.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_629) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Scheduler.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Scheduler.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Scheduler.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Scheduler.cpp.obj -c D:\work\modules\AP_HAL_Empty\Scheduler.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Scheduler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Scheduler.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_Empty\Scheduler.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Scheduler.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Scheduler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Scheduler.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_Empty\Scheduler.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Scheduler.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Semaphores.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Semaphores.cpp.obj: D:/work/modules/AP_HAL_Empty/Semaphores.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Semaphores.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_630) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Semaphores.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Semaphores.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Semaphores.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Semaphores.cpp.obj -c D:\work\modules\AP_HAL_Empty\Semaphores.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Semaphores.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Semaphores.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_Empty\Semaphores.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Semaphores.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Semaphores.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Semaphores.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_Empty\Semaphores.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Semaphores.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Storage.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Storage.cpp.obj: D:/work/modules/AP_HAL_Empty/Storage.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Storage.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_631) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Storage.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Storage.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Storage.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Storage.cpp.obj -c D:\work\modules\AP_HAL_Empty\Storage.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Storage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Storage.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_Empty\Storage.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Storage.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Storage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Storage.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_Empty\Storage.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\Storage.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/UARTDriver.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/UARTDriver.cpp.obj: D:/work/modules/AP_HAL_Empty/UARTDriver.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/UARTDriver.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_632) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/UARTDriver.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/UARTDriver.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\UARTDriver.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\UARTDriver.cpp.obj -c D:\work\modules\AP_HAL_Empty\UARTDriver.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/UARTDriver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/UARTDriver.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_Empty\UARTDriver.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\UARTDriver.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/UARTDriver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/UARTDriver.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_Empty\UARTDriver.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_Empty\UARTDriver.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/AnalogIn.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/AnalogIn.cpp.obj: D:/work/modules/AP_HAL_STM32/AnalogIn.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/AnalogIn.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_633) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/AnalogIn.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/AnalogIn.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\AnalogIn.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\AnalogIn.cpp.obj -c D:\work\modules\AP_HAL_STM32\AnalogIn.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/AnalogIn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/AnalogIn.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_STM32\AnalogIn.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\AnalogIn.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/AnalogIn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/AnalogIn.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_STM32\AnalogIn.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\AnalogIn.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/GPIO.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/GPIO.cpp.obj: D:/work/modules/AP_HAL_STM32/GPIO.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/GPIO.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_634) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/GPIO.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/GPIO.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\GPIO.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\GPIO.cpp.obj -c D:\work\modules\AP_HAL_STM32\GPIO.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/GPIO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/GPIO.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_STM32\GPIO.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\GPIO.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/GPIO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/GPIO.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_STM32\GPIO.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\GPIO.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/HAL_STM32_Class.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/HAL_STM32_Class.cpp.obj: D:/work/modules/AP_HAL_STM32/HAL_STM32_Class.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/HAL_STM32_Class.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_635) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/HAL_STM32_Class.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/HAL_STM32_Class.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\HAL_STM32_Class.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\HAL_STM32_Class.cpp.obj -c D:\work\modules\AP_HAL_STM32\HAL_STM32_Class.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/HAL_STM32_Class.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/HAL_STM32_Class.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_STM32\HAL_STM32_Class.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\HAL_STM32_Class.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/HAL_STM32_Class.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/HAL_STM32_Class.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_STM32\HAL_STM32_Class.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\HAL_STM32_Class.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/I2CDriver.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/I2CDriver.cpp.obj: D:/work/modules/AP_HAL_STM32/I2CDriver.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/I2CDriver.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_636) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/I2CDriver.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/I2CDriver.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\I2CDriver.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\I2CDriver.cpp.obj -c D:\work\modules\AP_HAL_STM32\I2CDriver.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/I2CDriver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/I2CDriver.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_STM32\I2CDriver.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\I2CDriver.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/I2CDriver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/I2CDriver.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_STM32\I2CDriver.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\I2CDriver.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Mutex.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Mutex.cpp.obj: D:/work/modules/AP_HAL_STM32/Mutex.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Mutex.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_637) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Mutex.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Mutex.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Mutex.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Mutex.cpp.obj -c D:\work\modules\AP_HAL_STM32\Mutex.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Mutex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Mutex.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_STM32\Mutex.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Mutex.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Mutex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Mutex.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_STM32\Mutex.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Mutex.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/PrivateMember.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/PrivateMember.cpp.obj: D:/work/modules/AP_HAL_STM32/PrivateMember.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/PrivateMember.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_638) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/PrivateMember.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/PrivateMember.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\PrivateMember.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\PrivateMember.cpp.obj -c D:\work\modules\AP_HAL_STM32\PrivateMember.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/PrivateMember.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/PrivateMember.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_STM32\PrivateMember.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\PrivateMember.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/PrivateMember.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/PrivateMember.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_STM32\PrivateMember.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\PrivateMember.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCInput.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCInput.cpp.obj: D:/work/modules/AP_HAL_STM32/RCInput.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCInput.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_639) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCInput.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCInput.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\RCInput.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\RCInput.cpp.obj -c D:\work\modules\AP_HAL_STM32\RCInput.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCInput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCInput.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_STM32\RCInput.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\RCInput.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCInput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCInput.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_STM32\RCInput.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\RCInput.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCOutput.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCOutput.cpp.obj: D:/work/modules/AP_HAL_STM32/RCOutput.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCOutput.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_640) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCOutput.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCOutput.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\RCOutput.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\RCOutput.cpp.obj -c D:\work\modules\AP_HAL_STM32\RCOutput.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCOutput.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCOutput.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_STM32\RCOutput.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\RCOutput.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCOutput.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCOutput.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_STM32\RCOutput.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\RCOutput.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/SPIDriver.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/SPIDriver.cpp.obj: D:/work/modules/AP_HAL_STM32/SPIDriver.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/SPIDriver.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_641) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/SPIDriver.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/SPIDriver.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\SPIDriver.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\SPIDriver.cpp.obj -c D:\work\modules\AP_HAL_STM32\SPIDriver.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/SPIDriver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/SPIDriver.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_STM32\SPIDriver.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\SPIDriver.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/SPIDriver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/SPIDriver.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_STM32\SPIDriver.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\SPIDriver.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Scheduler.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Scheduler.cpp.obj: D:/work/modules/AP_HAL_STM32/Scheduler.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Scheduler.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_642) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Scheduler.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Scheduler.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Scheduler.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Scheduler.cpp.obj -c D:\work\modules\AP_HAL_STM32\Scheduler.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Scheduler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Scheduler.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_STM32\Scheduler.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Scheduler.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Scheduler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Scheduler.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_STM32\Scheduler.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Scheduler.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Semaphores.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Semaphores.cpp.obj: D:/work/modules/AP_HAL_STM32/Semaphores.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Semaphores.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_643) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Semaphores.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Semaphores.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Semaphores.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Semaphores.cpp.obj -c D:\work\modules\AP_HAL_STM32\Semaphores.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Semaphores.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Semaphores.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_STM32\Semaphores.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Semaphores.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Semaphores.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Semaphores.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_STM32\Semaphores.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Semaphores.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Storage.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Storage.cpp.obj: D:/work/modules/AP_HAL_STM32/Storage.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Storage.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_644) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Storage.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Storage.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Storage.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Storage.cpp.obj -c D:\work\modules\AP_HAL_STM32\Storage.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Storage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Storage.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_STM32\Storage.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Storage.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Storage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Storage.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_STM32\Storage.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Storage.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/UARTDriver.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/UARTDriver.cpp.obj: D:/work/modules/AP_HAL_STM32/UARTDriver.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/UARTDriver.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_645) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/UARTDriver.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/UARTDriver.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\UARTDriver.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\UARTDriver.cpp.obj -c D:\work\modules\AP_HAL_STM32\UARTDriver.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/UARTDriver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/UARTDriver.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_STM32\UARTDriver.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\UARTDriver.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/UARTDriver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/UARTDriver.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_STM32\UARTDriver.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\UARTDriver.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Util.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Util.cpp.obj: D:/work/modules/AP_HAL_STM32/Util.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Util.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_646) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Util.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Util.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Util.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Util.cpp.obj -c D:\work\modules\AP_HAL_STM32\Util.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Util.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Util.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_HAL_STM32\Util.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Util.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Util.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Util.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_HAL_STM32\Util.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_HAL_STM32\Util.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/AP_Math.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/AP_Math.cpp.obj: D:/work/modules/AP_Math/AP_Math.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/AP_Math.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_647) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/AP_Math.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/AP_Math.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\AP_Math.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\AP_Math.cpp.obj -c D:\work\modules\AP_Math\AP_Math.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/AP_Math.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/AP_Math.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_Math\AP_Math.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\AP_Math.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/AP_Math.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/AP_Math.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_Math\AP_Math.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\AP_Math.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/edc.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/edc.cpp.obj: D:/work/modules/AP_Math/edc.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/edc.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_648) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/edc.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/edc.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\edc.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\edc.cpp.obj -c D:\work\modules\AP_Math\edc.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/edc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/edc.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_Math\edc.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\edc.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/edc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/edc.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_Math\edc.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\edc.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/location.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/location.cpp.obj: D:/work/modules/AP_Math/location.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/location.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_649) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/location.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/location.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\location.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\location.cpp.obj -c D:\work\modules\AP_Math\location.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/location.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/location.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_Math\location.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\location.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/location.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/location.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_Math\location.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\location.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/matrix3.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/matrix3.cpp.obj: D:/work/modules/AP_Math/matrix3.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/matrix3.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_650) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/matrix3.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/matrix3.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\matrix3.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\matrix3.cpp.obj -c D:\work\modules\AP_Math\matrix3.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/matrix3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/matrix3.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_Math\matrix3.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\matrix3.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/matrix3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/matrix3.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_Math\matrix3.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\matrix3.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/polygon.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/polygon.cpp.obj: D:/work/modules/AP_Math/polygon.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/polygon.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_651) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/polygon.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/polygon.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\polygon.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\polygon.cpp.obj -c D:\work\modules\AP_Math\polygon.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/polygon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/polygon.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_Math\polygon.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\polygon.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/polygon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/polygon.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_Math\polygon.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\polygon.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/quaternion.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/quaternion.cpp.obj: D:/work/modules/AP_Math/quaternion.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/quaternion.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_652) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/quaternion.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/quaternion.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\quaternion.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\quaternion.cpp.obj -c D:\work\modules\AP_Math\quaternion.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/quaternion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/quaternion.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_Math\quaternion.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\quaternion.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/quaternion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/quaternion.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_Math\quaternion.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\quaternion.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector2.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector2.cpp.obj: D:/work/modules/AP_Math/vector2.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector2.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_653) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector2.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector2.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\vector2.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\vector2.cpp.obj -c D:\work\modules\AP_Math\vector2.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector2.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_Math\vector2.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\vector2.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector2.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_Math\vector2.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\vector2.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector3.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector3.cpp.obj: D:/work/modules/AP_Math/vector3.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector3.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_654) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector3.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector3.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\vector3.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\vector3.cpp.obj -c D:\work\modules\AP_Math\vector3.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector3.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\AP_Math\vector3.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\vector3.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector3.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\AP_Math\vector3.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\AP_Math\vector3.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/DerivativeFilter.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/DerivativeFilter.cpp.obj: D:/work/modules/Filter/DerivativeFilter.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/DerivativeFilter.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_655) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/DerivativeFilter.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/DerivativeFilter.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\Filter\DerivativeFilter.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\Filter\DerivativeFilter.cpp.obj -c D:\work\modules\Filter\DerivativeFilter.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/DerivativeFilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/DerivativeFilter.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\Filter\DerivativeFilter.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\Filter\DerivativeFilter.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/DerivativeFilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/DerivativeFilter.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\Filter\DerivativeFilter.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\Filter\DerivativeFilter.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/LowPassFilter2p.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/LowPassFilter2p.cpp.obj: D:/work/modules/Filter/LowPassFilter2p.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/LowPassFilter2p.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_656) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/LowPassFilter2p.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/LowPassFilter2p.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\Filter\LowPassFilter2p.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\Filter\LowPassFilter2p.cpp.obj -c D:\work\modules\Filter\LowPassFilter2p.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/LowPassFilter2p.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/LowPassFilter2p.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\Filter\LowPassFilter2p.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\Filter\LowPassFilter2p.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/LowPassFilter2p.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/LowPassFilter2p.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\Filter\LowPassFilter2p.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\Filter\LowPassFilter2p.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/PID/PID.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/modules/PID/PID.cpp.obj: D:/work/modules/PID/PID.cpp
+CMakeFiles/miniFoc_F4.elf.dir/modules/PID/PID.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_657) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/modules/PID/PID.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/modules/PID/PID.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\modules\PID\PID.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\modules\PID\PID.cpp.obj -c D:\work\modules\PID\PID.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/PID/PID.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/modules/PID/PID.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\modules\PID\PID.cpp > CMakeFiles\miniFoc_F4.elf.dir\modules\PID\PID.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/modules/PID/PID.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/modules/PID/PID.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\modules\PID\PID.cpp -o CMakeFiles\miniFoc_F4.elf.dir\modules\PID\PID.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/project/test/app.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/project/test/app.cpp.obj: D:/work/project/test/app.cpp
+CMakeFiles/miniFoc_F4.elf.dir/project/test/app.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_658) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/project/test/app.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/project/test/app.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\project\test\app.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\project\test\app.cpp.obj -c D:\work\project\test\app.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/project/test/app.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/project/test/app.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\project\test\app.cpp > CMakeFiles\miniFoc_F4.elf.dir\project\test\app.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/project/test/app.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/project/test/app.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\project\test\app.cpp -o CMakeFiles\miniFoc_F4.elf.dir\project\test\app.cpp.s
+
+CMakeFiles/miniFoc_F4.elf.dir/project/test/test.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/project/test/test.cpp.obj: D:/work/project/test/test.cpp
+CMakeFiles/miniFoc_F4.elf.dir/project/test/test.cpp.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_659) "Building CXX object CMakeFiles/miniFoc_F4.elf.dir/project/test/test.cpp.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/project/test/test.cpp.obj -MF CMakeFiles\miniFoc_F4.elf.dir\project\test\test.cpp.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\project\test\test.cpp.obj -c D:\work\project\test\test.cpp
+
+CMakeFiles/miniFoc_F4.elf.dir/project/test/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/miniFoc_F4.elf.dir/project/test/test.cpp.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\work\project\test\test.cpp > CMakeFiles\miniFoc_F4.elf.dir\project\test\test.cpp.i
+
+CMakeFiles/miniFoc_F4.elf.dir/project/test/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/miniFoc_F4.elf.dir/project/test/test.cpp.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\work\project\test\test.cpp -o CMakeFiles\miniFoc_F4.elf.dir\project\test\test.cpp.s
+
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.obj: D:/work/src/debug/backtrace.c
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_602) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_660) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\debug\backtrace.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\debug\backtrace.c.obj -c D:\work\src\debug\backtrace.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.i: cmake_force
@@ -8500,7 +9312,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj: D:/work/src/debug/debug.c
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_603) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_661) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\debug\debug.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\debug\debug.c.obj -c D:\work\src\debug\debug.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.i: cmake_force
@@ -8514,7 +9326,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj: D:/work/src/debug/heap_trace.c
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_604) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_662) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\debug\heap_trace.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\debug\heap_trace.c.obj -c D:\work\src\debug\heap_trace.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.i: cmake_force
@@ -8528,7 +9340,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.obj: D:/work/src/libc/wrap_malloc.c
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_605) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_663) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\libc\wrap_malloc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\libc\wrap_malloc.c.obj -c D:\work\src\libc\wrap_malloc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.i: cmake_force
@@ -8542,7 +9354,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.obj: D:/work/src/libc/wrap_time.c
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_606) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_664) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\libc\wrap_time.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\libc\wrap_time.c.obj -c D:\work\src\libc\wrap_time.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.i: cmake_force
@@ -8644,6 +9456,8 @@ miniFoc_F4_elf_OBJECTS = \
 "CMakeFiles/miniFoc_F4.elf.dir/framework/MiniCommon.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/framework/MiniMotor.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/framework/MiniShell.c.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/framework/UnityManager.c.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/framework/platform_init.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/EFSM/fsm.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/BLDCMotor.c.obj" \
@@ -8693,6 +9507,14 @@ miniFoc_F4_elf_OBJECTS = \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_async.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_buf.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_utils.c.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-all.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-death-test.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-filepath.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-port.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-printers.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-test-part.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-typed-test.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest.cpp.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/cmd_ping.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/log.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell.c.obj" \
@@ -8700,6 +9522,8 @@ miniFoc_F4_elf_OBJECTS = \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_companion.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_ext.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_fs.c.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs.c.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs_util.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj" \
@@ -9156,6 +9980,52 @@ miniFoc_F4_elf_OBJECTS = \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud_sfdp.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/libs/unity/unity.c.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/UARTDriver.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/Util.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/Print.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/ftoa_engine.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/print_vprintf.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/utoa_invert.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/AnalogIn.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/GPIO.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/HAL_Empty_Class.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/I2CDriver.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Mutex.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/PrivateMember.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCInput.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCOutput.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/SPIDriver.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Scheduler.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Semaphores.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Storage.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/UARTDriver.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/AnalogIn.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/GPIO.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/HAL_STM32_Class.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/I2CDriver.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Mutex.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/PrivateMember.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCInput.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCOutput.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/SPIDriver.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Scheduler.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Semaphores.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Storage.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/UARTDriver.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Util.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/AP_Math.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/edc.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/location.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/matrix3.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/polygon.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/quaternion.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector2.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector3.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/DerivativeFilter.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/LowPassFilter2p.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/modules/PID/PID.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/project/test/app.cpp.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/project/test/test.cpp.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj" \
@@ -9254,6 +10124,8 @@ miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/framework/MiniButton.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/framework/MiniCommon.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/framework/MiniMotor.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/framework/MiniShell.c.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/framework/UnityManager.c.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/framework/platform_init.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/EFSM/fsm.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/MiniFoc/BLDCMotor.c.obj
@@ -9303,6 +10175,14 @@ miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_async.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_buf.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/easylogger/src/elog_utils.c.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-all.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-death-test.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-filepath.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-port.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-printers.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-test-part.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest-typed-test.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/gtest/src/gtest.cpp.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/cmd_ping.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/log.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell.c.obj
@@ -9310,6 +10190,8 @@ miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_cmd_list.c.
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_companion.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_ext.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/lettershell/shell_fs.c.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs.c.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/littlefs/lfs_util.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj
@@ -9766,6 +10648,52 @@ miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/port/sfud_port.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/sfud/src/sfud_sfdp.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/libs/unity/unity.c.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/UARTDriver.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/Util.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/Print.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/ftoa_engine.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/print_vprintf.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL/utility/utoa_invert.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/AnalogIn.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/GPIO.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/HAL_Empty_Class.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/I2CDriver.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Mutex.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/PrivateMember.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCInput.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/RCOutput.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/SPIDriver.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Scheduler.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Semaphores.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/Storage.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_Empty/UARTDriver.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/AnalogIn.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/GPIO.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/HAL_STM32_Class.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/I2CDriver.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Mutex.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/PrivateMember.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCInput.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/RCOutput.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/SPIDriver.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Scheduler.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Semaphores.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Storage.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/UARTDriver.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_HAL_STM32/Util.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/AP_Math.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/edc.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/location.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/matrix3.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/polygon.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/quaternion.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector2.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/AP_Math/vector3.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/DerivativeFilter.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/Filter/LowPassFilter2p.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/modules/PID/PID.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/project/test/app.cpp.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/project/test/test.cpp.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj
@@ -9774,7 +10702,7 @@ miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/build.make
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/objects1.rsp
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_607) "Linking C executable miniFoc_F4.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\work\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_665) "Linking CXX executable miniFoc_F4.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\miniFoc_F4.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/work/cmake-build-release/miniFoc_F4.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/work/cmake-build-release/miniFoc_F4.bin"
