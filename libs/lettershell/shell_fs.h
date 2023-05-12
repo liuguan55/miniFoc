@@ -31,6 +31,8 @@ typedef struct shell_fs
     size_t (*listdir)(char *dir, char *buffer, size_t maxLen);
   	size_t (*mkdir)(char *);
   	size_t (*unlink)(char *);
+    size_t (*open)(void *, char *, char);
+    size_t (*close)(void *);
     struct {
         char *path;
         size_t pathLen;

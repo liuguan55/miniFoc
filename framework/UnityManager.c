@@ -37,6 +37,16 @@ typedef struct {
 
 static UnityManager_t unityManager = {0};
 
+void setUp(void) {
+    // set stuff up here
+    printf("\r\nsetUp\n");
+}
+
+void tearDown(void) {
+    // clean stuff up here
+    printf("\r\ntearDown\n");
+}
+
 void UnityManager_init(void) {
     unityManager.count = 0;
 }

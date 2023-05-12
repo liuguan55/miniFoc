@@ -2275,30 +2275,6 @@ framework/UnityManager.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/UnityManager.c.s
 .PHONY : framework/UnityManager.c.s
 
-framework/littlefsManager.obj: framework/littlefsManager.c.obj
-.PHONY : framework/littlefsManager.obj
-
-# target to build an object file
-framework/littlefsManager.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.obj
-.PHONY : framework/littlefsManager.c.obj
-
-framework/littlefsManager.i: framework/littlefsManager.c.i
-.PHONY : framework/littlefsManager.i
-
-# target to preprocess a source file
-framework/littlefsManager.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.i
-.PHONY : framework/littlefsManager.c.i
-
-framework/littlefsManager.s: framework/littlefsManager.c.s
-.PHONY : framework/littlefsManager.s
-
-# target to generate assembly for a file
-framework/littlefsManager.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/littlefsManager.c.s
-.PHONY : framework/littlefsManager.c.s
-
 framework/platform_init.obj: framework/platform_init.c.obj
 .PHONY : framework/platform_init.obj
 
@@ -2322,6 +2298,150 @@ framework/platform_init.s: framework/platform_init.c.s
 framework/platform_init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/platform_init.c.s
 .PHONY : framework/platform_init.c.s
+
+framework/vfs/fatfsManager.obj: framework/vfs/fatfsManager.c.obj
+.PHONY : framework/vfs/fatfsManager.obj
+
+# target to build an object file
+framework/vfs/fatfsManager.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/fatfsManager.c.obj
+.PHONY : framework/vfs/fatfsManager.c.obj
+
+framework/vfs/fatfsManager.i: framework/vfs/fatfsManager.c.i
+.PHONY : framework/vfs/fatfsManager.i
+
+# target to preprocess a source file
+framework/vfs/fatfsManager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/fatfsManager.c.i
+.PHONY : framework/vfs/fatfsManager.c.i
+
+framework/vfs/fatfsManager.s: framework/vfs/fatfsManager.c.s
+.PHONY : framework/vfs/fatfsManager.s
+
+# target to generate assembly for a file
+framework/vfs/fatfsManager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/fatfsManager.c.s
+.PHONY : framework/vfs/fatfsManager.c.s
+
+framework/vfs/littlefsManager.obj: framework/vfs/littlefsManager.c.obj
+.PHONY : framework/vfs/littlefsManager.obj
+
+# target to build an object file
+framework/vfs/littlefsManager.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/littlefsManager.c.obj
+.PHONY : framework/vfs/littlefsManager.c.obj
+
+framework/vfs/littlefsManager.i: framework/vfs/littlefsManager.c.i
+.PHONY : framework/vfs/littlefsManager.i
+
+# target to preprocess a source file
+framework/vfs/littlefsManager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/littlefsManager.c.i
+.PHONY : framework/vfs/littlefsManager.c.i
+
+framework/vfs/littlefsManager.s: framework/vfs/littlefsManager.c.s
+.PHONY : framework/vfs/littlefsManager.s
+
+# target to generate assembly for a file
+framework/vfs/littlefsManager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/littlefsManager.c.s
+.PHONY : framework/vfs/littlefsManager.c.s
+
+framework/vfs/testVfs.obj: framework/vfs/testVfs.c.obj
+.PHONY : framework/vfs/testVfs.obj
+
+# target to build an object file
+framework/vfs/testVfs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/testVfs.c.obj
+.PHONY : framework/vfs/testVfs.c.obj
+
+framework/vfs/testVfs.i: framework/vfs/testVfs.c.i
+.PHONY : framework/vfs/testVfs.i
+
+# target to preprocess a source file
+framework/vfs/testVfs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/testVfs.c.i
+.PHONY : framework/vfs/testVfs.c.i
+
+framework/vfs/testVfs.s: framework/vfs/testVfs.c.s
+.PHONY : framework/vfs/testVfs.s
+
+# target to generate assembly for a file
+framework/vfs/testVfs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/testVfs.c.s
+.PHONY : framework/vfs/testVfs.c.s
+
+framework/vfs/vfs.obj: framework/vfs/vfs.c.obj
+.PHONY : framework/vfs/vfs.obj
+
+# target to build an object file
+framework/vfs/vfs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/vfs.c.obj
+.PHONY : framework/vfs/vfs.c.obj
+
+framework/vfs/vfs.i: framework/vfs/vfs.c.i
+.PHONY : framework/vfs/vfs.i
+
+# target to preprocess a source file
+framework/vfs/vfs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/vfs.c.i
+.PHONY : framework/vfs/vfs.c.i
+
+framework/vfs/vfs.s: framework/vfs/vfs.c.s
+.PHONY : framework/vfs/vfs.s
+
+# target to generate assembly for a file
+framework/vfs/vfs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/vfs.c.s
+.PHONY : framework/vfs/vfs.c.s
+
+framework/vfs/vfsFatDriver.obj: framework/vfs/vfsFatDriver.c.obj
+.PHONY : framework/vfs/vfsFatDriver.obj
+
+# target to build an object file
+framework/vfs/vfsFatDriver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/vfsFatDriver.c.obj
+.PHONY : framework/vfs/vfsFatDriver.c.obj
+
+framework/vfs/vfsFatDriver.i: framework/vfs/vfsFatDriver.c.i
+.PHONY : framework/vfs/vfsFatDriver.i
+
+# target to preprocess a source file
+framework/vfs/vfsFatDriver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/vfsFatDriver.c.i
+.PHONY : framework/vfs/vfsFatDriver.c.i
+
+framework/vfs/vfsFatDriver.s: framework/vfs/vfsFatDriver.c.s
+.PHONY : framework/vfs/vfsFatDriver.s
+
+# target to generate assembly for a file
+framework/vfs/vfsFatDriver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/vfsFatDriver.c.s
+.PHONY : framework/vfs/vfsFatDriver.c.s
+
+framework/vfs/vfsLittleFsDriver.obj: framework/vfs/vfsLittleFsDriver.c.obj
+.PHONY : framework/vfs/vfsLittleFsDriver.obj
+
+# target to build an object file
+framework/vfs/vfsLittleFsDriver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/vfsLittleFsDriver.c.obj
+.PHONY : framework/vfs/vfsLittleFsDriver.c.obj
+
+framework/vfs/vfsLittleFsDriver.i: framework/vfs/vfsLittleFsDriver.c.i
+.PHONY : framework/vfs/vfsLittleFsDriver.i
+
+# target to preprocess a source file
+framework/vfs/vfsLittleFsDriver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/vfsLittleFsDriver.c.i
+.PHONY : framework/vfs/vfsLittleFsDriver.c.i
+
+framework/vfs/vfsLittleFsDriver.s: framework/vfs/vfsLittleFsDriver.c.s
+.PHONY : framework/vfs/vfsLittleFsDriver.s
+
+# target to generate assembly for a file
+framework/vfs/vfsLittleFsDriver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/framework/vfs/vfsLittleFsDriver.c.s
+.PHONY : framework/vfs/vfsLittleFsDriver.c.s
 
 libs/EFSM/fsm.obj: libs/EFSM/fsm.c.obj
 .PHONY : libs/EFSM/fsm.obj
@@ -16312,12 +16432,27 @@ help:
 	@echo ... framework/UnityManager.obj
 	@echo ... framework/UnityManager.i
 	@echo ... framework/UnityManager.s
-	@echo ... framework/littlefsManager.obj
-	@echo ... framework/littlefsManager.i
-	@echo ... framework/littlefsManager.s
 	@echo ... framework/platform_init.obj
 	@echo ... framework/platform_init.i
 	@echo ... framework/platform_init.s
+	@echo ... framework/vfs/fatfsManager.obj
+	@echo ... framework/vfs/fatfsManager.i
+	@echo ... framework/vfs/fatfsManager.s
+	@echo ... framework/vfs/littlefsManager.obj
+	@echo ... framework/vfs/littlefsManager.i
+	@echo ... framework/vfs/littlefsManager.s
+	@echo ... framework/vfs/testVfs.obj
+	@echo ... framework/vfs/testVfs.i
+	@echo ... framework/vfs/testVfs.s
+	@echo ... framework/vfs/vfs.obj
+	@echo ... framework/vfs/vfs.i
+	@echo ... framework/vfs/vfs.s
+	@echo ... framework/vfs/vfsFatDriver.obj
+	@echo ... framework/vfs/vfsFatDriver.i
+	@echo ... framework/vfs/vfsFatDriver.s
+	@echo ... framework/vfs/vfsLittleFsDriver.obj
+	@echo ... framework/vfs/vfsLittleFsDriver.i
+	@echo ... framework/vfs/vfsLittleFsDriver.s
 	@echo ... libs/EFSM/fsm.obj
 	@echo ... libs/EFSM/fsm.i
 	@echo ... libs/EFSM/fsm.s

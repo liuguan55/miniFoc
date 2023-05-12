@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include "MiniCommon.h"
 
+
 #define PLATFORM_SHOW_DEBUG_INFO     1//0   /* for internal debug only */
 
 
@@ -97,11 +98,9 @@ static void platform_level1_init(void) {
     extern int debug_init(void);
     debug_init();
 
-    MiniFatfs_init();
+    vfsSystemInit();
     MiniShell_Init();
     MiniShell_Run();
-
-    lfsManager_init();
 
     easyflash_init();
     test_env();

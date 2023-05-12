@@ -31,17 +31,13 @@
 
 /* USER CODE END Includes */
 
-extern uint8_t retSD; /* Return value for SD */
-extern char SDPath[4]; /* SD logical drive path */
-extern FATFS SDFatFS; /* File system object for SD logical drive */
-extern FIL SDFile; /* File object for SD */
 
 void MX_FATFS_Init(void);
 
 /* USER CODE BEGIN Prototypes */
 
-int MiniFatfs_init(void);
-int MiniFatfs_writeLog(const char *filename, const char *data, int len);
+const char *fatfs_get_sd_path(void);
+
 /* USER CODE END Prototypes */
 #ifdef __cplusplus
 }

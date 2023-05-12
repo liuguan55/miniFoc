@@ -54,7 +54,7 @@ void HAL_STM32::init(int argc,char* const argv[]) const {
     spi->init(nullptr);
     scheduler->init(nullptr);
     scheduler->system_initialized();
-    uartA->begin(115200);
+//    uartA->begin(115200);
     _member->init();
 }
 

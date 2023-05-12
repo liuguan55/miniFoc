@@ -28,7 +28,8 @@
 
 #ifndef MINIFOC_F4_UNITYMANAGER_H
 #define MINIFOC_F4_UNITYMANAGER_H
-
+#include "unity/unity.h"
+#include "compiler.h"
 #ifdef __cplusplus
 extern "C" {
 #endif

@@ -869,16 +869,43 @@
 		<Unit filename="D:/work/framework/UnityManager.h">
 			<Option target="miniFoc_F4.elf"/>
 		</Unit>
-		<Unit filename="D:/work/framework/littlefsManager.c">
-			<Option target="miniFoc_F4.elf"/>
-		</Unit>
-		<Unit filename="D:/work/framework/littlefsManager.h">
-			<Option target="miniFoc_F4.elf"/>
-		</Unit>
 		<Unit filename="D:/work/framework/platform_init.c">
 			<Option target="miniFoc_F4.elf"/>
 		</Unit>
 		<Unit filename="D:/work/framework/platform_init.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/framework/vfs/fatfsManager.c">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/framework/vfs/fatfsManager.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/framework/vfs/littlefsManager.c">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/framework/vfs/littlefsManager.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/framework/vfs/testVfs.c">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/framework/vfs/vfs.c">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/framework/vfs/vfs.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/framework/vfs/vfsFatDriver.c">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/framework/vfs/vfsFatDriver.h">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/framework/vfs/vfsLittleFsDriver.c">
+			<Option target="miniFoc_F4.elf"/>
+		</Unit>
+		<Unit filename="D:/work/framework/vfs/vfsLittleFsDriver.h">
 			<Option target="miniFoc_F4.elf"/>
 		</Unit>
 		<Unit filename="D:/work/libs/EFSM/fsm.c">

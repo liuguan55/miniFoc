@@ -70,7 +70,7 @@ void elog_port_output(const char *log, size_t size) {
 //  MiniUart_writeData(MINI_CONSOLE_USART_IDX, log, size);
 //  logWrite(LOG_ALL_OBJ, LOG_DEBUG, log);
   logWriteBuffer(LOG_ALL_OBJ, LOG_DEBUG, (char *)log, size);
-  MiniFatfs_writeLog("mini.log", log, size);
+//  MiniFatfs_writeLog("mini.log", log, size);
 }
 
 void elog_port_output2(int level, const char *log, size_t size)
@@ -78,7 +78,7 @@ void elog_port_output2(int level, const char *log, size_t size)
   /* add your code here */
 //  MiniUart_writeData(MINI_CONSOLE_USART_IDX, log, size);
   logWrite(LOG_ALL_OBJ, level, log);
-  MiniFatfs_writeLog("mini.log", log, size);
+//  MiniFatfs_writeLog("mini.log", log, size);
 }
 
 /**

@@ -28,7 +28,7 @@
 #include "platform_init.h"
 #include "MiniMotor.h"
 #include "UnityManager.h"
-#include "littlefsManager.h"
+#include "vfs/vfs.h"
 
 #define FIRMWARE_NAME                   "MiNIFoc_f4"
 #define HARDWARE_VERSION               "V1.0.2"

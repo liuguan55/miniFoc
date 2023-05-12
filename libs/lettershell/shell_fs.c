@@ -8,12 +8,14 @@
  * @copyright (c) 2020 Letter
  * 
  */
+#include <string.h>
 #include "shell_fs.h"
 #include "shell.h"
 #include "stdio.h"
 #include <stdlib.h>
 #include "ff.h"
 #include "shell_ext.h"
+#include "vfs/vfs.h"
 /**
  * @brief 改变当前路径(shell调用)
  * 
@@ -23,11 +25,20 @@ void shellCD(char *dir) {
   Shell *shell = shellGetCurrent();
   ShellFs *shellFs = shellCompanionGet(shell, SHELL_COMPANION_ID_FS);
   SHELL_ASSERT(shellFs, return);
-  if (shellFs->chdir(dir) != 0) {
+
+  char path[256] = {0};
+  if (dir[0] == '/'){
+    snprintf(path, sizeof(path), "%s", dir);
+  } else {
+    snprintf(path, sizeof(path), "%s/%s", shellGetPath(shell), dir);
+  }
+
+  if (shellFs->chdir(path) != 0) {
 	shellWriteString(shell, "error: ");
-	shellWriteString(shell, dir);
+	shellWriteString(shell, path);
 	shellWriteString(shell, " is not a directory\r\n");
   }
+
   shellFs->getcwd(shellFs->info.path, shellFs->info.pathLen);
 }
 SHELL_EXPORT_CMD(
@@ -48,6 +59,7 @@ void shellLS(void) {
 
   buffer = SHELL_MALLOC(SHELL_FS_LIST_FILE_BUFFER_MAX);
   SHELL_ASSERT(buffer, return);
+  memset(buffer, 0 , SHELL_FS_LIST_FILE_BUFFER_MAX);
   shellFs->listdir(shellGetPath(shell), buffer, SHELL_FS_LIST_FILE_BUFFER_MAX);
 
   shellWriteString(shell, buffer);
@@ -127,8 +139,6 @@ SHELL_EXPORT_CMD(
  * @param dirname
  */
 void shellTOUCH(char *filename) {
-  FIL file;
-  FRESULT res;
   char *buffer;
   Shell *shell = shellGetCurrent();
   ShellFs *shellFs = shellCompanionGet(shell, SHELL_COMPANION_ID_FS);
@@ -140,13 +150,15 @@ void shellTOUCH(char *filename) {
   shellFs->getcwd(shellFs->info.path, shellFs->info.pathLen);
   snprintf(buffer, SHELL_FS_LIST_FILE_BUFFER_MAX, "%s/%s", shellFs->info.path, filename);
 
-  res = f_open(&file, buffer, FA_CREATE_ALWAYS | FA_WRITE | FA_READ);
-  if (res != FR_OK) {
+  char *path =  vfsGetRealPath(buffer);
+  vfsFile_t vfsFile;
+  vfsRes_t res = vfsOpen(&vfsFile, path, VFS_MODE_WRITE|VFS_MODE_CREATE);
+  if (res != 0) {
 	shellWriteString(shell, "error: ");
 	shellWriteString(shell, filename);
 	shellWriteString(shell, " touch file failed\r\n");
   }
-  f_close(&file);
+  vfsClose(&vfsFile);
 
   SHELL_FREE(buffer);
 }
@@ -194,7 +206,7 @@ void shellCAT(char *filename) {
 	  content[readLen] = 0;
 	  printf("%s", content);
 	}
-
+    printf("\r\n");
 	SHELL_FREE(content);
   }
 
