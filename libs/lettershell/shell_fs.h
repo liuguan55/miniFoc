@@ -28,7 +28,7 @@ typedef struct shell_fs
 {
     size_t (*getcwd)(char *, size_t);
     size_t (*chdir)(char *);
-    size_t (*listdir)(char *dir, char *buffer, size_t maxLen);
+    size_t (*listdir)(char *dir, char *buffer, size_t maxLen, int printType);
   	size_t (*mkdir)(char *);
   	size_t (*unlink)(char *);
     size_t (*open)(void *, char *, char);

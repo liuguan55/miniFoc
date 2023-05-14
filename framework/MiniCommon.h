@@ -49,7 +49,7 @@ enum {
 #define MINI_CONSOLE_USART_IDX (1)
 #define MINI_SHELL_USART_IDX MINI_CONSOLE_USART_IDX
 #define MINI_SHELL_BUFFER_SIZE (128 * 4)
-#define MINI_SHELL_TASK_STACK_SIZE (512 * 4)
+#define MINI_SHELL_TASK_STACK_SIZE (1024 * 4)
 
 
 static  inline void MiniCommon_delayMs(uint32_t ms) {

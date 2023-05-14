@@ -30,7 +30,7 @@
 #ifndef MINIFOC_F4_VFS_H
 #define MINIFOC_F4_VFS_H
 
-#define  VFS_NAME_MAX 255
+#define  VFS_NAME_MAX 128
 
 #define VFS_PATH_SDCARD "sdcard"
 #define VFS_PATH_SYSTEM "system"

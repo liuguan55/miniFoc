@@ -14,12 +14,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+#include <stdio.h>
+#include <inttypes.h>
 #include "lettershell/shell.h"
 #include "FreeRTOS.h"
 #include "task.h"
 #include "main.h"
 #include "cmsis_os.h"
-#include <stdio.h>
 #include "usart.h"
 #include "MiniCommon.h"
 #include "vfs/vfs.h"
@@ -194,6 +195,46 @@ size_t userShellChdir(char *path) {
     return res ;
 }
 
+static uint32_t getDirSize(char *path) {
+    vfsRes_t res;
+    vfsFile_t dir;
+    vfsFileInfo_t fno;
+    uint32_t size = 0;
+
+    if (path == NULL) {
+        return 0;
+    }
+
+    res = vfsDirOpen(&dir, &path[1]);
+    if (res != VFS_RES_OK) {
+        log_e("opendir failed,err:%d", res);
+        return 0;
+    }
+
+    while (vfsDirRead(&dir, &fno) == VFS_RES_OK) {
+        if (fno.name[0] == '\0') {
+            break;
+        }
+
+        if (fno.isDir) {
+            char *oldPath = path + strlen(path);
+            strcat(path, "/");
+            strcat(path, fno.name);
+            size += getDirSize(path);
+            *oldPath = '\0';
+        } else {
+            size += fno.size;
+        }
+    }
+
+    vfsDirClose(&dir);
+
+    return size;
+}
+
+static bool is_integer(float num) {
+    return floor(num) == num;
+}
 /**
  * @brief 列出文件
  *
@@ -202,7 +243,7 @@ size_t userShellChdir(char *path) {
  * @param maxLen 最大缓冲长度
  * @return size_t 0
  */
-size_t userShellListDir(char *path, char *buffer, size_t maxLen) {
+size_t userShellListDir(char *path, char *buffer, size_t maxLen, int printDetail) {
     vfsRes_t res;
     vfsFile_t dir;
     vfsFileInfo_t fno;
@@ -223,6 +264,7 @@ size_t userShellListDir(char *path, char *buffer, size_t maxLen) {
 
     memset(buffer, 0, maxLen);
 
+    uint32_t fileSize  = 0;
     do {
         res = vfsDirRead(&dir, &fno);
         if (res != VFS_RES_OK || fno.name[0] == 0) {
@@ -230,15 +272,37 @@ size_t userShellListDir(char *path, char *buffer, size_t maxLen) {
         }
 
         if (fno.isDir) {
+            char *oldPath = path + strlen(path);
+            strcat(path, fno.name);
+            fileSize = getDirSize(path);
             strcat(buffer, CSI(31));
-            strcat(buffer, fno.name);
+            *oldPath = '\0';
         } else {
             strcat(buffer, CSI(32));
-            strcat(buffer, fno.name);
+            fileSize = fno.size;
         }
 
-        strcat(buffer, CSI(39));
-        strcat(buffer, "\t");
+        if (!printDetail){
+            strcat(buffer, fno.name);
+            strcat(buffer, CSI(39));
+            strcat(buffer, "\t");
+        }else if (printDetail == 1){
+            snprintf(buffer + strlen(buffer), maxLen - strlen(buffer), "%-20s\t\t"CSI(39)"%"PRIu32"\r\n",fno.name, fileSize);
+        }else {
+            char *unit[] = {"", "KB", "MB", "GB", "TB"};
+            int humanMode = 0;
+            float size = fileSize;
+            while(size > 1024) {
+                size /= 1024;
+                humanMode++;
+            }
+
+            if (is_integer(size)){
+                snprintf(buffer + strlen(buffer), maxLen - strlen(buffer), "%-20s\t\t"CSI(39)"%lu%s\r\n",fno.name, (uint32_t)size,unit[humanMode]);
+            }else {
+                snprintf(buffer + strlen(buffer), maxLen - strlen(buffer), "%-20s\t\t"CSI(39)"%.1f%s\r\n",fno.name, size,unit[humanMode]);
+            }
+        }
     } while (1);
 
     vfsDirClose(&dir);
