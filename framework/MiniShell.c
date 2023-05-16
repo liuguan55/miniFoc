@@ -115,7 +115,7 @@ size_t userShellMkdir(char *path) {
     return vfsMkdir(path);
 }
 
-static uint8_t isSystemRootPath(char *path, char *buffer, size_t bufferSize) {
+static uint8_t isSystemRootPath(char *path, char *buffer, size_t bufferSize, int printDetail) {
     if (path == NULL) {
         return 0;
     }
@@ -125,10 +125,15 @@ static uint8_t isSystemRootPath(char *path, char *buffer, size_t bufferSize) {
         for (int i = 0; i < fileSystemCount; ++i) {
             vfsFileSystem_t *fileSystem = vfsGetFileSystem(i);
             if (fileSystem) {
-                strcat(buffer, CSI(31));
-                strcat(buffer, fileSystem->fsLetter);
-                strcat(buffer, CSI(39));
-                strcat(buffer, "\t");
+                if (printDetail == SHELL_LS_MATCH){
+                    strcat(buffer, fileSystem->fsLetter);
+                    strcat(buffer, " ");
+                }else {
+                    strcat(buffer, CSI(31));
+                    strcat(buffer, fileSystem->fsLetter);
+                    strcat(buffer, CSI(39));
+                    strcat(buffer, "\t");
+                }
             }
         }
         return 1;
@@ -180,18 +185,20 @@ size_t userShellChdir(char *path) {
     }
 
     /*add '/' if path is filesystem fsletter */
-    if (realPath[0] == '/' && realPath[1] != 0) {
+    if (realPath[0] == '/' && realPath[1] != '\0') {
         size_t fileSystemCount = vfsGetFileSystemCount();
         for (int i = 0; i < fileSystemCount; ++i) {
             vfsFileSystem_t *fileSystem = vfsGetFileSystem(i);
-            if (fileSystem && !strncmp(fileSystem->fsLetter, &path[1], strlen(fileSystem->fsLetter)) &&
-                path[strlen(fileSystem->fsLetter) + 1] == 0) {
+            if (fileSystem && !strncmp(fileSystem->fsLetter, &realPath[1], strlen(fileSystem->fsLetter)) &&
+                    realPath[strlen(fileSystem->fsLetter) + 1] == '\0') {
                 realPath[strlen(fileSystem->fsLetter) + 1] = '/';
+                realPath[strlen(fileSystem->fsLetter) + 2] = '\0';
+                break;
             }
         }
     }
 
-    vfsRes_t res = vfsChdir(path);
+    vfsRes_t res = vfsChdir(realPath);
     return res ;
 }
 
@@ -214,6 +221,10 @@ static uint32_t getDirSize(char *path) {
     while (vfsDirRead(&dir, &fno) == VFS_RES_OK) {
         if (fno.name[0] == '\0') {
             break;
+        }
+
+        if (fno.name[0] == '.') {
+            continue;
         }
 
         if (fno.isDir) {
@@ -252,7 +263,7 @@ size_t userShellListDir(char *path, char *buffer, size_t maxLen, int printDetail
         return -1;
     }
 
-    if (isSystemRootPath(path, buffer, maxLen)) {
+    if (isSystemRootPath(path, buffer, maxLen, printDetail)) {
         return 0;
     }
 
@@ -271,24 +282,35 @@ size_t userShellListDir(char *path, char *buffer, size_t maxLen, int printDetail
             break;
         }
 
+        if (fno.name[0] == '.') {
+            continue;
+        }
+
         if (fno.isDir) {
             char *oldPath = path + strlen(path);
             strcat(path, fno.name);
             fileSize = getDirSize(path);
-            strcat(buffer, CSI(31));
+            if (printDetail != SHELL_LS_MATCH) {
+                strcat(buffer, CSI(31));
+            }
             *oldPath = '\0';
         } else {
-            strcat(buffer, CSI(32));
+            if (printDetail != SHELL_LS_MATCH) {
+                strcat(buffer, CSI(32));
+            }
             fileSize = fno.size;
         }
 
-        if (!printDetail){
+        if (printDetail == SHELL_LS_MATCH){
+            strcat(buffer, fno.name);
+            strcat(buffer, " ");
+        }else if (printDetail == SHELL_LS_PRINT){
             strcat(buffer, fno.name);
             strcat(buffer, CSI(39));
             strcat(buffer, "\t");
-        }else if (printDetail == 1){
+        }else if (printDetail == SHELL_LS_PRINT_AL){
             snprintf(buffer + strlen(buffer), maxLen - strlen(buffer), "%-20s\t\t"CSI(39)"%"PRIu32"\r\n",fno.name, fileSize);
-        }else {
+        }else if (printDetail == SHELL_LS_PRINT_HUMAN){
             char *unit[] = {"", "KB", "MB", "GB", "TB"};
             int humanMode = 0;
             float size = fileSize;

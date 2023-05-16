@@ -1284,6 +1284,61 @@ SHELL_EXPORT_KEY(SHELL_CMD_PERMISSION(0) | SHELL_CMD_ENABLE_UNCHECKED,
                  0x1B5B4400, shellLeft, left);
 
 /**
+ * @brief get token from string according to delimr
+ * @param str
+ * @param delim
+ * @param save
+ * @return
+ */
+static uint8_t shellStringToken(char *str, char *delim, char **save) {
+    char *end;
+    if (str == NULL) {
+        str = *save;
+    }
+    if (*str == '\0') {
+        *save = str;
+        return 0;
+    }
+    str += strspn(str, delim);
+    if (*str == '\0') {
+        *save = str;
+        return 0;
+    }
+    end = str + strcspn(str, delim);
+    if (*end == '\0') {
+        *save = end;
+        return 1;
+    }
+    *end = '\0';
+    *save = end + 1;
+
+    return 2;
+}
+
+static void shellFsListDir(Shell *shell){
+    ShellFs *shellFs = shellCompanionGet(shell, SHELL_COMPANION_ID_FS);
+    char *buffer = SHELL_MALLOC(SHELL_FS_LIST_FILE_BUFFER_MAX);
+    SHELL_ASSERT(buffer, return);
+    memset(buffer, 0, SHELL_FS_LIST_FILE_BUFFER_MAX);
+    shellFs->listdir(shellGetPath(shell), buffer, SHELL_FS_LIST_FILE_BUFFER_MAX, SHELL_LS_PRINT);
+    shellWriteString(shell, buffer);
+    SHELL_FREE(buffer);
+}
+
+static char *trimString(char *str) {
+    char *p = str ;
+
+    while (*p){
+        if (*p == ' ' || *p == '\t' || *p == '\r' || *p == '\n'){
+            p++;
+        } else {
+            break;
+        }
+    }
+
+    return p;
+}
+/**
  * @brief shell Tab按键处理
  * 
  * @param shell shell对象
@@ -1318,6 +1373,114 @@ void shellTab(Shell *shell) {
                 lastMatchIndex = i;
                 matchNum++;
             }
+        }
+
+
+        ShellFs *shellFs = shellCompanionGet(shell, SHELL_COMPANION_ID_FS);
+        if (shellFs){
+            char *tokens ;
+            char *delim = " ";
+            char input[SHELL_PRINT_BUFFER] = {0};
+
+            strncpy(input, shell->parser.buffer, SHELL_PRINT_BUFFER);
+            uint8_t tokenNums = shellStringToken(input, delim, &tokens);
+            if(tokenNums == 2){
+                if (strlen(tokens) == 0){
+                    char *token = trimString(input);
+                    if((strcmp(token, "cd") == 0) || (strcmp(token, "cat") == 0)){
+                        shellWriteString(shell, "\r\n");
+                        shellFsListDir(shell);
+                        shellWritePrompt(shell, 1);
+                        shellWriteString(shell, shell->parser.buffer);
+                    }else if (strcmp(token, "ls") == 0) {
+                        shellWriteString(shell, "\r\n");
+                        shellFsListDir(shell);
+                        shellWritePrompt(shell, 1);
+                        shellWriteString(shell, shell->parser.buffer);
+                    }
+                }else {
+                    char *param = tokens;
+                    char *saves = NULL;
+                    char *token = trimString(input);
+
+                    char *buffer = SHELL_MALLOC(SHELL_FS_LIST_FILE_BUFFER_MAX);
+                    SHELL_ASSERT(buffer, return);
+                    memset(buffer, 0, SHELL_FS_LIST_FILE_BUFFER_MAX);
+                    shellFs->listdir(shellGetPath(shell), buffer, SHELL_FS_LIST_FILE_BUFFER_MAX, SHELL_LS_MATCH);
+
+                    if((strcmp(token, "cd") == 0) || (strcmp(token, "cat") == 0)){
+                        if (shellStringToken(buffer, delim, &saves)) {
+                            token = buffer;
+                            uint tokenNum = 0;
+                            char *matchTokens[64];
+
+                            if (strncmp(param, token, strlen(param)) == 0) {
+                                matchTokens[tokenNum] = token;
+                                tokenNum++ ;
+                            }
+
+                            token = saves;
+                            while (shellStringToken(NULL, delim, &saves)) {
+                                if (strncmp(param, token, strlen(param)) == 0) {
+                                    matchTokens[tokenNum] = token;
+                                    tokenNum++ ;
+                                }
+
+                                token = saves;
+                            }
+
+                            if (tokenNum == 1){
+                                size_t pos = shellStringCompare(matchTokens[0], param);
+                                strcat(shell->parser.buffer, matchTokens[0] + pos);
+                                shell->parser.length = strlen(shell->parser.buffer);
+                                shell->parser.cursor = shell->parser.length;
+                                shellWriteString(shell, matchTokens[0] + pos);
+                            }else if (tokenNum > 1){
+                                shellWriteString(shell, "\r\n");
+                                for (int i = 0; i < tokenNum; ++i) {
+                                    shellWriteString(shell, matchTokens[i]);
+                                    shellWriteString(shell, "\t");
+                                }
+                                shellWritePrompt(shell, 1);
+                                shellWriteString(shell, shell->parser.buffer);
+                            }
+                        }
+                    }else if (strcmp(token, "ls") == 0){
+                        if (shellStringToken(buffer, delim, &saves)){
+                            shellWriteString(shell, "\r\n");
+
+                            token = buffer;
+                            char *match = SHELL_MALLOC(SHELL_FS_LIST_FILE_BUFFER_MAX);
+
+                            if (strncmp(param, token, strlen(param)) == 0) {
+                                snprintf(match, SHELL_PRINT_BUFFER, "%s\t", token);
+                            }
+
+                            token = saves;
+                            while (shellStringToken(NULL, delim, &saves)) {
+                                if (strncmp(param, token, strlen(param)) == 0) {
+                                    snprintf(match, SHELL_PRINT_BUFFER, "%s\t", token);
+                                }
+
+                                token = saves;
+                            }
+
+                            shellWriteString(shell, match);
+                            shellWritePrompt(shell, 1);
+                            shellWriteString(shell, shell->parser.buffer);
+
+                            SHELL_FREE(match);
+                        }
+                    }
+                    SHELL_FREE(buffer);
+                }
+            }
+        }
+
+        char lastChar = shell->parser.buffer[shell->parser.length - 1];
+
+        if(lastChar == ' ' && shellFs){
+
         }
         if (matchNum == 0) {
             return;

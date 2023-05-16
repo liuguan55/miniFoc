@@ -57,13 +57,13 @@ SHELL_EXPORT_CMD(
 void shellLS(char *args) {
     char *buffer;
 
-    int printType = 0;
+    EShellLsMode printType = SHELL_LS_PRINT;
     if (!strcmp(args, "-al")){
-        printType = 1;
+        printType = SHELL_LS_PRINT_AL;
     }
 
     if (!strcmp(args, "-alh")){
-        printType = 2;
+        printType = SHELL_LS_PRINT_HUMAN;
     }
 
     Shell *shell = shellGetCurrent();

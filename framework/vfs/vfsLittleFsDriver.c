@@ -373,6 +373,7 @@ vfsRes_t ltfsDirRead(void *dir, vfsFileInfo_t *info) {
 
     info->size = lfsInfo.size;
     info->type = lfsInfo.type;
+    info->isDir = lfsInfo.type == LFS_TYPE_DIR;
     strncpy(info->name, lfsInfo.name, sizeof(info->name) - 1);
 
     return VFS_RES_OK;

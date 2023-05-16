@@ -438,6 +438,14 @@ typedef struct
     int (*set)();                                               /**< 变量set方法 */
 } ShellNodeVarAttr;
 
+enum {
+    SHELL_LS_MATCH = 0,
+    SHELL_LS_PRINT,
+    SHELL_LS_PRINT_AL,
+    SHELL_LS_PRINT_HUMAN,
+};
+
+typedef unsigned char EShellLsMode;
 
 #define shellSetPath(_shell, _path)     (_shell)->info.path = _path
 #define shellGetPath(_shell)            ((_shell)->info.path)
