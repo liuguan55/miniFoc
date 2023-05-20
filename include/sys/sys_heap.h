@@ -3,8 +3,8 @@
 
 #include <stdio.h>
 #include <stdint.h>
-#include "FreeRTOS.h"
-#include "task.h"
+#include "kernel/FreeRTOS/FreeRTOS.h"
+#include "kernel/FreeRTOS/task.h"
 #include "sys/interrupt.h"
 
 

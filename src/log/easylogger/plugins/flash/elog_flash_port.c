@@ -1,0 +1,87 @@
+/*
+ * @Author: liuguan
+ * @Date: 2022-06-13 21:58:17
+ * @LastEditors: liuguan
+ * @LastEditTime: 2022-07-03 16:34:05
+ * @FilePath: /esp8266-rtos/src/easylogger/plugins/flash/elog_flash_port.c
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by liuguan, All Rights Reserved. 
+ */
+/*
+ * This file is part of the EasyLogger Library.
+ *
+ * Copyright (c) 2015, Armink, <armink.ztl@gmail.com>
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files (the
+ * 'Software'), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ * CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ *
+ * Function: Portable interface for EasyLogger's flash log pulgin.
+ * Created on: 2015-07-28
+ */
+#include "log/easylogger/elog.h"
+#include "common/framework/MiniCommon.h"
+#include "log/easylogger/elog_flash.h"
+
+static osMutexId_t flashPortMutex = NULL;
+/**
+ * EasyLogger flash log pulgin port initialize
+ *
+ * @return result
+ */
+ElogErrCode elog_flash_port_init(void) {
+  ElogErrCode result = ELOG_NO_ERR;
+
+  /* add your code here */
+  flashPortMutex = osMutexNew(NULL);
+
+  return result;
+}
+
+/**
+ * driver flash saved log port interface
+ *
+ * @param log flash saved log
+ * @param size log size
+ */
+void elog_flash_port_output(const char *log, size_t size) {
+
+  /* add your code here */
+  MiniUart_writeData(MINI_CONSOLE_USART_IDX, (char *)log, size);
+
+  usb_write_data(log, size);
+}
+
+/**
+ * flash log lock
+ */
+void elog_flash_port_lock(void) {
+
+  /* add your code here */
+  osMutexAcquire(flashPortMutex, portMAX_DELAY);
+}
+
+/**
+ * flash log unlock
+ */
+void elog_flash_port_unlock(void) {
+
+  /* add your code here */
+  osMutexRelease(flashPortMutex);
+}

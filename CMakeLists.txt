@@ -41,19 +41,62 @@ set(CMAKE_CXX_STANDARD 11 )
 
 #add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -D__FPU_PRESENT=1)
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx)
-add_definitions(-D__CONFIG_MALLOC_TRACE -DHEAP_BACKTRACE)
+add_definitions(-D__CONFIG_MALLOC_MODE=0 -D__CONFIG_MALLOC_TRACE -DHEAP_BACKTRACE)
 
-file(GLOB_RECURSE SOURCES "Core/*.*" "FATFS/*.*" "Middlewares/*.*" "Drivers/*.*" "USB_DEVICE/*.*"
-        "libs/*.*"
-        "GUI/*.*"
-        "Device/*.*"
-        "framework/*.*"
-        "src/*.*"
-        "modules/*.*"
-        "project/*.*"
+file(GLOB_RECURSE SOURCES  "src/driver/*.*"
+        "src/kernel/*.*"
+        "src/libc/*.*"
+        "src/fs/*.*"
+        "src/sys/*.*"
+        "src/gui/*.*"
+        "src/test/unity/*.*"
+        "src/util/cjson/*.*"
+        "src/log/*.*"
+        "src/debug/*.*"
+        "src/core/*.*"
+        "src/console/*.*"
+        "project/common/apps/*.*"
+        "project/common/startup/*.*"
+        "project/common/framework/*.*"
+        "project/common/test/*.*"
         )
 
-include_directories(include/ project/ modules/ libc/ framework/ Device/ libs/sfud/inc libs/ libs/cm_backtrace libs/easyflash libs/easyflash/inc libs/easylogger libs/easylogger/inc GUI/ Core Core/Inc FATFS/Target FATFS/App USB_DEVICE/App USB_DEVICE/Target Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Middlewares/Third_Party/FreeRTOS/Source/include Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F Middlewares/Third_Party/FatFs/src Middlewares/ST/STM32_USB_Device_Library/Core/Inc Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include)
+include_directories(include
+        include/fs/FatFs/Target
+        include/fs/FatFs/App
+        include/drivers
+        include/driver/chip/CMSIS
+        include/driver/chip/CMSIS/Device/ST/STM32F4xx
+        include/driver/chip/STM32_USB_Device_Library/Core
+        include/driver/chip/STM32_USB_Device_Library/Class/CDC
+        include/driver/chip/STM32_USB_Device_Library/Class/MSC
+        include/driver/component/usb/USB_DEVICE/App
+        include/driver/component/usb/USB_DEVICE/Target
+        include/driver/chip/STM32F4xx_HAL_Driver
+        include/driver/chip/STM32F4xx_HAL_Driver/Legacy
+        include/kernel
+        include/kernel/FreeRTOS/
+        include/kernel/FreeRTOS/CMSIS_RTOS_V2
+        include/kernel/FreeRTOS/portable/GCC/ARM_CM4F
+        include/driver/component/flash
+        include/driver/component/sfud
+        project/
+        project/common
+        project/common/apps/modules
+        src/gui/
+        )
+
+#file(GLOB_RECURSE SOURCES "Core/*.*" "FATFS/*.*" "Middlewares/*.*" "Drivers/*.*" "USB_DEVICE/*.*"
+#        "libs/*.*"
+#        "GUI/*.*"
+#        "Device/*.*"
+#        "framework/*.*"
+#        "src/*.*"
+#        "modules/*.*"
+#        "project/*.*"
+#        )
+#
+#include_directories(include/ project/ modules/ libc/ framework/ Device/ libs/sfud/inc libs/ src/debug/cm_backtrace libs/easyflash libs/easyflash/inc libs/easylogger libs/easylogger/inc GUI/ Core Core/Inc FATFS/Target FATFS/App USB_DEVICE/App USB_DEVICE/Target Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Middlewares/Third_Party/FreeRTOS/Source/include Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F Middlewares/Third_Party/FatFs/src Middlewares/ST/STM32_USB_Device_Library/Core/Inc Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include)
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
 

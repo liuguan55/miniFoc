@@ -29,7 +29,7 @@
 #ifndef MINIFOC_F4_MINIASSERT_H
 #define MINIFOC_F4_MINIASSERT_H
 #include <stdlib.h>
-#include "elog.h"
+#include "log/easylogger/elog.h"
 
 #define MINI_ASSERT_HANDLER while(1);
 
