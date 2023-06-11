@@ -32,20 +32,21 @@
 #include <sys/time.h>
 #include "common/framework/MiniCommon.h"
 #include "log/easylogger/elog_flash.h"
+#include "driver/hal/hal_os.h"
 
-static osMutexId_t logMutex = NULL;
+static HAL_Mutex logMutex = NULL;
 /**
  * EasyLogger port initialize
  *
  * @return result
  */
 ElogErrCode elog_port_init(void) {
-  ElogErrCode result = ELOG_NO_ERR;
+    ElogErrCode result = ELOG_NO_ERR;
 
-  /* add your code here */
-  logMutex = osMutexNew(NULL);
+    /* add your code here */
+    HAL_MutexInit(&logMutex);
 
-  return result;
+    return result;
 }
 
 /**
@@ -53,9 +54,8 @@ ElogErrCode elog_port_init(void) {
  *
  */
 void elog_port_deinit(void) {
-
-  /* add your code here */
-  osMutexDelete(logMutex);
+    /* add your code here */
+    HAL_MutexDeinit(&logMutex);
 }
 
 /**
@@ -65,19 +65,15 @@ void elog_port_deinit(void) {
  * @param size log size
  */
 void elog_port_output(const char *log, size_t size) {
-
-  /* add your code here */
-//  MiniUart_writeData(MINI_CONSOLE_USART_IDX, log, size);
-//  logWrite(LOG_ALL_OBJ, LOG_DEBUG, log);
-  logWriteBuffer(LOG_ALL_OBJ, LOG_DEBUG, (char *)log, size);
+    /* add your code here */
+    logWriteBuffer(LOG_ALL_OBJ, LOG_DEBUG, (char *) log, size);
 //  MiniFatfs_writeLog("mini.log", log, size);
 }
 
-void elog_port_output2(int level, const char *log, size_t size)
-{
-  /* add your code here */
-//  MiniUart_writeData(MINI_CONSOLE_USART_IDX, log, size);
-  logWrite(LOG_ALL_OBJ, level, log);
+void elog_port_output2(int level, const char *log, size_t size) {
+    UNUSED(size);
+    /* add your code here */
+    logWrite(LOG_ALL_OBJ, level, log);
 //  MiniFatfs_writeLog("mini.log", log, size);
 }
 
@@ -85,18 +81,16 @@ void elog_port_output2(int level, const char *log, size_t size)
  * driver lock
  */
 void elog_port_output_lock(void) {
-
-  /* add your code here */
-  osMutexAcquire(logMutex, portMAX_DELAY);
+    /* add your code here */
+    HAL_MutexLock(&logMutex, HAL_OS_WAIT_FOREVER);
 }
 
 /**
  * driver unlock
  */
 void elog_port_output_unlock(void) {
-
-  /* add your code here */
-  osMutexRelease(logMutex);
+    /* add your code here */
+    HAL_MutexUnlock(&logMutex);
 }
 
 /**
@@ -106,18 +100,19 @@ void elog_port_output_unlock(void) {
  */
 const char *elog_port_get_time(void) {
 
-  /* add your code here */
-  struct timeval tv;
-  struct tm *t;
-  static char buf[32];
+    /* add your code here */
+    struct timeval tv;
+    struct tm *t;
+    static char buf[32];
 
-  gettimeofday(&tv, NULL);
-  t = localtime(&tv.tv_sec);
-  memset(buf, 0, sizeof(buf));
-  snprintf(buf, sizeof(buf), "%d-%d-%d %d:%d:%d.%ld", 1900+t->tm_year, 1+t->tm_mon, t->tm_mday, t->tm_hour, t->tm_min, t->tm_sec, tv.tv_usec/1000);
+    gettimeofday(&tv, NULL);
+    t = localtime(&tv.tv_sec);
+    memset(buf, 0, sizeof(buf));
+    snprintf(buf, sizeof(buf), "%d-%d-%d %d:%d:%d.%ld", 1900 + t->tm_year, 1 + t->tm_mon, t->tm_mday, t->tm_hour,
+             t->tm_min, t->tm_sec, tv.tv_usec / 1000);
 
 
-  return buf;
+    return buf;
 }
 
 /**
@@ -127,17 +122,17 @@ const char *elog_port_get_time(void) {
  */
 const char *elog_port_get_p_info(void) {
 
-  /* add your code here */
-  static char info[configMAX_TASK_NAME_LEN] = {0};
-  memset(info, 0, sizeof(info));
+    /* add your code here */
+    static char info[configMAX_TASK_NAME_LEN] = {0};
+    memset(info, 0, sizeof(info));
 
-  osThreadId_t id = osThreadGetId();
-  const char *thName = osThreadGetName(id);
-  if (thName) {
-	memcpy(info, thName, configMAX_TASK_NAME_LEN);
-  }
+    osThreadId_t id = osThreadGetId();
+    const char *thName = osThreadGetName(id);
+    if (thName) {
+        memcpy(info, thName, configMAX_TASK_NAME_LEN);
+    }
 
-  return info;
+    return info;
 }
 
 /**
@@ -147,6 +142,6 @@ const char *elog_port_get_p_info(void) {
  */
 const char *elog_port_get_t_info(void) {
 
-  /* add your code here */
-  return "";
+    /* add your code here */
+    return "";
 }

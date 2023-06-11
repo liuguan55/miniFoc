@@ -5,6 +5,7 @@
 
 #include "Sensor.h"
 #include "common/framework/MiniCommon.h"
+#include "driver/hal/hal_spi.h"
 
 #undef LOG_TAG
 #define LOG_TAG "MA730"
@@ -24,19 +25,17 @@ typedef struct {
 
 static MA730Context_t MA730Ctx = {0};
 
-
-#define SPI2_CS1_L  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_5,GPIO_PIN_RESET)      //CS1_L
-#define SPI2_CS1_H  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_5,GPIO_PIN_SET)        //CS1_H
-#define SPI2_TX_OFF {GPIOC->CRH&=0x0FFFFFFF;GPIOC->CRH|=0x40000000;}  //把PB15(MOSI)配置为浮空模式
-#define SPI2_TX_ON  {GPIOC->CRH&=0x0FFFFFFF;GPIOC->CRH|=0xB0000000;}  //把PB15(MOSI)配置为复用推挽输出(50MHz)
-
 static unsigned short readRawData(SensorInterface_t *interface) {
     unsigned short u16Data;
 
     uint16_t sendData = MA730_Angle;
-    SPI2_CS1_L;
-    HAL_SPI_TransmitReceive(interface->handle, (uint8_t *) &sendData, (uint8_t *) &u16Data, 2, interface->timeout);
-    SPI2_CS1_H;
+
+    HAL_spiOpen(interface->handle, HAL_SPI_TCTRL_SS_SEL_SS2, 1000);
+    HAL_spiCsEnable(interface->handle);
+    HAL_spiTransmitReceive(interface->handle, (uint8_t *) &sendData, (uint8_t *) &u16Data, 2, interface->timeout);
+    HAL_spiCsDisable(interface->handle);
+
+    HAL_spiClose(interface->handle);
 
     return u16Data;
 }
@@ -49,6 +48,13 @@ static void MA730_init(struct FocSensor *sensor) {
         return;
     }
 
+    SpiConfig_t spiConfig = {
+            .word_size = HAL_SPI_8BIT,
+            .mode = HAL_SPI_MODE_0,
+            .bit_order = HAL_SPI_MSB_FIRST,
+            .speed = 1000000,
+    };
+    HAL_spiInit(HAL_SPI_2, &spiConfig);
     ctx->cpr = MA730_CPR;
     ctx->raw_data_prev = readRawData(sensor->interface);
     ctx->angle_prev = sensor->getAngle(sensor);
@@ -67,7 +73,7 @@ static float MA730_getAngle(struct FocSensor *senosr) {
     // in order to expand angle range form [0,2PI] to basically infinity
     ctx->d_angle = ctx->angle_data - ctx->raw_data_prev;
     // if overflow happened track it as full rotation
-    if (fabs(ctx->d_angle) > (0.8 * ctx->cpr)) {
+    if (abs(ctx->d_angle) > (0.8 * ctx->cpr)) {
 //	log_d("d_angle %d full_rotation_offset %4.2f angle_data %d",d_angle,full_rotation_offset,angle_data);
         ctx->full_rotation_offset += (ctx->d_angle > 0) ? -_2PI : _2PI;
     }
@@ -128,7 +134,7 @@ static int needSearch(struct FocSensor *sensor) {
 
 static SensorInterface_t sensorDriver = {
         .interfaceName = "spi",
-        .handle = &hspi2,
+        .handle = HAL_SPI_2,
         .address = 0,
         .timeout = 100,
         .retry = 1,

@@ -108,8 +108,6 @@ uint8_t UserTxBufferFS[APP_TX_DATA_SIZE];
   * @{
   */
 
-extern USBD_HandleTypeDef hUsbDeviceFS;
-
 /* USER CODE BEGIN EXPORTED_VARIABLES */
 
 /* USER CODE END EXPORTED_VARIABLES */
@@ -269,14 +267,16 @@ static int8_t CDC_Control_FS(uint8_t cmd, uint8_t* pbuf, uint16_t length)
   * @param  Len: Number of data received (in bytes)
   * @retval Result of the operation: USBD_OK if all operations are OK else USBD_FAIL
   */
+extern void HAL_recvCallback(uint8_t *buf, uint32_t len);
 static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
 {
   /* USER CODE BEGIN 6 */
   USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
   USBD_CDC_ReceivePacket(&hUsbDeviceFS);
 
-  lwrb_t *rb = Mini_getlwrbHandle(1);
-  lwrb_write(rb, Buf, *Len);
+//  lwrb_t *rb = Mini_getlwrbHandle(1);
+//  lwrb_write(rb, Buf, *Len);
+    HAL_recvCallback(Buf, *Len);
 
   return (USBD_OK);
   /* USER CODE END 6 */

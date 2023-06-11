@@ -4,6 +4,7 @@
 
 #include "Sensor.h"
 #include "common/framework/MiniCommon.h"
+#include "driver/hal/hal_spi.h"
 
 #undef  LOG_TAG
 #define LOG_TAG "TLE5012B"
@@ -30,26 +31,26 @@ static TLE5012BContext_t TLE5012BCtx = {0};
 #define SPI2_TX_ON  //{GPIOC->CRH&=0x0FFFFFFF;GPIOC->CRH|=0xB0000000;}  //把PB15(MOSI)配置为复用推挽输出(50MHz)
 
 static unsigned short readRawData(SensorInterface_t *interface) {
-    unsigned short u16Data;
-
-    uint16_t sendData = TLE5012B_Angle;
-
-    SPI2_CS1_L;
-    HAL_SPI_TransmitReceive(interface->handle, (uint8_t *) &sendData, (uint8_t *) &u16Data, 2, interface->timeout);
-    SPI2_TX_OFF;
-    __NOP();
-    __NOP();
-    __NOP();
-    __NOP();
-    __NOP();
-    __NOP();
-    __NOP();
-    __NOP();  //Twr_delay=130ns min
-    sendData = 0xffff;
-    HAL_SPI_TransmitReceive(interface->handle, (uint8_t *) &sendData, (uint8_t *) &u16Data, 2, interface->timeout);
-
-    SPI2_CS1_H;
-    SPI2_TX_ON;
+    unsigned short u16Data = 0;
+//
+//    uint16_t sendData = TLE5012B_Angle;
+//
+//    SPI2_CS1_L;
+//    HAL_SPI_TransmitReceive(interface->handle, (uint8_t *) &sendData, (uint8_t *) &u16Data, 2, interface->timeout);
+//    SPI2_TX_OFF;
+//    __NOP();
+//    __NOP();
+//    __NOP();
+//    __NOP();
+//    __NOP();
+//    __NOP();
+//    __NOP();
+//    __NOP();  //Twr_delay=130ns min
+//    sendData = 0xffff;
+//    HAL_SPI_TransmitReceive(interface->handle, (uint8_t *) &sendData, (uint8_t *) &u16Data, 2, interface->timeout);
+//
+//    SPI2_CS1_H;
+//    SPI2_TX_ON;
 
     return (u16Data);
 }
@@ -141,7 +142,7 @@ static int needSearch(struct FocSensor *sensor) {
 
 static SensorInterface_t sensorDriver = {
         .interfaceName = "spi",
-        .handle = &hspi2,
+        .handle = HAL_SPI_2,
         .address = 0,
         .timeout = 100,
         .retry = 1,

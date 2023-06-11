@@ -48,5 +48,6 @@ unsigned short analogRead(unsigned char ch, uint32_t SamplingTime, int timeout);
 }
 #endif
 
+
 #endif /* __ADC_H__ */
 

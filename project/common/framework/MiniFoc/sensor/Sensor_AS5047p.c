@@ -3,8 +3,8 @@
 //
 
 #include "Sensor.h"
-
 #include "common/framework/MiniCommon.h"
+#include "driver/hal/hal_spi.h"
 
 #undef LOG_TAG
 #define LOG_TAG "AS5047p"
@@ -34,18 +34,18 @@ void delay_s(int i)
 static unsigned short readRawData(SensorInterface_t *interface)
 {
   unsigned short  u16Data;
-
-  uint16_t sendData = AS5047P_Angle;
-  SPI2_CS1_L;
-  HAL_SPI_TransmitReceive(interface->handle, (uint8_t *)&sendData,  (uint8_t *)&u16Data, 2, interface->timeout);
-  SPI2_CS1_H;
-  delay_s(20);  //1us
-
-  SPI2_CS1_L;
-  sendData = 0;
-  HAL_SPI_TransmitReceive(interface->handle, (uint8_t *)&sendData,  (uint8_t *)&u16Data, 2, interface->timeout);
-  SPI2_CS1_H;
-  delay_s(20);  //1us
+//
+//  uint16_t sendData = AS5047P_Angle;
+//  SPI2_CS1_L;
+//  HAL_SPI_TransmitReceive(interface->handle, (uint8_t *)&sendData,  (uint8_t *)&u16Data, 2, interface->timeout);
+//  SPI2_CS1_H;
+//  delay_s(20);  //1us
+//
+//  SPI2_CS1_L;
+//  sendData = 0;
+//  HAL_SPI_TransmitReceive(interface->handle, (uint8_t *)&sendData,  (uint8_t *)&u16Data, 2, interface->timeout);
+//  SPI2_CS1_H;
+//  delay_s(20);  //1us
 
   return u16Data;
 }
@@ -78,7 +78,7 @@ static float AS5047p_getAngle(struct FocSensor *senosr)
   // in order to expand angle range form [0,2PI] to basically infinity
   ctx->d_angle = ctx->angle_data - ctx->raw_data_prev;
   // if overflow happened track it as full rotation
-  if (fabs(ctx->d_angle) > (0.8 * ctx->cpr)){
+  if (abs(ctx->d_angle) > (0.8 * ctx->cpr)){
 //	log_d("d_angle %d full_rotation_offset %4.2f angle_data %d",d_angle,full_rotation_offset,angle_data);
 	ctx->full_rotation_offset += (ctx->d_angle > 0) ? -_2PI : _2PI;
   }
@@ -140,7 +140,7 @@ static int AS5047p_needSearch(struct FocSensor *sensor)
 
 static SensorInterface_t sensorDriver = {
 	.interfaceName = "spi",
-	.handle = &hspi2,
+	.handle =  HAL_SPI_2,
 	.address = 0,
 	.timeout = 100,
 	.retry = 1,

@@ -3,43 +3,19 @@
 //
 #include <stdio.h>
 #include "MiniCommon.h"
+#include "platform_init.h"
+#include "console/miniConsole.h"
+#include "driver/hal/hal_wdg.h"
+#include "driver/hal/hal_rnd.h"
+#include "driver/hal/hal_pwm.h"
+#include "driver/hal/hal_usb.h"
+#include "driver/hal/hal_spi.h"
+#include "driver/hal/hal_crc.h"
+#include "driver/hal/hal_sdio.h"
 
 
 #define PLATFORM_SHOW_DEBUG_INFO     1//0   /* for internal debug only */
 
-
-static void test_env(void) {
-    uint32_t i_boot_times = 0;
-    char *c_old_boot_times, c_new_boot_times[11] = {0};
-
-    /* get the boot count number from Env */
-    c_old_boot_times = ef_get_env("boot_times");
-    assert_param(c_old_boot_times);
-    i_boot_times = atol(c_old_boot_times);
-    /* boot count +1 */
-    i_boot_times++;
-    printf("The system now boot %lu times\n\r", i_boot_times);
-    /* interger to string */
-    sprintf(c_new_boot_times, "%ld", i_boot_times);
-    /* set and store the boot count number to Env */
-    ef_set_env("boot_times", c_new_boot_times);
-    ef_save_env();
-}
-
-void RunTimeStatsTask(void) {
-    __ccmram static char InfoBuffer[1024] = {0};
-
-    memset(InfoBuffer, 0, sizeof(InfoBuffer));
-    /*打印任务信息*/
-    vTaskList(InfoBuffer);
-    printf("%s", InfoBuffer);
-}
-
-SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC) | SHELL_CMD_DISABLE_RETURN,
-                 top, RunTimeStatsTask, run
-                         times
-                         stats
-                         task);
 
 static void platform_show_info(void) {
 #if PLATFORM_SHOW_DEBUG_INFO
@@ -78,7 +54,7 @@ static void platform_show_info(void) {
     printf("__stack        %p\n", __stack);
     printf("_estack        %p\n", _estack);
 
-    printf("sram heap space [%p, %p), total size %u Bytes\n",
+    printf("sram_heap heap space [%p, %p), total size %u Bytes\n",
            __heap_start__, __heap_end__,
            __heap_end__ - __heap_start__);
 
@@ -92,20 +68,34 @@ static void platform_show_info(void) {
 #endif /* PLATFORM_SHOW_INFO */
 }
 
-static void platform_level1_init(void) {
-    cm_backtrace_init(FIRMWARE_NAME, HARDWARE_VERSION, SOFTWARE_VERSION);
+#if PRJCONF_WATCHDOG_EN
 
-    extern int debug_init(void);
-    debug_init();
+void platform_wdgStart(void) {
+    wdgConfig_t wdgConfig;
+    wdgConfig.timeout = PRjCONF_WATCHDOG_TIMEOUT;
+    hal_wdgInit(&wdgConfig);
+}
 
-    vfsSystemInit();
-    MiniShell_Init();
-    MiniShell_Run();
+#endif
+
+#if PRJCONF_SPIFLASH_EN
+void platform_flashInit(void) {
+    board_spiFlash_init(BOARD_FLASH_SPI_ID);
+    if (sfud_init() != SFUD_SUCCESS) {
+        printf("SFUD init failed!\n");
+        return;
+    }
+    printf("SFUD init success!\n");
 
     easyflash_init();
-    test_env();
-//  /* initialize EasyLogger */
+    /* initialize EasyLogger */
     elog_flash_init();
+}
+#endif
+
+#if PRJCONF_LOG_EN
+
+void platform_logInit(void) {
     elog_init();
 //  /* set EasyLogger log format */
     elog_set_fmt(ELOG_LVL_ASSERT, ELOG_FMT_ALL);
@@ -116,14 +106,110 @@ static void platform_level1_init(void) {
     elog_set_fmt(ELOG_LVL_VERBOSE, ELOG_FMT_LVL | ELOG_FMT_TAG | ELOG_FMT_TIME | ELOG_FMT_P_INFO);
     elog_set_text_color_enabled(true);
     elog_start();
+}
 
+#endif
+
+#if PRJCONF_BTN_EN
+
+void platform_btnInit(void) {
     MiniButton_init();
     MiniButton_run();
+}
 
-//    MiniMotor_init();
+#endif
+
+void platform_rngInit(void) {
+    hal_rndInit();
+    hal_crcInit();
+}
+
+#if PRJCONF_MOTOR_EN
+void platform_motorInit(void){
+    HAL_PWM_CFG cfg = {
+            .period = 1000,
+            .mode = HAL_PWM_COUNTER_MODE_CENTER,
+            .duty = 0
+    };
+    HAL_pwmInit(HAL_PWM_ID_1, &cfg);
+    HAL_pwmInit(HAL_PWM_ID_2, &cfg);
+
+    MiniMotor_init();
+}
+#endif
+
+#if PRJCONF_USB_EN
+void platform_usbInit(void) {
+    HAL_usbInit(HAL_USB_FS);
+}
+
+#endif
+
+#if PRJCONF_SDCARD_EN
+
+void platform_sdcardInit(void) {
+//    hal_sdcInit(HAL_SDC_1);
+    extern void MX_SDIO_SD_Init(void);
+    MX_SDIO_SD_Init();
+}
+
+#endif
+
+static void platform_level1_init(void) {
+    cm_backtrace_init(FIRMWARE_NAME, HARDWARE_VERSION, SOFTWARE_VERSION);
+
+    extern int debug_init(void);
+    debug_init();
+
+    platform_rngInit();
+
+#if PRJCONF_WATCHDOG_EN
+    platform_wdgStart();
+#endif
+
+#if PRJCONF_CONSOLE_EN
+    MiniConsoleConfig_t cparam;
+    cparam.uartId = BOARD_MAIN_UART_ID;
+    cparam.stackSize = PRJCONF_CONSOLE_STACK_SIZE;
+    miniConsoleInit(&cparam);
+#endif
+}
+
+static void platform_level2_init(void) {
+#if PRJCONF_SPIFLASH_EN
+    platform_flashInit();
+#endif
+
+#if PRJCONF_LOG_EN
+    platform_logInit();
+#endif
+
+#if PRJCONF_USB_EN
+    platform_usbInit();
+#endif
+
+#if PRJCONF_SDCARD_EN
+    platform_sdcardInit();
+#endif
+}
+
+void platform_level3_init(void) {
+#if PRJCONF_VFS_FILE_SYSTEM_EN
+    vfsSystemInit();
+#endif
+//
+//#if PRJCONF_BTN_EN
+//    platform_btnInit();
+//#endif
+//
+//#if PRJCONF_MOTOR_EN
+//    platform_motorInit();
+//#endif
 }
 
 void platform_init(void) {
-    platform_show_info();
     platform_level1_init();
+    platform_level2_init();
+    platform_level3_init();
+    platform_show_info();
 }

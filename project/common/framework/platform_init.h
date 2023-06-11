@@ -7,12 +7,15 @@
 
 #include "version.h"
 #include "compiler.h"
+#include "apps/BldcController/pri_conf_app.h"
+#include "common/board/miniFoc_v2/BoardConfig.h"
+#include "common/board/Board.h"
 
 #ifdef __cplusplus
 extern "C"{
 #endif
 
-  void platform_init(void);
+void platform_init(void);
 
 #ifdef __cplusplus
 }

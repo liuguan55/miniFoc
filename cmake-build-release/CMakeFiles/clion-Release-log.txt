@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - MinGW Makefiles" -S D:\work -B D:\work\cmake-build-release
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/work/cmake-build-release

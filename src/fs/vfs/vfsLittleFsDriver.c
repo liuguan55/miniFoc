@@ -31,7 +31,7 @@
 #include "fs/vfs/vfsLittleFsDriver.h"
 #include "fs/vfs/vfs.h"
 #include "fs/littlefs/lfs.h"
-#include "MiniAssert.h"
+#include "sys/MiniDebug.h"
 #include "kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.h"
 #include "fs/vfs/littlefsManager.h"
 

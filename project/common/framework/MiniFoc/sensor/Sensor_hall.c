@@ -154,7 +154,7 @@ static int needSearch(struct FocSensor *sensor) {
 
 static SensorInterface_t sensorDriver = {
         .interfaceName = "gpio",
-        .handle = &hallGpio,
+        .handle = (uint32_t)&hallGpio,
         .address = 0,
         .timeout = 100,
         .retry = 1,

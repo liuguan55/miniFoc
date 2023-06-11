@@ -5,7 +5,7 @@
 
 typedef struct {
   char *interfaceName;
-  void *handle ;
+  uint32_t handle ;
   uint32_t address ;
   uint32_t timeout;
   uint32_t retry;

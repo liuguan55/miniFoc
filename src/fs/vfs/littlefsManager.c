@@ -118,10 +118,6 @@ void lfs_config_init(lfsManager_t *manager, int lfs_partition_index){
 }
 
 void lfsManager_init() {
-    if (sfud_init() != SFUD_SUCCESS){
-        printf("SFUD init failed!\n");
-        return ;
-    }
     memset(&lfsManager, 0, sizeof(lfsManager_t));
 
     sfud_flash *flashHandle = sfud_get_device(SFUD_W25Q16X_DEVICE_INDEX);

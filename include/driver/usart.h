@@ -20,7 +20,7 @@
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef __USART_H__
 #define __USART_H__
-
+#if 0
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -51,6 +51,6 @@ void HAL_UART_Enable_Rx_IT(UART_HandleTypeDef *huart);
 #ifdef __cplusplus
 }
 #endif
-
+#endif
 #endif /* __USART_H__ */
 

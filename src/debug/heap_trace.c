@@ -116,7 +116,7 @@ void sram_heap_trace_info_show(int verbose)
     int i;
 
     malloc_mutex_lock();
-    HEAP_SYSLOG("<<< sram heap info >>>\n"
+    HEAP_SYSLOG("<<< sram_heap heap info >>>\n"
                 "g_sram_sum        %u (%u KB)\n"
                 "g_sram_sum_max    %u (%u KB)\n"
                 "g_sram_entry_cnt  %u, max %u\n",

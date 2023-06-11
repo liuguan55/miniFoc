@@ -28,6 +28,7 @@
 
 #include "driver/component/flash/sfud/sfud.h"
 #include <string.h>
+#include "driver/hal/hal_os.h"
 
 /* send dummy data for read data */
 #define DUMMY_DATA                               0xFF
@@ -897,7 +898,6 @@ static sfud_err set_write_enabled(const sfud_flash *flash, bool enabled) {
     }
 
     result = flash->spi.wr(&flash->spi, &cmd, 1, NULL, 0);
-
     if (result == SFUD_SUCCESS) {
         result = sfud_read_status(flash, &register_status);
     }

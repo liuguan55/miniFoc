@@ -25,6 +25,7 @@
 /* USER CODE BEGIN Header */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
+#if 0
 #include "driver/usart.h"
 
 /* USER CODE BEGIN 0 */
@@ -186,4 +187,6 @@ signed short MiniUart_writeData(int uartCh, char *data, unsigned short dataSize)
 
     return dataSize;
 }
+
+#endif
 /* USER CODE END 1 */

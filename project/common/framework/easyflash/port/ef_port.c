@@ -35,17 +35,19 @@
 #include <stdio.h>
 #include <string.h>
 #include "common/framework/MiniCommon.h"
+#include "driver/hal/hal_os.h"
+#include "driver/hal/hal_spi.h"
 
 /* base address of the flash sectors */
-static char logBuff[MINI_CONSOLEBUF_SIZE] = {0};
-static osMutexId_t flashMutex = NULL;
-static const osMutexAttr_t flashMutexAtr = {
-	.name = "flash mutex"
-};
+#ifdef PRINT_DEBUG
+static char logBuff[256] = {0};
+#endif
+
+static HAL_Mutex flashMutex;
 /* default environment variables set for user */
 static const ef_env default_env_set[] = {
-	{"device_id","1", 1},
-	{"boot_times", "1", 1}
+        {"device_id",  "1", 1},
+        {"boot_times", "1", 1}
 };
 
 /**
@@ -57,14 +59,14 @@ static const ef_env default_env_set[] = {
  * @return result
  */
 EfErrCode ef_port_init(ef_env const **default_env, size_t *default_env_size) {
-  EfErrCode result = EF_NO_ERR;
+    EfErrCode result = EF_NO_ERR;
 
-  *default_env = default_env_set;
-  *default_env_size = sizeof(default_env_set) / sizeof(default_env_set[0]);
+    *default_env = default_env_set;
+    *default_env_size = sizeof(default_env_set) / sizeof(default_env_set[0]);
 
-  flashMutex = osMutexNew(&flashMutexAtr);
+    HAL_MutexInit(&flashMutex);
 
-  return result;
+    return result;
 }
 
 /**
@@ -78,15 +80,15 @@ EfErrCode ef_port_init(ef_env const **default_env, size_t *default_env_size) {
  * @return result
  */
 EfErrCode ef_port_read(uint32_t addr, uint32_t *buf, size_t size) {
-  EfErrCode result = EF_NO_ERR;
+    EfErrCode result = EF_NO_ERR;
 
-  //获取SFUD Flash设备对象
-  const sfud_flash *flash = sfud_get_device_table() + SFUD_W25Q16X_DEVICE_INDEX;
+    //获取SFUD Flash设备对象
+    const sfud_flash *flash = sfud_get_device_table() + SFUD_W25Q16X_DEVICE_INDEX;
 
-  //使用SFUD开源库提供的API实现Flash读取
-  sfud_read(flash, addr, size, (uint8_t *)buf);
+    //使用SFUD开源库提供的API实现Flash读取
+    sfud_read(flash, addr, size, (uint8_t *) buf);
 
-  return result;
+    return result;
 }
 
 /**
@@ -100,25 +102,26 @@ EfErrCode ef_port_read(uint32_t addr, uint32_t *buf, size_t size) {
  * @return result
  */
 EfErrCode ef_port_erase(uint32_t addr, size_t size) {
-  EfErrCode result = EF_NO_ERR;
+    EfErrCode result = EF_NO_ERR;
 
-  sfud_err sfud_result = SFUD_SUCCESS;
+    sfud_err sfud_result = SFUD_SUCCESS;
 
-  //获取SFUD Flash设备对象
-  const sfud_flash *flash = sfud_get_device_table() + SFUD_W25Q16X_DEVICE_INDEX;
+    //获取SFUD Flash设备对象
+    const sfud_flash *flash = sfud_get_device_table() + SFUD_W25Q16X_DEVICE_INDEX;
 
-  /* make sure the start address is a multiple of FLASH_ERASE_MIN_SIZE */
-  EF_ASSERT(addr % EF_ERASE_MIN_SIZE == 0);
+    /* make sure the start address is a multiple of FLASH_ERASE_MIN_SIZE */
+    EF_ASSERT(addr % EF_ERASE_MIN_SIZE == 0);
 
-  //使用SFUD提供的API实现Flash擦除
-  sfud_result = sfud_erase(flash, addr, size);
+    //使用SFUD提供的API实现Flash擦除
+    sfud_result = sfud_erase(flash, addr, size);
 
-  if(sfud_result != SFUD_SUCCESS) {
-	result = EF_ERASE_ERR;
-  }
+    if (sfud_result != SFUD_SUCCESS) {
+        result = EF_ERASE_ERR;
+    }
 
-  return result;
+    return result;
 }
+
 /**
  * Write data to flash.
  * @note This operation's units is word.
@@ -131,37 +134,37 @@ EfErrCode ef_port_erase(uint32_t addr, size_t size) {
  * @return result
  */
 EfErrCode ef_port_write(uint32_t addr, const uint32_t *buf, size_t size) {
-  EfErrCode result = EF_NO_ERR;
+    EfErrCode result = EF_NO_ERR;
 
-  sfud_err sfud_result = SFUD_SUCCESS;
+    sfud_err sfud_result = SFUD_SUCCESS;
 
-  //获取SFUD Flash设备对象
-  const sfud_flash *flash = sfud_get_device_table() + SFUD_W25Q16X_DEVICE_INDEX;
+    //获取SFUD Flash设备对象
+    const sfud_flash *flash = sfud_get_device_table() + SFUD_W25Q16X_DEVICE_INDEX;
 
-  //使用SFUD开源库提供的API实现
-  sfud_result = sfud_write(flash, addr, size, (const uint8_t *)buf);
+    //使用SFUD开源库提供的API实现
+    sfud_result = sfud_write(flash, addr, size, (const uint8_t *) buf);
 
-  if(sfud_result != SFUD_SUCCESS) {
-	result = EF_WRITE_ERR;
-  }
+    if (sfud_result != SFUD_SUCCESS) {
+        result = EF_WRITE_ERR;
+    }
 
-  return result;
+    return result;
 }
 
 /**
  * lock the ENV ram cache
  */
 void ef_port_env_lock(void) {
-  /* You can add your code under here. */
-  osMutexAcquire(flashMutex, portMAX_DELAY);
+    /* You can add your code under here. */
+    HAL_MutexLock(&flashMutex, HAL_OS_WAIT_FOREVER);
 }
 
 /**
  * unlock the ENV ram cache
  */
 void ef_port_env_unlock(void) {
-  /* You can add your code under here. */
-  osMutexRelease(flashMutex);
+    /* You can add your code under here. */
+    HAL_MutexUnlock(&flashMutex);
 }
 
 /**
@@ -174,20 +177,17 @@ void ef_port_env_unlock(void) {
  *
  */
 void ef_log_debug(const char *file, const long line, const char *format, ...) {
-
 #ifdef PRINT_DEBUG
+    va_list args;
 
-  va_list args;
-
-  /* args point to the first variable parameter */
-  va_start(args, format);
-  ef_print("[Flash](%s:%ld) ", file, line);
-  /* must use vprintf to print */
-  vsnprintf(logBuff,sizeof(logBuff), format, args);
-  ef_print("%s", logBuff);
-  va_end(args);
+    /* args point to the first variable parameter */
+    va_start(args, format);
+    ef_print("[Flash](%s:%ld) ", file, line);
+    /* must use vprintf to print */
+    vsnprintf(logBuff,sizeof(logBuff), format, args);
+    ef_print("%s", logBuff);
+    va_end(args);
 #endif
-
 }
 
 /**
@@ -197,16 +197,19 @@ void ef_log_debug(const char *file, const long line, const char *format, ...) {
  * @param ... args
  */
 void ef_log_info(const char *format, ...) {
-  va_list args;
+#ifdef PRINT_DEBUG
+    va_list args;
 
-  /* args point to the first variable parameter */
-  va_start(args, format);
-  ef_print("[Flash]");
-  /* must use vprintf to print */
-  vsnprintf(logBuff,sizeof(logBuff), format, args);
-  ef_print("%s", logBuff);
-  va_end(args);
+    /* args point to the first variable parameter */
+    va_start(args, format);
+    ef_print("[Flash]");
+    /* must use vprintf to print */
+    vsnprintf(logBuff,sizeof(logBuff), format, args);
+    ef_print("%s", logBuff);
+    va_end(args);
+#endif
 }
+
 /**
  * This function is print flash non-package info.
  *
@@ -214,16 +217,17 @@ void ef_log_info(const char *format, ...) {
  * @param ... args
  */
 void ef_print(const char *format, ...) {
+#ifdef PRINT_DEBUG
+    va_list args;
 
-  va_list args;
+    /* args point to the first variable parameter */
+    va_start(args, format);
+    /* must use vprintf to print */
+    vsnprintf(logBuff,sizeof(logBuff), format, args);
+    va_end(args);
 
-  /* args point to the first variable parameter */
-  va_start(args, format);
-  /* must use vprintf to print */
-  vsnprintf(logBuff,sizeof(logBuff), format, args);
-  va_end(args);
-
-  MiniUart_writeData(MINI_CONSOLE_USART_IDX, logBuff, strlen(logBuff));
-
-  usb_write_data(logBuff, strlen(logBuff));
+  //  MiniUart_writeData(MINI_CONSOLE_USART_IDX, logBuff, strlen(logBuff));
+  //
+  //  usb_write_data(logBuff, strlen(logBuff));
+#endif
 }

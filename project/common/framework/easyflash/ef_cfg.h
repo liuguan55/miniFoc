@@ -104,6 +104,6 @@
 #define ENV_USER_SETTING_SIZE   ENV_AREA_SIZE
 
 /* print debug information of flash */
-#define PRINT_DEBUG
+//#define PRINT_DEBUG
 
 #endif /* EF_CFG_H_ */

@@ -3,8 +3,8 @@
 //
 
 #include "Sensor.h"
-
 #include "common/framework/MiniCommon.h"
+#include "driver/hal/hal_pwm.h"
 
 
 #undef LOG_TAG
@@ -122,7 +122,7 @@ static int AS5048A_needSearch(struct FocSensor *sensor)
 
 static SensorInterface_t sensorDriver = {
 	.interfaceName = "pwm",
-	.handle = &htim2,
+	.handle = HAL_PWM_CH1,
 	.address = 0,
 	.timeout = 100,
 	.retry = 1,

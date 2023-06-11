@@ -26,25 +26,15 @@
  * Created on: 2016-04-23
  */
 
+#include "common/board/board.h"
 #include <driver/component/flash/sfud/sfud.h>
 #include <stdarg.h>
-#include "driver/spi.h"
+#include "driver/hal/hal_spi.h"
 #include "common/framework/MiniCommon.h"
+#include "driver/hal/hal_uart.h"
 
-extern SPI_HandleTypeDef hspi2;
+static HAL_Mutex flashMutex = NULL;
 
-typedef struct {
-    SPI_HandleTypeDef *spix;
-    GPIO_TypeDef *cs_gpiox;
-    uint16_t cs_gpio_pin;
-} spi_user_data, *spi_user_data_t;
-
-static osMutexId_t flashMutex = NULL;
-static const osMutexAttr_t flashMutexAtr = {
-        .name = "nor flash mutex"
-};
-
-static spi_user_data spi2 = {.spix = &hspi2, .cs_gpiox = GPIOC, .cs_gpio_pin = GPIO_PIN_5};
 static char log_buf[256];
 
 void sfud_log_debug(const char *file, const long line, const char *format, ...);
@@ -57,18 +47,17 @@ static void retry_delay_100us(void) {
 
 static void spi_lock(const sfud_spi *spi) {
     UNUSED(spi);
-    osMutexAcquire(flashMutex, portMAX_DELAY);
+    HAL_MutexLock(&flashMutex, HAL_OS_WAIT_FOREVER);
 }
 
 static void spi_unlock(const sfud_spi *spi) {
     UNUSED(spi);
-    osMutexRelease(flashMutex);
+    HAL_MutexUnlock(&flashMutex);
 }
 
-uint8_t spi_write_and_read(SPI_HandleTypeDef *hspi, uint8_t data) {
+uint8_t spi_write_and_read(uint8_t data) {
     uint8_t rx = 0;
-
-    HAL_SPI_TransmitReceive(hspi, &data, &rx, 1, 1000);
+    HAL_spiTransmitReceive(BOARD_FLASH_SPI_ID, &data, &rx, 1, 1000);
 
     return rx;
 }
@@ -78,34 +67,33 @@ uint8_t spi_write_and_read(SPI_HandleTypeDef *hspi, uint8_t data) {
  */
 static sfud_err spi_write_read(const sfud_spi *spi, const uint8_t *write_buf, size_t write_size, uint8_t *read_buf,
                                size_t read_size) {
+    UNUSED(spi);
     sfud_err result = SFUD_SUCCESS;
-//  uint8_t send_data, read_data;
     /**
      * add your spi write and read code
      */
-    spi_user_data_t spi_dev = (spi_user_data_t) spi->user_data;
-
     if (write_size) {
         SFUD_ASSERT(write_buf);
     }
     if (read_size) {
         SFUD_ASSERT(read_buf);
     }
-    if (spi_dev->cs_gpiox != NULL) {
-        HAL_GPIO_WritePin(spi_dev->cs_gpiox, spi_dev->cs_gpio_pin, GPIO_PIN_RESET);
+
+    if (HAL_spiOpen(BOARD_FLASH_SPI_ID, BOARD_FLASH_SPI_SS_SEL, 100) != HAL_STATUS_OK){
+        return SFUD_ERR_TIMEOUT;
+    }
+    HAL_spiCsEnable(BOARD_FLASH_SPI_ID);
+
+    for (size_t kI = 0; kI < write_size; ++kI) {
+        spi_write_and_read(write_buf[kI]);
     }
 
-    for (int kI = 0; kI < write_size; ++kI) {
-        spi_write_and_read(spi_dev->spix, write_buf[kI]);
+    for (size_t kJ = 0; kJ < read_size; ++kJ) {
+        read_buf[kJ] = spi_write_and_read(SFUD_DUMMY_DATA);
     }
 
-    for (int kJ = 0; kJ < read_size; ++kJ) {
-        read_buf[kJ] = spi_write_and_read(spi_dev->spix, SFUD_DUMMY_DATA);
-    }
-
-    if (spi_dev->cs_gpiox != NULL) {
-        HAL_GPIO_WritePin(spi_dev->cs_gpiox, spi_dev->cs_gpio_pin, GPIO_PIN_SET);
-    }
+    HAL_spiCsDisable(BOARD_FLASH_SPI_ID);
+    HAL_spiClose(BOARD_FLASH_SPI_ID);
 
     return result;
 }
@@ -129,13 +117,13 @@ static sfud_err qspi_read(const struct __sfud_spi *spi, uint32_t addr, sfud_qspi
 sfud_err sfud_spi_port_init(sfud_flash *flash) {
     sfud_err result = SFUD_SUCCESS;
 
-    flashMutex = osMutexNew(&flashMutexAtr);
+    HAL_MutexInit(&flashMutex);
     switch (flash->index) {
         case SFUD_W25Q16X_DEVICE_INDEX: {
             flash->spi.wr = spi_write_read;
             flash->spi.lock = spi_lock;
             flash->spi.unlock = spi_unlock;
-            flash->spi.user_data = &spi2;
+            flash->spi.user_data = NULL;
             /* about 100 microsecond delay */
             flash->retry.delay = retry_delay_100us;
             /* adout 60 seconds timeout */
@@ -157,15 +145,21 @@ sfud_err sfud_spi_port_init(sfud_flash *flash) {
  * @param ... args
  */
 void sfud_log_debug(const char *file, const long line, const char *format, ...) {
+    memset(log_buf, 0, sizeof(log_buf));
+
     va_list args;
 
     /* args point to the first variable parameter */
     va_start(args, format);
-    printf("[SFUD](%s:%ld) ", file, line);
+    snprintf(log_buf, sizeof(log_buf), "[SFUD](%s:%ld)" , file, line);
     /* must use vprintf to print */
-    vsnprintf(log_buf, sizeof(log_buf), format, args);
-    printf("%s\n", log_buf);
+    vsnprintf(log_buf + strlen(log_buf), sizeof(log_buf) - strlen(log_buf), format, args);
     va_end(args);
+
+    log_buf[strlen(log_buf)] = '\n';
+    log_buf[strlen(log_buf)] = '\0';
+
+    HAL_UartSend(BOARD_MAIN_UART_ID, (uint8_t *)log_buf, strlen(log_buf));
 }
 
 /**
@@ -175,13 +169,18 @@ void sfud_log_debug(const char *file, const long line, const char *format, ...) 
  * @param ... args
  */
 void sfud_log_info(const char *format, ...) {
+    memset(log_buf, 0, sizeof(log_buf));
     va_list args;
 
     /* args point to the first variable parameter */
     va_start(args, format);
-    printf("[SFUD]");
+    snprintf(log_buf, sizeof(log_buf), "[SFUD]");
     /* must use vprintf to print */
-    vsnprintf(log_buf, sizeof(log_buf), format, args);
-    printf("%s\n", log_buf);
+    vsnprintf(log_buf+ strlen(log_buf), sizeof(log_buf) - strlen(log_buf), format, args);
     va_end(args);
+
+    log_buf[strlen(log_buf)] = '\n';
+    log_buf[strlen(log_buf)] = '\0';
+
+    HAL_UartSend(BOARD_MAIN_UART_ID, (uint8_t *)log_buf, strlen(log_buf));
 }

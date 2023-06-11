@@ -20,7 +20,7 @@
 #include "debug/cm_backtrace/cm_backtrace.h"
 #include "gui.h"
 #include "MiniButton.h"
-#include "MiniShell.h"
+#include "../../../src/console/MiniShell.h"
 #include "sfud/sfud.h"
 #include "fs/FatFs/App/fatfs.h"
 #include "usbd_cdc_if.h"
@@ -43,13 +43,6 @@ enum {
 #define  container_of(ptr, type, member) ({    \
      const typeof( ((type *)0)->member ) *__mptr = (ptr); \
      (type *)( (char *)__mptr - offsetof(type,member) );})
-
-#define MINI_CONSOLEBUF_SIZE    128
-
-#define MINI_CONSOLE_USART_IDX (1)
-#define MINI_SHELL_USART_IDX MINI_CONSOLE_USART_IDX
-#define MINI_SHELL_BUFFER_SIZE (128 * 4)
-#define MINI_SHELL_TASK_STACK_SIZE (1024 * 4)
 
 
 static  inline void MiniCommon_delayMs(uint32_t ms) {

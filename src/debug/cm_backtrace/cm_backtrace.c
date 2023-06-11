@@ -683,6 +683,6 @@ void cm_backtrace_fault(uint32_t fault_handler_lr, uint32_t fault_handler_sp) {
     print_call_stack(stack_pointer);
 
   	elog_flash_flush();
-	extern void RunTimeStatsTask(int argc, char *argv[]);
-	RunTimeStatsTask(0,NULL);
+//	extern void RunTimeStatsTask(int argc, char *argv[]);
+//	RunTimeStatsTask(0,NULL);
 }

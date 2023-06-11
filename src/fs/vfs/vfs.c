@@ -34,7 +34,7 @@
 #include "fs/vfs/vfsFatDriver.h"
 #include "fs/vfs/vfsLittleFsDriver.h"
 #include "fs/FatFs/App/fatfs.h"
-#include "MiniAssert.h"
+#include "sys/MiniDebug.h"
 
 
 static vfsManager_t vfsManager = {

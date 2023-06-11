@@ -23,7 +23,10 @@
 /* Includes */
 #include <errno.h>
 #include <stdint.h>
+#include "sys/sram_heap.h"
 
+
+#if (__CONFIG_MALLOC_MODE == 0x00)
 /**
  * Pointer to the current high watermark of the heap usage
  */
@@ -83,3 +86,14 @@ uint32_t system_get_heap_size(void) {
 
   return (ptrdiff_t)__sbrk_heap_end - 0x20000000;
 }
+#else
+
+extern uint8_t __heap_start__[];
+extern uint8_t __heap_end__[];
+
+uint32_t system_get_heap_size()
+{
+    return (uint32_t) (sram_free_heap_size());
+}
+
+#endif

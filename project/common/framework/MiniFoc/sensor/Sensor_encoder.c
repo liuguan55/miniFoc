@@ -18,7 +18,7 @@ typedef enum {
 
 typedef struct {
     GPIO_TypeDef *port;
-    uint32_t Pin;
+    int32_t Pin;
 } GpioPort_t;
 typedef struct {
     GpioPort_t gpioA;
@@ -212,7 +212,7 @@ static float getVelocity(struct FocSensor *sensor) {
 
 static SensorInterface_t sensorDriver = {
         .interfaceName = "gpio",
-        .handle = &hallGpio,
+        .handle = (uint32_t )&hallGpio,
         .address = 0,
         .timeout = 100,
         .retry = 1,

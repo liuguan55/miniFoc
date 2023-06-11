@@ -36,10 +36,12 @@
  * Created on: 2015-07-28
  */
 #include "log/easylogger/elog.h"
-#include "common/framework/MiniCommon.h"
 #include "log/easylogger/elog_flash.h"
+#include "driver/hal/hal_os.h"
+#include "driver/hal/hal_uart.h"
+#include "driver/hal/hal_usb.h"
 
-static osMutexId_t flashPortMutex = NULL;
+static HAL_Mutex flashPortMutex = NULL;
 /**
  * EasyLogger flash log pulgin port initialize
  *
@@ -47,9 +49,8 @@ static osMutexId_t flashPortMutex = NULL;
  */
 ElogErrCode elog_flash_port_init(void) {
   ElogErrCode result = ELOG_NO_ERR;
-
   /* add your code here */
-  flashPortMutex = osMutexNew(NULL);
+  HAL_MutexInit(&flashPortMutex);
 
   return result;
 }
@@ -61,27 +62,23 @@ ElogErrCode elog_flash_port_init(void) {
  * @param size log size
  */
 void elog_flash_port_output(const char *log, size_t size) {
-
   /* add your code here */
-  MiniUart_writeData(MINI_CONSOLE_USART_IDX, (char *)log, size);
-
-  usb_write_data(log, size);
+    HAL_UartSend(HAL_UART_1, (uint8_t *)log, size);
+    HAL_usbCdcSend((uint8_t *)log, size);
 }
 
 /**
  * flash log lock
  */
 void elog_flash_port_lock(void) {
-
   /* add your code here */
-  osMutexAcquire(flashPortMutex, portMAX_DELAY);
+  HAL_MutexLock(&flashPortMutex, HAL_OS_WAIT_FOREVER);
 }
 
 /**
  * flash log unlock
  */
 void elog_flash_port_unlock(void) {
-
   /* add your code here */
-  osMutexRelease(flashPortMutex);
+  HAL_MutexUnlock(&flashPortMutex);
 }

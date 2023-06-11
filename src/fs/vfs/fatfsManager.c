@@ -36,6 +36,8 @@ static uint8_t sdInitalize = 0;
 
 int fatfsManager_init(void)
 {
+    MX_FATFS_Init();
+
     const char *SDPath = fatfs_get_sd_path();
     int retSD = f_mount(&SDFatFS, SDPath, 1);
     if (retSD != FR_OK){

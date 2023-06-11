@@ -46,7 +46,7 @@
 /* enable assert check */
 #define ELOG_ASSERT_ENABLE
 /* buffer size for every line's log */
-#define ELOG_LINE_BUF_SIZE                       1024
+#define ELOG_LINE_BUF_SIZE                       256
 /* driver line number max length */
 #define ELOG_LINE_NUM_MAX_LEN                    5
 /* driver filter's tag max length */
@@ -69,7 +69,7 @@
 #define ELOG_COLOR_VERBOSE                       (F_BLUE B_NULL S_NORMAL)
 /*---------------------------------------------------------------------------*/
 /* enable asynchronous driver mode */
- #define ELOG_ASYNC_OUTPUT_ENABLE
+// #define ELOG_ASYNC_OUTPUT_ENABLE
 /* the highest driver level for async mode, other level will sync driver */
 #define ELOG_ASYNC_OUTPUT_LVL                    ELOG_LVL_ASSERT
 /* buffer size for asynchronous driver mode */
