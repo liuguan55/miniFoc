@@ -952,10 +952,24 @@ CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/system_stm32f4xx.c.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/system_stm32f4xx.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\work\project\common\startup\system_stm32f4xx.c -o CMakeFiles\miniFoc_F4.elf.dir\project\common\startup\system_stm32f4xx.c.s
 
+CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
+CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.obj: D:/work/project/test/testVfs.c
+CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\project\test\testVfs.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\project\test\testVfs.c.obj -c D:\work\project\test\testVfs.c
+
+CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\work\project\test\testVfs.c > CMakeFiles\miniFoc_F4.elf.dir\project\test\testVfs.c.i
+
+CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\work\project\test\testVfs.c -o CMakeFiles\miniFoc_F4.elf.dir\project\test\testVfs.c.s
+
 CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.obj: D:/work/src/console/MiniShell.c
 CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\console\MiniShell.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\console\MiniShell.c.obj -c D:\work\src\console\MiniShell.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.i: cmake_force
@@ -969,7 +983,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.obj: D:/work/src/console/lettershell/log.c
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\console\lettershell\log.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\console\lettershell\log.c.obj -c D:\work\src\console\lettershell\log.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.i: cmake_force
@@ -983,7 +997,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell.c.obj: D:/work/src/console/lettershell/shell.c
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\console\lettershell\shell.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\console\lettershell\shell.c.obj -c D:\work\src\console\lettershell\shell.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell.c.i: cmake_force
@@ -997,7 +1011,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_cmd_list.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_cmd_list.c.obj: D:/work/src/console/lettershell/shell_cmd_list.c
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_cmd_list.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_cmd_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_cmd_list.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_cmd_list.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\console\lettershell\shell_cmd_list.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\console\lettershell\shell_cmd_list.c.obj -c D:\work\src\console\lettershell\shell_cmd_list.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_cmd_list.c.i: cmake_force
@@ -1011,7 +1025,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_cmd_list.c.s: cmake_
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_companion.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_companion.c.obj: D:/work/src/console/lettershell/shell_companion.c
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_companion.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_companion.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_companion.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_companion.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\console\lettershell\shell_companion.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\console\lettershell\shell_companion.c.obj -c D:\work\src\console\lettershell\shell_companion.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_companion.c.i: cmake_force
@@ -1025,7 +1039,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_companion.c.s: cmake
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_ext.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_ext.c.obj: D:/work/src/console/lettershell/shell_ext.c
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_ext.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_ext.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_ext.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_ext.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\console\lettershell\shell_ext.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\console\lettershell\shell_ext.c.obj -c D:\work\src\console\lettershell\shell_ext.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_ext.c.i: cmake_force
@@ -1039,7 +1053,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_ext.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_fs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_fs.c.obj: D:/work/src/console/lettershell/shell_fs.c
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_fs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_fs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_fs.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_fs.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\console\lettershell\shell_fs.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\console\lettershell\shell_fs.c.obj -c D:\work\src\console\lettershell\shell_fs.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_fs.c.i: cmake_force
@@ -1053,7 +1067,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_fs.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/console/miniConsole.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/console/miniConsole.c.obj: D:/work/src/console/miniConsole.c
 CMakeFiles/miniFoc_F4.elf.dir/src/console/miniConsole.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/miniConsole.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/console/miniConsole.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/console/miniConsole.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\console\miniConsole.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\console\miniConsole.c.obj -c D:\work\src\console\miniConsole.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/console/miniConsole.c.i: cmake_force
@@ -1067,7 +1081,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/console/miniConsole.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/core/EFSM/fsm.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/core/EFSM/fsm.c.obj: D:/work/src/core/EFSM/fsm.c
 CMakeFiles/miniFoc_F4.elf.dir/src/core/EFSM/fsm.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/core/EFSM/fsm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/core/EFSM/fsm.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/core/EFSM/fsm.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\core\EFSM\fsm.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\core\EFSM\fsm.c.obj -c D:\work\src\core\EFSM\fsm.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/core/EFSM/fsm.c.i: cmake_force
@@ -1081,7 +1095,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/core/EFSM/fsm.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/core/cQueue/cQueue.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/core/cQueue/cQueue.c.obj: D:/work/src/core/cQueue/cQueue.c
 CMakeFiles/miniFoc_F4.elf.dir/src/core/cQueue/cQueue.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/core/cQueue/cQueue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/core/cQueue/cQueue.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/core/cQueue/cQueue.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\core\cQueue\cQueue.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\core\cQueue\cQueue.c.obj -c D:\work\src\core\cQueue\cQueue.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/core/cQueue/cQueue.c.i: cmake_force
@@ -1095,7 +1109,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/core/cQueue/cQueue.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/core/lwrb/lwrb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/core/lwrb/lwrb.c.obj: D:/work/src/core/lwrb/lwrb.c
 CMakeFiles/miniFoc_F4.elf.dir/src/core/lwrb/lwrb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/core/lwrb/lwrb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/core/lwrb/lwrb.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/core/lwrb/lwrb.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\core\lwrb\lwrb.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\core\lwrb\lwrb.c.obj -c D:\work\src\core\lwrb\lwrb.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/core/lwrb/lwrb.c.i: cmake_force
@@ -1109,7 +1123,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/core/lwrb/lwrb.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.obj: D:/work/src/debug/backtrace.c
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\debug\backtrace.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\debug\backtrace.c.obj -c D:\work\src\debug\backtrace.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.i: cmake_force
@@ -1123,7 +1137,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.obj: D:/work/src/debug/cm_backtrace/cm_backtrace.c
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\debug\cm_backtrace\cm_backtrace.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\debug\cm_backtrace\cm_backtrace.c.obj -c D:\work\src\debug\cm_backtrace\cm_backtrace.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.i: cmake_force
@@ -1136,7 +1150,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.s: cmake_for
 
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj: D:/work/src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building ASM object CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building ASM object CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\miniFoc_F4.elf.dir\src\debug\cm_backtrace\fault_handler\gcc\cmb_fault.S.obj -c D:\work\src\debug\cm_backtrace\fault_handler\gcc\cmb_fault.S
 
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.i: cmake_force
@@ -1150,7 +1164,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/fault_handler/gcc/cmb_fault
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj: D:/work/src/debug/debug.c
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\debug\debug.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\debug\debug.c.obj -c D:\work\src\debug\debug.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.i: cmake_force
@@ -1164,7 +1178,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj: D:/work/src/debug/heap_trace.c
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\debug\heap_trace.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\debug\heap_trace.c.obj -c D:\work\src\debug\heap_trace.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.i: cmake_force
@@ -1178,7 +1192,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/adc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/adc.c.obj: D:/work/src/driver/adc.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/adc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/adc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/adc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\adc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\adc.c.obj -c D:\work\src\driver\adc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/adc.c.i: cmake_force
@@ -1192,7 +1206,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/adc.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -1206,7 +1220,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
@@ -1220,7 +1234,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
@@ -1234,7 +1248,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -1248,7 +1262,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_crc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i: cmake_force
@@ -1262,7 +1276,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -1276,7 +1290,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -1290,7 +1304,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -1304,7 +1318,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -1318,7 +1332,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -1332,7 +1346,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -1346,7 +1360,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -1360,7 +1374,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
@@ -1374,7 +1388,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
@@ -1388,7 +1402,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_iwdg.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i: cmake_force
@@ -1402,7 +1416,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i: cmake_force
@@ -1416,7 +1430,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i: cmake_force
@@ -1430,7 +1444,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -1444,7 +1458,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -1458,7 +1472,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -1472,7 +1486,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -1486,7 +1500,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i: cmake_force
@@ -1500,7 +1514,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i: cmake_force
@@ -1514,7 +1528,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
@@ -1528,7 +1542,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -1542,7 +1556,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -1556,7 +1570,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -1570,7 +1584,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_wwdg.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_wwdg.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_wwdg.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.i: cmake_force
@@ -1584,7 +1598,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i: cmake_force
@@ -1598,7 +1612,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i: cmake_force
@@ -1612,7 +1626,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj -c D:\work\src\driver\chip\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i: cmake_force
@@ -1626,7 +1640,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: D:/work/src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.obj -c D:\work\src\driver\chip\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i: cmake_force
@@ -1640,7 +1654,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/CDC
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj: D:/work/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c.obj -c D:\work\src\driver\chip\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.i: cmake_force
@@ -1654,7 +1668,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj: D:/work/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c.obj -c D:\work\src\driver\chip\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.i: cmake_force
@@ -1668,7 +1682,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj: D:/work/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c.obj -c D:\work\src\driver\chip\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.i: cmake_force
@@ -1682,7 +1696,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj: D:/work/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c.obj -c D:\work\src\driver\chip\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.i: cmake_force
@@ -1696,7 +1710,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: D:/work/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj -c D:\work\src\driver\chip\STM32_USB_Device_Library\Core\Src\usbd_core.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.i: cmake_force
@@ -1710,7 +1724,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: D:/work/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj -c D:\work\src\driver\chip\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i: cmake_force
@@ -1724,7 +1738,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: D:/work/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\chip\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj -c D:\work\src\driver\chip\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i: cmake_force
@@ -1738,7 +1752,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/port/sfud_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/port/sfud_port.c.obj: D:/work/src/driver/component/flash/sfud/port/sfud_port.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/port/sfud_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/port/sfud_port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/port/sfud_port.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/port/sfud_port.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\flash\sfud\port\sfud_port.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\flash\sfud\port\sfud_port.c.obj -c D:\work\src\driver\component\flash\sfud\port\sfud_port.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/port/sfud_port.c.i: cmake_force
@@ -1752,7 +1766,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/port/sfud_port.c.s
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud.c.obj: D:/work/src/driver/component/flash/sfud/src/sfud.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\flash\sfud\src\sfud.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\flash\sfud\src\sfud.c.obj -c D:\work\src\driver\component\flash\sfud\src\sfud.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud.c.i: cmake_force
@@ -1766,7 +1780,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud_sfdp.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud_sfdp.c.obj: D:/work/src/driver/component/flash/sfud/src/sfud_sfdp.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud_sfdp.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud_sfdp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud_sfdp.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud_sfdp.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\flash\sfud\src\sfud_sfdp.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\flash\sfud\src\sfud_sfdp.c.obj -c D:\work\src\driver\component\flash\sfud\src\sfud_sfdp.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud_sfdp.c.i: cmake_force
@@ -1780,7 +1794,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud_sfdp.c.s:
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/fonts.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/fonts.c.obj: D:/work/src/driver/component/lcd/st7735/fonts.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/fonts.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/fonts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/fonts.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/fonts.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\lcd\st7735\fonts.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\lcd\st7735\fonts.c.obj -c D:\work\src\driver\component\lcd\st7735\fonts.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/fonts.c.i: cmake_force
@@ -1794,7 +1808,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/fonts.c.s: cmake_f
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/image.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/image.c.obj: D:/work/src/driver/component/lcd/st7735/image.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/image.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/image.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/image.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/image.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\lcd\st7735\image.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\lcd\st7735\image.c.obj -c D:\work\src\driver\component\lcd\st7735\image.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/image.c.i: cmake_force
@@ -1808,7 +1822,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/image.c.s: cmake_f
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/st7735.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/st7735.c.obj: D:/work/src/driver/component/lcd/st7735/st7735.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/st7735.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/st7735.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/st7735.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/st7735.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\lcd\st7735\st7735.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\lcd\st7735\st7735.c.obj -c D:\work\src\driver\component\lcd\st7735\st7735.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/st7735.c.i: cmake_force
@@ -1822,7 +1836,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/st7735.c.s: cmake_
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usb_device.c.obj: D:/work/src/driver/component/usb/USB_DEVICE/App/usb_device.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usb_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usb_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usb_device.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\usb\USB_DEVICE\App\usb_device.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\usb\USB_DEVICE\App\usb_device.c.obj -c D:\work\src\driver\component\usb\USB_DEVICE\App\usb_device.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usb_device.c.i: cmake_force
@@ -1836,7 +1850,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usb_device
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.obj: D:/work/src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\usb\USB_DEVICE\App\usbd_cdc_if.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\usb\USB_DEVICE\App\usbd_cdc_if.c.obj -c D:\work\src\driver\component\usb\USB_DEVICE\App\usbd_cdc_if.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.i: cmake_force
@@ -1850,7 +1864,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_cdc_i
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.obj: D:/work/src/driver/component/usb/USB_DEVICE/App/usbd_composite.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\usb\USB_DEVICE\App\usbd_composite.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\usb\USB_DEVICE\App\usbd_composite.c.obj -c D:\work\src\driver\component\usb\USB_DEVICE\App\usbd_composite.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.i: cmake_force
@@ -1864,7 +1878,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_compo
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.obj: D:/work/src/driver/component/usb/USB_DEVICE/App/usbd_desc.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\usb\USB_DEVICE\App\usbd_desc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\usb\USB_DEVICE\App\usbd_desc.c.obj -c D:\work\src\driver\component\usb\USB_DEVICE\App\usbd_desc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.i: cmake_force
@@ -1878,7 +1892,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_desc.
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.obj: D:/work/src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\usb\USB_DEVICE\App\usbd_storage_if.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\usb\USB_DEVICE\App\usbd_storage_if.c.obj -c D:\work\src\driver\component\usb\USB_DEVICE\App\usbd_storage_if.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.i: cmake_force
@@ -1892,7 +1906,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_stora
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.obj: D:/work/src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\usb\USB_DEVICE\Target\usbd_conf.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\component\usb\USB_DEVICE\Target\usbd_conf.c.obj -c D:\work\src\driver\component\usb\USB_DEVICE\Target\usbd_conf.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.i: cmake_force
@@ -1906,7 +1920,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/Target/usbd_co
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/crc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/crc.c.obj: D:/work/src/driver/crc.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/crc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/crc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/crc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\crc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\crc.c.obj -c D:\work\src\driver\crc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/crc.c.i: cmake_force
@@ -1920,7 +1934,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/crc.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/dma.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/dma.c.obj: D:/work/src/driver/dma.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/dma.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/dma.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/dma.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\dma.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\dma.c.obj -c D:\work\src\driver\dma.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/dma.c.i: cmake_force
@@ -1934,7 +1948,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/dma.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/gpio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/gpio.c.obj: D:/work/src/driver/gpio.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/gpio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/gpio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/gpio.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\gpio.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\gpio.c.obj -c D:\work\src\driver\gpio.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/gpio.c.i: cmake_force
@@ -1948,7 +1962,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/gpio.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_adc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_adc.c.obj: D:/work/src/driver/hal/hal_adc.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_adc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_adc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_adc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_adc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_adc.c.obj -c D:\work\src\driver\hal\hal_adc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_adc.c.i: cmake_force
@@ -1962,7 +1976,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_adc.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_board.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_board.c.obj: D:/work/src/driver/hal/hal_board.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_board.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_board.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_board.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_board.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_board.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_board.c.obj -c D:\work\src\driver\hal\hal_board.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_board.c.i: cmake_force
@@ -1976,7 +1990,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_board.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_crc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_crc.c.obj: D:/work/src/driver/hal/hal_crc.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_crc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_crc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_crc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_crc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_crc.c.obj -c D:\work\src\driver\hal\hal_crc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_crc.c.i: cmake_force
@@ -1990,7 +2004,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_crc.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_dma.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_dma.c.obj: D:/work/src/driver/hal/hal_dma.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_dma.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_dma.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_dma.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_dma.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_dma.c.obj -c D:\work\src\driver\hal\hal_dma.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_dma.c.i: cmake_force
@@ -2004,7 +2018,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_dma.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_flash.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_flash.c.obj: D:/work/src/driver/hal/hal_flash.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_flash.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_flash.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_flash.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_flash.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_flash.c.obj -c D:\work\src\driver\hal\hal_flash.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_flash.c.i: cmake_force
@@ -2018,7 +2032,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_flash.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_gpio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_gpio.c.obj: D:/work/src/driver/hal/hal_gpio.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_gpio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_gpio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_gpio.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_gpio.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_gpio.c.obj -c D:\work\src\driver\hal\hal_gpio.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_gpio.c.i: cmake_force
@@ -2032,7 +2046,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_gpio.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_i2c.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_i2c.c.obj: D:/work/src/driver/hal/hal_i2c.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_i2c.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_i2c.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_i2c.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_i2c.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_i2c.c.obj -c D:\work\src\driver\hal\hal_i2c.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_i2c.c.i: cmake_force
@@ -2046,7 +2060,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_i2c.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_pwm.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_pwm.c.obj: D:/work/src/driver/hal/hal_pwm.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_pwm.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_pwm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_pwm.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_pwm.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_pwm.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_pwm.c.obj -c D:\work\src\driver\hal\hal_pwm.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_pwm.c.i: cmake_force
@@ -2060,7 +2074,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_pwm.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_rnd.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_rnd.c.obj: D:/work/src/driver/hal/hal_rnd.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_rnd.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_rnd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_rnd.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_rnd.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_rnd.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_rnd.c.obj -c D:\work\src\driver\hal\hal_rnd.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_rnd.c.i: cmake_force
@@ -2074,7 +2088,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_rnd.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_sdio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_sdio.c.obj: D:/work/src/driver/hal/hal_sdio.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_sdio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_sdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_sdio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_sdio.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_sdio.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_sdio.c.obj -c D:\work\src\driver\hal\hal_sdio.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_sdio.c.i: cmake_force
@@ -2088,7 +2102,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_sdio.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_spi.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_spi.c.obj: D:/work/src/driver/hal/hal_spi.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_spi.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_spi.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_spi.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_spi.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_spi.c.obj -c D:\work\src\driver\hal\hal_spi.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_spi.c.i: cmake_force
@@ -2102,7 +2116,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_spi.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_timer.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_timer.c.obj: D:/work/src/driver/hal/hal_timer.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_timer.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_timer.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_timer.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_timer.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_timer.c.obj -c D:\work\src\driver\hal\hal_timer.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_timer.c.i: cmake_force
@@ -2116,7 +2130,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_timer.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_uart.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_uart.c.obj: D:/work/src/driver/hal/hal_uart.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_uart.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_uart.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_uart.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_uart.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_uart.c.obj -c D:\work\src\driver\hal\hal_uart.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_uart.c.i: cmake_force
@@ -2130,7 +2144,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_uart.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_usb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_usb.c.obj: D:/work/src/driver/hal/hal_usb.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_usb.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_usb.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_usb.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_usb.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_usb.c.obj -c D:\work\src\driver\hal\hal_usb.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_usb.c.i: cmake_force
@@ -2144,7 +2158,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_usb.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_wdg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_wdg.c.obj: D:/work/src/driver/hal/hal_wdg.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_wdg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_wdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_wdg.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_wdg.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_wdg.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\hal_wdg.c.obj -c D:\work\src\driver\hal\hal_wdg.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_wdg.c.i: cmake_force
@@ -2158,7 +2172,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_wdg.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/systemChip.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/systemChip.c.obj: D:/work/src/driver/hal/systemChip.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/systemChip.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/systemChip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/systemChip.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/systemChip.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\systemChip.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\hal\systemChip.c.obj -c D:\work\src\driver\hal\systemChip.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/systemChip.c.i: cmake_force
@@ -2172,7 +2186,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/systemChip.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/i2c.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/i2c.c.obj: D:/work/src/driver/i2c.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/i2c.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/i2c.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/i2c.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\i2c.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\i2c.c.obj -c D:\work\src\driver\i2c.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/i2c.c.i: cmake_force
@@ -2186,7 +2200,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/i2c.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/iwdg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/iwdg.c.obj: D:/work/src/driver/iwdg.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/iwdg.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/iwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/iwdg.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/iwdg.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\iwdg.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\iwdg.c.obj -c D:\work\src\driver\iwdg.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/iwdg.c.i: cmake_force
@@ -2200,7 +2214,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/iwdg.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/rng.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/rng.c.obj: D:/work/src/driver/rng.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/rng.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/rng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/rng.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/rng.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\rng.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\rng.c.obj -c D:\work\src\driver\rng.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/rng.c.i: cmake_force
@@ -2214,7 +2228,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/rng.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/sdio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/sdio.c.obj: D:/work/src/driver/sdio.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/sdio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/sdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/sdio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/sdio.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\sdio.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\sdio.c.obj -c D:\work\src\driver\sdio.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/sdio.c.i: cmake_force
@@ -2228,7 +2242,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/sdio.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/spi.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/spi.c.obj: D:/work/src/driver/spi.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/spi.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/spi.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/spi.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\spi.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\spi.c.obj -c D:\work\src\driver\spi.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/spi.c.i: cmake_force
@@ -2242,7 +2256,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/spi.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/tim.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/tim.c.obj: D:/work/src/driver/tim.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/tim.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/tim.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/tim.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\tim.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\tim.c.obj -c D:\work\src\driver\tim.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/tim.c.i: cmake_force
@@ -2256,7 +2270,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/tim.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/usart.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/usart.c.obj: D:/work/src/driver/usart.c
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/usart.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/driver/usart.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/driver/usart.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\driver\usart.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\driver\usart.c.obj -c D:\work\src\driver\usart.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/usart.c.i: cmake_force
@@ -2270,7 +2284,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/usart.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/App/fatfs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/App/fatfs.c.obj: D:/work/src/fs/FatFs/App/fatfs.c
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/App/fatfs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/App/fatfs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/App/fatfs.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/App/fatfs.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\App\fatfs.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\App\fatfs.c.obj -c D:\work\src\fs\FatFs\App\fatfs.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/App/fatfs.c.i: cmake_force
@@ -2284,7 +2298,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/App/fatfs.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/bsp_driver_sd.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/bsp_driver_sd.c.obj: D:/work/src/fs/FatFs/Target/bsp_driver_sd.c
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/bsp_driver_sd.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/bsp_driver_sd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/bsp_driver_sd.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/bsp_driver_sd.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\Target\bsp_driver_sd.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\Target\bsp_driver_sd.c.obj -c D:\work\src\fs\FatFs\Target\bsp_driver_sd.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/bsp_driver_sd.c.i: cmake_force
@@ -2298,7 +2312,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/bsp_driver_sd.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/sd_diskio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/sd_diskio.c.obj: D:/work/src/fs/FatFs/Target/sd_diskio.c
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/sd_diskio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/sd_diskio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/sd_diskio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/sd_diskio.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\Target\sd_diskio.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\Target\sd_diskio.c.obj -c D:\work\src\fs\FatFs\Target\sd_diskio.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/sd_diskio.c.i: cmake_force
@@ -2312,7 +2326,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/sd_diskio.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/diskio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/diskio.c.obj: D:/work/src/fs/FatFs/src/diskio.c
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/diskio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/diskio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/diskio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/diskio.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\src\diskio.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\src\diskio.c.obj -c D:\work\src\fs\FatFs\src\diskio.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/diskio.c.i: cmake_force
@@ -2326,7 +2340,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/diskio.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff.c.obj: D:/work/src/fs/FatFs/src/ff.c
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\src\ff.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\src\ff.c.obj -c D:\work\src\fs\FatFs\src\ff.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff.c.i: cmake_force
@@ -2340,7 +2354,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff_gen_drv.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff_gen_drv.c.obj: D:/work/src/fs/FatFs/src/ff_gen_drv.c
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff_gen_drv.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff_gen_drv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff_gen_drv.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff_gen_drv.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\src\ff_gen_drv.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\src\ff_gen_drv.c.obj -c D:\work\src\fs\FatFs\src\ff_gen_drv.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff_gen_drv.c.i: cmake_force
@@ -2354,7 +2368,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff_gen_drv.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/cc936.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/cc936.c.obj: D:/work/src/fs/FatFs/src/option/cc936.c
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/cc936.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/cc936.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/cc936.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/cc936.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\src\option\cc936.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\src\option\cc936.c.obj -c D:\work\src\fs\FatFs\src\option\cc936.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/cc936.c.i: cmake_force
@@ -2368,7 +2382,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/cc936.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/syscall.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/syscall.c.obj: D:/work/src/fs/FatFs/src/option/syscall.c
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/syscall.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/syscall.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/syscall.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/syscall.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\src\option\syscall.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\fs\FatFs\src\option\syscall.c.obj -c D:\work\src\fs\FatFs\src\option\syscall.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/syscall.c.i: cmake_force
@@ -2382,7 +2396,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/syscall.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs.c.obj: D:/work/src/fs/littlefs/lfs.c
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\fs\littlefs\lfs.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\fs\littlefs\lfs.c.obj -c D:\work\src\fs\littlefs\lfs.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs.c.i: cmake_force
@@ -2396,7 +2410,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs_util.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs_util.c.obj: D:/work/src/fs/littlefs/lfs_util.c
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs_util.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs_util.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs_util.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs_util.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\fs\littlefs\lfs_util.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\fs\littlefs\lfs_util.c.obj -c D:\work\src\fs\littlefs\lfs_util.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs_util.c.i: cmake_force
@@ -2410,7 +2424,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs_util.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/fatfsManager.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/fatfsManager.c.obj: D:/work/src/fs/vfs/fatfsManager.c
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/fatfsManager.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/fatfsManager.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/fatfsManager.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/fatfsManager.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\fs\vfs\fatfsManager.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\fs\vfs\fatfsManager.c.obj -c D:\work\src\fs\vfs\fatfsManager.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/fatfsManager.c.i: cmake_force
@@ -2424,7 +2438,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/fatfsManager.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/littlefsManager.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/littlefsManager.c.obj: D:/work/src/fs/vfs/littlefsManager.c
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/littlefsManager.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/littlefsManager.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/littlefsManager.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/littlefsManager.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\fs\vfs\littlefsManager.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\fs\vfs\littlefsManager.c.obj -c D:\work\src\fs\vfs\littlefsManager.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/littlefsManager.c.i: cmake_force
@@ -2438,7 +2452,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/littlefsManager.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfs.c.obj: D:/work/src/fs/vfs/vfs.c
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfs.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfs.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfs.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\fs\vfs\vfs.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\fs\vfs\vfs.c.obj -c D:\work\src\fs\vfs\vfs.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfs.c.i: cmake_force
@@ -2452,7 +2466,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfs.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsFatDriver.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsFatDriver.c.obj: D:/work/src/fs/vfs/vfsFatDriver.c
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsFatDriver.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsFatDriver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsFatDriver.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsFatDriver.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\fs\vfs\vfsFatDriver.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\fs\vfs\vfsFatDriver.c.obj -c D:\work\src\fs\vfs\vfsFatDriver.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsFatDriver.c.i: cmake_force
@@ -2466,7 +2480,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsFatDriver.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsLittleFsDriver.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsLittleFsDriver.c.obj: D:/work/src/fs/vfs/vfsLittleFsDriver.c
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsLittleFsDriver.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsLittleFsDriver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsLittleFsDriver.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsLittleFsDriver.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\fs\vfs\vfsLittleFsDriver.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\fs\vfs\vfsLittleFsDriver.c.obj -c D:\work\src\fs\vfs\vfsLittleFsDriver.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsLittleFsDriver.c.i: cmake_force
@@ -2480,7 +2494,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsLittleFsDriver.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: D:/work/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.obj -c D:\work\src\kernel\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i: cmake_force
@@ -2494,7 +2508,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.obj: D:/work/src/kernel/FreeRTOS/Source/croutine.c
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\croutine.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\croutine.c.obj -c D:\work\src\kernel\FreeRTOS\Source\croutine.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -2508,7 +2522,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.s: cmake_for
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.obj: D:/work/src/kernel/FreeRTOS/Source/event_groups.c
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\event_groups.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\event_groups.c.obj -c D:\work\src\kernel\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -2522,7 +2536,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.s: cmake
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/list.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/list.c.obj: D:/work/src/kernel/FreeRTOS/Source/list.c
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/list.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/list.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/list.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\list.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\list.c.obj -c D:\work\src\kernel\FreeRTOS\Source\list.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/list.c.i: cmake_force
@@ -2536,7 +2550,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/list.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: D:/work/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c D:\work\src\kernel\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
@@ -2550,7 +2564,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/p
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: D:/work/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c D:\work\src\kernel\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -2564,7 +2578,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/queue.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/queue.c.obj: D:/work/src/kernel/FreeRTOS/Source/queue.c
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/queue.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/queue.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/queue.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\queue.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\queue.c.obj -c D:\work\src\kernel\FreeRTOS\Source\queue.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/queue.c.i: cmake_force
@@ -2578,7 +2592,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/queue.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.obj: D:/work/src/kernel/FreeRTOS/Source/stream_buffer.c
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\stream_buffer.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\stream_buffer.c.obj -c D:\work\src\kernel\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -2592,7 +2606,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.s: cmak
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.obj: D:/work/src/kernel/FreeRTOS/Source/tasks.c
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\tasks.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\tasks.c.obj -c D:\work\src\kernel\FreeRTOS\Source\tasks.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -2606,7 +2620,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/timers.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/timers.c.obj: D:/work/src/kernel/FreeRTOS/Source/timers.c
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/timers.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/timers.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/timers.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\timers.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\kernel\FreeRTOS\Source\timers.c.obj -c D:\work\src\kernel\FreeRTOS\Source\timers.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/timers.c.i: cmake_force
@@ -2620,7 +2634,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/timers.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.obj: D:/work/src/libc/wrap_malloc.c
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\libc\wrap_malloc.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\libc\wrap_malloc.c.obj -c D:\work\src\libc\wrap_malloc.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.i: cmake_force
@@ -2634,7 +2648,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_stdio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_stdio.c.obj: D:/work/src/libc/wrap_stdio.c
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_stdio.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_stdio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_stdio.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\libc\wrap_stdio.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\libc\wrap_stdio.c.obj -c D:\work\src\libc\wrap_stdio.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_stdio.c.i: cmake_force
@@ -2648,7 +2662,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_stdio.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.obj: D:/work/src/libc/wrap_time.c
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\libc\wrap_time.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\libc\wrap_time.c.obj -c D:\work\src\libc\wrap_time.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.i: cmake_force
@@ -2662,7 +2676,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.obj: D:/work/src/log/easylogger/plugins/flash/elog_flash.c
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\log\easylogger\plugins\flash\elog_flash.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\log\easylogger\plugins\flash\elog_flash.c.obj -c D:\work\src\log\easylogger\plugins\flash\elog_flash.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.i: cmake_force
@@ -2676,7 +2690,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.s: c
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.obj: D:/work/src/log/easylogger/plugins/flash/elog_flash_port.c
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\log\easylogger\plugins\flash\elog_flash_port.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\log\easylogger\plugins\flash\elog_flash_port.c.obj -c D:\work\src\log\easylogger\plugins\flash\elog_flash_port.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.i: cmake_force
@@ -2690,7 +2704,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/port/elog_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/port/elog_port.c.obj: D:/work/src/log/easylogger/port/elog_port.c
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/port/elog_port.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/port/elog_port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/port/elog_port.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/port/elog_port.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\log\easylogger\port\elog_port.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\log\easylogger\port\elog_port.c.obj -c D:\work\src\log\easylogger\port\elog_port.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/port/elog_port.c.i: cmake_force
@@ -2704,7 +2718,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/port/elog_port.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog.c.obj: D:/work/src/log/easylogger/src/elog.c
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\log\easylogger\src\elog.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\log\easylogger\src\elog.c.obj -c D:\work\src\log\easylogger\src\elog.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog.c.i: cmake_force
@@ -2718,7 +2732,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_async.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_async.c.obj: D:/work/src/log/easylogger/src/elog_async.c
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_async.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_async.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_async.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_async.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\log\easylogger\src\elog_async.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\log\easylogger\src\elog_async.c.obj -c D:\work\src\log\easylogger\src\elog_async.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_async.c.i: cmake_force
@@ -2732,7 +2746,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_async.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_buf.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_buf.c.obj: D:/work/src/log/easylogger/src/elog_buf.c
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_buf.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_buf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_buf.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_buf.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\log\easylogger\src\elog_buf.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\log\easylogger\src\elog_buf.c.obj -c D:\work\src\log\easylogger\src\elog_buf.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_buf.c.i: cmake_force
@@ -2746,7 +2760,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_buf.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_utils.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_utils.c.obj: D:/work/src/log/easylogger/src/elog_utils.c
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_utils.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_utils.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_utils.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\log\easylogger\src\elog_utils.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\log\easylogger\src\elog_utils.c.obj -c D:\work\src\log\easylogger\src\elog_utils.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_utils.c.i: cmake_force
@@ -2760,7 +2774,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_utils.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/sys/common/sys_heap.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/sys/common/sys_heap.c.obj: D:/work/src/sys/common/sys_heap.c
 CMakeFiles/miniFoc_F4.elf.dir/src/sys/common/sys_heap.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/sys/common/sys_heap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/sys/common/sys_heap.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/sys/common/sys_heap.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\sys\common\sys_heap.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\sys\common\sys_heap.c.obj -c D:\work\src\sys\common\sys_heap.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/sys/common/sys_heap.c.i: cmake_force
@@ -2774,7 +2788,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/sys/common/sys_heap.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/sys/sram_heap/sram_heap.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/sys/sram_heap/sram_heap.c.obj: D:/work/src/sys/sram_heap/sram_heap.c
 CMakeFiles/miniFoc_F4.elf.dir/src/sys/sram_heap/sram_heap.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/sys/sram_heap/sram_heap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/sys/sram_heap/sram_heap.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/sys/sram_heap/sram_heap.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\sys\sram_heap\sram_heap.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\sys\sram_heap\sram_heap.c.obj -c D:\work\src\sys\sram_heap\sram_heap.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/sys/sram_heap/sram_heap.c.i: cmake_force
@@ -2788,7 +2802,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/sys/sram_heap/sram_heap.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/test/unity/unity.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/test/unity/unity.c.obj: D:/work/src/test/unity/unity.c
 CMakeFiles/miniFoc_F4.elf.dir/src/test/unity/unity.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/test/unity/unity.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/test/unity/unity.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/test/unity/unity.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\test\unity\unity.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\test\unity\unity.c.obj -c D:\work\src\test\unity\unity.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/test/unity/unity.c.i: cmake_force
@@ -2802,7 +2816,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/test/unity/unity.c.s: cmake_force
 CMakeFiles/miniFoc_F4.elf.dir/src/util/cjson/cJSON.c.obj: CMakeFiles/miniFoc_F4.elf.dir/flags.make
 CMakeFiles/miniFoc_F4.elf.dir/src/util/cjson/cJSON.c.obj: D:/work/src/util/cjson/cJSON.c
 CMakeFiles/miniFoc_F4.elf.dir/src/util/cjson/cJSON.c.obj: CMakeFiles/miniFoc_F4.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/util/cjson/cJSON.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/miniFoc_F4.elf.dir/src/util/cjson/cJSON.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/miniFoc_F4.elf.dir/src/util/cjson/cJSON.c.obj -MF CMakeFiles\miniFoc_F4.elf.dir\src\util\cjson\cJSON.c.obj.d -o CMakeFiles\miniFoc_F4.elf.dir\src\util\cjson\cJSON.c.obj -c D:\work\src\util\cjson\cJSON.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/util/cjson/cJSON.c.i: cmake_force
@@ -2878,6 +2892,7 @@ miniFoc_F4_elf_OBJECTS = \
 "CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/syscalls.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/sysmem.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/system_stm32f4xx.c.obj" \
+"CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.obj" \
 "CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell.c.obj" \
@@ -3078,6 +3093,7 @@ miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/stm32f4xx_i
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/syscalls.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/sysmem.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/system_stm32f4xx.c.obj
+miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell.c.obj
@@ -3214,7 +3230,7 @@ miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/src/util/cjson/cJSON.c.obj
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/build.make
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/objects1.rsp
 miniFoc_F4.elf: CMakeFiles/miniFoc_F4.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Linking CXX executable miniFoc_F4.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\work\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Linking CXX executable miniFoc_F4.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\miniFoc_F4.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/work/cmake-build-debug/miniFoc_F4.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/work/cmake-build-debug/miniFoc_F4.bin"

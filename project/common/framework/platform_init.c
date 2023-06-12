@@ -148,9 +148,7 @@ void platform_usbInit(void) {
 #if PRJCONF_SDCARD_EN
 
 void platform_sdcardInit(void) {
-//    hal_sdcInit(HAL_SDC_1);
-    extern void MX_SDIO_SD_Init(void);
-    MX_SDIO_SD_Init();
+    hal_sdcInit(HAL_SDC_1);
 }
 
 #endif
@@ -197,14 +195,18 @@ void platform_level3_init(void) {
 #if PRJCONF_VFS_FILE_SYSTEM_EN
     vfsSystemInit();
 #endif
-//
-//#if PRJCONF_BTN_EN
-//    platform_btnInit();
-//#endif
-//
-//#if PRJCONF_MOTOR_EN
-//    platform_motorInit();
-//#endif
+
+#if PRJCONF_BTN_EN
+    platform_btnInit();
+#endif
+
+#if PRJCONF_MOTOR_EN
+    platform_motorInit();
+#endif
+
+#if PRJCONF_UNITY_EN
+    UnityManager_run();
+#endif
 }
 
 void platform_init(void) {

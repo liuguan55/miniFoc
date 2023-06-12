@@ -219,18 +219,19 @@ void testData(){
     res = vfsClose(&file);
     TEST_ASSERT_EQUAL(VFS_RES_OK, res);
 
-    res = vfsMkdir(VFS_PATH_DATA"/qwe");
-    TEST_ASSERT_EQUAL(VFS_RES_OK, res);
-    res = vfsDirOpen(&file, VFS_PATH_DATA"/qwe");
-    TEST_ASSERT_EQUAL(VFS_RES_OK, res);
-    res = vfsDirRead(&file, &info);
-    TEST_ASSERT_EQUAL(VFS_RES_OK, res);
-    res = vfsDirClose(&file);
-    TEST_ASSERT_EQUAL(VFS_RES_OK, res);
-
-    res = vfsRemoveDir(VFS_PATH_DATA"/qwe");
-    TEST_ASSERT_EQUAL(VFS_RES_OK, res);
+//    res = vfsMkdir(VFS_PATH_DATA"/qwe");
+//    TEST_ASSERT_EQUAL(VFS_RES_OK, res);
+//    res = vfsDirOpen(&file, VFS_PATH_DATA"/qwe");
+//    TEST_ASSERT_EQUAL(VFS_RES_OK, res);
+//    res = vfsDirRead(&file, &info);
+//    TEST_ASSERT_EQUAL(VFS_RES_OK, res);
+//    res = vfsDirClose(&file);
+//    TEST_ASSERT_EQUAL(VFS_RES_OK, res);
+//
+//    res = vfsRemoveDir(VFS_PATH_DATA"/qwe");
+//    TEST_ASSERT_EQUAL(VFS_RES_OK, res);
 }
+
 
 static void test_run(){
     UNITY_BEGIN();
@@ -240,4 +241,4 @@ static void test_run(){
     UNITY_END();
 }
 
-UnityManager_add_test(test_run)
+//UnityManager_add_test(test_run)

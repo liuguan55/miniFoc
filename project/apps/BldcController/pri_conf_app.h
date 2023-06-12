@@ -69,6 +69,8 @@ extern "C" {
 #define PRJCONF_USB_EN                  1
 
 #define PRJCONF_SDCARD_EN               1
+
+#define PRJCONF_UNITY_EN                1
 #ifdef __cplusplus
 }
 #endif

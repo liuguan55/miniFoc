@@ -44,8 +44,8 @@ set(CMAKE_CXX_STANDARD 11 )
 
 #add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -D__FPU_PRESENT=1)
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx)
-#add_definitions(-D__CONFIG_MALLOC_MODE=1 -D__CONFIG_MALLOC_TRACE -DHEAP_BACKTRACE)
-add_definitions(-D__CONFIG_MALLOC_MODE=1)
+add_definitions(-D__CONFIG_MALLOC_MODE=1 -D__CONFIG_MALLOC_TRACE -DHEAP_BACKTRACE)
+#add_definitions(-D__CONFIG_MALLOC_MODE=1)
 
 file(GLOB_RECURSE SOURCES
         "src/driver/*.*"
@@ -65,7 +65,7 @@ file(GLOB_RECURSE SOURCES
         "project/common/cmd/*.*"
         "project/common/startup/*.*"
         "project/common/framework/*.*"
-        "project/common/test/*.*"
+        "project/test/*.*"
         "project/apps/BldcController/*.*"
         "include/*.*"
         )

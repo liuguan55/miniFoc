@@ -93,7 +93,11 @@ CMakeFiles/miniFoc_F4.elf.dir/project/apps/BldcController/main.c.obj: D:/work/pr
   D:/work/include/driver/hal/hal_usb.h \
   D:/work/include/log/easylogger/elog.h \
   D:/work/include/log/easylogger/elog_cfg.h \
-  D:/work/include/driver/hal/hal_timer.h
+  D:/work/include/driver/hal/hal_timer.h \
+  D:/work/include/driver/hal/hal_board.h \
+  D:/work/include/driver/hal/hal_dev.h \
+  D:/work/include/driver/hal/hal_debug.h \
+  D:/work/include/driver/hal/hal_gpio.h
 
 CMakeFiles/miniFoc_F4.elf.dir/project/common/board/Board.c.obj: D:/work/project/common/board/Board.c \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
@@ -6972,6 +6976,59 @@ CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/system_stm32f4xx.c.obj: D:/
   D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_ll_usb.h \
   D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_pcd_ex.h
 
+CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.obj: D:/work/project/test/testVfs.c \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdlib.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/alloca.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h \
+  D:/work/include/fs/vfs/vfs.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdio.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/endian.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_endian.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/select.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timeval.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/timespec.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timespec.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/sched.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stdio.h \
+  D:/work/project/common/framework/UnityManager.h \
+  D:/work/include/test/unity/unity.h \
+  D:/work/include/test/unity/unity_internals.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/setjmp.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/setjmp.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/math.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/limits.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/syslimits.h \
+  D:/work/include/compiler.h
+
 CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.obj: D:/work/src/console/MiniShell.c \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdio.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
@@ -7966,7 +8023,60 @@ CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.obj: D:/work
 
 CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj: D:/work/src/debug/debug.c
 
-CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj: D:/work/src/debug/heap_trace.c
+CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj: D:/work/src/debug/heap_trace.c \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdio.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/endian.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_endian.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/select.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timeval.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/timespec.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timespec.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/sched.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stdio.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdlib.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/alloca.h \
+  D:/work/include/sys/sys_heap.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/work/include/kernel/FreeRTOS/FreeRTOS.h \
+  D:/work/include/kernel/FreeRTOS/FreeRTOSConfig.h \
+  D:/work/include/kernel/FreeRTOS/projdefs.h \
+  D:/work/include/kernel/FreeRTOS/portable.h \
+  D:/work/include/kernel/FreeRTOS/deprecated_definitions.h \
+  D:/work/include/kernel/FreeRTOS/GCC/ARM_CM4F/portmacro.h \
+  D:/work/include/kernel/FreeRTOS/mpu_wrappers.h \
+  D:/work/include/kernel/FreeRTOS/task.h \
+  D:/work/include/kernel/FreeRTOS/list.h \
+  D:/work/include/sys/interrupt.h \
+  D:/work/include/compiler.h \
+  D:/work/include/debug/heap_trace.h \
+  D:/work/include/debug/backtrace.h
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/adc.c.obj: D:/work/src/driver/adc.c
 
@@ -12154,7 +12264,110 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_rnd.c.obj: D:/work/src/driver/h
   D:/work/include/compiler.h \
   D:/work/include/sys/interrupt.h
 
-CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_sdio.c.obj: D:/work/src/driver/hal/hal_sdio.c
+CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_sdio.c.obj: D:/work/src/driver/hal/hal_sdio.c \
+  D:/work/include/driver/hal/hal_sdio.h \
+  D:/work/include/driver/hal/hal_def.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal.h \
+  D:/work/include/driver/stm32f4xx_hal_conf.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_def.h \
+  D:/work/include/driver/chip/CMSIS/device/ST/STM32F4xx/stm32f4xx.h \
+  D:/work/include/driver/chip/CMSIS/device/ST/STM32F4xx/stm32f405xx.h \
+  D:/work/include/driver/chip/CMSIS/core_cm4.h \
+  D:/work/include/driver/chip/CMSIS/cmsis_version.h \
+  D:/work/include/driver/chip/CMSIS/cmsis_compiler.h \
+  D:/work/include/driver/chip/CMSIS/cmsis_gcc.h \
+  D:/work/include/driver/chip/CMSIS/mpu_armv7.h \
+  D:/work/include/driver/chip/CMSIS/device/ST/STM32F4xx/system_stm32f4xx.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/Legacy/stm32_hal_legacy.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio_ex.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_adc.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_ll_adc.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_adc_ex.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_crc.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c_ex.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_iwdg.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_rng.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_sd.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_ll_sdmmc.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_spi.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_uart.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_wwdg.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_pcd.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_ll_usb.h \
+  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_pcd_ex.h \
+  D:/work/include/driver/hal/hal_board.h \
+  D:/work/include/driver/hal/hal_dev.h \
+  D:/work/include/driver/hal/hal_debug.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdio.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/endian.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_endian.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/select.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timeval.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/timespec.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timespec.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/sched.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/types.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stdio.h \
+  D:/work/include/sys/MiniUtil.h \
+  D:/work/include/compiler.h \
+  D:/work/include/sys/interrupt.h \
+  D:/work/include/driver/hal/hal_os.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdlib.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/alloca.h \
+  D:/work/include/kernel/FreeRTOS/FreeRTOS.h \
+  D:/work/include/kernel/FreeRTOS/FreeRTOSConfig.h \
+  D:/work/include/kernel/FreeRTOS/projdefs.h \
+  D:/work/include/kernel/FreeRTOS/portable.h \
+  D:/work/include/kernel/FreeRTOS/deprecated_definitions.h \
+  D:/work/include/kernel/FreeRTOS/GCC/ARM_CM4F/portmacro.h \
+  D:/work/include/kernel/FreeRTOS/mpu_wrappers.h \
+  D:/work/include/kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.h \
+  D:/work/include/sys/MiniDebug.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/errno.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/errno.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_spi.c.obj: D:/work/src/driver/hal/hal_spi.c \
   D:/work/include/driver/hal/hal_spi.h \
@@ -12766,60 +12979,7 @@ CMakeFiles/miniFoc_F4.elf.dir/src/driver/iwdg.c.obj: D:/work/src/driver/iwdg.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/rng.c.obj: D:/work/src/driver/rng.c
 
-CMakeFiles/miniFoc_F4.elf.dir/src/driver/sdio.c.obj: D:/work/src/driver/sdio.c \
-  D:/work/include/driver/sdio.h \
-  D:/work/include/driver/main.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal.h \
-  D:/work/include/driver/stm32f4xx_hal_conf.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_def.h \
-  D:/work/include/driver/chip/CMSIS/device/ST/STM32F4xx/stm32f4xx.h \
-  D:/work/include/driver/chip/CMSIS/device/ST/STM32F4xx/stm32f405xx.h \
-  D:/work/include/driver/chip/CMSIS/core_cm4.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
-  D:/work/include/driver/chip/CMSIS/cmsis_version.h \
-  D:/work/include/driver/chip/CMSIS/cmsis_compiler.h \
-  D:/work/include/driver/chip/CMSIS/cmsis_gcc.h \
-  D:/work/include/driver/chip/CMSIS/mpu_armv7.h \
-  D:/work/include/driver/chip/CMSIS/device/ST/STM32F4xx/system_stm32f4xx.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/Legacy/stm32_hal_legacy.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio_ex.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_exti.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_adc.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_ll_adc.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_adc_ex.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_crc.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ex.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_flash_ramfunc.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c_ex.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_iwdg.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr_ex.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_rng.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_sd.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_ll_sdmmc.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_spi.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_tim_ex.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_uart.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_wwdg.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_pcd.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_ll_usb.h \
-  D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal_pcd_ex.h
+CMakeFiles/miniFoc_F4.elf.dir/src/driver/sdio.c.obj: D:/work/src/driver/sdio.c
 
 CMakeFiles/miniFoc_F4.elf.dir/src/driver/spi.c.obj: D:/work/src/driver/spi.c
 
@@ -15193,7 +15353,8 @@ CMakeFiles/miniFoc_F4.elf.dir/src/sys/sram_heap/sram_heap.c.obj: D:/work/src/sys
   D:/work/include/kernel/FreeRTOS/task.h \
   D:/work/include/kernel/FreeRTOS/list.h \
   D:/work/include/sys/interrupt.h \
-  D:/work/include/compiler.h
+  D:/work/include/compiler.h \
+  D:/work/include/debug/heap_trace.h
 
 CMakeFiles/miniFoc_F4.elf.dir/src/test/unity/unity.c.obj: D:/work/src/test/unity/unity.c \
   D:/work/include/test/unity/unity.h \
@@ -15349,8 +15510,6 @@ D:/work/src/driver/hal/hal_timer.c:
 
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h:
 
-D:/work/src/driver/hal/hal_wdg.c:
-
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h:
 
 D:/work/project/common/framework/MiniFoc/current/Current.c:
@@ -15370,6 +15529,8 @@ D:/work/include/driver/stm32f4xx_it.h:
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timespec.h:
 
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
+
+D:/work/include/driver/hal/hal_dev.h:
 
 D:/work/include/kernel/FreeRTOS/portable.h:
 
@@ -15439,6 +15600,8 @@ D:/work/include/kernel/FreeRTOS/mpu_wrappers.h:
 
 D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c:
 
+D:/work/project/test/testVfs.c:
+
 D:/work/src/console/lettershell/shell_cmd_list.c:
 
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h:
@@ -15497,10 +15660,6 @@ C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-n
 
 D:/work/include/kernel/FreeRTOS/projdefs.h:
 
-D:/work/src/gui/lvgl/src/extra/widgets/led/lv_led.h:
-
-D:/work/project/common/board/Board.h:
-
 D:/work/include/kernel/FreeRTOS/GCC/ARM_CM4F/portmacro.h:
 
 D:/work/include/log/easylogger/elog_cfg.h:
@@ -15515,19 +15674,29 @@ D:/work/src/driver/hal/hal_board.c:
 
 D:/work/include/driver/chip/STM32_USB_Device_Library/Class/MSC/usbd_msc_scsi.h:
 
-D:/work/project/common/board/Board.c:
-
-D:/work/include/driver/hal/hal_base.h:
-
-D:/work/src/gui/lvgl/src/extra/widgets/keyboard/lv_keyboard.h:
-
 D:/work/include/driver/hal/hal_board.h:
 
 D:/work/include/driver/component/flash/sfud/sfud.h:
 
-D:/work/include/driver/hal/hal_dev.h:
-
 D:/work/include/driver/hal/hal_debug.h:
+
+D:/work/project/common/board/BoardCommon.c:
+
+D:/work/project/common/startup/retarget.c:
+
+D:/work/include/driver/hal/hal_gpio.h:
+
+D:/work/src/gui/lvgl/src/extra/layouts/grid/lv_grid.h:
+
+D:/work/project/common/board/Board.c:
+
+D:/work/src/gui/lvgl/src/extra/widgets/led/lv_led.h:
+
+D:/work/project/common/board/Board.h:
+
+D:/work/include/driver/hal/hal_base.h:
+
+D:/work/src/gui/lvgl/src/extra/widgets/keyboard/lv_keyboard.h:
 
 D:/work/include/driver/hal/hal_uart.h:
 
@@ -15544,14 +15713,6 @@ D:/work/include/driver/hal/hal_spi.h:
 C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/setjmp.h:
 
 D:/work/project/common/board/BoardDebug.h:
-
-D:/work/project/common/board/BoardCommon.c:
-
-D:/work/project/common/startup/retarget.c:
-
-D:/work/include/driver/hal/hal_gpio.h:
-
-D:/work/src/gui/lvgl/src/extra/layouts/grid/lv_grid.h:
 
 D:/work/include/driver/chip/STM32F4xx_HAL_Driver/stm32f4xx_hal.h:
 
@@ -15879,11 +16040,11 @@ D:/work/include/debug/heap_trace.h:
 
 D:/work/project/common/framework/platform_init.h:
 
+D:/work/src/driver/hal/hal_usb.c:
+
 D:/work/project/common/framework/UnityManager.h:
 
 D:/work/src/console/lettershell/log.c:
-
-D:/work/src/driver/hal/hal_usb.c:
 
 D:/work/include/driver/hal/systemChip.h:
 
@@ -16283,6 +16444,8 @@ D:/work/src/driver/hal/hal_uart.c:
 
 D:/work/src/debug/cm_backtrace/Languages/en-US/cmb_en_US.h:
 
+D:/work/include/debug/backtrace.h:
+
 D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c:
 
 D:/work/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:
@@ -16362,6 +16525,8 @@ D:/work/include/driver/hal/hal_flash.h:
 D:/work/src/driver/hal/hal_i2c.c:
 
 D:/work/src/driver/hal/hal_rnd.c:
+
+D:/work/src/driver/hal/hal_wdg.c:
 
 D:/work/src/driver/hal/systemChip.c:
 

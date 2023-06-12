@@ -19,9 +19,11 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "ARM_MATH_MATRIX_CHECK"
   "ARM_MATH_ROUNDING"
   "DEBUG"
+  "HEAP_BACKTRACE"
   "STM32F405xx"
   "USE_HAL_DRIVER"
   "__CONFIG_MALLOC_MODE=1"
+  "__CONFIG_MALLOC_TRACE"
   )
 
 # The include file search paths:
@@ -116,6 +118,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/work/project/common/startup/syscalls.c" "CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/syscalls.c.obj" "gcc" "CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/syscalls.c.obj.d"
   "D:/work/project/common/startup/sysmem.c" "CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/sysmem.c.obj" "gcc" "CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/sysmem.c.obj.d"
   "D:/work/project/common/startup/system_stm32f4xx.c" "CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/system_stm32f4xx.c.obj" "gcc" "CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/system_stm32f4xx.c.obj.d"
+  "D:/work/project/test/testVfs.c" "CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.obj" "gcc" "CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.obj.d"
   "D:/work/src/console/MiniShell.c" "CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.obj" "gcc" "CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.obj.d"
   "D:/work/src/console/lettershell/log.c" "CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.obj" "gcc" "CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.obj.d"
   "D:/work/src/console/lettershell/shell.c" "CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell.c.obj" "gcc" "CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell.c.obj.d"

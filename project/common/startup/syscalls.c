@@ -33,6 +33,7 @@
 #include "driver/component/usb/USB_DEVICE/App/usbd_cdc_if.h"
 #include "common/framework/MiniCommon.h"
 
+
 /* Variables */
 extern int __io_putchar(int ch) __attribute__((weak));
 
@@ -43,6 +44,7 @@ char **environ = __env;
 
 __attribute__((weak))  int __io_putchar(int ch) {
     UNUSED(ch);
+
     return 0;
 }
 

@@ -1627,6 +1627,30 @@ project/common/startup/system_stm32f4xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/system_stm32f4xx.c.s
 .PHONY : project/common/startup/system_stm32f4xx.c.s
 
+project/test/testVfs.obj: project/test/testVfs.c.obj
+.PHONY : project/test/testVfs.obj
+
+# target to build an object file
+project/test/testVfs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.obj
+.PHONY : project/test/testVfs.c.obj
+
+project/test/testVfs.i: project/test/testVfs.c.i
+.PHONY : project/test/testVfs.i
+
+# target to preprocess a source file
+project/test/testVfs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.i
+.PHONY : project/test/testVfs.c.i
+
+project/test/testVfs.s: project/test/testVfs.c.s
+.PHONY : project/test/testVfs.s
+
+# target to generate assembly for a file
+project/test/testVfs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.s
+.PHONY : project/test/testVfs.c.s
+
 src/console/MiniShell.obj: src/console/MiniShell.c.obj
 .PHONY : src/console/MiniShell.obj
 
@@ -4999,6 +5023,9 @@ help:
 	@echo ... project/common/startup/system_stm32f4xx.obj
 	@echo ... project/common/startup/system_stm32f4xx.i
 	@echo ... project/common/startup/system_stm32f4xx.s
+	@echo ... project/test/testVfs.obj
+	@echo ... project/test/testVfs.i
+	@echo ... project/test/testVfs.s
 	@echo ... src/console/MiniShell.obj
 	@echo ... src/console/MiniShell.i
 	@echo ... src/console/MiniShell.s

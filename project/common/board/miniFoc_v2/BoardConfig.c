@@ -117,6 +117,10 @@ static const GPIO_PinMuxParam  g_pinmux_flashc[] = {
         { HAL_GPIO_PORT_C, HAL_GPIO_PIN_5,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_3 , HAL_GPIO_AF_NONE} }, /* CS */
 };
 
+static const GPIO_PinMuxParam  g_pinmux_led[] = {
+        { HAL_GPIO_PORT_C, HAL_GPIO_PIN_13,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_3 , HAL_GPIO_AF_NONE} }, /* SCL */
+};
+
 static HAL_Status board_get_pinmux_info(uint32_t major, uint32_t minor, uint32_t param,
                                         struct board_pinmux_info info[])
 {
@@ -192,6 +196,12 @@ static HAL_Status board_get_pinmux_info(uint32_t major, uint32_t minor, uint32_t
             info[0].pinmux = g_pinmux_flashc;
             info[0].count = HAL_ARRAY_SIZE(g_pinmux_flashc);
             break;
+        case HAL_DEV_MAJOR_LED:
+            if (minor < HAL_ARRAY_SIZE(g_pinmux_led)){
+                info[0].pinmux = &g_pinmux_led[minor];
+                info[0].count = 1;//HAL_ARRAY_SIZE(g_pinmux_led);
+            }
+            break;
         default:
             BOARD_ERR("unknow major %u\n", major);
             ret = HAL_STATUS_INVALID;
@@ -217,6 +227,13 @@ static HAL_Status board_get_cfg(uint32_t major, uint32_t minor, uint32_t param)
                 info->count = HAL_ARRAY_SIZE(g_pinmux_spi2_cs);
             } else {
                 ret = HAL_STATUS_INVALID;
+            }
+            break;
+        case HAL_DEV_MAJOR_LED:
+            if (minor < HAL_ARRAY_SIZE(g_pinmux_led)){
+                board_pinmux_info_t *info = (board_pinmux_info_t *) param;
+                info->pinmux = &g_pinmux_led[minor];
+                info->count = 1;//HAL_ARRAY_SIZE(g_pinmux_led);
             }
             break;
         default:

@@ -124,6 +124,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/sysmem.c.obj.d"
   "CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/system_stm32f4xx.c.obj"
   "CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/system_stm32f4xx.c.obj.d"
+  "CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.obj"
+  "CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.obj.d"
   "CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.obj"
   "CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.obj.d"
   "CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.obj"

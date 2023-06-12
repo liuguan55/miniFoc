@@ -39,12 +39,12 @@ static UnityManager_t unityManager = {0};
 
 void setUp(void) {
     // set stuff up here
-    printf("\r\nsetUp\n");
+//    printf("\r\nsetUp\n");
 }
 
 void tearDown(void) {
     // clean stuff up here
-    printf("\r\ntearDown\n");
+//    printf("\r\ntearDown\n");
 }
 
 void UnityManager_init(void) {

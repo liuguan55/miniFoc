@@ -53,12 +53,12 @@ struct heap_mem {
 #endif
 };
 
-static struct heap_mem g_mem[HEAP_MEM_MAX_CNT];
+static struct heap_mem g_mem[HEAP_MEM_MAX_CNT] __ccmram;
 
 static int g_mem_empty_idx = 0; /* beginning idx to do the search for new one */
 
 static heap_info_t g_mem_info;
-
+static volatile int g_mem_init = 0;
 #ifdef SRAM_HEAP_TRACE
 static heap_info_t g_sram_info;
 #endif
@@ -176,6 +176,13 @@ static void heap_trace_add_entry(void *ptr, size_t size)
 {
     int i;
 
+    if (!g_mem_init){
+        g_mem_init = 1;
+        memset(&g_mem_info, 0, sizeof(heap_info_t));
+        memset(g_mem, 0, sizeof(g_mem));
+    }
+
+//    printf("add entry %p, %u\n", ptr, size);
     MEM_SET_MAGIC(ptr, size);
 
     for (i = g_mem_empty_idx; i < HEAP_MEM_MAX_CNT; ++i) {

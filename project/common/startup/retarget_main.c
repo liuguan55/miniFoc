@@ -38,6 +38,7 @@ static HAL_Thread g_main_thread;
 
 static void main_task(void *arg)
 {
+    UNUSED(arg);
     platform_init();
     __real_main();
     HAL_ThreadDelete(&g_main_thread);

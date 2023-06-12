@@ -66,6 +66,12 @@ static int stdout_write(const char *buf, int len)
 	return board_uart_write(g_stdout_uart_id, buf, len);
 }
 
+int __io_putchar(int ch) {
+    stdout_write((const char *)&ch, 1);
+
+    return 0;
+}
+
 int stdout_init(void)
 {
 	if (g_stdout_uart_id < HAL_UART_NR) {
