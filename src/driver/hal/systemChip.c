@@ -25,7 +25,7 @@
 //
 // Created by 86189 on 2023/5/23.
 //
-#include "stm32f4xx_hal.h"
+#include "driver/driver_chip.h"
 #include "driver/hal/systemChip.h"
 #include "driver/hal/hal_board.h"
 #include "driver/hal/hal_dma.h"

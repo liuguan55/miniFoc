@@ -4,7 +4,6 @@
 
 #include "fonts.h"
 #include <stdbool.h>
-#include "driver/spi.h"
 
 #define ST7735_MADCTL_MY  0x80
 #define ST7735_MADCTL_MX  0x40
@@ -15,8 +14,7 @@
 #define ST7735_MADCTL_MH  0x04
 
 /*** Redefine if necessary ***/
-#define ST7735_SPI_PORT hspi1
-extern SPI_HandleTypeDef ST7735_SPI_PORT;
+#define ST7735_SPI_PORT  hspi1
 
 #define ST7735_RES_Pin       GPIO_PIN_8
 #define ST7735_RES_GPIO_Port GPIOA

@@ -5,7 +5,7 @@
 #include "driver.h"
 #include "common/framework/MiniCommon.h"
 
-#define PWM_HANDLE &htim2
+#define PWM_HANDLE NULL //&htim2
 #define M1_Enable    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4, GPIO_PIN_SET);          //高电平使能
 #define M1_Disable   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4, GPIO_PIN_RESET);       //低电平失能
 #define  PWM_Period   (4199.0)
@@ -25,9 +25,9 @@ static void  setPwm(float Ta, float Tb , float Tc)
 {
 //  log_d("Ta %4.2f %4.2f %4.2f\n",Ta,Tb,Tc);
 
-  __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_2, Ta * PWM_Period);
-  __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_3, Tb * PWM_Period);
-  __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_4, Tc * PWM_Period);
+//  __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_2, Ta * PWM_Period);
+//  __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_3, Tb * PWM_Period);
+//  __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_4, Tc * PWM_Period);
 }
 
 // Set voltage to the pwm pin

@@ -1,0 +1,30 @@
+
+SET(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F405RGTX_FLASH.ld)
+
+#Uncomment for hardware floating point
+SET(FPU_FLAGS "-mfloat-abi=hard -mfpu=fpv4-sp-d16")
+add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING )
+#add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING )
+#Uncomment for software floating point
+#SET(FPU_FLAGS "-mfloat-abi=soft")
+
+SET(COMMON_FLAGS
+    "-mcpu=cortex-m4 ${FPU_FLAGS} -mthumb -mthumb-interwork -ffunction-sections -fdata-sections \
+    -g -fno-common -fmessage-length=0 -Wall -Werror ")
+
+#add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -D__FPU_PRESENT=1)
+add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx)
+add_definitions(-D__CONFIG_MALLOC_MODE=1 -D__CONFIG_MALLOC_TRACE -DHEAP_BACKTRACE)
+#add_definitions(-D__CONFIG_MALLOC_MODE=1)
+
+string(TOUPPER STM32F4 TARGET_MCU_UPPER)
+add_definitions(-DTARGET_MCU_${TARGET_MCU_UPPER})
+
+
+set(PLATFORM_SOURCES "src/driver/chip/STM32F4xx_HAL_Driver/*.*"
+            )
+
+set(PLATFORM_INCLUDES         include/driver/chip/platform/STM32F4xx_HAL_Driver
+                              include/driver/chip/platform/STM32F4xx_HAL_Driver/Legacy
+                              include/driver/chip/CMSIS/Device/ST/STM32F4xx
+                              include/kernel/FreeRTOS/GCC/ARM_CM4F)

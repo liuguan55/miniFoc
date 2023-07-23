@@ -27,7 +27,7 @@
 //
 
 #include "driver/hal/hal_dma.h"
-#include "stm32f4xx_hal.h"
+#include "driver/driver_chip.h"
 
 /**
   * Enable DMA controller clock

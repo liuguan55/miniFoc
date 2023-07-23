@@ -21,41 +21,16 @@
 //  *  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 //  *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //  *
-#include "sys/MiniDebug.h"
-#include "driver/hal/hal_os.h"
-#include "driver/hal/hal_usb.h"
-#include "log/easylogger/elog.h"
-#include "driver/hal/hal_timer.h"
-#include "driver/hal/hal_board.h"
-#include "driver/hal/hal_dev.h"
-#include "driver/hal/hal_gpio.h"
 
-#undef LOG_TAG
-#define LOG_TAG "main"
+//
+// Created by 86189 on 2023/7/23.
+//
 
+#ifndef MINIFOC_DRIVER_CHIP_H
+#define MINIFOC_DRIVER_CHIP_H
 
-void ledTask(void  *args){
-    UNUSED(args);
-    board_pinmux_info_t pinmux_info;
-    HAL_BoardIoctl(HAL_BIR_GET_CFG, HAL_MKDEV(HAL_DEV_MAJOR_LED, 0), (uint32_t)&pinmux_info);
+#ifdef TARGET_MCU_STM32F4
+#include "stm32f4xx_hal.h"
+#endif
 
-    HAL_GpioTogglePin(pinmux_info.pinmux[0].port, pinmux_info.pinmux[0].pin);
-}
-void ledTaskStart(){
-    static HAL_Timer timer;
-
-    HAL_BoardIoctl(HAL_BIR_PINMUX_INIT, HAL_MKDEV(HAL_DEV_MAJOR_LED, 0), 0);
-    HAL_TimerInit(&timer, osTimerPeriodic, ledTask, NULL);
-    HAL_TimerStart(&timer, 500);
-}
-/**
-  * @brief  The application entry point.
-  *
-  * @retval int
-  */
-int main(void) {
-    ledTaskStart();
-
-    return 0;
-}
-
+#endif //MINIFOC_DRIVER_CHIP_H

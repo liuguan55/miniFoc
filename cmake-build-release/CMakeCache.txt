@@ -164,7 +164,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=miniFoc_F4
+CMAKE_PROJECT_NAME:STATIC=miniFoc
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-ranlib.exe
@@ -258,6 +258,12 @@ ProcessorCount_cmd_sysinfo:FILEPATH=ProcessorCount_cmd_sysinfo-NOTFOUND
 //Path to a program.
 ProcessorCount_cmd_uname:FILEPATH=ProcessorCount_cmd_uname-NOTFOUND
 
+//Target MCU
+TARGET_MCU:STRING=STM32F4
+
+//Value Computed by CMake
+miniFoc_BINARY_DIR:STATIC=D:/work/cmake-build-release
+
 //Value Computed by CMake
 miniFoc_F4_BINARY_DIR:STATIC=D:/work/cmake-build-release
 
@@ -266,6 +272,12 @@ miniFoc_F4_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 miniFoc_F4_SOURCE_DIR:STATIC=D:/work
+
+//Value Computed by CMake
+miniFoc_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+miniFoc_SOURCE_DIR:STATIC=D:/work
 
 
 ########################

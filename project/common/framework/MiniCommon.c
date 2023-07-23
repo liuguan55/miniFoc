@@ -5,7 +5,6 @@
 #include "MiniCommon.h"
 #include "kernel/FreeRTOS/FreeRTOS.h"
 #include "kernel/FreeRTOS/task.h"
-#include "driver/main.h"
 #include "kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os.h"
 #include <stdio.h>
 

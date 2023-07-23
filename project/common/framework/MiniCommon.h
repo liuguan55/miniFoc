@@ -6,16 +6,12 @@
 #define MINI_FOC_CORE_SRC_MINICOMMON_H_
 #include "kernel/FreeRTOS/FreeRTOS.h"
 #include "kernel/FreeRTOS/task.h"
-#include "driver/main.h"
 #include "kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os.h"
 #include <stdio.h>
 #include <string.h>
 #include "log/easylogger/elog.h"
 #include "common/framework/easyflash/easyflash.h"
 #include "log/easylogger/elog_flash.h"
-#include "driver/usart.h"
-#include "driver/tim.h"
-#include "driver/i2c.h"
 #include "MiniFoc/MiniFoc.h"
 #include "debug/cm_backtrace/cm_backtrace.h"
 #include "gui.h"

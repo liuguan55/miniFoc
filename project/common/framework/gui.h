@@ -1,6 +1,5 @@
 #ifndef FOC_DRIVER_GUI_H
 #define FOC_DRIVER_GUI_H
-#include "driver/main.h"
 #include "MiniFoc/MiniFoc.h"
 #include "driver/component/lcd/st7735/st7735.h"
 

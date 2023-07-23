@@ -29,8 +29,6 @@
 #include <stdarg.h>
 #include "kernel/FreeRTOS/FreeRTOS.h"
 #include "kernel/FreeRTOS/task.h"
-#include "driver/main.h"
-#include "driver/usart.h"
 #include "kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os.h"
 #include <stdio.h>
 #include <string.h>

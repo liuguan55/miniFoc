@@ -32,7 +32,7 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "driver/chip/CMSIS/device/ST/STM32F4xx/stm32f4xx.h"
-#include "driver/chip/STM32F4xx_HAL_Driver/Legacy/stm32_hal_legacy.h"
+#include "driver/chip/platform/STM32F4xx_HAL_Driver/Legacy/stm32_hal_legacy.h"
 #include <stddef.h>
 
 /* Exported types ------------------------------------------------------------*/

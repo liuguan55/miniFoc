@@ -23,7 +23,6 @@
 
 /* USER CODE BEGIN INCLUDE */
 #include "fs/FatFs/ff_gen_drv.h"
-#include "driver/sdio.h"
 #include "fs/FatFs/Target/sd_diskio.h"
 /* USER CODE END INCLUDE */
 

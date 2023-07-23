@@ -6,6 +6,6 @@
 
 float MiniFoc_getVbus(void)
 {
-  unsigned short raw_adc = analogRead(ADC_CHANNEL_4, ADC_SAMPLETIME_84CYCLES, 100);
+  unsigned short raw_adc = 0;
   return (float)raw_adc * 69.3 / 4096;
 }

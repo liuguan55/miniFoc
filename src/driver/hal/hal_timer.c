@@ -27,7 +27,7 @@
 //
 
 #include "driver/hal/hal_timer.h"
-#include "stm32f4xx_hal.h"
+#include "driver/driver_chip.h"
 #include "kernel/FreeRTOS/FreeRTOS.h"
 #include "kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.h"
 #include "driver/hal/hal_def.h"

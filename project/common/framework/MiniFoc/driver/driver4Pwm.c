@@ -5,7 +5,7 @@
 #include "driver.h"
 #include "common/framework/MiniCommon.h"
 
-#define PWM_HANDLE &htim2
+#define PWM_HANDLE NULL //&htim2
 #define M1_Enable    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4, GPIO_PIN_SET);          //高电平使能
 #define M1_Disable   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4, GPIO_PIN_RESET);       //低电平失能
 #define  PWM_Period   (4199.0)
@@ -37,10 +37,10 @@ static void  setPwm(float Ua, float Ub)
 	duty_cycle2A = _constrain(abs(Ub),0.0f,1.0f);
 
   // write to hardware
-  __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_2, duty_cycle1A * PWM_Period);
-  __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_3, duty_cycle1B * PWM_Period);
-  __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_3, duty_cycle2A * PWM_Period);
-  __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_3, duty_cycle2B * PWM_Period);
+//  __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_2, duty_cycle1A * PWM_Period);
+//  __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_3, duty_cycle1B * PWM_Period);
+//  __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_3, duty_cycle2A * PWM_Period);
+//  __HAL_TIM_SET_COMPARE(PWM_HANDLE, TIM_CHANNEL_3, duty_cycle2B * PWM_Period);
 }
 
 static void pwmEnable(void)

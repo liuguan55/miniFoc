@@ -30,7 +30,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "driver/main.h"
 #include "driver/chip/CMSIS/device/ST/STM32F4xx/stm32f4xx.h"
 #include "stm32f4xx_hal.h"
 

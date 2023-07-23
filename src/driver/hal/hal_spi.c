@@ -27,7 +27,7 @@
 //
 
 #include "driver/hal/hal_spi.h"
-#include "stm32f4xx_hal.h"
+#include "driver/driver_chip.h"
 #include "driver/hal/hal_os.h"
 #include "driver/hal/hal_board.h"
 #include "driver/hal/hal_def.h"

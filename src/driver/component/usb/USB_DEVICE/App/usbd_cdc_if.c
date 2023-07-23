@@ -24,7 +24,6 @@
 /* USER CODE BEGIN INCLUDE */
 #include <stdio.h>
 #include <stdbool.h>
-#include "driver/usart.h"
 /* USER CODE END INCLUDE */
 
 /* Private typedef -----------------------------------------------------------*/

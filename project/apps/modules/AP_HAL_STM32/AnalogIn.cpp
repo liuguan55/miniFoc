@@ -59,7 +59,7 @@ STM32AnalogSource::STM32AnalogSource(float v) :
 }
 
 float STM32AnalogSource::read_average() {
-    _lastValue  =  analogRead(_v, sAdcMapTable[_conversionTime], 100);
+    _lastValue  =  0 ;
     float averageValue = _filter.apply(_lastValue);
 
     _averageVoltage = 5.0f * averageValue / 1024.0f;;
@@ -97,7 +97,7 @@ STM32AnalogIn::STM32AnalogIn() {}
 void STM32AnalogIn::init(void *implspecific) {
     UNUSED(implspecific);
 
-    MX_ADC1_Init();
+//    MX_ADC1_Init();
 }
 
 AP_HAL::AnalogSource *STM32AnalogIn::channel(int16_t n) {
@@ -105,6 +105,6 @@ AP_HAL::AnalogSource *STM32AnalogIn::channel(int16_t n) {
 }
 
 float STM32AnalogIn::board_voltage(void) {
-    unsigned short raw_adc = analogRead(ADC_CHANNEL_4, ADC_SAMPLETIME_84CYCLES, 100);
+    unsigned short raw_adc = 0;//
     return (float) raw_adc * 69.3 / 4096;
 }

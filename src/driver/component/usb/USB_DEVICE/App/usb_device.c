@@ -29,7 +29,7 @@
 
 #include "usbd_msc.h"
 #include "usbd_storage_if.h"
-
+#include "sys/MiniDebug.h"
 
 /* USER CODE BEGIN Includes */
 
@@ -37,7 +37,9 @@
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-
+void Error_Handler(void){
+    assert(0);
+}
 /* USER CODE END PV */
 
 /* USER CODE BEGIN PFP */

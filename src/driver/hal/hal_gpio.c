@@ -27,7 +27,7 @@
 //
 
 #include <stdbool.h>
-#include "stm32f4xx_hal.h"
+#include "driver/driver_chip.h"
 #include "driver/hal/hal_gpio.h"
 #include "driver/hal/hal_base.h"
 

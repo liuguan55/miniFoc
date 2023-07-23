@@ -29,7 +29,6 @@
 #include <time.h>
 #include <sys/time.h>
 #include <sys/times.h>
-#include "driver/usart.h"
 #include "driver/component/usb/USB_DEVICE/App/usbd_cdc_if.h"
 #include "common/framework/MiniCommon.h"
 

@@ -27,7 +27,7 @@
 //
 
 #include "driver/hal/hal_sdio.h"
-#include "stm32f4xx_hal.h"
+#include "driver/driver_chip.h"
 #include "driver/hal/hal_board.h"
 #include "driver/hal/hal_def.h"
 #include "driver/hal/hal_dev.h"

@@ -28,7 +28,7 @@
 #include "driver/hal/hal_uart.h"
 #include "driver/hal/hal_base.h"
 #include "driver/hal/hal_os.h"
-#include "stm32f4xx_hal.h"
+#include "driver/driver_chip.h"
 #include "core/lwrb/lwrb.h"
 
 #define USART_RXBUFFER_SIZE 1

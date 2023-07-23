@@ -26,9 +26,8 @@
 /* USER CODE END Header */
 
 /* Includes ------------------------------------------------------------------*/
-#include "driver/main.h"
 /* USER CODE BEGIN Includes */
-
+#include "driver/chip/platform/STM32F4xx_HAL_Driver/stm32f4xx_hal.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

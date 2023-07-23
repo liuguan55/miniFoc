@@ -5,7 +5,6 @@
 #ifndef MINI_FOC_CORE_SRC_MINIBUTTON_H_
 #define MINI_FOC_CORE_SRC_MINIBUTTON_H_
 
-#include "driver/main.h"
 
 #define BUTTON_LEFT_Port GPIOC
 #define BUTTON_LEFT_PIN GPIO_PIN_14

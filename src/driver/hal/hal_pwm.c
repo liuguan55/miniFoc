@@ -27,7 +27,7 @@
 //
 
 #include "driver/hal/hal_pwm.h"
-#include "stm32f4xx_hal.h"
+#include "driver/driver_chip.h"
 #include "sys/MiniDebug.h"
 #include "driver/hal/hal_board.h"
 #include "driver/hal/hal_dev.h"

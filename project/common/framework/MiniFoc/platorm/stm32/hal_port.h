@@ -5,11 +5,9 @@
 #ifndef MINIFOC_F4_LIBS_SIMPLEFOC_PLATORM_STM32_HAL_PORT_H_
 #define MINIFOC_F4_LIBS_SIMPLEFOC_PLATORM_STM32_HAL_PORT_H_
 #include <stdint.h>
-#include "stm32f4xx_hal.h"
-#include "driver/adc.h"
+#include "driver/driver_chip.h"
 #include "kernel/FreeRTOS/FreeRTOS.h"
 #include "kernel/FreeRTOS/task.h"
-#include "driver/main.h"
 #include "kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os.h"
 
 /**

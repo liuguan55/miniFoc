@@ -27,7 +27,7 @@
 //
 
 #include "driver/hal/hal_crc.h"
-#include "stm32f4xx_hal.h"
+#include "driver/driver_chip.h"
 #include "sys/MiniDebug.h"
 
 CRC_HandleTypeDef hcrc;

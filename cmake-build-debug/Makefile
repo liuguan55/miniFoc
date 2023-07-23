@@ -119,24 +119,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named miniFoc_F4.elf
+# Target rules for targets named miniFoc.elf
 
 # Build rule for target.
-miniFoc_F4.elf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 miniFoc_F4.elf
-.PHONY : miniFoc_F4.elf
+miniFoc.elf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 miniFoc.elf
+.PHONY : miniFoc.elf
 
 # fast build rule for target.
-miniFoc_F4.elf/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/build
-.PHONY : miniFoc_F4.elf/fast
+miniFoc.elf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/build
+.PHONY : miniFoc.elf/fast
 
 project/apps/BldcController/app.obj: project/apps/BldcController/app.cpp.obj
 .PHONY : project/apps/BldcController/app.obj
 
 # target to build an object file
 project/apps/BldcController/app.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/apps/BldcController/app.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/apps/BldcController/app.cpp.obj
 .PHONY : project/apps/BldcController/app.cpp.obj
 
 project/apps/BldcController/app.i: project/apps/BldcController/app.cpp.i
@@ -144,7 +144,7 @@ project/apps/BldcController/app.i: project/apps/BldcController/app.cpp.i
 
 # target to preprocess a source file
 project/apps/BldcController/app.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/apps/BldcController/app.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/apps/BldcController/app.cpp.i
 .PHONY : project/apps/BldcController/app.cpp.i
 
 project/apps/BldcController/app.s: project/apps/BldcController/app.cpp.s
@@ -152,7 +152,7 @@ project/apps/BldcController/app.s: project/apps/BldcController/app.cpp.s
 
 # target to generate assembly for a file
 project/apps/BldcController/app.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/apps/BldcController/app.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/apps/BldcController/app.cpp.s
 .PHONY : project/apps/BldcController/app.cpp.s
 
 project/apps/BldcController/main.obj: project/apps/BldcController/main.c.obj
@@ -160,7 +160,7 @@ project/apps/BldcController/main.obj: project/apps/BldcController/main.c.obj
 
 # target to build an object file
 project/apps/BldcController/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/apps/BldcController/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/apps/BldcController/main.c.obj
 .PHONY : project/apps/BldcController/main.c.obj
 
 project/apps/BldcController/main.i: project/apps/BldcController/main.c.i
@@ -168,7 +168,7 @@ project/apps/BldcController/main.i: project/apps/BldcController/main.c.i
 
 # target to preprocess a source file
 project/apps/BldcController/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/apps/BldcController/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/apps/BldcController/main.c.i
 .PHONY : project/apps/BldcController/main.c.i
 
 project/apps/BldcController/main.s: project/apps/BldcController/main.c.s
@@ -176,7 +176,7 @@ project/apps/BldcController/main.s: project/apps/BldcController/main.c.s
 
 # target to generate assembly for a file
 project/apps/BldcController/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/apps/BldcController/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/apps/BldcController/main.c.s
 .PHONY : project/apps/BldcController/main.c.s
 
 project/common/board/Board.obj: project/common/board/Board.c.obj
@@ -184,7 +184,7 @@ project/common/board/Board.obj: project/common/board/Board.c.obj
 
 # target to build an object file
 project/common/board/Board.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/board/Board.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/board/Board.c.obj
 .PHONY : project/common/board/Board.c.obj
 
 project/common/board/Board.i: project/common/board/Board.c.i
@@ -192,7 +192,7 @@ project/common/board/Board.i: project/common/board/Board.c.i
 
 # target to preprocess a source file
 project/common/board/Board.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/board/Board.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/board/Board.c.i
 .PHONY : project/common/board/Board.c.i
 
 project/common/board/Board.s: project/common/board/Board.c.s
@@ -200,7 +200,7 @@ project/common/board/Board.s: project/common/board/Board.c.s
 
 # target to generate assembly for a file
 project/common/board/Board.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/board/Board.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/board/Board.c.s
 .PHONY : project/common/board/Board.c.s
 
 project/common/board/BoardCommon.obj: project/common/board/BoardCommon.c.obj
@@ -208,7 +208,7 @@ project/common/board/BoardCommon.obj: project/common/board/BoardCommon.c.obj
 
 # target to build an object file
 project/common/board/BoardCommon.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/board/BoardCommon.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/board/BoardCommon.c.obj
 .PHONY : project/common/board/BoardCommon.c.obj
 
 project/common/board/BoardCommon.i: project/common/board/BoardCommon.c.i
@@ -216,7 +216,7 @@ project/common/board/BoardCommon.i: project/common/board/BoardCommon.c.i
 
 # target to preprocess a source file
 project/common/board/BoardCommon.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/board/BoardCommon.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/board/BoardCommon.c.i
 .PHONY : project/common/board/BoardCommon.c.i
 
 project/common/board/BoardCommon.s: project/common/board/BoardCommon.c.s
@@ -224,7 +224,7 @@ project/common/board/BoardCommon.s: project/common/board/BoardCommon.c.s
 
 # target to generate assembly for a file
 project/common/board/BoardCommon.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/board/BoardCommon.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/board/BoardCommon.c.s
 .PHONY : project/common/board/BoardCommon.c.s
 
 project/common/board/miniFoc_v2/BoardConfig.obj: project/common/board/miniFoc_v2/BoardConfig.c.obj
@@ -232,7 +232,7 @@ project/common/board/miniFoc_v2/BoardConfig.obj: project/common/board/miniFoc_v2
 
 # target to build an object file
 project/common/board/miniFoc_v2/BoardConfig.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/board/miniFoc_v2/BoardConfig.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/board/miniFoc_v2/BoardConfig.c.obj
 .PHONY : project/common/board/miniFoc_v2/BoardConfig.c.obj
 
 project/common/board/miniFoc_v2/BoardConfig.i: project/common/board/miniFoc_v2/BoardConfig.c.i
@@ -240,7 +240,7 @@ project/common/board/miniFoc_v2/BoardConfig.i: project/common/board/miniFoc_v2/B
 
 # target to preprocess a source file
 project/common/board/miniFoc_v2/BoardConfig.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/board/miniFoc_v2/BoardConfig.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/board/miniFoc_v2/BoardConfig.c.i
 .PHONY : project/common/board/miniFoc_v2/BoardConfig.c.i
 
 project/common/board/miniFoc_v2/BoardConfig.s: project/common/board/miniFoc_v2/BoardConfig.c.s
@@ -248,7 +248,7 @@ project/common/board/miniFoc_v2/BoardConfig.s: project/common/board/miniFoc_v2/B
 
 # target to generate assembly for a file
 project/common/board/miniFoc_v2/BoardConfig.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/board/miniFoc_v2/BoardConfig.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/board/miniFoc_v2/BoardConfig.c.s
 .PHONY : project/common/board/miniFoc_v2/BoardConfig.c.s
 
 project/common/cmd/cmd_env.obj: project/common/cmd/cmd_env.c.obj
@@ -256,7 +256,7 @@ project/common/cmd/cmd_env.obj: project/common/cmd/cmd_env.c.obj
 
 # target to build an object file
 project/common/cmd/cmd_env.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/cmd/cmd_env.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/cmd/cmd_env.c.obj
 .PHONY : project/common/cmd/cmd_env.c.obj
 
 project/common/cmd/cmd_env.i: project/common/cmd/cmd_env.c.i
@@ -264,7 +264,7 @@ project/common/cmd/cmd_env.i: project/common/cmd/cmd_env.c.i
 
 # target to preprocess a source file
 project/common/cmd/cmd_env.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/cmd/cmd_env.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/cmd/cmd_env.c.i
 .PHONY : project/common/cmd/cmd_env.c.i
 
 project/common/cmd/cmd_env.s: project/common/cmd/cmd_env.c.s
@@ -272,7 +272,7 @@ project/common/cmd/cmd_env.s: project/common/cmd/cmd_env.c.s
 
 # target to generate assembly for a file
 project/common/cmd/cmd_env.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/cmd/cmd_env.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/cmd/cmd_env.c.s
 .PHONY : project/common/cmd/cmd_env.c.s
 
 project/common/cmd/cmd_flash.obj: project/common/cmd/cmd_flash.c.obj
@@ -280,7 +280,7 @@ project/common/cmd/cmd_flash.obj: project/common/cmd/cmd_flash.c.obj
 
 # target to build an object file
 project/common/cmd/cmd_flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/cmd/cmd_flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/cmd/cmd_flash.c.obj
 .PHONY : project/common/cmd/cmd_flash.c.obj
 
 project/common/cmd/cmd_flash.i: project/common/cmd/cmd_flash.c.i
@@ -288,7 +288,7 @@ project/common/cmd/cmd_flash.i: project/common/cmd/cmd_flash.c.i
 
 # target to preprocess a source file
 project/common/cmd/cmd_flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/cmd/cmd_flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/cmd/cmd_flash.c.i
 .PHONY : project/common/cmd/cmd_flash.c.i
 
 project/common/cmd/cmd_flash.s: project/common/cmd/cmd_flash.c.s
@@ -296,7 +296,7 @@ project/common/cmd/cmd_flash.s: project/common/cmd/cmd_flash.c.s
 
 # target to generate assembly for a file
 project/common/cmd/cmd_flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/cmd/cmd_flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/cmd/cmd_flash.c.s
 .PHONY : project/common/cmd/cmd_flash.c.s
 
 project/common/cmd/cmd_ping.obj: project/common/cmd/cmd_ping.c.obj
@@ -304,7 +304,7 @@ project/common/cmd/cmd_ping.obj: project/common/cmd/cmd_ping.c.obj
 
 # target to build an object file
 project/common/cmd/cmd_ping.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/cmd/cmd_ping.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/cmd/cmd_ping.c.obj
 .PHONY : project/common/cmd/cmd_ping.c.obj
 
 project/common/cmd/cmd_ping.i: project/common/cmd/cmd_ping.c.i
@@ -312,7 +312,7 @@ project/common/cmd/cmd_ping.i: project/common/cmd/cmd_ping.c.i
 
 # target to preprocess a source file
 project/common/cmd/cmd_ping.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/cmd/cmd_ping.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/cmd/cmd_ping.c.i
 .PHONY : project/common/cmd/cmd_ping.c.i
 
 project/common/cmd/cmd_ping.s: project/common/cmd/cmd_ping.c.s
@@ -320,7 +320,7 @@ project/common/cmd/cmd_ping.s: project/common/cmd/cmd_ping.c.s
 
 # target to generate assembly for a file
 project/common/cmd/cmd_ping.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/cmd/cmd_ping.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/cmd/cmd_ping.c.s
 .PHONY : project/common/cmd/cmd_ping.c.s
 
 project/common/cmd/cmd_sys.obj: project/common/cmd/cmd_sys.c.obj
@@ -328,7 +328,7 @@ project/common/cmd/cmd_sys.obj: project/common/cmd/cmd_sys.c.obj
 
 # target to build an object file
 project/common/cmd/cmd_sys.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/cmd/cmd_sys.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/cmd/cmd_sys.c.obj
 .PHONY : project/common/cmd/cmd_sys.c.obj
 
 project/common/cmd/cmd_sys.i: project/common/cmd/cmd_sys.c.i
@@ -336,7 +336,7 @@ project/common/cmd/cmd_sys.i: project/common/cmd/cmd_sys.c.i
 
 # target to preprocess a source file
 project/common/cmd/cmd_sys.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/cmd/cmd_sys.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/cmd/cmd_sys.c.i
 .PHONY : project/common/cmd/cmd_sys.c.i
 
 project/common/cmd/cmd_sys.s: project/common/cmd/cmd_sys.c.s
@@ -344,7 +344,7 @@ project/common/cmd/cmd_sys.s: project/common/cmd/cmd_sys.c.s
 
 # target to generate assembly for a file
 project/common/cmd/cmd_sys.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/cmd/cmd_sys.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/cmd/cmd_sys.c.s
 .PHONY : project/common/cmd/cmd_sys.c.s
 
 project/common/framework/MiniButton.obj: project/common/framework/MiniButton.c.obj
@@ -352,7 +352,7 @@ project/common/framework/MiniButton.obj: project/common/framework/MiniButton.c.o
 
 # target to build an object file
 project/common/framework/MiniButton.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniButton.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniButton.c.obj
 .PHONY : project/common/framework/MiniButton.c.obj
 
 project/common/framework/MiniButton.i: project/common/framework/MiniButton.c.i
@@ -360,7 +360,7 @@ project/common/framework/MiniButton.i: project/common/framework/MiniButton.c.i
 
 # target to preprocess a source file
 project/common/framework/MiniButton.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniButton.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniButton.c.i
 .PHONY : project/common/framework/MiniButton.c.i
 
 project/common/framework/MiniButton.s: project/common/framework/MiniButton.c.s
@@ -368,7 +368,7 @@ project/common/framework/MiniButton.s: project/common/framework/MiniButton.c.s
 
 # target to generate assembly for a file
 project/common/framework/MiniButton.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniButton.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniButton.c.s
 .PHONY : project/common/framework/MiniButton.c.s
 
 project/common/framework/MiniCommon.obj: project/common/framework/MiniCommon.c.obj
@@ -376,7 +376,7 @@ project/common/framework/MiniCommon.obj: project/common/framework/MiniCommon.c.o
 
 # target to build an object file
 project/common/framework/MiniCommon.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniCommon.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniCommon.c.obj
 .PHONY : project/common/framework/MiniCommon.c.obj
 
 project/common/framework/MiniCommon.i: project/common/framework/MiniCommon.c.i
@@ -384,7 +384,7 @@ project/common/framework/MiniCommon.i: project/common/framework/MiniCommon.c.i
 
 # target to preprocess a source file
 project/common/framework/MiniCommon.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniCommon.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniCommon.c.i
 .PHONY : project/common/framework/MiniCommon.c.i
 
 project/common/framework/MiniCommon.s: project/common/framework/MiniCommon.c.s
@@ -392,7 +392,7 @@ project/common/framework/MiniCommon.s: project/common/framework/MiniCommon.c.s
 
 # target to generate assembly for a file
 project/common/framework/MiniCommon.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniCommon.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniCommon.c.s
 .PHONY : project/common/framework/MiniCommon.c.s
 
 project/common/framework/MiniFoc/BLDCMotor.obj: project/common/framework/MiniFoc/BLDCMotor.c.obj
@@ -400,7 +400,7 @@ project/common/framework/MiniFoc/BLDCMotor.obj: project/common/framework/MiniFoc
 
 # target to build an object file
 project/common/framework/MiniFoc/BLDCMotor.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/BLDCMotor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/BLDCMotor.c.obj
 .PHONY : project/common/framework/MiniFoc/BLDCMotor.c.obj
 
 project/common/framework/MiniFoc/BLDCMotor.i: project/common/framework/MiniFoc/BLDCMotor.c.i
@@ -408,7 +408,7 @@ project/common/framework/MiniFoc/BLDCMotor.i: project/common/framework/MiniFoc/B
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/BLDCMotor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/BLDCMotor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/BLDCMotor.c.i
 .PHONY : project/common/framework/MiniFoc/BLDCMotor.c.i
 
 project/common/framework/MiniFoc/BLDCMotor.s: project/common/framework/MiniFoc/BLDCMotor.c.s
@@ -416,7 +416,7 @@ project/common/framework/MiniFoc/BLDCMotor.s: project/common/framework/MiniFoc/B
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/BLDCMotor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/BLDCMotor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/BLDCMotor.c.s
 .PHONY : project/common/framework/MiniFoc/BLDCMotor.c.s
 
 project/common/framework/MiniFoc/CurrentSense.obj: project/common/framework/MiniFoc/CurrentSense.c.obj
@@ -424,7 +424,7 @@ project/common/framework/MiniFoc/CurrentSense.obj: project/common/framework/Mini
 
 # target to build an object file
 project/common/framework/MiniFoc/CurrentSense.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/CurrentSense.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/CurrentSense.c.obj
 .PHONY : project/common/framework/MiniFoc/CurrentSense.c.obj
 
 project/common/framework/MiniFoc/CurrentSense.i: project/common/framework/MiniFoc/CurrentSense.c.i
@@ -432,7 +432,7 @@ project/common/framework/MiniFoc/CurrentSense.i: project/common/framework/MiniFo
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/CurrentSense.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/CurrentSense.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/CurrentSense.c.i
 .PHONY : project/common/framework/MiniFoc/CurrentSense.c.i
 
 project/common/framework/MiniFoc/CurrentSense.s: project/common/framework/MiniFoc/CurrentSense.c.s
@@ -440,7 +440,7 @@ project/common/framework/MiniFoc/CurrentSense.s: project/common/framework/MiniFo
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/CurrentSense.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/CurrentSense.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/CurrentSense.c.s
 .PHONY : project/common/framework/MiniFoc/CurrentSense.c.s
 
 project/common/framework/MiniFoc/FOCMotor.obj: project/common/framework/MiniFoc/FOCMotor.c.obj
@@ -448,7 +448,7 @@ project/common/framework/MiniFoc/FOCMotor.obj: project/common/framework/MiniFoc/
 
 # target to build an object file
 project/common/framework/MiniFoc/FOCMotor.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/FOCMotor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/FOCMotor.c.obj
 .PHONY : project/common/framework/MiniFoc/FOCMotor.c.obj
 
 project/common/framework/MiniFoc/FOCMotor.i: project/common/framework/MiniFoc/FOCMotor.c.i
@@ -456,7 +456,7 @@ project/common/framework/MiniFoc/FOCMotor.i: project/common/framework/MiniFoc/FO
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/FOCMotor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/FOCMotor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/FOCMotor.c.i
 .PHONY : project/common/framework/MiniFoc/FOCMotor.c.i
 
 project/common/framework/MiniFoc/FOCMotor.s: project/common/framework/MiniFoc/FOCMotor.c.s
@@ -464,7 +464,7 @@ project/common/framework/MiniFoc/FOCMotor.s: project/common/framework/MiniFoc/FO
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/FOCMotor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/FOCMotor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/FOCMotor.c.s
 .PHONY : project/common/framework/MiniFoc/FOCMotor.c.s
 
 project/common/framework/MiniFoc/MiniFoc.obj: project/common/framework/MiniFoc/MiniFoc.c.obj
@@ -472,7 +472,7 @@ project/common/framework/MiniFoc/MiniFoc.obj: project/common/framework/MiniFoc/M
 
 # target to build an object file
 project/common/framework/MiniFoc/MiniFoc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/MiniFoc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/MiniFoc.c.obj
 .PHONY : project/common/framework/MiniFoc/MiniFoc.c.obj
 
 project/common/framework/MiniFoc/MiniFoc.i: project/common/framework/MiniFoc/MiniFoc.c.i
@@ -480,7 +480,7 @@ project/common/framework/MiniFoc/MiniFoc.i: project/common/framework/MiniFoc/Min
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/MiniFoc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/MiniFoc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/MiniFoc.c.i
 .PHONY : project/common/framework/MiniFoc/MiniFoc.c.i
 
 project/common/framework/MiniFoc/MiniFoc.s: project/common/framework/MiniFoc/MiniFoc.c.s
@@ -488,7 +488,7 @@ project/common/framework/MiniFoc/MiniFoc.s: project/common/framework/MiniFoc/Min
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/MiniFoc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/MiniFoc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/MiniFoc.c.s
 .PHONY : project/common/framework/MiniFoc/MiniFoc.c.s
 
 project/common/framework/MiniFoc/StepperMotor.obj: project/common/framework/MiniFoc/StepperMotor.c.obj
@@ -496,7 +496,7 @@ project/common/framework/MiniFoc/StepperMotor.obj: project/common/framework/Mini
 
 # target to build an object file
 project/common/framework/MiniFoc/StepperMotor.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/StepperMotor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/StepperMotor.c.obj
 .PHONY : project/common/framework/MiniFoc/StepperMotor.c.obj
 
 project/common/framework/MiniFoc/StepperMotor.i: project/common/framework/MiniFoc/StepperMotor.c.i
@@ -504,7 +504,7 @@ project/common/framework/MiniFoc/StepperMotor.i: project/common/framework/MiniFo
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/StepperMotor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/StepperMotor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/StepperMotor.c.i
 .PHONY : project/common/framework/MiniFoc/StepperMotor.c.i
 
 project/common/framework/MiniFoc/StepperMotor.s: project/common/framework/MiniFoc/StepperMotor.c.s
@@ -512,7 +512,7 @@ project/common/framework/MiniFoc/StepperMotor.s: project/common/framework/MiniFo
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/StepperMotor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/StepperMotor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/StepperMotor.c.s
 .PHONY : project/common/framework/MiniFoc/StepperMotor.c.s
 
 project/common/framework/MiniFoc/core/list.obj: project/common/framework/MiniFoc/core/list.c.obj
@@ -520,7 +520,7 @@ project/common/framework/MiniFoc/core/list.obj: project/common/framework/MiniFoc
 
 # target to build an object file
 project/common/framework/MiniFoc/core/list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/core/list.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/core/list.c.obj
 .PHONY : project/common/framework/MiniFoc/core/list.c.obj
 
 project/common/framework/MiniFoc/core/list.i: project/common/framework/MiniFoc/core/list.c.i
@@ -528,7 +528,7 @@ project/common/framework/MiniFoc/core/list.i: project/common/framework/MiniFoc/c
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/core/list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/core/list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/core/list.c.i
 .PHONY : project/common/framework/MiniFoc/core/list.c.i
 
 project/common/framework/MiniFoc/core/list.s: project/common/framework/MiniFoc/core/list.c.s
@@ -536,7 +536,7 @@ project/common/framework/MiniFoc/core/list.s: project/common/framework/MiniFoc/c
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/core/list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/core/list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/core/list.c.s
 .PHONY : project/common/framework/MiniFoc/core/list.c.s
 
 project/common/framework/MiniFoc/current/Current.obj: project/common/framework/MiniFoc/current/Current.c.obj
@@ -544,7 +544,7 @@ project/common/framework/MiniFoc/current/Current.obj: project/common/framework/M
 
 # target to build an object file
 project/common/framework/MiniFoc/current/Current.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/current/Current.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/current/Current.c.obj
 .PHONY : project/common/framework/MiniFoc/current/Current.c.obj
 
 project/common/framework/MiniFoc/current/Current.i: project/common/framework/MiniFoc/current/Current.c.i
@@ -552,7 +552,7 @@ project/common/framework/MiniFoc/current/Current.i: project/common/framework/Min
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/current/Current.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/current/Current.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/current/Current.c.i
 .PHONY : project/common/framework/MiniFoc/current/Current.c.i
 
 project/common/framework/MiniFoc/current/Current.s: project/common/framework/MiniFoc/current/Current.c.s
@@ -560,7 +560,7 @@ project/common/framework/MiniFoc/current/Current.s: project/common/framework/Min
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/current/Current.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/current/Current.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/current/Current.c.s
 .PHONY : project/common/framework/MiniFoc/current/Current.c.s
 
 project/common/framework/MiniFoc/current/inlineCurrentSense.obj: project/common/framework/MiniFoc/current/inlineCurrentSense.c.obj
@@ -568,7 +568,7 @@ project/common/framework/MiniFoc/current/inlineCurrentSense.obj: project/common/
 
 # target to build an object file
 project/common/framework/MiniFoc/current/inlineCurrentSense.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/current/inlineCurrentSense.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/current/inlineCurrentSense.c.obj
 .PHONY : project/common/framework/MiniFoc/current/inlineCurrentSense.c.obj
 
 project/common/framework/MiniFoc/current/inlineCurrentSense.i: project/common/framework/MiniFoc/current/inlineCurrentSense.c.i
@@ -576,7 +576,7 @@ project/common/framework/MiniFoc/current/inlineCurrentSense.i: project/common/fr
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/current/inlineCurrentSense.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/current/inlineCurrentSense.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/current/inlineCurrentSense.c.i
 .PHONY : project/common/framework/MiniFoc/current/inlineCurrentSense.c.i
 
 project/common/framework/MiniFoc/current/inlineCurrentSense.s: project/common/framework/MiniFoc/current/inlineCurrentSense.c.s
@@ -584,7 +584,7 @@ project/common/framework/MiniFoc/current/inlineCurrentSense.s: project/common/fr
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/current/inlineCurrentSense.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/current/inlineCurrentSense.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/current/inlineCurrentSense.c.s
 .PHONY : project/common/framework/MiniFoc/current/inlineCurrentSense.c.s
 
 project/common/framework/MiniFoc/driver/driver.obj: project/common/framework/MiniFoc/driver/driver.c.obj
@@ -592,7 +592,7 @@ project/common/framework/MiniFoc/driver/driver.obj: project/common/framework/Min
 
 # target to build an object file
 project/common/framework/MiniFoc/driver/driver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/driver/driver.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/driver/driver.c.obj
 .PHONY : project/common/framework/MiniFoc/driver/driver.c.obj
 
 project/common/framework/MiniFoc/driver/driver.i: project/common/framework/MiniFoc/driver/driver.c.i
@@ -600,7 +600,7 @@ project/common/framework/MiniFoc/driver/driver.i: project/common/framework/MiniF
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/driver/driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/driver/driver.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/driver/driver.c.i
 .PHONY : project/common/framework/MiniFoc/driver/driver.c.i
 
 project/common/framework/MiniFoc/driver/driver.s: project/common/framework/MiniFoc/driver/driver.c.s
@@ -608,7 +608,7 @@ project/common/framework/MiniFoc/driver/driver.s: project/common/framework/MiniF
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/driver/driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/driver/driver.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/driver/driver.c.s
 .PHONY : project/common/framework/MiniFoc/driver/driver.c.s
 
 project/common/framework/MiniFoc/driver/driver2Pwm.obj: project/common/framework/MiniFoc/driver/driver2Pwm.c.obj
@@ -616,7 +616,7 @@ project/common/framework/MiniFoc/driver/driver2Pwm.obj: project/common/framework
 
 # target to build an object file
 project/common/framework/MiniFoc/driver/driver2Pwm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/driver/driver2Pwm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/driver/driver2Pwm.c.obj
 .PHONY : project/common/framework/MiniFoc/driver/driver2Pwm.c.obj
 
 project/common/framework/MiniFoc/driver/driver2Pwm.i: project/common/framework/MiniFoc/driver/driver2Pwm.c.i
@@ -624,7 +624,7 @@ project/common/framework/MiniFoc/driver/driver2Pwm.i: project/common/framework/M
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/driver/driver2Pwm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/driver/driver2Pwm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/driver/driver2Pwm.c.i
 .PHONY : project/common/framework/MiniFoc/driver/driver2Pwm.c.i
 
 project/common/framework/MiniFoc/driver/driver2Pwm.s: project/common/framework/MiniFoc/driver/driver2Pwm.c.s
@@ -632,7 +632,7 @@ project/common/framework/MiniFoc/driver/driver2Pwm.s: project/common/framework/M
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/driver/driver2Pwm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/driver/driver2Pwm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/driver/driver2Pwm.c.s
 .PHONY : project/common/framework/MiniFoc/driver/driver2Pwm.c.s
 
 project/common/framework/MiniFoc/driver/driver3Pwm.obj: project/common/framework/MiniFoc/driver/driver3Pwm.c.obj
@@ -640,7 +640,7 @@ project/common/framework/MiniFoc/driver/driver3Pwm.obj: project/common/framework
 
 # target to build an object file
 project/common/framework/MiniFoc/driver/driver3Pwm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/driver/driver3Pwm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/driver/driver3Pwm.c.obj
 .PHONY : project/common/framework/MiniFoc/driver/driver3Pwm.c.obj
 
 project/common/framework/MiniFoc/driver/driver3Pwm.i: project/common/framework/MiniFoc/driver/driver3Pwm.c.i
@@ -648,7 +648,7 @@ project/common/framework/MiniFoc/driver/driver3Pwm.i: project/common/framework/M
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/driver/driver3Pwm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/driver/driver3Pwm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/driver/driver3Pwm.c.i
 .PHONY : project/common/framework/MiniFoc/driver/driver3Pwm.c.i
 
 project/common/framework/MiniFoc/driver/driver3Pwm.s: project/common/framework/MiniFoc/driver/driver3Pwm.c.s
@@ -656,7 +656,7 @@ project/common/framework/MiniFoc/driver/driver3Pwm.s: project/common/framework/M
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/driver/driver3Pwm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/driver/driver3Pwm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/driver/driver3Pwm.c.s
 .PHONY : project/common/framework/MiniFoc/driver/driver3Pwm.c.s
 
 project/common/framework/MiniFoc/driver/driver4Pwm.obj: project/common/framework/MiniFoc/driver/driver4Pwm.c.obj
@@ -664,7 +664,7 @@ project/common/framework/MiniFoc/driver/driver4Pwm.obj: project/common/framework
 
 # target to build an object file
 project/common/framework/MiniFoc/driver/driver4Pwm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/driver/driver4Pwm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/driver/driver4Pwm.c.obj
 .PHONY : project/common/framework/MiniFoc/driver/driver4Pwm.c.obj
 
 project/common/framework/MiniFoc/driver/driver4Pwm.i: project/common/framework/MiniFoc/driver/driver4Pwm.c.i
@@ -672,7 +672,7 @@ project/common/framework/MiniFoc/driver/driver4Pwm.i: project/common/framework/M
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/driver/driver4Pwm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/driver/driver4Pwm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/driver/driver4Pwm.c.i
 .PHONY : project/common/framework/MiniFoc/driver/driver4Pwm.c.i
 
 project/common/framework/MiniFoc/driver/driver4Pwm.s: project/common/framework/MiniFoc/driver/driver4Pwm.c.s
@@ -680,7 +680,7 @@ project/common/framework/MiniFoc/driver/driver4Pwm.s: project/common/framework/M
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/driver/driver4Pwm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/driver/driver4Pwm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/driver/driver4Pwm.c.s
 .PHONY : project/common/framework/MiniFoc/driver/driver4Pwm.c.s
 
 project/common/framework/MiniFoc/driver/driver6Pwm.obj: project/common/framework/MiniFoc/driver/driver6Pwm.c.obj
@@ -688,7 +688,7 @@ project/common/framework/MiniFoc/driver/driver6Pwm.obj: project/common/framework
 
 # target to build an object file
 project/common/framework/MiniFoc/driver/driver6Pwm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/driver/driver6Pwm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/driver/driver6Pwm.c.obj
 .PHONY : project/common/framework/MiniFoc/driver/driver6Pwm.c.obj
 
 project/common/framework/MiniFoc/driver/driver6Pwm.i: project/common/framework/MiniFoc/driver/driver6Pwm.c.i
@@ -696,7 +696,7 @@ project/common/framework/MiniFoc/driver/driver6Pwm.i: project/common/framework/M
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/driver/driver6Pwm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/driver/driver6Pwm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/driver/driver6Pwm.c.i
 .PHONY : project/common/framework/MiniFoc/driver/driver6Pwm.c.i
 
 project/common/framework/MiniFoc/driver/driver6Pwm.s: project/common/framework/MiniFoc/driver/driver6Pwm.c.s
@@ -704,7 +704,7 @@ project/common/framework/MiniFoc/driver/driver6Pwm.s: project/common/framework/M
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/driver/driver6Pwm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/driver/driver6Pwm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/driver/driver6Pwm.c.s
 .PHONY : project/common/framework/MiniFoc/driver/driver6Pwm.c.s
 
 project/common/framework/MiniFoc/foc_utils.obj: project/common/framework/MiniFoc/foc_utils.c.obj
@@ -712,7 +712,7 @@ project/common/framework/MiniFoc/foc_utils.obj: project/common/framework/MiniFoc
 
 # target to build an object file
 project/common/framework/MiniFoc/foc_utils.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/foc_utils.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/foc_utils.c.obj
 .PHONY : project/common/framework/MiniFoc/foc_utils.c.obj
 
 project/common/framework/MiniFoc/foc_utils.i: project/common/framework/MiniFoc/foc_utils.c.i
@@ -720,7 +720,7 @@ project/common/framework/MiniFoc/foc_utils.i: project/common/framework/MiniFoc/f
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/foc_utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/foc_utils.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/foc_utils.c.i
 .PHONY : project/common/framework/MiniFoc/foc_utils.c.i
 
 project/common/framework/MiniFoc/foc_utils.s: project/common/framework/MiniFoc/foc_utils.c.s
@@ -728,7 +728,7 @@ project/common/framework/MiniFoc/foc_utils.s: project/common/framework/MiniFoc/f
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/foc_utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/foc_utils.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/foc_utils.c.s
 .PHONY : project/common/framework/MiniFoc/foc_utils.c.s
 
 project/common/framework/MiniFoc/lowpass_filter.obj: project/common/framework/MiniFoc/lowpass_filter.c.obj
@@ -736,7 +736,7 @@ project/common/framework/MiniFoc/lowpass_filter.obj: project/common/framework/Mi
 
 # target to build an object file
 project/common/framework/MiniFoc/lowpass_filter.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/lowpass_filter.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/lowpass_filter.c.obj
 .PHONY : project/common/framework/MiniFoc/lowpass_filter.c.obj
 
 project/common/framework/MiniFoc/lowpass_filter.i: project/common/framework/MiniFoc/lowpass_filter.c.i
@@ -744,7 +744,7 @@ project/common/framework/MiniFoc/lowpass_filter.i: project/common/framework/Mini
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/lowpass_filter.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/lowpass_filter.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/lowpass_filter.c.i
 .PHONY : project/common/framework/MiniFoc/lowpass_filter.c.i
 
 project/common/framework/MiniFoc/lowpass_filter.s: project/common/framework/MiniFoc/lowpass_filter.c.s
@@ -752,7 +752,7 @@ project/common/framework/MiniFoc/lowpass_filter.s: project/common/framework/Mini
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/lowpass_filter.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/lowpass_filter.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/lowpass_filter.c.s
 .PHONY : project/common/framework/MiniFoc/lowpass_filter.c.s
 
 project/common/framework/MiniFoc/pid.obj: project/common/framework/MiniFoc/pid.c.obj
@@ -760,7 +760,7 @@ project/common/framework/MiniFoc/pid.obj: project/common/framework/MiniFoc/pid.c
 
 # target to build an object file
 project/common/framework/MiniFoc/pid.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/pid.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/pid.c.obj
 .PHONY : project/common/framework/MiniFoc/pid.c.obj
 
 project/common/framework/MiniFoc/pid.i: project/common/framework/MiniFoc/pid.c.i
@@ -768,7 +768,7 @@ project/common/framework/MiniFoc/pid.i: project/common/framework/MiniFoc/pid.c.i
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/pid.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/pid.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/pid.c.i
 .PHONY : project/common/framework/MiniFoc/pid.c.i
 
 project/common/framework/MiniFoc/pid.s: project/common/framework/MiniFoc/pid.c.s
@@ -776,7 +776,7 @@ project/common/framework/MiniFoc/pid.s: project/common/framework/MiniFoc/pid.c.s
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/pid.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/pid.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/pid.c.s
 .PHONY : project/common/framework/MiniFoc/pid.c.s
 
 project/common/framework/MiniFoc/platorm/stm32/hal_port.obj: project/common/framework/MiniFoc/platorm/stm32/hal_port.c.obj
@@ -784,7 +784,7 @@ project/common/framework/MiniFoc/platorm/stm32/hal_port.obj: project/common/fram
 
 # target to build an object file
 project/common/framework/MiniFoc/platorm/stm32/hal_port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/platorm/stm32/hal_port.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/platorm/stm32/hal_port.c.obj
 .PHONY : project/common/framework/MiniFoc/platorm/stm32/hal_port.c.obj
 
 project/common/framework/MiniFoc/platorm/stm32/hal_port.i: project/common/framework/MiniFoc/platorm/stm32/hal_port.c.i
@@ -792,7 +792,7 @@ project/common/framework/MiniFoc/platorm/stm32/hal_port.i: project/common/framew
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/platorm/stm32/hal_port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/platorm/stm32/hal_port.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/platorm/stm32/hal_port.c.i
 .PHONY : project/common/framework/MiniFoc/platorm/stm32/hal_port.c.i
 
 project/common/framework/MiniFoc/platorm/stm32/hal_port.s: project/common/framework/MiniFoc/platorm/stm32/hal_port.c.s
@@ -800,7 +800,7 @@ project/common/framework/MiniFoc/platorm/stm32/hal_port.s: project/common/framew
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/platorm/stm32/hal_port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/platorm/stm32/hal_port.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/platorm/stm32/hal_port.c.s
 .PHONY : project/common/framework/MiniFoc/platorm/stm32/hal_port.c.s
 
 project/common/framework/MiniFoc/sensor/Sensor.obj: project/common/framework/MiniFoc/sensor/Sensor.c.obj
@@ -808,7 +808,7 @@ project/common/framework/MiniFoc/sensor/Sensor.obj: project/common/framework/Min
 
 # target to build an object file
 project/common/framework/MiniFoc/sensor/Sensor.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor.c.obj
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor.c.obj
 
 project/common/framework/MiniFoc/sensor/Sensor.i: project/common/framework/MiniFoc/sensor/Sensor.c.i
@@ -816,7 +816,7 @@ project/common/framework/MiniFoc/sensor/Sensor.i: project/common/framework/MiniF
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/sensor/Sensor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor.c.i
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor.c.i
 
 project/common/framework/MiniFoc/sensor/Sensor.s: project/common/framework/MiniFoc/sensor/Sensor.c.s
@@ -824,7 +824,7 @@ project/common/framework/MiniFoc/sensor/Sensor.s: project/common/framework/MiniF
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/sensor/Sensor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor.c.s
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor.c.s
 
 project/common/framework/MiniFoc/sensor/Sensor_AS5047p.obj: project/common/framework/MiniFoc/sensor/Sensor_AS5047p.c.obj
@@ -832,7 +832,7 @@ project/common/framework/MiniFoc/sensor/Sensor_AS5047p.obj: project/common/frame
 
 # target to build an object file
 project/common/framework/MiniFoc/sensor/Sensor_AS5047p.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5047p.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5047p.c.obj
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_AS5047p.c.obj
 
 project/common/framework/MiniFoc/sensor/Sensor_AS5047p.i: project/common/framework/MiniFoc/sensor/Sensor_AS5047p.c.i
@@ -840,7 +840,7 @@ project/common/framework/MiniFoc/sensor/Sensor_AS5047p.i: project/common/framewo
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/sensor/Sensor_AS5047p.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5047p.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5047p.c.i
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_AS5047p.c.i
 
 project/common/framework/MiniFoc/sensor/Sensor_AS5047p.s: project/common/framework/MiniFoc/sensor/Sensor_AS5047p.c.s
@@ -848,7 +848,7 @@ project/common/framework/MiniFoc/sensor/Sensor_AS5047p.s: project/common/framewo
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/sensor/Sensor_AS5047p.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5047p.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5047p.c.s
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_AS5047p.c.s
 
 project/common/framework/MiniFoc/sensor/Sensor_AS5048A.obj: project/common/framework/MiniFoc/sensor/Sensor_AS5048A.c.obj
@@ -856,7 +856,7 @@ project/common/framework/MiniFoc/sensor/Sensor_AS5048A.obj: project/common/frame
 
 # target to build an object file
 project/common/framework/MiniFoc/sensor/Sensor_AS5048A.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5048A.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5048A.c.obj
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_AS5048A.c.obj
 
 project/common/framework/MiniFoc/sensor/Sensor_AS5048A.i: project/common/framework/MiniFoc/sensor/Sensor_AS5048A.c.i
@@ -864,7 +864,7 @@ project/common/framework/MiniFoc/sensor/Sensor_AS5048A.i: project/common/framewo
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/sensor/Sensor_AS5048A.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5048A.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5048A.c.i
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_AS5048A.c.i
 
 project/common/framework/MiniFoc/sensor/Sensor_AS5048A.s: project/common/framework/MiniFoc/sensor/Sensor_AS5048A.c.s
@@ -872,7 +872,7 @@ project/common/framework/MiniFoc/sensor/Sensor_AS5048A.s: project/common/framewo
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/sensor/Sensor_AS5048A.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5048A.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5048A.c.s
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_AS5048A.c.s
 
 project/common/framework/MiniFoc/sensor/Sensor_AS5600.obj: project/common/framework/MiniFoc/sensor/Sensor_AS5600.c.obj
@@ -880,7 +880,7 @@ project/common/framework/MiniFoc/sensor/Sensor_AS5600.obj: project/common/framew
 
 # target to build an object file
 project/common/framework/MiniFoc/sensor/Sensor_AS5600.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5600.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5600.c.obj
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_AS5600.c.obj
 
 project/common/framework/MiniFoc/sensor/Sensor_AS5600.i: project/common/framework/MiniFoc/sensor/Sensor_AS5600.c.i
@@ -888,7 +888,7 @@ project/common/framework/MiniFoc/sensor/Sensor_AS5600.i: project/common/framewor
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/sensor/Sensor_AS5600.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5600.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5600.c.i
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_AS5600.c.i
 
 project/common/framework/MiniFoc/sensor/Sensor_AS5600.s: project/common/framework/MiniFoc/sensor/Sensor_AS5600.c.s
@@ -896,7 +896,7 @@ project/common/framework/MiniFoc/sensor/Sensor_AS5600.s: project/common/framewor
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/sensor/Sensor_AS5600.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5600.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5600.c.s
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_AS5600.c.s
 
 project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.obj: project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.c.obj
@@ -904,7 +904,7 @@ project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.obj: project/common/
 
 # target to build an object file
 project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.c.obj
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.c.obj
 
 project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.i: project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.c.i
@@ -912,7 +912,7 @@ project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.i: project/common/fr
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.c.i
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.c.i
 
 project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.s: project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.c.s
@@ -920,7 +920,7 @@ project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.s: project/common/fr
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.c.s
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_AS5600Analog.c.s
 
 project/common/framework/MiniFoc/sensor/Sensor_MA730.obj: project/common/framework/MiniFoc/sensor/Sensor_MA730.c.obj
@@ -928,7 +928,7 @@ project/common/framework/MiniFoc/sensor/Sensor_MA730.obj: project/common/framewo
 
 # target to build an object file
 project/common/framework/MiniFoc/sensor/Sensor_MA730.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_MA730.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_MA730.c.obj
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_MA730.c.obj
 
 project/common/framework/MiniFoc/sensor/Sensor_MA730.i: project/common/framework/MiniFoc/sensor/Sensor_MA730.c.i
@@ -936,7 +936,7 @@ project/common/framework/MiniFoc/sensor/Sensor_MA730.i: project/common/framework
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/sensor/Sensor_MA730.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_MA730.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_MA730.c.i
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_MA730.c.i
 
 project/common/framework/MiniFoc/sensor/Sensor_MA730.s: project/common/framework/MiniFoc/sensor/Sensor_MA730.c.s
@@ -944,7 +944,7 @@ project/common/framework/MiniFoc/sensor/Sensor_MA730.s: project/common/framework
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/sensor/Sensor_MA730.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_MA730.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_MA730.c.s
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_MA730.c.s
 
 project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.obj: project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.c.obj
@@ -952,7 +952,7 @@ project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.obj: project/common/fram
 
 # target to build an object file
 project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.c.obj
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.c.obj
 
 project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.i: project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.c.i
@@ -960,7 +960,7 @@ project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.i: project/common/framew
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.c.i
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.c.i
 
 project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.s: project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.c.s
@@ -968,7 +968,7 @@ project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.s: project/common/framew
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.c.s
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_TLE5012B.c.s
 
 project/common/framework/MiniFoc/sensor/Sensor_encoder.obj: project/common/framework/MiniFoc/sensor/Sensor_encoder.c.obj
@@ -976,7 +976,7 @@ project/common/framework/MiniFoc/sensor/Sensor_encoder.obj: project/common/frame
 
 # target to build an object file
 project/common/framework/MiniFoc/sensor/Sensor_encoder.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_encoder.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_encoder.c.obj
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_encoder.c.obj
 
 project/common/framework/MiniFoc/sensor/Sensor_encoder.i: project/common/framework/MiniFoc/sensor/Sensor_encoder.c.i
@@ -984,7 +984,7 @@ project/common/framework/MiniFoc/sensor/Sensor_encoder.i: project/common/framewo
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/sensor/Sensor_encoder.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_encoder.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_encoder.c.i
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_encoder.c.i
 
 project/common/framework/MiniFoc/sensor/Sensor_encoder.s: project/common/framework/MiniFoc/sensor/Sensor_encoder.c.s
@@ -992,7 +992,7 @@ project/common/framework/MiniFoc/sensor/Sensor_encoder.s: project/common/framewo
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/sensor/Sensor_encoder.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_encoder.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_encoder.c.s
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_encoder.c.s
 
 project/common/framework/MiniFoc/sensor/Sensor_hall.obj: project/common/framework/MiniFoc/sensor/Sensor_hall.c.obj
@@ -1000,7 +1000,7 @@ project/common/framework/MiniFoc/sensor/Sensor_hall.obj: project/common/framewor
 
 # target to build an object file
 project/common/framework/MiniFoc/sensor/Sensor_hall.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_hall.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_hall.c.obj
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_hall.c.obj
 
 project/common/framework/MiniFoc/sensor/Sensor_hall.i: project/common/framework/MiniFoc/sensor/Sensor_hall.c.i
@@ -1008,7 +1008,7 @@ project/common/framework/MiniFoc/sensor/Sensor_hall.i: project/common/framework/
 
 # target to preprocess a source file
 project/common/framework/MiniFoc/sensor/Sensor_hall.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_hall.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_hall.c.i
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_hall.c.i
 
 project/common/framework/MiniFoc/sensor/Sensor_hall.s: project/common/framework/MiniFoc/sensor/Sensor_hall.c.s
@@ -1016,7 +1016,7 @@ project/common/framework/MiniFoc/sensor/Sensor_hall.s: project/common/framework/
 
 # target to generate assembly for a file
 project/common/framework/MiniFoc/sensor/Sensor_hall.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_hall.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniFoc/sensor/Sensor_hall.c.s
 .PHONY : project/common/framework/MiniFoc/sensor/Sensor_hall.c.s
 
 project/common/framework/MiniMotor.obj: project/common/framework/MiniMotor.c.obj
@@ -1024,7 +1024,7 @@ project/common/framework/MiniMotor.obj: project/common/framework/MiniMotor.c.obj
 
 # target to build an object file
 project/common/framework/MiniMotor.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniMotor.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniMotor.c.obj
 .PHONY : project/common/framework/MiniMotor.c.obj
 
 project/common/framework/MiniMotor.i: project/common/framework/MiniMotor.c.i
@@ -1032,7 +1032,7 @@ project/common/framework/MiniMotor.i: project/common/framework/MiniMotor.c.i
 
 # target to preprocess a source file
 project/common/framework/MiniMotor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniMotor.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniMotor.c.i
 .PHONY : project/common/framework/MiniMotor.c.i
 
 project/common/framework/MiniMotor.s: project/common/framework/MiniMotor.c.s
@@ -1040,7 +1040,7 @@ project/common/framework/MiniMotor.s: project/common/framework/MiniMotor.c.s
 
 # target to generate assembly for a file
 project/common/framework/MiniMotor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/MiniMotor.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/MiniMotor.c.s
 .PHONY : project/common/framework/MiniMotor.c.s
 
 project/common/framework/UnityManager.obj: project/common/framework/UnityManager.c.obj
@@ -1048,7 +1048,7 @@ project/common/framework/UnityManager.obj: project/common/framework/UnityManager
 
 # target to build an object file
 project/common/framework/UnityManager.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/UnityManager.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/UnityManager.c.obj
 .PHONY : project/common/framework/UnityManager.c.obj
 
 project/common/framework/UnityManager.i: project/common/framework/UnityManager.c.i
@@ -1056,7 +1056,7 @@ project/common/framework/UnityManager.i: project/common/framework/UnityManager.c
 
 # target to preprocess a source file
 project/common/framework/UnityManager.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/UnityManager.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/UnityManager.c.i
 .PHONY : project/common/framework/UnityManager.c.i
 
 project/common/framework/UnityManager.s: project/common/framework/UnityManager.c.s
@@ -1064,7 +1064,7 @@ project/common/framework/UnityManager.s: project/common/framework/UnityManager.c
 
 # target to generate assembly for a file
 project/common/framework/UnityManager.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/UnityManager.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/UnityManager.c.s
 .PHONY : project/common/framework/UnityManager.c.s
 
 project/common/framework/easyflash/plugins/types/ef_types.obj: project/common/framework/easyflash/plugins/types/ef_types.c.obj
@@ -1072,7 +1072,7 @@ project/common/framework/easyflash/plugins/types/ef_types.obj: project/common/fr
 
 # target to build an object file
 project/common/framework/easyflash/plugins/types/ef_types.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/plugins/types/ef_types.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/plugins/types/ef_types.c.obj
 .PHONY : project/common/framework/easyflash/plugins/types/ef_types.c.obj
 
 project/common/framework/easyflash/plugins/types/ef_types.i: project/common/framework/easyflash/plugins/types/ef_types.c.i
@@ -1080,7 +1080,7 @@ project/common/framework/easyflash/plugins/types/ef_types.i: project/common/fram
 
 # target to preprocess a source file
 project/common/framework/easyflash/plugins/types/ef_types.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/plugins/types/ef_types.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/plugins/types/ef_types.c.i
 .PHONY : project/common/framework/easyflash/plugins/types/ef_types.c.i
 
 project/common/framework/easyflash/plugins/types/ef_types.s: project/common/framework/easyflash/plugins/types/ef_types.c.s
@@ -1088,7 +1088,7 @@ project/common/framework/easyflash/plugins/types/ef_types.s: project/common/fram
 
 # target to generate assembly for a file
 project/common/framework/easyflash/plugins/types/ef_types.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/plugins/types/ef_types.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/plugins/types/ef_types.c.s
 .PHONY : project/common/framework/easyflash/plugins/types/ef_types.c.s
 
 project/common/framework/easyflash/plugins/types/struct2json/src/s2j.obj: project/common/framework/easyflash/plugins/types/struct2json/src/s2j.c.obj
@@ -1096,7 +1096,7 @@ project/common/framework/easyflash/plugins/types/struct2json/src/s2j.obj: projec
 
 # target to build an object file
 project/common/framework/easyflash/plugins/types/struct2json/src/s2j.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/plugins/types/struct2json/src/s2j.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/plugins/types/struct2json/src/s2j.c.obj
 .PHONY : project/common/framework/easyflash/plugins/types/struct2json/src/s2j.c.obj
 
 project/common/framework/easyflash/plugins/types/struct2json/src/s2j.i: project/common/framework/easyflash/plugins/types/struct2json/src/s2j.c.i
@@ -1104,7 +1104,7 @@ project/common/framework/easyflash/plugins/types/struct2json/src/s2j.i: project/
 
 # target to preprocess a source file
 project/common/framework/easyflash/plugins/types/struct2json/src/s2j.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/plugins/types/struct2json/src/s2j.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/plugins/types/struct2json/src/s2j.c.i
 .PHONY : project/common/framework/easyflash/plugins/types/struct2json/src/s2j.c.i
 
 project/common/framework/easyflash/plugins/types/struct2json/src/s2j.s: project/common/framework/easyflash/plugins/types/struct2json/src/s2j.c.s
@@ -1112,7 +1112,7 @@ project/common/framework/easyflash/plugins/types/struct2json/src/s2j.s: project/
 
 # target to generate assembly for a file
 project/common/framework/easyflash/plugins/types/struct2json/src/s2j.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/plugins/types/struct2json/src/s2j.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/plugins/types/struct2json/src/s2j.c.s
 .PHONY : project/common/framework/easyflash/plugins/types/struct2json/src/s2j.c.s
 
 project/common/framework/easyflash/port/ef_port.obj: project/common/framework/easyflash/port/ef_port.c.obj
@@ -1120,7 +1120,7 @@ project/common/framework/easyflash/port/ef_port.obj: project/common/framework/ea
 
 # target to build an object file
 project/common/framework/easyflash/port/ef_port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/port/ef_port.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/port/ef_port.c.obj
 .PHONY : project/common/framework/easyflash/port/ef_port.c.obj
 
 project/common/framework/easyflash/port/ef_port.i: project/common/framework/easyflash/port/ef_port.c.i
@@ -1128,7 +1128,7 @@ project/common/framework/easyflash/port/ef_port.i: project/common/framework/easy
 
 # target to preprocess a source file
 project/common/framework/easyflash/port/ef_port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/port/ef_port.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/port/ef_port.c.i
 .PHONY : project/common/framework/easyflash/port/ef_port.c.i
 
 project/common/framework/easyflash/port/ef_port.s: project/common/framework/easyflash/port/ef_port.c.s
@@ -1136,7 +1136,7 @@ project/common/framework/easyflash/port/ef_port.s: project/common/framework/easy
 
 # target to generate assembly for a file
 project/common/framework/easyflash/port/ef_port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/port/ef_port.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/port/ef_port.c.s
 .PHONY : project/common/framework/easyflash/port/ef_port.c.s
 
 project/common/framework/easyflash/src/easyflash.obj: project/common/framework/easyflash/src/easyflash.c.obj
@@ -1144,7 +1144,7 @@ project/common/framework/easyflash/src/easyflash.obj: project/common/framework/e
 
 # target to build an object file
 project/common/framework/easyflash/src/easyflash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/easyflash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/easyflash.c.obj
 .PHONY : project/common/framework/easyflash/src/easyflash.c.obj
 
 project/common/framework/easyflash/src/easyflash.i: project/common/framework/easyflash/src/easyflash.c.i
@@ -1152,7 +1152,7 @@ project/common/framework/easyflash/src/easyflash.i: project/common/framework/eas
 
 # target to preprocess a source file
 project/common/framework/easyflash/src/easyflash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/easyflash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/easyflash.c.i
 .PHONY : project/common/framework/easyflash/src/easyflash.c.i
 
 project/common/framework/easyflash/src/easyflash.s: project/common/framework/easyflash/src/easyflash.c.s
@@ -1160,7 +1160,7 @@ project/common/framework/easyflash/src/easyflash.s: project/common/framework/eas
 
 # target to generate assembly for a file
 project/common/framework/easyflash/src/easyflash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/easyflash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/easyflash.c.s
 .PHONY : project/common/framework/easyflash/src/easyflash.c.s
 
 project/common/framework/easyflash/src/ef_env.obj: project/common/framework/easyflash/src/ef_env.c.obj
@@ -1168,7 +1168,7 @@ project/common/framework/easyflash/src/ef_env.obj: project/common/framework/easy
 
 # target to build an object file
 project/common/framework/easyflash/src/ef_env.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_env.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_env.c.obj
 .PHONY : project/common/framework/easyflash/src/ef_env.c.obj
 
 project/common/framework/easyflash/src/ef_env.i: project/common/framework/easyflash/src/ef_env.c.i
@@ -1176,7 +1176,7 @@ project/common/framework/easyflash/src/ef_env.i: project/common/framework/easyfl
 
 # target to preprocess a source file
 project/common/framework/easyflash/src/ef_env.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_env.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_env.c.i
 .PHONY : project/common/framework/easyflash/src/ef_env.c.i
 
 project/common/framework/easyflash/src/ef_env.s: project/common/framework/easyflash/src/ef_env.c.s
@@ -1184,7 +1184,7 @@ project/common/framework/easyflash/src/ef_env.s: project/common/framework/easyfl
 
 # target to generate assembly for a file
 project/common/framework/easyflash/src/ef_env.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_env.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_env.c.s
 .PHONY : project/common/framework/easyflash/src/ef_env.c.s
 
 project/common/framework/easyflash/src/ef_env_legacy.obj: project/common/framework/easyflash/src/ef_env_legacy.c.obj
@@ -1192,7 +1192,7 @@ project/common/framework/easyflash/src/ef_env_legacy.obj: project/common/framewo
 
 # target to build an object file
 project/common/framework/easyflash/src/ef_env_legacy.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_env_legacy.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_env_legacy.c.obj
 .PHONY : project/common/framework/easyflash/src/ef_env_legacy.c.obj
 
 project/common/framework/easyflash/src/ef_env_legacy.i: project/common/framework/easyflash/src/ef_env_legacy.c.i
@@ -1200,7 +1200,7 @@ project/common/framework/easyflash/src/ef_env_legacy.i: project/common/framework
 
 # target to preprocess a source file
 project/common/framework/easyflash/src/ef_env_legacy.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_env_legacy.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_env_legacy.c.i
 .PHONY : project/common/framework/easyflash/src/ef_env_legacy.c.i
 
 project/common/framework/easyflash/src/ef_env_legacy.s: project/common/framework/easyflash/src/ef_env_legacy.c.s
@@ -1208,7 +1208,7 @@ project/common/framework/easyflash/src/ef_env_legacy.s: project/common/framework
 
 # target to generate assembly for a file
 project/common/framework/easyflash/src/ef_env_legacy.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_env_legacy.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_env_legacy.c.s
 .PHONY : project/common/framework/easyflash/src/ef_env_legacy.c.s
 
 project/common/framework/easyflash/src/ef_env_legacy_wl.obj: project/common/framework/easyflash/src/ef_env_legacy_wl.c.obj
@@ -1216,7 +1216,7 @@ project/common/framework/easyflash/src/ef_env_legacy_wl.obj: project/common/fram
 
 # target to build an object file
 project/common/framework/easyflash/src/ef_env_legacy_wl.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_env_legacy_wl.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_env_legacy_wl.c.obj
 .PHONY : project/common/framework/easyflash/src/ef_env_legacy_wl.c.obj
 
 project/common/framework/easyflash/src/ef_env_legacy_wl.i: project/common/framework/easyflash/src/ef_env_legacy_wl.c.i
@@ -1224,7 +1224,7 @@ project/common/framework/easyflash/src/ef_env_legacy_wl.i: project/common/framew
 
 # target to preprocess a source file
 project/common/framework/easyflash/src/ef_env_legacy_wl.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_env_legacy_wl.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_env_legacy_wl.c.i
 .PHONY : project/common/framework/easyflash/src/ef_env_legacy_wl.c.i
 
 project/common/framework/easyflash/src/ef_env_legacy_wl.s: project/common/framework/easyflash/src/ef_env_legacy_wl.c.s
@@ -1232,7 +1232,7 @@ project/common/framework/easyflash/src/ef_env_legacy_wl.s: project/common/framew
 
 # target to generate assembly for a file
 project/common/framework/easyflash/src/ef_env_legacy_wl.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_env_legacy_wl.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_env_legacy_wl.c.s
 .PHONY : project/common/framework/easyflash/src/ef_env_legacy_wl.c.s
 
 project/common/framework/easyflash/src/ef_iap.obj: project/common/framework/easyflash/src/ef_iap.c.obj
@@ -1240,7 +1240,7 @@ project/common/framework/easyflash/src/ef_iap.obj: project/common/framework/easy
 
 # target to build an object file
 project/common/framework/easyflash/src/ef_iap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_iap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_iap.c.obj
 .PHONY : project/common/framework/easyflash/src/ef_iap.c.obj
 
 project/common/framework/easyflash/src/ef_iap.i: project/common/framework/easyflash/src/ef_iap.c.i
@@ -1248,7 +1248,7 @@ project/common/framework/easyflash/src/ef_iap.i: project/common/framework/easyfl
 
 # target to preprocess a source file
 project/common/framework/easyflash/src/ef_iap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_iap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_iap.c.i
 .PHONY : project/common/framework/easyflash/src/ef_iap.c.i
 
 project/common/framework/easyflash/src/ef_iap.s: project/common/framework/easyflash/src/ef_iap.c.s
@@ -1256,7 +1256,7 @@ project/common/framework/easyflash/src/ef_iap.s: project/common/framework/easyfl
 
 # target to generate assembly for a file
 project/common/framework/easyflash/src/ef_iap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_iap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_iap.c.s
 .PHONY : project/common/framework/easyflash/src/ef_iap.c.s
 
 project/common/framework/easyflash/src/ef_log.obj: project/common/framework/easyflash/src/ef_log.c.obj
@@ -1264,7 +1264,7 @@ project/common/framework/easyflash/src/ef_log.obj: project/common/framework/easy
 
 # target to build an object file
 project/common/framework/easyflash/src/ef_log.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_log.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_log.c.obj
 .PHONY : project/common/framework/easyflash/src/ef_log.c.obj
 
 project/common/framework/easyflash/src/ef_log.i: project/common/framework/easyflash/src/ef_log.c.i
@@ -1272,7 +1272,7 @@ project/common/framework/easyflash/src/ef_log.i: project/common/framework/easyfl
 
 # target to preprocess a source file
 project/common/framework/easyflash/src/ef_log.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_log.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_log.c.i
 .PHONY : project/common/framework/easyflash/src/ef_log.c.i
 
 project/common/framework/easyflash/src/ef_log.s: project/common/framework/easyflash/src/ef_log.c.s
@@ -1280,7 +1280,7 @@ project/common/framework/easyflash/src/ef_log.s: project/common/framework/easyfl
 
 # target to generate assembly for a file
 project/common/framework/easyflash/src/ef_log.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_log.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_log.c.s
 .PHONY : project/common/framework/easyflash/src/ef_log.c.s
 
 project/common/framework/easyflash/src/ef_utils.obj: project/common/framework/easyflash/src/ef_utils.c.obj
@@ -1288,7 +1288,7 @@ project/common/framework/easyflash/src/ef_utils.obj: project/common/framework/ea
 
 # target to build an object file
 project/common/framework/easyflash/src/ef_utils.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_utils.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_utils.c.obj
 .PHONY : project/common/framework/easyflash/src/ef_utils.c.obj
 
 project/common/framework/easyflash/src/ef_utils.i: project/common/framework/easyflash/src/ef_utils.c.i
@@ -1296,7 +1296,7 @@ project/common/framework/easyflash/src/ef_utils.i: project/common/framework/easy
 
 # target to preprocess a source file
 project/common/framework/easyflash/src/ef_utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_utils.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_utils.c.i
 .PHONY : project/common/framework/easyflash/src/ef_utils.c.i
 
 project/common/framework/easyflash/src/ef_utils.s: project/common/framework/easyflash/src/ef_utils.c.s
@@ -1304,7 +1304,7 @@ project/common/framework/easyflash/src/ef_utils.s: project/common/framework/easy
 
 # target to generate assembly for a file
 project/common/framework/easyflash/src/ef_utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/easyflash/src/ef_utils.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/easyflash/src/ef_utils.c.s
 .PHONY : project/common/framework/easyflash/src/ef_utils.c.s
 
 project/common/framework/gui.obj: project/common/framework/gui.c.obj
@@ -1312,7 +1312,7 @@ project/common/framework/gui.obj: project/common/framework/gui.c.obj
 
 # target to build an object file
 project/common/framework/gui.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/gui.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/gui.c.obj
 .PHONY : project/common/framework/gui.c.obj
 
 project/common/framework/gui.i: project/common/framework/gui.c.i
@@ -1320,7 +1320,7 @@ project/common/framework/gui.i: project/common/framework/gui.c.i
 
 # target to preprocess a source file
 project/common/framework/gui.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/gui.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/gui.c.i
 .PHONY : project/common/framework/gui.c.i
 
 project/common/framework/gui.s: project/common/framework/gui.c.s
@@ -1328,7 +1328,7 @@ project/common/framework/gui.s: project/common/framework/gui.c.s
 
 # target to generate assembly for a file
 project/common/framework/gui.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/gui.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/gui.c.s
 .PHONY : project/common/framework/gui.c.s
 
 project/common/framework/multiButton/multi_button.obj: project/common/framework/multiButton/multi_button.c.obj
@@ -1336,7 +1336,7 @@ project/common/framework/multiButton/multi_button.obj: project/common/framework/
 
 # target to build an object file
 project/common/framework/multiButton/multi_button.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/multiButton/multi_button.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/multiButton/multi_button.c.obj
 .PHONY : project/common/framework/multiButton/multi_button.c.obj
 
 project/common/framework/multiButton/multi_button.i: project/common/framework/multiButton/multi_button.c.i
@@ -1344,7 +1344,7 @@ project/common/framework/multiButton/multi_button.i: project/common/framework/mu
 
 # target to preprocess a source file
 project/common/framework/multiButton/multi_button.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/multiButton/multi_button.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/multiButton/multi_button.c.i
 .PHONY : project/common/framework/multiButton/multi_button.c.i
 
 project/common/framework/multiButton/multi_button.s: project/common/framework/multiButton/multi_button.c.s
@@ -1352,7 +1352,7 @@ project/common/framework/multiButton/multi_button.s: project/common/framework/mu
 
 # target to generate assembly for a file
 project/common/framework/multiButton/multi_button.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/multiButton/multi_button.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/multiButton/multi_button.c.s
 .PHONY : project/common/framework/multiButton/multi_button.c.s
 
 project/common/framework/multiTimer/MultiTimer.obj: project/common/framework/multiTimer/MultiTimer.c.obj
@@ -1360,7 +1360,7 @@ project/common/framework/multiTimer/MultiTimer.obj: project/common/framework/mul
 
 # target to build an object file
 project/common/framework/multiTimer/MultiTimer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/multiTimer/MultiTimer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/multiTimer/MultiTimer.c.obj
 .PHONY : project/common/framework/multiTimer/MultiTimer.c.obj
 
 project/common/framework/multiTimer/MultiTimer.i: project/common/framework/multiTimer/MultiTimer.c.i
@@ -1368,7 +1368,7 @@ project/common/framework/multiTimer/MultiTimer.i: project/common/framework/multi
 
 # target to preprocess a source file
 project/common/framework/multiTimer/MultiTimer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/multiTimer/MultiTimer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/multiTimer/MultiTimer.c.i
 .PHONY : project/common/framework/multiTimer/MultiTimer.c.i
 
 project/common/framework/multiTimer/MultiTimer.s: project/common/framework/multiTimer/MultiTimer.c.s
@@ -1376,7 +1376,7 @@ project/common/framework/multiTimer/MultiTimer.s: project/common/framework/multi
 
 # target to generate assembly for a file
 project/common/framework/multiTimer/MultiTimer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/multiTimer/MultiTimer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/multiTimer/MultiTimer.c.s
 .PHONY : project/common/framework/multiTimer/MultiTimer.c.s
 
 project/common/framework/platform_init.obj: project/common/framework/platform_init.c.obj
@@ -1384,7 +1384,7 @@ project/common/framework/platform_init.obj: project/common/framework/platform_in
 
 # target to build an object file
 project/common/framework/platform_init.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/platform_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/platform_init.c.obj
 .PHONY : project/common/framework/platform_init.c.obj
 
 project/common/framework/platform_init.i: project/common/framework/platform_init.c.i
@@ -1392,7 +1392,7 @@ project/common/framework/platform_init.i: project/common/framework/platform_init
 
 # target to preprocess a source file
 project/common/framework/platform_init.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/platform_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/platform_init.c.i
 .PHONY : project/common/framework/platform_init.c.i
 
 project/common/framework/platform_init.s: project/common/framework/platform_init.c.s
@@ -1400,7 +1400,7 @@ project/common/framework/platform_init.s: project/common/framework/platform_init
 
 # target to generate assembly for a file
 project/common/framework/platform_init.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/framework/platform_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/framework/platform_init.c.s
 .PHONY : project/common/framework/platform_init.c.s
 
 project/common/startup/freertos.obj: project/common/startup/freertos.c.obj
@@ -1408,7 +1408,7 @@ project/common/startup/freertos.obj: project/common/startup/freertos.c.obj
 
 # target to build an object file
 project/common/startup/freertos.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/freertos.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/freertos.c.obj
 .PHONY : project/common/startup/freertos.c.obj
 
 project/common/startup/freertos.i: project/common/startup/freertos.c.i
@@ -1416,7 +1416,7 @@ project/common/startup/freertos.i: project/common/startup/freertos.c.i
 
 # target to preprocess a source file
 project/common/startup/freertos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/freertos.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/freertos.c.i
 .PHONY : project/common/startup/freertos.c.i
 
 project/common/startup/freertos.s: project/common/startup/freertos.c.s
@@ -1424,7 +1424,7 @@ project/common/startup/freertos.s: project/common/startup/freertos.c.s
 
 # target to generate assembly for a file
 project/common/startup/freertos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/freertos.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/freertos.c.s
 .PHONY : project/common/startup/freertos.c.s
 
 project/common/startup/retarget.obj: project/common/startup/retarget.c.obj
@@ -1432,7 +1432,7 @@ project/common/startup/retarget.obj: project/common/startup/retarget.c.obj
 
 # target to build an object file
 project/common/startup/retarget.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/retarget.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/retarget.c.obj
 .PHONY : project/common/startup/retarget.c.obj
 
 project/common/startup/retarget.i: project/common/startup/retarget.c.i
@@ -1440,7 +1440,7 @@ project/common/startup/retarget.i: project/common/startup/retarget.c.i
 
 # target to preprocess a source file
 project/common/startup/retarget.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/retarget.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/retarget.c.i
 .PHONY : project/common/startup/retarget.c.i
 
 project/common/startup/retarget.s: project/common/startup/retarget.c.s
@@ -1448,7 +1448,7 @@ project/common/startup/retarget.s: project/common/startup/retarget.c.s
 
 # target to generate assembly for a file
 project/common/startup/retarget.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/retarget.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/retarget.c.s
 .PHONY : project/common/startup/retarget.c.s
 
 project/common/startup/retarget_main.obj: project/common/startup/retarget_main.c.obj
@@ -1456,7 +1456,7 @@ project/common/startup/retarget_main.obj: project/common/startup/retarget_main.c
 
 # target to build an object file
 project/common/startup/retarget_main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/retarget_main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/retarget_main.c.obj
 .PHONY : project/common/startup/retarget_main.c.obj
 
 project/common/startup/retarget_main.i: project/common/startup/retarget_main.c.i
@@ -1464,7 +1464,7 @@ project/common/startup/retarget_main.i: project/common/startup/retarget_main.c.i
 
 # target to preprocess a source file
 project/common/startup/retarget_main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/retarget_main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/retarget_main.c.i
 .PHONY : project/common/startup/retarget_main.c.i
 
 project/common/startup/retarget_main.s: project/common/startup/retarget_main.c.s
@@ -1472,7 +1472,7 @@ project/common/startup/retarget_main.s: project/common/startup/retarget_main.c.s
 
 # target to generate assembly for a file
 project/common/startup/retarget_main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/retarget_main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/retarget_main.c.s
 .PHONY : project/common/startup/retarget_main.c.s
 
 project/common/startup/retarget_stdout.obj: project/common/startup/retarget_stdout.c.obj
@@ -1480,7 +1480,7 @@ project/common/startup/retarget_stdout.obj: project/common/startup/retarget_stdo
 
 # target to build an object file
 project/common/startup/retarget_stdout.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/retarget_stdout.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/retarget_stdout.c.obj
 .PHONY : project/common/startup/retarget_stdout.c.obj
 
 project/common/startup/retarget_stdout.i: project/common/startup/retarget_stdout.c.i
@@ -1488,7 +1488,7 @@ project/common/startup/retarget_stdout.i: project/common/startup/retarget_stdout
 
 # target to preprocess a source file
 project/common/startup/retarget_stdout.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/retarget_stdout.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/retarget_stdout.c.i
 .PHONY : project/common/startup/retarget_stdout.c.i
 
 project/common/startup/retarget_stdout.s: project/common/startup/retarget_stdout.c.s
@@ -1496,7 +1496,7 @@ project/common/startup/retarget_stdout.s: project/common/startup/retarget_stdout
 
 # target to generate assembly for a file
 project/common/startup/retarget_stdout.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/retarget_stdout.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/retarget_stdout.c.s
 .PHONY : project/common/startup/retarget_stdout.c.s
 
 project/common/startup/startup_stm32f405rgtx.obj: project/common/startup/startup_stm32f405rgtx.s.obj
@@ -1504,7 +1504,7 @@ project/common/startup/startup_stm32f405rgtx.obj: project/common/startup/startup
 
 # target to build an object file
 project/common/startup/startup_stm32f405rgtx.s.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/startup_stm32f405rgtx.s.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/startup_stm32f405rgtx.s.obj
 .PHONY : project/common/startup/startup_stm32f405rgtx.s.obj
 
 project/common/startup/stm32f4xx_hal_msp.obj: project/common/startup/stm32f4xx_hal_msp.c.obj
@@ -1512,7 +1512,7 @@ project/common/startup/stm32f4xx_hal_msp.obj: project/common/startup/stm32f4xx_h
 
 # target to build an object file
 project/common/startup/stm32f4xx_hal_msp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/stm32f4xx_hal_msp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/stm32f4xx_hal_msp.c.obj
 .PHONY : project/common/startup/stm32f4xx_hal_msp.c.obj
 
 project/common/startup/stm32f4xx_hal_msp.i: project/common/startup/stm32f4xx_hal_msp.c.i
@@ -1520,7 +1520,7 @@ project/common/startup/stm32f4xx_hal_msp.i: project/common/startup/stm32f4xx_hal
 
 # target to preprocess a source file
 project/common/startup/stm32f4xx_hal_msp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/stm32f4xx_hal_msp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/stm32f4xx_hal_msp.c.i
 .PHONY : project/common/startup/stm32f4xx_hal_msp.c.i
 
 project/common/startup/stm32f4xx_hal_msp.s: project/common/startup/stm32f4xx_hal_msp.c.s
@@ -1528,7 +1528,7 @@ project/common/startup/stm32f4xx_hal_msp.s: project/common/startup/stm32f4xx_hal
 
 # target to generate assembly for a file
 project/common/startup/stm32f4xx_hal_msp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/stm32f4xx_hal_msp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/stm32f4xx_hal_msp.c.s
 .PHONY : project/common/startup/stm32f4xx_hal_msp.c.s
 
 project/common/startup/stm32f4xx_it.obj: project/common/startup/stm32f4xx_it.c.obj
@@ -1536,7 +1536,7 @@ project/common/startup/stm32f4xx_it.obj: project/common/startup/stm32f4xx_it.c.o
 
 # target to build an object file
 project/common/startup/stm32f4xx_it.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/stm32f4xx_it.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/stm32f4xx_it.c.obj
 .PHONY : project/common/startup/stm32f4xx_it.c.obj
 
 project/common/startup/stm32f4xx_it.i: project/common/startup/stm32f4xx_it.c.i
@@ -1544,7 +1544,7 @@ project/common/startup/stm32f4xx_it.i: project/common/startup/stm32f4xx_it.c.i
 
 # target to preprocess a source file
 project/common/startup/stm32f4xx_it.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/stm32f4xx_it.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/stm32f4xx_it.c.i
 .PHONY : project/common/startup/stm32f4xx_it.c.i
 
 project/common/startup/stm32f4xx_it.s: project/common/startup/stm32f4xx_it.c.s
@@ -1552,7 +1552,7 @@ project/common/startup/stm32f4xx_it.s: project/common/startup/stm32f4xx_it.c.s
 
 # target to generate assembly for a file
 project/common/startup/stm32f4xx_it.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/stm32f4xx_it.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/stm32f4xx_it.c.s
 .PHONY : project/common/startup/stm32f4xx_it.c.s
 
 project/common/startup/syscalls.obj: project/common/startup/syscalls.c.obj
@@ -1560,7 +1560,7 @@ project/common/startup/syscalls.obj: project/common/startup/syscalls.c.obj
 
 # target to build an object file
 project/common/startup/syscalls.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/syscalls.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/syscalls.c.obj
 .PHONY : project/common/startup/syscalls.c.obj
 
 project/common/startup/syscalls.i: project/common/startup/syscalls.c.i
@@ -1568,7 +1568,7 @@ project/common/startup/syscalls.i: project/common/startup/syscalls.c.i
 
 # target to preprocess a source file
 project/common/startup/syscalls.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/syscalls.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/syscalls.c.i
 .PHONY : project/common/startup/syscalls.c.i
 
 project/common/startup/syscalls.s: project/common/startup/syscalls.c.s
@@ -1576,7 +1576,7 @@ project/common/startup/syscalls.s: project/common/startup/syscalls.c.s
 
 # target to generate assembly for a file
 project/common/startup/syscalls.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/syscalls.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/syscalls.c.s
 .PHONY : project/common/startup/syscalls.c.s
 
 project/common/startup/sysmem.obj: project/common/startup/sysmem.c.obj
@@ -1584,7 +1584,7 @@ project/common/startup/sysmem.obj: project/common/startup/sysmem.c.obj
 
 # target to build an object file
 project/common/startup/sysmem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/sysmem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/sysmem.c.obj
 .PHONY : project/common/startup/sysmem.c.obj
 
 project/common/startup/sysmem.i: project/common/startup/sysmem.c.i
@@ -1592,7 +1592,7 @@ project/common/startup/sysmem.i: project/common/startup/sysmem.c.i
 
 # target to preprocess a source file
 project/common/startup/sysmem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/sysmem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/sysmem.c.i
 .PHONY : project/common/startup/sysmem.c.i
 
 project/common/startup/sysmem.s: project/common/startup/sysmem.c.s
@@ -1600,7 +1600,7 @@ project/common/startup/sysmem.s: project/common/startup/sysmem.c.s
 
 # target to generate assembly for a file
 project/common/startup/sysmem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/sysmem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/sysmem.c.s
 .PHONY : project/common/startup/sysmem.c.s
 
 project/common/startup/system_stm32f4xx.obj: project/common/startup/system_stm32f4xx.c.obj
@@ -1608,7 +1608,7 @@ project/common/startup/system_stm32f4xx.obj: project/common/startup/system_stm32
 
 # target to build an object file
 project/common/startup/system_stm32f4xx.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/system_stm32f4xx.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/system_stm32f4xx.c.obj
 .PHONY : project/common/startup/system_stm32f4xx.c.obj
 
 project/common/startup/system_stm32f4xx.i: project/common/startup/system_stm32f4xx.c.i
@@ -1616,7 +1616,7 @@ project/common/startup/system_stm32f4xx.i: project/common/startup/system_stm32f4
 
 # target to preprocess a source file
 project/common/startup/system_stm32f4xx.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/system_stm32f4xx.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/system_stm32f4xx.c.i
 .PHONY : project/common/startup/system_stm32f4xx.c.i
 
 project/common/startup/system_stm32f4xx.s: project/common/startup/system_stm32f4xx.c.s
@@ -1624,7 +1624,7 @@ project/common/startup/system_stm32f4xx.s: project/common/startup/system_stm32f4
 
 # target to generate assembly for a file
 project/common/startup/system_stm32f4xx.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/common/startup/system_stm32f4xx.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/common/startup/system_stm32f4xx.c.s
 .PHONY : project/common/startup/system_stm32f4xx.c.s
 
 project/test/testVfs.obj: project/test/testVfs.c.obj
@@ -1632,7 +1632,7 @@ project/test/testVfs.obj: project/test/testVfs.c.obj
 
 # target to build an object file
 project/test/testVfs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/test/testVfs.c.obj
 .PHONY : project/test/testVfs.c.obj
 
 project/test/testVfs.i: project/test/testVfs.c.i
@@ -1640,7 +1640,7 @@ project/test/testVfs.i: project/test/testVfs.c.i
 
 # target to preprocess a source file
 project/test/testVfs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/test/testVfs.c.i
 .PHONY : project/test/testVfs.c.i
 
 project/test/testVfs.s: project/test/testVfs.c.s
@@ -1648,7 +1648,7 @@ project/test/testVfs.s: project/test/testVfs.c.s
 
 # target to generate assembly for a file
 project/test/testVfs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/project/test/testVfs.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/project/test/testVfs.c.s
 .PHONY : project/test/testVfs.c.s
 
 src/console/MiniShell.obj: src/console/MiniShell.c.obj
@@ -1656,7 +1656,7 @@ src/console/MiniShell.obj: src/console/MiniShell.c.obj
 
 # target to build an object file
 src/console/MiniShell.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/MiniShell.c.obj
 .PHONY : src/console/MiniShell.c.obj
 
 src/console/MiniShell.i: src/console/MiniShell.c.i
@@ -1664,7 +1664,7 @@ src/console/MiniShell.i: src/console/MiniShell.c.i
 
 # target to preprocess a source file
 src/console/MiniShell.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/MiniShell.c.i
 .PHONY : src/console/MiniShell.c.i
 
 src/console/MiniShell.s: src/console/MiniShell.c.s
@@ -1672,7 +1672,7 @@ src/console/MiniShell.s: src/console/MiniShell.c.s
 
 # target to generate assembly for a file
 src/console/MiniShell.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/MiniShell.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/MiniShell.c.s
 .PHONY : src/console/MiniShell.c.s
 
 src/console/lettershell/log.obj: src/console/lettershell/log.c.obj
@@ -1680,7 +1680,7 @@ src/console/lettershell/log.obj: src/console/lettershell/log.c.obj
 
 # target to build an object file
 src/console/lettershell/log.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/log.c.obj
 .PHONY : src/console/lettershell/log.c.obj
 
 src/console/lettershell/log.i: src/console/lettershell/log.c.i
@@ -1688,7 +1688,7 @@ src/console/lettershell/log.i: src/console/lettershell/log.c.i
 
 # target to preprocess a source file
 src/console/lettershell/log.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/log.c.i
 .PHONY : src/console/lettershell/log.c.i
 
 src/console/lettershell/log.s: src/console/lettershell/log.c.s
@@ -1696,7 +1696,7 @@ src/console/lettershell/log.s: src/console/lettershell/log.c.s
 
 # target to generate assembly for a file
 src/console/lettershell/log.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/log.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/log.c.s
 .PHONY : src/console/lettershell/log.c.s
 
 src/console/lettershell/shell.obj: src/console/lettershell/shell.c.obj
@@ -1704,7 +1704,7 @@ src/console/lettershell/shell.obj: src/console/lettershell/shell.c.obj
 
 # target to build an object file
 src/console/lettershell/shell.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/shell.c.obj
 .PHONY : src/console/lettershell/shell.c.obj
 
 src/console/lettershell/shell.i: src/console/lettershell/shell.c.i
@@ -1712,7 +1712,7 @@ src/console/lettershell/shell.i: src/console/lettershell/shell.c.i
 
 # target to preprocess a source file
 src/console/lettershell/shell.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/shell.c.i
 .PHONY : src/console/lettershell/shell.c.i
 
 src/console/lettershell/shell.s: src/console/lettershell/shell.c.s
@@ -1720,7 +1720,7 @@ src/console/lettershell/shell.s: src/console/lettershell/shell.c.s
 
 # target to generate assembly for a file
 src/console/lettershell/shell.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/shell.c.s
 .PHONY : src/console/lettershell/shell.c.s
 
 src/console/lettershell/shell_cmd_list.obj: src/console/lettershell/shell_cmd_list.c.obj
@@ -1728,7 +1728,7 @@ src/console/lettershell/shell_cmd_list.obj: src/console/lettershell/shell_cmd_li
 
 # target to build an object file
 src/console/lettershell/shell_cmd_list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_cmd_list.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/shell_cmd_list.c.obj
 .PHONY : src/console/lettershell/shell_cmd_list.c.obj
 
 src/console/lettershell/shell_cmd_list.i: src/console/lettershell/shell_cmd_list.c.i
@@ -1736,7 +1736,7 @@ src/console/lettershell/shell_cmd_list.i: src/console/lettershell/shell_cmd_list
 
 # target to preprocess a source file
 src/console/lettershell/shell_cmd_list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_cmd_list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/shell_cmd_list.c.i
 .PHONY : src/console/lettershell/shell_cmd_list.c.i
 
 src/console/lettershell/shell_cmd_list.s: src/console/lettershell/shell_cmd_list.c.s
@@ -1744,7 +1744,7 @@ src/console/lettershell/shell_cmd_list.s: src/console/lettershell/shell_cmd_list
 
 # target to generate assembly for a file
 src/console/lettershell/shell_cmd_list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_cmd_list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/shell_cmd_list.c.s
 .PHONY : src/console/lettershell/shell_cmd_list.c.s
 
 src/console/lettershell/shell_companion.obj: src/console/lettershell/shell_companion.c.obj
@@ -1752,7 +1752,7 @@ src/console/lettershell/shell_companion.obj: src/console/lettershell/shell_compa
 
 # target to build an object file
 src/console/lettershell/shell_companion.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_companion.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/shell_companion.c.obj
 .PHONY : src/console/lettershell/shell_companion.c.obj
 
 src/console/lettershell/shell_companion.i: src/console/lettershell/shell_companion.c.i
@@ -1760,7 +1760,7 @@ src/console/lettershell/shell_companion.i: src/console/lettershell/shell_compani
 
 # target to preprocess a source file
 src/console/lettershell/shell_companion.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_companion.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/shell_companion.c.i
 .PHONY : src/console/lettershell/shell_companion.c.i
 
 src/console/lettershell/shell_companion.s: src/console/lettershell/shell_companion.c.s
@@ -1768,7 +1768,7 @@ src/console/lettershell/shell_companion.s: src/console/lettershell/shell_compani
 
 # target to generate assembly for a file
 src/console/lettershell/shell_companion.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_companion.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/shell_companion.c.s
 .PHONY : src/console/lettershell/shell_companion.c.s
 
 src/console/lettershell/shell_ext.obj: src/console/lettershell/shell_ext.c.obj
@@ -1776,7 +1776,7 @@ src/console/lettershell/shell_ext.obj: src/console/lettershell/shell_ext.c.obj
 
 # target to build an object file
 src/console/lettershell/shell_ext.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_ext.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/shell_ext.c.obj
 .PHONY : src/console/lettershell/shell_ext.c.obj
 
 src/console/lettershell/shell_ext.i: src/console/lettershell/shell_ext.c.i
@@ -1784,7 +1784,7 @@ src/console/lettershell/shell_ext.i: src/console/lettershell/shell_ext.c.i
 
 # target to preprocess a source file
 src/console/lettershell/shell_ext.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_ext.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/shell_ext.c.i
 .PHONY : src/console/lettershell/shell_ext.c.i
 
 src/console/lettershell/shell_ext.s: src/console/lettershell/shell_ext.c.s
@@ -1792,7 +1792,7 @@ src/console/lettershell/shell_ext.s: src/console/lettershell/shell_ext.c.s
 
 # target to generate assembly for a file
 src/console/lettershell/shell_ext.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_ext.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/shell_ext.c.s
 .PHONY : src/console/lettershell/shell_ext.c.s
 
 src/console/lettershell/shell_fs.obj: src/console/lettershell/shell_fs.c.obj
@@ -1800,7 +1800,7 @@ src/console/lettershell/shell_fs.obj: src/console/lettershell/shell_fs.c.obj
 
 # target to build an object file
 src/console/lettershell/shell_fs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_fs.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/shell_fs.c.obj
 .PHONY : src/console/lettershell/shell_fs.c.obj
 
 src/console/lettershell/shell_fs.i: src/console/lettershell/shell_fs.c.i
@@ -1808,7 +1808,7 @@ src/console/lettershell/shell_fs.i: src/console/lettershell/shell_fs.c.i
 
 # target to preprocess a source file
 src/console/lettershell/shell_fs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_fs.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/shell_fs.c.i
 .PHONY : src/console/lettershell/shell_fs.c.i
 
 src/console/lettershell/shell_fs.s: src/console/lettershell/shell_fs.c.s
@@ -1816,7 +1816,7 @@ src/console/lettershell/shell_fs.s: src/console/lettershell/shell_fs.c.s
 
 # target to generate assembly for a file
 src/console/lettershell/shell_fs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/lettershell/shell_fs.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/lettershell/shell_fs.c.s
 .PHONY : src/console/lettershell/shell_fs.c.s
 
 src/console/miniConsole.obj: src/console/miniConsole.c.obj
@@ -1824,7 +1824,7 @@ src/console/miniConsole.obj: src/console/miniConsole.c.obj
 
 # target to build an object file
 src/console/miniConsole.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/miniConsole.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/miniConsole.c.obj
 .PHONY : src/console/miniConsole.c.obj
 
 src/console/miniConsole.i: src/console/miniConsole.c.i
@@ -1832,7 +1832,7 @@ src/console/miniConsole.i: src/console/miniConsole.c.i
 
 # target to preprocess a source file
 src/console/miniConsole.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/miniConsole.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/miniConsole.c.i
 .PHONY : src/console/miniConsole.c.i
 
 src/console/miniConsole.s: src/console/miniConsole.c.s
@@ -1840,7 +1840,7 @@ src/console/miniConsole.s: src/console/miniConsole.c.s
 
 # target to generate assembly for a file
 src/console/miniConsole.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/console/miniConsole.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/console/miniConsole.c.s
 .PHONY : src/console/miniConsole.c.s
 
 src/core/EFSM/fsm.obj: src/core/EFSM/fsm.c.obj
@@ -1848,7 +1848,7 @@ src/core/EFSM/fsm.obj: src/core/EFSM/fsm.c.obj
 
 # target to build an object file
 src/core/EFSM/fsm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/core/EFSM/fsm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/core/EFSM/fsm.c.obj
 .PHONY : src/core/EFSM/fsm.c.obj
 
 src/core/EFSM/fsm.i: src/core/EFSM/fsm.c.i
@@ -1856,7 +1856,7 @@ src/core/EFSM/fsm.i: src/core/EFSM/fsm.c.i
 
 # target to preprocess a source file
 src/core/EFSM/fsm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/core/EFSM/fsm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/core/EFSM/fsm.c.i
 .PHONY : src/core/EFSM/fsm.c.i
 
 src/core/EFSM/fsm.s: src/core/EFSM/fsm.c.s
@@ -1864,7 +1864,7 @@ src/core/EFSM/fsm.s: src/core/EFSM/fsm.c.s
 
 # target to generate assembly for a file
 src/core/EFSM/fsm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/core/EFSM/fsm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/core/EFSM/fsm.c.s
 .PHONY : src/core/EFSM/fsm.c.s
 
 src/core/cQueue/cQueue.obj: src/core/cQueue/cQueue.c.obj
@@ -1872,7 +1872,7 @@ src/core/cQueue/cQueue.obj: src/core/cQueue/cQueue.c.obj
 
 # target to build an object file
 src/core/cQueue/cQueue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/core/cQueue/cQueue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/core/cQueue/cQueue.c.obj
 .PHONY : src/core/cQueue/cQueue.c.obj
 
 src/core/cQueue/cQueue.i: src/core/cQueue/cQueue.c.i
@@ -1880,7 +1880,7 @@ src/core/cQueue/cQueue.i: src/core/cQueue/cQueue.c.i
 
 # target to preprocess a source file
 src/core/cQueue/cQueue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/core/cQueue/cQueue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/core/cQueue/cQueue.c.i
 .PHONY : src/core/cQueue/cQueue.c.i
 
 src/core/cQueue/cQueue.s: src/core/cQueue/cQueue.c.s
@@ -1888,7 +1888,7 @@ src/core/cQueue/cQueue.s: src/core/cQueue/cQueue.c.s
 
 # target to generate assembly for a file
 src/core/cQueue/cQueue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/core/cQueue/cQueue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/core/cQueue/cQueue.c.s
 .PHONY : src/core/cQueue/cQueue.c.s
 
 src/core/lwrb/lwrb.obj: src/core/lwrb/lwrb.c.obj
@@ -1896,7 +1896,7 @@ src/core/lwrb/lwrb.obj: src/core/lwrb/lwrb.c.obj
 
 # target to build an object file
 src/core/lwrb/lwrb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/core/lwrb/lwrb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/core/lwrb/lwrb.c.obj
 .PHONY : src/core/lwrb/lwrb.c.obj
 
 src/core/lwrb/lwrb.i: src/core/lwrb/lwrb.c.i
@@ -1904,7 +1904,7 @@ src/core/lwrb/lwrb.i: src/core/lwrb/lwrb.c.i
 
 # target to preprocess a source file
 src/core/lwrb/lwrb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/core/lwrb/lwrb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/core/lwrb/lwrb.c.i
 .PHONY : src/core/lwrb/lwrb.c.i
 
 src/core/lwrb/lwrb.s: src/core/lwrb/lwrb.c.s
@@ -1912,7 +1912,7 @@ src/core/lwrb/lwrb.s: src/core/lwrb/lwrb.c.s
 
 # target to generate assembly for a file
 src/core/lwrb/lwrb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/core/lwrb/lwrb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/core/lwrb/lwrb.c.s
 .PHONY : src/core/lwrb/lwrb.c.s
 
 src/debug/backtrace.obj: src/debug/backtrace.c.obj
@@ -1920,7 +1920,7 @@ src/debug/backtrace.obj: src/debug/backtrace.c.obj
 
 # target to build an object file
 src/debug/backtrace.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/debug/backtrace.c.obj
 .PHONY : src/debug/backtrace.c.obj
 
 src/debug/backtrace.i: src/debug/backtrace.c.i
@@ -1928,7 +1928,7 @@ src/debug/backtrace.i: src/debug/backtrace.c.i
 
 # target to preprocess a source file
 src/debug/backtrace.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/debug/backtrace.c.i
 .PHONY : src/debug/backtrace.c.i
 
 src/debug/backtrace.s: src/debug/backtrace.c.s
@@ -1936,7 +1936,7 @@ src/debug/backtrace.s: src/debug/backtrace.c.s
 
 # target to generate assembly for a file
 src/debug/backtrace.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/debug/backtrace.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/debug/backtrace.c.s
 .PHONY : src/debug/backtrace.c.s
 
 src/debug/cm_backtrace/cm_backtrace.obj: src/debug/cm_backtrace/cm_backtrace.c.obj
@@ -1944,7 +1944,7 @@ src/debug/cm_backtrace/cm_backtrace.obj: src/debug/cm_backtrace/cm_backtrace.c.o
 
 # target to build an object file
 src/debug/cm_backtrace/cm_backtrace.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.obj
 .PHONY : src/debug/cm_backtrace/cm_backtrace.c.obj
 
 src/debug/cm_backtrace/cm_backtrace.i: src/debug/cm_backtrace/cm_backtrace.c.i
@@ -1952,7 +1952,7 @@ src/debug/cm_backtrace/cm_backtrace.i: src/debug/cm_backtrace/cm_backtrace.c.i
 
 # target to preprocess a source file
 src/debug/cm_backtrace/cm_backtrace.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.i
 .PHONY : src/debug/cm_backtrace/cm_backtrace.c.i
 
 src/debug/cm_backtrace/cm_backtrace.s: src/debug/cm_backtrace/cm_backtrace.c.s
@@ -1960,7 +1960,7 @@ src/debug/cm_backtrace/cm_backtrace.s: src/debug/cm_backtrace/cm_backtrace.c.s
 
 # target to generate assembly for a file
 src/debug/cm_backtrace/cm_backtrace.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.s
 .PHONY : src/debug/cm_backtrace/cm_backtrace.c.s
 
 src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.obj: src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj
@@ -1968,7 +1968,7 @@ src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.obj: src/debug/cm_backtrace/f
 
 # target to build an object file
 src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj
 .PHONY : src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj
 
 src/debug/debug.obj: src/debug/debug.c.obj
@@ -1976,7 +1976,7 @@ src/debug/debug.obj: src/debug/debug.c.obj
 
 # target to build an object file
 src/debug/debug.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/debug/debug.c.obj
 .PHONY : src/debug/debug.c.obj
 
 src/debug/debug.i: src/debug/debug.c.i
@@ -1984,7 +1984,7 @@ src/debug/debug.i: src/debug/debug.c.i
 
 # target to preprocess a source file
 src/debug/debug.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/debug/debug.c.i
 .PHONY : src/debug/debug.c.i
 
 src/debug/debug.s: src/debug/debug.c.s
@@ -1992,7 +1992,7 @@ src/debug/debug.s: src/debug/debug.c.s
 
 # target to generate assembly for a file
 src/debug/debug.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/debug/debug.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/debug/debug.c.s
 .PHONY : src/debug/debug.c.s
 
 src/debug/heap_trace.obj: src/debug/heap_trace.c.obj
@@ -2000,7 +2000,7 @@ src/debug/heap_trace.obj: src/debug/heap_trace.c.obj
 
 # target to build an object file
 src/debug/heap_trace.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/debug/heap_trace.c.obj
 .PHONY : src/debug/heap_trace.c.obj
 
 src/debug/heap_trace.i: src/debug/heap_trace.c.i
@@ -2008,7 +2008,7 @@ src/debug/heap_trace.i: src/debug/heap_trace.c.i
 
 # target to preprocess a source file
 src/debug/heap_trace.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/debug/heap_trace.c.i
 .PHONY : src/debug/heap_trace.c.i
 
 src/debug/heap_trace.s: src/debug/heap_trace.c.s
@@ -2016,39 +2016,15 @@ src/debug/heap_trace.s: src/debug/heap_trace.c.s
 
 # target to generate assembly for a file
 src/debug/heap_trace.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/debug/heap_trace.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/debug/heap_trace.c.s
 .PHONY : src/debug/heap_trace.c.s
-
-src/driver/adc.obj: src/driver/adc.c.obj
-.PHONY : src/driver/adc.obj
-
-# target to build an object file
-src/driver/adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/adc.c.obj
-.PHONY : src/driver/adc.c.obj
-
-src/driver/adc.i: src/driver/adc.c.i
-.PHONY : src/driver/adc.i
-
-# target to preprocess a source file
-src/driver/adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/adc.c.i
-.PHONY : src/driver/adc.c.i
-
-src/driver/adc.s: src/driver/adc.c.s
-.PHONY : src/driver/adc.s
-
-# target to generate assembly for a file
-src/driver/adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/adc.c.s
-.PHONY : src/driver/adc.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
@@ -2056,7 +2032,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i: src/driver/chip/STM32F
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
@@ -2064,7 +2040,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s: src/driver/chip/STM32F
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
@@ -2072,7 +2048,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.obj: src/driver/chip/
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i
@@ -2080,7 +2056,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.i: src/driver/chip/ST
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s
@@ -2088,7 +2064,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.s: src/driver/chip/ST
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
@@ -2096,7 +2072,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.obj: src/driver/ch
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i
@@ -2104,7 +2080,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.i: src/driver/chip
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
@@ -2112,7 +2088,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.s: src/driver/chip
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
@@ -2120,7 +2096,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj: src/driver/ch
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
@@ -2128,7 +2104,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.i: src/driver/chip
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
@@ -2136,7 +2112,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.s: src/driver/chip
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj
@@ -2144,7 +2120,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.obj: src/driver/chip/
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i
@@ -2152,7 +2128,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.i: src/driver/chip/ST
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.s
@@ -2160,7 +2136,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.s: src/driver/chip/ST
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
@@ -2168,7 +2144,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.obj: src/driver/chip/
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
@@ -2176,7 +2152,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.i: src/driver/chip/ST
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
@@ -2184,7 +2160,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.s: src/driver/chip/ST
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
@@ -2192,7 +2168,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.obj: src/driver/ch
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
@@ -2200,7 +2176,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.i: src/driver/chip
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
@@ -2208,7 +2184,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.s: src/driver/chip
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
@@ -2216,7 +2192,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.obj: src/driver/chip
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
@@ -2224,7 +2200,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.i: src/driver/chip/S
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
@@ -2232,7 +2208,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.s: src/driver/chip/S
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
@@ -2240,7 +2216,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.obj: src/driver/chi
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
@@ -2248,7 +2224,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.i: src/driver/chip/
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
@@ -2256,7 +2232,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.s: src/driver/chip/
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
@@ -2264,7 +2240,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.obj: src/driver/
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
@@ -2272,7 +2248,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.i: src/driver/ch
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
@@ -2280,7 +2256,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.s: src/driver/ch
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
@@ -2288,7 +2264,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.obj: src/dr
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
@@ -2296,7 +2272,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.i: src/driv
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
@@ -2304,7 +2280,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.s: src/driv
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
@@ -2312,7 +2288,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj: src/driver/chip
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
@@ -2320,7 +2296,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i: src/driver/chip/S
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
@@ -2328,7 +2304,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s: src/driver/chip/S
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
@@ -2336,7 +2312,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj: src/driver/chip/
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
@@ -2344,7 +2320,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i: src/driver/chip/ST
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
@@ -2352,7 +2328,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s: src/driver/chip/ST
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
@@ -2360,7 +2336,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj: src/driver/ch
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
@@ -2368,7 +2344,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i: src/driver/chip
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
@@ -2376,7 +2352,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s: src/driver/chip
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
@@ -2384,7 +2360,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.obj: src/driver/chip
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i
@@ -2392,7 +2368,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.i: src/driver/chip/S
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s
@@ -2400,7 +2376,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.s: src/driver/chip/S
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
@@ -2408,7 +2384,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj: src/driver/chip/
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
@@ -2416,7 +2392,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.i: src/driver/chip/ST
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
@@ -2424,7 +2400,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.s: src/driver/chip/ST
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
@@ -2432,7 +2408,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.obj: src/driver/ch
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
@@ -2440,7 +2416,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.i: src/driver/chip
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
@@ -2448,7 +2424,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.s: src/driver/chip
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
@@ -2456,7 +2432,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: src/driver/chip/
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
@@ -2464,7 +2440,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i: src/driver/chip/ST
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
@@ -2472,7 +2448,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s: src/driver/chip/ST
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
@@ -2480,7 +2456,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.obj: src/driver/ch
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
@@ -2488,7 +2464,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.i: src/driver/chip
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
@@ -2496,7 +2472,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.s: src/driver/chip
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
@@ -2504,7 +2480,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj: src/driver/chip/
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
@@ -2512,7 +2488,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i: src/driver/chip/ST
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
@@ -2520,7 +2496,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s: src/driver/chip/ST
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
@@ -2528,7 +2504,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj: src/driver/ch
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
@@ -2536,7 +2512,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i: src/driver/chip
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
@@ -2544,7 +2520,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s: src/driver/chip
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj
@@ -2552,7 +2528,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.obj: src/driver/chip/
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i
@@ -2560,7 +2536,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.i: src/driver/chip/ST
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s
@@ -2568,7 +2544,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.s: src/driver/chip/ST
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj
@@ -2576,7 +2552,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.obj: src/driver/chip/S
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
@@ -2584,7 +2560,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.i: src/driver/chip/STM
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
@@ -2592,7 +2568,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.s: src/driver/chip/STM
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
@@ -2600,7 +2576,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.obj: src/driver/chip/
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
@@ -2608,7 +2584,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.i: src/driver/chip/ST
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
@@ -2616,7 +2592,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.s: src/driver/chip/ST
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
@@ -2624,7 +2600,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj: src/driver/chip/
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
@@ -2632,7 +2608,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.i: src/driver/chip/ST
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
@@ -2640,7 +2616,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.s: src/driver/chip/ST
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
@@ -2648,7 +2624,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.obj: src/driver/ch
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
@@ -2656,7 +2632,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.i: src/driver/chip
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
@@ -2664,7 +2640,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.s: src/driver/chip
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
@@ -2672,7 +2648,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj: src/driver/chip
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
@@ -2680,7 +2656,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i: src/driver/chip/S
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
@@ -2688,7 +2664,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s: src/driver/chip/S
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
@@ -2696,7 +2672,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.obj: src/driver/chip
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.i
@@ -2704,7 +2680,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.i: src/driver/chip/S
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.s
@@ -2712,7 +2688,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.s: src/driver/chip/S
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
@@ -2720,7 +2696,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.obj: src/driver/chip/S
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i
@@ -2728,7 +2704,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.i: src/driver/chip/STM
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s
@@ -2736,7 +2712,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.s: src/driver/chip/STM
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
@@ -2744,7 +2720,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.obj: src/driver/chip
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
@@ -2752,7 +2728,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.i: src/driver/chip/S
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
@@ -2760,7 +2736,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.s: src/driver/chip/S
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
@@ -2768,7 +2744,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj: src/driver/chip/S
 
 # target to build an object file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.i: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
@@ -2776,7 +2752,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.i: src/driver/chip/STM
 
 # target to preprocess a source file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
 
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s: src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
@@ -2784,7 +2760,7 @@ src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s: src/driver/chip/STM
 
 # target to generate assembly for a file
 src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
 .PHONY : src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
 
 src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj: src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
@@ -2792,7 +2768,7 @@ src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj: src/driver/
 
 # target to build an object file
 src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
 
 src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i: src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
@@ -2800,7 +2776,7 @@ src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i: src/driver/ch
 
 # target to preprocess a source file
 src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
 
 src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s: src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
@@ -2808,7 +2784,7 @@ src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s: src/driver/ch
 
 # target to generate assembly for a file
 src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
 
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.obj: src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj
@@ -2816,7 +2792,7 @@ src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.obj: src/driver/
 
 # target to build an object file
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj
 
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.i: src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.i
@@ -2824,7 +2800,7 @@ src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.i: src/driver/ch
 
 # target to preprocess a source file
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.i
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.i
 
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.s: src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.s
@@ -2832,7 +2808,7 @@ src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.s: src/driver/ch
 
 # target to generate assembly for a file
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.s
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.s
 
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.obj: src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj
@@ -2840,7 +2816,7 @@ src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.obj: src/dri
 
 # target to build an object file
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj
 
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.i: src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.i
@@ -2848,7 +2824,7 @@ src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.i: src/drive
 
 # target to preprocess a source file
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.i
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.i
 
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.s: src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.s
@@ -2856,7 +2832,7 @@ src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.s: src/drive
 
 # target to generate assembly for a file
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.s
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.s
 
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.obj: src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj
@@ -2864,7 +2840,7 @@ src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.obj: src/dr
 
 # target to build an object file
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj
 
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.i: src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.i
@@ -2872,7 +2848,7 @@ src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.i: src/driv
 
 # target to preprocess a source file
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.i
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.i
 
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.s: src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.s
@@ -2880,7 +2856,7 @@ src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.s: src/driv
 
 # target to generate assembly for a file
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.s
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.s
 
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.obj: src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj
@@ -2888,7 +2864,7 @@ src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.obj: src/dr
 
 # target to build an object file
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj
 
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.i: src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.i
@@ -2896,7 +2872,7 @@ src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.i: src/driv
 
 # target to preprocess a source file
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.i
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.i
 
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.s: src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.s
@@ -2904,7 +2880,7 @@ src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.s: src/driv
 
 # target to generate assembly for a file
 src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.s
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.s
 
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.obj: src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
@@ -2912,7 +2888,7 @@ src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.obj: src/driver/chip
 
 # target to build an object file
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
 
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.i: src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
@@ -2920,7 +2896,7 @@ src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.i: src/driver/chip/S
 
 # target to preprocess a source file
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
 
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.s: src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
@@ -2928,7 +2904,7 @@ src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.s: src/driver/chip/S
 
 # target to generate assembly for a file
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
 
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj: src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
@@ -2936,7 +2912,7 @@ src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj: src/driver/ch
 
 # target to build an object file
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
 
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i: src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
@@ -2944,7 +2920,7 @@ src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i: src/driver/chip
 
 # target to preprocess a source file
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
 
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s: src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
@@ -2952,7 +2928,7 @@ src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s: src/driver/chip
 
 # target to generate assembly for a file
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
 
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj: src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
@@ -2960,7 +2936,7 @@ src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj: src/driver/chi
 
 # target to build an object file
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
 
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i: src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
@@ -2968,7 +2944,7 @@ src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i: src/driver/chip/
 
 # target to preprocess a source file
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
 
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s: src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
@@ -2976,7 +2952,7 @@ src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s: src/driver/chip/
 
 # target to generate assembly for a file
 src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
 .PHONY : src/driver/chip/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
 
 src/driver/component/flash/sfud/port/sfud_port.obj: src/driver/component/flash/sfud/port/sfud_port.c.obj
@@ -2984,7 +2960,7 @@ src/driver/component/flash/sfud/port/sfud_port.obj: src/driver/component/flash/s
 
 # target to build an object file
 src/driver/component/flash/sfud/port/sfud_port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/port/sfud_port.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/flash/sfud/port/sfud_port.c.obj
 .PHONY : src/driver/component/flash/sfud/port/sfud_port.c.obj
 
 src/driver/component/flash/sfud/port/sfud_port.i: src/driver/component/flash/sfud/port/sfud_port.c.i
@@ -2992,7 +2968,7 @@ src/driver/component/flash/sfud/port/sfud_port.i: src/driver/component/flash/sfu
 
 # target to preprocess a source file
 src/driver/component/flash/sfud/port/sfud_port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/port/sfud_port.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/flash/sfud/port/sfud_port.c.i
 .PHONY : src/driver/component/flash/sfud/port/sfud_port.c.i
 
 src/driver/component/flash/sfud/port/sfud_port.s: src/driver/component/flash/sfud/port/sfud_port.c.s
@@ -3000,7 +2976,7 @@ src/driver/component/flash/sfud/port/sfud_port.s: src/driver/component/flash/sfu
 
 # target to generate assembly for a file
 src/driver/component/flash/sfud/port/sfud_port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/port/sfud_port.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/flash/sfud/port/sfud_port.c.s
 .PHONY : src/driver/component/flash/sfud/port/sfud_port.c.s
 
 src/driver/component/flash/sfud/src/sfud.obj: src/driver/component/flash/sfud/src/sfud.c.obj
@@ -3008,7 +2984,7 @@ src/driver/component/flash/sfud/src/sfud.obj: src/driver/component/flash/sfud/sr
 
 # target to build an object file
 src/driver/component/flash/sfud/src/sfud.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/flash/sfud/src/sfud.c.obj
 .PHONY : src/driver/component/flash/sfud/src/sfud.c.obj
 
 src/driver/component/flash/sfud/src/sfud.i: src/driver/component/flash/sfud/src/sfud.c.i
@@ -3016,7 +2992,7 @@ src/driver/component/flash/sfud/src/sfud.i: src/driver/component/flash/sfud/src/
 
 # target to preprocess a source file
 src/driver/component/flash/sfud/src/sfud.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/flash/sfud/src/sfud.c.i
 .PHONY : src/driver/component/flash/sfud/src/sfud.c.i
 
 src/driver/component/flash/sfud/src/sfud.s: src/driver/component/flash/sfud/src/sfud.c.s
@@ -3024,7 +3000,7 @@ src/driver/component/flash/sfud/src/sfud.s: src/driver/component/flash/sfud/src/
 
 # target to generate assembly for a file
 src/driver/component/flash/sfud/src/sfud.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/flash/sfud/src/sfud.c.s
 .PHONY : src/driver/component/flash/sfud/src/sfud.c.s
 
 src/driver/component/flash/sfud/src/sfud_sfdp.obj: src/driver/component/flash/sfud/src/sfud_sfdp.c.obj
@@ -3032,7 +3008,7 @@ src/driver/component/flash/sfud/src/sfud_sfdp.obj: src/driver/component/flash/sf
 
 # target to build an object file
 src/driver/component/flash/sfud/src/sfud_sfdp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud_sfdp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/flash/sfud/src/sfud_sfdp.c.obj
 .PHONY : src/driver/component/flash/sfud/src/sfud_sfdp.c.obj
 
 src/driver/component/flash/sfud/src/sfud_sfdp.i: src/driver/component/flash/sfud/src/sfud_sfdp.c.i
@@ -3040,7 +3016,7 @@ src/driver/component/flash/sfud/src/sfud_sfdp.i: src/driver/component/flash/sfud
 
 # target to preprocess a source file
 src/driver/component/flash/sfud/src/sfud_sfdp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud_sfdp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/flash/sfud/src/sfud_sfdp.c.i
 .PHONY : src/driver/component/flash/sfud/src/sfud_sfdp.c.i
 
 src/driver/component/flash/sfud/src/sfud_sfdp.s: src/driver/component/flash/sfud/src/sfud_sfdp.c.s
@@ -3048,7 +3024,7 @@ src/driver/component/flash/sfud/src/sfud_sfdp.s: src/driver/component/flash/sfud
 
 # target to generate assembly for a file
 src/driver/component/flash/sfud/src/sfud_sfdp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/flash/sfud/src/sfud_sfdp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/flash/sfud/src/sfud_sfdp.c.s
 .PHONY : src/driver/component/flash/sfud/src/sfud_sfdp.c.s
 
 src/driver/component/lcd/st7735/fonts.obj: src/driver/component/lcd/st7735/fonts.c.obj
@@ -3056,7 +3032,7 @@ src/driver/component/lcd/st7735/fonts.obj: src/driver/component/lcd/st7735/fonts
 
 # target to build an object file
 src/driver/component/lcd/st7735/fonts.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/fonts.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/lcd/st7735/fonts.c.obj
 .PHONY : src/driver/component/lcd/st7735/fonts.c.obj
 
 src/driver/component/lcd/st7735/fonts.i: src/driver/component/lcd/st7735/fonts.c.i
@@ -3064,7 +3040,7 @@ src/driver/component/lcd/st7735/fonts.i: src/driver/component/lcd/st7735/fonts.c
 
 # target to preprocess a source file
 src/driver/component/lcd/st7735/fonts.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/fonts.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/lcd/st7735/fonts.c.i
 .PHONY : src/driver/component/lcd/st7735/fonts.c.i
 
 src/driver/component/lcd/st7735/fonts.s: src/driver/component/lcd/st7735/fonts.c.s
@@ -3072,7 +3048,7 @@ src/driver/component/lcd/st7735/fonts.s: src/driver/component/lcd/st7735/fonts.c
 
 # target to generate assembly for a file
 src/driver/component/lcd/st7735/fonts.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/fonts.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/lcd/st7735/fonts.c.s
 .PHONY : src/driver/component/lcd/st7735/fonts.c.s
 
 src/driver/component/lcd/st7735/image.obj: src/driver/component/lcd/st7735/image.c.obj
@@ -3080,7 +3056,7 @@ src/driver/component/lcd/st7735/image.obj: src/driver/component/lcd/st7735/image
 
 # target to build an object file
 src/driver/component/lcd/st7735/image.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/image.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/lcd/st7735/image.c.obj
 .PHONY : src/driver/component/lcd/st7735/image.c.obj
 
 src/driver/component/lcd/st7735/image.i: src/driver/component/lcd/st7735/image.c.i
@@ -3088,7 +3064,7 @@ src/driver/component/lcd/st7735/image.i: src/driver/component/lcd/st7735/image.c
 
 # target to preprocess a source file
 src/driver/component/lcd/st7735/image.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/image.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/lcd/st7735/image.c.i
 .PHONY : src/driver/component/lcd/st7735/image.c.i
 
 src/driver/component/lcd/st7735/image.s: src/driver/component/lcd/st7735/image.c.s
@@ -3096,7 +3072,7 @@ src/driver/component/lcd/st7735/image.s: src/driver/component/lcd/st7735/image.c
 
 # target to generate assembly for a file
 src/driver/component/lcd/st7735/image.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/image.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/lcd/st7735/image.c.s
 .PHONY : src/driver/component/lcd/st7735/image.c.s
 
 src/driver/component/lcd/st7735/st7735.obj: src/driver/component/lcd/st7735/st7735.c.obj
@@ -3104,7 +3080,7 @@ src/driver/component/lcd/st7735/st7735.obj: src/driver/component/lcd/st7735/st77
 
 # target to build an object file
 src/driver/component/lcd/st7735/st7735.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/st7735.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/lcd/st7735/st7735.c.obj
 .PHONY : src/driver/component/lcd/st7735/st7735.c.obj
 
 src/driver/component/lcd/st7735/st7735.i: src/driver/component/lcd/st7735/st7735.c.i
@@ -3112,7 +3088,7 @@ src/driver/component/lcd/st7735/st7735.i: src/driver/component/lcd/st7735/st7735
 
 # target to preprocess a source file
 src/driver/component/lcd/st7735/st7735.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/st7735.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/lcd/st7735/st7735.c.i
 .PHONY : src/driver/component/lcd/st7735/st7735.c.i
 
 src/driver/component/lcd/st7735/st7735.s: src/driver/component/lcd/st7735/st7735.c.s
@@ -3120,7 +3096,7 @@ src/driver/component/lcd/st7735/st7735.s: src/driver/component/lcd/st7735/st7735
 
 # target to generate assembly for a file
 src/driver/component/lcd/st7735/st7735.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/lcd/st7735/st7735.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/lcd/st7735/st7735.c.s
 .PHONY : src/driver/component/lcd/st7735/st7735.c.s
 
 src/driver/component/usb/USB_DEVICE/App/usb_device.obj: src/driver/component/usb/USB_DEVICE/App/usb_device.c.obj
@@ -3128,7 +3104,7 @@ src/driver/component/usb/USB_DEVICE/App/usb_device.obj: src/driver/component/usb
 
 # target to build an object file
 src/driver/component/usb/USB_DEVICE/App/usb_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usb_device.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/App/usb_device.c.obj
 .PHONY : src/driver/component/usb/USB_DEVICE/App/usb_device.c.obj
 
 src/driver/component/usb/USB_DEVICE/App/usb_device.i: src/driver/component/usb/USB_DEVICE/App/usb_device.c.i
@@ -3136,7 +3112,7 @@ src/driver/component/usb/USB_DEVICE/App/usb_device.i: src/driver/component/usb/U
 
 # target to preprocess a source file
 src/driver/component/usb/USB_DEVICE/App/usb_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usb_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/App/usb_device.c.i
 .PHONY : src/driver/component/usb/USB_DEVICE/App/usb_device.c.i
 
 src/driver/component/usb/USB_DEVICE/App/usb_device.s: src/driver/component/usb/USB_DEVICE/App/usb_device.c.s
@@ -3144,7 +3120,7 @@ src/driver/component/usb/USB_DEVICE/App/usb_device.s: src/driver/component/usb/U
 
 # target to generate assembly for a file
 src/driver/component/usb/USB_DEVICE/App/usb_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usb_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/App/usb_device.c.s
 .PHONY : src/driver/component/usb/USB_DEVICE/App/usb_device.c.s
 
 src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.obj: src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.obj
@@ -3152,7 +3128,7 @@ src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.obj: src/driver/component/us
 
 # target to build an object file
 src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.obj
 .PHONY : src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.obj
 
 src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.i: src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.i
@@ -3160,7 +3136,7 @@ src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.i: src/driver/component/usb/
 
 # target to preprocess a source file
 src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.i
 .PHONY : src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.i
 
 src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.s: src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.s
@@ -3168,7 +3144,7 @@ src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.s: src/driver/component/usb/
 
 # target to generate assembly for a file
 src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.s
 .PHONY : src/driver/component/usb/USB_DEVICE/App/usbd_cdc_if.c.s
 
 src/driver/component/usb/USB_DEVICE/App/usbd_composite.obj: src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.obj
@@ -3176,7 +3152,7 @@ src/driver/component/usb/USB_DEVICE/App/usbd_composite.obj: src/driver/component
 
 # target to build an object file
 src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.obj
 .PHONY : src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.obj
 
 src/driver/component/usb/USB_DEVICE/App/usbd_composite.i: src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.i
@@ -3184,7 +3160,7 @@ src/driver/component/usb/USB_DEVICE/App/usbd_composite.i: src/driver/component/u
 
 # target to preprocess a source file
 src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.i
 .PHONY : src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.i
 
 src/driver/component/usb/USB_DEVICE/App/usbd_composite.s: src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.s
@@ -3192,7 +3168,7 @@ src/driver/component/usb/USB_DEVICE/App/usbd_composite.s: src/driver/component/u
 
 # target to generate assembly for a file
 src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.s
 .PHONY : src/driver/component/usb/USB_DEVICE/App/usbd_composite.c.s
 
 src/driver/component/usb/USB_DEVICE/App/usbd_desc.obj: src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.obj
@@ -3200,7 +3176,7 @@ src/driver/component/usb/USB_DEVICE/App/usbd_desc.obj: src/driver/component/usb/
 
 # target to build an object file
 src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.obj
 .PHONY : src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.obj
 
 src/driver/component/usb/USB_DEVICE/App/usbd_desc.i: src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.i
@@ -3208,7 +3184,7 @@ src/driver/component/usb/USB_DEVICE/App/usbd_desc.i: src/driver/component/usb/US
 
 # target to preprocess a source file
 src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.i
 .PHONY : src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.i
 
 src/driver/component/usb/USB_DEVICE/App/usbd_desc.s: src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.s
@@ -3216,7 +3192,7 @@ src/driver/component/usb/USB_DEVICE/App/usbd_desc.s: src/driver/component/usb/US
 
 # target to generate assembly for a file
 src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.s
 .PHONY : src/driver/component/usb/USB_DEVICE/App/usbd_desc.c.s
 
 src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.obj: src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.obj
@@ -3224,7 +3200,7 @@ src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.obj: src/driver/componen
 
 # target to build an object file
 src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.obj
 .PHONY : src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.obj
 
 src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.i: src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.i
@@ -3232,7 +3208,7 @@ src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.i: src/driver/component/
 
 # target to preprocess a source file
 src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.i
 .PHONY : src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.i
 
 src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.s: src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.s
@@ -3240,7 +3216,7 @@ src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.s: src/driver/component/
 
 # target to generate assembly for a file
 src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.s
 .PHONY : src/driver/component/usb/USB_DEVICE/App/usbd_storage_if.c.s
 
 src/driver/component/usb/USB_DEVICE/Target/usbd_conf.obj: src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.obj
@@ -3248,7 +3224,7 @@ src/driver/component/usb/USB_DEVICE/Target/usbd_conf.obj: src/driver/component/u
 
 # target to build an object file
 src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.obj
 .PHONY : src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.obj
 
 src/driver/component/usb/USB_DEVICE/Target/usbd_conf.i: src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.i
@@ -3256,7 +3232,7 @@ src/driver/component/usb/USB_DEVICE/Target/usbd_conf.i: src/driver/component/usb
 
 # target to preprocess a source file
 src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.i
 .PHONY : src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.i
 
 src/driver/component/usb/USB_DEVICE/Target/usbd_conf.s: src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.s
@@ -3264,87 +3240,15 @@ src/driver/component/usb/USB_DEVICE/Target/usbd_conf.s: src/driver/component/usb
 
 # target to generate assembly for a file
 src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.s
 .PHONY : src/driver/component/usb/USB_DEVICE/Target/usbd_conf.c.s
-
-src/driver/crc.obj: src/driver/crc.c.obj
-.PHONY : src/driver/crc.obj
-
-# target to build an object file
-src/driver/crc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/crc.c.obj
-.PHONY : src/driver/crc.c.obj
-
-src/driver/crc.i: src/driver/crc.c.i
-.PHONY : src/driver/crc.i
-
-# target to preprocess a source file
-src/driver/crc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/crc.c.i
-.PHONY : src/driver/crc.c.i
-
-src/driver/crc.s: src/driver/crc.c.s
-.PHONY : src/driver/crc.s
-
-# target to generate assembly for a file
-src/driver/crc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/crc.c.s
-.PHONY : src/driver/crc.c.s
-
-src/driver/dma.obj: src/driver/dma.c.obj
-.PHONY : src/driver/dma.obj
-
-# target to build an object file
-src/driver/dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/dma.c.obj
-.PHONY : src/driver/dma.c.obj
-
-src/driver/dma.i: src/driver/dma.c.i
-.PHONY : src/driver/dma.i
-
-# target to preprocess a source file
-src/driver/dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/dma.c.i
-.PHONY : src/driver/dma.c.i
-
-src/driver/dma.s: src/driver/dma.c.s
-.PHONY : src/driver/dma.s
-
-# target to generate assembly for a file
-src/driver/dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/dma.c.s
-.PHONY : src/driver/dma.c.s
-
-src/driver/gpio.obj: src/driver/gpio.c.obj
-.PHONY : src/driver/gpio.obj
-
-# target to build an object file
-src/driver/gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/gpio.c.obj
-.PHONY : src/driver/gpio.c.obj
-
-src/driver/gpio.i: src/driver/gpio.c.i
-.PHONY : src/driver/gpio.i
-
-# target to preprocess a source file
-src/driver/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/gpio.c.i
-.PHONY : src/driver/gpio.c.i
-
-src/driver/gpio.s: src/driver/gpio.c.s
-.PHONY : src/driver/gpio.s
-
-# target to generate assembly for a file
-src/driver/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/gpio.c.s
-.PHONY : src/driver/gpio.c.s
 
 src/driver/hal/hal_adc.obj: src/driver/hal/hal_adc.c.obj
 .PHONY : src/driver/hal/hal_adc.obj
 
 # target to build an object file
 src/driver/hal/hal_adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_adc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_adc.c.obj
 .PHONY : src/driver/hal/hal_adc.c.obj
 
 src/driver/hal/hal_adc.i: src/driver/hal/hal_adc.c.i
@@ -3352,7 +3256,7 @@ src/driver/hal/hal_adc.i: src/driver/hal/hal_adc.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_adc.c.i
 .PHONY : src/driver/hal/hal_adc.c.i
 
 src/driver/hal/hal_adc.s: src/driver/hal/hal_adc.c.s
@@ -3360,7 +3264,7 @@ src/driver/hal/hal_adc.s: src/driver/hal/hal_adc.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_adc.c.s
 .PHONY : src/driver/hal/hal_adc.c.s
 
 src/driver/hal/hal_board.obj: src/driver/hal/hal_board.c.obj
@@ -3368,7 +3272,7 @@ src/driver/hal/hal_board.obj: src/driver/hal/hal_board.c.obj
 
 # target to build an object file
 src/driver/hal/hal_board.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_board.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_board.c.obj
 .PHONY : src/driver/hal/hal_board.c.obj
 
 src/driver/hal/hal_board.i: src/driver/hal/hal_board.c.i
@@ -3376,7 +3280,7 @@ src/driver/hal/hal_board.i: src/driver/hal/hal_board.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_board.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_board.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_board.c.i
 .PHONY : src/driver/hal/hal_board.c.i
 
 src/driver/hal/hal_board.s: src/driver/hal/hal_board.c.s
@@ -3384,7 +3288,7 @@ src/driver/hal/hal_board.s: src/driver/hal/hal_board.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_board.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_board.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_board.c.s
 .PHONY : src/driver/hal/hal_board.c.s
 
 src/driver/hal/hal_crc.obj: src/driver/hal/hal_crc.c.obj
@@ -3392,7 +3296,7 @@ src/driver/hal/hal_crc.obj: src/driver/hal/hal_crc.c.obj
 
 # target to build an object file
 src/driver/hal/hal_crc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_crc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_crc.c.obj
 .PHONY : src/driver/hal/hal_crc.c.obj
 
 src/driver/hal/hal_crc.i: src/driver/hal/hal_crc.c.i
@@ -3400,7 +3304,7 @@ src/driver/hal/hal_crc.i: src/driver/hal/hal_crc.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_crc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_crc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_crc.c.i
 .PHONY : src/driver/hal/hal_crc.c.i
 
 src/driver/hal/hal_crc.s: src/driver/hal/hal_crc.c.s
@@ -3408,7 +3312,7 @@ src/driver/hal/hal_crc.s: src/driver/hal/hal_crc.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_crc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_crc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_crc.c.s
 .PHONY : src/driver/hal/hal_crc.c.s
 
 src/driver/hal/hal_dma.obj: src/driver/hal/hal_dma.c.obj
@@ -3416,7 +3320,7 @@ src/driver/hal/hal_dma.obj: src/driver/hal/hal_dma.c.obj
 
 # target to build an object file
 src/driver/hal/hal_dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_dma.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_dma.c.obj
 .PHONY : src/driver/hal/hal_dma.c.obj
 
 src/driver/hal/hal_dma.i: src/driver/hal/hal_dma.c.i
@@ -3424,7 +3328,7 @@ src/driver/hal/hal_dma.i: src/driver/hal/hal_dma.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_dma.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_dma.c.i
 .PHONY : src/driver/hal/hal_dma.c.i
 
 src/driver/hal/hal_dma.s: src/driver/hal/hal_dma.c.s
@@ -3432,7 +3336,7 @@ src/driver/hal/hal_dma.s: src/driver/hal/hal_dma.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_dma.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_dma.c.s
 .PHONY : src/driver/hal/hal_dma.c.s
 
 src/driver/hal/hal_flash.obj: src/driver/hal/hal_flash.c.obj
@@ -3440,7 +3344,7 @@ src/driver/hal/hal_flash.obj: src/driver/hal/hal_flash.c.obj
 
 # target to build an object file
 src/driver/hal/hal_flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_flash.c.obj
 .PHONY : src/driver/hal/hal_flash.c.obj
 
 src/driver/hal/hal_flash.i: src/driver/hal/hal_flash.c.i
@@ -3448,7 +3352,7 @@ src/driver/hal/hal_flash.i: src/driver/hal/hal_flash.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_flash.c.i
 .PHONY : src/driver/hal/hal_flash.c.i
 
 src/driver/hal/hal_flash.s: src/driver/hal/hal_flash.c.s
@@ -3456,7 +3360,7 @@ src/driver/hal/hal_flash.s: src/driver/hal/hal_flash.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_flash.c.s
 .PHONY : src/driver/hal/hal_flash.c.s
 
 src/driver/hal/hal_gpio.obj: src/driver/hal/hal_gpio.c.obj
@@ -3464,7 +3368,7 @@ src/driver/hal/hal_gpio.obj: src/driver/hal/hal_gpio.c.obj
 
 # target to build an object file
 src/driver/hal/hal_gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_gpio.c.obj
 .PHONY : src/driver/hal/hal_gpio.c.obj
 
 src/driver/hal/hal_gpio.i: src/driver/hal/hal_gpio.c.i
@@ -3472,7 +3376,7 @@ src/driver/hal/hal_gpio.i: src/driver/hal/hal_gpio.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_gpio.c.i
 .PHONY : src/driver/hal/hal_gpio.c.i
 
 src/driver/hal/hal_gpio.s: src/driver/hal/hal_gpio.c.s
@@ -3480,7 +3384,7 @@ src/driver/hal/hal_gpio.s: src/driver/hal/hal_gpio.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_gpio.c.s
 .PHONY : src/driver/hal/hal_gpio.c.s
 
 src/driver/hal/hal_i2c.obj: src/driver/hal/hal_i2c.c.obj
@@ -3488,7 +3392,7 @@ src/driver/hal/hal_i2c.obj: src/driver/hal/hal_i2c.c.obj
 
 # target to build an object file
 src/driver/hal/hal_i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_i2c.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_i2c.c.obj
 .PHONY : src/driver/hal/hal_i2c.c.obj
 
 src/driver/hal/hal_i2c.i: src/driver/hal/hal_i2c.c.i
@@ -3496,7 +3400,7 @@ src/driver/hal/hal_i2c.i: src/driver/hal/hal_i2c.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_i2c.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_i2c.c.i
 .PHONY : src/driver/hal/hal_i2c.c.i
 
 src/driver/hal/hal_i2c.s: src/driver/hal/hal_i2c.c.s
@@ -3504,7 +3408,7 @@ src/driver/hal/hal_i2c.s: src/driver/hal/hal_i2c.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_i2c.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_i2c.c.s
 .PHONY : src/driver/hal/hal_i2c.c.s
 
 src/driver/hal/hal_pwm.obj: src/driver/hal/hal_pwm.c.obj
@@ -3512,7 +3416,7 @@ src/driver/hal/hal_pwm.obj: src/driver/hal/hal_pwm.c.obj
 
 # target to build an object file
 src/driver/hal/hal_pwm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_pwm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_pwm.c.obj
 .PHONY : src/driver/hal/hal_pwm.c.obj
 
 src/driver/hal/hal_pwm.i: src/driver/hal/hal_pwm.c.i
@@ -3520,7 +3424,7 @@ src/driver/hal/hal_pwm.i: src/driver/hal/hal_pwm.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_pwm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_pwm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_pwm.c.i
 .PHONY : src/driver/hal/hal_pwm.c.i
 
 src/driver/hal/hal_pwm.s: src/driver/hal/hal_pwm.c.s
@@ -3528,7 +3432,7 @@ src/driver/hal/hal_pwm.s: src/driver/hal/hal_pwm.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_pwm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_pwm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_pwm.c.s
 .PHONY : src/driver/hal/hal_pwm.c.s
 
 src/driver/hal/hal_rnd.obj: src/driver/hal/hal_rnd.c.obj
@@ -3536,7 +3440,7 @@ src/driver/hal/hal_rnd.obj: src/driver/hal/hal_rnd.c.obj
 
 # target to build an object file
 src/driver/hal/hal_rnd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_rnd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_rnd.c.obj
 .PHONY : src/driver/hal/hal_rnd.c.obj
 
 src/driver/hal/hal_rnd.i: src/driver/hal/hal_rnd.c.i
@@ -3544,7 +3448,7 @@ src/driver/hal/hal_rnd.i: src/driver/hal/hal_rnd.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_rnd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_rnd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_rnd.c.i
 .PHONY : src/driver/hal/hal_rnd.c.i
 
 src/driver/hal/hal_rnd.s: src/driver/hal/hal_rnd.c.s
@@ -3552,7 +3456,7 @@ src/driver/hal/hal_rnd.s: src/driver/hal/hal_rnd.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_rnd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_rnd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_rnd.c.s
 .PHONY : src/driver/hal/hal_rnd.c.s
 
 src/driver/hal/hal_sdio.obj: src/driver/hal/hal_sdio.c.obj
@@ -3560,7 +3464,7 @@ src/driver/hal/hal_sdio.obj: src/driver/hal/hal_sdio.c.obj
 
 # target to build an object file
 src/driver/hal/hal_sdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_sdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_sdio.c.obj
 .PHONY : src/driver/hal/hal_sdio.c.obj
 
 src/driver/hal/hal_sdio.i: src/driver/hal/hal_sdio.c.i
@@ -3568,7 +3472,7 @@ src/driver/hal/hal_sdio.i: src/driver/hal/hal_sdio.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_sdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_sdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_sdio.c.i
 .PHONY : src/driver/hal/hal_sdio.c.i
 
 src/driver/hal/hal_sdio.s: src/driver/hal/hal_sdio.c.s
@@ -3576,7 +3480,7 @@ src/driver/hal/hal_sdio.s: src/driver/hal/hal_sdio.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_sdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_sdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_sdio.c.s
 .PHONY : src/driver/hal/hal_sdio.c.s
 
 src/driver/hal/hal_spi.obj: src/driver/hal/hal_spi.c.obj
@@ -3584,7 +3488,7 @@ src/driver/hal/hal_spi.obj: src/driver/hal/hal_spi.c.obj
 
 # target to build an object file
 src/driver/hal/hal_spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_spi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_spi.c.obj
 .PHONY : src/driver/hal/hal_spi.c.obj
 
 src/driver/hal/hal_spi.i: src/driver/hal/hal_spi.c.i
@@ -3592,7 +3496,7 @@ src/driver/hal/hal_spi.i: src/driver/hal/hal_spi.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_spi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_spi.c.i
 .PHONY : src/driver/hal/hal_spi.c.i
 
 src/driver/hal/hal_spi.s: src/driver/hal/hal_spi.c.s
@@ -3600,7 +3504,7 @@ src/driver/hal/hal_spi.s: src/driver/hal/hal_spi.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_spi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_spi.c.s
 .PHONY : src/driver/hal/hal_spi.c.s
 
 src/driver/hal/hal_timer.obj: src/driver/hal/hal_timer.c.obj
@@ -3608,7 +3512,7 @@ src/driver/hal/hal_timer.obj: src/driver/hal/hal_timer.c.obj
 
 # target to build an object file
 src/driver/hal/hal_timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_timer.c.obj
 .PHONY : src/driver/hal/hal_timer.c.obj
 
 src/driver/hal/hal_timer.i: src/driver/hal/hal_timer.c.i
@@ -3616,7 +3520,7 @@ src/driver/hal/hal_timer.i: src/driver/hal/hal_timer.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_timer.c.i
 .PHONY : src/driver/hal/hal_timer.c.i
 
 src/driver/hal/hal_timer.s: src/driver/hal/hal_timer.c.s
@@ -3624,7 +3528,7 @@ src/driver/hal/hal_timer.s: src/driver/hal/hal_timer.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_timer.c.s
 .PHONY : src/driver/hal/hal_timer.c.s
 
 src/driver/hal/hal_uart.obj: src/driver/hal/hal_uart.c.obj
@@ -3632,7 +3536,7 @@ src/driver/hal/hal_uart.obj: src/driver/hal/hal_uart.c.obj
 
 # target to build an object file
 src/driver/hal/hal_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_uart.c.obj
 .PHONY : src/driver/hal/hal_uart.c.obj
 
 src/driver/hal/hal_uart.i: src/driver/hal/hal_uart.c.i
@@ -3640,7 +3544,7 @@ src/driver/hal/hal_uart.i: src/driver/hal/hal_uart.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_uart.c.i
 .PHONY : src/driver/hal/hal_uart.c.i
 
 src/driver/hal/hal_uart.s: src/driver/hal/hal_uart.c.s
@@ -3648,7 +3552,7 @@ src/driver/hal/hal_uart.s: src/driver/hal/hal_uart.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_uart.c.s
 .PHONY : src/driver/hal/hal_uart.c.s
 
 src/driver/hal/hal_usb.obj: src/driver/hal/hal_usb.c.obj
@@ -3656,7 +3560,7 @@ src/driver/hal/hal_usb.obj: src/driver/hal/hal_usb.c.obj
 
 # target to build an object file
 src/driver/hal/hal_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_usb.c.obj
 .PHONY : src/driver/hal/hal_usb.c.obj
 
 src/driver/hal/hal_usb.i: src/driver/hal/hal_usb.c.i
@@ -3664,7 +3568,7 @@ src/driver/hal/hal_usb.i: src/driver/hal/hal_usb.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_usb.c.i
 .PHONY : src/driver/hal/hal_usb.c.i
 
 src/driver/hal/hal_usb.s: src/driver/hal/hal_usb.c.s
@@ -3672,7 +3576,7 @@ src/driver/hal/hal_usb.s: src/driver/hal/hal_usb.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_usb.c.s
 .PHONY : src/driver/hal/hal_usb.c.s
 
 src/driver/hal/hal_wdg.obj: src/driver/hal/hal_wdg.c.obj
@@ -3680,7 +3584,7 @@ src/driver/hal/hal_wdg.obj: src/driver/hal/hal_wdg.c.obj
 
 # target to build an object file
 src/driver/hal/hal_wdg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_wdg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_wdg.c.obj
 .PHONY : src/driver/hal/hal_wdg.c.obj
 
 src/driver/hal/hal_wdg.i: src/driver/hal/hal_wdg.c.i
@@ -3688,7 +3592,7 @@ src/driver/hal/hal_wdg.i: src/driver/hal/hal_wdg.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_wdg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_wdg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_wdg.c.i
 .PHONY : src/driver/hal/hal_wdg.c.i
 
 src/driver/hal/hal_wdg.s: src/driver/hal/hal_wdg.c.s
@@ -3696,7 +3600,7 @@ src/driver/hal/hal_wdg.s: src/driver/hal/hal_wdg.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_wdg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/hal_wdg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/hal_wdg.c.s
 .PHONY : src/driver/hal/hal_wdg.c.s
 
 src/driver/hal/systemChip.obj: src/driver/hal/systemChip.c.obj
@@ -3704,7 +3608,7 @@ src/driver/hal/systemChip.obj: src/driver/hal/systemChip.c.obj
 
 # target to build an object file
 src/driver/hal/systemChip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/systemChip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/systemChip.c.obj
 .PHONY : src/driver/hal/systemChip.c.obj
 
 src/driver/hal/systemChip.i: src/driver/hal/systemChip.c.i
@@ -3712,7 +3616,7 @@ src/driver/hal/systemChip.i: src/driver/hal/systemChip.c.i
 
 # target to preprocess a source file
 src/driver/hal/systemChip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/systemChip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/systemChip.c.i
 .PHONY : src/driver/hal/systemChip.c.i
 
 src/driver/hal/systemChip.s: src/driver/hal/systemChip.c.s
@@ -3720,183 +3624,15 @@ src/driver/hal/systemChip.s: src/driver/hal/systemChip.c.s
 
 # target to generate assembly for a file
 src/driver/hal/systemChip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/hal/systemChip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/driver/hal/systemChip.c.s
 .PHONY : src/driver/hal/systemChip.c.s
-
-src/driver/i2c.obj: src/driver/i2c.c.obj
-.PHONY : src/driver/i2c.obj
-
-# target to build an object file
-src/driver/i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/i2c.c.obj
-.PHONY : src/driver/i2c.c.obj
-
-src/driver/i2c.i: src/driver/i2c.c.i
-.PHONY : src/driver/i2c.i
-
-# target to preprocess a source file
-src/driver/i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/i2c.c.i
-.PHONY : src/driver/i2c.c.i
-
-src/driver/i2c.s: src/driver/i2c.c.s
-.PHONY : src/driver/i2c.s
-
-# target to generate assembly for a file
-src/driver/i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/i2c.c.s
-.PHONY : src/driver/i2c.c.s
-
-src/driver/iwdg.obj: src/driver/iwdg.c.obj
-.PHONY : src/driver/iwdg.obj
-
-# target to build an object file
-src/driver/iwdg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/iwdg.c.obj
-.PHONY : src/driver/iwdg.c.obj
-
-src/driver/iwdg.i: src/driver/iwdg.c.i
-.PHONY : src/driver/iwdg.i
-
-# target to preprocess a source file
-src/driver/iwdg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/iwdg.c.i
-.PHONY : src/driver/iwdg.c.i
-
-src/driver/iwdg.s: src/driver/iwdg.c.s
-.PHONY : src/driver/iwdg.s
-
-# target to generate assembly for a file
-src/driver/iwdg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/iwdg.c.s
-.PHONY : src/driver/iwdg.c.s
-
-src/driver/rng.obj: src/driver/rng.c.obj
-.PHONY : src/driver/rng.obj
-
-# target to build an object file
-src/driver/rng.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/rng.c.obj
-.PHONY : src/driver/rng.c.obj
-
-src/driver/rng.i: src/driver/rng.c.i
-.PHONY : src/driver/rng.i
-
-# target to preprocess a source file
-src/driver/rng.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/rng.c.i
-.PHONY : src/driver/rng.c.i
-
-src/driver/rng.s: src/driver/rng.c.s
-.PHONY : src/driver/rng.s
-
-# target to generate assembly for a file
-src/driver/rng.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/rng.c.s
-.PHONY : src/driver/rng.c.s
-
-src/driver/sdio.obj: src/driver/sdio.c.obj
-.PHONY : src/driver/sdio.obj
-
-# target to build an object file
-src/driver/sdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/sdio.c.obj
-.PHONY : src/driver/sdio.c.obj
-
-src/driver/sdio.i: src/driver/sdio.c.i
-.PHONY : src/driver/sdio.i
-
-# target to preprocess a source file
-src/driver/sdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/sdio.c.i
-.PHONY : src/driver/sdio.c.i
-
-src/driver/sdio.s: src/driver/sdio.c.s
-.PHONY : src/driver/sdio.s
-
-# target to generate assembly for a file
-src/driver/sdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/sdio.c.s
-.PHONY : src/driver/sdio.c.s
-
-src/driver/spi.obj: src/driver/spi.c.obj
-.PHONY : src/driver/spi.obj
-
-# target to build an object file
-src/driver/spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/spi.c.obj
-.PHONY : src/driver/spi.c.obj
-
-src/driver/spi.i: src/driver/spi.c.i
-.PHONY : src/driver/spi.i
-
-# target to preprocess a source file
-src/driver/spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/spi.c.i
-.PHONY : src/driver/spi.c.i
-
-src/driver/spi.s: src/driver/spi.c.s
-.PHONY : src/driver/spi.s
-
-# target to generate assembly for a file
-src/driver/spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/spi.c.s
-.PHONY : src/driver/spi.c.s
-
-src/driver/tim.obj: src/driver/tim.c.obj
-.PHONY : src/driver/tim.obj
-
-# target to build an object file
-src/driver/tim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/tim.c.obj
-.PHONY : src/driver/tim.c.obj
-
-src/driver/tim.i: src/driver/tim.c.i
-.PHONY : src/driver/tim.i
-
-# target to preprocess a source file
-src/driver/tim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/tim.c.i
-.PHONY : src/driver/tim.c.i
-
-src/driver/tim.s: src/driver/tim.c.s
-.PHONY : src/driver/tim.s
-
-# target to generate assembly for a file
-src/driver/tim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/tim.c.s
-.PHONY : src/driver/tim.c.s
-
-src/driver/usart.obj: src/driver/usart.c.obj
-.PHONY : src/driver/usart.obj
-
-# target to build an object file
-src/driver/usart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/usart.c.obj
-.PHONY : src/driver/usart.c.obj
-
-src/driver/usart.i: src/driver/usart.c.i
-.PHONY : src/driver/usart.i
-
-# target to preprocess a source file
-src/driver/usart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/usart.c.i
-.PHONY : src/driver/usart.c.i
-
-src/driver/usart.s: src/driver/usart.c.s
-.PHONY : src/driver/usart.s
-
-# target to generate assembly for a file
-src/driver/usart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/driver/usart.c.s
-.PHONY : src/driver/usart.c.s
 
 src/fs/FatFs/App/fatfs.obj: src/fs/FatFs/App/fatfs.c.obj
 .PHONY : src/fs/FatFs/App/fatfs.obj
 
 # target to build an object file
 src/fs/FatFs/App/fatfs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/App/fatfs.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/App/fatfs.c.obj
 .PHONY : src/fs/FatFs/App/fatfs.c.obj
 
 src/fs/FatFs/App/fatfs.i: src/fs/FatFs/App/fatfs.c.i
@@ -3904,7 +3640,7 @@ src/fs/FatFs/App/fatfs.i: src/fs/FatFs/App/fatfs.c.i
 
 # target to preprocess a source file
 src/fs/FatFs/App/fatfs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/App/fatfs.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/App/fatfs.c.i
 .PHONY : src/fs/FatFs/App/fatfs.c.i
 
 src/fs/FatFs/App/fatfs.s: src/fs/FatFs/App/fatfs.c.s
@@ -3912,7 +3648,7 @@ src/fs/FatFs/App/fatfs.s: src/fs/FatFs/App/fatfs.c.s
 
 # target to generate assembly for a file
 src/fs/FatFs/App/fatfs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/App/fatfs.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/App/fatfs.c.s
 .PHONY : src/fs/FatFs/App/fatfs.c.s
 
 src/fs/FatFs/Target/bsp_driver_sd.obj: src/fs/FatFs/Target/bsp_driver_sd.c.obj
@@ -3920,7 +3656,7 @@ src/fs/FatFs/Target/bsp_driver_sd.obj: src/fs/FatFs/Target/bsp_driver_sd.c.obj
 
 # target to build an object file
 src/fs/FatFs/Target/bsp_driver_sd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/bsp_driver_sd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/Target/bsp_driver_sd.c.obj
 .PHONY : src/fs/FatFs/Target/bsp_driver_sd.c.obj
 
 src/fs/FatFs/Target/bsp_driver_sd.i: src/fs/FatFs/Target/bsp_driver_sd.c.i
@@ -3928,7 +3664,7 @@ src/fs/FatFs/Target/bsp_driver_sd.i: src/fs/FatFs/Target/bsp_driver_sd.c.i
 
 # target to preprocess a source file
 src/fs/FatFs/Target/bsp_driver_sd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/bsp_driver_sd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/Target/bsp_driver_sd.c.i
 .PHONY : src/fs/FatFs/Target/bsp_driver_sd.c.i
 
 src/fs/FatFs/Target/bsp_driver_sd.s: src/fs/FatFs/Target/bsp_driver_sd.c.s
@@ -3936,7 +3672,7 @@ src/fs/FatFs/Target/bsp_driver_sd.s: src/fs/FatFs/Target/bsp_driver_sd.c.s
 
 # target to generate assembly for a file
 src/fs/FatFs/Target/bsp_driver_sd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/bsp_driver_sd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/Target/bsp_driver_sd.c.s
 .PHONY : src/fs/FatFs/Target/bsp_driver_sd.c.s
 
 src/fs/FatFs/Target/sd_diskio.obj: src/fs/FatFs/Target/sd_diskio.c.obj
@@ -3944,7 +3680,7 @@ src/fs/FatFs/Target/sd_diskio.obj: src/fs/FatFs/Target/sd_diskio.c.obj
 
 # target to build an object file
 src/fs/FatFs/Target/sd_diskio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/sd_diskio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/Target/sd_diskio.c.obj
 .PHONY : src/fs/FatFs/Target/sd_diskio.c.obj
 
 src/fs/FatFs/Target/sd_diskio.i: src/fs/FatFs/Target/sd_diskio.c.i
@@ -3952,7 +3688,7 @@ src/fs/FatFs/Target/sd_diskio.i: src/fs/FatFs/Target/sd_diskio.c.i
 
 # target to preprocess a source file
 src/fs/FatFs/Target/sd_diskio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/sd_diskio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/Target/sd_diskio.c.i
 .PHONY : src/fs/FatFs/Target/sd_diskio.c.i
 
 src/fs/FatFs/Target/sd_diskio.s: src/fs/FatFs/Target/sd_diskio.c.s
@@ -3960,7 +3696,7 @@ src/fs/FatFs/Target/sd_diskio.s: src/fs/FatFs/Target/sd_diskio.c.s
 
 # target to generate assembly for a file
 src/fs/FatFs/Target/sd_diskio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/Target/sd_diskio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/Target/sd_diskio.c.s
 .PHONY : src/fs/FatFs/Target/sd_diskio.c.s
 
 src/fs/FatFs/src/diskio.obj: src/fs/FatFs/src/diskio.c.obj
@@ -3968,7 +3704,7 @@ src/fs/FatFs/src/diskio.obj: src/fs/FatFs/src/diskio.c.obj
 
 # target to build an object file
 src/fs/FatFs/src/diskio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/diskio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/src/diskio.c.obj
 .PHONY : src/fs/FatFs/src/diskio.c.obj
 
 src/fs/FatFs/src/diskio.i: src/fs/FatFs/src/diskio.c.i
@@ -3976,7 +3712,7 @@ src/fs/FatFs/src/diskio.i: src/fs/FatFs/src/diskio.c.i
 
 # target to preprocess a source file
 src/fs/FatFs/src/diskio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/diskio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/src/diskio.c.i
 .PHONY : src/fs/FatFs/src/diskio.c.i
 
 src/fs/FatFs/src/diskio.s: src/fs/FatFs/src/diskio.c.s
@@ -3984,7 +3720,7 @@ src/fs/FatFs/src/diskio.s: src/fs/FatFs/src/diskio.c.s
 
 # target to generate assembly for a file
 src/fs/FatFs/src/diskio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/diskio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/src/diskio.c.s
 .PHONY : src/fs/FatFs/src/diskio.c.s
 
 src/fs/FatFs/src/ff.obj: src/fs/FatFs/src/ff.c.obj
@@ -3992,7 +3728,7 @@ src/fs/FatFs/src/ff.obj: src/fs/FatFs/src/ff.c.obj
 
 # target to build an object file
 src/fs/FatFs/src/ff.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/src/ff.c.obj
 .PHONY : src/fs/FatFs/src/ff.c.obj
 
 src/fs/FatFs/src/ff.i: src/fs/FatFs/src/ff.c.i
@@ -4000,7 +3736,7 @@ src/fs/FatFs/src/ff.i: src/fs/FatFs/src/ff.c.i
 
 # target to preprocess a source file
 src/fs/FatFs/src/ff.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/src/ff.c.i
 .PHONY : src/fs/FatFs/src/ff.c.i
 
 src/fs/FatFs/src/ff.s: src/fs/FatFs/src/ff.c.s
@@ -4008,7 +3744,7 @@ src/fs/FatFs/src/ff.s: src/fs/FatFs/src/ff.c.s
 
 # target to generate assembly for a file
 src/fs/FatFs/src/ff.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/src/ff.c.s
 .PHONY : src/fs/FatFs/src/ff.c.s
 
 src/fs/FatFs/src/ff_gen_drv.obj: src/fs/FatFs/src/ff_gen_drv.c.obj
@@ -4016,7 +3752,7 @@ src/fs/FatFs/src/ff_gen_drv.obj: src/fs/FatFs/src/ff_gen_drv.c.obj
 
 # target to build an object file
 src/fs/FatFs/src/ff_gen_drv.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff_gen_drv.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/src/ff_gen_drv.c.obj
 .PHONY : src/fs/FatFs/src/ff_gen_drv.c.obj
 
 src/fs/FatFs/src/ff_gen_drv.i: src/fs/FatFs/src/ff_gen_drv.c.i
@@ -4024,7 +3760,7 @@ src/fs/FatFs/src/ff_gen_drv.i: src/fs/FatFs/src/ff_gen_drv.c.i
 
 # target to preprocess a source file
 src/fs/FatFs/src/ff_gen_drv.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff_gen_drv.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/src/ff_gen_drv.c.i
 .PHONY : src/fs/FatFs/src/ff_gen_drv.c.i
 
 src/fs/FatFs/src/ff_gen_drv.s: src/fs/FatFs/src/ff_gen_drv.c.s
@@ -4032,7 +3768,7 @@ src/fs/FatFs/src/ff_gen_drv.s: src/fs/FatFs/src/ff_gen_drv.c.s
 
 # target to generate assembly for a file
 src/fs/FatFs/src/ff_gen_drv.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/ff_gen_drv.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/src/ff_gen_drv.c.s
 .PHONY : src/fs/FatFs/src/ff_gen_drv.c.s
 
 src/fs/FatFs/src/option/cc936.obj: src/fs/FatFs/src/option/cc936.c.obj
@@ -4040,7 +3776,7 @@ src/fs/FatFs/src/option/cc936.obj: src/fs/FatFs/src/option/cc936.c.obj
 
 # target to build an object file
 src/fs/FatFs/src/option/cc936.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/cc936.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/src/option/cc936.c.obj
 .PHONY : src/fs/FatFs/src/option/cc936.c.obj
 
 src/fs/FatFs/src/option/cc936.i: src/fs/FatFs/src/option/cc936.c.i
@@ -4048,7 +3784,7 @@ src/fs/FatFs/src/option/cc936.i: src/fs/FatFs/src/option/cc936.c.i
 
 # target to preprocess a source file
 src/fs/FatFs/src/option/cc936.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/cc936.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/src/option/cc936.c.i
 .PHONY : src/fs/FatFs/src/option/cc936.c.i
 
 src/fs/FatFs/src/option/cc936.s: src/fs/FatFs/src/option/cc936.c.s
@@ -4056,7 +3792,7 @@ src/fs/FatFs/src/option/cc936.s: src/fs/FatFs/src/option/cc936.c.s
 
 # target to generate assembly for a file
 src/fs/FatFs/src/option/cc936.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/cc936.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/src/option/cc936.c.s
 .PHONY : src/fs/FatFs/src/option/cc936.c.s
 
 src/fs/FatFs/src/option/syscall.obj: src/fs/FatFs/src/option/syscall.c.obj
@@ -4064,7 +3800,7 @@ src/fs/FatFs/src/option/syscall.obj: src/fs/FatFs/src/option/syscall.c.obj
 
 # target to build an object file
 src/fs/FatFs/src/option/syscall.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/syscall.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/src/option/syscall.c.obj
 .PHONY : src/fs/FatFs/src/option/syscall.c.obj
 
 src/fs/FatFs/src/option/syscall.i: src/fs/FatFs/src/option/syscall.c.i
@@ -4072,7 +3808,7 @@ src/fs/FatFs/src/option/syscall.i: src/fs/FatFs/src/option/syscall.c.i
 
 # target to preprocess a source file
 src/fs/FatFs/src/option/syscall.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/syscall.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/src/option/syscall.c.i
 .PHONY : src/fs/FatFs/src/option/syscall.c.i
 
 src/fs/FatFs/src/option/syscall.s: src/fs/FatFs/src/option/syscall.c.s
@@ -4080,7 +3816,7 @@ src/fs/FatFs/src/option/syscall.s: src/fs/FatFs/src/option/syscall.c.s
 
 # target to generate assembly for a file
 src/fs/FatFs/src/option/syscall.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/FatFs/src/option/syscall.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/FatFs/src/option/syscall.c.s
 .PHONY : src/fs/FatFs/src/option/syscall.c.s
 
 src/fs/littlefs/lfs.obj: src/fs/littlefs/lfs.c.obj
@@ -4088,7 +3824,7 @@ src/fs/littlefs/lfs.obj: src/fs/littlefs/lfs.c.obj
 
 # target to build an object file
 src/fs/littlefs/lfs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/littlefs/lfs.c.obj
 .PHONY : src/fs/littlefs/lfs.c.obj
 
 src/fs/littlefs/lfs.i: src/fs/littlefs/lfs.c.i
@@ -4096,7 +3832,7 @@ src/fs/littlefs/lfs.i: src/fs/littlefs/lfs.c.i
 
 # target to preprocess a source file
 src/fs/littlefs/lfs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/littlefs/lfs.c.i
 .PHONY : src/fs/littlefs/lfs.c.i
 
 src/fs/littlefs/lfs.s: src/fs/littlefs/lfs.c.s
@@ -4104,7 +3840,7 @@ src/fs/littlefs/lfs.s: src/fs/littlefs/lfs.c.s
 
 # target to generate assembly for a file
 src/fs/littlefs/lfs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/littlefs/lfs.c.s
 .PHONY : src/fs/littlefs/lfs.c.s
 
 src/fs/littlefs/lfs_util.obj: src/fs/littlefs/lfs_util.c.obj
@@ -4112,7 +3848,7 @@ src/fs/littlefs/lfs_util.obj: src/fs/littlefs/lfs_util.c.obj
 
 # target to build an object file
 src/fs/littlefs/lfs_util.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs_util.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/littlefs/lfs_util.c.obj
 .PHONY : src/fs/littlefs/lfs_util.c.obj
 
 src/fs/littlefs/lfs_util.i: src/fs/littlefs/lfs_util.c.i
@@ -4120,7 +3856,7 @@ src/fs/littlefs/lfs_util.i: src/fs/littlefs/lfs_util.c.i
 
 # target to preprocess a source file
 src/fs/littlefs/lfs_util.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs_util.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/littlefs/lfs_util.c.i
 .PHONY : src/fs/littlefs/lfs_util.c.i
 
 src/fs/littlefs/lfs_util.s: src/fs/littlefs/lfs_util.c.s
@@ -4128,7 +3864,7 @@ src/fs/littlefs/lfs_util.s: src/fs/littlefs/lfs_util.c.s
 
 # target to generate assembly for a file
 src/fs/littlefs/lfs_util.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/littlefs/lfs_util.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/littlefs/lfs_util.c.s
 .PHONY : src/fs/littlefs/lfs_util.c.s
 
 src/fs/vfs/fatfsManager.obj: src/fs/vfs/fatfsManager.c.obj
@@ -4136,7 +3872,7 @@ src/fs/vfs/fatfsManager.obj: src/fs/vfs/fatfsManager.c.obj
 
 # target to build an object file
 src/fs/vfs/fatfsManager.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/fatfsManager.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/vfs/fatfsManager.c.obj
 .PHONY : src/fs/vfs/fatfsManager.c.obj
 
 src/fs/vfs/fatfsManager.i: src/fs/vfs/fatfsManager.c.i
@@ -4144,7 +3880,7 @@ src/fs/vfs/fatfsManager.i: src/fs/vfs/fatfsManager.c.i
 
 # target to preprocess a source file
 src/fs/vfs/fatfsManager.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/fatfsManager.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/vfs/fatfsManager.c.i
 .PHONY : src/fs/vfs/fatfsManager.c.i
 
 src/fs/vfs/fatfsManager.s: src/fs/vfs/fatfsManager.c.s
@@ -4152,7 +3888,7 @@ src/fs/vfs/fatfsManager.s: src/fs/vfs/fatfsManager.c.s
 
 # target to generate assembly for a file
 src/fs/vfs/fatfsManager.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/fatfsManager.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/vfs/fatfsManager.c.s
 .PHONY : src/fs/vfs/fatfsManager.c.s
 
 src/fs/vfs/littlefsManager.obj: src/fs/vfs/littlefsManager.c.obj
@@ -4160,7 +3896,7 @@ src/fs/vfs/littlefsManager.obj: src/fs/vfs/littlefsManager.c.obj
 
 # target to build an object file
 src/fs/vfs/littlefsManager.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/littlefsManager.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/vfs/littlefsManager.c.obj
 .PHONY : src/fs/vfs/littlefsManager.c.obj
 
 src/fs/vfs/littlefsManager.i: src/fs/vfs/littlefsManager.c.i
@@ -4168,7 +3904,7 @@ src/fs/vfs/littlefsManager.i: src/fs/vfs/littlefsManager.c.i
 
 # target to preprocess a source file
 src/fs/vfs/littlefsManager.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/littlefsManager.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/vfs/littlefsManager.c.i
 .PHONY : src/fs/vfs/littlefsManager.c.i
 
 src/fs/vfs/littlefsManager.s: src/fs/vfs/littlefsManager.c.s
@@ -4176,7 +3912,7 @@ src/fs/vfs/littlefsManager.s: src/fs/vfs/littlefsManager.c.s
 
 # target to generate assembly for a file
 src/fs/vfs/littlefsManager.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/littlefsManager.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/vfs/littlefsManager.c.s
 .PHONY : src/fs/vfs/littlefsManager.c.s
 
 src/fs/vfs/vfs.obj: src/fs/vfs/vfs.c.obj
@@ -4184,7 +3920,7 @@ src/fs/vfs/vfs.obj: src/fs/vfs/vfs.c.obj
 
 # target to build an object file
 src/fs/vfs/vfs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfs.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/vfs/vfs.c.obj
 .PHONY : src/fs/vfs/vfs.c.obj
 
 src/fs/vfs/vfs.i: src/fs/vfs/vfs.c.i
@@ -4192,7 +3928,7 @@ src/fs/vfs/vfs.i: src/fs/vfs/vfs.c.i
 
 # target to preprocess a source file
 src/fs/vfs/vfs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfs.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/vfs/vfs.c.i
 .PHONY : src/fs/vfs/vfs.c.i
 
 src/fs/vfs/vfs.s: src/fs/vfs/vfs.c.s
@@ -4200,7 +3936,7 @@ src/fs/vfs/vfs.s: src/fs/vfs/vfs.c.s
 
 # target to generate assembly for a file
 src/fs/vfs/vfs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfs.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/vfs/vfs.c.s
 .PHONY : src/fs/vfs/vfs.c.s
 
 src/fs/vfs/vfsFatDriver.obj: src/fs/vfs/vfsFatDriver.c.obj
@@ -4208,7 +3944,7 @@ src/fs/vfs/vfsFatDriver.obj: src/fs/vfs/vfsFatDriver.c.obj
 
 # target to build an object file
 src/fs/vfs/vfsFatDriver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsFatDriver.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/vfs/vfsFatDriver.c.obj
 .PHONY : src/fs/vfs/vfsFatDriver.c.obj
 
 src/fs/vfs/vfsFatDriver.i: src/fs/vfs/vfsFatDriver.c.i
@@ -4216,7 +3952,7 @@ src/fs/vfs/vfsFatDriver.i: src/fs/vfs/vfsFatDriver.c.i
 
 # target to preprocess a source file
 src/fs/vfs/vfsFatDriver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsFatDriver.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/vfs/vfsFatDriver.c.i
 .PHONY : src/fs/vfs/vfsFatDriver.c.i
 
 src/fs/vfs/vfsFatDriver.s: src/fs/vfs/vfsFatDriver.c.s
@@ -4224,7 +3960,7 @@ src/fs/vfs/vfsFatDriver.s: src/fs/vfs/vfsFatDriver.c.s
 
 # target to generate assembly for a file
 src/fs/vfs/vfsFatDriver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsFatDriver.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/vfs/vfsFatDriver.c.s
 .PHONY : src/fs/vfs/vfsFatDriver.c.s
 
 src/fs/vfs/vfsLittleFsDriver.obj: src/fs/vfs/vfsLittleFsDriver.c.obj
@@ -4232,7 +3968,7 @@ src/fs/vfs/vfsLittleFsDriver.obj: src/fs/vfs/vfsLittleFsDriver.c.obj
 
 # target to build an object file
 src/fs/vfs/vfsLittleFsDriver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsLittleFsDriver.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/vfs/vfsLittleFsDriver.c.obj
 .PHONY : src/fs/vfs/vfsLittleFsDriver.c.obj
 
 src/fs/vfs/vfsLittleFsDriver.i: src/fs/vfs/vfsLittleFsDriver.c.i
@@ -4240,7 +3976,7 @@ src/fs/vfs/vfsLittleFsDriver.i: src/fs/vfs/vfsLittleFsDriver.c.i
 
 # target to preprocess a source file
 src/fs/vfs/vfsLittleFsDriver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsLittleFsDriver.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/vfs/vfsLittleFsDriver.c.i
 .PHONY : src/fs/vfs/vfsLittleFsDriver.c.i
 
 src/fs/vfs/vfsLittleFsDriver.s: src/fs/vfs/vfsLittleFsDriver.c.s
@@ -4248,7 +3984,7 @@ src/fs/vfs/vfsLittleFsDriver.s: src/fs/vfs/vfsLittleFsDriver.c.s
 
 # target to generate assembly for a file
 src/fs/vfs/vfsLittleFsDriver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/fs/vfs/vfsLittleFsDriver.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/fs/vfs/vfsLittleFsDriver.c.s
 .PHONY : src/fs/vfs/vfsLittleFsDriver.c.s
 
 src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.obj: src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
@@ -4256,7 +3992,7 @@ src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.obj: src/kernel/FreeRTOS/Sour
 
 # target to build an object file
 src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
 .PHONY : src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
 
 src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.i: src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i
@@ -4264,7 +4000,7 @@ src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.i: src/kernel/FreeRTOS/Source
 
 # target to preprocess a source file
 src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i
 .PHONY : src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i
 
 src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.s: src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s
@@ -4272,7 +4008,7 @@ src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.s: src/kernel/FreeRTOS/Source
 
 # target to generate assembly for a file
 src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s
 .PHONY : src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s
 
 src/kernel/FreeRTOS/Source/croutine.obj: src/kernel/FreeRTOS/Source/croutine.c.obj
@@ -4280,7 +4016,7 @@ src/kernel/FreeRTOS/Source/croutine.obj: src/kernel/FreeRTOS/Source/croutine.c.o
 
 # target to build an object file
 src/kernel/FreeRTOS/Source/croutine.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.obj
 .PHONY : src/kernel/FreeRTOS/Source/croutine.c.obj
 
 src/kernel/FreeRTOS/Source/croutine.i: src/kernel/FreeRTOS/Source/croutine.c.i
@@ -4288,7 +4024,7 @@ src/kernel/FreeRTOS/Source/croutine.i: src/kernel/FreeRTOS/Source/croutine.c.i
 
 # target to preprocess a source file
 src/kernel/FreeRTOS/Source/croutine.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.i
 .PHONY : src/kernel/FreeRTOS/Source/croutine.c.i
 
 src/kernel/FreeRTOS/Source/croutine.s: src/kernel/FreeRTOS/Source/croutine.c.s
@@ -4296,7 +4032,7 @@ src/kernel/FreeRTOS/Source/croutine.s: src/kernel/FreeRTOS/Source/croutine.c.s
 
 # target to generate assembly for a file
 src/kernel/FreeRTOS/Source/croutine.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.s
 .PHONY : src/kernel/FreeRTOS/Source/croutine.c.s
 
 src/kernel/FreeRTOS/Source/event_groups.obj: src/kernel/FreeRTOS/Source/event_groups.c.obj
@@ -4304,7 +4040,7 @@ src/kernel/FreeRTOS/Source/event_groups.obj: src/kernel/FreeRTOS/Source/event_gr
 
 # target to build an object file
 src/kernel/FreeRTOS/Source/event_groups.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.obj
 .PHONY : src/kernel/FreeRTOS/Source/event_groups.c.obj
 
 src/kernel/FreeRTOS/Source/event_groups.i: src/kernel/FreeRTOS/Source/event_groups.c.i
@@ -4312,7 +4048,7 @@ src/kernel/FreeRTOS/Source/event_groups.i: src/kernel/FreeRTOS/Source/event_grou
 
 # target to preprocess a source file
 src/kernel/FreeRTOS/Source/event_groups.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.i
 .PHONY : src/kernel/FreeRTOS/Source/event_groups.c.i
 
 src/kernel/FreeRTOS/Source/event_groups.s: src/kernel/FreeRTOS/Source/event_groups.c.s
@@ -4320,7 +4056,7 @@ src/kernel/FreeRTOS/Source/event_groups.s: src/kernel/FreeRTOS/Source/event_grou
 
 # target to generate assembly for a file
 src/kernel/FreeRTOS/Source/event_groups.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.s
 .PHONY : src/kernel/FreeRTOS/Source/event_groups.c.s
 
 src/kernel/FreeRTOS/Source/list.obj: src/kernel/FreeRTOS/Source/list.c.obj
@@ -4328,7 +4064,7 @@ src/kernel/FreeRTOS/Source/list.obj: src/kernel/FreeRTOS/Source/list.c.obj
 
 # target to build an object file
 src/kernel/FreeRTOS/Source/list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/list.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/list.c.obj
 .PHONY : src/kernel/FreeRTOS/Source/list.c.obj
 
 src/kernel/FreeRTOS/Source/list.i: src/kernel/FreeRTOS/Source/list.c.i
@@ -4336,7 +4072,7 @@ src/kernel/FreeRTOS/Source/list.i: src/kernel/FreeRTOS/Source/list.c.i
 
 # target to preprocess a source file
 src/kernel/FreeRTOS/Source/list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/list.c.i
 .PHONY : src/kernel/FreeRTOS/Source/list.c.i
 
 src/kernel/FreeRTOS/Source/list.s: src/kernel/FreeRTOS/Source/list.c.s
@@ -4344,7 +4080,7 @@ src/kernel/FreeRTOS/Source/list.s: src/kernel/FreeRTOS/Source/list.c.s
 
 # target to generate assembly for a file
 src/kernel/FreeRTOS/Source/list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/list.c.s
 .PHONY : src/kernel/FreeRTOS/Source/list.c.s
 
 src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj: src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
@@ -4352,7 +4088,7 @@ src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj: src/kernel/FreeRTOS/S
 
 # target to build an object file
 src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
 .PHONY : src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
 
 src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i: src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
@@ -4360,7 +4096,7 @@ src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i: src/kernel/FreeRTOS/Sou
 
 # target to preprocess a source file
 src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
 .PHONY : src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
 
 src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s: src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
@@ -4368,7 +4104,7 @@ src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s: src/kernel/FreeRTOS/Sou
 
 # target to generate assembly for a file
 src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
 .PHONY : src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
 
 src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.obj: src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
@@ -4376,7 +4112,7 @@ src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.obj: src/kernel/FreeRTOS/Sour
 
 # target to build an object file
 src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
 .PHONY : src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
 
 src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.i: src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.i
@@ -4384,7 +4120,7 @@ src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.i: src/kernel/FreeRTOS/Source
 
 # target to preprocess a source file
 src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.i
 .PHONY : src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.i
 
 src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.s: src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.s
@@ -4392,7 +4128,7 @@ src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.s: src/kernel/FreeRTOS/Source
 
 # target to generate assembly for a file
 src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.s
 .PHONY : src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.s
 
 src/kernel/FreeRTOS/Source/queue.obj: src/kernel/FreeRTOS/Source/queue.c.obj
@@ -4400,7 +4136,7 @@ src/kernel/FreeRTOS/Source/queue.obj: src/kernel/FreeRTOS/Source/queue.c.obj
 
 # target to build an object file
 src/kernel/FreeRTOS/Source/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/queue.c.obj
 .PHONY : src/kernel/FreeRTOS/Source/queue.c.obj
 
 src/kernel/FreeRTOS/Source/queue.i: src/kernel/FreeRTOS/Source/queue.c.i
@@ -4408,7 +4144,7 @@ src/kernel/FreeRTOS/Source/queue.i: src/kernel/FreeRTOS/Source/queue.c.i
 
 # target to preprocess a source file
 src/kernel/FreeRTOS/Source/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/queue.c.i
 .PHONY : src/kernel/FreeRTOS/Source/queue.c.i
 
 src/kernel/FreeRTOS/Source/queue.s: src/kernel/FreeRTOS/Source/queue.c.s
@@ -4416,7 +4152,7 @@ src/kernel/FreeRTOS/Source/queue.s: src/kernel/FreeRTOS/Source/queue.c.s
 
 # target to generate assembly for a file
 src/kernel/FreeRTOS/Source/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/queue.c.s
 .PHONY : src/kernel/FreeRTOS/Source/queue.c.s
 
 src/kernel/FreeRTOS/Source/stream_buffer.obj: src/kernel/FreeRTOS/Source/stream_buffer.c.obj
@@ -4424,7 +4160,7 @@ src/kernel/FreeRTOS/Source/stream_buffer.obj: src/kernel/FreeRTOS/Source/stream_
 
 # target to build an object file
 src/kernel/FreeRTOS/Source/stream_buffer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.obj
 .PHONY : src/kernel/FreeRTOS/Source/stream_buffer.c.obj
 
 src/kernel/FreeRTOS/Source/stream_buffer.i: src/kernel/FreeRTOS/Source/stream_buffer.c.i
@@ -4432,7 +4168,7 @@ src/kernel/FreeRTOS/Source/stream_buffer.i: src/kernel/FreeRTOS/Source/stream_bu
 
 # target to preprocess a source file
 src/kernel/FreeRTOS/Source/stream_buffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.i
 .PHONY : src/kernel/FreeRTOS/Source/stream_buffer.c.i
 
 src/kernel/FreeRTOS/Source/stream_buffer.s: src/kernel/FreeRTOS/Source/stream_buffer.c.s
@@ -4440,7 +4176,7 @@ src/kernel/FreeRTOS/Source/stream_buffer.s: src/kernel/FreeRTOS/Source/stream_bu
 
 # target to generate assembly for a file
 src/kernel/FreeRTOS/Source/stream_buffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.s
 .PHONY : src/kernel/FreeRTOS/Source/stream_buffer.c.s
 
 src/kernel/FreeRTOS/Source/tasks.obj: src/kernel/FreeRTOS/Source/tasks.c.obj
@@ -4448,7 +4184,7 @@ src/kernel/FreeRTOS/Source/tasks.obj: src/kernel/FreeRTOS/Source/tasks.c.obj
 
 # target to build an object file
 src/kernel/FreeRTOS/Source/tasks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.obj
 .PHONY : src/kernel/FreeRTOS/Source/tasks.c.obj
 
 src/kernel/FreeRTOS/Source/tasks.i: src/kernel/FreeRTOS/Source/tasks.c.i
@@ -4456,7 +4192,7 @@ src/kernel/FreeRTOS/Source/tasks.i: src/kernel/FreeRTOS/Source/tasks.c.i
 
 # target to preprocess a source file
 src/kernel/FreeRTOS/Source/tasks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.i
 .PHONY : src/kernel/FreeRTOS/Source/tasks.c.i
 
 src/kernel/FreeRTOS/Source/tasks.s: src/kernel/FreeRTOS/Source/tasks.c.s
@@ -4464,7 +4200,7 @@ src/kernel/FreeRTOS/Source/tasks.s: src/kernel/FreeRTOS/Source/tasks.c.s
 
 # target to generate assembly for a file
 src/kernel/FreeRTOS/Source/tasks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.s
 .PHONY : src/kernel/FreeRTOS/Source/tasks.c.s
 
 src/kernel/FreeRTOS/Source/timers.obj: src/kernel/FreeRTOS/Source/timers.c.obj
@@ -4472,7 +4208,7 @@ src/kernel/FreeRTOS/Source/timers.obj: src/kernel/FreeRTOS/Source/timers.c.obj
 
 # target to build an object file
 src/kernel/FreeRTOS/Source/timers.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/timers.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/timers.c.obj
 .PHONY : src/kernel/FreeRTOS/Source/timers.c.obj
 
 src/kernel/FreeRTOS/Source/timers.i: src/kernel/FreeRTOS/Source/timers.c.i
@@ -4480,7 +4216,7 @@ src/kernel/FreeRTOS/Source/timers.i: src/kernel/FreeRTOS/Source/timers.c.i
 
 # target to preprocess a source file
 src/kernel/FreeRTOS/Source/timers.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/timers.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/timers.c.i
 .PHONY : src/kernel/FreeRTOS/Source/timers.c.i
 
 src/kernel/FreeRTOS/Source/timers.s: src/kernel/FreeRTOS/Source/timers.c.s
@@ -4488,7 +4224,7 @@ src/kernel/FreeRTOS/Source/timers.s: src/kernel/FreeRTOS/Source/timers.c.s
 
 # target to generate assembly for a file
 src/kernel/FreeRTOS/Source/timers.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/kernel/FreeRTOS/Source/timers.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/kernel/FreeRTOS/Source/timers.c.s
 .PHONY : src/kernel/FreeRTOS/Source/timers.c.s
 
 src/libc/wrap_malloc.obj: src/libc/wrap_malloc.c.obj
@@ -4496,7 +4232,7 @@ src/libc/wrap_malloc.obj: src/libc/wrap_malloc.c.obj
 
 # target to build an object file
 src/libc/wrap_malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/libc/wrap_malloc.c.obj
 .PHONY : src/libc/wrap_malloc.c.obj
 
 src/libc/wrap_malloc.i: src/libc/wrap_malloc.c.i
@@ -4504,7 +4240,7 @@ src/libc/wrap_malloc.i: src/libc/wrap_malloc.c.i
 
 # target to preprocess a source file
 src/libc/wrap_malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/libc/wrap_malloc.c.i
 .PHONY : src/libc/wrap_malloc.c.i
 
 src/libc/wrap_malloc.s: src/libc/wrap_malloc.c.s
@@ -4512,7 +4248,7 @@ src/libc/wrap_malloc.s: src/libc/wrap_malloc.c.s
 
 # target to generate assembly for a file
 src/libc/wrap_malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/libc/wrap_malloc.c.s
 .PHONY : src/libc/wrap_malloc.c.s
 
 src/libc/wrap_stdio.obj: src/libc/wrap_stdio.c.obj
@@ -4520,7 +4256,7 @@ src/libc/wrap_stdio.obj: src/libc/wrap_stdio.c.obj
 
 # target to build an object file
 src/libc/wrap_stdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/libc/wrap_stdio.c.obj
 .PHONY : src/libc/wrap_stdio.c.obj
 
 src/libc/wrap_stdio.i: src/libc/wrap_stdio.c.i
@@ -4528,7 +4264,7 @@ src/libc/wrap_stdio.i: src/libc/wrap_stdio.c.i
 
 # target to preprocess a source file
 src/libc/wrap_stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/libc/wrap_stdio.c.i
 .PHONY : src/libc/wrap_stdio.c.i
 
 src/libc/wrap_stdio.s: src/libc/wrap_stdio.c.s
@@ -4536,7 +4272,7 @@ src/libc/wrap_stdio.s: src/libc/wrap_stdio.c.s
 
 # target to generate assembly for a file
 src/libc/wrap_stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/libc/wrap_stdio.c.s
 .PHONY : src/libc/wrap_stdio.c.s
 
 src/libc/wrap_time.obj: src/libc/wrap_time.c.obj
@@ -4544,7 +4280,7 @@ src/libc/wrap_time.obj: src/libc/wrap_time.c.obj
 
 # target to build an object file
 src/libc/wrap_time.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/libc/wrap_time.c.obj
 .PHONY : src/libc/wrap_time.c.obj
 
 src/libc/wrap_time.i: src/libc/wrap_time.c.i
@@ -4552,7 +4288,7 @@ src/libc/wrap_time.i: src/libc/wrap_time.c.i
 
 # target to preprocess a source file
 src/libc/wrap_time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/libc/wrap_time.c.i
 .PHONY : src/libc/wrap_time.c.i
 
 src/libc/wrap_time.s: src/libc/wrap_time.c.s
@@ -4560,7 +4296,7 @@ src/libc/wrap_time.s: src/libc/wrap_time.c.s
 
 # target to generate assembly for a file
 src/libc/wrap_time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/libc/wrap_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/libc/wrap_time.c.s
 .PHONY : src/libc/wrap_time.c.s
 
 src/log/easylogger/plugins/flash/elog_flash.obj: src/log/easylogger/plugins/flash/elog_flash.c.obj
@@ -4568,7 +4304,7 @@ src/log/easylogger/plugins/flash/elog_flash.obj: src/log/easylogger/plugins/flas
 
 # target to build an object file
 src/log/easylogger/plugins/flash/elog_flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.obj
 .PHONY : src/log/easylogger/plugins/flash/elog_flash.c.obj
 
 src/log/easylogger/plugins/flash/elog_flash.i: src/log/easylogger/plugins/flash/elog_flash.c.i
@@ -4576,7 +4312,7 @@ src/log/easylogger/plugins/flash/elog_flash.i: src/log/easylogger/plugins/flash/
 
 # target to preprocess a source file
 src/log/easylogger/plugins/flash/elog_flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.i
 .PHONY : src/log/easylogger/plugins/flash/elog_flash.c.i
 
 src/log/easylogger/plugins/flash/elog_flash.s: src/log/easylogger/plugins/flash/elog_flash.c.s
@@ -4584,7 +4320,7 @@ src/log/easylogger/plugins/flash/elog_flash.s: src/log/easylogger/plugins/flash/
 
 # target to generate assembly for a file
 src/log/easylogger/plugins/flash/elog_flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.s
 .PHONY : src/log/easylogger/plugins/flash/elog_flash.c.s
 
 src/log/easylogger/plugins/flash/elog_flash_port.obj: src/log/easylogger/plugins/flash/elog_flash_port.c.obj
@@ -4592,7 +4328,7 @@ src/log/easylogger/plugins/flash/elog_flash_port.obj: src/log/easylogger/plugins
 
 # target to build an object file
 src/log/easylogger/plugins/flash/elog_flash_port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.obj
 .PHONY : src/log/easylogger/plugins/flash/elog_flash_port.c.obj
 
 src/log/easylogger/plugins/flash/elog_flash_port.i: src/log/easylogger/plugins/flash/elog_flash_port.c.i
@@ -4600,7 +4336,7 @@ src/log/easylogger/plugins/flash/elog_flash_port.i: src/log/easylogger/plugins/f
 
 # target to preprocess a source file
 src/log/easylogger/plugins/flash/elog_flash_port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.i
 .PHONY : src/log/easylogger/plugins/flash/elog_flash_port.c.i
 
 src/log/easylogger/plugins/flash/elog_flash_port.s: src/log/easylogger/plugins/flash/elog_flash_port.c.s
@@ -4608,7 +4344,7 @@ src/log/easylogger/plugins/flash/elog_flash_port.s: src/log/easylogger/plugins/f
 
 # target to generate assembly for a file
 src/log/easylogger/plugins/flash/elog_flash_port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.s
 .PHONY : src/log/easylogger/plugins/flash/elog_flash_port.c.s
 
 src/log/easylogger/port/elog_port.obj: src/log/easylogger/port/elog_port.c.obj
@@ -4616,7 +4352,7 @@ src/log/easylogger/port/elog_port.obj: src/log/easylogger/port/elog_port.c.obj
 
 # target to build an object file
 src/log/easylogger/port/elog_port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/port/elog_port.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/port/elog_port.c.obj
 .PHONY : src/log/easylogger/port/elog_port.c.obj
 
 src/log/easylogger/port/elog_port.i: src/log/easylogger/port/elog_port.c.i
@@ -4624,7 +4360,7 @@ src/log/easylogger/port/elog_port.i: src/log/easylogger/port/elog_port.c.i
 
 # target to preprocess a source file
 src/log/easylogger/port/elog_port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/port/elog_port.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/port/elog_port.c.i
 .PHONY : src/log/easylogger/port/elog_port.c.i
 
 src/log/easylogger/port/elog_port.s: src/log/easylogger/port/elog_port.c.s
@@ -4632,7 +4368,7 @@ src/log/easylogger/port/elog_port.s: src/log/easylogger/port/elog_port.c.s
 
 # target to generate assembly for a file
 src/log/easylogger/port/elog_port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/port/elog_port.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/port/elog_port.c.s
 .PHONY : src/log/easylogger/port/elog_port.c.s
 
 src/log/easylogger/src/elog.obj: src/log/easylogger/src/elog.c.obj
@@ -4640,7 +4376,7 @@ src/log/easylogger/src/elog.obj: src/log/easylogger/src/elog.c.obj
 
 # target to build an object file
 src/log/easylogger/src/elog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/src/elog.c.obj
 .PHONY : src/log/easylogger/src/elog.c.obj
 
 src/log/easylogger/src/elog.i: src/log/easylogger/src/elog.c.i
@@ -4648,7 +4384,7 @@ src/log/easylogger/src/elog.i: src/log/easylogger/src/elog.c.i
 
 # target to preprocess a source file
 src/log/easylogger/src/elog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/src/elog.c.i
 .PHONY : src/log/easylogger/src/elog.c.i
 
 src/log/easylogger/src/elog.s: src/log/easylogger/src/elog.c.s
@@ -4656,7 +4392,7 @@ src/log/easylogger/src/elog.s: src/log/easylogger/src/elog.c.s
 
 # target to generate assembly for a file
 src/log/easylogger/src/elog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/src/elog.c.s
 .PHONY : src/log/easylogger/src/elog.c.s
 
 src/log/easylogger/src/elog_async.obj: src/log/easylogger/src/elog_async.c.obj
@@ -4664,7 +4400,7 @@ src/log/easylogger/src/elog_async.obj: src/log/easylogger/src/elog_async.c.obj
 
 # target to build an object file
 src/log/easylogger/src/elog_async.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_async.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/src/elog_async.c.obj
 .PHONY : src/log/easylogger/src/elog_async.c.obj
 
 src/log/easylogger/src/elog_async.i: src/log/easylogger/src/elog_async.c.i
@@ -4672,7 +4408,7 @@ src/log/easylogger/src/elog_async.i: src/log/easylogger/src/elog_async.c.i
 
 # target to preprocess a source file
 src/log/easylogger/src/elog_async.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_async.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/src/elog_async.c.i
 .PHONY : src/log/easylogger/src/elog_async.c.i
 
 src/log/easylogger/src/elog_async.s: src/log/easylogger/src/elog_async.c.s
@@ -4680,7 +4416,7 @@ src/log/easylogger/src/elog_async.s: src/log/easylogger/src/elog_async.c.s
 
 # target to generate assembly for a file
 src/log/easylogger/src/elog_async.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_async.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/src/elog_async.c.s
 .PHONY : src/log/easylogger/src/elog_async.c.s
 
 src/log/easylogger/src/elog_buf.obj: src/log/easylogger/src/elog_buf.c.obj
@@ -4688,7 +4424,7 @@ src/log/easylogger/src/elog_buf.obj: src/log/easylogger/src/elog_buf.c.obj
 
 # target to build an object file
 src/log/easylogger/src/elog_buf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_buf.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/src/elog_buf.c.obj
 .PHONY : src/log/easylogger/src/elog_buf.c.obj
 
 src/log/easylogger/src/elog_buf.i: src/log/easylogger/src/elog_buf.c.i
@@ -4696,7 +4432,7 @@ src/log/easylogger/src/elog_buf.i: src/log/easylogger/src/elog_buf.c.i
 
 # target to preprocess a source file
 src/log/easylogger/src/elog_buf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_buf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/src/elog_buf.c.i
 .PHONY : src/log/easylogger/src/elog_buf.c.i
 
 src/log/easylogger/src/elog_buf.s: src/log/easylogger/src/elog_buf.c.s
@@ -4704,7 +4440,7 @@ src/log/easylogger/src/elog_buf.s: src/log/easylogger/src/elog_buf.c.s
 
 # target to generate assembly for a file
 src/log/easylogger/src/elog_buf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_buf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/src/elog_buf.c.s
 .PHONY : src/log/easylogger/src/elog_buf.c.s
 
 src/log/easylogger/src/elog_utils.obj: src/log/easylogger/src/elog_utils.c.obj
@@ -4712,7 +4448,7 @@ src/log/easylogger/src/elog_utils.obj: src/log/easylogger/src/elog_utils.c.obj
 
 # target to build an object file
 src/log/easylogger/src/elog_utils.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_utils.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/src/elog_utils.c.obj
 .PHONY : src/log/easylogger/src/elog_utils.c.obj
 
 src/log/easylogger/src/elog_utils.i: src/log/easylogger/src/elog_utils.c.i
@@ -4720,7 +4456,7 @@ src/log/easylogger/src/elog_utils.i: src/log/easylogger/src/elog_utils.c.i
 
 # target to preprocess a source file
 src/log/easylogger/src/elog_utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_utils.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/src/elog_utils.c.i
 .PHONY : src/log/easylogger/src/elog_utils.c.i
 
 src/log/easylogger/src/elog_utils.s: src/log/easylogger/src/elog_utils.c.s
@@ -4728,7 +4464,7 @@ src/log/easylogger/src/elog_utils.s: src/log/easylogger/src/elog_utils.c.s
 
 # target to generate assembly for a file
 src/log/easylogger/src/elog_utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/log/easylogger/src/elog_utils.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/log/easylogger/src/elog_utils.c.s
 .PHONY : src/log/easylogger/src/elog_utils.c.s
 
 src/sys/common/sys_heap.obj: src/sys/common/sys_heap.c.obj
@@ -4736,7 +4472,7 @@ src/sys/common/sys_heap.obj: src/sys/common/sys_heap.c.obj
 
 # target to build an object file
 src/sys/common/sys_heap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/sys/common/sys_heap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/sys/common/sys_heap.c.obj
 .PHONY : src/sys/common/sys_heap.c.obj
 
 src/sys/common/sys_heap.i: src/sys/common/sys_heap.c.i
@@ -4744,7 +4480,7 @@ src/sys/common/sys_heap.i: src/sys/common/sys_heap.c.i
 
 # target to preprocess a source file
 src/sys/common/sys_heap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/sys/common/sys_heap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/sys/common/sys_heap.c.i
 .PHONY : src/sys/common/sys_heap.c.i
 
 src/sys/common/sys_heap.s: src/sys/common/sys_heap.c.s
@@ -4752,7 +4488,7 @@ src/sys/common/sys_heap.s: src/sys/common/sys_heap.c.s
 
 # target to generate assembly for a file
 src/sys/common/sys_heap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/sys/common/sys_heap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/sys/common/sys_heap.c.s
 .PHONY : src/sys/common/sys_heap.c.s
 
 src/sys/sram_heap/sram_heap.obj: src/sys/sram_heap/sram_heap.c.obj
@@ -4760,7 +4496,7 @@ src/sys/sram_heap/sram_heap.obj: src/sys/sram_heap/sram_heap.c.obj
 
 # target to build an object file
 src/sys/sram_heap/sram_heap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/sys/sram_heap/sram_heap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/sys/sram_heap/sram_heap.c.obj
 .PHONY : src/sys/sram_heap/sram_heap.c.obj
 
 src/sys/sram_heap/sram_heap.i: src/sys/sram_heap/sram_heap.c.i
@@ -4768,7 +4504,7 @@ src/sys/sram_heap/sram_heap.i: src/sys/sram_heap/sram_heap.c.i
 
 # target to preprocess a source file
 src/sys/sram_heap/sram_heap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/sys/sram_heap/sram_heap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/sys/sram_heap/sram_heap.c.i
 .PHONY : src/sys/sram_heap/sram_heap.c.i
 
 src/sys/sram_heap/sram_heap.s: src/sys/sram_heap/sram_heap.c.s
@@ -4776,7 +4512,7 @@ src/sys/sram_heap/sram_heap.s: src/sys/sram_heap/sram_heap.c.s
 
 # target to generate assembly for a file
 src/sys/sram_heap/sram_heap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/sys/sram_heap/sram_heap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/sys/sram_heap/sram_heap.c.s
 .PHONY : src/sys/sram_heap/sram_heap.c.s
 
 src/test/unity/unity.obj: src/test/unity/unity.c.obj
@@ -4784,7 +4520,7 @@ src/test/unity/unity.obj: src/test/unity/unity.c.obj
 
 # target to build an object file
 src/test/unity/unity.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/test/unity/unity.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/test/unity/unity.c.obj
 .PHONY : src/test/unity/unity.c.obj
 
 src/test/unity/unity.i: src/test/unity/unity.c.i
@@ -4792,7 +4528,7 @@ src/test/unity/unity.i: src/test/unity/unity.c.i
 
 # target to preprocess a source file
 src/test/unity/unity.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/test/unity/unity.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/test/unity/unity.c.i
 .PHONY : src/test/unity/unity.c.i
 
 src/test/unity/unity.s: src/test/unity/unity.c.s
@@ -4800,7 +4536,7 @@ src/test/unity/unity.s: src/test/unity/unity.c.s
 
 # target to generate assembly for a file
 src/test/unity/unity.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/test/unity/unity.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/test/unity/unity.c.s
 .PHONY : src/test/unity/unity.c.s
 
 src/util/cjson/cJSON.obj: src/util/cjson/cJSON.c.obj
@@ -4808,7 +4544,7 @@ src/util/cjson/cJSON.obj: src/util/cjson/cJSON.c.obj
 
 # target to build an object file
 src/util/cjson/cJSON.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/util/cjson/cJSON.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/util/cjson/cJSON.c.obj
 .PHONY : src/util/cjson/cJSON.c.obj
 
 src/util/cjson/cJSON.i: src/util/cjson/cJSON.c.i
@@ -4816,7 +4552,7 @@ src/util/cjson/cJSON.i: src/util/cjson/cJSON.c.i
 
 # target to preprocess a source file
 src/util/cjson/cJSON.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/util/cjson/cJSON.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/util/cjson/cJSON.c.i
 .PHONY : src/util/cjson/cJSON.c.i
 
 src/util/cjson/cJSON.s: src/util/cjson/cJSON.c.s
@@ -4824,7 +4560,7 @@ src/util/cjson/cJSON.s: src/util/cjson/cJSON.c.s
 
 # target to generate assembly for a file
 src/util/cjson/cJSON.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc_F4.elf.dir\build.make CMakeFiles/miniFoc_F4.elf.dir/src/util/cjson/cJSON.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miniFoc.elf.dir\build.make CMakeFiles/miniFoc.elf.dir/src/util/cjson/cJSON.c.s
 .PHONY : src/util/cjson/cJSON.c.s
 
 # Help Target
@@ -4835,7 +4571,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... miniFoc_F4.elf
+	@echo ... miniFoc.elf
 	@echo ... project/apps/BldcController/app.obj
 	@echo ... project/apps/BldcController/app.i
 	@echo ... project/apps/BldcController/app.s
@@ -5072,9 +4808,6 @@ help:
 	@echo ... src/debug/heap_trace.obj
 	@echo ... src/debug/heap_trace.i
 	@echo ... src/debug/heap_trace.s
-	@echo ... src/driver/adc.obj
-	@echo ... src/driver/adc.i
-	@echo ... src/driver/adc.s
 	@echo ... src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 	@echo ... src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i
 	@echo ... src/driver/chip/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s
@@ -5228,15 +4961,6 @@ help:
 	@echo ... src/driver/component/usb/USB_DEVICE/Target/usbd_conf.obj
 	@echo ... src/driver/component/usb/USB_DEVICE/Target/usbd_conf.i
 	@echo ... src/driver/component/usb/USB_DEVICE/Target/usbd_conf.s
-	@echo ... src/driver/crc.obj
-	@echo ... src/driver/crc.i
-	@echo ... src/driver/crc.s
-	@echo ... src/driver/dma.obj
-	@echo ... src/driver/dma.i
-	@echo ... src/driver/dma.s
-	@echo ... src/driver/gpio.obj
-	@echo ... src/driver/gpio.i
-	@echo ... src/driver/gpio.s
 	@echo ... src/driver/hal/hal_adc.obj
 	@echo ... src/driver/hal/hal_adc.i
 	@echo ... src/driver/hal/hal_adc.s
@@ -5285,27 +5009,6 @@ help:
 	@echo ... src/driver/hal/systemChip.obj
 	@echo ... src/driver/hal/systemChip.i
 	@echo ... src/driver/hal/systemChip.s
-	@echo ... src/driver/i2c.obj
-	@echo ... src/driver/i2c.i
-	@echo ... src/driver/i2c.s
-	@echo ... src/driver/iwdg.obj
-	@echo ... src/driver/iwdg.i
-	@echo ... src/driver/iwdg.s
-	@echo ... src/driver/rng.obj
-	@echo ... src/driver/rng.i
-	@echo ... src/driver/rng.s
-	@echo ... src/driver/sdio.obj
-	@echo ... src/driver/sdio.i
-	@echo ... src/driver/sdio.s
-	@echo ... src/driver/spi.obj
-	@echo ... src/driver/spi.i
-	@echo ... src/driver/spi.s
-	@echo ... src/driver/tim.obj
-	@echo ... src/driver/tim.i
-	@echo ... src/driver/tim.s
-	@echo ... src/driver/usart.obj
-	@echo ... src/driver/usart.i
-	@echo ... src/driver/usart.s
 	@echo ... src/fs/FatFs/App/fatfs.obj
 	@echo ... src/fs/FatFs/App/fatfs.i
 	@echo ... src/fs/FatFs/App/fatfs.s

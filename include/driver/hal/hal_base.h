@@ -29,7 +29,7 @@
 #ifndef MINIFOC_F4_HAL_BASE_H
 #define MINIFOC_F4_HAL_BASE_H
 
-
+#include "driver/driver_chip.h"
 #include "driver/hal/hal_def.h"
 #include "driver/hal//hal_board.h"
 #include "driver/hal//hal_dev.h"

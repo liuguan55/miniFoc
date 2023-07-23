@@ -26,8 +26,7 @@
 /* USER CODE END Header */
 
 /* Includes ------------------------------------------------------------------*/
-#include "driver/main.h"
-#include "driver/stm32f4xx_it.h"
+#include "driver/chip/platform/stm32f4xx_it.h"
 #include "kernel/FreeRTOS/FreeRTOS.h"
 #include "kernel/FreeRTOS/task.h"
 /* Private includes ----------------------------------------------------------*/
@@ -66,7 +65,6 @@
 
 /* External variables --------------------------------------------------------*/
 
-extern TIM_HandleTypeDef htim4;
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
