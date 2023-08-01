@@ -53,22 +53,42 @@ extern "C" {
 /* console buffer size */
 #define PROJCONF_CONSOLEBUF_SIZE        (128)
 
+#ifdef USE_VFS
 #define PRJCONF_VFS_FILE_SYSTEM_EN      1
+#else
+#define PRJCONF_VFS_FILE_SYSTEM_EN      0
+#endif
 
 #define PRJCONF_WATCHDOG_EN             1
 #define PRjCONF_WATCHDOG_TIMEOUT        10
 
+#ifdef USE_SPI_FLASH
 #define PRJCONF_SPIFLASH_EN             1
+#else
+#define PRJCONF_SPIFLASH_EN             0
+#endif
 
 #define PRJCONF_LOG_EN                  1
 
 #define PRJCONF_BTN_EN                  1
 
+#ifdef USE_FOC
+#define PRJCONF_MOTOR_EN                  1
+#else
 #define PRJCONF_MOTOR_EN                0
+#endif
 
+#ifdef USE_USB
 #define PRJCONF_USB_EN                  1
+#else
+#define PRJCONF_USB_EN                  0
+#endif
 
+#ifdef USE_SDCARD
 #define PRJCONF_SDCARD_EN               1
+#else
+#define PRJCONF_SDCARD_EN               0
+#endif
 
 #define PRJCONF_UNITY_EN                1
 #ifdef __cplusplus

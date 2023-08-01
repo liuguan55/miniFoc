@@ -39,7 +39,7 @@
 #include "common/board/BoardCommon.h"
 
 
-static const GPIO_PinMuxParam g_pinmux_button[] = {
+static const __unused GPIO_PinMuxParam g_pinmux_button[] = {
         {HAL_GPIO_PORT_C, HAL_GPIO_PIN_14, {HAL_GPIO_MODE_INPUT, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
         {HAL_GPIO_PORT_C, HAL_GPIO_PIN_15, {HAL_GPIO_MODE_INPUT, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
         {HAL_GPIO_PORT_B, HAL_GPIO_PIN_8, {HAL_GPIO_MODE_INPUT, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
@@ -56,7 +56,7 @@ static const GPIO_PinMuxParam g_pinmux_adc1[] = {
         {HAL_GPIO_PORT_A, HAL_GPIO_PIN_4, {HAL_GPIO_MODE_ANALOG, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
 };
 
-static const GPIO_PinMuxParam g_pinmux_Gpio[] = {
+static const __unused GPIO_PinMuxParam g_pinmux_Gpio[] = {
         {HAL_GPIO_PORT_C, HAL_GPIO_PIN_4, {HAL_GPIO_MODE_OUTPUT_PP, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}}, //MOTOR EN
         {HAL_GPIO_PORT_C, HAL_GPIO_PIN_13, {HAL_GPIO_MODE_OUTPUT_PP, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},//LED
         { HAL_GPIO_PORT_A, HAL_GPIO_PIN_8,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_3 , HAL_GPIO_AF_NONE} }, //LCD RST
@@ -124,7 +124,7 @@ static const GPIO_PinMuxParam  g_pinmux_led[] = {
 static HAL_Status board_get_pinmux_info(uint32_t major, uint32_t minor, uint32_t param,
                                         struct board_pinmux_info info[])
 {
-    uint8_t i;
+    UNUSED(param);
     HAL_Status ret = HAL_STATUS_OK;
 
     switch (major) {
@@ -203,7 +203,7 @@ static HAL_Status board_get_pinmux_info(uint32_t major, uint32_t minor, uint32_t
             }
             break;
         default:
-            BOARD_ERR("unknow major %u\n", major);
+            BOARD_ERR("unknow major %lu\n", major);
             ret = HAL_STATUS_INVALID;
     }
 
@@ -212,7 +212,6 @@ static HAL_Status board_get_pinmux_info(uint32_t major, uint32_t minor, uint32_t
 
 static HAL_Status board_get_cfg(uint32_t major, uint32_t minor, uint32_t param)
 {
-    uint8_t i;
     HAL_Status ret = HAL_STATUS_OK;
 
     switch (major) {
@@ -237,7 +236,7 @@ static HAL_Status board_get_cfg(uint32_t major, uint32_t minor, uint32_t param)
             }
             break;
         default:
-            BOARD_ERR("unknow major %u\n", major);
+            BOARD_ERR("unknow major %lu\n", major);
             ret = HAL_STATUS_INVALID;
     }
 
@@ -280,7 +279,7 @@ HAL_Status board_ioctl(HAL_BoardIoctlReq req, uint32_t param0, uint32_t param1)
     }
 
     if (ret != HAL_STATUS_OK) {
-        BOARD_ERR("req %d, param0 %#x, param1 %#x, ret %d\n", req, param0, param1, ret);
+        BOARD_ERR("req %d, param0 %#lx, param1 %#lx, ret %d\n", req, param0, param1, ret);
     }
 
     return ret;

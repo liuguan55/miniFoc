@@ -4,7 +4,7 @@
 
 #include "Sensor.h"
 
-#include "common/framework/MiniCommon.h"
+#include "common/framework/util/MiniCommon.h"
 
 #undef LOG_TAG
 #define LOG_TAG "ENCODER"

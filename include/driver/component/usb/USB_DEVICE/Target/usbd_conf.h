@@ -31,7 +31,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "driver/chip/CMSIS/device/ST/STM32F4xx/stm32f4xx.h"
-#include "stm32f4xx_hal.h"
+#include "driver/driver_chip.h"
 
 /* USER CODE BEGIN INCLUDE */
 #define USE_USBD_COMPOSITE

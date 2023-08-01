@@ -101,7 +101,9 @@ static const uint32_t gGpioSpeedMap[HAL_GPIO_DRIVING_LEVEL_NR] = {
         GPIO_SPEED_FREQ_LOW,
         GPIO_SPEED_FREQ_MEDIUM,
         GPIO_SPEED_FREQ_HIGH,
+#ifdef TARGET_MCU_STM32F4
         GPIO_SPEED_FREQ_VERY_HIGH,
+#endif
 };
 
 static const uint32_t gGpioIrqEvent[GPIO_IRQ_EVT_NR] = {
@@ -257,7 +259,7 @@ HAL_Status HAL_GpioInit(GPIO_Port port, GPIO_Pin pin, const GPIO_InitParam *para
         }
         GPIO_SetInitHandle(GPIO_PIN_TO_NUM(port, pin), pInitTypeDef);
     }else {
-        printf("[%d:%d]gpio already init\n", port, pin);
+//        printf("[%d:%d]gpio already init\n", port, pin);
         return HAL_STATUS_BUSY;
     }
 
@@ -269,7 +271,9 @@ HAL_Status HAL_GpioInit(GPIO_Port port, GPIO_Pin pin, const GPIO_InitParam *para
     pInitTypeDef->Mode = gGpioModeMap[param->mode];
     pInitTypeDef->Pull = gGpioPullMap[param->pull];
     pInitTypeDef->Speed = gGpioSpeedMap[param->speed];
+#ifdef TARGET_MCU_STM32F4
     pInitTypeDef->Alternate = param->alternate;
+#endif
     HAL_GPIO_Init(gpiox, pInitTypeDef);
 
     return HAL_STATUS_OK;

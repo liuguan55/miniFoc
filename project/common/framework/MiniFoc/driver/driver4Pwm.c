@@ -3,7 +3,7 @@
 //
 
 #include "driver.h"
-#include "common/framework/MiniCommon.h"
+#include "common/framework/util/MiniCommon.h"
 
 #define PWM_HANDLE NULL //&htim2
 #define M1_Enable    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_4, GPIO_PIN_SET);          //高电平使能

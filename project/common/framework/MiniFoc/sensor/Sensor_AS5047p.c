@@ -3,7 +3,7 @@
 //
 
 #include "Sensor.h"
-#include "common/framework/MiniCommon.h"
+#include "common/framework/util/MiniCommon.h"
 #include "driver/hal/hal_spi.h"
 
 #undef LOG_TAG

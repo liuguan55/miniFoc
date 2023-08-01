@@ -10,16 +10,20 @@
 
 static __inline void malloc_mutex_lock(void)
 {
+#ifdef USE_RTOS_SYSTEM
   if (!arch_irq_get_flags()){
     vTaskSuspendAll();
   }
+#endif
 }
 
 static __inline void malloc_mutex_unlock(void)
 {
+#ifdef USE_RTOS_SYSTEM
   if (!arch_irq_get_flags()){
     xTaskResumeAll();
   }
+#endif
 }
 
 #define RANGEOF(num, start, end) (((num) <= (end)) && ((num) >= (start)))

@@ -8,13 +8,14 @@
  * @copyright (c) 2020 Letter
  * 
  */
+#ifdef USE_VFS
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <getopt.h>
 #include <string.h>
 #include "console/lettershell/shell_fs.h"
 #include "console/lettershell/shell.h"
-#include "fs/FatFs/ff.h"
 #include "console/lettershell/shell_ext.h"
 #include "fs/vfs/vfs.h"
 
@@ -296,3 +297,4 @@ void shellFsInit(ShellFs *shellFs, char *pathBuffer, size_t pathLen) {
     shellFs->info.pathLen = pathLen;
     shellFs->getcwd(shellFs->info.path, pathLen);
 }
+#endif

@@ -33,6 +33,7 @@
   * Enable DMA controller clock
  */
 void HAL_DMAInit(void){
+#ifdef TARGET_MCU_STM32F4
     /* DMA controller clock enable */
     __HAL_RCC_DMA2_CLK_ENABLE();
 
@@ -47,4 +48,9 @@ void HAL_DMAInit(void){
     /* DMA2_Stream6_IRQn interrupt configuration */
     HAL_NVIC_SetPriority(DMA2_Stream6_IRQn, 6, 0);
     HAL_NVIC_EnableIRQ(DMA2_Stream6_IRQn);
+#elif TARGET_MCU_STM32F1
+    /* DMA controller clock enable */
+    __HAL_RCC_DMA1_CLK_ENABLE();
+
+#endif
 }

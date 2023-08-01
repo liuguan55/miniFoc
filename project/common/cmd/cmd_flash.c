@@ -28,7 +28,7 @@
 #include <stdint.h>
 #include "sys/sys_heap.h"
 #include "console/lettershell/shell.h"
-#include "common/framework/MiniCommon.h"
+#include "common/framework/util/MiniCommon.h"
 
 #undef LOG_TAG
 #define LOG_TAG "SHELL"
@@ -60,6 +60,9 @@ SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN) |
  * @param argv
  */
 void cleanFlashLog(int argc, char *argv[]) {
+    UNUSED(argc);
+    UNUSED(argv);
+
     elog_flash_clean();
 }
 

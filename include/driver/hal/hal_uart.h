@@ -38,9 +38,11 @@ enum{
     HAL_UART_1 = 0,
     HAL_UART_2,
     HAL_UART_3,
+#ifdef TARGET_MCU_STM32F4
     HAL_UART_4,
     HAL_UART_5,
     HAL_UART_6,
+#endif
     HAL_UART_NR,
     HAL_UART_INVALID_ID = 0Xff,
 };

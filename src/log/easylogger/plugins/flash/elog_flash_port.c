@@ -41,7 +41,9 @@
 #include "driver/hal/hal_uart.h"
 #include "driver/hal/hal_usb.h"
 
+#ifdef USE_SPI_FLASH
 static HAL_Mutex flashPortMutex = NULL;
+#endif
 /**
  * EasyLogger flash log pulgin port initialize
  *
@@ -50,8 +52,9 @@ static HAL_Mutex flashPortMutex = NULL;
 ElogErrCode elog_flash_port_init(void) {
   ElogErrCode result = ELOG_NO_ERR;
   /* add your code here */
+#ifdef USE_SPI_FLASH
   HAL_MutexInit(&flashPortMutex);
-
+#endif
   return result;
 }
 
@@ -62,23 +65,29 @@ ElogErrCode elog_flash_port_init(void) {
  * @param size log size
  */
 void elog_flash_port_output(const char *log, size_t size) {
+#ifdef USE_SPI_FLASH
   /* add your code here */
     HAL_UartSend(HAL_UART_1, (uint8_t *)log, size);
     HAL_usbCdcSend((uint8_t *)log, size);
+#endif
 }
 
 /**
  * flash log lock
  */
 void elog_flash_port_lock(void) {
+#ifdef USE_SPI_FLASH
   /* add your code here */
   HAL_MutexLock(&flashPortMutex, HAL_OS_WAIT_FOREVER);
+#endif
 }
 
 /**
  * flash log unlock
  */
 void elog_flash_port_unlock(void) {
+#ifdef USE_SPI_FLASH
   /* add your code here */
   HAL_MutexUnlock(&flashPortMutex);
+#endif
 }

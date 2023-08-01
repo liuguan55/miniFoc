@@ -28,13 +28,17 @@
 
 #ifndef MINIFOC_F4_HAL_OS_H
 #define MINIFOC_F4_HAL_OS_H
+
 #include <string.h>
 #include <stdlib.h>
-#include "kernel/FreeRTOS/FreeRTOS.h"
-#include "kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.h"
 #include "sys/interrupt.h"
 #include "driver/hal/hal_def.h"
+#include "driver/driver_chip.h"
 
+#ifdef USE_RTOS_SYSTEM
+#include "kernel/FreeRTOS/FreeRTOS.h"
+#include "kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.h"
+#endif
 
 #ifdef __cplusplus
 extern "C" {
@@ -54,6 +58,7 @@ extern "C" {
 #define HAL_EnterCriticalSection()      arch_irq_save()
 #define HAL_ExitCriticalSection(flags)  arch_irq_restore(flags)
 
+#ifdef USE_RTOS_SYSTEM
 /* Semaphore */
 typedef osSemaphoreId_t HAL_Semaphore;
 
@@ -256,6 +261,7 @@ static __inline int HAL_TimerIsActive(HAL_Timer *timer)
 {
     return osTimerIsRunning(*timer);
 }
+#endif
 
 /* Keep system alive, eg. feed watchdog */
 static __inline void HAL_Alive(void)
@@ -266,12 +272,20 @@ static __inline void HAL_Alive(void)
 /* Time */
 static __inline uint32_t HAL_Ticks(void)
 {
+#ifdef USE_RTOS_SYSTEM
     return osKernelGetTickCount();
+#else
+    return HAL_GetTick();
+#endif
 }
 
 static __inline void HAL_delayMs(uint32_t msec)
 {
+#ifdef USE_RTOS_SYSTEM
     osDelay(msec);
+#else
+    HAL_Delay(msec);
+#endif
 }
 
 static __inline uint32_t HAL_SecsToTicks(uint32_t sec)
@@ -321,5 +335,7 @@ static __inline uint32_t HAL_ElapsedSeconds(uint32_t start)
 #ifdef __cplusplus
 }
 #endif
+
+
 
 #endif //MINIFOC_F4_HAL_OS_H

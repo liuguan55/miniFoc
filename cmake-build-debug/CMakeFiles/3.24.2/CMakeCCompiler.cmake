@@ -66,7 +66,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include")
-set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;g;c")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/lib/thumb/v7e-m+fp/hard;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/lib")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/newlib-nano;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include")
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;g_nano;c_nano;gcc;c_nano")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/lib/thumb/v7-m/nofp;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

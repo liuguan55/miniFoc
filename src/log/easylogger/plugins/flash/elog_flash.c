@@ -87,6 +87,7 @@ ElogErrCode elog_flash_init(void) {
  * @param size
  */
 void elog_flash_output(size_t index, size_t size) {
+#ifdef USE_SPI_FLASH
     /* 128 bytes buffer */
     uint32_t buf[32] = { 0 };
     size_t log_total_size = ef_log_get_used_size();
@@ -125,13 +126,16 @@ void elog_flash_output(size_t index, size_t size) {
     }
     /* unlock flash log buffer */
     log_buf_unlock();
+#endif
 }
 
 /**
  * Read and driver all log which saved in flash.
  */
 void elog_flash_output_all(void) {
+#ifdef USE_SPI_FLASH
     elog_flash_output(0, ef_log_get_used_size());
+#endif
 }
 
 /**
@@ -140,6 +144,7 @@ void elog_flash_output_all(void) {
  * @param size recent log size
  */
 void elog_flash_output_recent(size_t size) {
+#ifdef USE_SPI_FLASH
     size_t max_size = ef_log_get_used_size();
 
     if (size == 0) {
@@ -151,6 +156,7 @@ void elog_flash_output_recent(size_t size) {
     } else {
         elog_flash_output(max_size - size, size);
     }
+#endif
 }
 
 /**
@@ -160,7 +166,6 @@ void elog_flash_output_recent(size_t size) {
  * @param size log size
  */
 void elog_flash_write(const char *log, size_t size) {
-
 #ifdef ELOG_FLASH_USING_BUF_MODE
     size_t write_size = 0, write_index = 0;
 #else
@@ -218,6 +223,7 @@ void elog_flash_write(const char *log, size_t size) {
  * write all buffered log to flash
  */
 void elog_flash_flush(void) {
+#ifdef USE_SPI_FLASH
     size_t write_overage_size = 0;
 
     /* must be call this function after initialize OK */
@@ -236,6 +242,7 @@ void elog_flash_flush(void) {
     cur_buf_size = 0;
     /* unlock flash log buffer */
     log_buf_unlock();
+#endif
 }
 #endif
 
@@ -243,6 +250,7 @@ void elog_flash_flush(void) {
  * clean all log which in flash and ram buffer
  */
 void elog_flash_clean(void) {
+#ifdef USE_SPI_FLASH
     EfErrCode clean_result = EF_NO_ERR;
 
     /* must be call this function after initialize OK */
@@ -265,6 +273,7 @@ void elog_flash_clean(void) {
     } else {
         log_i("Clean logs which in flash has an error!");
     }
+#endif
 }
 
 /**

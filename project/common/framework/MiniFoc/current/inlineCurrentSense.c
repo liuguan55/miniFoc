@@ -3,7 +3,7 @@
 //
 
 #include "Current.h"
-#include "common/framework/MiniCommon.h"
+#include "common/framework/util/MiniCommon.h"
 #include "driver/hal/hal_adc.h"
 
 typedef struct {

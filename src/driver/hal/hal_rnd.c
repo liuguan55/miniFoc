@@ -30,6 +30,7 @@
 #include "driver/driver_chip.h"
 #include "sys/MiniDebug.h"
 
+#ifdef TARGET_MCU_STM32F4
 RNG_HandleTypeDef hrng;
 
 void hal_rndInit(void){
@@ -54,3 +55,4 @@ uint32_t hal_rndGet(void) {
 
     return rnd;
 }
+#endif

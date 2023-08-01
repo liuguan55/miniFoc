@@ -39,7 +39,9 @@ typedef struct {
     DMA_HandleTypeDef dma;
     uint8_t dmaBuffer[HAL_ADC_CH_NR];
     uint8_t adcBuffer[HAL_ADC_CH_NR];
+#ifdef USE_RTOS_SYSTEM
     HAL_Semaphore sem;
+#endif
 } AdcPrivate_t;
 
 static AdcPrivate_t *adcPrivate[HAL_ADC_NR];
@@ -78,8 +80,9 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc) {
             for (int j = 0; j < HAL_ADC_CH_NR; ++j) {
                 pAdcPrivate->adcBuffer[j] = pAdcPrivate->dmaBuffer[j];
             }
-
+#ifdef USE_RTOS_SYSTEM
             HAL_SemaphoreRelease(pAdcPrivate->sem);
+#endif
             break;
         }
     }
@@ -111,6 +114,7 @@ static void HAL_adcHwInit(HAL_ADC_ID id) {
     ADCClockEnable(id);
     HAL_BoardIoctl(HAL_BIR_PINMUX_INIT, HAL_MKDEV(HAL_DEV_MAJOR_ADC, id), 0);
 
+#ifdef TARGET_MCU_STM32F4
     pAdc->Instance = ADCInstanceGet(id);
     pAdc->Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV4;
     pAdc->Init.Resolution = ADC_RESOLUTION_12B;
@@ -204,6 +208,8 @@ static void HAL_adcHwInit(HAL_ADC_ID id) {
 
     HAL_ADC_Start_DMA(pAdc, (uint32_t *) pAdcPrivate->dmaBuffer, HAL_ADC_CH_NR);
     HAL_TIM_PWM_Start(pTim, TIM_CHANNEL_1);
+#elif TARGET_MCU_STM32F1
+#endif
 }
 
 /**
@@ -245,7 +251,9 @@ void HAL_adcInit(HAL_ADC_ID id) {
 
     HAL_adcHwInit(id);
 
+#ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreInit(pAdcPrivate->sem, 0, 1);
+#endif
 }
 
 void HAL_adcDeinit(HAL_ADC_ID id) {
@@ -255,7 +263,10 @@ void HAL_adcDeinit(HAL_ADC_ID id) {
     }
 
     HAL_adcHwDeinit(id);
+
+#ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreDeinit(pAdcPrivate->sem);
+#endif
 
     HAL_Free(pAdcPrivate->adc);
     HAL_Free(pAdcPrivate);
@@ -269,7 +280,9 @@ uint16_t HAL_adcRead(HAL_ADC_ID id, HAL_ADC_CH ch, uint32_t msec) {
         HAL_adcInit(id);
     }
 
+#ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreWait(pAdcPrivate->sem, msec);
+#endif
 
     return pAdcPrivate->adcBuffer[ch];
 }

@@ -30,7 +30,7 @@
 #include "kernel/FreeRTOS/FreeRTOS.h"
 #include "kernel/FreeRTOS/task.h"
 #include "kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os.h"
-#include "common/framework/MiniCommon.h"
+#include "common/framework/util/MiniCommon.h"
 #include "fs/vfs/vfs.h"
 #include "driver/hal/hal_uart.h"
 #include "driver/hal/hal_os.h"
@@ -52,8 +52,10 @@ typedef struct console_priv {
     ShellFs shellFs;
     Log shellLog;
 
+#ifdef USE_RTOS_SYSTEM
     HAL_Mutex shellMutex;
     HAL_Thread shellThread;
+#endif
 } ConsoleDev_t;
 
 void MiniShell_Init(ConsoleDev_t *console);

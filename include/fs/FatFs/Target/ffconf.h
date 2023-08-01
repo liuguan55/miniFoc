@@ -31,7 +31,7 @@
 /*-----------------------------------------------------------------------------/
 / Additional user header to be used
 /-----------------------------------------------------------------------------*/
-#include "stm32f4xx_hal.h"
+#include "driver/driver_chip.h"
 #include "bsp_driver_sd.h"
 #include "kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os.h" /* _FS_REENTRANT set to 1 and CMSIS API chosen */
 

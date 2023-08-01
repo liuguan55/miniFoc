@@ -28,7 +28,7 @@
 /*-----------------------------------------------------------
  * Implementation of functions defined in portable.h for the ARM CM4F port.
  *----------------------------------------------------------*/
-
+#ifdef TARGET_MCU_STM32F4
 /* Scheduler includes. */
 #include "kernel/FreeRTOS/FreeRTOS.h"
 #include "kernel/FreeRTOS/task.h"
@@ -776,4 +776,4 @@ static void vPortEnableVFP( void )
 
 #endif /* configASSERT_DEFINED */
 
-
+#endif

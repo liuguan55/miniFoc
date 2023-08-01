@@ -26,6 +26,8 @@
 // Created by 86189 on 2023/6/4.
 //
 
+#ifdef USE_USB
+
 #include "driver/hal/hal_usb.h"
 #include "usb_device.h"
 #include "usbd_core.h"
@@ -210,3 +212,5 @@ HAL_Status  HAL_usbCdcRecv(uint8_t *buf, uint32_t len, uint32_t *readLen){
 
     return HAL_STATUS_OK;
 }
+
+#endif

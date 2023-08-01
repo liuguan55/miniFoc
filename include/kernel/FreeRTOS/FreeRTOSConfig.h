@@ -64,7 +64,11 @@ extern uint32_t SystemCoreClock;
 void xPortSysTickHandler(void);
 #endif
 #ifndef CMSIS_device_header
+#ifdef TARGET_MCU_STM32F1
+#define CMSIS_device_header "stm32f1xx.h"
+#elif TARGET_MCU_STM32F4
 #define CMSIS_device_header "stm32f4xx.h"
+#endif
 #endif /* CMSIS_device_header */
 
 #define configENABLE_FPU                         1
@@ -79,7 +83,13 @@ void xPortSysTickHandler(void);
 #define configTICK_RATE_HZ                       ((TickType_t)1000)
 #define configMAX_PRIORITIES                     ( 56 )
 #define configMINIMAL_STACK_SIZE                 ((uint16_t)128)
+
+#ifdef TARGET_MCU_STM32F1
+#define configTOTAL_HEAP_SIZE                    ((size_t)0x1000)
+#elif TARGET_MCU_STM32F4
 #define configTOTAL_HEAP_SIZE                    ((size_t)0x6000)
+#endif
+
 #define configMAX_TASK_NAME_LEN                  ( 16 )
 #define configUSE_TRACE_FACILITY                 1
 #define configUSE_16_BIT_TICKS                   0

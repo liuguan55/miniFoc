@@ -17,7 +17,7 @@
 #include "log/easylogger/elog_flash.h"
 #include "log/easylogger/elog.h"
 #include "common/framework/easyflash/easyflash.h"
-#include "common/framework/MiniCommon.h"
+#include "common/framework/util/MiniCommon.h"
 
 #if SHELL_USING_CMD_EXPORT == 1
 /**

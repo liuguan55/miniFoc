@@ -39,7 +39,9 @@ typedef struct {
     uint8_t rxbuffer[USART_RXBUFFER_SIZE];
     lwrb_t ringHandle;
     uint8_t ringBuffer[RINGBUFFER_BUFFER_SIZE];
+#ifdef USE_RTOS_SYSTEM
     HAL_Semaphore rxSem;
+#endif
     void (*rx_callback)(uint8_t *buf, uint16_t len);
     void (*tx_callback)(uint8_t *buf, uint16_t len);
 } HalUartPrivate_t;
@@ -50,9 +52,11 @@ static uint8_t gUartIrqHandles[HAL_UART_NR] = {
         [HAL_UART_1] = USART1_IRQn,
         [HAL_UART_2] = USART2_IRQn,
         [HAL_UART_3] = USART3_IRQn,
+#ifdef TARGET_MCU_STM32F4
         [HAL_UART_4] = UART4_IRQn,
         [HAL_UART_5] = UART5_IRQn,
         [HAL_UART_6] = USART6_IRQn,
+#endif
 };
 
 static uint32_t gBoudrateTable[HAL_UART_BAUDRATE_NR] = {
@@ -116,12 +120,14 @@ static USART_TypeDef *UartInstanceGet(HAL_UART_ID id) {
             return USART2;
         case HAL_UART_3:
             return USART3;
+#ifdef TARGET_MCU_STM32F4
         case HAL_UART_4:
             return UART4;
         case HAL_UART_5:
             return UART5;
         case HAL_UART_6:
             return USART6;
+#endif
         default:
             return NULL;
     }
@@ -139,6 +145,7 @@ static void UARTClockEnable(HAL_UART_ID id)
         case HAL_UART_3:
             __HAL_RCC_USART3_CLK_ENABLE();
             break;
+#ifdef TARGET_MCU_STM32F4
         case HAL_UART_4:
             __HAL_RCC_UART4_CLK_ENABLE();
             break;
@@ -148,6 +155,7 @@ static void UARTClockEnable(HAL_UART_ID id)
         case HAL_UART_6:
             __HAL_RCC_USART6_CLK_ENABLE();
             break;
+#endif
         default:
             break;
     }
@@ -165,6 +173,7 @@ static void UARTClockDisable(HAL_UART_ID id)
         case HAL_UART_3:
             __HAL_RCC_USART3_CLK_DISABLE();
             break;
+#ifdef TARGET_MCU_STM32F4
         case HAL_UART_4:
             __HAL_RCC_UART4_CLK_DISABLE();
             break;
@@ -174,6 +183,7 @@ static void UARTClockDisable(HAL_UART_ID id)
         case HAL_UART_6:
             __HAL_RCC_USART6_CLK_DISABLE();
             break;
+#endif
         default:
             break;
     }
@@ -194,7 +204,9 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
     if (huart->Instance == USART1) {
         HalUartPrivate_t *p = HAL_UartGetPrivate(HAL_UART_1);
         lwrb_write(&p->ringHandle, p->rxbuffer, sizeof(p->rxbuffer));
+#ifdef USE_RTOS_SYSTEM
         HAL_SemaphoreRelease(p->rxSem);
+#endif
         HAL_UART_Receive_IT(huart, p->rxbuffer, sizeof(p->rxbuffer));
 
         if (p->rx_callback){
@@ -260,7 +272,9 @@ static void HAL_UartHwDeinit(HAL_UART_ID uartId) {
     HAL_UART_DeInit(&p->huart);
     HAL_NVIC_DisableIRQ(gUartIrqHandles[uartId]);
     lwrb_free(&p->ringHandle);
+#ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreDeinit(&p->rxSem);
+#endif
 }
 
 HAL_Status HAL_UartInit(HAL_UART_ID uartId, HAL_UartCfg_t *pCfg) {
@@ -283,7 +297,9 @@ HAL_Status HAL_UartInit(HAL_UART_ID uartId, HAL_UartCfg_t *pCfg) {
         HAL_UartSetPrivate(uartId, p);
     }
     memset(p, 0, sizeof(HalUartPrivate_t));
+#ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreInit(&p->rxSem, 1, 1);
+#endif
     lwrb_init(&p->ringHandle, p->ringBuffer, sizeof(p->ringBuffer));
     res = Hal_UartHwInit(uartId, pCfg);
 
@@ -327,7 +343,9 @@ HAL_Status HAL_UartRecv(HAL_UART_ID uartId, uint8_t *buf, uint16_t len, uint32_t
         return HAL_STATUS_ERROR;
     }
 
+#ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreWait(&p->rxSem, 100);
+#endif
     *recvLen = lwrb_read(&p->ringHandle, buf, len);
 
     return HAL_STATUS_OK;

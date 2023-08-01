@@ -32,7 +32,7 @@
 #include "kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os.h"
 #include <stdio.h>
 #include <string.h>
-#include "common/framework/MiniCommon.h"
+#include "common/framework/util/MiniCommon.h"
 #include "driver/hal/hal_os.h"
 #include "driver/hal/hal_spi.h"
 
@@ -185,6 +185,10 @@ void ef_log_debug(const char *file, const long line, const char *format, ...) {
     vsnprintf(logBuff,sizeof(logBuff), format, args);
     ef_print("%s", logBuff);
     va_end(args);
+#else
+    (void) file;
+    (void) line;
+    (void) format;
 #endif
 }
 
@@ -205,6 +209,8 @@ void ef_log_info(const char *format, ...) {
     vsnprintf(logBuff,sizeof(logBuff), format, args);
     ef_print("%s", logBuff);
     va_end(args);
+#else
+    (void) format;
 #endif
 }
 
@@ -227,5 +233,7 @@ void ef_print(const char *format, ...) {
   //  MiniUart_writeData(MINI_CONSOLE_USART_IDX, logBuff, strlen(logBuff));
   //
   //  usb_write_data(logBuff, strlen(logBuff));
+#else
+    (void) format;
 #endif
 }

@@ -33,7 +33,7 @@
 #include "kernel/FreeRTOS/FreeRTOS.h"
 #include "kernel/FreeRTOS/task.h"
 #include "kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os.h"
-#include "common/framework/MiniCommon.h"
+#include "common/framework/util/MiniCommon.h"
 #include "fs/vfs/vfs.h"
 #include "driver/hal/hal_uart.h"
 #include "driver/hal/hal_usb.h"
@@ -53,10 +53,12 @@ signed short ShellRead(char *data, unsigned short dataSize) {
 //    return MiniUart_readData(MINI_SHELL_USART_IDX, data, dataSize);
     uint32_t recvSize = 0;
 
+#ifdef USE_USB
     HAL_usbCdcRecv((uint8_t *)data, dataSize, &recvSize);
     if (recvSize > 0) {
         return (signed short)recvSize;
     }
+#endif
 
     HAL_UartRecv(gConsoleDev->uartId, (uint8_t *)data, dataSize, &recvSize);
 
@@ -70,7 +72,10 @@ signed short ShellRead(char *data, unsigned short dataSize) {
  * @return HAL_STATUS_OK if success , else if failed
  */
 signed short ShellWrite(char *data, unsigned short dataSize) {
+#ifdef USE_USB
     HAL_usbCdcSend((uint8_t *)data, dataSize);
+#endif
+
     return HAL_UartSend(gConsoleDev->uartId, (uint8_t *)data, dataSize);
 }
 

@@ -38,7 +38,11 @@
 static char s_stdout_buf[WRAP_STDOUT_BUF_SIZE];
 
 static stdio_write_fn s_stdio_write = NULL;
+
+
+#ifdef USE_RTOS_SYSTEM
 static HAL_Mutex s_stdout_mutex;
+#endif
 
 /* case of critical context
  *    - IRQ disabled
@@ -50,8 +54,11 @@ static int stdio_is_critical_context(void)
 {
     return (__get_PRIMASK()   ||
             __get_FAULTMASK() ||
-            __get_IPSR()      ||
-            !HAL_ThreadIsSchedulerRunning());
+            __get_IPSR()
+#ifdef USE_RTOS_SYSTEM
+            ||!HAL_ThreadIsSchedulerRunning()
+#endif
+         );
 }
 
 void stdout_mutex_lock(void)
@@ -60,11 +67,13 @@ void stdout_mutex_lock(void)
         return;
     }
 
+#ifdef USE_RTOS_SYSTEM
     if (!s_stdout_mutex) {
         HAL_MutexInit(&s_stdout_mutex);
     }
 
     HAL_MutexLock(&s_stdout_mutex, HAL_OS_WAIT_FOREVER);
+#endif
 }
 
 void stdout_mutex_unlock(void)
@@ -73,9 +82,11 @@ void stdout_mutex_unlock(void)
         return;
     }
 
+#ifdef USE_RTOS_SYSTEM
     if (s_stdout_mutex) {
         HAL_MutexUnlock(&s_stdout_mutex);
     }
+#endif
 }
 
 void stdio_set_write(stdio_write_fn fn)

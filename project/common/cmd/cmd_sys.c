@@ -28,7 +28,7 @@
 #include <stdint.h>
 #include "sys/sys_heap.h"
 #include "console/lettershell/shell.h"
-#include "common/framework/MiniCommon.h"
+#include "common/framework/util/MiniCommon.h"
 
 #undef LOG_TAG
 #define LOG_TAG "SHELL"
@@ -65,6 +65,7 @@ systeminfo, systemInfo, system info);
 
 
 static void test_env(void) {
+#ifdef USE_SPI_FLASH
     uint32_t i_boot_times = 0;
     char *c_old_boot_times, c_new_boot_times[11] = {0};
 
@@ -80,6 +81,7 @@ static void test_env(void) {
     /* set and store the boot count number to Env */
     ef_set_env("boot_times", c_new_boot_times);
     ef_save_env();
+#endif
 }
 
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC) | SHELL_CMD_DISABLE_RETURN,

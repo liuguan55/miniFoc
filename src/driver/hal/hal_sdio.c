@@ -34,6 +34,8 @@
 #include "driver/hal/hal_os.h"
 #include "sys/MiniDebug.h"
 
+#ifdef USE_SDCARD
+
 SD_HandleTypeDef hsd;
 DMA_HandleTypeDef hdma_sdio_rx;
 DMA_HandleTypeDef hdma_sdio_tx;
@@ -191,3 +193,5 @@ HAL_Status hal_sdcDeinit(HAL_SDC_ID sdcId){
     ret = sdcHwDeinit(sdcId);
     return ret;
 }
+
+#endif

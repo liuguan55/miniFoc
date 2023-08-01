@@ -1,0 +1,10 @@
+
+# 定义一个变量来表示目标MCU，例如 STM32F4 或 STM32F1
+# 根据目标 MCU 来包含相应的子 CMake 文件
+if(${TARGET_MCU} STREQUAL "STM32F4")
+        message("Target MCU is STM32F4")
+        include(${CMAKE_SOURCE_DIR}/build/CMakeLists.STM32F4.txt)
+elseif(${TARGET_MCU} STREQUAL "STM32F1")
+        message("Target MCU is STM32F1")
+        include(${CMAKE_SOURCE_DIR}/build/CMakeLists.STM32F1.txt)
+endif()

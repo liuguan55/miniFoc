@@ -1,0 +1,7 @@
+
+# 定义编译器的通用编译选项
+SET(CMAKE_CXX_FLAGS "${COMMON_FLAGS} -std=c++11")
+SET(CMAKE_C_FLAGS "${COMMON_FLAGS} -std=gnu99 ")
+SET(CMAKE_EXE_LINKER_FLAGS "-Wl,-gc-sections,--print-memory-usage -T ${LINKER_SCRIPT}")
+
+set(CMAKE_CXX_STANDARD 11 )

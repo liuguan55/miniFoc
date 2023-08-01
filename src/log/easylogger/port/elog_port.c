@@ -30,7 +30,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/time.h>
-#include "common/framework/MiniCommon.h"
+#include "common/framework/util/MiniCommon.h"
 #include "log/easylogger/elog_flash.h"
 #include "driver/hal/hal_os.h"
 

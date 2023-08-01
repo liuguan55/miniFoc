@@ -46,7 +46,11 @@ did not result in a portmacro.h header file being included - and it should be
 included here.  In this case the path to the correct portmacro.h header file
 must be set in the compiler's include path. */
 #ifndef portENTER_CRITICAL
+#ifdef TARGET_MCU_STM32F4
 	#include "kernel/FreeRTOS/GCC/ARM_CM4F/portmacro.h"
+#elif TARGET_MCU_STM32F1
+    #include "kernel/FreeRTOS/GCC/ARM_CM3/portmacro.h"
+#endif
 #endif
 
 #if portBYTE_ALIGNMENT == 32

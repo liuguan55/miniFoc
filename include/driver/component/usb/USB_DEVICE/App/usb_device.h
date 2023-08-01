@@ -28,7 +28,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "driver/chip/CMSIS/device/ST/STM32F4xx/stm32f4xx.h"
-#include "stm32f4xx_hal.h"
+#include "driver/driver_chip.h"
 #include "usbd_def.h"
 
 /* USER CODE BEGIN INCLUDE */

@@ -38,7 +38,9 @@ extern "C" {
 enum {
     HAL_I2C_1,
     HAL_I2C_2,
+#ifdef TARGET_MCU_STM32F4
     HAL_I2C_3,
+#endif
     HAL_I2C_NR
 };
 typedef uint8_t HAL_I2C_ID;

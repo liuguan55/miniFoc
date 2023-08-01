@@ -1,0 +1,22 @@
+
+SET(FPU_FLAGS "-mfloat-abi=soft")
+
+SET(COMMON_FLAGS
+    "-mcpu=cortex-m3 ${FPU_FLAGS} -mthumb  -specs=nano.specs -mthumb-interwork -ffunction-sections -fdata-sections \
+    -g -fno-common -fmessage-length=0  ")
+
+add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB)
+
+
+string(TOUPPER STM32F1 TARGET_MCU_UPPER)
+add_definitions(-DTARGET_MCU_${TARGET_MCU_UPPER})
+
+file(GLOB_RECURSE PLATFORM_SOURCES "src/driver/chip/platform/STM32F1xx_HAL_Driver/*.*"
+                "project/common/startup/STM32F1/*.*")
+list(APPEND SOURCES ${PLATFORM_SOURCES})
+
+list(APPEND HEADERS  include/driver/chip/platform/STM32F1
+                  include/driver/chip/platform/STM32F1/STM32F1xx_HAL_Driver
+                  include/driver/chip/platform/STM32F1/STM32F1xx_HAL_Driver/Legacy
+                  include/driver/chip/CMSIS/Device/ST/STM32F1xx
+                  include/kernel/FreeRTOS/GCC/ARM_CM3F)

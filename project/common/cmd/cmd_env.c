@@ -28,7 +28,7 @@
 #include <stdint.h>
 #include "sys/sys_heap.h"
 #include "console/lettershell/shell.h"
-#include "common/framework/MiniCommon.h"
+#include "common/framework/util/MiniCommon.h"
 
 #undef LOG_TAG
 #define LOG_TAG "SHELL"
@@ -42,7 +42,11 @@
  * @param argv
  */
 void printEnvs(int argc, char *argv[]) {
+    UNUSED(argc);
+    UNUSED(argv);
+#ifdef USE_SPI_FLASH
     ef_print_env();
+#endif
 }
 
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN) | SHELL_CMD_DISABLE_RETURN,
@@ -63,7 +67,9 @@ void setEnv(int argc, char *argv[]) {
     char *key = argv[1];
     char *value = argv[2];
 
+#ifdef USE_SPI_FLASH
     ef_set_env(key, value);
+#endif
 }
 
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN) | SHELL_CMD_DISABLE_RETURN,
@@ -76,6 +82,7 @@ SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN) |
  * @param argv
  */
 void getEnv(int argc, char *argv[]) {
+#ifdef USE_SPI_FLASH
     if (argc < 2) {
 //        ef_print_env();
         return;
@@ -83,15 +90,18 @@ void getEnv(int argc, char *argv[]) {
 
     char *key = argv[1];
 
+
     char *value = ef_get_env(key);
 
     log_i("%s=%s\n", key, value);
+#endif
 }
 
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN) | SHELL_CMD_DISABLE_RETURN,
                  getenv, getEnv, get envs);
 
 void resetEnv(int argc, char *argv[]) {
+#ifdef USE_SPI_FLASH
     if (argc < 2) {
 //        ef_print_env();
         return;
@@ -102,6 +112,7 @@ void resetEnv(int argc, char *argv[]) {
     ef_env_set_default();
 
     log_i("reset envs\n");
+#endif
 }
 
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN) | SHELL_CMD_DISABLE_RETURN,

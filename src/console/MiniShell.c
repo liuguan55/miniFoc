@@ -28,7 +28,7 @@
 #include "kernel/FreeRTOS/FreeRTOS.h"
 #include "kernel/FreeRTOS/task.h"
 #include "kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os.h"
-#include "common/framework/MiniCommon.h"
+#include "common/framework/util/MiniCommon.h"
 #include "fs/vfs/vfs.h"
 #include "driver/hal/hal_uart.h"
 #include "driver/hal/hal_os.h"
@@ -36,7 +36,7 @@
 #undef LOG_TAG
 #define LOG_TAG "MINISHELL"
 
-
+#ifdef USE_VFS
 /**
  * @brief rm file
  * @param path
@@ -70,6 +70,8 @@ size_t userShellMkdir(char *path) {
 }
 
 static uint8_t isSystemRootPath(char *path, char *buffer, size_t bufferSize, int printDetail) {
+    UNUSED(bufferSize);
+
     if (path == NULL) {
         return 0;
     }
@@ -141,7 +143,7 @@ size_t userShellChdir(char *path) {
     /*add '/' if path is filesystem fsletter */
     if (realPath[0] == '/' && realPath[1] != '\0') {
         size_t fileSystemCount = vfsGetFileSystemCount();
-        for (int i = 0; i < fileSystemCount; ++i) {
+        for (size_t i = 0; i < fileSystemCount; ++i) {
             vfsFileSystem_t *fileSystem = vfsGetFileSystem(i);
             if (fileSystem && !strncmp(fileSystem->fsLetter, &realPath[1], strlen(fileSystem->fsLetter)) &&
                     realPath[strlen(fileSystem->fsLetter) + 1] == '\0') {
@@ -285,7 +287,7 @@ size_t userShellListDir(char *path, char *buffer, size_t maxLen, int printDetail
 
     return 0;
 }
-
+#endif
 /**
  * @brief  init shell handle
  * 
@@ -297,6 +299,7 @@ void MiniShell_Init(ConsoleDev_t *console) {
     shellSetPath(shell, console->shellPathBuffer);
     shellInit(shell, console->buffer, sizeof (console->buffer));
 
+#ifdef USE_VFS
     ShellFs *shellFs = &console->shellFs;
     shellFs->getcwd = userShellGetcwd;
     shellFs->chdir = userShellChdir;
@@ -306,6 +309,7 @@ void MiniShell_Init(ConsoleDev_t *console) {
 
     shellFsInit(shellFs, console->shellPathBuffer, sizeof (console->shellPathBuffer));
     shellCompanionAdd(shell, SHELL_COMPANION_ID_FS, shellFs);
+#endif
 
     Log *shellLog = &console->shellLog;
     shellLog->active = 1;

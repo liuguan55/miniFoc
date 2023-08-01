@@ -30,7 +30,7 @@
 #include <driver/component/flash/sfud/sfud.h>
 #include <stdarg.h>
 #include "driver/hal/hal_spi.h"
-#include "common/framework/MiniCommon.h"
+#include "common/framework/util/MiniCommon.h"
 #include "driver/hal/hal_uart.h"
 
 static HAL_Mutex flashMutex = NULL;
