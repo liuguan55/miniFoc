@@ -42,7 +42,7 @@ extern "C" {
 #define BOARD_ERR_ON    1
 #define BOARD_ABORT_ON  0
 
-#define BOARD_SYSLOG   // printf
+#define BOARD_SYSLOG    printf
 #define BOARD_ABORT()   sys_abort()
 
 #define BOARD_LOG(flags, fmt, arg...)   \

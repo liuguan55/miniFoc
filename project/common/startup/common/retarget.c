@@ -47,6 +47,6 @@ int __wrap_main(void)
 
 void __wrap_exit(int status)
 {
-//    printf("ERR: exit %d\n", status);
+   printf("ERR: exit %d\n", status);
     while (1);
 }

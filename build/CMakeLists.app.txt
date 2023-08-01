@@ -3,6 +3,7 @@
 set(project_app "remote_control")
 if(${project_app} STREQUAL "remote_control")
         SET(APP_NAME "remote_control")
+        add_definitions(-DSTM32F103xB)
         SET(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103C8TX_FLASH.ld)
         set(TARGET_MCU STM32F1)
 
@@ -13,8 +14,22 @@ if(${project_app} STREQUAL "remote_control")
         list(APPEND SOURCES ${APP_SOURCES})
         list(APPEND HEADERS project/apps/remoteController/
                             project/common/board/remoteController/)
+elseif(${project_app} STREQUAL "remote_reciver")           
+        SET(APP_NAME "remote_reciver")
+        add_definitions(-DSTM32G030xx)
+        SET(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32G030C8TX_FLASH.ld)
+        set(TARGET_MCU STM32G0)
+
+        set(USE_LIBC ON CACHE BOOL "Use LIBC" FORCE)
+
+        file(GLOB_RECURSE  APP_SOURCES  project/apps/remoteReciver/*.*
+                                       "project/common/board/remoteReciver/*.*")
+        list(APPEND SOURCES ${APP_SOURCES})
+        list(APPEND HEADERS project/apps/remoteReciver/
+                            project/common/board/remoteReciver/)
 elseif(${project_app} STREQUAL "miniFoc_F4")
         SET(APP_NAME "miniFoc_F4")
+        add_definitions(-DSTM32F405xx)
         SET(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F405RGTX_FLASH.ld)
         set(TARGET_MCU          STM32F4)
 

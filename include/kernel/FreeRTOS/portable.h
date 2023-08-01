@@ -50,6 +50,8 @@ must be set in the compiler's include path. */
 	#include "kernel/FreeRTOS/GCC/ARM_CM4F/portmacro.h"
 #elif TARGET_MCU_STM32F1
     #include "kernel/FreeRTOS/GCC/ARM_CM3/portmacro.h"
+#elif TARGET_MCU_STM32G0
+	#include "kernel/FreeRTOS/GCC/ARM_CM0/portmacro.h"
 #endif
 #endif
 

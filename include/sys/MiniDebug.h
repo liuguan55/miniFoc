@@ -87,7 +87,7 @@
  ************************************************************/
 #ifdef MINI_DEBUG_ON
 
-#define MINI_DEBUG_PRINT(msg, arg...)  //printf(msg, ##arg)
+#define MINI_DEBUG_PRINT(msg, arg...)  printf(msg, ##arg)
 
 #define MINI_DEBUG_ABORT()    \
 	do { \

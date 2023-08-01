@@ -39,4 +39,9 @@
 #include "driver/chip/CMSIS/device/ST/STM32F1xx/stm32f1xx.h"
 #endif
 
+#ifdef TARGET_MCU_STM32G0
+#include "stm32g0xx_hal.h"
+#include "driver/chip/CMSIS/device/ST/STM32G0xx/stm32g0xx.h"
+#endif
+
 #endif //MINIFOC_DRIVER_CHIP_H
