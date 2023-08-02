@@ -25,6 +25,7 @@
 #ifndef __ELOG_H__
 #define __ELOG_H__
 
+
 #include "elog_cfg.h"
 #include <stdint.h>
 #include <stddef.h>
@@ -213,7 +214,9 @@ void elog_hexdump(const char *name, uint8_t width, uint8_t *buf, uint16_t size);
     #define LOG_TAG          "NO_TAG"
 #endif
 #if !defined(LOG_LVL)
+#ifdef USE_LOG
     #define LOG_LVL          ELOG_LVL_VERBOSE
+#endif
 #endif
 #if LOG_LVL >= ELOG_LVL_ASSERT
     #define log_a(...)       elog_a(LOG_TAG, __VA_ARGS__)

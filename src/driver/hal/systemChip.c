@@ -31,12 +31,15 @@
 #include "driver/hal/hal_dma.h"
 #include "driver/hal/hal_timer.h"
 #include "driver/hal/hal_i2c.h"
+#include "common/board/Board.h"
 
 void HAL_SystemInit(void)
 {
     HAL_Init();
     /* set clock */
     HAL_BoardIoctl(HAL_BIR_CHIP_CLOCK_INIT, 0, 0);
+
+    HAL_BoardInit();
 
     HAL_DMAInit();
 

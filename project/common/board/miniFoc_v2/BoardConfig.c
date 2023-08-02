@@ -334,3 +334,8 @@ HAL_Status board_ioctl(HAL_BoardIoctlReq req, uint32_t param0, uint32_t param1)
 }
 
 
+void HAL_BoardInit() {
+    HAL_BoardIoctl(HAL_BIR_PINMUX_INIT, HAL_MKDEV(HAL_DEV_MAJOR_LED, 0), 0);
+}
+
+

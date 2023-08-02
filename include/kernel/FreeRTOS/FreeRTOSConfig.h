@@ -87,9 +87,9 @@ void xPortSysTickHandler(void);
 #define configMINIMAL_STACK_SIZE                 ((uint16_t)128)
 
 #ifdef TARGET_MCU_STM32F1
-#define configTOTAL_HEAP_SIZE                    ((size_t)0x4000)
+#define configTOTAL_HEAP_SIZE                    ((size_t)0x1000)
 #elif TARGET_MCU_STM32G0
-#define configTOTAL_HEAP_SIZE                    ((size_t)0x2000)
+#define configTOTAL_HEAP_SIZE                    ((size_t)0x1000)
 #elif TARGET_MCU_STM32F4
 #define configTOTAL_HEAP_SIZE                    ((size_t)0x6000)
 #endif
@@ -176,7 +176,7 @@ See http://www.FreeRTOS.org/RTOS-Cortex-M3-M4.html. */
 /* Normal assert() semantics without relying on the provision of an assert.h
 header file. */
 /* USER CODE BEGIN 1 */
-#define configASSERT(x) if ((x) == 0) {taskDISABLE_INTERRUPTS(); for( ;; );}
+#define configASSERT(x) if ((x) == 0) {taskDISABLE_INTERRUPTS(); printf("assert[%s:%d]freertos %s\n",__FUNCTION__,__LINE__,#x);for( ;; );}
 /* USER CODE END 1 */
 
 /* Definitions that map the FreeRTOS port interrupt handlers to their CMSIS

@@ -47,7 +47,7 @@ extern "C" {
 
 
 /* console enable/disable */
-#define PRJCONF_CONSOLE_EN              0
+#define PRJCONF_CONSOLE_EN              1
 /* console stack size */
 #define PRJCONF_CONSOLE_STACK_SIZE      (4 * 128)
 /* console buffer size */
@@ -94,7 +94,12 @@ extern "C" {
 #define PRJCONF_SDCARD_EN               0
 #endif
 
+#ifdef USE_UNITTEST
+#define PRJCONF_UNITTEST_EN             1
+#else
 #define PRJCONF_UNITY_EN                0
+#endif
+
 #ifdef __cplusplus
 
 }

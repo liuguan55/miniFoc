@@ -41,22 +41,25 @@
 
 
 static const __unused GPIO_PinMuxParam g_pinmux_button[] = {
-        {HAL_GPIO_PORT_C, HAL_GPIO_PIN_14, {HAL_GPIO_MODE_INPUT, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
-        {HAL_GPIO_PORT_C, HAL_GPIO_PIN_15, {HAL_GPIO_MODE_INPUT, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
-        {HAL_GPIO_PORT_B, HAL_GPIO_PIN_8, {HAL_GPIO_MODE_INPUT, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
-        {HAL_GPIO_PORT_B, HAL_GPIO_PIN_9, {HAL_GPIO_MODE_INPUT, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
+        {HAL_GPIO_PORT_A, HAL_GPIO_PIN_7, {HAL_GPIO_MODE_INPUT, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
+        {HAL_GPIO_PORT_B, HAL_GPIO_PIN_10, {HAL_GPIO_MODE_INPUT, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
+        {HAL_GPIO_PORT_B, HAL_GPIO_PIN_11, {HAL_GPIO_MODE_INPUT, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
 };
 
 
 static const GPIO_PinMuxParam g_pinmux_adc1[] = {
+        {HAL_GPIO_PORT_A, HAL_GPIO_PIN_1, {HAL_GPIO_MODE_ANALOG, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
+        {HAL_GPIO_PORT_A, HAL_GPIO_PIN_2, {HAL_GPIO_MODE_ANALOG, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
+        {HAL_GPIO_PORT_A, HAL_GPIO_PIN_3, {HAL_GPIO_MODE_ANALOG, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
         {HAL_GPIO_PORT_A, HAL_GPIO_PIN_4, {HAL_GPIO_MODE_ANALOG, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
+        {HAL_GPIO_PORT_A, HAL_GPIO_PIN_5, {HAL_GPIO_MODE_ANALOG, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
+        {HAL_GPIO_PORT_B, HAL_GPIO_PIN_0, {HAL_GPIO_MODE_ANALOG, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
+        {HAL_GPIO_PORT_B, HAL_GPIO_PIN_1, {HAL_GPIO_MODE_ANALOG, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
 };
 
 static const __unused GPIO_PinMuxParam g_pinmux_Gpio[] = {
-        {HAL_GPIO_PORT_C, HAL_GPIO_PIN_4, {HAL_GPIO_MODE_OUTPUT_PP, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}}, //MOTOR EN
         {HAL_GPIO_PORT_C, HAL_GPIO_PIN_13, {HAL_GPIO_MODE_OUTPUT_PP, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},//LED
-        { HAL_GPIO_PORT_A, HAL_GPIO_PIN_8,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE} }, //LCD RST
-        { HAL_GPIO_PORT_B, HAL_GPIO_PIN_14,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE} }, //LCD RS
+        { HAL_GPIO_PORT_A, HAL_GPIO_PIN_6,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE} }, //LCD RST
 };
 
 static const GPIO_PinMuxParam g_pinmux_uart0[] = {
@@ -64,6 +67,10 @@ static const GPIO_PinMuxParam g_pinmux_uart0[] = {
         { HAL_GPIO_PORT_A, HAL_GPIO_PIN_10,  { HAL_GPIO_MODE_AF_PP,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_2 ,HAL_GPIO_AF7_USART1} }, /* RX */
 };
 
+static const GPIO_PinMuxParam g_pinmux_i2c1[] = {
+        { HAL_GPIO_PORT_B, HAL_GPIO_PIN_8,  { HAL_GPIO_MODE_AF_OD,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF4_I2C1} }, /* SCL */
+        { HAL_GPIO_PORT_B, HAL_GPIO_PIN_9,  { HAL_GPIO_MODE_AF_OD,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_2 ,HAL_GPIO_AF4_I2C1} }, /* SDA */
+};
 
 static const GPIO_PinMuxParam g_pinmux_spi1[] = {
         { HAL_GPIO_PORT_B, HAL_GPIO_PIN_3,  { HAL_GPIO_MODE_AF_PP,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF5_SPI1} }, /* CLK */
@@ -72,25 +79,25 @@ static const GPIO_PinMuxParam g_pinmux_spi1[] = {
 };
 
 static const GPIO_PinMuxParam  g_pinmux_spi1_cs[] = {
-        { HAL_GPIO_PORT_A, HAL_GPIO_PIN_15,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE} }, /* CS */
+        { HAL_GPIO_PORT_B, HAL_GPIO_PIN_7,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE} }, /* CS */
 };
 
 static const GPIO_PinMuxParam  g_pinmux_spi2[] = {
-        { HAL_GPIO_PORT_C, HAL_GPIO_PIN_2,  { HAL_GPIO_MODE_AF_PP,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF5_SPI2} }, /* CLK */
-        { HAL_GPIO_PORT_C, HAL_GPIO_PIN_3,  { HAL_GPIO_MODE_AF_PP,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_2 ,HAL_GPIO_AF5_SPI2} }, /* MISO */
+        { HAL_GPIO_PORT_B, HAL_GPIO_PIN_15,  { HAL_GPIO_MODE_AF_PP,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF5_SPI2} }, /* CLK */
         { HAL_GPIO_PORT_B, HAL_GPIO_PIN_13,  { HAL_GPIO_MODE_AF_PP,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_2 ,HAL_GPIO_AF5_SPI2} }, /* MOSI */
 };
 
 static const GPIO_PinMuxParam  g_pinmux_spi2_cs[] = {
-        { HAL_GPIO_PORT_B, HAL_GPIO_PIN_12,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE} }, /* CS */
-        { HAL_GPIO_PORT_C, HAL_GPIO_PIN_5,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE} }, /* CS */
+        { HAL_GPIO_PORT_A, HAL_GPIO_PIN_12,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE} }, /* CS */
 };
 
 static const GPIO_PinMuxParam  g_pinmux_led[] = {
-        { HAL_GPIO_PORT_C, HAL_GPIO_PIN_13,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE} }, /* SCL */
+        { HAL_GPIO_PORT_A, HAL_GPIO_PIN_6,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE} }, /* SCL */
 };
 
-
+static const GPIO_PinMuxParam  g_pinmux_buzzer[] = {
+        { HAL_GPIO_PORT_C, HAL_GPIO_PIN_13,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE} }, /* SCL */
+};
 
 /**
   * @brief System Clock Configuration
@@ -146,6 +153,12 @@ static HAL_Status board_get_pinmux_info(uint32_t major, uint32_t minor, uint32_t
 
     switch (major) {
         case HAL_DEV_MAJOR_I2C:
+            if (minor == HAL_I2C_1) {
+                info[0].pinmux = g_pinmux_i2c1;
+                info[0].count = HAL_ARRAY_SIZE(g_pinmux_i2c1);
+            } else {
+                ret = HAL_STATUS_INVALID;
+            }
            
             break;
         case HAL_DEV_MAJOR_UART:
@@ -198,6 +211,12 @@ static HAL_Status board_get_pinmux_info(uint32_t major, uint32_t minor, uint32_t
                 info[0].count = 1;//HAL_ARRAY_SIZE(g_pinmux_led);
             }
             break;
+        case HAL_DEV_MAJOR_BUZZER:
+            if (minor < HAL_ARRAY_SIZE(g_pinmux_buzzer)){
+                info[0].pinmux = &g_pinmux_buzzer[minor];
+                info[0].count = 1;//HAL_ARRAY_SIZE(g_pinmux_buzzer);
+            }
+            break;
         default:
             BOARD_ERR("unknow major %lu\n", major);
             ret = HAL_STATUS_INVALID;
@@ -228,6 +247,13 @@ static HAL_Status board_get_cfg(uint32_t major, uint32_t minor, uint32_t param)
             if (minor < HAL_ARRAY_SIZE(g_pinmux_led)){
                 board_pinmux_info_t *info = (board_pinmux_info_t *) param;
                 info->pinmux = &g_pinmux_led[minor];
+                info->count = 1;//HAL_ARRAY_SIZE(g_pinmux_led);
+            }
+            break;
+        case HAL_DEV_MAJOR_BUZZER:
+            if (minor < HAL_ARRAY_SIZE(g_pinmux_buzzer)){
+                board_pinmux_info_t *info = (board_pinmux_info_t *) param;
+                info->pinmux = &g_pinmux_buzzer[minor];
                 info->count = 1;//HAL_ARRAY_SIZE(g_pinmux_led);
             }
             break;
@@ -282,3 +308,7 @@ HAL_Status board_ioctl(HAL_BoardIoctlReq req, uint32_t param0, uint32_t param1)
 }
 
 
+void HAL_BoardInit() {
+    HAL_BoardIoctl(HAL_BIR_PINMUX_INIT, HAL_MKDEV(HAL_DEV_MAJOR_LED, 0), 0); //led init
+//    HAL_BoardIoctl(HAL_BIR_PINMUX_INIT, HAL_MKDEV(HAL_DEV_MAJOR_BUZZER, 0), 0); //buzzer init
+}

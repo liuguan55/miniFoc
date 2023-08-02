@@ -40,6 +40,8 @@
 extern "C" {
 #endif
 
+void HAL_BoardInit();
+
 HAL_Status board_ioctl(HAL_BoardIoctlReq req, uint32_t param0, uint32_t param1);
 
 #if PRJCONF_UART_EN

@@ -13,6 +13,9 @@ add_definitions(-DTARGET_MCU_${TARGET_MCU_UPPER})
 
 file(GLOB_RECURSE PLATFORM_SOURCES "src/driver/chip/platform/STM32G0xx_HAL_Driver/*.*"
                 "project/common/startup/STM32G0/*.*")
+if (USE_RTOS_SYSTEM)
+    list(APPEND PLATFORM_SOURCES  "src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM0/port.c")
+endif()
 list(APPEND SOURCES ${PLATFORM_SOURCES})
 
 list(APPEND HEADERS  include/driver/chip/platform/STM32G0

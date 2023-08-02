@@ -8,6 +8,11 @@ if(${project_app} STREQUAL "remote_control")
         set(TARGET_MCU STM32F1)
 
         set(USE_LIBC ON CACHE BOOL "Use LIBC" FORCE)
+        set(USE_RTOS_SYSTEM ON CACHE BOOL "Use RTOS" FORCE)
+        set(USE_BACKTRACE ON CACHE BOOL "Use BACKTRACE" FORCE)
+        set(USE_SHELL ON CACHE BOOL "Use SHELL" FORCE)
+        set(USE_LOG ON CACHE BOOL "Use LOG" FORCE)
+        set(USE_UNITTEST ON CACHE BOOL "Use UNITTEST" FORCE)
 
         file(GLOB_RECURSE  APP_SOURCES  project/apps/remoteController/*.*
                                        "project/common/board/remoteController/*.*")
@@ -135,7 +140,15 @@ if (USE_RTOS_SYSTEM)
         message(STATUS "USE_RTOS_SYSTEM: ${USE_RTOS_SYSTEM}")
         add_definitions(-DUSE_RTOS_SYSTEM)
 
-        file(GLOB_RECURSE FREERTOS_SOURCES "src/kernel/*.*")
+        file(GLOB_RECURSE FREERTOS_SOURCES "src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/*.*"
+                                           "src/kernel/FreeRTOS/Source/portable/MemMang/*.*"
+                                           "src/kernel/FreeRTOS/Source/croutine.c"
+                                           "src/kernel/FreeRTOS/Source/event_groups.c"
+                                           "src/kernel/FreeRTOS/Source/list.c"
+                                           "src/kernel/FreeRTOS/Source/queue.c"
+                                           "src/kernel/FreeRTOS/Source/stream_buffer.c"
+                                           "src/kernel/FreeRTOS/Source/tasks.c"
+                                           "src/kernel/FreeRTOS/Source/timers.c")
         list(APPEND SOURCES        ${FREERTOS_SOURCES})
         list(APPEND HEADERS         include/kernel
                                 include/kernel/FreeRTOS

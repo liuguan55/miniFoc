@@ -205,7 +205,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
         HalUartPrivate_t *p = HAL_UartGetPrivate(HAL_UART_1);
         lwrb_write(&p->ringHandle, p->rxbuffer, sizeof(p->rxbuffer));
 #ifdef USE_RTOS_SYSTEM
-        HAL_SemaphoreRelease(p->rxSem);
+        HAL_SemaphoreRelease(&p->rxSem);
 #endif
         HAL_UART_Receive_IT(huart, p->rxbuffer, sizeof(p->rxbuffer));
 

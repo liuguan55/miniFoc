@@ -27,6 +27,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f1xx_it.h"
+#include "stm32f1xx_hal.h"
 #include "kernel/FreeRTOS/FreeRTOS.h"
 #include "kernel/FreeRTOS/task.h"
 /* Private includes ----------------------------------------------------------*/
@@ -167,7 +168,7 @@ void SysTick_Handler(void)
   /* USER CODE BEGIN SysTick_IRQn 0 */
 
   /* USER CODE END SysTick_IRQn 0 */
-//  HAL_IncTick();
+  HAL_IncTick();
 
 #ifdef USE_RTOS_SYSTEM
   if (xTaskGetSchedulerState() != taskSCHEDULER_NOT_STARTED)

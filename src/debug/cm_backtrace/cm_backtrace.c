@@ -158,7 +158,9 @@ void cm_backtrace_print(char *format, ...)
 
   printf("%s",log_buf);
 
+#ifdef USE_SPI_FLASH
   elog_flash_write(log_buf, strlen(log_buf));
+#endif
 }
 
 /**
@@ -681,8 +683,9 @@ void cm_backtrace_fault(uint32_t fault_handler_lr, uint32_t fault_handler_sp) {
 #endif
 
     print_call_stack(stack_pointer);
-
+#ifdef USE_SPI_FLASH
   	elog_flash_flush();
+#endif
 //	extern void RunTimeStatsTask(int argc, char *argv[]);
 //	RunTimeStatsTask(0,NULL);
 }

@@ -30,17 +30,57 @@
 #include "driver/hal/hal_dev.h"
 #include "driver/hal/hal_gpio.h"
 
+
 #undef LOG_TAG
 #define LOG_TAG "main"
 
+/**
+  * @brief  The led task.
+  *
+  * @retval int
+  */
+void ledTask(void  *args){
+    UNUSED(args);
+    board_pinmux_info_t pinmux_info;
+    HAL_BoardIoctl(HAL_BIR_GET_CFG, HAL_MKDEV(HAL_DEV_MAJOR_LED, 0), (uint32_t)&pinmux_info);
 
+    HAL_GpioTogglePin(pinmux_info.pinmux[0].port, pinmux_info.pinmux[0].pin);
+}
+
+/**
+  * @brief  start led task.
+  *
+  * @retval int
+  */
+void ledTaskStart(){
+    static HAL_Timer timer;
+    HAL_TimerInit(&timer, osTimerPeriodic, ledTask, NULL);
+    HAL_TimerStart(&timer, 500);
+}
+
+/**
+ * @brief buzzer on
+ */
+void buzzerOn(){
+    board_pinmux_info_t pinmux_info;
+    HAL_BoardIoctl(HAL_BIR_GET_CFG, HAL_MKDEV(HAL_DEV_MAJOR_BUZZER, 0), (uint32_t)&pinmux_info);
+
+    HAL_GpioWritePin(pinmux_info.pinmux[0].port, pinmux_info.pinmux[0].pin, 1);
+    HAL_msleep(500);
+    HAL_GpioWritePin(pinmux_info.pinmux[0].port, pinmux_info.pinmux[0].pin, 0);
+}
 /**
   * @brief  The application entry point.
   *
   * @retval int
   */
 int main(void) {
-
+    buzzerOn();
+    ledTaskStart();
+    while (1){
+        printf("Hello World!\n");
+        HAL_msleep(1000);
+    }
 
     return 0;
 }

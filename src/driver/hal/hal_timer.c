@@ -100,7 +100,9 @@ static void HAL_timerCallback(void){
 
     if (++timerCnt >= 20){
         timerCnt = 0;
+#ifdef TARGET_MCU_STM32F4
         HAL_IncTick();
+#endif
     }
 }
 

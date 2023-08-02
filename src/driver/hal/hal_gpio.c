@@ -259,7 +259,7 @@ HAL_Status HAL_GpioInit(GPIO_Port port, GPIO_Pin pin, const GPIO_InitParam *para
         }
         GPIO_SetInitHandle(GPIO_PIN_TO_NUM(port, pin), pInitTypeDef);
     }else {
-//        printf("[%d:%d]gpio already init\n", port, pin);
+        printf("[%d:%d]gpio already init\n", port, pin);
         return HAL_STATUS_BUSY;
     }
 

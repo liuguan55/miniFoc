@@ -17,7 +17,11 @@ string(TOUPPER STM32F4 TARGET_MCU_UPPER)
 add_definitions(-DTARGET_MCU_${TARGET_MCU_UPPER})
 
 file(GLOB_RECURSE PLATFORM_SOURCES "src/driver/chip/STM32F4xx_HAL_Driver/*.*"
-                                   "project/common/startup/STM32F4/*.*"
+                     "project/common/startup/STM32F4/*.*")
+if (USE_RTOS_SYSTEM)
+    list(APPEND PLATFORM_SOURCES  "src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c")
+endif()
+
 list(APPEND SOURCES ${PLATFORM_SOURCES})
 
 list(APPEND HEADERS  include/driver/chip/platform/STM32F4

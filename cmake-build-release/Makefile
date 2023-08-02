@@ -227,6 +227,126 @@ project/common/board/remoteController/BoardConfig.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/board/remoteController/BoardConfig.c.s
 .PHONY : project/common/board/remoteController/BoardConfig.c.s
 
+project/common/cmd/cmd_env.obj: project/common/cmd/cmd_env.c.obj
+.PHONY : project/common/cmd/cmd_env.obj
+
+# target to build an object file
+project/common/cmd/cmd_env.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_env.c.obj
+.PHONY : project/common/cmd/cmd_env.c.obj
+
+project/common/cmd/cmd_env.i: project/common/cmd/cmd_env.c.i
+.PHONY : project/common/cmd/cmd_env.i
+
+# target to preprocess a source file
+project/common/cmd/cmd_env.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_env.c.i
+.PHONY : project/common/cmd/cmd_env.c.i
+
+project/common/cmd/cmd_env.s: project/common/cmd/cmd_env.c.s
+.PHONY : project/common/cmd/cmd_env.s
+
+# target to generate assembly for a file
+project/common/cmd/cmd_env.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_env.c.s
+.PHONY : project/common/cmd/cmd_env.c.s
+
+project/common/cmd/cmd_flash.obj: project/common/cmd/cmd_flash.c.obj
+.PHONY : project/common/cmd/cmd_flash.obj
+
+# target to build an object file
+project/common/cmd/cmd_flash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_flash.c.obj
+.PHONY : project/common/cmd/cmd_flash.c.obj
+
+project/common/cmd/cmd_flash.i: project/common/cmd/cmd_flash.c.i
+.PHONY : project/common/cmd/cmd_flash.i
+
+# target to preprocess a source file
+project/common/cmd/cmd_flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_flash.c.i
+.PHONY : project/common/cmd/cmd_flash.c.i
+
+project/common/cmd/cmd_flash.s: project/common/cmd/cmd_flash.c.s
+.PHONY : project/common/cmd/cmd_flash.s
+
+# target to generate assembly for a file
+project/common/cmd/cmd_flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_flash.c.s
+.PHONY : project/common/cmd/cmd_flash.c.s
+
+project/common/cmd/cmd_ping.obj: project/common/cmd/cmd_ping.c.obj
+.PHONY : project/common/cmd/cmd_ping.obj
+
+# target to build an object file
+project/common/cmd/cmd_ping.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_ping.c.obj
+.PHONY : project/common/cmd/cmd_ping.c.obj
+
+project/common/cmd/cmd_ping.i: project/common/cmd/cmd_ping.c.i
+.PHONY : project/common/cmd/cmd_ping.i
+
+# target to preprocess a source file
+project/common/cmd/cmd_ping.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_ping.c.i
+.PHONY : project/common/cmd/cmd_ping.c.i
+
+project/common/cmd/cmd_ping.s: project/common/cmd/cmd_ping.c.s
+.PHONY : project/common/cmd/cmd_ping.s
+
+# target to generate assembly for a file
+project/common/cmd/cmd_ping.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_ping.c.s
+.PHONY : project/common/cmd/cmd_ping.c.s
+
+project/common/cmd/cmd_sys.obj: project/common/cmd/cmd_sys.c.obj
+.PHONY : project/common/cmd/cmd_sys.obj
+
+# target to build an object file
+project/common/cmd/cmd_sys.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_sys.c.obj
+.PHONY : project/common/cmd/cmd_sys.c.obj
+
+project/common/cmd/cmd_sys.i: project/common/cmd/cmd_sys.c.i
+.PHONY : project/common/cmd/cmd_sys.i
+
+# target to preprocess a source file
+project/common/cmd/cmd_sys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_sys.c.i
+.PHONY : project/common/cmd/cmd_sys.c.i
+
+project/common/cmd/cmd_sys.s: project/common/cmd/cmd_sys.c.s
+.PHONY : project/common/cmd/cmd_sys.s
+
+# target to generate assembly for a file
+project/common/cmd/cmd_sys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_sys.c.s
+.PHONY : project/common/cmd/cmd_sys.c.s
+
+project/common/framework/UnityManager/UnityManager.obj: project/common/framework/UnityManager/UnityManager.c.obj
+.PHONY : project/common/framework/UnityManager/UnityManager.obj
+
+# target to build an object file
+project/common/framework/UnityManager/UnityManager.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/UnityManager/UnityManager.c.obj
+.PHONY : project/common/framework/UnityManager/UnityManager.c.obj
+
+project/common/framework/UnityManager/UnityManager.i: project/common/framework/UnityManager/UnityManager.c.i
+.PHONY : project/common/framework/UnityManager/UnityManager.i
+
+# target to preprocess a source file
+project/common/framework/UnityManager/UnityManager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/UnityManager/UnityManager.c.i
+.PHONY : project/common/framework/UnityManager/UnityManager.c.i
+
+project/common/framework/UnityManager/UnityManager.s: project/common/framework/UnityManager/UnityManager.c.s
+.PHONY : project/common/framework/UnityManager/UnityManager.s
+
+# target to generate assembly for a file
+project/common/framework/UnityManager/UnityManager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/UnityManager/UnityManager.c.s
+.PHONY : project/common/framework/UnityManager/UnityManager.c.s
+
 project/common/framework/multiButton/MiniButton.obj: project/common/framework/multiButton/MiniButton.c.obj
 .PHONY : project/common/framework/multiButton/MiniButton.obj
 
@@ -547,6 +667,222 @@ project/common/startup/common/sysmem.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/sysmem.c.s
 .PHONY : project/common/startup/common/sysmem.c.s
 
+project/test/testVfs.obj: project/test/testVfs.c.obj
+.PHONY : project/test/testVfs.obj
+
+# target to build an object file
+project/test/testVfs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/test/testVfs.c.obj
+.PHONY : project/test/testVfs.c.obj
+
+project/test/testVfs.i: project/test/testVfs.c.i
+.PHONY : project/test/testVfs.i
+
+# target to preprocess a source file
+project/test/testVfs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/test/testVfs.c.i
+.PHONY : project/test/testVfs.c.i
+
+project/test/testVfs.s: project/test/testVfs.c.s
+.PHONY : project/test/testVfs.s
+
+# target to generate assembly for a file
+project/test/testVfs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/test/testVfs.c.s
+.PHONY : project/test/testVfs.c.s
+
+src/console/MiniShell.obj: src/console/MiniShell.c.obj
+.PHONY : src/console/MiniShell.obj
+
+# target to build an object file
+src/console/MiniShell.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/MiniShell.c.obj
+.PHONY : src/console/MiniShell.c.obj
+
+src/console/MiniShell.i: src/console/MiniShell.c.i
+.PHONY : src/console/MiniShell.i
+
+# target to preprocess a source file
+src/console/MiniShell.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/MiniShell.c.i
+.PHONY : src/console/MiniShell.c.i
+
+src/console/MiniShell.s: src/console/MiniShell.c.s
+.PHONY : src/console/MiniShell.s
+
+# target to generate assembly for a file
+src/console/MiniShell.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/MiniShell.c.s
+.PHONY : src/console/MiniShell.c.s
+
+src/console/lettershell/log.obj: src/console/lettershell/log.c.obj
+.PHONY : src/console/lettershell/log.obj
+
+# target to build an object file
+src/console/lettershell/log.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/log.c.obj
+.PHONY : src/console/lettershell/log.c.obj
+
+src/console/lettershell/log.i: src/console/lettershell/log.c.i
+.PHONY : src/console/lettershell/log.i
+
+# target to preprocess a source file
+src/console/lettershell/log.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/log.c.i
+.PHONY : src/console/lettershell/log.c.i
+
+src/console/lettershell/log.s: src/console/lettershell/log.c.s
+.PHONY : src/console/lettershell/log.s
+
+# target to generate assembly for a file
+src/console/lettershell/log.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/log.c.s
+.PHONY : src/console/lettershell/log.c.s
+
+src/console/lettershell/shell.obj: src/console/lettershell/shell.c.obj
+.PHONY : src/console/lettershell/shell.obj
+
+# target to build an object file
+src/console/lettershell/shell.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell.c.obj
+.PHONY : src/console/lettershell/shell.c.obj
+
+src/console/lettershell/shell.i: src/console/lettershell/shell.c.i
+.PHONY : src/console/lettershell/shell.i
+
+# target to preprocess a source file
+src/console/lettershell/shell.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell.c.i
+.PHONY : src/console/lettershell/shell.c.i
+
+src/console/lettershell/shell.s: src/console/lettershell/shell.c.s
+.PHONY : src/console/lettershell/shell.s
+
+# target to generate assembly for a file
+src/console/lettershell/shell.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell.c.s
+.PHONY : src/console/lettershell/shell.c.s
+
+src/console/lettershell/shell_cmd_list.obj: src/console/lettershell/shell_cmd_list.c.obj
+.PHONY : src/console/lettershell/shell_cmd_list.obj
+
+# target to build an object file
+src/console/lettershell/shell_cmd_list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_cmd_list.c.obj
+.PHONY : src/console/lettershell/shell_cmd_list.c.obj
+
+src/console/lettershell/shell_cmd_list.i: src/console/lettershell/shell_cmd_list.c.i
+.PHONY : src/console/lettershell/shell_cmd_list.i
+
+# target to preprocess a source file
+src/console/lettershell/shell_cmd_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_cmd_list.c.i
+.PHONY : src/console/lettershell/shell_cmd_list.c.i
+
+src/console/lettershell/shell_cmd_list.s: src/console/lettershell/shell_cmd_list.c.s
+.PHONY : src/console/lettershell/shell_cmd_list.s
+
+# target to generate assembly for a file
+src/console/lettershell/shell_cmd_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_cmd_list.c.s
+.PHONY : src/console/lettershell/shell_cmd_list.c.s
+
+src/console/lettershell/shell_companion.obj: src/console/lettershell/shell_companion.c.obj
+.PHONY : src/console/lettershell/shell_companion.obj
+
+# target to build an object file
+src/console/lettershell/shell_companion.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_companion.c.obj
+.PHONY : src/console/lettershell/shell_companion.c.obj
+
+src/console/lettershell/shell_companion.i: src/console/lettershell/shell_companion.c.i
+.PHONY : src/console/lettershell/shell_companion.i
+
+# target to preprocess a source file
+src/console/lettershell/shell_companion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_companion.c.i
+.PHONY : src/console/lettershell/shell_companion.c.i
+
+src/console/lettershell/shell_companion.s: src/console/lettershell/shell_companion.c.s
+.PHONY : src/console/lettershell/shell_companion.s
+
+# target to generate assembly for a file
+src/console/lettershell/shell_companion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_companion.c.s
+.PHONY : src/console/lettershell/shell_companion.c.s
+
+src/console/lettershell/shell_ext.obj: src/console/lettershell/shell_ext.c.obj
+.PHONY : src/console/lettershell/shell_ext.obj
+
+# target to build an object file
+src/console/lettershell/shell_ext.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_ext.c.obj
+.PHONY : src/console/lettershell/shell_ext.c.obj
+
+src/console/lettershell/shell_ext.i: src/console/lettershell/shell_ext.c.i
+.PHONY : src/console/lettershell/shell_ext.i
+
+# target to preprocess a source file
+src/console/lettershell/shell_ext.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_ext.c.i
+.PHONY : src/console/lettershell/shell_ext.c.i
+
+src/console/lettershell/shell_ext.s: src/console/lettershell/shell_ext.c.s
+.PHONY : src/console/lettershell/shell_ext.s
+
+# target to generate assembly for a file
+src/console/lettershell/shell_ext.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_ext.c.s
+.PHONY : src/console/lettershell/shell_ext.c.s
+
+src/console/lettershell/shell_fs.obj: src/console/lettershell/shell_fs.c.obj
+.PHONY : src/console/lettershell/shell_fs.obj
+
+# target to build an object file
+src/console/lettershell/shell_fs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_fs.c.obj
+.PHONY : src/console/lettershell/shell_fs.c.obj
+
+src/console/lettershell/shell_fs.i: src/console/lettershell/shell_fs.c.i
+.PHONY : src/console/lettershell/shell_fs.i
+
+# target to preprocess a source file
+src/console/lettershell/shell_fs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_fs.c.i
+.PHONY : src/console/lettershell/shell_fs.c.i
+
+src/console/lettershell/shell_fs.s: src/console/lettershell/shell_fs.c.s
+.PHONY : src/console/lettershell/shell_fs.s
+
+# target to generate assembly for a file
+src/console/lettershell/shell_fs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_fs.c.s
+.PHONY : src/console/lettershell/shell_fs.c.s
+
+src/console/miniConsole.obj: src/console/miniConsole.c.obj
+.PHONY : src/console/miniConsole.obj
+
+# target to build an object file
+src/console/miniConsole.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/miniConsole.c.obj
+.PHONY : src/console/miniConsole.c.obj
+
+src/console/miniConsole.i: src/console/miniConsole.c.i
+.PHONY : src/console/miniConsole.i
+
+# target to preprocess a source file
+src/console/miniConsole.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/miniConsole.c.i
+.PHONY : src/console/miniConsole.c.i
+
+src/console/miniConsole.s: src/console/miniConsole.c.s
+.PHONY : src/console/miniConsole.s
+
+# target to generate assembly for a file
+src/console/miniConsole.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/miniConsole.c.s
+.PHONY : src/console/miniConsole.c.s
+
 src/core/EFSM/fsm.obj: src/core/EFSM/fsm.c.obj
 .PHONY : src/core/EFSM/fsm.obj
 
@@ -618,6 +954,110 @@ src/core/lwrb/lwrb.s: src/core/lwrb/lwrb.c.s
 src/core/lwrb/lwrb.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/core/lwrb/lwrb.c.s
 .PHONY : src/core/lwrb/lwrb.c.s
+
+src/debug/backtrace.obj: src/debug/backtrace.c.obj
+.PHONY : src/debug/backtrace.obj
+
+# target to build an object file
+src/debug/backtrace.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/backtrace.c.obj
+.PHONY : src/debug/backtrace.c.obj
+
+src/debug/backtrace.i: src/debug/backtrace.c.i
+.PHONY : src/debug/backtrace.i
+
+# target to preprocess a source file
+src/debug/backtrace.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/backtrace.c.i
+.PHONY : src/debug/backtrace.c.i
+
+src/debug/backtrace.s: src/debug/backtrace.c.s
+.PHONY : src/debug/backtrace.s
+
+# target to generate assembly for a file
+src/debug/backtrace.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/backtrace.c.s
+.PHONY : src/debug/backtrace.c.s
+
+src/debug/cm_backtrace/cm_backtrace.obj: src/debug/cm_backtrace/cm_backtrace.c.obj
+.PHONY : src/debug/cm_backtrace/cm_backtrace.obj
+
+# target to build an object file
+src/debug/cm_backtrace/cm_backtrace.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.obj
+.PHONY : src/debug/cm_backtrace/cm_backtrace.c.obj
+
+src/debug/cm_backtrace/cm_backtrace.i: src/debug/cm_backtrace/cm_backtrace.c.i
+.PHONY : src/debug/cm_backtrace/cm_backtrace.i
+
+# target to preprocess a source file
+src/debug/cm_backtrace/cm_backtrace.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.i
+.PHONY : src/debug/cm_backtrace/cm_backtrace.c.i
+
+src/debug/cm_backtrace/cm_backtrace.s: src/debug/cm_backtrace/cm_backtrace.c.s
+.PHONY : src/debug/cm_backtrace/cm_backtrace.s
+
+# target to generate assembly for a file
+src/debug/cm_backtrace/cm_backtrace.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.s
+.PHONY : src/debug/cm_backtrace/cm_backtrace.c.s
+
+src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.obj: src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj
+.PHONY : src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.obj
+
+# target to build an object file
+src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj
+.PHONY : src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj
+
+src/debug/debug.obj: src/debug/debug.c.obj
+.PHONY : src/debug/debug.obj
+
+# target to build an object file
+src/debug/debug.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/debug.c.obj
+.PHONY : src/debug/debug.c.obj
+
+src/debug/debug.i: src/debug/debug.c.i
+.PHONY : src/debug/debug.i
+
+# target to preprocess a source file
+src/debug/debug.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/debug.c.i
+.PHONY : src/debug/debug.c.i
+
+src/debug/debug.s: src/debug/debug.c.s
+.PHONY : src/debug/debug.s
+
+# target to generate assembly for a file
+src/debug/debug.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/debug.c.s
+.PHONY : src/debug/debug.c.s
+
+src/debug/heap_trace.obj: src/debug/heap_trace.c.obj
+.PHONY : src/debug/heap_trace.obj
+
+# target to build an object file
+src/debug/heap_trace.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/heap_trace.c.obj
+.PHONY : src/debug/heap_trace.c.obj
+
+src/debug/heap_trace.i: src/debug/heap_trace.c.i
+.PHONY : src/debug/heap_trace.i
+
+# target to preprocess a source file
+src/debug/heap_trace.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/heap_trace.c.i
+.PHONY : src/debug/heap_trace.c.i
+
+src/debug/heap_trace.s: src/debug/heap_trace.c.s
+.PHONY : src/debug/heap_trace.s
+
+# target to generate assembly for a file
+src/debug/heap_trace.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/heap_trace.c.s
+.PHONY : src/debug/heap_trace.c.s
 
 src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
 .PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj
@@ -1483,6 +1923,246 @@ src/driver/hal/systemChip.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/systemChip.c.s
 .PHONY : src/driver/hal/systemChip.c.s
 
+src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.obj: src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.obj
+
+# target to build an object file
+src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+
+src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.i: src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i
+.PHONY : src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.i
+
+# target to preprocess a source file
+src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i
+.PHONY : src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i
+
+src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.s: src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s
+.PHONY : src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.s
+
+# target to generate assembly for a file
+src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s
+.PHONY : src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s
+
+src/kernel/FreeRTOS/Source/croutine.obj: src/kernel/FreeRTOS/Source/croutine.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/croutine.obj
+
+# target to build an object file
+src/kernel/FreeRTOS/Source/croutine.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/croutine.c.obj
+
+src/kernel/FreeRTOS/Source/croutine.i: src/kernel/FreeRTOS/Source/croutine.c.i
+.PHONY : src/kernel/FreeRTOS/Source/croutine.i
+
+# target to preprocess a source file
+src/kernel/FreeRTOS/Source/croutine.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.i
+.PHONY : src/kernel/FreeRTOS/Source/croutine.c.i
+
+src/kernel/FreeRTOS/Source/croutine.s: src/kernel/FreeRTOS/Source/croutine.c.s
+.PHONY : src/kernel/FreeRTOS/Source/croutine.s
+
+# target to generate assembly for a file
+src/kernel/FreeRTOS/Source/croutine.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.s
+.PHONY : src/kernel/FreeRTOS/Source/croutine.c.s
+
+src/kernel/FreeRTOS/Source/event_groups.obj: src/kernel/FreeRTOS/Source/event_groups.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/event_groups.obj
+
+# target to build an object file
+src/kernel/FreeRTOS/Source/event_groups.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/event_groups.c.obj
+
+src/kernel/FreeRTOS/Source/event_groups.i: src/kernel/FreeRTOS/Source/event_groups.c.i
+.PHONY : src/kernel/FreeRTOS/Source/event_groups.i
+
+# target to preprocess a source file
+src/kernel/FreeRTOS/Source/event_groups.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.i
+.PHONY : src/kernel/FreeRTOS/Source/event_groups.c.i
+
+src/kernel/FreeRTOS/Source/event_groups.s: src/kernel/FreeRTOS/Source/event_groups.c.s
+.PHONY : src/kernel/FreeRTOS/Source/event_groups.s
+
+# target to generate assembly for a file
+src/kernel/FreeRTOS/Source/event_groups.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.s
+.PHONY : src/kernel/FreeRTOS/Source/event_groups.c.s
+
+src/kernel/FreeRTOS/Source/list.obj: src/kernel/FreeRTOS/Source/list.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/list.obj
+
+# target to build an object file
+src/kernel/FreeRTOS/Source/list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/list.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/list.c.obj
+
+src/kernel/FreeRTOS/Source/list.i: src/kernel/FreeRTOS/Source/list.c.i
+.PHONY : src/kernel/FreeRTOS/Source/list.i
+
+# target to preprocess a source file
+src/kernel/FreeRTOS/Source/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/list.c.i
+.PHONY : src/kernel/FreeRTOS/Source/list.c.i
+
+src/kernel/FreeRTOS/Source/list.s: src/kernel/FreeRTOS/Source/list.c.s
+.PHONY : src/kernel/FreeRTOS/Source/list.s
+
+# target to generate assembly for a file
+src/kernel/FreeRTOS/Source/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/list.c.s
+.PHONY : src/kernel/FreeRTOS/Source/list.c.s
+
+src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj: src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj
+
+# target to build an object file
+src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
+
+src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.i: src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i
+.PHONY : src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.i
+
+# target to preprocess a source file
+src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i
+.PHONY : src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i
+
+src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.s: src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.s
+.PHONY : src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.s
+
+# target to generate assembly for a file
+src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.s
+.PHONY : src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.s
+
+src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.obj: src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.obj
+
+# target to build an object file
+src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+
+src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.i: src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+.PHONY : src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.i
+
+# target to preprocess a source file
+src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+.PHONY : src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+
+src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.s: src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+.PHONY : src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.s
+
+# target to generate assembly for a file
+src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+.PHONY : src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+
+src/kernel/FreeRTOS/Source/queue.obj: src/kernel/FreeRTOS/Source/queue.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/queue.obj
+
+# target to build an object file
+src/kernel/FreeRTOS/Source/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/queue.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/queue.c.obj
+
+src/kernel/FreeRTOS/Source/queue.i: src/kernel/FreeRTOS/Source/queue.c.i
+.PHONY : src/kernel/FreeRTOS/Source/queue.i
+
+# target to preprocess a source file
+src/kernel/FreeRTOS/Source/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/queue.c.i
+.PHONY : src/kernel/FreeRTOS/Source/queue.c.i
+
+src/kernel/FreeRTOS/Source/queue.s: src/kernel/FreeRTOS/Source/queue.c.s
+.PHONY : src/kernel/FreeRTOS/Source/queue.s
+
+# target to generate assembly for a file
+src/kernel/FreeRTOS/Source/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/queue.c.s
+.PHONY : src/kernel/FreeRTOS/Source/queue.c.s
+
+src/kernel/FreeRTOS/Source/stream_buffer.obj: src/kernel/FreeRTOS/Source/stream_buffer.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/stream_buffer.obj
+
+# target to build an object file
+src/kernel/FreeRTOS/Source/stream_buffer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/stream_buffer.c.obj
+
+src/kernel/FreeRTOS/Source/stream_buffer.i: src/kernel/FreeRTOS/Source/stream_buffer.c.i
+.PHONY : src/kernel/FreeRTOS/Source/stream_buffer.i
+
+# target to preprocess a source file
+src/kernel/FreeRTOS/Source/stream_buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.i
+.PHONY : src/kernel/FreeRTOS/Source/stream_buffer.c.i
+
+src/kernel/FreeRTOS/Source/stream_buffer.s: src/kernel/FreeRTOS/Source/stream_buffer.c.s
+.PHONY : src/kernel/FreeRTOS/Source/stream_buffer.s
+
+# target to generate assembly for a file
+src/kernel/FreeRTOS/Source/stream_buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.s
+.PHONY : src/kernel/FreeRTOS/Source/stream_buffer.c.s
+
+src/kernel/FreeRTOS/Source/tasks.obj: src/kernel/FreeRTOS/Source/tasks.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/tasks.obj
+
+# target to build an object file
+src/kernel/FreeRTOS/Source/tasks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/tasks.c.obj
+
+src/kernel/FreeRTOS/Source/tasks.i: src/kernel/FreeRTOS/Source/tasks.c.i
+.PHONY : src/kernel/FreeRTOS/Source/tasks.i
+
+# target to preprocess a source file
+src/kernel/FreeRTOS/Source/tasks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.i
+.PHONY : src/kernel/FreeRTOS/Source/tasks.c.i
+
+src/kernel/FreeRTOS/Source/tasks.s: src/kernel/FreeRTOS/Source/tasks.c.s
+.PHONY : src/kernel/FreeRTOS/Source/tasks.s
+
+# target to generate assembly for a file
+src/kernel/FreeRTOS/Source/tasks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.s
+.PHONY : src/kernel/FreeRTOS/Source/tasks.c.s
+
+src/kernel/FreeRTOS/Source/timers.obj: src/kernel/FreeRTOS/Source/timers.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/timers.obj
+
+# target to build an object file
+src/kernel/FreeRTOS/Source/timers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/timers.c.obj
+.PHONY : src/kernel/FreeRTOS/Source/timers.c.obj
+
+src/kernel/FreeRTOS/Source/timers.i: src/kernel/FreeRTOS/Source/timers.c.i
+.PHONY : src/kernel/FreeRTOS/Source/timers.i
+
+# target to preprocess a source file
+src/kernel/FreeRTOS/Source/timers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/timers.c.i
+.PHONY : src/kernel/FreeRTOS/Source/timers.c.i
+
+src/kernel/FreeRTOS/Source/timers.s: src/kernel/FreeRTOS/Source/timers.c.s
+.PHONY : src/kernel/FreeRTOS/Source/timers.s
+
+# target to generate assembly for a file
+src/kernel/FreeRTOS/Source/timers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/timers.c.s
+.PHONY : src/kernel/FreeRTOS/Source/timers.c.s
+
 src/libc/wrap_malloc.obj: src/libc/wrap_malloc.c.obj
 .PHONY : src/libc/wrap_malloc.obj
 
@@ -1555,53 +2235,197 @@ src/libc/wrap_time.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/libc/wrap_time.c.s
 .PHONY : src/libc/wrap_time.c.s
 
-src/sys/common/sys_heap.obj: src/sys/common/sys_heap.c.obj
-.PHONY : src/sys/common/sys_heap.obj
+src/log/easylogger/plugins/flash/elog_flash.obj: src/log/easylogger/plugins/flash/elog_flash.c.obj
+.PHONY : src/log/easylogger/plugins/flash/elog_flash.obj
 
 # target to build an object file
-src/sys/common/sys_heap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/common/sys_heap.c.obj
-.PHONY : src/sys/common/sys_heap.c.obj
+src/log/easylogger/plugins/flash/elog_flash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.obj
+.PHONY : src/log/easylogger/plugins/flash/elog_flash.c.obj
 
-src/sys/common/sys_heap.i: src/sys/common/sys_heap.c.i
-.PHONY : src/sys/common/sys_heap.i
+src/log/easylogger/plugins/flash/elog_flash.i: src/log/easylogger/plugins/flash/elog_flash.c.i
+.PHONY : src/log/easylogger/plugins/flash/elog_flash.i
 
 # target to preprocess a source file
-src/sys/common/sys_heap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/common/sys_heap.c.i
-.PHONY : src/sys/common/sys_heap.c.i
+src/log/easylogger/plugins/flash/elog_flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.i
+.PHONY : src/log/easylogger/plugins/flash/elog_flash.c.i
 
-src/sys/common/sys_heap.s: src/sys/common/sys_heap.c.s
-.PHONY : src/sys/common/sys_heap.s
+src/log/easylogger/plugins/flash/elog_flash.s: src/log/easylogger/plugins/flash/elog_flash.c.s
+.PHONY : src/log/easylogger/plugins/flash/elog_flash.s
 
 # target to generate assembly for a file
-src/sys/common/sys_heap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/common/sys_heap.c.s
-.PHONY : src/sys/common/sys_heap.c.s
+src/log/easylogger/plugins/flash/elog_flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.s
+.PHONY : src/log/easylogger/plugins/flash/elog_flash.c.s
 
-src/sys/sram_heap/sram_heap.obj: src/sys/sram_heap/sram_heap.c.obj
-.PHONY : src/sys/sram_heap/sram_heap.obj
+src/log/easylogger/plugins/flash/elog_flash_port.obj: src/log/easylogger/plugins/flash/elog_flash_port.c.obj
+.PHONY : src/log/easylogger/plugins/flash/elog_flash_port.obj
 
 # target to build an object file
-src/sys/sram_heap/sram_heap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/sram_heap/sram_heap.c.obj
-.PHONY : src/sys/sram_heap/sram_heap.c.obj
+src/log/easylogger/plugins/flash/elog_flash_port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.obj
+.PHONY : src/log/easylogger/plugins/flash/elog_flash_port.c.obj
 
-src/sys/sram_heap/sram_heap.i: src/sys/sram_heap/sram_heap.c.i
-.PHONY : src/sys/sram_heap/sram_heap.i
+src/log/easylogger/plugins/flash/elog_flash_port.i: src/log/easylogger/plugins/flash/elog_flash_port.c.i
+.PHONY : src/log/easylogger/plugins/flash/elog_flash_port.i
 
 # target to preprocess a source file
-src/sys/sram_heap/sram_heap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/sram_heap/sram_heap.c.i
-.PHONY : src/sys/sram_heap/sram_heap.c.i
+src/log/easylogger/plugins/flash/elog_flash_port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.i
+.PHONY : src/log/easylogger/plugins/flash/elog_flash_port.c.i
 
-src/sys/sram_heap/sram_heap.s: src/sys/sram_heap/sram_heap.c.s
-.PHONY : src/sys/sram_heap/sram_heap.s
+src/log/easylogger/plugins/flash/elog_flash_port.s: src/log/easylogger/plugins/flash/elog_flash_port.c.s
+.PHONY : src/log/easylogger/plugins/flash/elog_flash_port.s
 
 # target to generate assembly for a file
-src/sys/sram_heap/sram_heap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/sram_heap/sram_heap.c.s
-.PHONY : src/sys/sram_heap/sram_heap.c.s
+src/log/easylogger/plugins/flash/elog_flash_port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.s
+.PHONY : src/log/easylogger/plugins/flash/elog_flash_port.c.s
+
+src/log/easylogger/port/elog_port.obj: src/log/easylogger/port/elog_port.c.obj
+.PHONY : src/log/easylogger/port/elog_port.obj
+
+# target to build an object file
+src/log/easylogger/port/elog_port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/port/elog_port.c.obj
+.PHONY : src/log/easylogger/port/elog_port.c.obj
+
+src/log/easylogger/port/elog_port.i: src/log/easylogger/port/elog_port.c.i
+.PHONY : src/log/easylogger/port/elog_port.i
+
+# target to preprocess a source file
+src/log/easylogger/port/elog_port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/port/elog_port.c.i
+.PHONY : src/log/easylogger/port/elog_port.c.i
+
+src/log/easylogger/port/elog_port.s: src/log/easylogger/port/elog_port.c.s
+.PHONY : src/log/easylogger/port/elog_port.s
+
+# target to generate assembly for a file
+src/log/easylogger/port/elog_port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/port/elog_port.c.s
+.PHONY : src/log/easylogger/port/elog_port.c.s
+
+src/log/easylogger/src/elog.obj: src/log/easylogger/src/elog.c.obj
+.PHONY : src/log/easylogger/src/elog.obj
+
+# target to build an object file
+src/log/easylogger/src/elog.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog.c.obj
+.PHONY : src/log/easylogger/src/elog.c.obj
+
+src/log/easylogger/src/elog.i: src/log/easylogger/src/elog.c.i
+.PHONY : src/log/easylogger/src/elog.i
+
+# target to preprocess a source file
+src/log/easylogger/src/elog.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog.c.i
+.PHONY : src/log/easylogger/src/elog.c.i
+
+src/log/easylogger/src/elog.s: src/log/easylogger/src/elog.c.s
+.PHONY : src/log/easylogger/src/elog.s
+
+# target to generate assembly for a file
+src/log/easylogger/src/elog.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog.c.s
+.PHONY : src/log/easylogger/src/elog.c.s
+
+src/log/easylogger/src/elog_async.obj: src/log/easylogger/src/elog_async.c.obj
+.PHONY : src/log/easylogger/src/elog_async.obj
+
+# target to build an object file
+src/log/easylogger/src/elog_async.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_async.c.obj
+.PHONY : src/log/easylogger/src/elog_async.c.obj
+
+src/log/easylogger/src/elog_async.i: src/log/easylogger/src/elog_async.c.i
+.PHONY : src/log/easylogger/src/elog_async.i
+
+# target to preprocess a source file
+src/log/easylogger/src/elog_async.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_async.c.i
+.PHONY : src/log/easylogger/src/elog_async.c.i
+
+src/log/easylogger/src/elog_async.s: src/log/easylogger/src/elog_async.c.s
+.PHONY : src/log/easylogger/src/elog_async.s
+
+# target to generate assembly for a file
+src/log/easylogger/src/elog_async.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_async.c.s
+.PHONY : src/log/easylogger/src/elog_async.c.s
+
+src/log/easylogger/src/elog_buf.obj: src/log/easylogger/src/elog_buf.c.obj
+.PHONY : src/log/easylogger/src/elog_buf.obj
+
+# target to build an object file
+src/log/easylogger/src/elog_buf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_buf.c.obj
+.PHONY : src/log/easylogger/src/elog_buf.c.obj
+
+src/log/easylogger/src/elog_buf.i: src/log/easylogger/src/elog_buf.c.i
+.PHONY : src/log/easylogger/src/elog_buf.i
+
+# target to preprocess a source file
+src/log/easylogger/src/elog_buf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_buf.c.i
+.PHONY : src/log/easylogger/src/elog_buf.c.i
+
+src/log/easylogger/src/elog_buf.s: src/log/easylogger/src/elog_buf.c.s
+.PHONY : src/log/easylogger/src/elog_buf.s
+
+# target to generate assembly for a file
+src/log/easylogger/src/elog_buf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_buf.c.s
+.PHONY : src/log/easylogger/src/elog_buf.c.s
+
+src/log/easylogger/src/elog_utils.obj: src/log/easylogger/src/elog_utils.c.obj
+.PHONY : src/log/easylogger/src/elog_utils.obj
+
+# target to build an object file
+src/log/easylogger/src/elog_utils.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_utils.c.obj
+.PHONY : src/log/easylogger/src/elog_utils.c.obj
+
+src/log/easylogger/src/elog_utils.i: src/log/easylogger/src/elog_utils.c.i
+.PHONY : src/log/easylogger/src/elog_utils.i
+
+# target to preprocess a source file
+src/log/easylogger/src/elog_utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_utils.c.i
+.PHONY : src/log/easylogger/src/elog_utils.c.i
+
+src/log/easylogger/src/elog_utils.s: src/log/easylogger/src/elog_utils.c.s
+.PHONY : src/log/easylogger/src/elog_utils.s
+
+# target to generate assembly for a file
+src/log/easylogger/src/elog_utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_utils.c.s
+.PHONY : src/log/easylogger/src/elog_utils.c.s
+
+src/test/unity/unity.obj: src/test/unity/unity.c.obj
+.PHONY : src/test/unity/unity.obj
+
+# target to build an object file
+src/test/unity/unity.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/test/unity/unity.c.obj
+.PHONY : src/test/unity/unity.c.obj
+
+src/test/unity/unity.i: src/test/unity/unity.c.i
+.PHONY : src/test/unity/unity.i
+
+# target to preprocess a source file
+src/test/unity/unity.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/test/unity/unity.c.i
+.PHONY : src/test/unity/unity.c.i
+
+src/test/unity/unity.s: src/test/unity/unity.c.s
+.PHONY : src/test/unity/unity.s
+
+# target to generate assembly for a file
+src/test/unity/unity.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/test/unity/unity.c.s
+.PHONY : src/test/unity/unity.c.s
 
 # Help Target
 help:
@@ -1624,6 +2448,21 @@ help:
 	@echo ... project/common/board/remoteController/BoardConfig.obj
 	@echo ... project/common/board/remoteController/BoardConfig.i
 	@echo ... project/common/board/remoteController/BoardConfig.s
+	@echo ... project/common/cmd/cmd_env.obj
+	@echo ... project/common/cmd/cmd_env.i
+	@echo ... project/common/cmd/cmd_env.s
+	@echo ... project/common/cmd/cmd_flash.obj
+	@echo ... project/common/cmd/cmd_flash.i
+	@echo ... project/common/cmd/cmd_flash.s
+	@echo ... project/common/cmd/cmd_ping.obj
+	@echo ... project/common/cmd/cmd_ping.i
+	@echo ... project/common/cmd/cmd_ping.s
+	@echo ... project/common/cmd/cmd_sys.obj
+	@echo ... project/common/cmd/cmd_sys.i
+	@echo ... project/common/cmd/cmd_sys.s
+	@echo ... project/common/framework/UnityManager/UnityManager.obj
+	@echo ... project/common/framework/UnityManager/UnityManager.i
+	@echo ... project/common/framework/UnityManager/UnityManager.s
 	@echo ... project/common/framework/multiButton/MiniButton.obj
 	@echo ... project/common/framework/multiButton/MiniButton.i
 	@echo ... project/common/framework/multiButton/MiniButton.s
@@ -1664,6 +2503,33 @@ help:
 	@echo ... project/common/startup/common/sysmem.obj
 	@echo ... project/common/startup/common/sysmem.i
 	@echo ... project/common/startup/common/sysmem.s
+	@echo ... project/test/testVfs.obj
+	@echo ... project/test/testVfs.i
+	@echo ... project/test/testVfs.s
+	@echo ... src/console/MiniShell.obj
+	@echo ... src/console/MiniShell.i
+	@echo ... src/console/MiniShell.s
+	@echo ... src/console/lettershell/log.obj
+	@echo ... src/console/lettershell/log.i
+	@echo ... src/console/lettershell/log.s
+	@echo ... src/console/lettershell/shell.obj
+	@echo ... src/console/lettershell/shell.i
+	@echo ... src/console/lettershell/shell.s
+	@echo ... src/console/lettershell/shell_cmd_list.obj
+	@echo ... src/console/lettershell/shell_cmd_list.i
+	@echo ... src/console/lettershell/shell_cmd_list.s
+	@echo ... src/console/lettershell/shell_companion.obj
+	@echo ... src/console/lettershell/shell_companion.i
+	@echo ... src/console/lettershell/shell_companion.s
+	@echo ... src/console/lettershell/shell_ext.obj
+	@echo ... src/console/lettershell/shell_ext.i
+	@echo ... src/console/lettershell/shell_ext.s
+	@echo ... src/console/lettershell/shell_fs.obj
+	@echo ... src/console/lettershell/shell_fs.i
+	@echo ... src/console/lettershell/shell_fs.s
+	@echo ... src/console/miniConsole.obj
+	@echo ... src/console/miniConsole.i
+	@echo ... src/console/miniConsole.s
 	@echo ... src/core/EFSM/fsm.obj
 	@echo ... src/core/EFSM/fsm.i
 	@echo ... src/core/EFSM/fsm.s
@@ -1673,6 +2539,19 @@ help:
 	@echo ... src/core/lwrb/lwrb.obj
 	@echo ... src/core/lwrb/lwrb.i
 	@echo ... src/core/lwrb/lwrb.s
+	@echo ... src/debug/backtrace.obj
+	@echo ... src/debug/backtrace.i
+	@echo ... src/debug/backtrace.s
+	@echo ... src/debug/cm_backtrace/cm_backtrace.obj
+	@echo ... src/debug/cm_backtrace/cm_backtrace.i
+	@echo ... src/debug/cm_backtrace/cm_backtrace.s
+	@echo ... src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.obj
+	@echo ... src/debug/debug.obj
+	@echo ... src/debug/debug.i
+	@echo ... src/debug/debug.s
+	@echo ... src/debug/heap_trace.obj
+	@echo ... src/debug/heap_trace.i
+	@echo ... src/debug/heap_trace.s
 	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj
 	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i
 	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.s
@@ -1781,6 +2660,36 @@ help:
 	@echo ... src/driver/hal/systemChip.obj
 	@echo ... src/driver/hal/systemChip.i
 	@echo ... src/driver/hal/systemChip.s
+	@echo ... src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.obj
+	@echo ... src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.i
+	@echo ... src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.s
+	@echo ... src/kernel/FreeRTOS/Source/croutine.obj
+	@echo ... src/kernel/FreeRTOS/Source/croutine.i
+	@echo ... src/kernel/FreeRTOS/Source/croutine.s
+	@echo ... src/kernel/FreeRTOS/Source/event_groups.obj
+	@echo ... src/kernel/FreeRTOS/Source/event_groups.i
+	@echo ... src/kernel/FreeRTOS/Source/event_groups.s
+	@echo ... src/kernel/FreeRTOS/Source/list.obj
+	@echo ... src/kernel/FreeRTOS/Source/list.i
+	@echo ... src/kernel/FreeRTOS/Source/list.s
+	@echo ... src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj
+	@echo ... src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.i
+	@echo ... src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.s
+	@echo ... src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.obj
+	@echo ... src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.i
+	@echo ... src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.s
+	@echo ... src/kernel/FreeRTOS/Source/queue.obj
+	@echo ... src/kernel/FreeRTOS/Source/queue.i
+	@echo ... src/kernel/FreeRTOS/Source/queue.s
+	@echo ... src/kernel/FreeRTOS/Source/stream_buffer.obj
+	@echo ... src/kernel/FreeRTOS/Source/stream_buffer.i
+	@echo ... src/kernel/FreeRTOS/Source/stream_buffer.s
+	@echo ... src/kernel/FreeRTOS/Source/tasks.obj
+	@echo ... src/kernel/FreeRTOS/Source/tasks.i
+	@echo ... src/kernel/FreeRTOS/Source/tasks.s
+	@echo ... src/kernel/FreeRTOS/Source/timers.obj
+	@echo ... src/kernel/FreeRTOS/Source/timers.i
+	@echo ... src/kernel/FreeRTOS/Source/timers.s
 	@echo ... src/libc/wrap_malloc.obj
 	@echo ... src/libc/wrap_malloc.i
 	@echo ... src/libc/wrap_malloc.s
@@ -1790,12 +2699,30 @@ help:
 	@echo ... src/libc/wrap_time.obj
 	@echo ... src/libc/wrap_time.i
 	@echo ... src/libc/wrap_time.s
-	@echo ... src/sys/common/sys_heap.obj
-	@echo ... src/sys/common/sys_heap.i
-	@echo ... src/sys/common/sys_heap.s
-	@echo ... src/sys/sram_heap/sram_heap.obj
-	@echo ... src/sys/sram_heap/sram_heap.i
-	@echo ... src/sys/sram_heap/sram_heap.s
+	@echo ... src/log/easylogger/plugins/flash/elog_flash.obj
+	@echo ... src/log/easylogger/plugins/flash/elog_flash.i
+	@echo ... src/log/easylogger/plugins/flash/elog_flash.s
+	@echo ... src/log/easylogger/plugins/flash/elog_flash_port.obj
+	@echo ... src/log/easylogger/plugins/flash/elog_flash_port.i
+	@echo ... src/log/easylogger/plugins/flash/elog_flash_port.s
+	@echo ... src/log/easylogger/port/elog_port.obj
+	@echo ... src/log/easylogger/port/elog_port.i
+	@echo ... src/log/easylogger/port/elog_port.s
+	@echo ... src/log/easylogger/src/elog.obj
+	@echo ... src/log/easylogger/src/elog.i
+	@echo ... src/log/easylogger/src/elog.s
+	@echo ... src/log/easylogger/src/elog_async.obj
+	@echo ... src/log/easylogger/src/elog_async.i
+	@echo ... src/log/easylogger/src/elog_async.s
+	@echo ... src/log/easylogger/src/elog_buf.obj
+	@echo ... src/log/easylogger/src/elog_buf.i
+	@echo ... src/log/easylogger/src/elog_buf.s
+	@echo ... src/log/easylogger/src/elog_utils.obj
+	@echo ... src/log/easylogger/src/elog_utils.i
+	@echo ... src/log/easylogger/src/elog_utils.s
+	@echo ... src/test/unity/unity.obj
+	@echo ... src/test/unity/unity.i
+	@echo ... src/test/unity/unity.s
 .PHONY : help
 
 

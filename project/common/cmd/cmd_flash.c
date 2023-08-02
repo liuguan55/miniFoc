@@ -42,12 +42,14 @@
  * @param argv
  */
 void getFlashLog(int argc, char *argv[]) {
+#ifdef USE_SPI_FLASH
     if (argc == 1) {
         elog_flash_output_all();
     } else {
         int logSize = atoi(argv[1]);
         elog_flash_output_recent(logSize);
     }
+#endif
 }
 
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN) | SHELL_CMD_DISABLE_RETURN,
@@ -62,8 +64,9 @@ SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN) |
 void cleanFlashLog(int argc, char *argv[]) {
     UNUSED(argc);
     UNUSED(argv);
-
+#ifdef USE_SPI_FLASH
     elog_flash_clean();
+#endif
 }
 
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN) | SHELL_CMD_DISABLE_RETURN,

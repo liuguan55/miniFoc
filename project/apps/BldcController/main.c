@@ -44,7 +44,6 @@ void ledTask(void  *args){
 void ledTaskStart(){
     static HAL_Timer timer;
 
-    HAL_BoardIoctl(HAL_BIR_PINMUX_INIT, HAL_MKDEV(HAL_DEV_MAJOR_LED, 0), 0);
     HAL_TimerInit(&timer, osTimerPeriodic, ledTask, NULL);
     HAL_TimerStart(&timer, 500);
 }
