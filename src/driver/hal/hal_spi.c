@@ -99,6 +99,9 @@ static void SPIClockEnable(HAL_SPI_ID spiId) {
     switch (spiId) {
         case HAL_SPI_1:
             __HAL_RCC_SPI1_CLK_ENABLE();
+            #ifdef TARGET_MCU_STM32F1
+            __HAL_AFIO_REMAP_SPI1_ENABLE();
+            #endif
             break;
         case HAL_SPI_2:
             __HAL_RCC_SPI2_CLK_ENABLE();

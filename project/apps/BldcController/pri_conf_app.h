@@ -70,8 +70,6 @@ extern "C" {
 
 #define PRJCONF_LOG_EN                  1
 
-#define PRJCONF_BTN_EN                  1
-
 #ifdef USE_FOC
 #define PRJCONF_MOTOR_EN                  1
 #else

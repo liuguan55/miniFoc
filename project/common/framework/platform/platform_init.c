@@ -134,14 +134,6 @@ void platform_logInit(void) {
 
 #endif
 
-#if PRJCONF_BTN_EN
-
-void platform_btnInit(void) {
-    MiniButton_init();
-    MiniButton_run();
-}
-
-#endif
 
 void platform_rngInit(void) {
 #ifdef TARGET_MCU_STM32F4
@@ -221,10 +213,6 @@ static void platform_level2_init(void) {
 void platform_level3_init(void) {
 #if PRJCONF_VFS_FILE_SYSTEM_EN
     vfsSystemInit();
-#endif
-
-#if PRJCONF_BTN_EN
-    platform_btnInit();
 #endif
 
 #if PRJCONF_MOTOR_EN
