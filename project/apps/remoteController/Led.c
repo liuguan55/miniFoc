@@ -21,7 +21,19 @@
 #define LOG_TAG "LED"
 
 
+void ledOn(){
+    board_pinmux_info_t pinmux_info;
+    HAL_BoardIoctl(HAL_BIR_GET_CFG, HAL_MKDEV(HAL_DEV_MAJOR_LED, 0), (uint32_t)&pinmux_info);
 
+    HAL_GpioWritePin(pinmux_info.pinmux[0].port, pinmux_info.pinmux[0].pin, GPIO_PIN_HIGH);
+}
+
+void ledOff(){
+    board_pinmux_info_t pinmux_info;
+    HAL_BoardIoctl(HAL_BIR_GET_CFG, HAL_MKDEV(HAL_DEV_MAJOR_LED, 0), (uint32_t)&pinmux_info);
+
+    HAL_GpioWritePin(pinmux_info.pinmux[0].port, pinmux_info.pinmux[0].pin, GPIO_PIN_LOW);
+}
 /**
   * @brief  The led task.
   *

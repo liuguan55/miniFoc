@@ -30,6 +30,9 @@
 #include "driver/hal/hal_dev.h"
 #include "driver/hal/hal_gpio.h"
 #include "Led.h"
+#include "Buzzer.h"
+#include "Key.h"
+#include "Joystick.h"
 
 #undef LOG_TAG
 #define LOG_TAG "main"
@@ -42,8 +45,10 @@
 int main(void) {
     keyInit();
     buzzerOn();
+    Joystick_Init();
     ledTaskStart();
     while (1){
+        Joystick_Get();
         printf("Hello World!\n");
         HAL_msleep(1000);
     }

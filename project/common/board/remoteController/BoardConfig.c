@@ -99,6 +99,19 @@ static const GPIO_PinMuxParam  g_pinmux_buzzer[] = {
         { HAL_GPIO_PORT_C, HAL_GPIO_PIN_13,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE} }, /* SCL */
 };
 
+static const ADC_Channel_t g_adc1_channel[] = {
+        {ADC_CHANNEL_1,ADC_REGULAR_RANK_1,ADC_SAMPLETIME_55CYCLES_5},
+        {ADC_CHANNEL_2,ADC_REGULAR_RANK_2,ADC_SAMPLETIME_55CYCLES_5},
+        {ADC_CHANNEL_3,ADC_REGULAR_RANK_3,ADC_SAMPLETIME_55CYCLES_5},
+        {ADC_CHANNEL_4,ADC_REGULAR_RANK_4,ADC_SAMPLETIME_55CYCLES_5},
+        {ADC_CHANNEL_5,ADC_REGULAR_RANK_5,ADC_SAMPLETIME_55CYCLES_5},
+        {ADC_CHANNEL_6,ADC_REGULAR_RANK_6,ADC_SAMPLETIME_55CYCLES_5},
+        {ADC_CHANNEL_7,ADC_REGULAR_RANK_7,ADC_SAMPLETIME_55CYCLES_5},
+};
+static const ADC_Config_t g_adc_info[HAL_ADC_NR] = {
+        {g_adc1_channel, HAL_ARRAY_SIZE(g_adc1_channel), ADC_EXTERNALTRIGCONV_T1_CC1, TIM1, TIM_CHANNEL_1, 83, 999,
+         DMA1_Channel1}
+};
 /**
   * @brief System Clock Configuration
   * @retval None
@@ -239,6 +252,15 @@ static HAL_Status board_get_cfg(uint32_t major, uint32_t minor, uint32_t param)
                 board_pinmux_info_t *info = (board_pinmux_info_t *)param;
                 info->pinmux = g_pinmux_spi2_cs;
                 info->count = HAL_ARRAY_SIZE(g_pinmux_spi2_cs);
+            } else {
+                ret = HAL_STATUS_INVALID;
+            }
+            break;
+        case HAL_DEV_MAJOR_ADC:
+            if (minor == HAL_ADC_1) {
+                board_adc_info_t *info = (board_adc_info_t *)param;
+                info->config = (board_adc_info_t *)&g_adc_info[0];
+                info->count = 1;
             } else {
                 ret = HAL_STATUS_INVALID;
             }

@@ -39,36 +39,36 @@ uint8_t button_right_press_pending_flag = 0;
 uint8_t button_confirm_press_pending_flag = 0;
 uint8_t button_cancel_press_pending_flag = 0;
 
-struct Button leftButton;
-struct Button rightButton;
-struct Button confirmButton;
-struct Button cancelButton;
+static struct Button leftButton;
+static struct Button rightButton;
+static struct Button confirmButton;
+static struct Button cancelButton;
 
-uint8_t readLeftButtonLevel(uint8_t button_id_) {
+static uint8_t readLeftButtonLevel(uint8_t button_id_) {
     UNUSED(button_id_);
 
     return HAL_GPIO_ReadPin(BUTTON_LEFT_Port, BUTTON_LEFT_PIN);
 }
 
-uint8_t readRightButtonLevel(uint8_t button_id_) {
+static uint8_t readRightButtonLevel(uint8_t button_id_) {
     UNUSED(button_id_);
 
     return HAL_GPIO_ReadPin(BUTTON_RIGHT_Port, BUTTON_RIGHT_PIN);
 }
 
-uint8_t readConfirmButtonLevel(uint8_t button_id_) {
+static uint8_t readConfirmButtonLevel(uint8_t button_id_) {
     UNUSED(button_id_);
 
     return HAL_GPIO_ReadPin(BUTTON_CONFIRM_Port, BUTTON_CONFIRM_PIN);
 }
 
-uint8_t readCancelButtonLevel(uint8_t button_id_) {
+static uint8_t readCancelButtonLevel(uint8_t button_id_) {
     UNUSED(button_id_);
 
     return HAL_GPIO_ReadPin(BUTTON_CANCEL, BUTTON_CANCEL_PIN);
 }
 
-uint8_t MiniButton_read(uint8_t id) {
+ uint8_t  MiniButton_read(uint8_t id) {
     uint8_t buttonState = 0;
 
     switch (id) {
@@ -95,7 +95,7 @@ uint8_t MiniButton_read(uint8_t id) {
     return buttonState;
 }
 
-void buttonCallback(void *args) {
+static void buttonCallback(void *args) {
     struct Button *btn = (struct Button *) args;
 
     button_press_pending_flag = 1;
@@ -151,7 +151,7 @@ void MiniButton_init(void) {
     button_start(&cancelButton);
 }
 
-void buttonTickTask(void *args) {
+static void buttonTickTask(void *args) {
     UNUSED(args);
 
     button_ticks();

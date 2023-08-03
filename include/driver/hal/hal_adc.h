@@ -29,6 +29,7 @@
 #ifndef MINIFOC_F4_HAL_ADC_H
 #define MINIFOC_F4_HAL_ADC_H
 #include "stdint.h"
+#include "driver/driver_chip.h"
 
 
 #ifdef __cplusplus
@@ -55,6 +56,29 @@ enum {
 };
 typedef uint8_t HAL_ADC_CH;
 
+
+typedef struct {
+    uint8_t  channel;
+    uint32_t rank;
+    uint8_t  sampleTime;
+}ADC_Channel_t;
+
+typedef struct {
+    ADC_Channel_t *channels;
+    uint32_t channelCount;
+    uint32_t externalTrigConv;
+    TIM_TypeDef *timer;
+    uint32_t timerChannel;
+    uint32_t prescaler;
+    uint32_t period;
+    DMA_Channel_TypeDef *dmaChannel;
+}ADC_Config_t;
+
+typedef struct  {
+    ADC_Config_t *config;
+    uint32_t count;
+}board_adc_info_t;
+
 /**
  * @brief adc init
  * @param id
@@ -68,6 +92,19 @@ void HAL_adcInit(HAL_ADC_ID id);
 void HAL_adcDeinit(HAL_ADC_ID id);
 
 /**
+ * @brief adc start
+ * @param id
+ * @return
+ */
+int8_t HAL_adcStart(HAL_ADC_ID id);
+
+/**
+ * @brief adc stop
+ * @param id
+ * @return
+ */
+int8_t HAL_adcStop(HAL_ADC_ID id);
+/**
  * @brief adc read value from channel
  * @param id adc id
  * @param ch adc channel
@@ -76,6 +113,21 @@ void HAL_adcDeinit(HAL_ADC_ID id);
  */
 uint16_t HAL_adcRead(HAL_ADC_ID id, HAL_ADC_CH ch, uint32_t msec);
 
+/**
+ * @brief read adc channel length
+ * @param id adc id
+ * @return adc channel length
+ */
+uint32_t HAL_adcGetChannelCount(HAL_ADC_ID id);
+
+/**
+ * @brief adc read value from channel
+ * @param id adc id
+ * @param ch adc channel
+ * @param msec timeout in millisecond
+ * @return adc value
+ */
+int32_t HAL_adcReadMulti(HAL_ADC_ID id, uint16_t *buffer, uint16_t size, uint32_t msec);
 #ifdef __cplusplus
 }
 #endif

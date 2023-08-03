@@ -131,6 +131,102 @@ remote_control.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/build
 .PHONY : remote_control.elf/fast
 
+project/apps/remoteController/Buzzer.obj: project/apps/remoteController/Buzzer.c.obj
+.PHONY : project/apps/remoteController/Buzzer.obj
+
+# target to build an object file
+project/apps/remoteController/Buzzer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Buzzer.c.obj
+.PHONY : project/apps/remoteController/Buzzer.c.obj
+
+project/apps/remoteController/Buzzer.i: project/apps/remoteController/Buzzer.c.i
+.PHONY : project/apps/remoteController/Buzzer.i
+
+# target to preprocess a source file
+project/apps/remoteController/Buzzer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Buzzer.c.i
+.PHONY : project/apps/remoteController/Buzzer.c.i
+
+project/apps/remoteController/Buzzer.s: project/apps/remoteController/Buzzer.c.s
+.PHONY : project/apps/remoteController/Buzzer.s
+
+# target to generate assembly for a file
+project/apps/remoteController/Buzzer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Buzzer.c.s
+.PHONY : project/apps/remoteController/Buzzer.c.s
+
+project/apps/remoteController/Joystick.obj: project/apps/remoteController/Joystick.c.obj
+.PHONY : project/apps/remoteController/Joystick.obj
+
+# target to build an object file
+project/apps/remoteController/Joystick.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Joystick.c.obj
+.PHONY : project/apps/remoteController/Joystick.c.obj
+
+project/apps/remoteController/Joystick.i: project/apps/remoteController/Joystick.c.i
+.PHONY : project/apps/remoteController/Joystick.i
+
+# target to preprocess a source file
+project/apps/remoteController/Joystick.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Joystick.c.i
+.PHONY : project/apps/remoteController/Joystick.c.i
+
+project/apps/remoteController/Joystick.s: project/apps/remoteController/Joystick.c.s
+.PHONY : project/apps/remoteController/Joystick.s
+
+# target to generate assembly for a file
+project/apps/remoteController/Joystick.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Joystick.c.s
+.PHONY : project/apps/remoteController/Joystick.c.s
+
+project/apps/remoteController/Key.obj: project/apps/remoteController/Key.c.obj
+.PHONY : project/apps/remoteController/Key.obj
+
+# target to build an object file
+project/apps/remoteController/Key.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Key.c.obj
+.PHONY : project/apps/remoteController/Key.c.obj
+
+project/apps/remoteController/Key.i: project/apps/remoteController/Key.c.i
+.PHONY : project/apps/remoteController/Key.i
+
+# target to preprocess a source file
+project/apps/remoteController/Key.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Key.c.i
+.PHONY : project/apps/remoteController/Key.c.i
+
+project/apps/remoteController/Key.s: project/apps/remoteController/Key.c.s
+.PHONY : project/apps/remoteController/Key.s
+
+# target to generate assembly for a file
+project/apps/remoteController/Key.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Key.c.s
+.PHONY : project/apps/remoteController/Key.c.s
+
+project/apps/remoteController/Led.obj: project/apps/remoteController/Led.c.obj
+.PHONY : project/apps/remoteController/Led.obj
+
+# target to build an object file
+project/apps/remoteController/Led.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Led.c.obj
+.PHONY : project/apps/remoteController/Led.c.obj
+
+project/apps/remoteController/Led.i: project/apps/remoteController/Led.c.i
+.PHONY : project/apps/remoteController/Led.i
+
+# target to preprocess a source file
+project/apps/remoteController/Led.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Led.c.i
+.PHONY : project/apps/remoteController/Led.c.i
+
+project/apps/remoteController/Led.s: project/apps/remoteController/Led.c.s
+.PHONY : project/apps/remoteController/Led.s
+
+# target to generate assembly for a file
+project/apps/remoteController/Led.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Led.c.s
+.PHONY : project/apps/remoteController/Led.c.s
+
 project/apps/remoteController/main.obj: project/apps/remoteController/main.c.obj
 .PHONY : project/apps/remoteController/main.obj
 
@@ -2436,6 +2532,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... remote_control.elf
+	@echo ... project/apps/remoteController/Buzzer.obj
+	@echo ... project/apps/remoteController/Buzzer.i
+	@echo ... project/apps/remoteController/Buzzer.s
+	@echo ... project/apps/remoteController/Joystick.obj
+	@echo ... project/apps/remoteController/Joystick.i
+	@echo ... project/apps/remoteController/Joystick.s
+	@echo ... project/apps/remoteController/Key.obj
+	@echo ... project/apps/remoteController/Key.i
+	@echo ... project/apps/remoteController/Key.s
+	@echo ... project/apps/remoteController/Led.obj
+	@echo ... project/apps/remoteController/Led.i
+	@echo ... project/apps/remoteController/Led.s
 	@echo ... project/apps/remoteController/main.obj
 	@echo ... project/apps/remoteController/main.i
 	@echo ... project/apps/remoteController/main.s

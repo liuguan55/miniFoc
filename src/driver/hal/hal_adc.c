@@ -28,6 +28,7 @@
 
 #include "driver/hal/hal_adc.h"
 #include "driver/hal/hal_os.h"
+#include "driver/hal/hal_gpio.h"
 #include "sys/MiniDebug.h"
 #include "driver/hal/hal_board.h"
 #include "driver/driver_chip.h"
@@ -37,8 +38,10 @@ typedef struct {
     ADC_HandleTypeDef *adc;
     TIM_HandleTypeDef tim;
     DMA_HandleTypeDef dma;
-    uint8_t dmaBuffer[HAL_ADC_CH_NR];
-    uint8_t adcBuffer[HAL_ADC_CH_NR];
+    uint16_t *dmaBuffer;
+    uint32_t dmaBufferSize;
+    uint16_t *adcBuffer;
+    uint32_t adcBufferSize;
 #ifdef USE_RTOS_SYSTEM
     HAL_Semaphore sem;
 #endif
@@ -50,8 +53,21 @@ static ADC_TypeDef *const adcInstance[HAL_ADC_NR] = {
         ADC1,
         ADC2,
 };
+
 static ADC_TypeDef * ADCInstanceGet(HAL_ADC_ID id) {
     return adcInstance[id];
+}
+
+static void timerClockEnable(TIM_TypeDef *timer){
+    if (timer == TIM1){
+        __HAL_RCC_TIM1_CLK_ENABLE();
+    }else if (timer == TIM2){
+        __HAL_RCC_TIM2_CLK_ENABLE();
+    }else if (timer == TIM3) {
+        __HAL_RCC_TIM2_CLK_ENABLE();
+    }else if (timer == TIM4) {
+        __HAL_RCC_TIM4_CLK_ENABLE();
+    }
 }
 
 /**
@@ -59,6 +75,21 @@ static ADC_TypeDef * ADCInstanceGet(HAL_ADC_ID id) {
  * @note  This function is redefined in HAL_Driver/stm32f4xx_hal_dma.c
  */
 void DMA2_Stream0_IRQHandler(void) {
+    /* USER CODE BEGIN DMA2_Stream0_IRQn 0 */
+
+    /* USER CODE END DMA2_Stream0_IRQn 0 */
+
+    AdcPrivate_t *pAdcPrivate = adcPrivate[HAL_ADC_1];
+    if (pAdcPrivate) {
+        DMA_HandleTypeDef *hdma_adc1 = &pAdcPrivate->dma;
+        HAL_DMA_IRQHandler(hdma_adc1);
+    }
+    /* USER CODE BEGIN DMA2_Stream0_IRQn 1 */
+
+    /* USER CODE END DMA2_Stream0_IRQn 1 */
+}
+
+void DMA1_Channel1_IRQHandler(void) {
     /* USER CODE BEGIN DMA2_Stream0_IRQn 0 */
 
     /* USER CODE END DMA2_Stream0_IRQn 0 */
@@ -103,6 +134,22 @@ static void  ADCClockDisable(HAL_ADC_ID id) {
         __HAL_RCC_ADC2_CLK_DISABLE();
     }
 }
+
+static void ADCDmaEnable(DMA_Channel_TypeDef *dmaChannelTypeDef) {
+    if (dmaChannelTypeDef == DMA1_Channel1) {
+        __HAL_RCC_DMA1_CLK_ENABLE();
+        /* DMA interrupt init */
+        /* DMA2_Stream0_IRQn interrupt configuration */
+        HAL_NVIC_SetPriority(DMA1_Channel1_IRQn, 5, 0);
+        HAL_NVIC_EnableIRQ(DMA1_Channel1_IRQn);
+    } else if (dmaChannelTypeDef == DMA1_Channel2) {
+        __HAL_RCC_DMA1_CLK_ENABLE();
+        /* DMA interrupt init */
+        /* DMA2_Stream0_IRQn interrupt configuration */
+        HAL_NVIC_SetPriority(DMA1_Channel2_IRQn, 5, 0);
+        HAL_NVIC_EnableIRQ(DMA1_Channel2_IRQn);
+    }
+}
 /**
  * @brief adc hardware init
  * @param id
@@ -111,65 +158,75 @@ static void HAL_adcHwInit(HAL_ADC_ID id) {
     AdcPrivate_t *pAdcPrivate = adcPrivate[id];
     ADC_HandleTypeDef *pAdc = pAdcPrivate->adc;
 
+    board_adc_info_t boardAdcInfo;
+    HAL_BoardIoctl(HAL_BIR_GET_CFG, HAL_MKDEV(HAL_DEV_MAJOR_ADC, id), (uint32_t)&boardAdcInfo);
+
+    if(boardAdcInfo.config->channelCount <= 0){
+        return;
+    }
+
     ADCClockEnable(id);
     HAL_BoardIoctl(HAL_BIR_PINMUX_INIT, HAL_MKDEV(HAL_DEV_MAJOR_ADC, id), 0);
 
-#ifdef TARGET_MCU_STM32F4
     pAdc->Instance = ADCInstanceGet(id);
+#ifdef TARGET_MCU_STM32F4
     pAdc->Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV4;
     pAdc->Init.Resolution = ADC_RESOLUTION_12B;
+    pAdc->Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_RISING;
+    pAdc->Init.DMAContinuousRequests = ENABLE;
+    pAdc->Init.EOCSelection = ADC_EOC_SINGLE_CONV;
+#endif
     pAdc->Init.ScanConvMode = ENABLE;
     pAdc->Init.ContinuousConvMode = DISABLE;
     pAdc->Init.DiscontinuousConvMode = DISABLE;
-    pAdc->Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_RISING;
-    pAdc->Init.ExternalTrigConv = ADC_EXTERNALTRIGCONV_T1_CC1;
+    pAdc->Init.ExternalTrigConv = boardAdcInfo.config->externalTrigConv;
     pAdc->Init.DataAlign = ADC_DATAALIGN_RIGHT;
-    pAdc->Init.NbrOfConversion = 1;
-    pAdc->Init.DMAContinuousRequests = ENABLE;
-    pAdc->Init.EOCSelection = ADC_EOC_SINGLE_CONV;
+    pAdc->Init.NbrOfConversion = boardAdcInfo.config->channelCount;
     if (HAL_ADC_Init(pAdc) != HAL_OK) {
         assert(NULL);
     }
 
     /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
     */
-    if (id == HAL_ADC_1) {
+    for (uint32_t i = 0; i < boardAdcInfo.config->channelCount; ++i) {
         ADC_ChannelConfTypeDef sConfig;
-        sConfig.Channel = ADC_CHANNEL_4;
-        sConfig.Rank = 1;
-        sConfig.SamplingTime = ADC_SAMPLETIME_3CYCLES;
+        ADC_Channel_t *adcChannel = &boardAdcInfo.config->channels[i];
+        sConfig.Channel = adcChannel->channel;
+        sConfig.Rank = adcChannel->rank;
+        sConfig.SamplingTime = adcChannel->sampleTime;
         if (HAL_ADC_ConfigChannel(pAdc, &sConfig) != HAL_OK) {
             assert(NULL);
         }
+    }
 
-        /* ADC1 DMA Init */
-        DMA_HandleTypeDef *pDma = &pAdcPrivate->dma;
-        pDma->Instance = DMA2_Stream0;
-        pDma->Init.Channel = DMA_CHANNEL_0;
-        pDma->Init.Direction = DMA_PERIPH_TO_MEMORY;
-        pDma->Init.PeriphInc = DMA_PINC_DISABLE;
-        pDma->Init.MemInc = DMA_MINC_ENABLE;
-        pDma->Init.PeriphDataAlignment = DMA_PDATAALIGN_HALFWORD;
-        pDma->Init.MemDataAlignment = DMA_MDATAALIGN_HALFWORD;
-        pDma->Init.Mode = DMA_CIRCULAR;
-        pDma->Init.Priority = DMA_PRIORITY_LOW;
-        pDma->Init.FIFOMode = DMA_FIFOMODE_DISABLE;
-        if (HAL_DMA_Init(pDma) != HAL_OK) {
-            assert(NULL);
-        }
+    /* ADC1 DMA Init */
+    DMA_HandleTypeDef *pDma = &pAdcPrivate->dma;
+    pDma->Instance = boardAdcInfo.config->dmaChannel;
+    pDma->Init.Direction = DMA_PERIPH_TO_MEMORY;
+    pDma->Init.PeriphInc = DMA_PINC_DISABLE;
+    pDma->Init.MemInc = DMA_MINC_ENABLE;
+    pDma->Init.PeriphDataAlignment = DMA_PDATAALIGN_HALFWORD;
+    pDma->Init.MemDataAlignment = DMA_MDATAALIGN_HALFWORD;
+    pDma->Init.Mode = DMA_CIRCULAR;
+    pDma->Init.Priority = DMA_PRIORITY_LOW;
+    if (HAL_DMA_Init(pDma) != HAL_OK) {
+        assert(NULL);
     }
     __HAL_LINKDMA(pAdc, DMA_Handle, pAdcPrivate->dma);
+    ADCDmaEnable(pDma->Instance);
+
     pAdcPrivate->adc = pAdc;
 
     /*configuration tim for adc */
-    __HAL_RCC_TIM1_CLK_ENABLE();
+    timerClockEnable(boardAdcInfo.config->timer);
+
     TIM_HandleTypeDef *pTim = &pAdcPrivate->tim;
     memset(pTim, 0, sizeof(TIM_HandleTypeDef));
     /* USER CODE END TIM1_Init 1 */
-    pTim->Instance = TIM1;
-    pTim->Init.Prescaler = 83;
+    pTim->Instance = boardAdcInfo.config->timer;
+    pTim->Init.Prescaler = boardAdcInfo.config->prescaler;
     pTim->Init.CounterMode = TIM_COUNTERMODE_UP;
-    pTim->Init.Period = 999;
+    pTim->Init.Period = boardAdcInfo.config->period;
     pTim->Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
     pTim->Init.RepetitionCounter = 0;
     pTim->Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
@@ -206,10 +263,19 @@ static void HAL_adcHwInit(HAL_ADC_ID id) {
         assert(NULL);
     }
 
-    HAL_ADC_Start_DMA(pAdc, (uint32_t *) pAdcPrivate->dmaBuffer, HAL_ADC_CH_NR);
-    HAL_TIM_PWM_Start(pTim, TIM_CHANNEL_1);
-#elif TARGET_MCU_STM32F1
-#endif
+    pAdcPrivate->dmaBufferSize = boardAdcInfo.config->channelCount;
+    pAdcPrivate->dmaBuffer = (uint16_t *)HAL_Malloc(boardAdcInfo.config->channelCount * sizeof(uint16_t));
+    if (pAdcPrivate->dmaBuffer == NULL) {
+        assert(NULL);
+    }
+
+    pAdcPrivate->adcBufferSize = boardAdcInfo.config->channelCount;
+    pAdcPrivate->adcBuffer = (uint16_t *)HAL_Malloc(boardAdcInfo.config->channelCount * sizeof(uint16_t));
+    if (pAdcPrivate->adcBuffer == NULL) {
+        assert(NULL);
+    }
+
+    HAL_ADCEx_Calibration_Start(pAdc);
 }
 
 /**
@@ -229,6 +295,18 @@ static void HAL_adcHwDeinit(HAL_ADC_ID id) {
     HAL_TIM_PWM_Stop(&pAdcPrivate->tim, TIM_CHANNEL_1);
     HAL_TIM_PWM_DeInit(&pAdcPrivate->tim);
     HAL_ADC_DeInit(pAdcPrivate->adc);
+
+    if (pAdcPrivate->dmaBuffer){
+        HAL_Free(pAdcPrivate->dmaBuffer);
+        pAdcPrivate->dmaBuffer = NULL;
+        pAdcPrivate->dmaBufferSize = 0;
+    }
+
+    if (pAdcPrivate->adcBuffer){
+        HAL_Free(pAdcPrivate->adcBuffer);
+        pAdcPrivate->adcBuffer = NULL;
+        pAdcPrivate->adcBufferSize = 0;
+    }
 }
 
 
@@ -273,6 +351,30 @@ void HAL_adcDeinit(HAL_ADC_ID id) {
     adcPrivate[id] = NULL;
 }
 
+int8_t
+HAL_adcStart(HAL_ADC_ID id) {
+    AdcPrivate_t *pAdcPrivate = adcPrivate[id];
+    if (pAdcPrivate == NULL) {
+        HAL_adcInit(id);
+    }
+
+    HAL_ADC_Start_DMA(pAdcPrivate->adc, (uint32_t *) pAdcPrivate->dmaBuffer, HAL_ADC_CH_NR);
+    HAL_TIM_PWM_Start(&pAdcPrivate->tim, TIM_CHANNEL_1);
+
+    return 0;
+}
+
+int8_t HAL_adcStop(HAL_ADC_ID id) {
+    AdcPrivate_t *pAdcPrivate = adcPrivate[id];
+    if (pAdcPrivate == NULL) {
+        HAL_adcInit(id);
+    }
+
+    HAL_ADC_Stop_DMA(pAdcPrivate->adc);
+    HAL_TIM_PWM_Stop(&pAdcPrivate->tim, TIM_CHANNEL_1);
+
+    return 0;
+}
 
 uint16_t HAL_adcRead(HAL_ADC_ID id, HAL_ADC_CH ch, uint32_t msec) {
     AdcPrivate_t *pAdcPrivate = adcPrivate[id];
@@ -285,4 +387,29 @@ uint16_t HAL_adcRead(HAL_ADC_ID id, HAL_ADC_CH ch, uint32_t msec) {
 #endif
 
     return pAdcPrivate->adcBuffer[ch];
+}
+
+uint32_t HAL_adcGetChannelCount(HAL_ADC_ID id) {
+    AdcPrivate_t *pAdcPrivate = adcPrivate[id];
+    if (pAdcPrivate == NULL) {
+        HAL_adcInit(id);
+    }
+
+    return pAdcPrivate->adcBufferSize;
+}
+
+int32_t HAL_adcReadMulti(HAL_ADC_ID id, uint16_t *buffer, uint16_t size, uint32_t msec) {
+    AdcPrivate_t *pAdcPrivate = adcPrivate[id];
+    if (pAdcPrivate == NULL) {
+        HAL_adcInit(id);
+    }
+
+#ifdef USE_RTOS_SYSTEM
+    HAL_SemaphoreWait(pAdcPrivate->sem, msec);
+#endif
+
+
+    memcpy(buffer, pAdcPrivate->adcBuffer, size * sizeof(uint16_t));
+
+    return size;
 }
