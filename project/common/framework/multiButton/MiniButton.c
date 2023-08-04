@@ -33,42 +33,58 @@
 #undef LOG_TAG
 #define LOG_TAG "MiniButton"
 
+
+#define BUTTON_LEFT_Port GPIOC
+#define BUTTON_LEFT_PIN GPIO_PIN_14
+
+#define BUTTON_RIGHT_Port GPIOC
+#define BUTTON_RIGHT_PIN GPIO_PIN_15
+
+#define BUTTON_CANCEL GPIOB
+#define BUTTON_CANCEL_PIN GPIO_PIN_8
+
+#define BUTTON_CONFIRM_Port  GPIOB
+#define BUTTON_CONFIRM_PIN GPIO_PIN_9
+
+extern uint8_t button_press_pending_flag;
+
+
 uint8_t button_press_pending_flag = 0;
 uint8_t button_left_press_pending_flag = 0;
 uint8_t button_right_press_pending_flag = 0;
 uint8_t button_confirm_press_pending_flag = 0;
 uint8_t button_cancel_press_pending_flag = 0;
 
-static struct Button leftButton;
-static struct Button rightButton;
-static struct Button confirmButton;
-static struct Button cancelButton;
+struct Button leftButton;
+struct Button rightButton;
+struct Button confirmButton;
+struct Button cancelButton;
 
-static uint8_t readLeftButtonLevel(uint8_t button_id_) {
+uint8_t readLeftButtonLevel(uint8_t button_id_) {
     UNUSED(button_id_);
 
     return HAL_GPIO_ReadPin(BUTTON_LEFT_Port, BUTTON_LEFT_PIN);
 }
 
-static uint8_t readRightButtonLevel(uint8_t button_id_) {
+uint8_t readRightButtonLevel(uint8_t button_id_) {
     UNUSED(button_id_);
 
     return HAL_GPIO_ReadPin(BUTTON_RIGHT_Port, BUTTON_RIGHT_PIN);
 }
 
-static uint8_t readConfirmButtonLevel(uint8_t button_id_) {
+uint8_t readConfirmButtonLevel(uint8_t button_id_) {
     UNUSED(button_id_);
 
     return HAL_GPIO_ReadPin(BUTTON_CONFIRM_Port, BUTTON_CONFIRM_PIN);
 }
 
-static uint8_t readCancelButtonLevel(uint8_t button_id_) {
+uint8_t readCancelButtonLevel(uint8_t button_id_) {
     UNUSED(button_id_);
 
     return HAL_GPIO_ReadPin(BUTTON_CANCEL, BUTTON_CANCEL_PIN);
 }
 
- uint8_t  MiniButton_read(uint8_t id) {
+uint8_t MiniButton_read(uint8_t id) {
     uint8_t buttonState = 0;
 
     switch (id) {
@@ -95,7 +111,7 @@ static uint8_t readCancelButtonLevel(uint8_t button_id_) {
     return buttonState;
 }
 
-static void buttonCallback(void *args) {
+void buttonCallback(void *args) {
     struct Button *btn = (struct Button *) args;
 
     button_press_pending_flag = 1;
@@ -151,7 +167,7 @@ void MiniButton_init(void) {
     button_start(&cancelButton);
 }
 
-static void buttonTickTask(void *args) {
+void buttonTickTask(void *args) {
     UNUSED(args);
 
     button_ticks();

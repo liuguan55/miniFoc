@@ -40,7 +40,7 @@
 #include "sys/MiniDebug.h"
 
 
-static const __unused GPIO_PinMuxParam g_pinmux_button[] = {
+static const  GPIO_PinMuxParam g_pinmux_button[] = {
         {HAL_GPIO_PORT_A, HAL_GPIO_PIN_7, {HAL_GPIO_MODE_INPUT, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
         {HAL_GPIO_PORT_B, HAL_GPIO_PIN_10, {HAL_GPIO_MODE_INPUT, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
         {HAL_GPIO_PORT_B, HAL_GPIO_PIN_11, {HAL_GPIO_MODE_INPUT, HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_0, HAL_GPIO_AF_NONE}},
@@ -153,6 +153,14 @@ void board_chip_clock_init(void)
     }
 }
 
+/**
+ * @brief Get board gpio configuration
+ * @param major interface type
+ * @param minor sequence
+ * @param param pointer to config handle
+ * @param info gpio configuration
+ * @return HAL_OK if success, otherwase failed
+ */
 static HAL_Status board_get_pinmux_info(uint32_t major, uint32_t minor, uint32_t param,
                                         struct board_pinmux_info info[])
 {
@@ -217,6 +225,10 @@ static HAL_Status board_get_pinmux_info(uint32_t major, uint32_t minor, uint32_t
             info[0].pinmux = g_pinmux_gpio;
             info[0].count = HAL_ARRAY_SIZE(g_pinmux_gpio);
             break;
+        case HAL_DEV_MAJOR_GPIO_BUTTON:
+            info[0].pinmux = g_pinmux_button;
+            info[0].count = HAL_ARRAY_SIZE(g_pinmux_button);
+            break;    
         default:
             BOARD_ERR("unknow major %lu\n", major);
             ret = HAL_STATUS_INVALID;
@@ -225,6 +237,13 @@ static HAL_Status board_get_pinmux_info(uint32_t major, uint32_t minor, uint32_t
     return ret;
 }
 
+/**
+ * @brief Get board config
+ * @param major interface type
+ * @param minor sequence
+ * @param param pointer to to config handle
+ * @return HAL_OK if success, otherwase failed
+ */
 static HAL_Status board_get_cfg(uint32_t major, uint32_t minor, uint32_t param)
 {
     HAL_Status ret = HAL_STATUS_OK;
@@ -259,6 +278,13 @@ static HAL_Status board_get_cfg(uint32_t major, uint32_t minor, uint32_t param)
                 info->count = 1;;
             }
             break;
+        case HAL_DEV_MAJOR_GPIO_BUTTON:
+            if (minor < HAL_ARRAY_SIZE(g_pinmux_button)){
+                board_pinmux_info_t *info = (board_pinmux_info_t *) param;
+                info->pinmux = &g_pinmux_button[minor];
+                info->count = 1;;
+            }
+            break;    
         default:
             BOARD_ERR("unknow major %lu\n", major);
             ret = HAL_STATUS_INVALID;
@@ -267,6 +293,13 @@ static HAL_Status board_get_cfg(uint32_t major, uint32_t minor, uint32_t param)
     return ret;
 }
 
+/**
+ * @brief set param to board
+ * @param req  request cmd
+ * @param param0 majon param
+ * @param param1 minor param
+ * @return 
+ */
 HAL_Status board_ioctl(HAL_BoardIoctlReq req, uint32_t param0, uint32_t param1)
 {
     HAL_Status ret = HAL_STATUS_OK;
@@ -309,7 +342,10 @@ HAL_Status board_ioctl(HAL_BoardIoctlReq req, uint32_t param0, uint32_t param1)
     return ret;
 }
 
-
+/**
+ * @brief board init 
+ */
 void HAL_BoardInit() {
     HAL_BoardIoctl(HAL_BIR_PINMUX_INIT, HAL_MKDEV(HAL_DEV_MAJOR_GPIO, 0), 0); //gpio init
+    HAL_BoardIoctl(HAL_BIR_PINMUX_INIT, HAL_MKDEV(HAL_DEV_MAJOR_GPIO_BUTTON, 0), 0); //button init
 }

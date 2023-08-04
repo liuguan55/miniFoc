@@ -2,6 +2,9 @@
 #include "stdlib.h"
 #include "hal_adc.h"
 
+#define CONTAIN(x, min, max) ((x) < (min) ? (min) : ((x) > (max) ? (max) : (x)))
+
+static uint16_t g_joystickData[ADC_CHANNEL_NUM] = {0};
 static Joystick_t g_Joystick;
 
 Joystick_t* Joystick_Get(void) {
@@ -14,16 +17,29 @@ void Joystick_Init(void) {
 }
 
 
-void Joystick_GetData(void) {
+Joystick_t* Joystick_GetData(void) {
     uint32_t temp = 0;
     float battery = 0;
 
-    uint32_t adcLen = HAL_adcGetChannelCount(HAL_ADC_1);
-    if (g_Joystick.JoystickBuff == NULL) {
-        g_Joystick.JoystickBuff = (uint16_t *) malloc(sizeof(uint16_t) * adcLen);
-    }
+    HAL_adcReadMulti(HAL_ADC_1, g_joystickData, ADC_CHANNEL_NUM, 1000);
 
-    HAL_adcReadMulti(HAL_ADC_1, g_Joystick.JoystickBuff, adcLen, 1000);
+    printf("stickData %d %d %d %d %d %d %d\n", g_joystickData[0], g_joystickData[1],
+         g_joystickData[2], g_joystickData[3], g_joystickData[4], g_joystickData[5], g_joystickData[6]);
+
+    g_Joystick.Lx = CONTAIN(g_joystickData[1] * 1000/3700 + 1000, 1000, 2000);
+    g_Joystick.Ly = CONTAIN(g_joystickData[0] * 1000/3700 + 1000, 1000, 2000);
+
+    g_Joystick.Rx = CONTAIN(g_joystickData[3] * 1000/3700 + 1000, 1000, 2000);
+    g_Joystick.Ry = CONTAIN(g_joystickData[2] * 1000/3700 + 1000, 1000, 2000);
+
+    g_Joystick.LZ = CONTAIN(g_joystickData[5] - 600 + 1000, 1000, 2000);
+    g_Joystick.Rz = CONTAIN(g_joystickData[4] - 2400 + 1000, 1000, 2000);
+
+    g_Joystick.Battery = g_joystickData[6]*3.3/4096*20;
+
+    printf("joystick %d",g_Joystick.Ly, g_Joystick.Lx, g_Joystick.Ry, g_Joystick.Rx, g_Joystick.Rz, g_Joystick.Battery);
+
+    return &g_Joystick;
 }
 
 

@@ -143,15 +143,15 @@ static void wirelessTask(void *args){
         }
     }
 }
-/**
-  * @brief  The wireless task.
-  *
-  * @retval int
-  */
+
 void wirelessInit(void){
     NRF24L01_Init(&nrf24l01, &ops);
 
     HAL_ThreadCreate(wirelessTask, "wireless", 256, 0, HAL_OS_PRIORITY_NORMAL , NULL);
 
     log_i("wireless init success");
+}
+
+int wirelessSend(uint8_t *buf, uint8_t len){
+    return NRF24L01_TxPacket(&nrf24l01, buf, len);
 }

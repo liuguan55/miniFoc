@@ -35,4 +35,8 @@
 #define  REMOTE_NRF24L01_CE_ID          2
 #define  REMOTE_NRF24L01_IRQ_ID         3
 
+#define REMOTE_BUTTON_CONFIRM           0
+#define REMOTE_BUTTON_LEFT              1
+#define REMOTE_BUTTON_RIGHT             2
+
 #endif //REMOTE_CONTROL_MAIN_H

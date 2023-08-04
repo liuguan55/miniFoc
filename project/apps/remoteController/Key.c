@@ -20,31 +20,34 @@
 static struct Button leftButton;
 static struct Button rightButton;
 static struct Button confirmButton;
-static struct Button cancelButton;
 
 static uint8_t readLeftButtonLevel(uint8_t button_id_) {
     UNUSED(button_id_);
 
-    return HAL_GPIO_ReadPin(BUTTON_LEFT_Port, BUTTON_LEFT_PIN);
+    board_pinmux_info_t pinmux_info;
+    HAL_BoardIoctl(HAL_BIR_GET_CFG, HAL_MKDEV(HAL_DEV_MAJOR_GPIO_BUTTON, REMOTE_BUTTON_LEFT), (uint32_t)&pinmux_info);
+
+    return HAL_GpioReadPin(pinmux_info.pinmux[0].port, pinmux_info.pinmux[0].pin);
 }
 
 static uint8_t readRightButtonLevel(uint8_t button_id_) {
     UNUSED(button_id_);
 
-    return HAL_GPIO_ReadPin(BUTTON_RIGHT_Port, BUTTON_RIGHT_PIN);
+    board_pinmux_info_t pinmux_info;
+    HAL_BoardIoctl(HAL_BIR_GET_CFG, HAL_MKDEV(HAL_DEV_MAJOR_GPIO_BUTTON, REMOTE_BUTTON_RIGHT), (uint32_t)&pinmux_info);
+
+    return HAL_GpioReadPin(pinmux_info.pinmux[0].port, pinmux_info.pinmux[0].pin);
 }
 
 static uint8_t readConfirmButtonLevel(uint8_t button_id_) {
     UNUSED(button_id_);
 
-    return HAL_GPIO_ReadPin(BUTTON_CONFIRM_Port, BUTTON_CONFIRM_PIN);
+    board_pinmux_info_t pinmux_info;
+    HAL_BoardIoctl(HAL_BIR_GET_CFG, HAL_MKDEV(HAL_DEV_MAJOR_GPIO_BUTTON, REMOTE_BUTTON_CONFIRM), (uint32_t)&pinmux_info);
+
+    return HAL_GpioReadPin(pinmux_info.pinmux[0].port, pinmux_info.pinmux[0].pin);
 }
 
-static uint8_t readCancelButtonLevel(uint8_t button_id_) {
-    UNUSED(button_id_);
-
-    return HAL_GPIO_ReadPin(BUTTON_CANCEL, BUTTON_CANCEL_PIN);
-}
 
 static void buttonCallback(void *args) {
     struct Button *btn = (struct Button *) args;
@@ -52,20 +55,16 @@ static void buttonCallback(void *args) {
     button_press_pending_flag = 1;
 //    log_d("id %d event %d", btn->button_id, btn->event);
     switch (btn->button_id) {
-        case 0: {
+        case REMOTE_BUTTON_LEFT: {
 //	  log_d("press left\n");
         }
             break;
-        case 1: {
+        case REMOTE_BUTTON_RIGHT: {
 //	  log_d("press right\n");
         }
             break;
-        case 2: {
+        case REMOTE_BUTTON_CONFIRM: {
 //	  log_d("press confirm\n");
-        }
-            break;
-        case 3: {
-//	  log_d("press press\n");
         }
             break;
     }
@@ -89,10 +88,6 @@ void keyInit(void) {
     button_init(&confirmButton, readConfirmButtonLevel, 0, 2);
     button_attach(&confirmButton, SINGLE_CLICK, buttonCallback);
     button_start(&confirmButton);
-
-    button_init(&cancelButton, readCancelButtonLevel, 0, 3);
-    button_attach(&cancelButton, SINGLE_CLICK, buttonCallback);
-    button_start(&cancelButton);
 
 #ifdef USE_RTOS_SYSTEM
     osTimerId_t btnTimer = osTimerNew(buttonTickTask, osTimerPeriodic, NULL, NULL);

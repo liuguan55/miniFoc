@@ -356,8 +356,7 @@ void HAL_adcDeinit(HAL_ADC_ID id) {
     adcPrivate[id] = NULL;
 }
 
-int8_t
-HAL_adcStart(HAL_ADC_ID id) {
+int8_t HAL_adcStart(HAL_ADC_ID id) {
     AdcPrivate_t *pAdcPrivate = adcPrivate[id];
     if (pAdcPrivate == NULL) {
         HAL_adcInit(id);
@@ -414,7 +413,7 @@ int32_t HAL_adcReadMulti(HAL_ADC_ID id, uint16_t *buffer, uint16_t size, uint32_
 #endif
 
 
-    memcpy(buffer, pAdcPrivate->adcBuffer, size * sizeof(uint16_t));
+    memcpy(buffer, pAdcPrivate->adcBuffer, adcBufferSize * sizeof(uint16_t));
 
     return size;
 }
