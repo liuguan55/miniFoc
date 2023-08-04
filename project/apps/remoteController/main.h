@@ -21,40 +21,18 @@
 //  *  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 //  *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //  *
-#include "sys/MiniDebug.h"
-#include "driver/hal/hal_os.h"
-#include "driver/hal/hal_usb.h"
-#include "log/easylogger/elog.h"
-#include "driver/hal/hal_timer.h"
-#include "driver/hal/hal_board.h"
-#include "driver/hal/hal_dev.h"
-#include "driver/hal/hal_gpio.h"
-#include "Led.h"
-#include "Buzzer.h"
-#include "Key.h"
-#include "Joystick.h"
-#include "wireless.h"
 
-#undef LOG_TAG
-#define LOG_TAG "main"
+//
+// Created by 86189 on 2023/8/3.
+//
 
-/**
-  * @brief  The application entry point.
-  *
-  * @retval int
-  */
-int main(void) {
-    keyInit();
-    buzzerOn();
-    Joystick_Init();
-    ledTaskStart();
-//    wirelessInit();
-    while (1){
-        Joystick_Get();
-        printf("Hello World!\n");
-        HAL_msleep(1000);
-    }
+#ifndef REMOTE_CONTROL_MAIN_H
+#define REMOTE_CONTROL_MAIN_H
 
-    return 0;
-}
+#define  REMOTE_CONTROL_VERSION  "1.0.0"
+#define  REMOTE_BUZZER_ID               0
+#define  REMOTE_LED_ID                  1
+#define  REMOTE_NRF24L01_CE_ID          2
+#define  REMOTE_NRF24L01_IRQ_ID         3
 
+#endif //REMOTE_CONTROL_MAIN_H

@@ -63,6 +63,7 @@ typedef uint32_t HAL_Dev_t;
 enum {
     /* peripheral interface of chip */
     HAL_DEV_MAJOR_UART = 0,
+    HAL_DEV_MAJOR_GPIO,
     HAL_DEV_MAJOR_I2C,
     HAL_DEV_MAJOR_SPI,
     HAL_DEV_MAJOR_IRRX,
@@ -84,8 +85,6 @@ enum {
     HAL_DEV_MAJOR_AD_BUTTON,
     HAL_DEV_MAJOR_GPIO_BUTTON,
     HAL_DEV_MAJOR_MATRIX_BUTTON,
-    HAL_DEV_MAJOR_LED,
-    HAL_DEV_MAJOR_BUZZER,
     /* device major number defined by user starts from HAL_DEV_MAJOR_USER */
     HAL_DEV_MAJOR_USER = 128,
 };

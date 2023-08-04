@@ -302,6 +302,7 @@ HAL_Status HAL_UartInit(HAL_UART_ID uartId, HAL_UartCfg_t *pCfg) {
 #endif
     lwrb_init(&p->ringHandle, p->ringBuffer, sizeof(p->ringBuffer));
     res = Hal_UartHwInit(uartId, pCfg);
+    HAL_SemaphoreWait(&p->rxSem, 100);
 
     return res;
 }

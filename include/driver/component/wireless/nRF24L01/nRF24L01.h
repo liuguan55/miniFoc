@@ -1,9 +1,8 @@
 #ifndef __NRF24L01_H
 #define __NRF24L01_H
 #include <stdint.h>
-#include <stdlib.h>
 
-#define  ADDRESS_WIDTH          5
+#define ADDRESS_WIDTH 5
 
  typedef struct {
 	void (*init)(void);

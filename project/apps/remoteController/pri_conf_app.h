@@ -40,7 +40,7 @@ extern "C" {
 #define PRJCONF_MAIN_THREAD_PRIO        HAL_OS_PRIORITY_NORMAL
 
 /* main thread stack size */
-#define PRJCONF_MAIN_THREAD_STACK_SIZE  (4 * 128)
+#define PRJCONF_MAIN_THREAD_STACK_SIZE  (4 * 512)
 
 /* uart enable/disable */
 #define PRJCONF_UART_EN                 1
@@ -49,7 +49,7 @@ extern "C" {
 /* console enable/disable */
 #define PRJCONF_CONSOLE_EN              1
 /* console stack size */
-#define PRJCONF_CONSOLE_STACK_SIZE      (4 * 128)
+#define PRJCONF_CONSOLE_STACK_SIZE      (4 * 512)
 /* console buffer size */
 #define PROJCONF_CONSOLEBUF_SIZE        (128)
 

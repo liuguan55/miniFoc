@@ -157,6 +157,10 @@ static void ADCDmaEnable(DMA_Channel_TypeDef *dmaChannelTypeDef) {
 static void HAL_adcHwInit(HAL_ADC_ID id) {
     AdcPrivate_t *pAdcPrivate = adcPrivate[id];
     ADC_HandleTypeDef *pAdc = pAdcPrivate->adc;
+    if (pAdc == NULL) {
+        HAL_ERR("adc%d not init", id);
+        return;
+    }
 
     board_adc_info_t boardAdcInfo;
     HAL_BoardIoctl(HAL_BIR_GET_CFG, HAL_MKDEV(HAL_DEV_MAJOR_ADC, id), (uint32_t)&boardAdcInfo);
@@ -326,11 +330,12 @@ void HAL_adcInit(HAL_ADC_ID id) {
     if (pAdc == NULL) {
         return;
     }
+    pAdcPrivate->adc = pAdc;
 
     HAL_adcHwInit(id);
 
 #ifdef USE_RTOS_SYSTEM
-    HAL_SemaphoreInit(pAdcPrivate->sem, 0, 1);
+    HAL_SemaphoreInit(&pAdcPrivate->sem, 0, 1);
 #endif
 }
 

@@ -251,6 +251,30 @@ project/apps/remoteController/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/main.c.s
 .PHONY : project/apps/remoteController/main.c.s
 
+project/apps/remoteController/wireless.obj: project/apps/remoteController/wireless.c.obj
+.PHONY : project/apps/remoteController/wireless.obj
+
+# target to build an object file
+project/apps/remoteController/wireless.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/wireless.c.obj
+.PHONY : project/apps/remoteController/wireless.c.obj
+
+project/apps/remoteController/wireless.i: project/apps/remoteController/wireless.c.i
+.PHONY : project/apps/remoteController/wireless.i
+
+# target to preprocess a source file
+project/apps/remoteController/wireless.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/wireless.c.i
+.PHONY : project/apps/remoteController/wireless.c.i
+
+project/apps/remoteController/wireless.s: project/apps/remoteController/wireless.c.s
+.PHONY : project/apps/remoteController/wireless.s
+
+# target to generate assembly for a file
+project/apps/remoteController/wireless.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/wireless.c.s
+.PHONY : project/apps/remoteController/wireless.c.s
+
 project/common/board/Board.obj: project/common/board/Board.c.obj
 .PHONY : project/common/board/Board.obj
 
@@ -1635,6 +1659,30 @@ src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.s
 .PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.s
 
+src/driver/component/wireless/nRF24L01/nRF24L01.obj: src/driver/component/wireless/nRF24L01/nRF24L01.c.obj
+.PHONY : src/driver/component/wireless/nRF24L01/nRF24L01.obj
+
+# target to build an object file
+src/driver/component/wireless/nRF24L01/nRF24L01.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/component/wireless/nRF24L01/nRF24L01.c.obj
+.PHONY : src/driver/component/wireless/nRF24L01/nRF24L01.c.obj
+
+src/driver/component/wireless/nRF24L01/nRF24L01.i: src/driver/component/wireless/nRF24L01/nRF24L01.c.i
+.PHONY : src/driver/component/wireless/nRF24L01/nRF24L01.i
+
+# target to preprocess a source file
+src/driver/component/wireless/nRF24L01/nRF24L01.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/component/wireless/nRF24L01/nRF24L01.c.i
+.PHONY : src/driver/component/wireless/nRF24L01/nRF24L01.c.i
+
+src/driver/component/wireless/nRF24L01/nRF24L01.s: src/driver/component/wireless/nRF24L01/nRF24L01.c.s
+.PHONY : src/driver/component/wireless/nRF24L01/nRF24L01.s
+
+# target to generate assembly for a file
+src/driver/component/wireless/nRF24L01/nRF24L01.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/component/wireless/nRF24L01/nRF24L01.c.s
+.PHONY : src/driver/component/wireless/nRF24L01/nRF24L01.c.s
+
 src/driver/hal/hal_adc.obj: src/driver/hal/hal_adc.c.obj
 .PHONY : src/driver/hal/hal_adc.obj
 
@@ -2547,6 +2595,9 @@ help:
 	@echo ... project/apps/remoteController/main.obj
 	@echo ... project/apps/remoteController/main.i
 	@echo ... project/apps/remoteController/main.s
+	@echo ... project/apps/remoteController/wireless.obj
+	@echo ... project/apps/remoteController/wireless.i
+	@echo ... project/apps/remoteController/wireless.s
 	@echo ... project/common/board/Board.obj
 	@echo ... project/common/board/Board.i
 	@echo ... project/common/board/Board.s
@@ -2720,6 +2771,9 @@ help:
 	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.obj
 	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.i
 	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.s
+	@echo ... src/driver/component/wireless/nRF24L01/nRF24L01.obj
+	@echo ... src/driver/component/wireless/nRF24L01/nRF24L01.i
+	@echo ... src/driver/component/wireless/nRF24L01/nRF24L01.s
 	@echo ... src/driver/hal/hal_adc.obj
 	@echo ... src/driver/hal/hal_adc.i
 	@echo ... src/driver/hal/hal_adc.s

@@ -1,8 +1,12 @@
 
 #include "sys/MiniDebug.h"
 #include "driver/hal/hal_os.h"
+#include "driver/hal/hal_gpio.h"
 #include "driver/hal/hal_spi.h"
-#include "driver/component/wireless/nRf24l01/nRf24l01.h"
+#include "driver/hal/hal_board.h"
+#include "main.h"
+#include "driver/component/wireless/nRF24L01/nRF24L01.h"
+#include "log/easylogger/elog.h"
 #undef LOG_TAG
 #define LOG_TAG "WIRELESS"
 
@@ -11,8 +15,8 @@
 #define NRF24L01_SPI_CS HAL_SPI_TCTRL_SS_SEL_SS1
 #define NRF24L01_SPI_SPEED 1000000
 #define NRF24L01_SPI_MODE HAL_SPI_MODE_0
-#define NRF24L01_SPI_DATASIZE HAL_SPI_DATASIZE_8BIT
-#define NRF24L01_SPI_FIRSTBIT HAL_SPI_FIRSTBIT_MSB
+#define NRF24L01_SPI_DATASIZE HAL_SPI_8BIT
+#define NRF24L01_SPI_FIRSTBIT HAL_SPI_MSB_FIRST
 
 
 static uint8_t spiWriteAndRead(uint8_t data) {
@@ -25,10 +29,10 @@ static uint8_t spiWriteAndRead(uint8_t data) {
 static void wirelessSpiInit(void){
     SpiConfig_t spiConfig = {
         .mode = NRF24L01_SPI_MODE,
-        .dataSize = NRF24L01_SPI_DATASIZE,
-        .firstBit = NRF24L01_SPI_FIRSTBIT,
+        .word_size = NRF24L01_SPI_DATASIZE,
+        .bit_order = NRF24L01_SPI_FIRSTBIT,
         .speed = NRF24L01_SPI_SPEED,
-    }
+    };
 
     HAL_spiInit(NRF24L01_SPI_PORT, &spiConfig);
 }
@@ -76,7 +80,7 @@ static uint8_t wirelessReadBuf(uint8_t reg, uint8_t *pBuf, uint8_t len){
 
     HAL_spiClose(NRF24L01_SPI_PORT);
 
-    return ret;
+    return len;
 }
 
 static uint8_t wirelessWriteBuf(uint8_t reg, uint8_t *pBuf, uint8_t len){
@@ -86,24 +90,30 @@ static uint8_t wirelessWriteBuf(uint8_t reg, uint8_t *pBuf, uint8_t len){
 
     HAL_spiCsEnable(NRF24L01_SPI_PORT);
 
-    uint8_t  status = spiWriteAndRead(reg);
+    spiWriteAndRead(reg);
     for (uint8_t i = 0; i < len; i++){
-        spiWriteAndRead(PBuf[i]);
+        spiWriteAndRead(pBuf[i]);
     }
 
     HAL_spiCsDisable(NRF24L01_SPI_PORT);
 
     HAL_spiClose(NRF24L01_SPI_PORT);
 
-    return ret;
+    return len;
 }
 
 static uint8_t wirelessDataReady(void){
-    
+    board_pinmux_info_t pinmux_info;
+    HAL_BoardIoctl(HAL_BIR_GET_CFG, HAL_MKDEV(HAL_DEV_MAJOR_GPIO, REMOTE_NRF24L01_IRQ_ID), (uint32_t)&pinmux_info);
+
+    return HAL_GpioReadPin(pinmux_info.pinmux[0].port, pinmux_info.pinmux[0].pin);
 }
 
 static void wirelessCeEnable(uint8_t enable){
-    
+    board_pinmux_info_t pinmux_info;
+    HAL_BoardIoctl(HAL_BIR_GET_CFG, HAL_MKDEV(HAL_DEV_MAJOR_GPIO, REMOTE_NRF24L01_CE_ID), (uint32_t)&pinmux_info);
+
+    HAL_GpioWritePin(pinmux_info.pinmux[0].port, pinmux_info.pinmux[0].pin, enable);
 }
 
 static NRF24L01_ops_t ops = {
@@ -121,6 +131,18 @@ static NRF24L01_t nrf24l01 = {
     .ops = &ops,
     .address = {0x34, 0x43, 0x10, 0x10, 0x01},
 };
+
+static void wirelessTask(void *args){
+    uint8_t buf[32] = {0};
+    uint8_t len = 0;
+
+    NRF24L01_RX_Mode(&nrf24l01);
+    while (1){
+        if (NRF24L01_RxPacket(&nrf24l01, buf, len)){
+            log_i("wireless recv: %s", buf);
+        }
+    }
+}
 /**
   * @brief  The wireless task.
   *
@@ -128,5 +150,8 @@ static NRF24L01_t nrf24l01 = {
   */
 void wirelessInit(void){
     NRF24L01_Init(&nrf24l01, &ops);
-    NRF24L01_RX_Mode(&nrf24l01);
+
+    HAL_ThreadCreate(wirelessTask, "wireless", 256, 0, HAL_OS_PRIORITY_NORMAL , NULL);
+
+    log_i("wireless init success");
 }

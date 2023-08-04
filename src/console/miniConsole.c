@@ -146,7 +146,7 @@ void miniConsoleInit(MiniConsoleConfig_t *config) {
 
     MiniShell_Init(gConsoleDev);
 
-//    HAL_ThreadCreate(shellTask , "shellTask", config->stackSize, &gConsoleDev->shell, HAL_OS_PRIORITY_LOW, &gConsoleDev->shellThread);
+    HAL_ThreadCreate(shellTask , "shellTask", config->stackSize, &gConsoleDev->shell, HAL_OS_PRIORITY_LOW, &gConsoleDev->shellThread);
 }
 
 void miniConsoleDeinit(void){

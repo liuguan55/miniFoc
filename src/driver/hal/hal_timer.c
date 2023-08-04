@@ -58,9 +58,10 @@ HAL_Status HAL_timerInit(void){
 
     /* USER CODE BEGIN TIM4_Init 1 */
 
+    int prescaler = HAL_RCC_GetPCLK2Freq()/1000000 - 1;
     /* USER CODE END TIM4_Init 1 */
     htim4.Instance = TIM4;
-    htim4.Init.Prescaler = 83;
+    htim4.Init.Prescaler = prescaler;
     htim4.Init.CounterMode = TIM_COUNTERMODE_UP;
     htim4.Init.Period = 49;
     htim4.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;

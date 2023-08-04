@@ -1,10 +1,11 @@
 #include "nRF24L01.h"
-#include "stdio.h"
+#include <stdio.h>
+#include <string.h>
 
 
 // NRF24L01发送接收数据宽度定义
-#define TX_ADR_WIDTH                                  5   	//5字节的地址宽度
-#define RX_ADR_WIDTH                                  5   	//5字节的地址宽度
+#define TX_ADR_WIDTH                                  ADDRESS_WIDTH   	//5字节的地址宽度
+#define RX_ADR_WIDTH                                  ADDRESS_WIDTH   	//5字节的地址宽度
 #define TX_PLOAD_WIDTH                                32  	//32字节的用户数据宽度
 #define RX_PLOAD_WIDTH                                32  	//32字节的用户数据宽度
  
@@ -53,7 +54,7 @@
 
  int NRF24L01_Init(NRF24L01_t *nrf24l01, NRF24L01_ops_t *ops) {
 	 nrf24l01->ops = ops;
-	 nrf24l01->ops.init();
+	 nrf24l01->ops->init();
 	 
 	uint8_t defaultAddress[TX_ADR_WIDTH]={0x34,0x43,0x10,0x10,0x01};
 	memcpy(nrf24l01->address, defaultAddress, TX_ADR_WIDTH);

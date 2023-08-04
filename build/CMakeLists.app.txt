@@ -13,6 +13,7 @@ if(${project_app} STREQUAL "remote_control")
         set(USE_SHELL ON CACHE BOOL "Use SHELL" FORCE)
         set(USE_LOG ON CACHE BOOL "Use LOG" FORCE)
         set(USE_UNITTEST ON CACHE BOOL "Use UNITTEST" FORCE)
+        set(USE_WIRELESS ON CACHE BOOL "Use WIRELESS" FORCE)
 
         file(GLOB_RECURSE  APP_SOURCES  project/apps/remoteController/*.*
                                        "project/common/board/remoteController/*.*")
@@ -54,6 +55,7 @@ elseif(${project_app} STREQUAL "miniFoc_F4")
         set(USE_UNITTEST ON CACHE BOOL "Use UNITTEST" FORCE)
         set(USE_JSON ON CACHE BOOL "Use JSON" FORCE)
         set(USE_LOG ON CACHE BOOL "Use LOG" FORCE)
+
 
         file(GLOB_RECURSE  APP_SOURCES project/apps/BldcController/*.*
                                        "project/common/board/miniFoc_v2/*.*")
@@ -104,6 +106,15 @@ if (USE_LCD)
         file(GLOB_RECURSE LCD_SOURCES "src/driver/component/lcd/*.*")
         list(APPEND SOURCES        ${LCD_SOURCES})
         list(APPEND HEADERS         include/driver/component/lcd)
+endif ()
+
+if (USE_WIRELESS)
+        message(STATUS "USE_WIRELESS: ${USE_WIRELESS}")
+        add_definitions(-DUSE_WIRELESS)
+
+        file(GLOB_RECURSE WIRELESS_SOURCES "src/driver/component/wireless/*.*")
+        list(APPEND SOURCES        ${WIRELESS_SOURCES})
+        list(APPEND HEADERS         include/driver/component/wireless)
 endif ()
 
 if (USE_FATFS)

@@ -87,7 +87,7 @@ void xPortSysTickHandler(void);
 #define configMINIMAL_STACK_SIZE                 ((uint16_t)128)
 
 #ifdef TARGET_MCU_STM32F1
-#define configTOTAL_HEAP_SIZE                    ((size_t)0x1000)
+#define configTOTAL_HEAP_SIZE                    ((size_t)0x2000)
 #elif TARGET_MCU_STM32G0
 #define configTOTAL_HEAP_SIZE                    ((size_t)0x1000)
 #elif TARGET_MCU_STM32F4

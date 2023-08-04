@@ -105,11 +105,12 @@ const char *elog_port_get_time(void) {
     struct tm *t;
     static char buf[32];
 
-    gettimeofday(&tv, NULL);
-    t = localtime(&tv.tv_sec);
-    memset(buf, 0, sizeof(buf));
-    snprintf(buf, sizeof(buf), "%d-%d-%d %d:%d:%d.%ld", 1900 + t->tm_year, 1 + t->tm_mon, t->tm_mday, t->tm_hour,
-             t->tm_min, t->tm_sec, tv.tv_usec / 1000);
+//    char *p = buf;
+//    gettimeofday(&tv, NULL);
+//    t = localtime(&tv.tv_sec);
+//    memset(buf, 0, sizeof(buf));
+//    snprintf(buf, sizeof(buf), "%d-%d-%d %d:%d:%d.%ld", 1900 + t->tm_year, 1 + t->tm_mon, t->tm_mday, t->tm_hour,
+//             t->tm_min, t->tm_sec, tv.tv_usec / 1000);
 
 
     return buf;
