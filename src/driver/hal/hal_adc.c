@@ -45,6 +45,8 @@ typedef struct {
 #ifdef USE_RTOS_SYSTEM
     HAL_Semaphore sem;
 #endif
+
+    HAL_ADC_Callback_t callback;
 } AdcPrivate_t;
 
 static AdcPrivate_t *adcPrivate[HAL_ADC_NR];
@@ -108,9 +110,8 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc) {
     for (int i = 0; i < HAL_ADC_NR; ++i) {
         AdcPrivate_t *pAdcPrivate = adcPrivate[i];
         if (pAdcPrivate && pAdcPrivate->adc == hadc) {
-            for (int j = 0; j < HAL_ADC_CH_NR; ++j) {
-                pAdcPrivate->adcBuffer[j] = pAdcPrivate->dmaBuffer[j];
-            }
+            memcpy(pAdcPrivate->adcBuffer, pAdcPrivate->dmaBuffer, pAdcPrivate->dmaBufferSize * sizeof(uint16_t));
+            pAdcPrivate->callback(pAdcPrivate->adcBuffer, pAdcPrivate->adcBufferSize);
 #ifdef USE_RTOS_SYSTEM
             HAL_SemaphoreRelease(pAdcPrivate->sem);
 #endif
@@ -181,7 +182,7 @@ static void HAL_adcHwInit(HAL_ADC_ID id) {
     pAdc->Init.EOCSelection = ADC_EOC_SINGLE_CONV;
 #endif
     pAdc->Init.ScanConvMode = ENABLE;
-    pAdc->Init.ContinuousConvMode = DISABLE;
+    pAdc->Init.ContinuousConvMode = ENABLE;
     pAdc->Init.DiscontinuousConvMode = DISABLE;
     pAdc->Init.ExternalTrigConv = boardAdcInfo.config->externalTrigConv;
     pAdc->Init.DataAlign = ADC_DATAALIGN_RIGHT;
@@ -278,8 +279,6 @@ static void HAL_adcHwInit(HAL_ADC_ID id) {
     if (pAdcPrivate->adcBuffer == NULL) {
         assert(NULL);
     }
-
-    HAL_ADCEx_Calibration_Start(pAdc);
 }
 
 /**
@@ -330,6 +329,7 @@ void HAL_adcInit(HAL_ADC_ID id) {
     if (pAdc == NULL) {
         return;
     }
+    memset(pAdc, 0, sizeof(ADC_HandleTypeDef));
     pAdcPrivate->adc = pAdc;
 
     HAL_adcHwInit(id);
@@ -362,7 +362,8 @@ int8_t HAL_adcStart(HAL_ADC_ID id) {
         HAL_adcInit(id);
     }
 
-    HAL_ADC_Start_DMA(pAdcPrivate->adc, (uint32_t *) pAdcPrivate->dmaBuffer, HAL_ADC_CH_NR);
+    HAL_ADCEx_Calibration_Start(pAdcPrivate->adc);
+    HAL_ADC_Start_DMA(pAdcPrivate->adc, (uint32_t *) pAdcPrivate->dmaBuffer, pAdcPrivate->dmaBufferSize);
     HAL_TIM_PWM_Start(&pAdcPrivate->tim, TIM_CHANNEL_1);
 
     return 0;
@@ -413,7 +414,16 @@ int32_t HAL_adcReadMulti(HAL_ADC_ID id, uint16_t *buffer, uint16_t size, uint32_
 #endif
 
 
-    memcpy(buffer, pAdcPrivate->adcBuffer, adcBufferSize * sizeof(uint16_t));
+    memcpy(buffer, pAdcPrivate->adcBuffer, pAdcPrivate->adcBufferSize * sizeof(uint16_t));
 
     return size;
+}
+
+void HAL_adcSetCallback(HAL_ADC_ID id, HAL_ADC_Callback_t callback) {
+    AdcPrivate_t *pAdcPrivate = adcPrivate[id];
+    if (pAdcPrivate == NULL) {
+        HAL_adcInit(id);
+    }
+
+    pAdcPrivate->callback = callback;
 }

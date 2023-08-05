@@ -29,9 +29,11 @@
 #include "driver/hal/hal_timer.h"
 #include "driver/driver_chip.h"
 #include "kernel/FreeRTOS/FreeRTOS.h"
+#include "kernel/FreeRTOS/task.h"
 #include "kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.h"
 #include "driver/hal/hal_def.h"
 #include "sys/MiniDebug.h"
+#include "driver/hal/hal_uart.h"
 
 TIM_HandleTypeDef htim4;
 volatile long long FreeRTOSRunTimeTicks;
@@ -58,7 +60,7 @@ HAL_Status HAL_timerInit(void){
 
     /* USER CODE BEGIN TIM4_Init 1 */
 
-    int prescaler = HAL_RCC_GetPCLK2Freq()/1000000 - 1;
+    int prescaler = HAL_RCC_GetPCLK2Freq() /1000000 - 1;
     /* USER CODE END TIM4_Init 1 */
     htim4.Instance = TIM4;
     htim4.Init.Prescaler = prescaler;
@@ -102,6 +104,15 @@ static void HAL_timerCallback(void){
     if (++timerCnt >= 20){
         timerCnt = 0;
         HAL_IncTick();
+#ifdef USE_RTOS_SYSTEM
+#if (INCLUDE_xTaskGetSchedulerState == 1)
+        if (xTaskGetSchedulerState() != taskSCHEDULER_NOT_STARTED) {
+#endif /* INCLUDE_xTaskGetSchedulerState */
+            xPortSysTickHandler();
+#if (INCLUDE_xTaskGetSchedulerState == 1)
+        }
+#endif /* INCLUDE_xTaskGetSchedulerState */
+#endif
     }
 }
 
@@ -109,36 +120,6 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
     if(htim->Instance == TIM4){
         HAL_timerCallback();
     }
-}
-
-
-uint32_t HAL_millis(void){
-    return osKernelGetTickCount();
-}
-
-/**
- * @brief Get the elapesd millis from start
- * @param start
- * @return
- */
-uint32_t HAL_elapesdMillis(uint32_t start){
-    return HAL_millis() - start;
-}
-
-/**
- * @brief Delay ms
- * @param ms
- */
-void HAL_msleep(uint32_t ms){
-    osDelay(ms);
-}
-
-/**
- * @brief Delay s
- * @param s
- */
-void HAL_sleep(uint32_t s){
-    osDelay(s * 1000);
 }
 
 

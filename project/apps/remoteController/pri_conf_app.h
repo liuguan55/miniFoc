@@ -35,6 +35,9 @@
 extern "C" {
 #endif
 
+#define FIRMWARE_NAME                   "remote_control"
+#define HARDWARE_VERSION               "V1.0.2"
+#define SOFTWARE_VERSION               SDK_VERSION_STR
 
 /* main thread priority */
 #define PRJCONF_MAIN_THREAD_PRIO        HAL_OS_PRIORITY_NORMAL

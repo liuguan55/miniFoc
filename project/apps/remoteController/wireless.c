@@ -7,6 +7,10 @@
 #include "main.h"
 #include "driver/component/wireless/nRF24L01/nRF24L01.h"
 #include "log/easylogger/elog.h"
+#include "driver/hal/hal_os.h"
+#include "remote.h"
+#include "wireless.h"
+
 #undef LOG_TAG
 #define LOG_TAG "WIRELESS"
 
@@ -70,8 +74,7 @@ static uint8_t wirelessReadBuf(uint8_t reg, uint8_t *pBuf, uint8_t len){
     }
 
     HAL_spiCsEnable(NRF24L01_SPI_PORT);
-
-    uint8_t  status = spiWriteAndRead(reg);
+    spiWriteAndRead(reg);
     for (uint8_t i = 0; i < len; i++){
         pBuf[i] = spiWriteAndRead(0xFF);
     }
@@ -89,7 +92,6 @@ static uint8_t wirelessWriteBuf(uint8_t reg, uint8_t *pBuf, uint8_t len){
     }
 
     HAL_spiCsEnable(NRF24L01_SPI_PORT);
-
     spiWriteAndRead(reg);
     for (uint8_t i = 0; i < len; i++){
         spiWriteAndRead(pBuf[i]);
@@ -132,26 +134,60 @@ static NRF24L01_t nrf24l01 = {
     .address = {0x34, 0x43, 0x10, 0x10, 0x01},
 };
 
-static void wirelessTask(void *args){
-    uint8_t buf[32] = {0};
-    uint8_t len = 0;
+static HAL_Mutex g_wirelessMutex = NULL;
+static int8_t g_initailized = 0;
 
-    NRF24L01_RX_Mode(&nrf24l01);
+static void wirelessTask(void *args){
+    UNUSED(args);
+
+    uint8_t recvBuffer[32] = {0};
+    uint8_t recvLen = sizeof (recvBuffer);
+
     while (1){
-        if (NRF24L01_RxPacket(&nrf24l01, buf, len)){
-            log_i("wireless recv: %s", buf);
+        if (wirelessRecv(recvBuffer, recvLen)){
+            log_i("wireless recv: %s recvLen %d\n", recvBuffer,recvLen);
+            remote_parsePacket(recvBuffer, recvLen);
         }
+
+        HAL_msleep(5);
     }
 }
 
 void wirelessInit(void){
-    NRF24L01_Init(&nrf24l01, &ops);
+    if (NRF24L01_Init(&nrf24l01, &ops) < 0){
+        log_e("wireless init failed");
+        return ;
+    }
 
-    HAL_ThreadCreate(wirelessTask, "wireless", 256, 0, HAL_OS_PRIORITY_NORMAL , NULL);
+    HAL_MutexInit(&g_wirelessMutex);
+//    HAL_ThreadCreate(wirelessTask, "wireless", 4*128, 0, HAL_OS_PRIORITY_NORMAL , NULL);
 
+    NRF24L01_TX_Mode(&nrf24l01);
+    g_initailized = 1;
     log_i("wireless init success");
 }
 
+int wirelessRecv(uint8_t *buf, uint8_t len){
+    if (!g_initailized) return 0;
+    int recvLen = 0;
+
+    HAL_MutexLock(&g_wirelessMutex, HAL_OS_WAIT_FOREVER);
+    NRF24L01_RX_Mode(&nrf24l01);
+    recvLen =  NRF24L01_RxPacket(&nrf24l01, buf, len);
+    HAL_MutexUnlock(&g_wirelessMutex);
+
+    return recvLen;
+}
+
 int wirelessSend(uint8_t *buf, uint8_t len){
-    return NRF24L01_TxPacket(&nrf24l01, buf, len);
+    if (!g_initailized) return 0;
+
+    int sendLen = 0;
+
+    HAL_MutexLock(&g_wirelessMutex,HAL_OS_WAIT_FOREVER);
+
+    sendLen = NRF24L01_TxPacket(&nrf24l01, buf, 32);
+    HAL_MutexUnlock(&g_wirelessMutex);
+
+    return sendLen;
 }

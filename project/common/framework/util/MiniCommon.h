@@ -47,10 +47,6 @@
 #include "common/framework/UnityManager/UnityManager.h"
 
 
-#define FIRMWARE_NAME                   "MiNIFoc_f4"
-#define HARDWARE_VERSION               "V1.0.2"
-#define SOFTWARE_VERSION               SDK_VERSION_STR
-
 enum {
   LED_OFF = 0,
   LED_ON,

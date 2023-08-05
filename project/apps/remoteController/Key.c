@@ -8,9 +8,14 @@
   ******************************************************************************
   */
 
-#include "common/framework/multiButton/multi_button.h"
 #include <stdio.h>
 #include "common/framework/util/MiniCommon.h"
+#include "common/framework/multiButton/multi_button.h"
+#include "driver/hal/hal_board.h"
+#include "driver/hal/hal_gpio.h"
+#include "key.h"
+#include "main.h"
+#include "event.h"
 
 #undef LOG_TAG
 #define LOG_TAG "MiniButton"
@@ -52,20 +57,16 @@ static uint8_t readConfirmButtonLevel(uint8_t button_id_) {
 static void buttonCallback(void *args) {
     struct Button *btn = (struct Button *) args;
 
-    button_press_pending_flag = 1;
-//    log_d("id %d event %d", btn->button_id, btn->event);
+//    log_i("id %d event %d", btn->button_id, btn->event);
     switch (btn->button_id) {
-        case REMOTE_BUTTON_LEFT: {
-//	  log_d("press left\n");
-        }
+        case REMOTE_BUTTON_LEFT:
+            eventSend(EVENT_TYPE_KEY, KEY_LEFT, 0);
             break;
-        case REMOTE_BUTTON_RIGHT: {
-//	  log_d("press right\n");
-        }
+        case REMOTE_BUTTON_RIGHT:
+            eventSend(EVENT_TYPE_KEY, KEY_RIGHT, 0);
             break;
-        case REMOTE_BUTTON_CONFIRM: {
-//	  log_d("press confirm\n");
-        }
+        case REMOTE_BUTTON_CONFIRM:
+            eventSend(EVENT_TYPE_KEY, KEY_OK, 0);
             break;
     }
 }
@@ -77,15 +78,15 @@ static void buttonTickTask(void *args) {
 }
 
 void keyInit(void) {
-    button_init(&leftButton, readLeftButtonLevel, 0, 0);
+    button_init(&leftButton, readLeftButtonLevel, 0, REMOTE_BUTTON_LEFT);
     button_attach(&leftButton, SINGLE_CLICK, buttonCallback);
     button_start(&leftButton);
 
-    button_init(&rightButton, readRightButtonLevel, 0, 1);
+    button_init(&rightButton, readRightButtonLevel, 0, REMOTE_BUTTON_RIGHT);
     button_attach(&rightButton, SINGLE_CLICK, buttonCallback);
     button_start(&rightButton);
 
-    button_init(&confirmButton, readConfirmButtonLevel, 0, 2);
+    button_init(&confirmButton, readConfirmButtonLevel, 0, REMOTE_BUTTON_CONFIRM);
     button_attach(&confirmButton, SINGLE_CLICK, buttonCallback);
     button_start(&confirmButton);
 

@@ -227,6 +227,30 @@ project/apps/remoteController/Led.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Led.c.s
 .PHONY : project/apps/remoteController/Led.c.s
 
+project/apps/remoteController/event.obj: project/apps/remoteController/event.c.obj
+.PHONY : project/apps/remoteController/event.obj
+
+# target to build an object file
+project/apps/remoteController/event.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/event.c.obj
+.PHONY : project/apps/remoteController/event.c.obj
+
+project/apps/remoteController/event.i: project/apps/remoteController/event.c.i
+.PHONY : project/apps/remoteController/event.i
+
+# target to preprocess a source file
+project/apps/remoteController/event.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/event.c.i
+.PHONY : project/apps/remoteController/event.c.i
+
+project/apps/remoteController/event.s: project/apps/remoteController/event.c.s
+.PHONY : project/apps/remoteController/event.s
+
+# target to generate assembly for a file
+project/apps/remoteController/event.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/event.c.s
+.PHONY : project/apps/remoteController/event.c.s
+
 project/apps/remoteController/main.obj: project/apps/remoteController/main.c.obj
 .PHONY : project/apps/remoteController/main.obj
 
@@ -250,6 +274,30 @@ project/apps/remoteController/main.s: project/apps/remoteController/main.c.s
 project/apps/remoteController/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/main.c.s
 .PHONY : project/apps/remoteController/main.c.s
+
+project/apps/remoteController/remote.obj: project/apps/remoteController/remote.c.obj
+.PHONY : project/apps/remoteController/remote.obj
+
+# target to build an object file
+project/apps/remoteController/remote.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/remote.c.obj
+.PHONY : project/apps/remoteController/remote.c.obj
+
+project/apps/remoteController/remote.i: project/apps/remoteController/remote.c.i
+.PHONY : project/apps/remoteController/remote.i
+
+# target to preprocess a source file
+project/apps/remoteController/remote.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/remote.c.i
+.PHONY : project/apps/remoteController/remote.c.i
+
+project/apps/remoteController/remote.s: project/apps/remoteController/remote.c.s
+.PHONY : project/apps/remoteController/remote.s
+
+# target to generate assembly for a file
+project/apps/remoteController/remote.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/remote.c.s
+.PHONY : project/apps/remoteController/remote.c.s
 
 project/apps/remoteController/wireless.obj: project/apps/remoteController/wireless.c.obj
 .PHONY : project/apps/remoteController/wireless.obj
@@ -2379,173 +2427,53 @@ src/libc/wrap_time.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/libc/wrap_time.c.s
 .PHONY : src/libc/wrap_time.c.s
 
-src/log/easylogger/plugins/flash/elog_flash.obj: src/log/easylogger/plugins/flash/elog_flash.c.obj
-.PHONY : src/log/easylogger/plugins/flash/elog_flash.obj
+src/sys/common/sys_heap.obj: src/sys/common/sys_heap.c.obj
+.PHONY : src/sys/common/sys_heap.obj
 
 # target to build an object file
-src/log/easylogger/plugins/flash/elog_flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.obj
-.PHONY : src/log/easylogger/plugins/flash/elog_flash.c.obj
+src/sys/common/sys_heap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/common/sys_heap.c.obj
+.PHONY : src/sys/common/sys_heap.c.obj
 
-src/log/easylogger/plugins/flash/elog_flash.i: src/log/easylogger/plugins/flash/elog_flash.c.i
-.PHONY : src/log/easylogger/plugins/flash/elog_flash.i
+src/sys/common/sys_heap.i: src/sys/common/sys_heap.c.i
+.PHONY : src/sys/common/sys_heap.i
 
 # target to preprocess a source file
-src/log/easylogger/plugins/flash/elog_flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.i
-.PHONY : src/log/easylogger/plugins/flash/elog_flash.c.i
+src/sys/common/sys_heap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/common/sys_heap.c.i
+.PHONY : src/sys/common/sys_heap.c.i
 
-src/log/easylogger/plugins/flash/elog_flash.s: src/log/easylogger/plugins/flash/elog_flash.c.s
-.PHONY : src/log/easylogger/plugins/flash/elog_flash.s
+src/sys/common/sys_heap.s: src/sys/common/sys_heap.c.s
+.PHONY : src/sys/common/sys_heap.s
 
 # target to generate assembly for a file
-src/log/easylogger/plugins/flash/elog_flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/plugins/flash/elog_flash.c.s
-.PHONY : src/log/easylogger/plugins/flash/elog_flash.c.s
+src/sys/common/sys_heap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/common/sys_heap.c.s
+.PHONY : src/sys/common/sys_heap.c.s
 
-src/log/easylogger/plugins/flash/elog_flash_port.obj: src/log/easylogger/plugins/flash/elog_flash_port.c.obj
-.PHONY : src/log/easylogger/plugins/flash/elog_flash_port.obj
+src/sys/sram_heap/sram_heap.obj: src/sys/sram_heap/sram_heap.c.obj
+.PHONY : src/sys/sram_heap/sram_heap.obj
 
 # target to build an object file
-src/log/easylogger/plugins/flash/elog_flash_port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.obj
-.PHONY : src/log/easylogger/plugins/flash/elog_flash_port.c.obj
+src/sys/sram_heap/sram_heap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/sram_heap/sram_heap.c.obj
+.PHONY : src/sys/sram_heap/sram_heap.c.obj
 
-src/log/easylogger/plugins/flash/elog_flash_port.i: src/log/easylogger/plugins/flash/elog_flash_port.c.i
-.PHONY : src/log/easylogger/plugins/flash/elog_flash_port.i
-
-# target to preprocess a source file
-src/log/easylogger/plugins/flash/elog_flash_port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.i
-.PHONY : src/log/easylogger/plugins/flash/elog_flash_port.c.i
-
-src/log/easylogger/plugins/flash/elog_flash_port.s: src/log/easylogger/plugins/flash/elog_flash_port.c.s
-.PHONY : src/log/easylogger/plugins/flash/elog_flash_port.s
-
-# target to generate assembly for a file
-src/log/easylogger/plugins/flash/elog_flash_port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/plugins/flash/elog_flash_port.c.s
-.PHONY : src/log/easylogger/plugins/flash/elog_flash_port.c.s
-
-src/log/easylogger/port/elog_port.obj: src/log/easylogger/port/elog_port.c.obj
-.PHONY : src/log/easylogger/port/elog_port.obj
-
-# target to build an object file
-src/log/easylogger/port/elog_port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/port/elog_port.c.obj
-.PHONY : src/log/easylogger/port/elog_port.c.obj
-
-src/log/easylogger/port/elog_port.i: src/log/easylogger/port/elog_port.c.i
-.PHONY : src/log/easylogger/port/elog_port.i
+src/sys/sram_heap/sram_heap.i: src/sys/sram_heap/sram_heap.c.i
+.PHONY : src/sys/sram_heap/sram_heap.i
 
 # target to preprocess a source file
-src/log/easylogger/port/elog_port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/port/elog_port.c.i
-.PHONY : src/log/easylogger/port/elog_port.c.i
+src/sys/sram_heap/sram_heap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/sram_heap/sram_heap.c.i
+.PHONY : src/sys/sram_heap/sram_heap.c.i
 
-src/log/easylogger/port/elog_port.s: src/log/easylogger/port/elog_port.c.s
-.PHONY : src/log/easylogger/port/elog_port.s
-
-# target to generate assembly for a file
-src/log/easylogger/port/elog_port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/port/elog_port.c.s
-.PHONY : src/log/easylogger/port/elog_port.c.s
-
-src/log/easylogger/src/elog.obj: src/log/easylogger/src/elog.c.obj
-.PHONY : src/log/easylogger/src/elog.obj
-
-# target to build an object file
-src/log/easylogger/src/elog.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog.c.obj
-.PHONY : src/log/easylogger/src/elog.c.obj
-
-src/log/easylogger/src/elog.i: src/log/easylogger/src/elog.c.i
-.PHONY : src/log/easylogger/src/elog.i
-
-# target to preprocess a source file
-src/log/easylogger/src/elog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog.c.i
-.PHONY : src/log/easylogger/src/elog.c.i
-
-src/log/easylogger/src/elog.s: src/log/easylogger/src/elog.c.s
-.PHONY : src/log/easylogger/src/elog.s
+src/sys/sram_heap/sram_heap.s: src/sys/sram_heap/sram_heap.c.s
+.PHONY : src/sys/sram_heap/sram_heap.s
 
 # target to generate assembly for a file
-src/log/easylogger/src/elog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog.c.s
-.PHONY : src/log/easylogger/src/elog.c.s
-
-src/log/easylogger/src/elog_async.obj: src/log/easylogger/src/elog_async.c.obj
-.PHONY : src/log/easylogger/src/elog_async.obj
-
-# target to build an object file
-src/log/easylogger/src/elog_async.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_async.c.obj
-.PHONY : src/log/easylogger/src/elog_async.c.obj
-
-src/log/easylogger/src/elog_async.i: src/log/easylogger/src/elog_async.c.i
-.PHONY : src/log/easylogger/src/elog_async.i
-
-# target to preprocess a source file
-src/log/easylogger/src/elog_async.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_async.c.i
-.PHONY : src/log/easylogger/src/elog_async.c.i
-
-src/log/easylogger/src/elog_async.s: src/log/easylogger/src/elog_async.c.s
-.PHONY : src/log/easylogger/src/elog_async.s
-
-# target to generate assembly for a file
-src/log/easylogger/src/elog_async.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_async.c.s
-.PHONY : src/log/easylogger/src/elog_async.c.s
-
-src/log/easylogger/src/elog_buf.obj: src/log/easylogger/src/elog_buf.c.obj
-.PHONY : src/log/easylogger/src/elog_buf.obj
-
-# target to build an object file
-src/log/easylogger/src/elog_buf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_buf.c.obj
-.PHONY : src/log/easylogger/src/elog_buf.c.obj
-
-src/log/easylogger/src/elog_buf.i: src/log/easylogger/src/elog_buf.c.i
-.PHONY : src/log/easylogger/src/elog_buf.i
-
-# target to preprocess a source file
-src/log/easylogger/src/elog_buf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_buf.c.i
-.PHONY : src/log/easylogger/src/elog_buf.c.i
-
-src/log/easylogger/src/elog_buf.s: src/log/easylogger/src/elog_buf.c.s
-.PHONY : src/log/easylogger/src/elog_buf.s
-
-# target to generate assembly for a file
-src/log/easylogger/src/elog_buf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_buf.c.s
-.PHONY : src/log/easylogger/src/elog_buf.c.s
-
-src/log/easylogger/src/elog_utils.obj: src/log/easylogger/src/elog_utils.c.obj
-.PHONY : src/log/easylogger/src/elog_utils.obj
-
-# target to build an object file
-src/log/easylogger/src/elog_utils.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_utils.c.obj
-.PHONY : src/log/easylogger/src/elog_utils.c.obj
-
-src/log/easylogger/src/elog_utils.i: src/log/easylogger/src/elog_utils.c.i
-.PHONY : src/log/easylogger/src/elog_utils.i
-
-# target to preprocess a source file
-src/log/easylogger/src/elog_utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_utils.c.i
-.PHONY : src/log/easylogger/src/elog_utils.c.i
-
-src/log/easylogger/src/elog_utils.s: src/log/easylogger/src/elog_utils.c.s
-.PHONY : src/log/easylogger/src/elog_utils.s
-
-# target to generate assembly for a file
-src/log/easylogger/src/elog_utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/log/easylogger/src/elog_utils.c.s
-.PHONY : src/log/easylogger/src/elog_utils.c.s
+src/sys/sram_heap/sram_heap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/sram_heap/sram_heap.c.s
+.PHONY : src/sys/sram_heap/sram_heap.c.s
 
 src/test/unity/unity.obj: src/test/unity/unity.c.obj
 .PHONY : src/test/unity/unity.obj
@@ -2592,9 +2520,15 @@ help:
 	@echo ... project/apps/remoteController/Led.obj
 	@echo ... project/apps/remoteController/Led.i
 	@echo ... project/apps/remoteController/Led.s
+	@echo ... project/apps/remoteController/event.obj
+	@echo ... project/apps/remoteController/event.i
+	@echo ... project/apps/remoteController/event.s
 	@echo ... project/apps/remoteController/main.obj
 	@echo ... project/apps/remoteController/main.i
 	@echo ... project/apps/remoteController/main.s
+	@echo ... project/apps/remoteController/remote.obj
+	@echo ... project/apps/remoteController/remote.i
+	@echo ... project/apps/remoteController/remote.s
 	@echo ... project/apps/remoteController/wireless.obj
 	@echo ... project/apps/remoteController/wireless.i
 	@echo ... project/apps/remoteController/wireless.s
@@ -2861,27 +2795,12 @@ help:
 	@echo ... src/libc/wrap_time.obj
 	@echo ... src/libc/wrap_time.i
 	@echo ... src/libc/wrap_time.s
-	@echo ... src/log/easylogger/plugins/flash/elog_flash.obj
-	@echo ... src/log/easylogger/plugins/flash/elog_flash.i
-	@echo ... src/log/easylogger/plugins/flash/elog_flash.s
-	@echo ... src/log/easylogger/plugins/flash/elog_flash_port.obj
-	@echo ... src/log/easylogger/plugins/flash/elog_flash_port.i
-	@echo ... src/log/easylogger/plugins/flash/elog_flash_port.s
-	@echo ... src/log/easylogger/port/elog_port.obj
-	@echo ... src/log/easylogger/port/elog_port.i
-	@echo ... src/log/easylogger/port/elog_port.s
-	@echo ... src/log/easylogger/src/elog.obj
-	@echo ... src/log/easylogger/src/elog.i
-	@echo ... src/log/easylogger/src/elog.s
-	@echo ... src/log/easylogger/src/elog_async.obj
-	@echo ... src/log/easylogger/src/elog_async.i
-	@echo ... src/log/easylogger/src/elog_async.s
-	@echo ... src/log/easylogger/src/elog_buf.obj
-	@echo ... src/log/easylogger/src/elog_buf.i
-	@echo ... src/log/easylogger/src/elog_buf.s
-	@echo ... src/log/easylogger/src/elog_utils.obj
-	@echo ... src/log/easylogger/src/elog_utils.i
-	@echo ... src/log/easylogger/src/elog_utils.s
+	@echo ... src/sys/common/sys_heap.obj
+	@echo ... src/sys/common/sys_heap.i
+	@echo ... src/sys/common/sys_heap.s
+	@echo ... src/sys/sram_heap/sram_heap.obj
+	@echo ... src/sys/sram_heap/sram_heap.i
+	@echo ... src/sys/sram_heap/sram_heap.s
 	@echo ... src/test/unity/unity.obj
 	@echo ... src/test/unity/unity.i
 	@echo ... src/test/unity/unity.s

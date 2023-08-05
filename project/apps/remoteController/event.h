@@ -23,31 +23,46 @@
 //  *
 
 //
-// Created by 86189 on 2023/5/30.
+// Created by 86189 on 2023/8/5.
 //
 
-#ifndef MINIFOC_F4_HAL_TIMER_H
-#define MINIFOC_F4_HAL_TIMER_H
-#include "driver/hal/hal_def.h"
+#ifndef REMOTE_CONTROL_EVENT_H
+#define REMOTE_CONTROL_EVENT_H
+#include <stdint.h>
 
-#ifdef __cplusplus
-extern "C" {
-#endif
+
+typedef struct {
+    uint8_t type;
+    uint32_t data;
+}RemoteEvent_t;
+
+enum {
+    EVENT_TYPE_KEY,
+    EVENT_TYPE_JOYSTICK,
+};
+
+enum {
+    KEY_UP,
+    KEY_DOWN,
+    KEY_LEFT,
+    KEY_RIGHT,
+    KEY_OK,
+    KEY_CANCEL,
+};
+
+
 
 /**
- * @brief Timer initialization
- * @return HAL_Status_ok if success, else error code
+ * @brief Init event queue
  */
-HAL_Status HAL_timerInit(void);
+void eventInit(void);
 
 /**
- * @brief Timer de-initialization
+ * @brief Send event to event queue,  timeout must be 0 for IRQ call
+ * @param type event type
+ * @param data event data
+ * @param timeout timeout ms
  */
-void HAl_timerDeinit(void);
+void eventSend(uint8_t type, uint32_t data, uint32_t timeout);
 
-void ConfigureTimeForRunTimeStats(void);
-
-#ifdef __cplusplus
-}
-#endif
-#endif //MINIFOC_F4_HAL_TIMER_H
+#endif //REMOTE_CONTROL_EVENT_H

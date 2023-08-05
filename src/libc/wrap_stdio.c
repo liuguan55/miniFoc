@@ -33,6 +33,7 @@
 #include "sys/interrupt.h"
 #include "cmsis_gcc.h"
 
+
 #define WRAP_STDOUT_BUF_SIZE	256 //1024
 
 static char s_stdout_buf[WRAP_STDOUT_BUF_SIZE];

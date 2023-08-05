@@ -34,6 +34,8 @@
 #include "Key.h"
 #include "Joystick.h"
 #include "wireless.h"
+#include "remote.h"
+#include "event.h"
 
 #undef LOG_TAG
 #define LOG_TAG "main"
@@ -44,14 +46,14 @@
   * @retval int
   */
 int main(void) {
+    eventInit();
     keyInit();
     buzzerOn();
-    Joystick_Init();
     ledTaskStart();
-  //  wirelessInit();
+    wirelessInit();
+    Joystick_Init();
+
     while (1){
-        Joystick_Get();
-        printf("Hello World!\n");
         HAL_msleep(1000);
     }
 

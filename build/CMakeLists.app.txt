@@ -11,9 +11,9 @@ if(${project_app} STREQUAL "remote_control")
         set(USE_RTOS_SYSTEM ON CACHE BOOL "Use RTOS" FORCE)
         set(USE_BACKTRACE ON CACHE BOOL "Use BACKTRACE" FORCE)
         set(USE_SHELL ON CACHE BOOL "Use SHELL" FORCE)
-        set(USE_LOG ON CACHE BOOL "Use LOG" FORCE)
         set(USE_UNITTEST ON CACHE BOOL "Use UNITTEST" FORCE)
         set(USE_WIRELESS ON CACHE BOOL "Use WIRELESS" FORCE)
+        set(USE_LOG OFF CACHE BOOL "Use LOG" FORCE)
 
         file(GLOB_RECURSE  APP_SOURCES  project/apps/remoteController/*.*
                                        "project/common/board/remoteController/*.*")
@@ -224,7 +224,7 @@ if (USE_LIBC)
 
         add_definitions(-DUSE_LIBC)
         #add_definitions(-D__CONFIG_MALLOC_MODE=1 -D__CONFIG_MALLOC_TRACE -DHEAP_BACKTRACE)
-        #add_definitions(-D__CONFIG_MALLOC_MODE=1)
+        add_definitions(-D__CONFIG_MALLOC_MODE=1 )
 
         file(GLOB_RECURSE LIBC_SOURCES "src/libc/*.*")
         list(APPEND SOURCES        ${LIBC_SOURCES})

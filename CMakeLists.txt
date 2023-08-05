@@ -23,7 +23,7 @@ include_directories(
 )
 
 file(GLOB_RECURSE BASE_SOURCES
-        "src/sys/*.* "
+        "src/sys/*.*"
         "src/core/*.*"
         "src/driver/hal/*.*"
         "project/common/board/Board.c"

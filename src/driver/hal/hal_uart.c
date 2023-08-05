@@ -348,6 +348,9 @@ HAL_Status HAL_UartRecv(HAL_UART_ID uartId, uint8_t *buf, uint16_t len, uint32_t
     HAL_SemaphoreWait(&p->rxSem, 100);
 #endif
     *recvLen = lwrb_read(&p->ringHandle, buf, len);
+    if (*recvLen == 0) {
+        HAL_UART_Receive_IT(&p->huart, p->rxbuffer, sizeof(p->rxbuffer));
+    }
 
     return HAL_STATUS_OK;
 }

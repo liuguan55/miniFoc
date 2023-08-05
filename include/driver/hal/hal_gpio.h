@@ -206,6 +206,7 @@ typedef struct {
     GPIO_PullType pull;
     GPIO_DrivingLevel speed;
     GPIO_AF     alternate;
+    int8_t      initLevel;
 } GPIO_InitParam;
 
 

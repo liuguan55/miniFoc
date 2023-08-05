@@ -34,7 +34,7 @@
 #include "sys/MiniDebug.h"
 #include "driver/hal/hal_gpio.h"
 
-
+//#undef  USE_RTOS_SYSTEM
 typedef struct {
 #ifdef USE_RTOS_SYSTEM
     HAL_Semaphore spiSem;

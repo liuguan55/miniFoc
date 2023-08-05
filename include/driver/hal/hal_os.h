@@ -130,6 +130,42 @@ static __inline HAL_Status HAL_MutexUnlock(HAL_Mutex *mtx)
     return osMutexRelease(*mtx) == osOK ? HAL_STATUS_OK : HAL_STATUS_ERROR;
 }
 
+typedef osMessageQueueId_t HAL_Queue;
+
+static __inline HAL_Status HAL_QueueInit(HAL_Queue *queue, uint32_t msgSize, uint32_t msgNum)
+{
+    *queue = osMessageQueueNew(msgNum, msgSize, NULL);
+    return *queue ? HAL_STATUS_OK : HAL_STATUS_ERROR;
+}
+
+static __inline HAL_Status HAL_QueueDeinit(HAL_Queue *queue)
+{
+    return osMessageQueueDelete(*queue) == osOK ? HAL_STATUS_OK : HAL_STATUS_ERROR;
+}
+
+static __inline HAL_Status HAL_QueueSend(HAL_Queue *queue, const void *msg, uint32_t msec)
+{
+    return osMessageQueuePut(*queue, msg, 0, msec) == osOK ? HAL_STATUS_OK : HAL_STATUS_ERROR;
+}
+
+static __inline HAL_Status HAL_QueueTrySend(HAL_Queue *queue, const void *msg)
+{
+    return HAL_QueueSend(queue, msg, 0);
+}
+
+static __inline HAL_Status HAL_QueueRecv(HAL_Queue *queue, void *msg, uint32_t msec)
+{
+    return osMessageQueueGet(*queue, msg, NULL, msec) == osOK ? HAL_STATUS_OK : HAL_STATUS_ERROR;
+}
+
+static __inline HAL_Status HAL_QueueTryRecv(HAL_Queue *queue, void *msg)
+{
+    return HAL_QueueRecv(queue, msg, 0);
+}
+
+
+
+
 /* Thread */
 typedef osThreadId_t HAL_Thread;
 
@@ -156,8 +192,12 @@ static __inline HAL_Status HAL_ThreadCreate(void (*entry)(void *), const char *n
     attr.stack_size = stackSize;
     attr.priority = priority;
 
-    *thread = osThreadNew(entry, arg, &attr);
-    return *thread ? HAL_STATUS_OK : HAL_STATUS_ERROR;
+    osThreadId_t  threadId = osThreadNew(entry, arg, &attr);
+    if (thread){
+        *thread = threadId;
+    }
+
+    return threadId ? HAL_STATUS_OK : HAL_STATUS_ERROR;
 }
 
 static __inline HAL_Status HAL_ThreadDelete(HAL_Thread *thread)
@@ -279,7 +319,7 @@ static __inline uint32_t HAL_Ticks(void)
 #endif
 }
 
-static __inline void HAL_delayMs(uint32_t msec)
+static __inline void HAL_msleep(uint32_t msec)
 {
 #ifdef USE_RTOS_SYSTEM
     osDelay(msec);
@@ -305,23 +345,28 @@ static __inline uint32_t HAL_TicksToSecs(uint32_t t)
     return t / 1000;
 }
 
-static __inline uint32_t HAL_Millis(void)
+static __inline uint32_t HAL_millis(void)
 {
     return HAL_TicksToMSecs(HAL_Ticks());
 }
-static __inline uint32_t HAL_Seconds(void)
+static __inline uint32_t HAL_seconds(void)
 {
     return HAL_TicksToSecs(HAL_Ticks());
 }
 
-static __inline uint32_t HAL_ElapsedMillis(uint32_t start)
+/**
+ * @brief Get the elapesd millis from start
+ * @param start
+ * @return
+ */
+static __inline uint32_t HAL_elapsedMillis(uint32_t start)
 {
-    return HAL_Millis() - start;
+    return HAL_millis() - start;
 }
 
-static __inline uint32_t HAL_ElapsedSeconds(uint32_t start)
+static __inline uint32_t HAL_elapsedSeconds(uint32_t start)
 {
-    return HAL_Seconds() - start;
+    return HAL_seconds() - start;
 }
 
 /* Memory */

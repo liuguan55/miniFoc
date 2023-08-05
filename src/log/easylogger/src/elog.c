@@ -720,9 +720,11 @@ void elog_output(uint8_t level, const char *tag, const char *file, const char *f
   elog_port_output2(level,log_buf, log_len);
 #endif
 
+#if PRJCONF_SPIFLASH_EN
     if (level <= ELOG_LVL_WARN){
         elog_flash_write(log_buf, log_len);
     }
+#endif
 
     /* unlock driver */
     elog_output_unlock();

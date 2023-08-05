@@ -1,6 +1,7 @@
 #ifndef __NRF24L01_H
 #define __NRF24L01_H
 #include <stdint.h>
+#include <stdlib.h>
 
 #define ADDRESS_WIDTH 5
 
@@ -55,13 +56,6 @@ uint8_t NRF24L01_TxPacket(NRF24L01_t *nrf24l01, uint8_t *txbuf, size_t txLength)
  */
 uint8_t NRF24L01_RxPacket(NRF24L01_t *nrf24l01, uint8_t *rxbuf, size_t rxLength);
 
-/**
- * @brief set nrf24l01 to rx mode
- * @param nrf24l01 pointer to nrf24l01 handle
- */
-void NRF24L01_RX_Mode(NRF24L01_t *nrf24l01);
-
- 
 /**
  * @brief set nrf24l01 to rx mode
  * @param nrf24l01 pointer to nrf24l01 handle

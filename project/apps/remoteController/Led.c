@@ -35,6 +35,13 @@ void ledOff(){
 
     HAL_GpioWritePin(pinmux_info.pinmux[0].port, pinmux_info.pinmux[0].pin, GPIO_PIN_LOW);
 }
+
+void ledToggle(){
+    board_pinmux_info_t pinmux_info;
+    HAL_BoardIoctl(HAL_BIR_GET_CFG, HAL_MKDEV(HAL_DEV_MAJOR_GPIO, REMOTE_LED_ID), (uint32_t)&pinmux_info);
+
+    HAL_GpioTogglePin(pinmux_info.pinmux[0].port, pinmux_info.pinmux[0].pin);
+}
 /**
   * @brief  The led task.
   *
@@ -56,5 +63,5 @@ void ledTask(void  *args){
 void ledTaskStart(){
     static HAL_Timer timer;
     HAL_TimerInit(&timer, osTimerPeriodic, ledTask, NULL);
-    HAL_TimerStart(&timer, 500);
+    HAL_TimerStart(&timer, 1000);
 }

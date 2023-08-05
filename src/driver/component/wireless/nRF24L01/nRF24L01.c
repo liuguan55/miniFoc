@@ -1,6 +1,7 @@
-#include "nRF24L01.h"
+#include "driver/component/wireless/nRF24L01/nRF24L01.h"
 #include <stdio.h>
 #include <string.h>
+#include "driver/hal/hal_os.h"
 
 
 // NRF24L01发送接收数据宽度定义
@@ -67,16 +68,15 @@
 
 int8_t NRF24L01_Check(NRF24L01_t *nrf24l01){
 	uint8_t buf[TX_ADR_WIDTH]={0};
-	
+
 	NRF24L01_ops_t *ops = nrf24l01->ops;
-	ops->ceEnable(1);
 	ops->writeBuf(NRF_WRITE_REG+TX_ADDR, nrf24l01->address, TX_ADR_WIDTH); //写入5个字节的地址.
 	ops->readBuf(TX_ADDR, buf, 5); //读出写入的地址
 	if(memcmp(buf, nrf24l01->address, TX_ADR_WIDTH) != 0) {
 		return -1;
 	}
 
-	return 0;		 	//检测到24L01
+	return 0;
 }	
  
 
@@ -92,7 +92,7 @@ uint8_t NRF24L01_TxPacket(NRF24L01_t *nrf24l01, uint8_t *txbuf, size_t txLength)
 
 	uint32_t now = HAL_millis();
 	while(ops->dataReady() != 0){
-		if (HAL_elapesdMillis(now) > 1000) {
+		if (HAL_elapsedMillis(now) > 1000) {
 			return 0;
 		}
 
@@ -152,7 +152,7 @@ void NRF24L01_RX_Mode(NRF24L01_t *nrf24l01){
 
 	ops->ceEnable(1); //CE为高,进入接收模式
 
-	HAL_msleep(1);
+    HAL_Delay(1);
 }	
  
 void NRF24L01_TX_Mode(NRF24L01_t *nrf24l01){				
@@ -172,7 +172,7 @@ void NRF24L01_TX_Mode(NRF24L01_t *nrf24l01){
 	ops->writeReg(NRF_WRITE_REG+CONFIG,0x0e);    //配置基本工作模式的参数;PWR_UP,EN_CRC,16BIT_CRC,接收模式,开启所有中断
 	ops->ceEnable(1);//CE为高,10us后启动发送
 
-	hal_msleep(1);
+    HAL_Delay(1);
 }
  
 /**

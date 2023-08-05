@@ -79,6 +79,8 @@ typedef struct  {
     uint32_t count;
 }board_adc_info_t;
 
+typedef void (*HAL_ADC_Callback_t)(uint16_t *data, uint32_t size);
+
 /**
  * @brief adc init
  * @param id
@@ -128,6 +130,13 @@ uint32_t HAL_adcGetChannelCount(HAL_ADC_ID id);
  * @return adc value
  */
 int32_t HAL_adcReadMulti(HAL_ADC_ID id, uint16_t *buffer, uint16_t size, uint32_t msec);
+
+/**
+ * @brief set adc callback
+ * @param id adc id
+ * @param callback adc callback
+ */
+void HAL_adcSetCallback(HAL_ADC_ID id, HAL_ADC_Callback_t callback);
 #ifdef __cplusplus
 }
 #endif

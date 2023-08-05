@@ -29,12 +29,14 @@
 #ifndef MINIFOC_F4_PROJECTCONF_H
 #define MINIFOC_F4_PROJECTCONF_H
 #include "driver/hal/hal_os.h"
+#include "version.h"
 
 #include "pri_conf_app.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
+
 
 
 /* main thread priority */

@@ -257,6 +257,7 @@ HAL_Status HAL_GpioInit(GPIO_Port port, GPIO_Pin pin, const GPIO_InitParam *para
         if (pInitTypeDef == NULL) {
             return HAL_STATUS_MEM_FAILED;
         }
+
         GPIO_SetInitHandle(GPIO_PIN_TO_NUM(port, pin), pInitTypeDef);
     }else {
         printf("[%d:%d]gpio already init\n", port, pin);
@@ -275,6 +276,7 @@ HAL_Status HAL_GpioInit(GPIO_Port port, GPIO_Pin pin, const GPIO_InitParam *para
     pInitTypeDef->Alternate = param->alternate;
 #endif
     HAL_GPIO_Init(gpiox, pInitTypeDef);
+    HAL_GPIO_WritePin(gpiox, GPIO_PINS(pin), param->initLevel);
 
     return HAL_STATUS_OK;
 }

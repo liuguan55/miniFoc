@@ -14,11 +14,16 @@ typedef struct
 	uint16_t Rz;
 	uint16_t Lz;
 	uint16_t Battery;
+
+    uint16_t Lx_offset;
+    uint16_t Ly_offset;
+    uint16_t Rx_offset;
+    uint16_t Ry_offset;
 }Joystick_t;
 
 Joystick_t* Joystick_Get(void);
 void Joystick_Init(void);
-void Joystick_GetData(void);
+Joystick_t* Joystick_GetData(void);
 #endif
 
 

@@ -14,3 +14,11 @@ void wirelessInit(void);
  * @return send length
  */
 int wirelessSend(uint8_t *buf, uint8_t len);
+
+/**
+ * @brief Receive data from wireless
+ * @param buf pointer to data
+ * @param len pointer to data length
+ * @return receive length
+ */
+int wirelessRecv(uint8_t *buf, uint8_t len);
