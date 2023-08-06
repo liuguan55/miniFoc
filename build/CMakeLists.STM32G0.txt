@@ -3,12 +3,12 @@ SET(FPU_FLAGS "-mfloat-abi=soft")
 
 SET(COMMON_FLAGS
     "-mcpu=cortex-m0 ${FPU_FLAGS} -mthumb  -specs=nano.specs -mthumb-interwork -ffunction-sections -fdata-sections \
-    -g -fno-common -fmessage-length=0  ")
+    -g -O3 -fno-common -fmessage-length=0  ")
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER)
 
 
-string(TOUPPER STM32F1 TARGET_MCU_UPPER)
+string(TOUPPER STM32G0 TARGET_MCU_UPPER)
 add_definitions(-DTARGET_MCU_${TARGET_MCU_UPPER})
 
 file(GLOB_RECURSE PLATFORM_SOURCES "src/driver/chip/platform/STM32G0xx_HAL_Driver/*.*"

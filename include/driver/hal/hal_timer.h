@@ -47,6 +47,7 @@ void HAl_timerDeinit(void);
 
 void ConfigureTimeForRunTimeStats(void);
 
+void HAL_DelayUs(uint32_t us);
 #ifdef __cplusplus
 }
 #endif

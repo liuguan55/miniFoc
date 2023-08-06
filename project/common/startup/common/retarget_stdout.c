@@ -84,9 +84,9 @@ int stdout_init(void)
 
 	if (board_uart_init(BOARD_MAIN_UART_ID) == HAL_STATUS_OK) {
 		g_stdout_uart_id = BOARD_MAIN_UART_ID;
-
+#ifdef USE_LIBC
 		stdio_set_write(stdout_write);
-
+#endif
 		return 0;
 	}
 

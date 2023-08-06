@@ -161,8 +161,10 @@ static HAL_Status I2CHwInit(HAL_I2C_ID i2cId, I2C_Config *i2CConfig)
 
     I2C_HandleTypeDef *pI2c = &pI2CPrivate->hi2c;
     pI2c->Instance = I2CInstanceGet(i2cId);
+#ifndef STM32G0
     pI2c->Init.ClockSpeed = i2CConfig->clockSpeed;
     pI2c->Init.DutyCycle = I2C_DUTYCYCLE_2;
+#endif
     pI2c->Init.OwnAddress1 = 0;
     pI2c->Init.AddressingMode = I2CAddrModeGet(i2CConfig->addrMode);
     pI2c->Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;

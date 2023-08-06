@@ -120,6 +120,20 @@ HAL_Status HAL_flashErase(uint32_t address, uint32_t size){
     eraseInit.TypeErase = FLASH_TYPEERASE_PAGES;
     eraseInit.PageAddress = address;
     eraseInit.NbPages = size / 1024;
+#elif defined(TARGET_MCU_STM32G0)
+    if (address < 0x08000000 || address >= 0x08100000){
+        return HAL_STATUS_ERROR;
+    }
+
+    size = HAL_ALIGN_UP(size, 1024);
+
+    if (address % 1024 != 0 || size % 1024 != 0){
+        return HAL_STATUS_ERROR;
+    }
+
+    eraseInit.TypeErase = FLASH_TYPEERASE_PAGES;
+    eraseInit.Page = address / 1024;
+    eraseInit.NbPages = size / 1024;
 #endif
     HAL_FLASH_Unlock();
     if (HAL_FLASHEx_Erase(&eraseInit, &sectorError)){
@@ -147,10 +161,18 @@ HAL_Status HAL_flashWrite(uint32_t address, uint32_t *data, uint32_t size){
 
     HAL_FLASH_Unlock();
     for (uint32_t i = 0; i < size; i++){
+
+#if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
         if (HAL_FLASH_Program(FLASH_TYPEPROGRAM_WORD, address + i * 4, data[i]) != HAL_OK){
             status = HAL_STATUS_ERROR;
             break;
         }
+#elif defined(TARGET_MCU_STM32G0)
+        if (HAL_FLASH_Program(FLASH_TYPEPROGRAM_FAST, address + i * 4, data[i]) != HAL_OK){
+            status = HAL_STATUS_ERROR;
+            break;
+        }
+#endif
     }
     HAL_FLASH_Lock();
 

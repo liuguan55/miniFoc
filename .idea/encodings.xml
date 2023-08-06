@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c" charset="GBK" />
+  </component>
+</project>

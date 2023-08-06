@@ -34,7 +34,7 @@
 #include "common/ProjectConf.h"
 #include "driver/hal/hal_spi.h"
 
-#include "common/board/miniFoc_v2/BoardConfig.h"
+#include "BoardConfig.h"
 
 #ifdef __cplusplus
 extern "C" {

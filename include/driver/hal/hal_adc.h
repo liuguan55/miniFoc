@@ -39,6 +39,11 @@ extern "C" {
 enum {
     HAL_ADC_1 = 0,
     HAL_ADC_2,
+    HAL_ADC_3,
+    HAL_ADC_4,
+    HAL_ADC_5,
+    HAL_ADC_6,
+    HAL_ADC_7,
     HAL_ADC_NR,
 };
 typedef uint8_t HAL_ADC_ID;

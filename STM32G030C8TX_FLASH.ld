@@ -33,11 +33,17 @@ _estack = ORIGIN(RAM) + LENGTH(RAM);	/* end of "RAM" Ram type memory */
 _Min_Heap_Size = 0x200;	/* required amount of heap  */
 _Min_Stack_Size = 0x400;	/* required amount of stack */
 
+__StackTop = _estack;
+__stack = __StackTop;
+_sstack = _estack - _Min_Stack_Size;
+__StackLimit = _sstack;
+
+__heap_end__ = _sstack;
 /* Memories definition */
 MEMORY
 {
   RAM    (xrw)    : ORIGIN = 0x20000000,   LENGTH = 8K
-  FLASH    (rx)    : ORIGIN = 0x8000000,   LENGTH = 64K
+  FLASH    (rx)    : ORIGIN = 0x8000000,   LENGTH = 32K
 }
 
 /* Sections */
@@ -55,6 +61,8 @@ SECTIONS
   .text :
   {
     . = ALIGN(4);
+    __text_start__ = .;
+    _stext = .;
     *(.text)           /* .text sections (code) */
     *(.text*)          /* .text* sections (code) */
     *(.glue_7)         /* glue arm to thumb code */
@@ -66,6 +74,7 @@ SECTIONS
 
     . = ALIGN(4);
     _etext = .;        /* define a global symbols at end of code */
+    __text_end__ = .;
   } >FLASH
 
   /* Constant data into "FLASH" Rom type memory */
@@ -75,6 +84,9 @@ SECTIONS
     *(.rodata)         /* .rodata sections (constants, strings, etc.) */
     *(.rodata*)        /* .rodata* sections (constants, strings, etc.) */
     . = ALIGN(4);
+    _shell_command_start = .;
+    KEEP (*(shellCommand))
+    _shell_command_end = .;
   } >FLASH
 
   .ARM.extab   : {
@@ -120,6 +132,7 @@ SECTIONS
     . = ALIGN(4);
   } >FLASH
 
+  __etext = .;
   /* Used by the startup to initialize data */
   _sidata = LOADADDR(.data);
 
@@ -128,12 +141,13 @@ SECTIONS
   {
     . = ALIGN(4);
     _sdata = .;        /* create a global symbol at data start */
+    __data_start__ = .;
     *(.data)           /* .data sections */
     *(.data*)          /* .data* sections */
 
     . = ALIGN(4);
     _edata = .;        /* define a global symbol at data end */
-
+    __data_end__ = .;
   } >RAM AT> FLASH
 
   /* Uninitialized data section into "RAM" Ram type memory */
@@ -156,11 +170,16 @@ SECTIONS
   ._user_heap_stack :
   {
     . = ALIGN(8);
+    __end__ = .;
+    __heap_start__ = .;
     PROVIDE ( end = . );
     PROVIDE ( _end = . );
+    end = __end__;
     . = . + _Min_Heap_Size;
+    __HeapLimit = .;
     . = . + _Min_Stack_Size;
     . = ALIGN(8);
+
   } >RAM
 
   /* Remove information from the compiler libraries */

@@ -3,6 +3,7 @@
 #include "hal_adc.h"
 #include "driver/hal/hal_os.h"
 #include "event.h"
+#include "wireless.h"
 
 #define CONTAIN(x, min, max) ((x) < (min) ? (min) : ((x) > (max) ? (max) : (x)))
 
@@ -18,7 +19,7 @@ void Joystick_callback(uint16_t *data, uint32_t size) {
 //         data[2], data[3], data[4], data[5], data[6]);
 
     static uint32_t now = 0;
-    if (HAL_millis() - now < 100){
+    if (HAL_millis() - now < 10 || wirelessState()){
         return;
     }
     now = HAL_millis();

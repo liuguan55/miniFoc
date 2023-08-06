@@ -33,7 +33,6 @@
 #include "driver/hal/hal_board.h"
 #include "driver/driver_chip.h"
 
-
 typedef struct {
     ADC_HandleTypeDef *adc;
     TIM_HandleTypeDef tim;
@@ -53,7 +52,9 @@ static AdcPrivate_t *adcPrivate[HAL_ADC_NR];
 
 static ADC_TypeDef *const adcInstance[HAL_ADC_NR] = {
         ADC1,
+#if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
         ADC2,
+#endif
 };
 
 static ADC_TypeDef * ADCInstanceGet(HAL_ADC_ID id) {
@@ -63,13 +64,16 @@ static ADC_TypeDef * ADCInstanceGet(HAL_ADC_ID id) {
 static void timerClockEnable(TIM_TypeDef *timer){
     if (timer == TIM1){
         __HAL_RCC_TIM1_CLK_ENABLE();
-    }else if (timer == TIM2){
+    }
+#if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
+    else if (timer == TIM2){
         __HAL_RCC_TIM2_CLK_ENABLE();
     }else if (timer == TIM3) {
         __HAL_RCC_TIM2_CLK_ENABLE();
     }else if (timer == TIM4) {
         __HAL_RCC_TIM4_CLK_ENABLE();
     }
+#endif
 }
 
 /**
@@ -121,19 +125,31 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc) {
 }
 
 static void ADCClockEnable(HAL_ADC_ID id) {
+#if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
     if (id == HAL_ADC_1) {
         __HAL_RCC_ADC1_CLK_ENABLE();
     } else if (id == HAL_ADC_2) {
         __HAL_RCC_ADC2_CLK_ENABLE();
     }
+#elif defined(TARGET_MCU_STM32G0)
+    if (id == HAL_ADC_1) {
+        __HAL_RCC_ADC_CLK_ENABLE();
+    }
+#endif
 }
 
 static void  ADCClockDisable(HAL_ADC_ID id) {
+#if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
     if (id == HAL_ADC_1) {
         __HAL_RCC_ADC1_CLK_DISABLE();
     } else if (id == HAL_ADC_2) {
         __HAL_RCC_ADC2_CLK_DISABLE();
     }
+#elif defined(TARGET_MCU_STM32G0)
+    if (id == HAL_ADC_1) {
+        __HAL_RCC_ADC_CLK_DISABLE();
+    }
+#endif
 }
 
 static void ADCDmaEnable(DMA_Channel_TypeDef *dmaChannelTypeDef) {
@@ -143,13 +159,16 @@ static void ADCDmaEnable(DMA_Channel_TypeDef *dmaChannelTypeDef) {
         /* DMA2_Stream0_IRQn interrupt configuration */
         HAL_NVIC_SetPriority(DMA1_Channel1_IRQn, 5, 0);
         HAL_NVIC_EnableIRQ(DMA1_Channel1_IRQn);
-    } else if (dmaChannelTypeDef == DMA1_Channel2) {
+    }
+#if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
+    else if (dmaChannelTypeDef == DMA1_Channel2) {
         __HAL_RCC_DMA1_CLK_ENABLE();
         /* DMA interrupt init */
         /* DMA2_Stream0_IRQn interrupt configuration */
         HAL_NVIC_SetPriority(DMA1_Channel2_IRQn, 5, 0);
         HAL_NVIC_EnableIRQ(DMA1_Channel2_IRQn);
     }
+#endif
 }
 /**
  * @brief adc hardware init
@@ -310,6 +329,8 @@ static void HAL_adcHwDeinit(HAL_ADC_ID id) {
         pAdcPrivate->adcBuffer = NULL;
         pAdcPrivate->adcBufferSize = 0;
     }
+
+    HAL_DMA_DeInit(&pAdcPrivate->dma);
 }
 
 

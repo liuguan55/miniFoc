@@ -52,7 +52,7 @@ void TIM4_IRQHandler(void) {
 }
 
 HAL_Status HAL_timerInit(void){
-
+#if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
     __HAL_RCC_TIM4_CLK_ENABLE();
 
     TIM_ClockConfigTypeDef sClockSourceConfig = {0};
@@ -86,14 +86,18 @@ HAL_Status HAL_timerInit(void){
 
     HAL_NVIC_SetPriority(TIM4_IRQn, 3, 0);
     HAL_NVIC_EnableIRQ(TIM4_IRQn);
+
+#endif
 }
 
 
 void HAl_timerDeinit(void){
+#if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
     __HAL_RCC_TIM4_CLK_DISABLE();
     HAL_TIM_Base_DeInit(&htim4);
 
     HAL_NVIC_DisableIRQ(TIM4_IRQn);
+#endif
 }
 
 static void HAL_timerCallback(void){
@@ -117,9 +121,11 @@ static void HAL_timerCallback(void){
 }
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+#if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
     if(htim->Instance == TIM4){
         HAL_timerCallback();
     }
+#endif
 }
 
 
@@ -127,3 +133,23 @@ void ConfigureTimeForRunTimeStats(void) {
     FreeRTOSRunTimeTicks = 0;
 }
 
+
+void HAL_DelayUs(uint32_t us)
+{
+#if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
+    volatile uint32_t tickstart = FreeRTOSRunTimeTicks;
+    uint32_t wait = us;
+
+    /* Add a freq to guarantee minimum wait */
+    if (wait < HAL_MAX_DELAY)
+    {
+        wait += 1;
+    }
+
+    while ((FreeRTOSRunTimeTicks - tickstart) < wait)
+    {
+    }
+#else
+    HAL_Delay(us/1000);
+#endif
+}

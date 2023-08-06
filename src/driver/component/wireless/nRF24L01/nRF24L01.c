@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "driver/hal/hal_os.h"
+#include "driver/hal/hal_timer.h"
 
 
 // NRF24L01发送接收数据宽度定义
@@ -52,7 +53,6 @@
 #define NRF_FIFO_STATUS                               0x17  //FIFO状态寄存器;bit0,RX FIFO寄存器空标志;bit1,RX FIFO满标志;bit2,3,保留
                                                             //bit4,TX FIFO空标志;bit5,TX FIFO满标志;bit6,1,循环发送上一数据包.0,不循环;
 
-
  int NRF24L01_Init(NRF24L01_t *nrf24l01, NRF24L01_ops_t *ops) {
 	 nrf24l01->ops = ops;
 	 nrf24l01->ops->init();
@@ -60,7 +60,17 @@
 	uint8_t defaultAddress[TX_ADR_WIDTH]={0x34,0x43,0x10,0x10,0x01};
 	memcpy(nrf24l01->address, defaultAddress, TX_ADR_WIDTH);
 
-	nrf24l01->ops->ceEnable(1);
+	nrf24l01->ops->ceEnable(0);
+
+    uint8_t now = HAL_millis();
+    while (!NRF24L01_Check(nrf24l01)){
+        if (HAL_millis() - now > 1000){
+            break;
+        }
+
+//        printf("wait for NRF24L01 check\n");
+        HAL_msleep(10);
+    }
 
 	return NRF24L01_Check(nrf24l01);
  }
@@ -152,7 +162,10 @@ void NRF24L01_RX_Mode(NRF24L01_t *nrf24l01){
 
 	ops->ceEnable(1); //CE为高,进入接收模式
 
-    HAL_Delay(1);
+    HAL_DelayUs(1);
+
+//    ops->writeReg(NRF_WRITE_REG+FLUSH_TX, 0xff);
+//    ops->writeReg(NRF_WRITE_REG+FLUSH_RX,0xff);//清除RX FIFO寄存器
 }	
  
 void NRF24L01_TX_Mode(NRF24L01_t *nrf24l01){				
@@ -172,7 +185,10 @@ void NRF24L01_TX_Mode(NRF24L01_t *nrf24l01){
 	ops->writeReg(NRF_WRITE_REG+CONFIG,0x0e);    //配置基本工作模式的参数;PWR_UP,EN_CRC,16BIT_CRC,接收模式,开启所有中断
 	ops->ceEnable(1);//CE为高,10us后启动发送
 
-    HAL_Delay(1);
+    HAL_DelayUs(1);
+
+//    ops->writeReg(NRF_WRITE_REG+FLUSH_TX, 0xff);
+//    ops->writeReg(NRF_WRITE_REG+FLUSH_RX,0xff);//清除RX FIFO寄存器
 }
  
 /**

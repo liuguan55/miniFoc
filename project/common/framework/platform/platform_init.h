@@ -7,7 +7,7 @@
 
 #include "version.h"
 #include "compiler.h"
-#include "common/board/miniFoc_v2/BoardConfig.h"
+#include "BoardConfig.h"
 #include "common/board/Board.h"
 
 #ifdef __cplusplus

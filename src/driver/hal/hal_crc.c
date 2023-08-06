@@ -46,7 +46,7 @@ void hal_crcDeinit(void) {
 }
 
 uint32_t hal_crc32(uint32_t *data, uint32_t dataSize) {
-    HAL_CRC_Calculate(&hcrc, data, dataSize);
+   return HAL_CRC_Calculate(&hcrc, data, dataSize);
 }
 
 

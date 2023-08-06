@@ -53,6 +53,11 @@ typedef struct {
 
 
 static const uint8_t gGpioIrqPinNum[HAL_GPIO_PIN_NR] = {
+#ifdef TARGET_MCU_STM32G0
+        EXTI0_1_IRQn,
+        EXTI2_3_IRQn,
+        EXTI4_15_IRQn,
+#elif defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
         EXTI0_IRQn,
         EXTI1_IRQn,
         EXTI2_IRQn,
@@ -69,6 +74,7 @@ static const uint8_t gGpioIrqPinNum[HAL_GPIO_PIN_NR] = {
         EXTI15_10_IRQn,
         EXTI15_10_IRQn,
         EXTI15_10_IRQn,
+#endif
 };
 
 static  GPIO_TypeDef * const gGpioPortCtrl[HAL_GPIO_PORT_NR] = {
@@ -76,7 +82,9 @@ static  GPIO_TypeDef * const gGpioPortCtrl[HAL_GPIO_PORT_NR] = {
         GPIOB,
         GPIOC,
         GPIOD,
+#if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
         GPIOE,
+#endif
 };
 
 static const uint32_t gGpioModeMap[HAL_GPIO_MODE_NR] = {
@@ -209,9 +217,11 @@ static void GPIO_clockInit(GPIO_Port port)
         case HAL_GPIO_PORT_D:
             __HAL_RCC_GPIOD_CLK_ENABLE();
             break;
+#if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
         case HAL_GPIO_PORT_E:
             __HAL_RCC_GPIOE_CLK_ENABLE();
             break;
+#endif
         default:
             break;
     }
@@ -232,9 +242,11 @@ static void GPIO_clockDeinit(GPIO_Port port)
         case HAL_GPIO_PORT_D:
             __HAL_RCC_GPIOD_CLK_DISABLE();
             break;
+#if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
         case HAL_GPIO_PORT_E:
             __HAL_RCC_GPIOE_CLK_DISABLE();
             break;
+#endif
         default:
             break;
     }
@@ -272,7 +284,7 @@ HAL_Status HAL_GpioInit(GPIO_Port port, GPIO_Pin pin, const GPIO_InitParam *para
     pInitTypeDef->Mode = gGpioModeMap[param->mode];
     pInitTypeDef->Pull = gGpioPullMap[param->pull];
     pInitTypeDef->Speed = gGpioSpeedMap[param->speed];
-#ifdef TARGET_MCU_STM32F4
+#ifndef TARGET_MCU_STM32F1
     pInitTypeDef->Alternate = param->alternate;
 #endif
     HAL_GPIO_Init(gpiox, pInitTypeDef);

@@ -51,8 +51,8 @@ static HalUartPrivate_t *gHalUartPrivates[HAL_UART_NR] ;
 static uint8_t gUartIrqHandles[HAL_UART_NR] = {
         [HAL_UART_1] = USART1_IRQn,
         [HAL_UART_2] = USART2_IRQn,
-        [HAL_UART_3] = USART3_IRQn,
 #ifdef TARGET_MCU_STM32F4
+        [HAL_UART_3] = USART3_IRQn,
         [HAL_UART_4] = UART4_IRQn,
         [HAL_UART_5] = UART5_IRQn,
         [HAL_UART_6] = USART6_IRQn,
@@ -118,9 +118,10 @@ static USART_TypeDef *UartInstanceGet(HAL_UART_ID id) {
             return USART1;
         case HAL_UART_2:
             return USART2;
+#ifdef TARGET_MCU_STM32F4
         case HAL_UART_3:
             return USART3;
-#ifdef TARGET_MCU_STM32F4
+
         case HAL_UART_4:
             return UART4;
         case HAL_UART_5:
@@ -142,10 +143,11 @@ static void UARTClockEnable(HAL_UART_ID id)
         case HAL_UART_2:
             __HAL_RCC_USART2_CLK_ENABLE();
             break;
+#ifdef TARGET_MCU_STM32F4
         case HAL_UART_3:
             __HAL_RCC_USART3_CLK_ENABLE();
             break;
-#ifdef TARGET_MCU_STM32F4
+
         case HAL_UART_4:
             __HAL_RCC_UART4_CLK_ENABLE();
             break;
@@ -170,10 +172,11 @@ static void UARTClockDisable(HAL_UART_ID id)
         case HAL_UART_2:
             __HAL_RCC_USART2_CLK_DISABLE();
             break;
+#ifdef TARGET_MCU_STM32F4
         case HAL_UART_3:
             __HAL_RCC_USART3_CLK_DISABLE();
             break;
-#ifdef TARGET_MCU_STM32F4
+
         case HAL_UART_4:
             __HAL_RCC_UART4_CLK_DISABLE();
             break;
@@ -299,10 +302,10 @@ HAL_Status HAL_UartInit(HAL_UART_ID uartId, HAL_UartCfg_t *pCfg) {
     memset(p, 0, sizeof(HalUartPrivate_t));
 #ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreInit(&p->rxSem, 1, 1);
+    HAL_SemaphoreWait(&p->rxSem, 100);
 #endif
     lwrb_init(&p->ringHandle, p->ringBuffer, sizeof(p->ringBuffer));
     res = Hal_UartHwInit(uartId, pCfg);
-    HAL_SemaphoreWait(&p->rxSem, 100);
 
     return res;
 }

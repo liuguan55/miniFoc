@@ -62,6 +62,8 @@ void HAL_WWDG_EarlyWakeupCallback(WWDG_HandleTypeDef *hwwdg)
 }
 
 void hal_wdgInit(wdgConfig_t *wdgConfig){
+    __HAL_RCC_WWDG_CLK_ENABLE();
+
     gWdgDev.timeout = wdgConfig->timeout;
     gWdgDev.wdgCallback = wdgConfig->callback;
     gWdgDev.wdgEnable = 1;
@@ -74,8 +76,6 @@ void hal_wdgInit(wdgConfig_t *wdgConfig){
     {
         assert(NULL);
     }
-
-    __HAL_RCC_WWDG_CLK_ENABLE();
 
     /* WWDG interrupt Init */
     HAL_NVIC_SetPriority(WWDG_IRQn, 5, 0);

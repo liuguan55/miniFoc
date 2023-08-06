@@ -62,7 +62,7 @@ extern "C" {
 #define PRJCONF_VFS_FILE_SYSTEM_EN      0
 #endif
 
-#define PRJCONF_WATCHDOG_EN             0
+#define PRJCONF_WATCHDOG_EN             1
 #define PRjCONF_WATCHDOG_TIMEOUT        10
 
 #ifdef USE_SPI_FLASH

@@ -37,7 +37,6 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-
 /*
  * board configuration
  */

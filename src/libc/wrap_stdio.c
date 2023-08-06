@@ -54,7 +54,9 @@ static HAL_Mutex s_stdout_mutex;
 static int stdio_is_critical_context(void)
 {
     return (__get_PRIMASK()   ||
+            #ifndef TARGET_MCU_STM32G0
             __get_FAULTMASK() ||
+            #endif
             __get_IPSR()
 #ifdef USE_RTOS_SYSTEM
             ||!HAL_ThreadIsSchedulerRunning()

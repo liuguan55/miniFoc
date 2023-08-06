@@ -85,7 +85,9 @@ static void platform_show_info(void) {
     printf("cpu  clock %9lu Hz\n", HAL_RCC_GetHCLKFreq());
     printf("sys  clock %9lu Hz\n", HAL_RCC_GetSysClockFreq());
     printf("pclk  clock %9lu Hz\n", HAL_RCC_GetPCLK1Freq());
+#ifndef TARGET_MCU_STM32G0
     printf("pclk2  clock %9lu Hz\n", HAL_RCC_GetPCLK2Freq());
+#endif
 
     printf("====================================================================\n\n");
 
@@ -95,7 +97,7 @@ static void platform_show_info(void) {
 #if PRJCONF_WATCHDOG_EN
 
 void platform_wdgStart(void) {
-    wdgConfig_t wdgConfig;
+    wdgConfig_t wdgConfig = {0};
     wdgConfig.timeout = PRjCONF_WATCHDOG_TIMEOUT;
     hal_wdgInit(&wdgConfig);
 }

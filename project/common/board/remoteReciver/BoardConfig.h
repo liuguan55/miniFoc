@@ -29,7 +29,6 @@
 #ifndef MINIFOC_F4_BOARD_CONFIG_H
 #define MINIFOC_F4_BOARD_CONFIG_H
 
-
 #include "driver/hal/hal_uart.h"
 #include "driver/hal/hal_board.h"
 #include "driver/hal/hal_dev.h"
@@ -44,7 +43,7 @@ extern "C" {
 #define BOARD_NAME              "remoteReciver"
 
 /* uart */
-#define BOARD_MAIN_UART_ID      HAL_UART_1    /* debug and console */
+#define BOARD_MAIN_UART_ID      HAL_UART_2    /* debug and console */
 
 #define BOARD_UART_BAUD_RATE    HAL_UART_BAUDRATE_115200
 #define BOARD_UART_PARITY       HAL_UART_PARITY_NONE

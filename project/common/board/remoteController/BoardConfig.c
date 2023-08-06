@@ -81,7 +81,7 @@ static const GPIO_PinMuxParam g_pinmux_spi1[] = {
 };
 
 static const GPIO_PinMuxParam  g_pinmux_spi1_cs[] = {
-        { HAL_GPIO_PORT_B, HAL_GPIO_PIN_6,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE} }, /* CS */
+        { HAL_GPIO_PORT_B, HAL_GPIO_PIN_6,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE,.initLevel = GPIO_PIN_HIGH} }, /* CS */
 };
 
 static const GPIO_PinMuxParam  g_pinmux_spi2[] = {
@@ -90,7 +90,7 @@ static const GPIO_PinMuxParam  g_pinmux_spi2[] = {
 };
 
 static const GPIO_PinMuxParam  g_pinmux_spi2_cs[] = {
-        { HAL_GPIO_PORT_A, HAL_GPIO_PIN_12,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE} }, /* CS */
+        { HAL_GPIO_PORT_A, HAL_GPIO_PIN_12,  { HAL_GPIO_MODE_OUTPUT_PP,   HAL_GPIO_PULL_UP, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF_NONE,.initLevel = GPIO_PIN_HIGH} }, /* CS */
 };
 
 

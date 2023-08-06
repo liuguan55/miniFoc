@@ -29,6 +29,10 @@
 #include "driver/hal/hal_board.h"
 #include "driver/hal/hal_dev.h"
 #include "driver/hal/hal_gpio.h"
+#include "Led.h"
+#include "remote.h"
+#include "wireless.h"
+#include "pwm.h"
 
 #undef LOG_TAG
 #define LOG_TAG "main"
@@ -40,7 +44,16 @@
   * @retval int
   */
 int main(void) {
+    wirelessInit();
+    pwmInit();
 
+    uint8_t recvData[32] = {0};
+    while(1){
+        if(wirelessRecv(recvData, sizeof (recvData)) > 0){
+            remote_parsePacket(recvData,sizeof (recvData));
+            ledToggle();
+        }
+    }
 
     return 0;
 }

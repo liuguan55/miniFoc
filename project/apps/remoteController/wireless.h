@@ -22,3 +22,9 @@ int wirelessSend(uint8_t *buf, uint8_t len);
  * @return receive length
  */
 int wirelessRecv(uint8_t *buf, uint8_t len);
+
+/**
+ * @brief Get wireless state
+ * @return wireless state
+ */
+int8_t wirelessState(void);

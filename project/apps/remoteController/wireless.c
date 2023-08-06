@@ -17,7 +17,7 @@
 #define NRF24L01_SPI_PORT HAL_SPI_1
 #define NRF24L01_SPI_MODE HAL_SPI_MODE_0
 #define NRF24L01_SPI_CS HAL_SPI_TCTRL_SS_SEL_SS1
-#define NRF24L01_SPI_SPEED 1000000
+#define NRF24L01_SPI_SPEED 3000000
 #define NRF24L01_SPI_MODE HAL_SPI_MODE_0
 #define NRF24L01_SPI_DATASIZE HAL_SPI_8BIT
 #define NRF24L01_SPI_FIRSTBIT HAL_SPI_MSB_FIRST
@@ -39,6 +39,8 @@ static void wirelessSpiInit(void){
     };
 
     HAL_spiInit(NRF24L01_SPI_PORT, &spiConfig);
+
+    HAL_spiCsDisable(NRF24L01_SPI_PORT);
 }
 
 static void wirelessWriteReg(uint8_t reg, uint8_t value){
@@ -136,6 +138,7 @@ static NRF24L01_t nrf24l01 = {
 
 static HAL_Mutex g_wirelessMutex = NULL;
 static int8_t g_initailized = 0;
+static int8_t g_wirelessState = 0;
 
 static void wirelessTask(void *args){
     UNUSED(args);
@@ -145,17 +148,17 @@ static void wirelessTask(void *args){
 
     while (1){
         if (wirelessRecv(recvBuffer, recvLen)){
-            log_i("wireless recv: %s recvLen %d\n", recvBuffer,recvLen);
+            printf("wireless recv: %s recvLen %d\n", recvBuffer,recvLen);
             remote_parsePacket(recvBuffer, recvLen);
         }
 
-        HAL_msleep(5);
+        HAL_msleep(500);
     }
 }
 
 void wirelessInit(void){
     if (NRF24L01_Init(&nrf24l01, &ops) < 0){
-        log_e("wireless init failed");
+        printf("wireless init failed\n");
         return ;
     }
 
@@ -164,7 +167,7 @@ void wirelessInit(void){
 
     NRF24L01_TX_Mode(&nrf24l01);
     g_initailized = 1;
-    log_i("wireless init success");
+    printf("wireless init success\n");
 }
 
 int wirelessRecv(uint8_t *buf, uint8_t len){
@@ -172,9 +175,12 @@ int wirelessRecv(uint8_t *buf, uint8_t len){
     int recvLen = 0;
 
     HAL_MutexLock(&g_wirelessMutex, HAL_OS_WAIT_FOREVER);
+    g_wirelessState = 1;
     NRF24L01_RX_Mode(&nrf24l01);
     recvLen =  NRF24L01_RxPacket(&nrf24l01, buf, len);
     HAL_MutexUnlock(&g_wirelessMutex);
+
+    g_wirelessState = 0;
 
     return recvLen;
 }
@@ -185,9 +191,16 @@ int wirelessSend(uint8_t *buf, uint8_t len){
     int sendLen = 0;
 
     HAL_MutexLock(&g_wirelessMutex,HAL_OS_WAIT_FOREVER);
+    g_wirelessState = 1;
 
     sendLen = NRF24L01_TxPacket(&nrf24l01, buf, 32);
     HAL_MutexUnlock(&g_wirelessMutex);
 
+    g_wirelessState = 0;
+
     return sendLen;
+}
+
+int8_t wirelessState(void){
+    return g_wirelessState;
 }
