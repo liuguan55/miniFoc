@@ -1,6 +1,6 @@
 
 
-set(project_app "remote_reciver")
+set(project_app "remote_control")
 if(${project_app} STREQUAL "remote_control")
         SET(APP_NAME "remote_control")
         add_definitions(-DSTM32F103xB)

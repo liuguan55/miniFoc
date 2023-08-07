@@ -144,19 +144,19 @@ static void timClockDisable(HAL_PWM_ID ch) {
         case HAL_PWM_ID_13:
             break;
         case HAL_PWM_ID_14:
-#ifdef defined(TARGET_MCU_STM32G0)
+#if defined(TARGET_MCU_STM32G0)
             __HAL_RCC_TIM14_CLK_DISABLE();
 #endif
             break;
         case HAL_PWM_ID_15:
             break;
         case HAL_PWM_ID_16:
-#ifdef defined(TARGET_MCU_STM32G0)
+#if defined(TARGET_MCU_STM32G0)
             __HAL_RCC_TIM16_CLK_DISABLE();
 #endif
             break;
         case HAL_PWM_ID_17:
-#ifdef defined(TARGET_MCU_STM32G0)
+#if defined(TARGET_MCU_STM32G0)
             __HAL_RCC_TIM17_CLK_DISABLE();
 #endif
             break;
@@ -189,10 +189,12 @@ static uint32_t timGetChannel(HAL_PWM_CH channel){
             return TIM_CHANNEL_3;
         case HAL_PWM_CH4:
             return TIM_CHANNEL_4;
+#if defined(TARGET_MCU_STM32G0)
         case HAL_PWM_CH5:
             return TIM_CHANNEL_5;
         case HAL_PWM_CH6:
             return TIM_CHANNEL_6;
+#endif
         default:
             assert(NULL);
     }

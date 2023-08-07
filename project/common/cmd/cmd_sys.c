@@ -53,10 +53,10 @@ void systemInfo(int argc, char *argv[]) {
     UNUSED(argv);
 
     extern uint32_t system_get_heap_size(void);
-    log_i("hardware version: %s, software version: %s\n", HARDWARE_VERSION, SOFTWARE_VERSION);
-    log_i("heap size:%d(sram) %d(rtos)\n", system_get_heap_size(), xPortGetFreeHeapSize());
-    log_i("chipid:%x-%x-%x\n", HAL_GetUIDw0(), HAL_GetUIDw1(), HAL_GetUIDw2());
-    log_i("cpu freq:%d\n", HAL_RCC_GetHCLKFreq());
+    printf("hardware version: %s, software version: %s\n", HARDWARE_VERSION, SOFTWARE_VERSION);
+    printf("heap size:%d(sram) %d(rtos)\n", system_get_heap_size(), xPortGetFreeHeapSize());
+    printf("chipid:%x-%x-%x\n", HAL_GetUIDw0(), HAL_GetUIDw1(), HAL_GetUIDw2());
+    printf("cpu freq:%d\n", HAL_RCC_GetHCLKFreq());
 }
 
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN) | SHELL_CMD_DISABLE_RETURN,

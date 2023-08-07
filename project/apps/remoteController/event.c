@@ -99,13 +99,7 @@ void eventTask(void *arg){
                             break;
                     }
                     break;
-                case EVENT_TYPE_JOYSTICK:{
-                    Joystick_t *joystick = Joystick_GetData();
-                    if (remote_sendJoystickData(joystick->Lx, joystick->Ly, joystick->Rx, joystick->Ry) > 0){
-                        ledToggle();
-                    }
-                }
-                break;
+
 
                 default:
                     break;
@@ -121,5 +115,5 @@ void eventInit(void){
         return ;
     }
 
-    HAL_ThreadCreate(eventTask, "eventTask", 4*256, NULL, HAL_OS_PRIORITY_HIGH, NULL);
+    HAL_ThreadCreate(eventTask, "eventTask", 4*128, NULL, HAL_OS_PRIORITY_HIGH, NULL);
 }

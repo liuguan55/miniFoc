@@ -294,7 +294,7 @@ HAL_Status HAL_spiTransmit(HAL_SPI_ID spiId, uint8_t *pData, uint16_t size, uint
 
     SPI_HandleTypeDef *pSpi = &spiPrivate->hspi;
 
-#if 0 //def USE_RTOS_SYSTEM
+#ifdef USE_RTOS_SYSTEM
     HAL_MutexLock(&spiPrivate->spiMutex, timeout);
     if (HAL_SPI_Transmit(pSpi, pData, size, timeout) != HAL_OK) {
         ret = HAL_STATUS_ERROR;
@@ -322,7 +322,7 @@ HAL_Status HAL_spiReceive(HAL_SPI_ID spiId,uint8_t *pData, uint16_t size, uint32
 
     SPI_HandleTypeDef *pSpi = &spiPrivate->hspi;
 
-#if 0 //def USE_RTOS_SYSTEM
+#ifdef USE_RTOS_SYSTEM
     HAL_MutexLock(&spiPrivate->spiMutex, timeout);
     if (HAL_SPI_Receive(pSpi, pData, size, timeout) != HAL_OK) {
         ret = HAL_STATUS_ERROR;
@@ -351,7 +351,7 @@ HAL_Status HAL_spiTransmitReceive(HAL_SPI_ID spiId, uint8_t *pTxData, uint8_t *p
 
     SPI_HandleTypeDef *pSpi = &spiPrivate->hspi;
 
-#if 0 //def USE_RTOS_SYSTEM
+#ifdef USE_RTOS_SYSTEM
     HAL_MutexLock(&spiPrivate->spiMutex, timeout);
     if (HAL_SPI_TransmitReceive(pSpi, pTxData, pRxData, size, timeout) != HAL_OK) {
         ret = HAL_STATUS_ERROR;

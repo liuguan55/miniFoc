@@ -19,11 +19,14 @@ typedef struct
     uint16_t Ly_offset;
     uint16_t Rx_offset;
     uint16_t Ry_offset;
+
+    uint8_t update;
 }Joystick_t;
 
 Joystick_t* Joystick_Get(void);
 void Joystick_Init(void);
 Joystick_t* Joystick_GetData(void);
+void JoyStick_calibration(void);
 #endif
 
 

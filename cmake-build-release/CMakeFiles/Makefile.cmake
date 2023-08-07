@@ -26,7 +26,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2022.3/bin/cmake/win/share/cmake-3.24/Modules/Platform/Generic.cmake"
   "C:/Program Files/JetBrains/CLion 2022.3/bin/cmake/win/share/cmake-3.24/Modules/ProcessorCount.cmake"
   "D:/work/CMakeLists.txt"
-  "D:/work/build/CMakeLists.STM32G0.txt"
+  "D:/work/build/CMakeLists.STM32F1.txt"
   "D:/work/build/CMakeLists.app.txt"
   "D:/work/build/CMakeLists.common.txt"
   "D:/work/build/CMakeLists.gcc.txt"
@@ -50,5 +50,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/remote_reciver.elf.dir/DependInfo.cmake"
+  "CMakeFiles/remote_control.elf.dir/DependInfo.cmake"
   )

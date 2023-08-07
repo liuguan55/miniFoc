@@ -21,47 +21,32 @@
 //  *  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 //  *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //  *
-#include "sys/MiniDebug.h"
-#include "driver/hal/hal_os.h"
-#include "driver/hal/hal_usb.h"
-#include "log/easylogger/elog.h"
-#include "driver/hal/hal_timer.h"
-#include "driver/hal/hal_board.h"
-#include "driver/hal/hal_dev.h"
-#include "driver/hal/hal_gpio.h"
-#include "Led.h"
-#include "Buzzer.h"
-#include "Key.h"
+
+//
+// Created by 86189 on 2023/8/7.
+//
+#include <stdint.h>
+#include "sys/sys_heap.h"
+#include "console/lettershell/shell.h"
+#include "common/framework/util/MiniCommon.h"
 #include "Joystick.h"
-#include "wireless.h"
-#include "remote.h"
-#include "event.h"
 
 #undef LOG_TAG
-#define LOG_TAG "main"
+#define LOG_TAG "CMD_REMOTE"
+
 
 /**
-  * @brief  The application entry point.
-  *
-  * @retval int
-  */
-int main(void) {
-    eventInit();
-    keyInit();
-    buzzerOn();
-    ledTaskStart();
-    wirelessInit();
-    Joystick_Init();
+ * @brief joystick calibration
+ *
+ * @param argc
+ * @param argv
+ */
+void joystickCalibration(int argc, char *argv[]) {
+    UNUSED(argc);
+    UNUSED(argv);
 
-    while (1){
-        Joystick_t *joystick = Joystick_GetData();
-        if (remote_sendJoystickData(joystick->Lx, joystick->Ly, joystick->Rx, joystick->Ry) > 0){
-            ledToggle();
-        }
-
-        HAL_msleep(10);
-    }
-
-    return 0;
+    JoyStick_calibration();
 }
 
+SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN) | SHELL_CMD_DISABLE_RETURN,
+                 joystickCalibration, joystickCalibration, reboot device);
