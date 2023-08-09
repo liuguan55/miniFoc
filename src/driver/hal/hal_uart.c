@@ -221,6 +221,11 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
 void HAL_UART_ErrorCallback(UART_HandleTypeDef *huart) {
     if (__HAL_UART_GET_FLAG(huart, UART_FLAG_ORE)) {
         __HAL_UART_CLEAR_OREFLAG(huart);
+
+        if (huart->Instance == USART1){
+            HalUartPrivate_t *p = HAL_UartGetPrivate(HAL_UART_1);
+            HAL_UART_Receive_IT(huart, p->rxbuffer, sizeof(p->rxbuffer));
+        }
     }
 }
 
@@ -251,7 +256,7 @@ static HAL_Status Hal_UartHwInit(HAL_UART_ID uartId, HAL_UartCfg_t *pCfg) {
         return HAL_STATUS_ERROR;
     }
 
-    HAL_NVIC_SetPriority(gUartIrqHandles[uartId], 5, 0);
+    HAL_NVIC_SetPriority(gUartIrqHandles[uartId], 7, 0);
     HAL_NVIC_EnableIRQ(gUartIrqHandles[uartId]);
 
     HAL_UART_Receive_IT(&p->huart, p->rxbuffer, sizeof(p->rxbuffer));

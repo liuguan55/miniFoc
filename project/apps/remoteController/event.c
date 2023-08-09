@@ -99,7 +99,13 @@ void eventTask(void *arg){
                             break;
                     }
                     break;
-
+                case EVENT_TYPE_JOYSTICK:{
+                    Joystick_t *joystick = Joystick_GetData();
+                    if (remote_sendJoystickData(joystick->Lx, joystick->Ly, joystick->Rx, joystick->Ry) > 0){
+                        ledToggle();
+                    }
+                }
+                break;
 
                 default:
                     break;

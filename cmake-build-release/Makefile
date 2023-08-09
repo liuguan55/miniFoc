@@ -119,240 +119,144 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named remote_control.elf
+# Target rules for targets named remote_reciver.elf
 
 # Build rule for target.
-remote_control.elf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 remote_control.elf
-.PHONY : remote_control.elf
+remote_reciver.elf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 remote_reciver.elf
+.PHONY : remote_reciver.elf
 
 # fast build rule for target.
-remote_control.elf/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/build
-.PHONY : remote_control.elf/fast
+remote_reciver.elf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/build
+.PHONY : remote_reciver.elf/fast
 
-project/apps/remoteController/Buzzer.obj: project/apps/remoteController/Buzzer.c.obj
-.PHONY : project/apps/remoteController/Buzzer.obj
-
-# target to build an object file
-project/apps/remoteController/Buzzer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Buzzer.c.obj
-.PHONY : project/apps/remoteController/Buzzer.c.obj
-
-project/apps/remoteController/Buzzer.i: project/apps/remoteController/Buzzer.c.i
-.PHONY : project/apps/remoteController/Buzzer.i
-
-# target to preprocess a source file
-project/apps/remoteController/Buzzer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Buzzer.c.i
-.PHONY : project/apps/remoteController/Buzzer.c.i
-
-project/apps/remoteController/Buzzer.s: project/apps/remoteController/Buzzer.c.s
-.PHONY : project/apps/remoteController/Buzzer.s
-
-# target to generate assembly for a file
-project/apps/remoteController/Buzzer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Buzzer.c.s
-.PHONY : project/apps/remoteController/Buzzer.c.s
-
-project/apps/remoteController/Joystick.obj: project/apps/remoteController/Joystick.c.obj
-.PHONY : project/apps/remoteController/Joystick.obj
+project/apps/remoteReciver/Led.obj: project/apps/remoteReciver/Led.c.obj
+.PHONY : project/apps/remoteReciver/Led.obj
 
 # target to build an object file
-project/apps/remoteController/Joystick.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Joystick.c.obj
-.PHONY : project/apps/remoteController/Joystick.c.obj
+project/apps/remoteReciver/Led.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/apps/remoteReciver/Led.c.obj
+.PHONY : project/apps/remoteReciver/Led.c.obj
 
-project/apps/remoteController/Joystick.i: project/apps/remoteController/Joystick.c.i
-.PHONY : project/apps/remoteController/Joystick.i
+project/apps/remoteReciver/Led.i: project/apps/remoteReciver/Led.c.i
+.PHONY : project/apps/remoteReciver/Led.i
 
 # target to preprocess a source file
-project/apps/remoteController/Joystick.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Joystick.c.i
-.PHONY : project/apps/remoteController/Joystick.c.i
+project/apps/remoteReciver/Led.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/apps/remoteReciver/Led.c.i
+.PHONY : project/apps/remoteReciver/Led.c.i
 
-project/apps/remoteController/Joystick.s: project/apps/remoteController/Joystick.c.s
-.PHONY : project/apps/remoteController/Joystick.s
+project/apps/remoteReciver/Led.s: project/apps/remoteReciver/Led.c.s
+.PHONY : project/apps/remoteReciver/Led.s
 
 # target to generate assembly for a file
-project/apps/remoteController/Joystick.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Joystick.c.s
-.PHONY : project/apps/remoteController/Joystick.c.s
+project/apps/remoteReciver/Led.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/apps/remoteReciver/Led.c.s
+.PHONY : project/apps/remoteReciver/Led.c.s
 
-project/apps/remoteController/Key.obj: project/apps/remoteController/Key.c.obj
-.PHONY : project/apps/remoteController/Key.obj
+project/apps/remoteReciver/main.obj: project/apps/remoteReciver/main.c.obj
+.PHONY : project/apps/remoteReciver/main.obj
 
 # target to build an object file
-project/apps/remoteController/Key.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Key.c.obj
-.PHONY : project/apps/remoteController/Key.c.obj
+project/apps/remoteReciver/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/apps/remoteReciver/main.c.obj
+.PHONY : project/apps/remoteReciver/main.c.obj
 
-project/apps/remoteController/Key.i: project/apps/remoteController/Key.c.i
-.PHONY : project/apps/remoteController/Key.i
+project/apps/remoteReciver/main.i: project/apps/remoteReciver/main.c.i
+.PHONY : project/apps/remoteReciver/main.i
 
 # target to preprocess a source file
-project/apps/remoteController/Key.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Key.c.i
-.PHONY : project/apps/remoteController/Key.c.i
+project/apps/remoteReciver/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/apps/remoteReciver/main.c.i
+.PHONY : project/apps/remoteReciver/main.c.i
 
-project/apps/remoteController/Key.s: project/apps/remoteController/Key.c.s
-.PHONY : project/apps/remoteController/Key.s
+project/apps/remoteReciver/main.s: project/apps/remoteReciver/main.c.s
+.PHONY : project/apps/remoteReciver/main.s
 
 # target to generate assembly for a file
-project/apps/remoteController/Key.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Key.c.s
-.PHONY : project/apps/remoteController/Key.c.s
+project/apps/remoteReciver/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/apps/remoteReciver/main.c.s
+.PHONY : project/apps/remoteReciver/main.c.s
 
-project/apps/remoteController/Led.obj: project/apps/remoteController/Led.c.obj
-.PHONY : project/apps/remoteController/Led.obj
+project/apps/remoteReciver/pwm.obj: project/apps/remoteReciver/pwm.c.obj
+.PHONY : project/apps/remoteReciver/pwm.obj
 
 # target to build an object file
-project/apps/remoteController/Led.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Led.c.obj
-.PHONY : project/apps/remoteController/Led.c.obj
+project/apps/remoteReciver/pwm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/apps/remoteReciver/pwm.c.obj
+.PHONY : project/apps/remoteReciver/pwm.c.obj
 
-project/apps/remoteController/Led.i: project/apps/remoteController/Led.c.i
-.PHONY : project/apps/remoteController/Led.i
+project/apps/remoteReciver/pwm.i: project/apps/remoteReciver/pwm.c.i
+.PHONY : project/apps/remoteReciver/pwm.i
 
 # target to preprocess a source file
-project/apps/remoteController/Led.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Led.c.i
-.PHONY : project/apps/remoteController/Led.c.i
+project/apps/remoteReciver/pwm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/apps/remoteReciver/pwm.c.i
+.PHONY : project/apps/remoteReciver/pwm.c.i
 
-project/apps/remoteController/Led.s: project/apps/remoteController/Led.c.s
-.PHONY : project/apps/remoteController/Led.s
+project/apps/remoteReciver/pwm.s: project/apps/remoteReciver/pwm.c.s
+.PHONY : project/apps/remoteReciver/pwm.s
 
 # target to generate assembly for a file
-project/apps/remoteController/Led.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/Led.c.s
-.PHONY : project/apps/remoteController/Led.c.s
+project/apps/remoteReciver/pwm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/apps/remoteReciver/pwm.c.s
+.PHONY : project/apps/remoteReciver/pwm.c.s
 
-project/apps/remoteController/cmd_remote.obj: project/apps/remoteController/cmd_remote.c.obj
-.PHONY : project/apps/remoteController/cmd_remote.obj
+project/apps/remoteReciver/remote.obj: project/apps/remoteReciver/remote.c.obj
+.PHONY : project/apps/remoteReciver/remote.obj
 
 # target to build an object file
-project/apps/remoteController/cmd_remote.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/cmd_remote.c.obj
-.PHONY : project/apps/remoteController/cmd_remote.c.obj
+project/apps/remoteReciver/remote.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/apps/remoteReciver/remote.c.obj
+.PHONY : project/apps/remoteReciver/remote.c.obj
 
-project/apps/remoteController/cmd_remote.i: project/apps/remoteController/cmd_remote.c.i
-.PHONY : project/apps/remoteController/cmd_remote.i
+project/apps/remoteReciver/remote.i: project/apps/remoteReciver/remote.c.i
+.PHONY : project/apps/remoteReciver/remote.i
 
 # target to preprocess a source file
-project/apps/remoteController/cmd_remote.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/cmd_remote.c.i
-.PHONY : project/apps/remoteController/cmd_remote.c.i
+project/apps/remoteReciver/remote.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/apps/remoteReciver/remote.c.i
+.PHONY : project/apps/remoteReciver/remote.c.i
 
-project/apps/remoteController/cmd_remote.s: project/apps/remoteController/cmd_remote.c.s
-.PHONY : project/apps/remoteController/cmd_remote.s
+project/apps/remoteReciver/remote.s: project/apps/remoteReciver/remote.c.s
+.PHONY : project/apps/remoteReciver/remote.s
 
 # target to generate assembly for a file
-project/apps/remoteController/cmd_remote.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/cmd_remote.c.s
-.PHONY : project/apps/remoteController/cmd_remote.c.s
+project/apps/remoteReciver/remote.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/apps/remoteReciver/remote.c.s
+.PHONY : project/apps/remoteReciver/remote.c.s
 
-project/apps/remoteController/event.obj: project/apps/remoteController/event.c.obj
-.PHONY : project/apps/remoteController/event.obj
+project/apps/remoteReciver/wireless.obj: project/apps/remoteReciver/wireless.c.obj
+.PHONY : project/apps/remoteReciver/wireless.obj
 
 # target to build an object file
-project/apps/remoteController/event.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/event.c.obj
-.PHONY : project/apps/remoteController/event.c.obj
+project/apps/remoteReciver/wireless.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/apps/remoteReciver/wireless.c.obj
+.PHONY : project/apps/remoteReciver/wireless.c.obj
 
-project/apps/remoteController/event.i: project/apps/remoteController/event.c.i
-.PHONY : project/apps/remoteController/event.i
-
-# target to preprocess a source file
-project/apps/remoteController/event.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/event.c.i
-.PHONY : project/apps/remoteController/event.c.i
-
-project/apps/remoteController/event.s: project/apps/remoteController/event.c.s
-.PHONY : project/apps/remoteController/event.s
-
-# target to generate assembly for a file
-project/apps/remoteController/event.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/event.c.s
-.PHONY : project/apps/remoteController/event.c.s
-
-project/apps/remoteController/main.obj: project/apps/remoteController/main.c.obj
-.PHONY : project/apps/remoteController/main.obj
-
-# target to build an object file
-project/apps/remoteController/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/main.c.obj
-.PHONY : project/apps/remoteController/main.c.obj
-
-project/apps/remoteController/main.i: project/apps/remoteController/main.c.i
-.PHONY : project/apps/remoteController/main.i
+project/apps/remoteReciver/wireless.i: project/apps/remoteReciver/wireless.c.i
+.PHONY : project/apps/remoteReciver/wireless.i
 
 # target to preprocess a source file
-project/apps/remoteController/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/main.c.i
-.PHONY : project/apps/remoteController/main.c.i
+project/apps/remoteReciver/wireless.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/apps/remoteReciver/wireless.c.i
+.PHONY : project/apps/remoteReciver/wireless.c.i
 
-project/apps/remoteController/main.s: project/apps/remoteController/main.c.s
-.PHONY : project/apps/remoteController/main.s
-
-# target to generate assembly for a file
-project/apps/remoteController/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/main.c.s
-.PHONY : project/apps/remoteController/main.c.s
-
-project/apps/remoteController/remote.obj: project/apps/remoteController/remote.c.obj
-.PHONY : project/apps/remoteController/remote.obj
-
-# target to build an object file
-project/apps/remoteController/remote.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/remote.c.obj
-.PHONY : project/apps/remoteController/remote.c.obj
-
-project/apps/remoteController/remote.i: project/apps/remoteController/remote.c.i
-.PHONY : project/apps/remoteController/remote.i
-
-# target to preprocess a source file
-project/apps/remoteController/remote.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/remote.c.i
-.PHONY : project/apps/remoteController/remote.c.i
-
-project/apps/remoteController/remote.s: project/apps/remoteController/remote.c.s
-.PHONY : project/apps/remoteController/remote.s
+project/apps/remoteReciver/wireless.s: project/apps/remoteReciver/wireless.c.s
+.PHONY : project/apps/remoteReciver/wireless.s
 
 # target to generate assembly for a file
-project/apps/remoteController/remote.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/remote.c.s
-.PHONY : project/apps/remoteController/remote.c.s
-
-project/apps/remoteController/wireless.obj: project/apps/remoteController/wireless.c.obj
-.PHONY : project/apps/remoteController/wireless.obj
-
-# target to build an object file
-project/apps/remoteController/wireless.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/wireless.c.obj
-.PHONY : project/apps/remoteController/wireless.c.obj
-
-project/apps/remoteController/wireless.i: project/apps/remoteController/wireless.c.i
-.PHONY : project/apps/remoteController/wireless.i
-
-# target to preprocess a source file
-project/apps/remoteController/wireless.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/wireless.c.i
-.PHONY : project/apps/remoteController/wireless.c.i
-
-project/apps/remoteController/wireless.s: project/apps/remoteController/wireless.c.s
-.PHONY : project/apps/remoteController/wireless.s
-
-# target to generate assembly for a file
-project/apps/remoteController/wireless.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/apps/remoteController/wireless.c.s
-.PHONY : project/apps/remoteController/wireless.c.s
+project/apps/remoteReciver/wireless.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/apps/remoteReciver/wireless.c.s
+.PHONY : project/apps/remoteReciver/wireless.c.s
 
 project/common/board/Board.obj: project/common/board/Board.c.obj
 .PHONY : project/common/board/Board.obj
 
 # target to build an object file
 project/common/board/Board.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/board/Board.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/board/Board.c.obj
 .PHONY : project/common/board/Board.c.obj
 
 project/common/board/Board.i: project/common/board/Board.c.i
@@ -360,7 +264,7 @@ project/common/board/Board.i: project/common/board/Board.c.i
 
 # target to preprocess a source file
 project/common/board/Board.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/board/Board.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/board/Board.c.i
 .PHONY : project/common/board/Board.c.i
 
 project/common/board/Board.s: project/common/board/Board.c.s
@@ -368,7 +272,7 @@ project/common/board/Board.s: project/common/board/Board.c.s
 
 # target to generate assembly for a file
 project/common/board/Board.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/board/Board.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/board/Board.c.s
 .PHONY : project/common/board/Board.c.s
 
 project/common/board/BoardCommon.obj: project/common/board/BoardCommon.c.obj
@@ -376,7 +280,7 @@ project/common/board/BoardCommon.obj: project/common/board/BoardCommon.c.obj
 
 # target to build an object file
 project/common/board/BoardCommon.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/board/BoardCommon.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/board/BoardCommon.c.obj
 .PHONY : project/common/board/BoardCommon.c.obj
 
 project/common/board/BoardCommon.i: project/common/board/BoardCommon.c.i
@@ -384,7 +288,7 @@ project/common/board/BoardCommon.i: project/common/board/BoardCommon.c.i
 
 # target to preprocess a source file
 project/common/board/BoardCommon.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/board/BoardCommon.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/board/BoardCommon.c.i
 .PHONY : project/common/board/BoardCommon.c.i
 
 project/common/board/BoardCommon.s: project/common/board/BoardCommon.c.s
@@ -392,159 +296,39 @@ project/common/board/BoardCommon.s: project/common/board/BoardCommon.c.s
 
 # target to generate assembly for a file
 project/common/board/BoardCommon.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/board/BoardCommon.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/board/BoardCommon.c.s
 .PHONY : project/common/board/BoardCommon.c.s
 
-project/common/board/remoteController/BoardConfig.obj: project/common/board/remoteController/BoardConfig.c.obj
-.PHONY : project/common/board/remoteController/BoardConfig.obj
+project/common/board/remoteReciver/BoardConfig.obj: project/common/board/remoteReciver/BoardConfig.c.obj
+.PHONY : project/common/board/remoteReciver/BoardConfig.obj
 
 # target to build an object file
-project/common/board/remoteController/BoardConfig.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/board/remoteController/BoardConfig.c.obj
-.PHONY : project/common/board/remoteController/BoardConfig.c.obj
+project/common/board/remoteReciver/BoardConfig.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/board/remoteReciver/BoardConfig.c.obj
+.PHONY : project/common/board/remoteReciver/BoardConfig.c.obj
 
-project/common/board/remoteController/BoardConfig.i: project/common/board/remoteController/BoardConfig.c.i
-.PHONY : project/common/board/remoteController/BoardConfig.i
-
-# target to preprocess a source file
-project/common/board/remoteController/BoardConfig.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/board/remoteController/BoardConfig.c.i
-.PHONY : project/common/board/remoteController/BoardConfig.c.i
-
-project/common/board/remoteController/BoardConfig.s: project/common/board/remoteController/BoardConfig.c.s
-.PHONY : project/common/board/remoteController/BoardConfig.s
-
-# target to generate assembly for a file
-project/common/board/remoteController/BoardConfig.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/board/remoteController/BoardConfig.c.s
-.PHONY : project/common/board/remoteController/BoardConfig.c.s
-
-project/common/cmd/cmd_env.obj: project/common/cmd/cmd_env.c.obj
-.PHONY : project/common/cmd/cmd_env.obj
-
-# target to build an object file
-project/common/cmd/cmd_env.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_env.c.obj
-.PHONY : project/common/cmd/cmd_env.c.obj
-
-project/common/cmd/cmd_env.i: project/common/cmd/cmd_env.c.i
-.PHONY : project/common/cmd/cmd_env.i
+project/common/board/remoteReciver/BoardConfig.i: project/common/board/remoteReciver/BoardConfig.c.i
+.PHONY : project/common/board/remoteReciver/BoardConfig.i
 
 # target to preprocess a source file
-project/common/cmd/cmd_env.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_env.c.i
-.PHONY : project/common/cmd/cmd_env.c.i
+project/common/board/remoteReciver/BoardConfig.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/board/remoteReciver/BoardConfig.c.i
+.PHONY : project/common/board/remoteReciver/BoardConfig.c.i
 
-project/common/cmd/cmd_env.s: project/common/cmd/cmd_env.c.s
-.PHONY : project/common/cmd/cmd_env.s
-
-# target to generate assembly for a file
-project/common/cmd/cmd_env.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_env.c.s
-.PHONY : project/common/cmd/cmd_env.c.s
-
-project/common/cmd/cmd_flash.obj: project/common/cmd/cmd_flash.c.obj
-.PHONY : project/common/cmd/cmd_flash.obj
-
-# target to build an object file
-project/common/cmd/cmd_flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_flash.c.obj
-.PHONY : project/common/cmd/cmd_flash.c.obj
-
-project/common/cmd/cmd_flash.i: project/common/cmd/cmd_flash.c.i
-.PHONY : project/common/cmd/cmd_flash.i
-
-# target to preprocess a source file
-project/common/cmd/cmd_flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_flash.c.i
-.PHONY : project/common/cmd/cmd_flash.c.i
-
-project/common/cmd/cmd_flash.s: project/common/cmd/cmd_flash.c.s
-.PHONY : project/common/cmd/cmd_flash.s
+project/common/board/remoteReciver/BoardConfig.s: project/common/board/remoteReciver/BoardConfig.c.s
+.PHONY : project/common/board/remoteReciver/BoardConfig.s
 
 # target to generate assembly for a file
-project/common/cmd/cmd_flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_flash.c.s
-.PHONY : project/common/cmd/cmd_flash.c.s
-
-project/common/cmd/cmd_ping.obj: project/common/cmd/cmd_ping.c.obj
-.PHONY : project/common/cmd/cmd_ping.obj
-
-# target to build an object file
-project/common/cmd/cmd_ping.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_ping.c.obj
-.PHONY : project/common/cmd/cmd_ping.c.obj
-
-project/common/cmd/cmd_ping.i: project/common/cmd/cmd_ping.c.i
-.PHONY : project/common/cmd/cmd_ping.i
-
-# target to preprocess a source file
-project/common/cmd/cmd_ping.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_ping.c.i
-.PHONY : project/common/cmd/cmd_ping.c.i
-
-project/common/cmd/cmd_ping.s: project/common/cmd/cmd_ping.c.s
-.PHONY : project/common/cmd/cmd_ping.s
-
-# target to generate assembly for a file
-project/common/cmd/cmd_ping.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_ping.c.s
-.PHONY : project/common/cmd/cmd_ping.c.s
-
-project/common/cmd/cmd_sys.obj: project/common/cmd/cmd_sys.c.obj
-.PHONY : project/common/cmd/cmd_sys.obj
-
-# target to build an object file
-project/common/cmd/cmd_sys.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_sys.c.obj
-.PHONY : project/common/cmd/cmd_sys.c.obj
-
-project/common/cmd/cmd_sys.i: project/common/cmd/cmd_sys.c.i
-.PHONY : project/common/cmd/cmd_sys.i
-
-# target to preprocess a source file
-project/common/cmd/cmd_sys.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_sys.c.i
-.PHONY : project/common/cmd/cmd_sys.c.i
-
-project/common/cmd/cmd_sys.s: project/common/cmd/cmd_sys.c.s
-.PHONY : project/common/cmd/cmd_sys.s
-
-# target to generate assembly for a file
-project/common/cmd/cmd_sys.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/cmd/cmd_sys.c.s
-.PHONY : project/common/cmd/cmd_sys.c.s
-
-project/common/framework/UnityManager/UnityManager.obj: project/common/framework/UnityManager/UnityManager.c.obj
-.PHONY : project/common/framework/UnityManager/UnityManager.obj
-
-# target to build an object file
-project/common/framework/UnityManager/UnityManager.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/UnityManager/UnityManager.c.obj
-.PHONY : project/common/framework/UnityManager/UnityManager.c.obj
-
-project/common/framework/UnityManager/UnityManager.i: project/common/framework/UnityManager/UnityManager.c.i
-.PHONY : project/common/framework/UnityManager/UnityManager.i
-
-# target to preprocess a source file
-project/common/framework/UnityManager/UnityManager.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/UnityManager/UnityManager.c.i
-.PHONY : project/common/framework/UnityManager/UnityManager.c.i
-
-project/common/framework/UnityManager/UnityManager.s: project/common/framework/UnityManager/UnityManager.c.s
-.PHONY : project/common/framework/UnityManager/UnityManager.s
-
-# target to generate assembly for a file
-project/common/framework/UnityManager/UnityManager.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/UnityManager/UnityManager.c.s
-.PHONY : project/common/framework/UnityManager/UnityManager.c.s
+project/common/board/remoteReciver/BoardConfig.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/board/remoteReciver/BoardConfig.c.s
+.PHONY : project/common/board/remoteReciver/BoardConfig.c.s
 
 project/common/framework/multiButton/MiniButton.obj: project/common/framework/multiButton/MiniButton.c.obj
 .PHONY : project/common/framework/multiButton/MiniButton.obj
 
 # target to build an object file
 project/common/framework/multiButton/MiniButton.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/multiButton/MiniButton.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/framework/multiButton/MiniButton.c.obj
 .PHONY : project/common/framework/multiButton/MiniButton.c.obj
 
 project/common/framework/multiButton/MiniButton.i: project/common/framework/multiButton/MiniButton.c.i
@@ -552,7 +336,7 @@ project/common/framework/multiButton/MiniButton.i: project/common/framework/mult
 
 # target to preprocess a source file
 project/common/framework/multiButton/MiniButton.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/multiButton/MiniButton.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/framework/multiButton/MiniButton.c.i
 .PHONY : project/common/framework/multiButton/MiniButton.c.i
 
 project/common/framework/multiButton/MiniButton.s: project/common/framework/multiButton/MiniButton.c.s
@@ -560,7 +344,7 @@ project/common/framework/multiButton/MiniButton.s: project/common/framework/mult
 
 # target to generate assembly for a file
 project/common/framework/multiButton/MiniButton.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/multiButton/MiniButton.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/framework/multiButton/MiniButton.c.s
 .PHONY : project/common/framework/multiButton/MiniButton.c.s
 
 project/common/framework/multiButton/multi_button.obj: project/common/framework/multiButton/multi_button.c.obj
@@ -568,7 +352,7 @@ project/common/framework/multiButton/multi_button.obj: project/common/framework/
 
 # target to build an object file
 project/common/framework/multiButton/multi_button.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/multiButton/multi_button.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/framework/multiButton/multi_button.c.obj
 .PHONY : project/common/framework/multiButton/multi_button.c.obj
 
 project/common/framework/multiButton/multi_button.i: project/common/framework/multiButton/multi_button.c.i
@@ -576,7 +360,7 @@ project/common/framework/multiButton/multi_button.i: project/common/framework/mu
 
 # target to preprocess a source file
 project/common/framework/multiButton/multi_button.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/multiButton/multi_button.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/framework/multiButton/multi_button.c.i
 .PHONY : project/common/framework/multiButton/multi_button.c.i
 
 project/common/framework/multiButton/multi_button.s: project/common/framework/multiButton/multi_button.c.s
@@ -584,7 +368,7 @@ project/common/framework/multiButton/multi_button.s: project/common/framework/mu
 
 # target to generate assembly for a file
 project/common/framework/multiButton/multi_button.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/multiButton/multi_button.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/framework/multiButton/multi_button.c.s
 .PHONY : project/common/framework/multiButton/multi_button.c.s
 
 project/common/framework/multiTimer/MultiTimer.obj: project/common/framework/multiTimer/MultiTimer.c.obj
@@ -592,7 +376,7 @@ project/common/framework/multiTimer/MultiTimer.obj: project/common/framework/mul
 
 # target to build an object file
 project/common/framework/multiTimer/MultiTimer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/multiTimer/MultiTimer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/framework/multiTimer/MultiTimer.c.obj
 .PHONY : project/common/framework/multiTimer/MultiTimer.c.obj
 
 project/common/framework/multiTimer/MultiTimer.i: project/common/framework/multiTimer/MultiTimer.c.i
@@ -600,7 +384,7 @@ project/common/framework/multiTimer/MultiTimer.i: project/common/framework/multi
 
 # target to preprocess a source file
 project/common/framework/multiTimer/MultiTimer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/multiTimer/MultiTimer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/framework/multiTimer/MultiTimer.c.i
 .PHONY : project/common/framework/multiTimer/MultiTimer.c.i
 
 project/common/framework/multiTimer/MultiTimer.s: project/common/framework/multiTimer/MultiTimer.c.s
@@ -608,7 +392,7 @@ project/common/framework/multiTimer/MultiTimer.s: project/common/framework/multi
 
 # target to generate assembly for a file
 project/common/framework/multiTimer/MultiTimer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/multiTimer/MultiTimer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/framework/multiTimer/MultiTimer.c.s
 .PHONY : project/common/framework/multiTimer/MultiTimer.c.s
 
 project/common/framework/platform/platform_init.obj: project/common/framework/platform/platform_init.c.obj
@@ -616,7 +400,7 @@ project/common/framework/platform/platform_init.obj: project/common/framework/pl
 
 # target to build an object file
 project/common/framework/platform/platform_init.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/platform/platform_init.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/framework/platform/platform_init.c.obj
 .PHONY : project/common/framework/platform/platform_init.c.obj
 
 project/common/framework/platform/platform_init.i: project/common/framework/platform/platform_init.c.i
@@ -624,7 +408,7 @@ project/common/framework/platform/platform_init.i: project/common/framework/plat
 
 # target to preprocess a source file
 project/common/framework/platform/platform_init.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/platform/platform_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/framework/platform/platform_init.c.i
 .PHONY : project/common/framework/platform/platform_init.c.i
 
 project/common/framework/platform/platform_init.s: project/common/framework/platform/platform_init.c.s
@@ -632,7 +416,7 @@ project/common/framework/platform/platform_init.s: project/common/framework/plat
 
 # target to generate assembly for a file
 project/common/framework/platform/platform_init.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/platform/platform_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/framework/platform/platform_init.c.s
 .PHONY : project/common/framework/platform/platform_init.c.s
 
 project/common/framework/util/MiniCommon.obj: project/common/framework/util/MiniCommon.c.obj
@@ -640,7 +424,7 @@ project/common/framework/util/MiniCommon.obj: project/common/framework/util/Mini
 
 # target to build an object file
 project/common/framework/util/MiniCommon.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/util/MiniCommon.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/framework/util/MiniCommon.c.obj
 .PHONY : project/common/framework/util/MiniCommon.c.obj
 
 project/common/framework/util/MiniCommon.i: project/common/framework/util/MiniCommon.c.i
@@ -648,7 +432,7 @@ project/common/framework/util/MiniCommon.i: project/common/framework/util/MiniCo
 
 # target to preprocess a source file
 project/common/framework/util/MiniCommon.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/util/MiniCommon.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/framework/util/MiniCommon.c.i
 .PHONY : project/common/framework/util/MiniCommon.c.i
 
 project/common/framework/util/MiniCommon.s: project/common/framework/util/MiniCommon.c.s
@@ -656,95 +440,95 @@ project/common/framework/util/MiniCommon.s: project/common/framework/util/MiniCo
 
 # target to generate assembly for a file
 project/common/framework/util/MiniCommon.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/framework/util/MiniCommon.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/framework/util/MiniCommon.c.s
 .PHONY : project/common/framework/util/MiniCommon.c.s
 
-project/common/startup/STM32F1/startup_stm32f103c8tx.obj: project/common/startup/STM32F1/startup_stm32f103c8tx.s.obj
-.PHONY : project/common/startup/STM32F1/startup_stm32f103c8tx.obj
+project/common/startup/STM32G0/startup_stm32g030c8tx.obj: project/common/startup/STM32G0/startup_stm32g030c8tx.s.obj
+.PHONY : project/common/startup/STM32G0/startup_stm32g030c8tx.obj
 
 # target to build an object file
-project/common/startup/STM32F1/startup_stm32f103c8tx.s.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/STM32F1/startup_stm32f103c8tx.s.obj
-.PHONY : project/common/startup/STM32F1/startup_stm32f103c8tx.s.obj
+project/common/startup/STM32G0/startup_stm32g030c8tx.s.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/STM32G0/startup_stm32g030c8tx.s.obj
+.PHONY : project/common/startup/STM32G0/startup_stm32g030c8tx.s.obj
 
-project/common/startup/STM32F1/stm32f1xx_hal_msp.obj: project/common/startup/STM32F1/stm32f1xx_hal_msp.c.obj
-.PHONY : project/common/startup/STM32F1/stm32f1xx_hal_msp.obj
+project/common/startup/STM32G0/stm32g0xx_hal_msp.obj: project/common/startup/STM32G0/stm32g0xx_hal_msp.c.obj
+.PHONY : project/common/startup/STM32G0/stm32g0xx_hal_msp.obj
 
 # target to build an object file
-project/common/startup/STM32F1/stm32f1xx_hal_msp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/STM32F1/stm32f1xx_hal_msp.c.obj
-.PHONY : project/common/startup/STM32F1/stm32f1xx_hal_msp.c.obj
+project/common/startup/STM32G0/stm32g0xx_hal_msp.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/STM32G0/stm32g0xx_hal_msp.c.obj
+.PHONY : project/common/startup/STM32G0/stm32g0xx_hal_msp.c.obj
 
-project/common/startup/STM32F1/stm32f1xx_hal_msp.i: project/common/startup/STM32F1/stm32f1xx_hal_msp.c.i
-.PHONY : project/common/startup/STM32F1/stm32f1xx_hal_msp.i
+project/common/startup/STM32G0/stm32g0xx_hal_msp.i: project/common/startup/STM32G0/stm32g0xx_hal_msp.c.i
+.PHONY : project/common/startup/STM32G0/stm32g0xx_hal_msp.i
 
 # target to preprocess a source file
-project/common/startup/STM32F1/stm32f1xx_hal_msp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/STM32F1/stm32f1xx_hal_msp.c.i
-.PHONY : project/common/startup/STM32F1/stm32f1xx_hal_msp.c.i
+project/common/startup/STM32G0/stm32g0xx_hal_msp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/STM32G0/stm32g0xx_hal_msp.c.i
+.PHONY : project/common/startup/STM32G0/stm32g0xx_hal_msp.c.i
 
-project/common/startup/STM32F1/stm32f1xx_hal_msp.s: project/common/startup/STM32F1/stm32f1xx_hal_msp.c.s
-.PHONY : project/common/startup/STM32F1/stm32f1xx_hal_msp.s
+project/common/startup/STM32G0/stm32g0xx_hal_msp.s: project/common/startup/STM32G0/stm32g0xx_hal_msp.c.s
+.PHONY : project/common/startup/STM32G0/stm32g0xx_hal_msp.s
 
 # target to generate assembly for a file
-project/common/startup/STM32F1/stm32f1xx_hal_msp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/STM32F1/stm32f1xx_hal_msp.c.s
-.PHONY : project/common/startup/STM32F1/stm32f1xx_hal_msp.c.s
+project/common/startup/STM32G0/stm32g0xx_hal_msp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/STM32G0/stm32g0xx_hal_msp.c.s
+.PHONY : project/common/startup/STM32G0/stm32g0xx_hal_msp.c.s
 
-project/common/startup/STM32F1/stm32f1xx_it.obj: project/common/startup/STM32F1/stm32f1xx_it.c.obj
-.PHONY : project/common/startup/STM32F1/stm32f1xx_it.obj
+project/common/startup/STM32G0/stm32g0xx_it.obj: project/common/startup/STM32G0/stm32g0xx_it.c.obj
+.PHONY : project/common/startup/STM32G0/stm32g0xx_it.obj
 
 # target to build an object file
-project/common/startup/STM32F1/stm32f1xx_it.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/STM32F1/stm32f1xx_it.c.obj
-.PHONY : project/common/startup/STM32F1/stm32f1xx_it.c.obj
+project/common/startup/STM32G0/stm32g0xx_it.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/STM32G0/stm32g0xx_it.c.obj
+.PHONY : project/common/startup/STM32G0/stm32g0xx_it.c.obj
 
-project/common/startup/STM32F1/stm32f1xx_it.i: project/common/startup/STM32F1/stm32f1xx_it.c.i
-.PHONY : project/common/startup/STM32F1/stm32f1xx_it.i
+project/common/startup/STM32G0/stm32g0xx_it.i: project/common/startup/STM32G0/stm32g0xx_it.c.i
+.PHONY : project/common/startup/STM32G0/stm32g0xx_it.i
 
 # target to preprocess a source file
-project/common/startup/STM32F1/stm32f1xx_it.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/STM32F1/stm32f1xx_it.c.i
-.PHONY : project/common/startup/STM32F1/stm32f1xx_it.c.i
+project/common/startup/STM32G0/stm32g0xx_it.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/STM32G0/stm32g0xx_it.c.i
+.PHONY : project/common/startup/STM32G0/stm32g0xx_it.c.i
 
-project/common/startup/STM32F1/stm32f1xx_it.s: project/common/startup/STM32F1/stm32f1xx_it.c.s
-.PHONY : project/common/startup/STM32F1/stm32f1xx_it.s
+project/common/startup/STM32G0/stm32g0xx_it.s: project/common/startup/STM32G0/stm32g0xx_it.c.s
+.PHONY : project/common/startup/STM32G0/stm32g0xx_it.s
 
 # target to generate assembly for a file
-project/common/startup/STM32F1/stm32f1xx_it.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/STM32F1/stm32f1xx_it.c.s
-.PHONY : project/common/startup/STM32F1/stm32f1xx_it.c.s
+project/common/startup/STM32G0/stm32g0xx_it.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/STM32G0/stm32g0xx_it.c.s
+.PHONY : project/common/startup/STM32G0/stm32g0xx_it.c.s
 
-project/common/startup/STM32F1/system_stm32f1xx.obj: project/common/startup/STM32F1/system_stm32f1xx.c.obj
-.PHONY : project/common/startup/STM32F1/system_stm32f1xx.obj
+project/common/startup/STM32G0/system_stm32g0xx.obj: project/common/startup/STM32G0/system_stm32g0xx.c.obj
+.PHONY : project/common/startup/STM32G0/system_stm32g0xx.obj
 
 # target to build an object file
-project/common/startup/STM32F1/system_stm32f1xx.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/STM32F1/system_stm32f1xx.c.obj
-.PHONY : project/common/startup/STM32F1/system_stm32f1xx.c.obj
+project/common/startup/STM32G0/system_stm32g0xx.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/STM32G0/system_stm32g0xx.c.obj
+.PHONY : project/common/startup/STM32G0/system_stm32g0xx.c.obj
 
-project/common/startup/STM32F1/system_stm32f1xx.i: project/common/startup/STM32F1/system_stm32f1xx.c.i
-.PHONY : project/common/startup/STM32F1/system_stm32f1xx.i
+project/common/startup/STM32G0/system_stm32g0xx.i: project/common/startup/STM32G0/system_stm32g0xx.c.i
+.PHONY : project/common/startup/STM32G0/system_stm32g0xx.i
 
 # target to preprocess a source file
-project/common/startup/STM32F1/system_stm32f1xx.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/STM32F1/system_stm32f1xx.c.i
-.PHONY : project/common/startup/STM32F1/system_stm32f1xx.c.i
+project/common/startup/STM32G0/system_stm32g0xx.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/STM32G0/system_stm32g0xx.c.i
+.PHONY : project/common/startup/STM32G0/system_stm32g0xx.c.i
 
-project/common/startup/STM32F1/system_stm32f1xx.s: project/common/startup/STM32F1/system_stm32f1xx.c.s
-.PHONY : project/common/startup/STM32F1/system_stm32f1xx.s
+project/common/startup/STM32G0/system_stm32g0xx.s: project/common/startup/STM32G0/system_stm32g0xx.c.s
+.PHONY : project/common/startup/STM32G0/system_stm32g0xx.s
 
 # target to generate assembly for a file
-project/common/startup/STM32F1/system_stm32f1xx.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/STM32F1/system_stm32f1xx.c.s
-.PHONY : project/common/startup/STM32F1/system_stm32f1xx.c.s
+project/common/startup/STM32G0/system_stm32g0xx.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/STM32G0/system_stm32g0xx.c.s
+.PHONY : project/common/startup/STM32G0/system_stm32g0xx.c.s
 
 project/common/startup/common/retarget.obj: project/common/startup/common/retarget.c.obj
 .PHONY : project/common/startup/common/retarget.obj
 
 # target to build an object file
 project/common/startup/common/retarget.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/retarget.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/common/retarget.c.obj
 .PHONY : project/common/startup/common/retarget.c.obj
 
 project/common/startup/common/retarget.i: project/common/startup/common/retarget.c.i
@@ -752,7 +536,7 @@ project/common/startup/common/retarget.i: project/common/startup/common/retarget
 
 # target to preprocess a source file
 project/common/startup/common/retarget.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/retarget.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/common/retarget.c.i
 .PHONY : project/common/startup/common/retarget.c.i
 
 project/common/startup/common/retarget.s: project/common/startup/common/retarget.c.s
@@ -760,7 +544,7 @@ project/common/startup/common/retarget.s: project/common/startup/common/retarget
 
 # target to generate assembly for a file
 project/common/startup/common/retarget.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/retarget.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/common/retarget.c.s
 .PHONY : project/common/startup/common/retarget.c.s
 
 project/common/startup/common/retarget_main.obj: project/common/startup/common/retarget_main.c.obj
@@ -768,7 +552,7 @@ project/common/startup/common/retarget_main.obj: project/common/startup/common/r
 
 # target to build an object file
 project/common/startup/common/retarget_main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/retarget_main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/common/retarget_main.c.obj
 .PHONY : project/common/startup/common/retarget_main.c.obj
 
 project/common/startup/common/retarget_main.i: project/common/startup/common/retarget_main.c.i
@@ -776,7 +560,7 @@ project/common/startup/common/retarget_main.i: project/common/startup/common/ret
 
 # target to preprocess a source file
 project/common/startup/common/retarget_main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/retarget_main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/common/retarget_main.c.i
 .PHONY : project/common/startup/common/retarget_main.c.i
 
 project/common/startup/common/retarget_main.s: project/common/startup/common/retarget_main.c.s
@@ -784,7 +568,7 @@ project/common/startup/common/retarget_main.s: project/common/startup/common/ret
 
 # target to generate assembly for a file
 project/common/startup/common/retarget_main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/retarget_main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/common/retarget_main.c.s
 .PHONY : project/common/startup/common/retarget_main.c.s
 
 project/common/startup/common/retarget_stdout.obj: project/common/startup/common/retarget_stdout.c.obj
@@ -792,7 +576,7 @@ project/common/startup/common/retarget_stdout.obj: project/common/startup/common
 
 # target to build an object file
 project/common/startup/common/retarget_stdout.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/retarget_stdout.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/common/retarget_stdout.c.obj
 .PHONY : project/common/startup/common/retarget_stdout.c.obj
 
 project/common/startup/common/retarget_stdout.i: project/common/startup/common/retarget_stdout.c.i
@@ -800,7 +584,7 @@ project/common/startup/common/retarget_stdout.i: project/common/startup/common/r
 
 # target to preprocess a source file
 project/common/startup/common/retarget_stdout.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/retarget_stdout.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/common/retarget_stdout.c.i
 .PHONY : project/common/startup/common/retarget_stdout.c.i
 
 project/common/startup/common/retarget_stdout.s: project/common/startup/common/retarget_stdout.c.s
@@ -808,7 +592,7 @@ project/common/startup/common/retarget_stdout.s: project/common/startup/common/r
 
 # target to generate assembly for a file
 project/common/startup/common/retarget_stdout.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/retarget_stdout.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/common/retarget_stdout.c.s
 .PHONY : project/common/startup/common/retarget_stdout.c.s
 
 project/common/startup/common/syscalls.obj: project/common/startup/common/syscalls.c.obj
@@ -816,7 +600,7 @@ project/common/startup/common/syscalls.obj: project/common/startup/common/syscal
 
 # target to build an object file
 project/common/startup/common/syscalls.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/syscalls.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/common/syscalls.c.obj
 .PHONY : project/common/startup/common/syscalls.c.obj
 
 project/common/startup/common/syscalls.i: project/common/startup/common/syscalls.c.i
@@ -824,7 +608,7 @@ project/common/startup/common/syscalls.i: project/common/startup/common/syscalls
 
 # target to preprocess a source file
 project/common/startup/common/syscalls.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/syscalls.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/common/syscalls.c.i
 .PHONY : project/common/startup/common/syscalls.c.i
 
 project/common/startup/common/syscalls.s: project/common/startup/common/syscalls.c.s
@@ -832,7 +616,7 @@ project/common/startup/common/syscalls.s: project/common/startup/common/syscalls
 
 # target to generate assembly for a file
 project/common/startup/common/syscalls.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/syscalls.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/common/syscalls.c.s
 .PHONY : project/common/startup/common/syscalls.c.s
 
 project/common/startup/common/sysmem.obj: project/common/startup/common/sysmem.c.obj
@@ -840,7 +624,7 @@ project/common/startup/common/sysmem.obj: project/common/startup/common/sysmem.c
 
 # target to build an object file
 project/common/startup/common/sysmem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/sysmem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/common/sysmem.c.obj
 .PHONY : project/common/startup/common/sysmem.c.obj
 
 project/common/startup/common/sysmem.i: project/common/startup/common/sysmem.c.i
@@ -848,7 +632,7 @@ project/common/startup/common/sysmem.i: project/common/startup/common/sysmem.c.i
 
 # target to preprocess a source file
 project/common/startup/common/sysmem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/sysmem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/common/sysmem.c.i
 .PHONY : project/common/startup/common/sysmem.c.i
 
 project/common/startup/common/sysmem.s: project/common/startup/common/sysmem.c.s
@@ -856,231 +640,15 @@ project/common/startup/common/sysmem.s: project/common/startup/common/sysmem.c.s
 
 # target to generate assembly for a file
 project/common/startup/common/sysmem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/common/startup/common/sysmem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/project/common/startup/common/sysmem.c.s
 .PHONY : project/common/startup/common/sysmem.c.s
-
-project/test/testVfs.obj: project/test/testVfs.c.obj
-.PHONY : project/test/testVfs.obj
-
-# target to build an object file
-project/test/testVfs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/test/testVfs.c.obj
-.PHONY : project/test/testVfs.c.obj
-
-project/test/testVfs.i: project/test/testVfs.c.i
-.PHONY : project/test/testVfs.i
-
-# target to preprocess a source file
-project/test/testVfs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/test/testVfs.c.i
-.PHONY : project/test/testVfs.c.i
-
-project/test/testVfs.s: project/test/testVfs.c.s
-.PHONY : project/test/testVfs.s
-
-# target to generate assembly for a file
-project/test/testVfs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/project/test/testVfs.c.s
-.PHONY : project/test/testVfs.c.s
-
-src/console/MiniShell.obj: src/console/MiniShell.c.obj
-.PHONY : src/console/MiniShell.obj
-
-# target to build an object file
-src/console/MiniShell.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/MiniShell.c.obj
-.PHONY : src/console/MiniShell.c.obj
-
-src/console/MiniShell.i: src/console/MiniShell.c.i
-.PHONY : src/console/MiniShell.i
-
-# target to preprocess a source file
-src/console/MiniShell.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/MiniShell.c.i
-.PHONY : src/console/MiniShell.c.i
-
-src/console/MiniShell.s: src/console/MiniShell.c.s
-.PHONY : src/console/MiniShell.s
-
-# target to generate assembly for a file
-src/console/MiniShell.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/MiniShell.c.s
-.PHONY : src/console/MiniShell.c.s
-
-src/console/lettershell/log.obj: src/console/lettershell/log.c.obj
-.PHONY : src/console/lettershell/log.obj
-
-# target to build an object file
-src/console/lettershell/log.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/log.c.obj
-.PHONY : src/console/lettershell/log.c.obj
-
-src/console/lettershell/log.i: src/console/lettershell/log.c.i
-.PHONY : src/console/lettershell/log.i
-
-# target to preprocess a source file
-src/console/lettershell/log.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/log.c.i
-.PHONY : src/console/lettershell/log.c.i
-
-src/console/lettershell/log.s: src/console/lettershell/log.c.s
-.PHONY : src/console/lettershell/log.s
-
-# target to generate assembly for a file
-src/console/lettershell/log.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/log.c.s
-.PHONY : src/console/lettershell/log.c.s
-
-src/console/lettershell/shell.obj: src/console/lettershell/shell.c.obj
-.PHONY : src/console/lettershell/shell.obj
-
-# target to build an object file
-src/console/lettershell/shell.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell.c.obj
-.PHONY : src/console/lettershell/shell.c.obj
-
-src/console/lettershell/shell.i: src/console/lettershell/shell.c.i
-.PHONY : src/console/lettershell/shell.i
-
-# target to preprocess a source file
-src/console/lettershell/shell.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell.c.i
-.PHONY : src/console/lettershell/shell.c.i
-
-src/console/lettershell/shell.s: src/console/lettershell/shell.c.s
-.PHONY : src/console/lettershell/shell.s
-
-# target to generate assembly for a file
-src/console/lettershell/shell.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell.c.s
-.PHONY : src/console/lettershell/shell.c.s
-
-src/console/lettershell/shell_cmd_list.obj: src/console/lettershell/shell_cmd_list.c.obj
-.PHONY : src/console/lettershell/shell_cmd_list.obj
-
-# target to build an object file
-src/console/lettershell/shell_cmd_list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_cmd_list.c.obj
-.PHONY : src/console/lettershell/shell_cmd_list.c.obj
-
-src/console/lettershell/shell_cmd_list.i: src/console/lettershell/shell_cmd_list.c.i
-.PHONY : src/console/lettershell/shell_cmd_list.i
-
-# target to preprocess a source file
-src/console/lettershell/shell_cmd_list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_cmd_list.c.i
-.PHONY : src/console/lettershell/shell_cmd_list.c.i
-
-src/console/lettershell/shell_cmd_list.s: src/console/lettershell/shell_cmd_list.c.s
-.PHONY : src/console/lettershell/shell_cmd_list.s
-
-# target to generate assembly for a file
-src/console/lettershell/shell_cmd_list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_cmd_list.c.s
-.PHONY : src/console/lettershell/shell_cmd_list.c.s
-
-src/console/lettershell/shell_companion.obj: src/console/lettershell/shell_companion.c.obj
-.PHONY : src/console/lettershell/shell_companion.obj
-
-# target to build an object file
-src/console/lettershell/shell_companion.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_companion.c.obj
-.PHONY : src/console/lettershell/shell_companion.c.obj
-
-src/console/lettershell/shell_companion.i: src/console/lettershell/shell_companion.c.i
-.PHONY : src/console/lettershell/shell_companion.i
-
-# target to preprocess a source file
-src/console/lettershell/shell_companion.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_companion.c.i
-.PHONY : src/console/lettershell/shell_companion.c.i
-
-src/console/lettershell/shell_companion.s: src/console/lettershell/shell_companion.c.s
-.PHONY : src/console/lettershell/shell_companion.s
-
-# target to generate assembly for a file
-src/console/lettershell/shell_companion.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_companion.c.s
-.PHONY : src/console/lettershell/shell_companion.c.s
-
-src/console/lettershell/shell_ext.obj: src/console/lettershell/shell_ext.c.obj
-.PHONY : src/console/lettershell/shell_ext.obj
-
-# target to build an object file
-src/console/lettershell/shell_ext.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_ext.c.obj
-.PHONY : src/console/lettershell/shell_ext.c.obj
-
-src/console/lettershell/shell_ext.i: src/console/lettershell/shell_ext.c.i
-.PHONY : src/console/lettershell/shell_ext.i
-
-# target to preprocess a source file
-src/console/lettershell/shell_ext.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_ext.c.i
-.PHONY : src/console/lettershell/shell_ext.c.i
-
-src/console/lettershell/shell_ext.s: src/console/lettershell/shell_ext.c.s
-.PHONY : src/console/lettershell/shell_ext.s
-
-# target to generate assembly for a file
-src/console/lettershell/shell_ext.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_ext.c.s
-.PHONY : src/console/lettershell/shell_ext.c.s
-
-src/console/lettershell/shell_fs.obj: src/console/lettershell/shell_fs.c.obj
-.PHONY : src/console/lettershell/shell_fs.obj
-
-# target to build an object file
-src/console/lettershell/shell_fs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_fs.c.obj
-.PHONY : src/console/lettershell/shell_fs.c.obj
-
-src/console/lettershell/shell_fs.i: src/console/lettershell/shell_fs.c.i
-.PHONY : src/console/lettershell/shell_fs.i
-
-# target to preprocess a source file
-src/console/lettershell/shell_fs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_fs.c.i
-.PHONY : src/console/lettershell/shell_fs.c.i
-
-src/console/lettershell/shell_fs.s: src/console/lettershell/shell_fs.c.s
-.PHONY : src/console/lettershell/shell_fs.s
-
-# target to generate assembly for a file
-src/console/lettershell/shell_fs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/lettershell/shell_fs.c.s
-.PHONY : src/console/lettershell/shell_fs.c.s
-
-src/console/miniConsole.obj: src/console/miniConsole.c.obj
-.PHONY : src/console/miniConsole.obj
-
-# target to build an object file
-src/console/miniConsole.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/miniConsole.c.obj
-.PHONY : src/console/miniConsole.c.obj
-
-src/console/miniConsole.i: src/console/miniConsole.c.i
-.PHONY : src/console/miniConsole.i
-
-# target to preprocess a source file
-src/console/miniConsole.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/miniConsole.c.i
-.PHONY : src/console/miniConsole.c.i
-
-src/console/miniConsole.s: src/console/miniConsole.c.s
-.PHONY : src/console/miniConsole.s
-
-# target to generate assembly for a file
-src/console/miniConsole.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/console/miniConsole.c.s
-.PHONY : src/console/miniConsole.c.s
 
 src/core/EFSM/fsm.obj: src/core/EFSM/fsm.c.obj
 .PHONY : src/core/EFSM/fsm.obj
 
 # target to build an object file
 src/core/EFSM/fsm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/core/EFSM/fsm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/core/EFSM/fsm.c.obj
 .PHONY : src/core/EFSM/fsm.c.obj
 
 src/core/EFSM/fsm.i: src/core/EFSM/fsm.c.i
@@ -1088,7 +656,7 @@ src/core/EFSM/fsm.i: src/core/EFSM/fsm.c.i
 
 # target to preprocess a source file
 src/core/EFSM/fsm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/core/EFSM/fsm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/core/EFSM/fsm.c.i
 .PHONY : src/core/EFSM/fsm.c.i
 
 src/core/EFSM/fsm.s: src/core/EFSM/fsm.c.s
@@ -1096,7 +664,7 @@ src/core/EFSM/fsm.s: src/core/EFSM/fsm.c.s
 
 # target to generate assembly for a file
 src/core/EFSM/fsm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/core/EFSM/fsm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/core/EFSM/fsm.c.s
 .PHONY : src/core/EFSM/fsm.c.s
 
 src/core/cQueue/cQueue.obj: src/core/cQueue/cQueue.c.obj
@@ -1104,7 +672,7 @@ src/core/cQueue/cQueue.obj: src/core/cQueue/cQueue.c.obj
 
 # target to build an object file
 src/core/cQueue/cQueue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/core/cQueue/cQueue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/core/cQueue/cQueue.c.obj
 .PHONY : src/core/cQueue/cQueue.c.obj
 
 src/core/cQueue/cQueue.i: src/core/cQueue/cQueue.c.i
@@ -1112,7 +680,7 @@ src/core/cQueue/cQueue.i: src/core/cQueue/cQueue.c.i
 
 # target to preprocess a source file
 src/core/cQueue/cQueue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/core/cQueue/cQueue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/core/cQueue/cQueue.c.i
 .PHONY : src/core/cQueue/cQueue.c.i
 
 src/core/cQueue/cQueue.s: src/core/cQueue/cQueue.c.s
@@ -1120,7 +688,7 @@ src/core/cQueue/cQueue.s: src/core/cQueue/cQueue.c.s
 
 # target to generate assembly for a file
 src/core/cQueue/cQueue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/core/cQueue/cQueue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/core/cQueue/cQueue.c.s
 .PHONY : src/core/cQueue/cQueue.c.s
 
 src/core/lwrb/lwrb.obj: src/core/lwrb/lwrb.c.obj
@@ -1128,7 +696,7 @@ src/core/lwrb/lwrb.obj: src/core/lwrb/lwrb.c.obj
 
 # target to build an object file
 src/core/lwrb/lwrb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/core/lwrb/lwrb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/core/lwrb/lwrb.c.obj
 .PHONY : src/core/lwrb/lwrb.c.obj
 
 src/core/lwrb/lwrb.i: src/core/lwrb/lwrb.c.i
@@ -1136,7 +704,7 @@ src/core/lwrb/lwrb.i: src/core/lwrb/lwrb.c.i
 
 # target to preprocess a source file
 src/core/lwrb/lwrb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/core/lwrb/lwrb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/core/lwrb/lwrb.c.i
 .PHONY : src/core/lwrb/lwrb.c.i
 
 src/core/lwrb/lwrb.s: src/core/lwrb/lwrb.c.s
@@ -1144,599 +712,687 @@ src/core/lwrb/lwrb.s: src/core/lwrb/lwrb.c.s
 
 # target to generate assembly for a file
 src/core/lwrb/lwrb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/core/lwrb/lwrb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/core/lwrb/lwrb.c.s
 .PHONY : src/core/lwrb/lwrb.c.s
 
-src/debug/backtrace.obj: src/debug/backtrace.c.obj
-.PHONY : src/debug/backtrace.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.obj
 
 # target to build an object file
-src/debug/backtrace.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/backtrace.c.obj
-.PHONY : src/debug/backtrace.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.obj
 
-src/debug/backtrace.i: src/debug/backtrace.c.i
-.PHONY : src/debug/backtrace.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.i
 
 # target to preprocess a source file
-src/debug/backtrace.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/backtrace.c.i
-.PHONY : src/debug/backtrace.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.i
 
-src/debug/backtrace.s: src/debug/backtrace.c.s
-.PHONY : src/debug/backtrace.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.s
 
 # target to generate assembly for a file
-src/debug/backtrace.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/backtrace.c.s
-.PHONY : src/debug/backtrace.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c.s
 
-src/debug/cm_backtrace/cm_backtrace.obj: src/debug/cm_backtrace/cm_backtrace.c.obj
-.PHONY : src/debug/cm_backtrace/cm_backtrace.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.obj
 
 # target to build an object file
-src/debug/cm_backtrace/cm_backtrace.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.obj
-.PHONY : src/debug/cm_backtrace/cm_backtrace.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c.obj
 
-src/debug/cm_backtrace/cm_backtrace.i: src/debug/cm_backtrace/cm_backtrace.c.i
-.PHONY : src/debug/cm_backtrace/cm_backtrace.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.i
 
 # target to preprocess a source file
-src/debug/cm_backtrace/cm_backtrace.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.i
-.PHONY : src/debug/cm_backtrace/cm_backtrace.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c.i
 
-src/debug/cm_backtrace/cm_backtrace.s: src/debug/cm_backtrace/cm_backtrace.c.s
-.PHONY : src/debug/cm_backtrace/cm_backtrace.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.s
 
 # target to generate assembly for a file
-src/debug/cm_backtrace/cm_backtrace.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/cm_backtrace/cm_backtrace.c.s
-.PHONY : src/debug/cm_backtrace/cm_backtrace.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c.s
 
-src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.obj: src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj
-.PHONY : src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.obj
-
-# target to build an object file
-src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj
-.PHONY : src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.S.obj
-
-src/debug/debug.obj: src/debug/debug.c.obj
-.PHONY : src/debug/debug.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.obj
 
 # target to build an object file
-src/debug/debug.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/debug.c.obj
-.PHONY : src/debug/debug.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c.obj
 
-src/debug/debug.i: src/debug/debug.c.i
-.PHONY : src/debug/debug.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.i
 
 # target to preprocess a source file
-src/debug/debug.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/debug.c.i
-.PHONY : src/debug/debug.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c.i
 
-src/debug/debug.s: src/debug/debug.c.s
-.PHONY : src/debug/debug.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.s
 
 # target to generate assembly for a file
-src/debug/debug.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/debug.c.s
-.PHONY : src/debug/debug.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c.s
 
-src/debug/heap_trace.obj: src/debug/heap_trace.c.obj
-.PHONY : src/debug/heap_trace.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.obj
 
 # target to build an object file
-src/debug/heap_trace.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/heap_trace.c.obj
-.PHONY : src/debug/heap_trace.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.obj
 
-src/debug/heap_trace.i: src/debug/heap_trace.c.i
-.PHONY : src/debug/heap_trace.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.i
 
 # target to preprocess a source file
-src/debug/heap_trace.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/heap_trace.c.i
-.PHONY : src/debug/heap_trace.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.i
 
-src/debug/heap_trace.s: src/debug/heap_trace.c.s
-.PHONY : src/debug/heap_trace.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.s
 
 # target to generate assembly for a file
-src/debug/heap_trace.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/debug/heap_trace.c.s
-.PHONY : src/debug/heap_trace.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c.s
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.obj: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.obj
 
 # target to build an object file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.obj
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.obj
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.obj
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.i: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.i
 
 # target to preprocess a source file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.i
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.i
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.i
 
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.s: src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.s
 
 # target to generate assembly for a file
-src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.s
-.PHONY : src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.c.s
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c.s
+
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.obj
+
+# target to build an object file
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.c.obj
+
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.i
+
+# target to preprocess a source file
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.c.i
+
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.s
+
+# target to generate assembly for a file
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.c.s
+
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.obj
+
+# target to build an object file
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.c.obj
+
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.i
+
+# target to preprocess a source file
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.c.i
+
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.s
+
+# target to generate assembly for a file
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.c.s
+
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.obj
+
+# target to build an object file
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.obj
+
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.i
+
+# target to preprocess a source file
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.i
+
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.s
+
+# target to generate assembly for a file
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c.s
+
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.obj: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.obj
+
+# target to build an object file
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.obj
+
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.i: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.i
+
+# target to preprocess a source file
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.i
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.i
+
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.s: src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.s
+
+# target to generate assembly for a file
+src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.s
+.PHONY : src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c.s
 
 src/driver/component/wireless/nRF24L01/nRF24L01.obj: src/driver/component/wireless/nRF24L01/nRF24L01.c.obj
 .PHONY : src/driver/component/wireless/nRF24L01/nRF24L01.obj
 
 # target to build an object file
 src/driver/component/wireless/nRF24L01/nRF24L01.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/component/wireless/nRF24L01/nRF24L01.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/component/wireless/nRF24L01/nRF24L01.c.obj
 .PHONY : src/driver/component/wireless/nRF24L01/nRF24L01.c.obj
 
 src/driver/component/wireless/nRF24L01/nRF24L01.i: src/driver/component/wireless/nRF24L01/nRF24L01.c.i
@@ -1744,7 +1400,7 @@ src/driver/component/wireless/nRF24L01/nRF24L01.i: src/driver/component/wireless
 
 # target to preprocess a source file
 src/driver/component/wireless/nRF24L01/nRF24L01.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/component/wireless/nRF24L01/nRF24L01.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/component/wireless/nRF24L01/nRF24L01.c.i
 .PHONY : src/driver/component/wireless/nRF24L01/nRF24L01.c.i
 
 src/driver/component/wireless/nRF24L01/nRF24L01.s: src/driver/component/wireless/nRF24L01/nRF24L01.c.s
@@ -1752,7 +1408,7 @@ src/driver/component/wireless/nRF24L01/nRF24L01.s: src/driver/component/wireless
 
 # target to generate assembly for a file
 src/driver/component/wireless/nRF24L01/nRF24L01.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/component/wireless/nRF24L01/nRF24L01.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/component/wireless/nRF24L01/nRF24L01.c.s
 .PHONY : src/driver/component/wireless/nRF24L01/nRF24L01.c.s
 
 src/driver/hal/hal_adc.obj: src/driver/hal/hal_adc.c.obj
@@ -1760,7 +1416,7 @@ src/driver/hal/hal_adc.obj: src/driver/hal/hal_adc.c.obj
 
 # target to build an object file
 src/driver/hal/hal_adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_adc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_adc.c.obj
 .PHONY : src/driver/hal/hal_adc.c.obj
 
 src/driver/hal/hal_adc.i: src/driver/hal/hal_adc.c.i
@@ -1768,7 +1424,7 @@ src/driver/hal/hal_adc.i: src/driver/hal/hal_adc.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_adc.c.i
 .PHONY : src/driver/hal/hal_adc.c.i
 
 src/driver/hal/hal_adc.s: src/driver/hal/hal_adc.c.s
@@ -1776,7 +1432,7 @@ src/driver/hal/hal_adc.s: src/driver/hal/hal_adc.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_adc.c.s
 .PHONY : src/driver/hal/hal_adc.c.s
 
 src/driver/hal/hal_board.obj: src/driver/hal/hal_board.c.obj
@@ -1784,7 +1440,7 @@ src/driver/hal/hal_board.obj: src/driver/hal/hal_board.c.obj
 
 # target to build an object file
 src/driver/hal/hal_board.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_board.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_board.c.obj
 .PHONY : src/driver/hal/hal_board.c.obj
 
 src/driver/hal/hal_board.i: src/driver/hal/hal_board.c.i
@@ -1792,7 +1448,7 @@ src/driver/hal/hal_board.i: src/driver/hal/hal_board.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_board.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_board.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_board.c.i
 .PHONY : src/driver/hal/hal_board.c.i
 
 src/driver/hal/hal_board.s: src/driver/hal/hal_board.c.s
@@ -1800,7 +1456,7 @@ src/driver/hal/hal_board.s: src/driver/hal/hal_board.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_board.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_board.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_board.c.s
 .PHONY : src/driver/hal/hal_board.c.s
 
 src/driver/hal/hal_crc.obj: src/driver/hal/hal_crc.c.obj
@@ -1808,7 +1464,7 @@ src/driver/hal/hal_crc.obj: src/driver/hal/hal_crc.c.obj
 
 # target to build an object file
 src/driver/hal/hal_crc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_crc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_crc.c.obj
 .PHONY : src/driver/hal/hal_crc.c.obj
 
 src/driver/hal/hal_crc.i: src/driver/hal/hal_crc.c.i
@@ -1816,7 +1472,7 @@ src/driver/hal/hal_crc.i: src/driver/hal/hal_crc.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_crc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_crc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_crc.c.i
 .PHONY : src/driver/hal/hal_crc.c.i
 
 src/driver/hal/hal_crc.s: src/driver/hal/hal_crc.c.s
@@ -1824,7 +1480,7 @@ src/driver/hal/hal_crc.s: src/driver/hal/hal_crc.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_crc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_crc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_crc.c.s
 .PHONY : src/driver/hal/hal_crc.c.s
 
 src/driver/hal/hal_dma.obj: src/driver/hal/hal_dma.c.obj
@@ -1832,7 +1488,7 @@ src/driver/hal/hal_dma.obj: src/driver/hal/hal_dma.c.obj
 
 # target to build an object file
 src/driver/hal/hal_dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_dma.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_dma.c.obj
 .PHONY : src/driver/hal/hal_dma.c.obj
 
 src/driver/hal/hal_dma.i: src/driver/hal/hal_dma.c.i
@@ -1840,7 +1496,7 @@ src/driver/hal/hal_dma.i: src/driver/hal/hal_dma.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_dma.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_dma.c.i
 .PHONY : src/driver/hal/hal_dma.c.i
 
 src/driver/hal/hal_dma.s: src/driver/hal/hal_dma.c.s
@@ -1848,7 +1504,7 @@ src/driver/hal/hal_dma.s: src/driver/hal/hal_dma.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_dma.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_dma.c.s
 .PHONY : src/driver/hal/hal_dma.c.s
 
 src/driver/hal/hal_flash.obj: src/driver/hal/hal_flash.c.obj
@@ -1856,7 +1512,7 @@ src/driver/hal/hal_flash.obj: src/driver/hal/hal_flash.c.obj
 
 # target to build an object file
 src/driver/hal/hal_flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_flash.c.obj
 .PHONY : src/driver/hal/hal_flash.c.obj
 
 src/driver/hal/hal_flash.i: src/driver/hal/hal_flash.c.i
@@ -1864,7 +1520,7 @@ src/driver/hal/hal_flash.i: src/driver/hal/hal_flash.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_flash.c.i
 .PHONY : src/driver/hal/hal_flash.c.i
 
 src/driver/hal/hal_flash.s: src/driver/hal/hal_flash.c.s
@@ -1872,7 +1528,7 @@ src/driver/hal/hal_flash.s: src/driver/hal/hal_flash.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_flash.c.s
 .PHONY : src/driver/hal/hal_flash.c.s
 
 src/driver/hal/hal_gpio.obj: src/driver/hal/hal_gpio.c.obj
@@ -1880,7 +1536,7 @@ src/driver/hal/hal_gpio.obj: src/driver/hal/hal_gpio.c.obj
 
 # target to build an object file
 src/driver/hal/hal_gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_gpio.c.obj
 .PHONY : src/driver/hal/hal_gpio.c.obj
 
 src/driver/hal/hal_gpio.i: src/driver/hal/hal_gpio.c.i
@@ -1888,7 +1544,7 @@ src/driver/hal/hal_gpio.i: src/driver/hal/hal_gpio.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_gpio.c.i
 .PHONY : src/driver/hal/hal_gpio.c.i
 
 src/driver/hal/hal_gpio.s: src/driver/hal/hal_gpio.c.s
@@ -1896,7 +1552,7 @@ src/driver/hal/hal_gpio.s: src/driver/hal/hal_gpio.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_gpio.c.s
 .PHONY : src/driver/hal/hal_gpio.c.s
 
 src/driver/hal/hal_i2c.obj: src/driver/hal/hal_i2c.c.obj
@@ -1904,7 +1560,7 @@ src/driver/hal/hal_i2c.obj: src/driver/hal/hal_i2c.c.obj
 
 # target to build an object file
 src/driver/hal/hal_i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_i2c.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_i2c.c.obj
 .PHONY : src/driver/hal/hal_i2c.c.obj
 
 src/driver/hal/hal_i2c.i: src/driver/hal/hal_i2c.c.i
@@ -1912,7 +1568,7 @@ src/driver/hal/hal_i2c.i: src/driver/hal/hal_i2c.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_i2c.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_i2c.c.i
 .PHONY : src/driver/hal/hal_i2c.c.i
 
 src/driver/hal/hal_i2c.s: src/driver/hal/hal_i2c.c.s
@@ -1920,7 +1576,7 @@ src/driver/hal/hal_i2c.s: src/driver/hal/hal_i2c.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_i2c.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_i2c.c.s
 .PHONY : src/driver/hal/hal_i2c.c.s
 
 src/driver/hal/hal_pwm.obj: src/driver/hal/hal_pwm.c.obj
@@ -1928,7 +1584,7 @@ src/driver/hal/hal_pwm.obj: src/driver/hal/hal_pwm.c.obj
 
 # target to build an object file
 src/driver/hal/hal_pwm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_pwm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_pwm.c.obj
 .PHONY : src/driver/hal/hal_pwm.c.obj
 
 src/driver/hal/hal_pwm.i: src/driver/hal/hal_pwm.c.i
@@ -1936,7 +1592,7 @@ src/driver/hal/hal_pwm.i: src/driver/hal/hal_pwm.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_pwm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_pwm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_pwm.c.i
 .PHONY : src/driver/hal/hal_pwm.c.i
 
 src/driver/hal/hal_pwm.s: src/driver/hal/hal_pwm.c.s
@@ -1944,7 +1600,7 @@ src/driver/hal/hal_pwm.s: src/driver/hal/hal_pwm.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_pwm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_pwm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_pwm.c.s
 .PHONY : src/driver/hal/hal_pwm.c.s
 
 src/driver/hal/hal_rnd.obj: src/driver/hal/hal_rnd.c.obj
@@ -1952,7 +1608,7 @@ src/driver/hal/hal_rnd.obj: src/driver/hal/hal_rnd.c.obj
 
 # target to build an object file
 src/driver/hal/hal_rnd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_rnd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_rnd.c.obj
 .PHONY : src/driver/hal/hal_rnd.c.obj
 
 src/driver/hal/hal_rnd.i: src/driver/hal/hal_rnd.c.i
@@ -1960,7 +1616,7 @@ src/driver/hal/hal_rnd.i: src/driver/hal/hal_rnd.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_rnd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_rnd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_rnd.c.i
 .PHONY : src/driver/hal/hal_rnd.c.i
 
 src/driver/hal/hal_rnd.s: src/driver/hal/hal_rnd.c.s
@@ -1968,7 +1624,7 @@ src/driver/hal/hal_rnd.s: src/driver/hal/hal_rnd.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_rnd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_rnd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_rnd.c.s
 .PHONY : src/driver/hal/hal_rnd.c.s
 
 src/driver/hal/hal_sdio.obj: src/driver/hal/hal_sdio.c.obj
@@ -1976,7 +1632,7 @@ src/driver/hal/hal_sdio.obj: src/driver/hal/hal_sdio.c.obj
 
 # target to build an object file
 src/driver/hal/hal_sdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_sdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_sdio.c.obj
 .PHONY : src/driver/hal/hal_sdio.c.obj
 
 src/driver/hal/hal_sdio.i: src/driver/hal/hal_sdio.c.i
@@ -1984,7 +1640,7 @@ src/driver/hal/hal_sdio.i: src/driver/hal/hal_sdio.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_sdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_sdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_sdio.c.i
 .PHONY : src/driver/hal/hal_sdio.c.i
 
 src/driver/hal/hal_sdio.s: src/driver/hal/hal_sdio.c.s
@@ -1992,7 +1648,7 @@ src/driver/hal/hal_sdio.s: src/driver/hal/hal_sdio.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_sdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_sdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_sdio.c.s
 .PHONY : src/driver/hal/hal_sdio.c.s
 
 src/driver/hal/hal_spi.obj: src/driver/hal/hal_spi.c.obj
@@ -2000,7 +1656,7 @@ src/driver/hal/hal_spi.obj: src/driver/hal/hal_spi.c.obj
 
 # target to build an object file
 src/driver/hal/hal_spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_spi.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_spi.c.obj
 .PHONY : src/driver/hal/hal_spi.c.obj
 
 src/driver/hal/hal_spi.i: src/driver/hal/hal_spi.c.i
@@ -2008,7 +1664,7 @@ src/driver/hal/hal_spi.i: src/driver/hal/hal_spi.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_spi.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_spi.c.i
 .PHONY : src/driver/hal/hal_spi.c.i
 
 src/driver/hal/hal_spi.s: src/driver/hal/hal_spi.c.s
@@ -2016,7 +1672,7 @@ src/driver/hal/hal_spi.s: src/driver/hal/hal_spi.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_spi.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_spi.c.s
 .PHONY : src/driver/hal/hal_spi.c.s
 
 src/driver/hal/hal_timer.obj: src/driver/hal/hal_timer.c.obj
@@ -2024,7 +1680,7 @@ src/driver/hal/hal_timer.obj: src/driver/hal/hal_timer.c.obj
 
 # target to build an object file
 src/driver/hal/hal_timer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_timer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_timer.c.obj
 .PHONY : src/driver/hal/hal_timer.c.obj
 
 src/driver/hal/hal_timer.i: src/driver/hal/hal_timer.c.i
@@ -2032,7 +1688,7 @@ src/driver/hal/hal_timer.i: src/driver/hal/hal_timer.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_timer.c.i
 .PHONY : src/driver/hal/hal_timer.c.i
 
 src/driver/hal/hal_timer.s: src/driver/hal/hal_timer.c.s
@@ -2040,7 +1696,7 @@ src/driver/hal/hal_timer.s: src/driver/hal/hal_timer.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_timer.c.s
 .PHONY : src/driver/hal/hal_timer.c.s
 
 src/driver/hal/hal_uart.obj: src/driver/hal/hal_uart.c.obj
@@ -2048,7 +1704,7 @@ src/driver/hal/hal_uart.obj: src/driver/hal/hal_uart.c.obj
 
 # target to build an object file
 src/driver/hal/hal_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_uart.c.obj
 .PHONY : src/driver/hal/hal_uart.c.obj
 
 src/driver/hal/hal_uart.i: src/driver/hal/hal_uart.c.i
@@ -2056,7 +1712,7 @@ src/driver/hal/hal_uart.i: src/driver/hal/hal_uart.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_uart.c.i
 .PHONY : src/driver/hal/hal_uart.c.i
 
 src/driver/hal/hal_uart.s: src/driver/hal/hal_uart.c.s
@@ -2064,7 +1720,7 @@ src/driver/hal/hal_uart.s: src/driver/hal/hal_uart.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_uart.c.s
 .PHONY : src/driver/hal/hal_uart.c.s
 
 src/driver/hal/hal_usb.obj: src/driver/hal/hal_usb.c.obj
@@ -2072,7 +1728,7 @@ src/driver/hal/hal_usb.obj: src/driver/hal/hal_usb.c.obj
 
 # target to build an object file
 src/driver/hal/hal_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_usb.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_usb.c.obj
 .PHONY : src/driver/hal/hal_usb.c.obj
 
 src/driver/hal/hal_usb.i: src/driver/hal/hal_usb.c.i
@@ -2080,7 +1736,7 @@ src/driver/hal/hal_usb.i: src/driver/hal/hal_usb.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_usb.c.i
 .PHONY : src/driver/hal/hal_usb.c.i
 
 src/driver/hal/hal_usb.s: src/driver/hal/hal_usb.c.s
@@ -2088,7 +1744,7 @@ src/driver/hal/hal_usb.s: src/driver/hal/hal_usb.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_usb.c.s
 .PHONY : src/driver/hal/hal_usb.c.s
 
 src/driver/hal/hal_wdg.obj: src/driver/hal/hal_wdg.c.obj
@@ -2096,7 +1752,7 @@ src/driver/hal/hal_wdg.obj: src/driver/hal/hal_wdg.c.obj
 
 # target to build an object file
 src/driver/hal/hal_wdg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_wdg.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_wdg.c.obj
 .PHONY : src/driver/hal/hal_wdg.c.obj
 
 src/driver/hal/hal_wdg.i: src/driver/hal/hal_wdg.c.i
@@ -2104,7 +1760,7 @@ src/driver/hal/hal_wdg.i: src/driver/hal/hal_wdg.c.i
 
 # target to preprocess a source file
 src/driver/hal/hal_wdg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_wdg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_wdg.c.i
 .PHONY : src/driver/hal/hal_wdg.c.i
 
 src/driver/hal/hal_wdg.s: src/driver/hal/hal_wdg.c.s
@@ -2112,7 +1768,7 @@ src/driver/hal/hal_wdg.s: src/driver/hal/hal_wdg.c.s
 
 # target to generate assembly for a file
 src/driver/hal/hal_wdg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/hal_wdg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/hal_wdg.c.s
 .PHONY : src/driver/hal/hal_wdg.c.s
 
 src/driver/hal/systemChip.obj: src/driver/hal/systemChip.c.obj
@@ -2120,7 +1776,7 @@ src/driver/hal/systemChip.obj: src/driver/hal/systemChip.c.obj
 
 # target to build an object file
 src/driver/hal/systemChip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/systemChip.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/systemChip.c.obj
 .PHONY : src/driver/hal/systemChip.c.obj
 
 src/driver/hal/systemChip.i: src/driver/hal/systemChip.c.i
@@ -2128,7 +1784,7 @@ src/driver/hal/systemChip.i: src/driver/hal/systemChip.c.i
 
 # target to preprocess a source file
 src/driver/hal/systemChip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/systemChip.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/systemChip.c.i
 .PHONY : src/driver/hal/systemChip.c.i
 
 src/driver/hal/systemChip.s: src/driver/hal/systemChip.c.s
@@ -2136,255 +1792,15 @@ src/driver/hal/systemChip.s: src/driver/hal/systemChip.c.s
 
 # target to generate assembly for a file
 src/driver/hal/systemChip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/driver/hal/systemChip.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/driver/hal/systemChip.c.s
 .PHONY : src/driver/hal/systemChip.c.s
-
-src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.obj: src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.obj
-
-# target to build an object file
-src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
-
-src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.i: src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i
-.PHONY : src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.i
-
-# target to preprocess a source file
-src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i
-.PHONY : src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i
-
-src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.s: src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s
-.PHONY : src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.s
-
-# target to generate assembly for a file
-src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s
-.PHONY : src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s
-
-src/kernel/FreeRTOS/Source/croutine.obj: src/kernel/FreeRTOS/Source/croutine.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/croutine.obj
-
-# target to build an object file
-src/kernel/FreeRTOS/Source/croutine.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/croutine.c.obj
-
-src/kernel/FreeRTOS/Source/croutine.i: src/kernel/FreeRTOS/Source/croutine.c.i
-.PHONY : src/kernel/FreeRTOS/Source/croutine.i
-
-# target to preprocess a source file
-src/kernel/FreeRTOS/Source/croutine.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.i
-.PHONY : src/kernel/FreeRTOS/Source/croutine.c.i
-
-src/kernel/FreeRTOS/Source/croutine.s: src/kernel/FreeRTOS/Source/croutine.c.s
-.PHONY : src/kernel/FreeRTOS/Source/croutine.s
-
-# target to generate assembly for a file
-src/kernel/FreeRTOS/Source/croutine.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/croutine.c.s
-.PHONY : src/kernel/FreeRTOS/Source/croutine.c.s
-
-src/kernel/FreeRTOS/Source/event_groups.obj: src/kernel/FreeRTOS/Source/event_groups.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/event_groups.obj
-
-# target to build an object file
-src/kernel/FreeRTOS/Source/event_groups.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/event_groups.c.obj
-
-src/kernel/FreeRTOS/Source/event_groups.i: src/kernel/FreeRTOS/Source/event_groups.c.i
-.PHONY : src/kernel/FreeRTOS/Source/event_groups.i
-
-# target to preprocess a source file
-src/kernel/FreeRTOS/Source/event_groups.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.i
-.PHONY : src/kernel/FreeRTOS/Source/event_groups.c.i
-
-src/kernel/FreeRTOS/Source/event_groups.s: src/kernel/FreeRTOS/Source/event_groups.c.s
-.PHONY : src/kernel/FreeRTOS/Source/event_groups.s
-
-# target to generate assembly for a file
-src/kernel/FreeRTOS/Source/event_groups.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/event_groups.c.s
-.PHONY : src/kernel/FreeRTOS/Source/event_groups.c.s
-
-src/kernel/FreeRTOS/Source/list.obj: src/kernel/FreeRTOS/Source/list.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/list.obj
-
-# target to build an object file
-src/kernel/FreeRTOS/Source/list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/list.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/list.c.obj
-
-src/kernel/FreeRTOS/Source/list.i: src/kernel/FreeRTOS/Source/list.c.i
-.PHONY : src/kernel/FreeRTOS/Source/list.i
-
-# target to preprocess a source file
-src/kernel/FreeRTOS/Source/list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/list.c.i
-.PHONY : src/kernel/FreeRTOS/Source/list.c.i
-
-src/kernel/FreeRTOS/Source/list.s: src/kernel/FreeRTOS/Source/list.c.s
-.PHONY : src/kernel/FreeRTOS/Source/list.s
-
-# target to generate assembly for a file
-src/kernel/FreeRTOS/Source/list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/list.c.s
-.PHONY : src/kernel/FreeRTOS/Source/list.c.s
-
-src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj: src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj
-
-# target to build an object file
-src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
-
-src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.i: src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i
-.PHONY : src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.i
-
-# target to preprocess a source file
-src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i
-.PHONY : src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i
-
-src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.s: src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.s
-.PHONY : src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.s
-
-# target to generate assembly for a file
-src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.s
-.PHONY : src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.s
-
-src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.obj: src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.obj
-
-# target to build an object file
-src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
-
-src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.i: src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.i
-.PHONY : src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.i
-
-# target to preprocess a source file
-src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.i
-.PHONY : src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.i
-
-src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.s: src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.s
-.PHONY : src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.s
-
-# target to generate assembly for a file
-src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.s
-.PHONY : src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.c.s
-
-src/kernel/FreeRTOS/Source/queue.obj: src/kernel/FreeRTOS/Source/queue.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/queue.obj
-
-# target to build an object file
-src/kernel/FreeRTOS/Source/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/queue.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/queue.c.obj
-
-src/kernel/FreeRTOS/Source/queue.i: src/kernel/FreeRTOS/Source/queue.c.i
-.PHONY : src/kernel/FreeRTOS/Source/queue.i
-
-# target to preprocess a source file
-src/kernel/FreeRTOS/Source/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/queue.c.i
-.PHONY : src/kernel/FreeRTOS/Source/queue.c.i
-
-src/kernel/FreeRTOS/Source/queue.s: src/kernel/FreeRTOS/Source/queue.c.s
-.PHONY : src/kernel/FreeRTOS/Source/queue.s
-
-# target to generate assembly for a file
-src/kernel/FreeRTOS/Source/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/queue.c.s
-.PHONY : src/kernel/FreeRTOS/Source/queue.c.s
-
-src/kernel/FreeRTOS/Source/stream_buffer.obj: src/kernel/FreeRTOS/Source/stream_buffer.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/stream_buffer.obj
-
-# target to build an object file
-src/kernel/FreeRTOS/Source/stream_buffer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/stream_buffer.c.obj
-
-src/kernel/FreeRTOS/Source/stream_buffer.i: src/kernel/FreeRTOS/Source/stream_buffer.c.i
-.PHONY : src/kernel/FreeRTOS/Source/stream_buffer.i
-
-# target to preprocess a source file
-src/kernel/FreeRTOS/Source/stream_buffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.i
-.PHONY : src/kernel/FreeRTOS/Source/stream_buffer.c.i
-
-src/kernel/FreeRTOS/Source/stream_buffer.s: src/kernel/FreeRTOS/Source/stream_buffer.c.s
-.PHONY : src/kernel/FreeRTOS/Source/stream_buffer.s
-
-# target to generate assembly for a file
-src/kernel/FreeRTOS/Source/stream_buffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/stream_buffer.c.s
-.PHONY : src/kernel/FreeRTOS/Source/stream_buffer.c.s
-
-src/kernel/FreeRTOS/Source/tasks.obj: src/kernel/FreeRTOS/Source/tasks.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/tasks.obj
-
-# target to build an object file
-src/kernel/FreeRTOS/Source/tasks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/tasks.c.obj
-
-src/kernel/FreeRTOS/Source/tasks.i: src/kernel/FreeRTOS/Source/tasks.c.i
-.PHONY : src/kernel/FreeRTOS/Source/tasks.i
-
-# target to preprocess a source file
-src/kernel/FreeRTOS/Source/tasks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.i
-.PHONY : src/kernel/FreeRTOS/Source/tasks.c.i
-
-src/kernel/FreeRTOS/Source/tasks.s: src/kernel/FreeRTOS/Source/tasks.c.s
-.PHONY : src/kernel/FreeRTOS/Source/tasks.s
-
-# target to generate assembly for a file
-src/kernel/FreeRTOS/Source/tasks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/tasks.c.s
-.PHONY : src/kernel/FreeRTOS/Source/tasks.c.s
-
-src/kernel/FreeRTOS/Source/timers.obj: src/kernel/FreeRTOS/Source/timers.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/timers.obj
-
-# target to build an object file
-src/kernel/FreeRTOS/Source/timers.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/timers.c.obj
-.PHONY : src/kernel/FreeRTOS/Source/timers.c.obj
-
-src/kernel/FreeRTOS/Source/timers.i: src/kernel/FreeRTOS/Source/timers.c.i
-.PHONY : src/kernel/FreeRTOS/Source/timers.i
-
-# target to preprocess a source file
-src/kernel/FreeRTOS/Source/timers.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/timers.c.i
-.PHONY : src/kernel/FreeRTOS/Source/timers.c.i
-
-src/kernel/FreeRTOS/Source/timers.s: src/kernel/FreeRTOS/Source/timers.c.s
-.PHONY : src/kernel/FreeRTOS/Source/timers.s
-
-# target to generate assembly for a file
-src/kernel/FreeRTOS/Source/timers.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/kernel/FreeRTOS/Source/timers.c.s
-.PHONY : src/kernel/FreeRTOS/Source/timers.c.s
 
 src/libc/wrap_malloc.obj: src/libc/wrap_malloc.c.obj
 .PHONY : src/libc/wrap_malloc.obj
 
 # target to build an object file
 src/libc/wrap_malloc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/libc/wrap_malloc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/libc/wrap_malloc.c.obj
 .PHONY : src/libc/wrap_malloc.c.obj
 
 src/libc/wrap_malloc.i: src/libc/wrap_malloc.c.i
@@ -2392,7 +1808,7 @@ src/libc/wrap_malloc.i: src/libc/wrap_malloc.c.i
 
 # target to preprocess a source file
 src/libc/wrap_malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/libc/wrap_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/libc/wrap_malloc.c.i
 .PHONY : src/libc/wrap_malloc.c.i
 
 src/libc/wrap_malloc.s: src/libc/wrap_malloc.c.s
@@ -2400,7 +1816,7 @@ src/libc/wrap_malloc.s: src/libc/wrap_malloc.c.s
 
 # target to generate assembly for a file
 src/libc/wrap_malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/libc/wrap_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/libc/wrap_malloc.c.s
 .PHONY : src/libc/wrap_malloc.c.s
 
 src/libc/wrap_stdio.obj: src/libc/wrap_stdio.c.obj
@@ -2408,7 +1824,7 @@ src/libc/wrap_stdio.obj: src/libc/wrap_stdio.c.obj
 
 # target to build an object file
 src/libc/wrap_stdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/libc/wrap_stdio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/libc/wrap_stdio.c.obj
 .PHONY : src/libc/wrap_stdio.c.obj
 
 src/libc/wrap_stdio.i: src/libc/wrap_stdio.c.i
@@ -2416,7 +1832,7 @@ src/libc/wrap_stdio.i: src/libc/wrap_stdio.c.i
 
 # target to preprocess a source file
 src/libc/wrap_stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/libc/wrap_stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/libc/wrap_stdio.c.i
 .PHONY : src/libc/wrap_stdio.c.i
 
 src/libc/wrap_stdio.s: src/libc/wrap_stdio.c.s
@@ -2424,7 +1840,7 @@ src/libc/wrap_stdio.s: src/libc/wrap_stdio.c.s
 
 # target to generate assembly for a file
 src/libc/wrap_stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/libc/wrap_stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/libc/wrap_stdio.c.s
 .PHONY : src/libc/wrap_stdio.c.s
 
 src/libc/wrap_time.obj: src/libc/wrap_time.c.obj
@@ -2432,7 +1848,7 @@ src/libc/wrap_time.obj: src/libc/wrap_time.c.obj
 
 # target to build an object file
 src/libc/wrap_time.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/libc/wrap_time.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/libc/wrap_time.c.obj
 .PHONY : src/libc/wrap_time.c.obj
 
 src/libc/wrap_time.i: src/libc/wrap_time.c.i
@@ -2440,7 +1856,7 @@ src/libc/wrap_time.i: src/libc/wrap_time.c.i
 
 # target to preprocess a source file
 src/libc/wrap_time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/libc/wrap_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/libc/wrap_time.c.i
 .PHONY : src/libc/wrap_time.c.i
 
 src/libc/wrap_time.s: src/libc/wrap_time.c.s
@@ -2448,7 +1864,7 @@ src/libc/wrap_time.s: src/libc/wrap_time.c.s
 
 # target to generate assembly for a file
 src/libc/wrap_time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/libc/wrap_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/libc/wrap_time.c.s
 .PHONY : src/libc/wrap_time.c.s
 
 src/sys/common/sys_heap.obj: src/sys/common/sys_heap.c.obj
@@ -2456,7 +1872,7 @@ src/sys/common/sys_heap.obj: src/sys/common/sys_heap.c.obj
 
 # target to build an object file
 src/sys/common/sys_heap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/common/sys_heap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/sys/common/sys_heap.c.obj
 .PHONY : src/sys/common/sys_heap.c.obj
 
 src/sys/common/sys_heap.i: src/sys/common/sys_heap.c.i
@@ -2464,7 +1880,7 @@ src/sys/common/sys_heap.i: src/sys/common/sys_heap.c.i
 
 # target to preprocess a source file
 src/sys/common/sys_heap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/common/sys_heap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/sys/common/sys_heap.c.i
 .PHONY : src/sys/common/sys_heap.c.i
 
 src/sys/common/sys_heap.s: src/sys/common/sys_heap.c.s
@@ -2472,7 +1888,7 @@ src/sys/common/sys_heap.s: src/sys/common/sys_heap.c.s
 
 # target to generate assembly for a file
 src/sys/common/sys_heap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/common/sys_heap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/sys/common/sys_heap.c.s
 .PHONY : src/sys/common/sys_heap.c.s
 
 src/sys/sram_heap/sram_heap.obj: src/sys/sram_heap/sram_heap.c.obj
@@ -2480,7 +1896,7 @@ src/sys/sram_heap/sram_heap.obj: src/sys/sram_heap/sram_heap.c.obj
 
 # target to build an object file
 src/sys/sram_heap/sram_heap.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/sram_heap/sram_heap.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/sys/sram_heap/sram_heap.c.obj
 .PHONY : src/sys/sram_heap/sram_heap.c.obj
 
 src/sys/sram_heap/sram_heap.i: src/sys/sram_heap/sram_heap.c.i
@@ -2488,7 +1904,7 @@ src/sys/sram_heap/sram_heap.i: src/sys/sram_heap/sram_heap.c.i
 
 # target to preprocess a source file
 src/sys/sram_heap/sram_heap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/sram_heap/sram_heap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/sys/sram_heap/sram_heap.c.i
 .PHONY : src/sys/sram_heap/sram_heap.c.i
 
 src/sys/sram_heap/sram_heap.s: src/sys/sram_heap/sram_heap.c.s
@@ -2496,32 +1912,8 @@ src/sys/sram_heap/sram_heap.s: src/sys/sram_heap/sram_heap.c.s
 
 # target to generate assembly for a file
 src/sys/sram_heap/sram_heap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/sys/sram_heap/sram_heap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_reciver.elf.dir\build.make CMakeFiles/remote_reciver.elf.dir/src/sys/sram_heap/sram_heap.c.s
 .PHONY : src/sys/sram_heap/sram_heap.c.s
-
-src/test/unity/unity.obj: src/test/unity/unity.c.obj
-.PHONY : src/test/unity/unity.obj
-
-# target to build an object file
-src/test/unity/unity.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/test/unity/unity.c.obj
-.PHONY : src/test/unity/unity.c.obj
-
-src/test/unity/unity.i: src/test/unity/unity.c.i
-.PHONY : src/test/unity/unity.i
-
-# target to preprocess a source file
-src/test/unity/unity.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/test/unity/unity.c.i
-.PHONY : src/test/unity/unity.c.i
-
-src/test/unity/unity.s: src/test/unity/unity.c.s
-.PHONY : src/test/unity/unity.s
-
-# target to generate assembly for a file
-src/test/unity/unity.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\remote_control.elf.dir\build.make CMakeFiles/remote_control.elf.dir/src/test/unity/unity.c.s
-.PHONY : src/test/unity/unity.c.s
 
 # Help Target
 help:
@@ -2531,58 +1923,31 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... remote_control.elf
-	@echo ... project/apps/remoteController/Buzzer.obj
-	@echo ... project/apps/remoteController/Buzzer.i
-	@echo ... project/apps/remoteController/Buzzer.s
-	@echo ... project/apps/remoteController/Joystick.obj
-	@echo ... project/apps/remoteController/Joystick.i
-	@echo ... project/apps/remoteController/Joystick.s
-	@echo ... project/apps/remoteController/Key.obj
-	@echo ... project/apps/remoteController/Key.i
-	@echo ... project/apps/remoteController/Key.s
-	@echo ... project/apps/remoteController/Led.obj
-	@echo ... project/apps/remoteController/Led.i
-	@echo ... project/apps/remoteController/Led.s
-	@echo ... project/apps/remoteController/cmd_remote.obj
-	@echo ... project/apps/remoteController/cmd_remote.i
-	@echo ... project/apps/remoteController/cmd_remote.s
-	@echo ... project/apps/remoteController/event.obj
-	@echo ... project/apps/remoteController/event.i
-	@echo ... project/apps/remoteController/event.s
-	@echo ... project/apps/remoteController/main.obj
-	@echo ... project/apps/remoteController/main.i
-	@echo ... project/apps/remoteController/main.s
-	@echo ... project/apps/remoteController/remote.obj
-	@echo ... project/apps/remoteController/remote.i
-	@echo ... project/apps/remoteController/remote.s
-	@echo ... project/apps/remoteController/wireless.obj
-	@echo ... project/apps/remoteController/wireless.i
-	@echo ... project/apps/remoteController/wireless.s
+	@echo ... remote_reciver.elf
+	@echo ... project/apps/remoteReciver/Led.obj
+	@echo ... project/apps/remoteReciver/Led.i
+	@echo ... project/apps/remoteReciver/Led.s
+	@echo ... project/apps/remoteReciver/main.obj
+	@echo ... project/apps/remoteReciver/main.i
+	@echo ... project/apps/remoteReciver/main.s
+	@echo ... project/apps/remoteReciver/pwm.obj
+	@echo ... project/apps/remoteReciver/pwm.i
+	@echo ... project/apps/remoteReciver/pwm.s
+	@echo ... project/apps/remoteReciver/remote.obj
+	@echo ... project/apps/remoteReciver/remote.i
+	@echo ... project/apps/remoteReciver/remote.s
+	@echo ... project/apps/remoteReciver/wireless.obj
+	@echo ... project/apps/remoteReciver/wireless.i
+	@echo ... project/apps/remoteReciver/wireless.s
 	@echo ... project/common/board/Board.obj
 	@echo ... project/common/board/Board.i
 	@echo ... project/common/board/Board.s
 	@echo ... project/common/board/BoardCommon.obj
 	@echo ... project/common/board/BoardCommon.i
 	@echo ... project/common/board/BoardCommon.s
-	@echo ... project/common/board/remoteController/BoardConfig.obj
-	@echo ... project/common/board/remoteController/BoardConfig.i
-	@echo ... project/common/board/remoteController/BoardConfig.s
-	@echo ... project/common/cmd/cmd_env.obj
-	@echo ... project/common/cmd/cmd_env.i
-	@echo ... project/common/cmd/cmd_env.s
-	@echo ... project/common/cmd/cmd_flash.obj
-	@echo ... project/common/cmd/cmd_flash.i
-	@echo ... project/common/cmd/cmd_flash.s
-	@echo ... project/common/cmd/cmd_ping.obj
-	@echo ... project/common/cmd/cmd_ping.i
-	@echo ... project/common/cmd/cmd_ping.s
-	@echo ... project/common/cmd/cmd_sys.obj
-	@echo ... project/common/cmd/cmd_sys.i
-	@echo ... project/common/cmd/cmd_sys.s
-	@echo ... project/common/framework/UnityManager/UnityManager.obj
-	@echo ... project/common/framework/UnityManager/UnityManager.i
-	@echo ... project/common/framework/UnityManager/UnityManager.s
+	@echo ... project/common/board/remoteReciver/BoardConfig.obj
+	@echo ... project/common/board/remoteReciver/BoardConfig.i
+	@echo ... project/common/board/remoteReciver/BoardConfig.s
 	@echo ... project/common/framework/multiButton/MiniButton.obj
 	@echo ... project/common/framework/multiButton/MiniButton.i
 	@echo ... project/common/framework/multiButton/MiniButton.s
@@ -2598,16 +1963,16 @@ help:
 	@echo ... project/common/framework/util/MiniCommon.obj
 	@echo ... project/common/framework/util/MiniCommon.i
 	@echo ... project/common/framework/util/MiniCommon.s
-	@echo ... project/common/startup/STM32F1/startup_stm32f103c8tx.obj
-	@echo ... project/common/startup/STM32F1/stm32f1xx_hal_msp.obj
-	@echo ... project/common/startup/STM32F1/stm32f1xx_hal_msp.i
-	@echo ... project/common/startup/STM32F1/stm32f1xx_hal_msp.s
-	@echo ... project/common/startup/STM32F1/stm32f1xx_it.obj
-	@echo ... project/common/startup/STM32F1/stm32f1xx_it.i
-	@echo ... project/common/startup/STM32F1/stm32f1xx_it.s
-	@echo ... project/common/startup/STM32F1/system_stm32f1xx.obj
-	@echo ... project/common/startup/STM32F1/system_stm32f1xx.i
-	@echo ... project/common/startup/STM32F1/system_stm32f1xx.s
+	@echo ... project/common/startup/STM32G0/startup_stm32g030c8tx.obj
+	@echo ... project/common/startup/STM32G0/stm32g0xx_hal_msp.obj
+	@echo ... project/common/startup/STM32G0/stm32g0xx_hal_msp.i
+	@echo ... project/common/startup/STM32G0/stm32g0xx_hal_msp.s
+	@echo ... project/common/startup/STM32G0/stm32g0xx_it.obj
+	@echo ... project/common/startup/STM32G0/stm32g0xx_it.i
+	@echo ... project/common/startup/STM32G0/stm32g0xx_it.s
+	@echo ... project/common/startup/STM32G0/system_stm32g0xx.obj
+	@echo ... project/common/startup/STM32G0/system_stm32g0xx.i
+	@echo ... project/common/startup/STM32G0/system_stm32g0xx.s
 	@echo ... project/common/startup/common/retarget.obj
 	@echo ... project/common/startup/common/retarget.i
 	@echo ... project/common/startup/common/retarget.s
@@ -2623,33 +1988,6 @@ help:
 	@echo ... project/common/startup/common/sysmem.obj
 	@echo ... project/common/startup/common/sysmem.i
 	@echo ... project/common/startup/common/sysmem.s
-	@echo ... project/test/testVfs.obj
-	@echo ... project/test/testVfs.i
-	@echo ... project/test/testVfs.s
-	@echo ... src/console/MiniShell.obj
-	@echo ... src/console/MiniShell.i
-	@echo ... src/console/MiniShell.s
-	@echo ... src/console/lettershell/log.obj
-	@echo ... src/console/lettershell/log.i
-	@echo ... src/console/lettershell/log.s
-	@echo ... src/console/lettershell/shell.obj
-	@echo ... src/console/lettershell/shell.i
-	@echo ... src/console/lettershell/shell.s
-	@echo ... src/console/lettershell/shell_cmd_list.obj
-	@echo ... src/console/lettershell/shell_cmd_list.i
-	@echo ... src/console/lettershell/shell_cmd_list.s
-	@echo ... src/console/lettershell/shell_companion.obj
-	@echo ... src/console/lettershell/shell_companion.i
-	@echo ... src/console/lettershell/shell_companion.s
-	@echo ... src/console/lettershell/shell_ext.obj
-	@echo ... src/console/lettershell/shell_ext.i
-	@echo ... src/console/lettershell/shell_ext.s
-	@echo ... src/console/lettershell/shell_fs.obj
-	@echo ... src/console/lettershell/shell_fs.i
-	@echo ... src/console/lettershell/shell_fs.s
-	@echo ... src/console/miniConsole.obj
-	@echo ... src/console/miniConsole.i
-	@echo ... src/console/miniConsole.s
 	@echo ... src/core/EFSM/fsm.obj
 	@echo ... src/core/EFSM/fsm.i
 	@echo ... src/core/EFSM/fsm.s
@@ -2659,79 +1997,90 @@ help:
 	@echo ... src/core/lwrb/lwrb.obj
 	@echo ... src/core/lwrb/lwrb.i
 	@echo ... src/core/lwrb/lwrb.s
-	@echo ... src/debug/backtrace.obj
-	@echo ... src/debug/backtrace.i
-	@echo ... src/debug/backtrace.s
-	@echo ... src/debug/cm_backtrace/cm_backtrace.obj
-	@echo ... src/debug/cm_backtrace/cm_backtrace.i
-	@echo ... src/debug/cm_backtrace/cm_backtrace.s
-	@echo ... src/debug/cm_backtrace/fault_handler/gcc/cmb_fault.obj
-	@echo ... src/debug/debug.obj
-	@echo ... src/debug/debug.i
-	@echo ... src/debug/debug.s
-	@echo ... src/debug/heap_trace.obj
-	@echo ... src/debug/heap_trace.i
-	@echo ... src/debug/heap_trace.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.obj
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.i
-	@echo ... src/driver/chip/platform/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_wwdg.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_crc_ex.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_i2c_ex.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_spi_ex.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_wwdg.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.s
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.obj
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.i
+	@echo ... src/driver/chip/platform/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.s
 	@echo ... src/driver/component/wireless/nRF24L01/nRF24L01.obj
 	@echo ... src/driver/component/wireless/nRF24L01/nRF24L01.i
 	@echo ... src/driver/component/wireless/nRF24L01/nRF24L01.s
@@ -2783,36 +2132,6 @@ help:
 	@echo ... src/driver/hal/systemChip.obj
 	@echo ... src/driver/hal/systemChip.i
 	@echo ... src/driver/hal/systemChip.s
-	@echo ... src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.obj
-	@echo ... src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.i
-	@echo ... src/kernel/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.s
-	@echo ... src/kernel/FreeRTOS/Source/croutine.obj
-	@echo ... src/kernel/FreeRTOS/Source/croutine.i
-	@echo ... src/kernel/FreeRTOS/Source/croutine.s
-	@echo ... src/kernel/FreeRTOS/Source/event_groups.obj
-	@echo ... src/kernel/FreeRTOS/Source/event_groups.i
-	@echo ... src/kernel/FreeRTOS/Source/event_groups.s
-	@echo ... src/kernel/FreeRTOS/Source/list.obj
-	@echo ... src/kernel/FreeRTOS/Source/list.i
-	@echo ... src/kernel/FreeRTOS/Source/list.s
-	@echo ... src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj
-	@echo ... src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.i
-	@echo ... src/kernel/FreeRTOS/Source/portable/GCC/ARM_CM3/port.s
-	@echo ... src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.obj
-	@echo ... src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.i
-	@echo ... src/kernel/FreeRTOS/Source/portable/MemMang/heap_4.s
-	@echo ... src/kernel/FreeRTOS/Source/queue.obj
-	@echo ... src/kernel/FreeRTOS/Source/queue.i
-	@echo ... src/kernel/FreeRTOS/Source/queue.s
-	@echo ... src/kernel/FreeRTOS/Source/stream_buffer.obj
-	@echo ... src/kernel/FreeRTOS/Source/stream_buffer.i
-	@echo ... src/kernel/FreeRTOS/Source/stream_buffer.s
-	@echo ... src/kernel/FreeRTOS/Source/tasks.obj
-	@echo ... src/kernel/FreeRTOS/Source/tasks.i
-	@echo ... src/kernel/FreeRTOS/Source/tasks.s
-	@echo ... src/kernel/FreeRTOS/Source/timers.obj
-	@echo ... src/kernel/FreeRTOS/Source/timers.i
-	@echo ... src/kernel/FreeRTOS/Source/timers.s
 	@echo ... src/libc/wrap_malloc.obj
 	@echo ... src/libc/wrap_malloc.i
 	@echo ... src/libc/wrap_malloc.s
@@ -2828,9 +2147,6 @@ help:
 	@echo ... src/sys/sram_heap/sram_heap.obj
 	@echo ... src/sys/sram_heap/sram_heap.i
 	@echo ... src/sys/sram_heap/sram_heap.s
-	@echo ... src/test/unity/unity.obj
-	@echo ... src/test/unity/unity.i
-	@echo ... src/test/unity/unity.s
 .PHONY : help
 
 

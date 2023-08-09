@@ -1,6 +1,6 @@
 
 
-set(project_app "remote_control")
+set(project_app "remote_reciver")
 if(${project_app} STREQUAL "remote_control")
         SET(APP_NAME "remote_control")
         add_definitions(-DSTM32F103xB)
@@ -27,7 +27,12 @@ elseif(${project_app} STREQUAL "remote_reciver")
         set(TARGET_MCU STM32G0)
 
         set(USE_LIBC ON CACHE BOOL "Use LIBC" FORCE)
+        set(USE_RTOS_SYSTEM OFF CACHE BOOL "Use RTOS" FORCE)
+        set(USE_BACKTRACE OFF CACHE BOOL "Use BACKTRACE" FORCE)
+        set(USE_SHELL OFF CACHE BOOL "Use SHELL" FORCE)
+        set(USE_UNITTEST OFF CACHE BOOL "Use UNITTEST" FORCE)
         set(USE_WIRELESS ON CACHE BOOL "Use WIRELESS" FORCE)
+        set(USE_LOG OFF CACHE BOOL "Use LOG" FORCE)
 
         file(GLOB_RECURSE  APP_SOURCES  project/apps/remoteReciver/*.*
                                        "project/common/board/remoteReciver/*.*")

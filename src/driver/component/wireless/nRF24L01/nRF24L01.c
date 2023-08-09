@@ -63,7 +63,7 @@
 	nrf24l01->ops->ceEnable(0);
 
     uint8_t now = HAL_millis();
-    while (!NRF24L01_Check(nrf24l01)){
+    while (NRF24L01_Check(nrf24l01) < 0){
         if (HAL_millis() - now > 1000){
             break;
         }
@@ -113,8 +113,8 @@ uint8_t NRF24L01_TxPacket(NRF24L01_t *nrf24l01, uint8_t *txbuf, size_t txLength)
 	ops->writeReg(NRF_WRITE_REG+STATUS, sta); //清除TX_DS或MAX_RT中断标志
 	if(sta&MAX_TX)//达到最大重发次数
 	{
-		ops->writeReg(FLUSH_TX,0xff);//清除TX FIFO寄存器 
-		return 0; 
+		ops->writeReg(FLUSH_TX,0xff);//清除TX FIFO寄存器
+		return 0;
 	}
 
 	if(sta&TX_OK)//发送完成

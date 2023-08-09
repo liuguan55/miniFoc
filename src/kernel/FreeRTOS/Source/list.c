@@ -27,6 +27,7 @@
 
 
 #include <stdlib.h>
+#include <stdio.h>
 #include "kernel/FreeRTOS/FreeRTOS.h"
 #include "kernel/FreeRTOS/list.h"
 
@@ -146,7 +147,7 @@ const TickType_t xValueOfInsertion = pxNewListItem->xItemValue;
 			   before the scheduler has been started (are interrupts firing
 			   before vTaskStartScheduler() has been called?).
 		**********************************************************************/
-
+//        configPRINTF("vListInsert: crash\n");
 		for( pxIterator = ( ListItem_t * ) &( pxList->xListEnd ); pxIterator->pxNext->xItemValue <= xValueOfInsertion; pxIterator = pxIterator->pxNext ) /*lint !e826 !e740 !e9087 The mini list structure is used as the list end to save RAM.  This is checked and valid. *//*lint !e440 The iterator moves to a different value, not xValueOfInsertion. */
 		{
 			/* There is nothing to do here, just iterating to the wanted

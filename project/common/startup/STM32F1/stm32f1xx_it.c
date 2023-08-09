@@ -170,15 +170,15 @@ void SysTick_Handler(void)
   /* USER CODE END SysTick_IRQn 0 */
 //   HAL_IncTick();
 
-//#ifdef USE_RTOS_SYSTEM
-//#if (INCLUDE_xTaskGetSchedulerState == 1)
-//    if (xTaskGetSchedulerState() != taskSCHEDULER_NOT_STARTED) {
-//#endif /* INCLUDE_xTaskGetSchedulerState */
-//        xPortSysTickHandler();
-//#if (INCLUDE_xTaskGetSchedulerState == 1)
-//    }
-//#endif /* INCLUDE_xTaskGetSchedulerState */
-//#endif
+#ifdef USE_RTOS_SYSTEM
+#if (INCLUDE_xTaskGetSchedulerState == 1)
+    if (xTaskGetSchedulerState() != taskSCHEDULER_NOT_STARTED) {
+#endif /* INCLUDE_xTaskGetSchedulerState */
+        xPortSysTickHandler();
+#if (INCLUDE_xTaskGetSchedulerState == 1)
+    }
+#endif /* INCLUDE_xTaskGetSchedulerState */
+#endif
   /* USER CODE BEGIN SysTick_IRQn 1 */
 
   /* USER CODE END SysTick_IRQn 1 */

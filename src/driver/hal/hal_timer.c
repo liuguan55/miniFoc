@@ -84,7 +84,7 @@ HAL_Status HAL_timerInit(void){
     HAL_TIM_Base_Start_IT(&htim4);
     /* USER CODE END TIM4_Init 2 */
 
-    HAL_NVIC_SetPriority(TIM4_IRQn, 3, 0);
+    HAL_NVIC_SetPriority(TIM4_IRQn, 5, 0);
     HAL_NVIC_EnableIRQ(TIM4_IRQn);
 
 #endif
@@ -108,15 +108,6 @@ static void HAL_timerCallback(void){
     if (++timerCnt >= 20){
         timerCnt = 0;
         HAL_IncTick();
-#ifdef USE_RTOS_SYSTEM
-#if (INCLUDE_xTaskGetSchedulerState == 1)
-        if (xTaskGetSchedulerState() != taskSCHEDULER_NOT_STARTED) {
-#endif /* INCLUDE_xTaskGetSchedulerState */
-            xPortSysTickHandler();
-#if (INCLUDE_xTaskGetSchedulerState == 1)
-        }
-#endif /* INCLUDE_xTaskGetSchedulerState */
-#endif
     }
 }
 

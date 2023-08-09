@@ -46,6 +46,8 @@ typedef struct {
 #endif
 
     HAL_ADC_Callback_t callback;
+
+    ADC_Config_t *config;
 } AdcPrivate_t;
 
 static AdcPrivate_t *adcPrivate[HAL_ADC_NR];
@@ -157,7 +159,7 @@ static void ADCDmaEnable(DMA_Channel_TypeDef *dmaChannelTypeDef) {
         __HAL_RCC_DMA1_CLK_ENABLE();
         /* DMA interrupt init */
         /* DMA2_Stream0_IRQn interrupt configuration */
-        HAL_NVIC_SetPriority(DMA1_Channel1_IRQn, 5, 0);
+        HAL_NVIC_SetPriority(DMA1_Channel1_IRQn, 6, 0);
         HAL_NVIC_EnableIRQ(DMA1_Channel1_IRQn);
     }
 #if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
@@ -165,7 +167,7 @@ static void ADCDmaEnable(DMA_Channel_TypeDef *dmaChannelTypeDef) {
         __HAL_RCC_DMA1_CLK_ENABLE();
         /* DMA interrupt init */
         /* DMA2_Stream0_IRQn interrupt configuration */
-        HAL_NVIC_SetPriority(DMA1_Channel2_IRQn, 5, 0);
+        HAL_NVIC_SetPriority(DMA1_Channel2_IRQn, 6, 0);
         HAL_NVIC_EnableIRQ(DMA1_Channel2_IRQn);
     }
 #endif
@@ -191,6 +193,8 @@ static void HAL_adcHwInit(HAL_ADC_ID id) {
 
     ADCClockEnable(id);
     HAL_BoardIoctl(HAL_BIR_PINMUX_INIT, HAL_MKDEV(HAL_DEV_MAJOR_ADC, id), 0);
+
+    pAdcPrivate->config = boardAdcInfo.config;
 
     pAdc->Instance = ADCInstanceGet(id);
 #ifdef TARGET_MCU_STM32F4
@@ -356,7 +360,7 @@ void HAL_adcInit(HAL_ADC_ID id) {
     HAL_adcHwInit(id);
 
 #ifdef USE_RTOS_SYSTEM
-    HAL_SemaphoreInit(&pAdcPrivate->sem, 0, 1);
+    HAL_SemaphoreInit(&pAdcPrivate->sem, 1, 1);
 #endif
 }
 
@@ -385,7 +389,7 @@ int8_t HAL_adcStart(HAL_ADC_ID id) {
 
     HAL_ADCEx_Calibration_Start(pAdcPrivate->adc);
     HAL_ADC_Start_DMA(pAdcPrivate->adc, (uint32_t *) pAdcPrivate->dmaBuffer, pAdcPrivate->dmaBufferSize);
-    HAL_TIM_PWM_Start(&pAdcPrivate->tim, TIM_CHANNEL_1);
+    HAL_TIM_PWM_Start(&pAdcPrivate->tim, pAdcPrivate->config->timerChannel);
 
     return 0;
 }

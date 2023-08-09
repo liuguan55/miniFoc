@@ -48,6 +48,7 @@ void Joystick_callback(uint16_t *data, uint32_t size) {
     now = HAL_millis();
 
     g_Joystick.update = 1;
+    eventSend(EVENT_TYPE_JOYSTICK, 0, 0);
 }
 
 void JoyStick_calibration(void){
@@ -109,7 +110,6 @@ void Joystick_Init(void) {
     HAL_adcInit(HAL_ADC_1);
     HAL_adcSetCallback(HAL_ADC_1, Joystick_callback);
     HAL_adcStart(HAL_ADC_1);
-
 }
 
 

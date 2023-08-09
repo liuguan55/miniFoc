@@ -54,12 +54,7 @@ int main(void) {
     Joystick_Init();
 
     while (1){
-        Joystick_t *joystick = Joystick_GetData();
-        if (remote_sendJoystickData(joystick->Lx, joystick->Ly, joystick->Rx, joystick->Ry) > 0){
-            ledToggle();
-        }
-
-        HAL_msleep(10);
+        HAL_msleep(1000);
     }
 
     return 0;
