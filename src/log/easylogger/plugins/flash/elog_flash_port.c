@@ -69,6 +69,9 @@ void elog_flash_port_output(const char *log, size_t size) {
   /* add your code here */
     HAL_UartSend(HAL_UART_1, (uint8_t *)log, size);
     HAL_usbCdcSend((uint8_t *)log, size);
+#else
+    UNUSED(log);
+    UNUSED(size);
 #endif
 }
 

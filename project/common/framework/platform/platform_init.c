@@ -36,6 +36,7 @@
 #include "driver/hal/hal_spi.h"
 #include "driver/hal/hal_crc.h"
 #include "driver/hal/hal_sdio.h"
+#include "framework/MiniFoc/MiniMotor.h"
 
 
 #define PLATFORM_SHOW_DEBUG_INFO     1//0   /* for internal debug only */
@@ -144,20 +145,6 @@ void platform_rngInit(void) {
     hal_crcInit();
 }
 
-#if PRJCONF_MOTOR_EN
-void platform_motorInit(void){
-    HAL_PWM_CFG cfg = {
-            .period = 1000,
-            .mode = HAL_PWM_COUNTER_MODE_CENTER,
-            .duty = 0
-    };
-    HAL_pwmInit(HAL_PWM_ID_1, &cfg);
-    HAL_pwmInit(HAL_PWM_ID_2, &cfg);
-
-    MiniMotor_init();
-}
-#endif
-
 #if PRJCONF_USB_EN
 void platform_usbInit(void) {
     HAL_usbInit(HAL_USB_FS);
@@ -215,10 +202,6 @@ static void platform_level2_init(void) {
 void platform_level3_init(void) {
 #if PRJCONF_VFS_FILE_SYSTEM_EN
     vfsSystemInit();
-#endif
-
-#if PRJCONF_MOTOR_EN
-    platform_motorInit();
 #endif
 
 #if PRJCONF_UNITY_EN

@@ -1,6 +1,7 @@
 
 
-set(project_app "remote_reciver")
+set(project_app "minifoc_v1")
+
 if(${project_app} STREQUAL "remote_control")
         SET(APP_NAME "remote_control")
         add_definitions(-DSTM32F103xB)
@@ -20,7 +21,67 @@ if(${project_app} STREQUAL "remote_control")
         list(APPEND SOURCES ${APP_SOURCES})
         list(APPEND HEADERS project/apps/remoteController/
                             project/common/board/remoteController/)
-elseif(${project_app} STREQUAL "remote_reciver")           
+elseif(${project_app} STREQUAL "minifoc_v1")
+        SET(APP_NAME "minifoc_v1")
+        add_definitions(-DSTM32F103xB)
+        SET(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103C8TX_FLASH.ld)
+        set(TARGET_MCU STM32F1)
+
+        set(USE_LIBC ON CACHE BOOL "Use LIBC" FORCE)
+        set(USE_RTOS_SYSTEM OFF CACHE BOOL "Use RTOS" FORCE)
+        set(USE_BACKTRACE ON CACHE BOOL "Use BACKTRACE" FORCE)
+        set(USE_SHELL ON CACHE BOOL "Use SHELL" FORCE)
+        set(USE_UNITTEST OFF CACHE BOOL "Use UNITTEST" FORCE)
+        set(USE_WIRELESS OFF CACHE BOOL "Use WIRELESS" FORCE)
+        set(USE_LOG OFF CACHE BOOL "Use LOG" FORCE)
+        set(USE_FOC ON CACHE BOOL "Use FOC" FORCE)
+
+        file(GLOB_RECURSE  APP_SOURCES  project/apps/minifoc_v1/*.*
+                                       "project/common/board/minifoc_v1/*.*")
+        list(APPEND SOURCES ${APP_SOURCES})
+        list(APPEND HEADERS project/apps/minifoc_v1/
+                            project/common/board/minifoc_v1/)
+elseif(${project_app} STREQUAL "balance_car")
+        SET(APP_NAME "balance_car")
+        add_definitions(-DSTM32F103xB)
+        SET(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103C8TX_FLASH.ld)
+        set(TARGET_MCU STM32F1)
+
+        set(USE_LIBC ON CACHE BOOL "Use LIBC" FORCE)
+        set(USE_RTOS_SYSTEM ON CACHE BOOL "Use RTOS" FORCE)
+        set(USE_BACKTRACE ON CACHE BOOL "Use BACKTRACE" FORCE)
+        set(USE_SHELL ON CACHE BOOL "Use SHELL" FORCE)
+        set(USE_UNITTEST ON CACHE BOOL "Use UNITTEST" FORCE)
+        set(USE_WIRELESS ON CACHE BOOL "Use WIRELESS" FORCE)
+        set(USE_LOG OFF CACHE BOOL "Use LOG" FORCE)
+
+        file(GLOB_RECURSE  APP_SOURCES  project/apps/balance_car/*.*
+                                       "project/common/board/balance_car/*.*")
+        list(APPEND SOURCES ${APP_SOURCES})
+        list(APPEND HEADERS project/apps/balance_car/
+                            project/common/board/balance_car/)
+
+elseif(${project_app} STREQUAL "remote_car")
+        SET(APP_NAME "remote_car")
+        add_definitions(-DSTM32F103xB)
+        SET(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103C8TX_FLASH.ld)
+        set(TARGET_MCU STM32F1)
+
+        set(USE_LIBC ON CACHE BOOL "Use LIBC" FORCE)
+        set(USE_RTOS_SYSTEM ON CACHE BOOL "Use RTOS" FORCE)
+        set(USE_BACKTRACE ON CACHE BOOL "Use BACKTRACE" FORCE)
+        set(USE_SHELL ON CACHE BOOL "Use SHELL" FORCE)
+        set(USE_UNITTEST ON CACHE BOOL "Use UNITTEST" FORCE)
+        set(USE_WIRELESS ON CACHE BOOL "Use WIRELESS" FORCE)
+        set(USE_LOG OFF CACHE BOOL "Use LOG" FORCE)
+
+        file(GLOB_RECURSE  APP_SOURCES  project/apps/remoteCar/*.*
+                                       "project/common/board/remoteCar/*.*")
+        list(APPEND SOURCES ${APP_SOURCES})
+        list(APPEND HEADERS project/apps/remoteCar/
+                            project/common/board/remoteCar/)
+
+elseif(${project_app} STREQUAL "remote_reciver")
         SET(APP_NAME "remote_reciver")
         add_definitions(-DSTM32G030xx)
         SET(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32G030C8TX_FLASH.ld)
@@ -176,8 +237,11 @@ if (USE_FOC)
         message(STATUS "USE_FOC: ${USE_FOC}")
         add_definitions(-DUSE_FOC)
 
-        file(GLOB_RECURSE FOC_SOURCES "project/common/framework/miniFoc/*.*")
-        list(APPEND HEADERS        ${FOC_SOURCES})
+        file(GLOB_RECURSE FOC_SOURCES "project/common/framework/MiniFoc/*.c")
+        list(APPEND SOURCES        ${FOC_SOURCES})
+
+        file(GLOB_RECURSE FOC_HEADERS "project/common/framework/MiniFoc/*.h")
+        #list(APPEND HEADERS        ${FOC_HEADERS})
 endif ()
 
 if (USE_GUI)
@@ -185,6 +249,7 @@ if (USE_GUI)
         add_definitions(-DUSE_GUI)
 
         file(GLOB_RECURSE GUI_SOURCES "project/common/framework/gui/*.*")
+        list(APPEND SOURCES        ${GUI_SOURCES})
         list(APPEND HEADERS        ${GUI_SOURCES})
 endif ()
 

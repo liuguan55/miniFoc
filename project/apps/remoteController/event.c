@@ -58,7 +58,7 @@ void eventSend(uint8_t type, uint32_t data, uint32_t timeout){
     event.data = data;
     HAL_Status res = HAL_QueueSend(&g_eventQueue, &event, timeout);
     if (res != HAL_OK){
-        printf("event queue send failed");
+        printf("event queue send failed %d\n",wirelessState());
     }
 }
 

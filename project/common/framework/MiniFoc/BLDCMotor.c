@@ -137,7 +137,7 @@ int BLDCMotor_alignSensor(Motor_t *motorBase) {
   FocSensor_t *sensor = motorBase->sensor;
 
   BLDCConfig_t *config = &motor->config;
-  elog_d("foc", "MOT: Align sensor.\r\n");
+  log_d("MOT: Align sensor.\r\n");
 
   if (config->sensor_direction == UNKNOWN)  //没有设置，需要检测
   {
@@ -164,34 +164,34 @@ int BLDCMotor_alignSensor(Motor_t *motorBase) {
     BLDCMotor_setPhaseVoltage(motorBase, 0, 0, 0);
     MiniFoc_delayMs(200);
 
-    elog_d("foc", "mid_angle=%.4f\r\n", mid_angle);
-    elog_d("foc", "end_angle=%.4f\r\n", end_angle);
+      log_d("mid_angle=%.4f\r\n", mid_angle);
+      log_d("end_angle=%.4f\r\n", end_angle);
 
     moved = fabs(mid_angle - end_angle);
     if ((mid_angle == end_angle) || (moved < 0.01))  //相等或者几乎没有动
     {
-      elog_d("foc", "MOT: Failed to notice movement loop222.\r\n");
+        log_d("MOT: Failed to notice movement loop222.\r\n");
       motor->driver->disable();    //电机检测不正常，关闭驱动
 
       return 0;
     } else if (mid_angle < end_angle) {
-      elog_d("foc", "MOT: sensor_direction==CCW\r\n");
+      log_d("MOT: sensor_direction==CCW\r\n");
       config->sensor_direction = CCW;
     } else {
-      elog_d("foc", "MOT: sensor_direction==CW\r\n");
+      log_d("MOT: sensor_direction==CW\r\n");
       config->sensor_direction = CW;
     }
 
-    elog_d("foc", "MOT: PP check: ");    //计算Pole_Pairs
+    log_d("MOT: PP check: ");    //计算Pole_Pairs
     if (fabs(moved * config->pole_pairs - _2PI) > 0.5)  // 0.5 is arbitrary number it can be lower or higher!
     {
-      elog_d("foc", "fail - estimated pp:");
+      log_d("fail - estimated pp:");
       config->pole_pairs = _2PI / moved + 0.5;     //浮点数转整形，四舍五入
-      elog_d("foc", "%d\r\n", config->pole_pairs);
+      log_d("%d\r\n", config->pole_pairs);
     } else
-      elog_d("foc", "OK!\r\n");
+      log_d("OK!\r\n");
   } else
-    elog_d("foc", "MOT: Skip dir calib.\r\n");
+    log_d("MOT: Skip dir calib.\r\n");
 
   if (config->zero_electric_angle == 0)  //没有设置，需要检测
   {
@@ -201,12 +201,12 @@ int BLDCMotor_alignSensor(Motor_t *motorBase) {
     config->zero_electric_angle =
         _normalizeAngle(_electricalAngle(config->sensor_direction * angle, config->pole_pairs));
     MiniFoc_delayMs(20);
-    elog_d("foc", "MOT: Zero elec. angle:");
-    elog_d("foc", "%.4f\r\n", config->zero_electric_angle);
+    log_d("MOT: Zero elec. angle:");
+    log_d("%.4f\r\n", config->zero_electric_angle);
     BLDCMotor_setPhaseVoltage(motorBase, 0, 0, 0);
     MiniFoc_delayMs(200);
   } else {
-    elog_d("foc", "MOT: Skip offset calib.\r\n");
+    log_d("MOT: Skip offset calib.\r\n");
   }
 
   return MINIFOC_OK;
@@ -266,7 +266,7 @@ void BLDCMotor_loopFOC(Motor_t *motorBase) {
       }
 
       break;
-    default: elog_d("foc", "MOT: no torque control selected!");
+    default: log_d("MOT: no torque control selected!");
       break;
   }
 

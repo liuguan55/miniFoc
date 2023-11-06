@@ -139,7 +139,7 @@ static bool statck_has_fpu_regs = false;
 
 static bool on_thread_before_fault = false;
 static char log_buf[128] = { 0 };
-void cm_backtrace_print(char *format, ...)
+void cm_backtrace_print(const char *format, ...)
 {
   memset(log_buf, 0 ,sizeof(log_buf));
 
@@ -621,6 +621,7 @@ void cm_backtrace_fault(uint32_t fault_handler_lr, uint32_t fault_handler_sp) {
         cmb_println((char *)print_info[PRINT_FAULT_ON_HANDLER]);
     }
 #else
+    UNUSED(fault_handler_lr);
     /* bare metal(no OS) environment */
     cmb_println(print_info[PRINT_FAULT_ON_HANDLER]);
 #endif /* CMB_USING_OS_PLATFORM */

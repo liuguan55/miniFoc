@@ -59,20 +59,14 @@ enum {
 
 
 static  inline void MiniCommon_delayMs(uint32_t ms) {
-    osDelay(ms);
+    HAL_msleep(ms);
 }
 
 static  inline uint32_t MiniCommon_millis(void) {
-    return osKernelGetTickCount();
+    return HAL_millis();
 }
 static  inline uint32_t MiniCommon_elapsed(uint32_t ms){
-    uint32_t now = MiniFoc_millis();
-    uint32_t diff = 0;
-    if (ms <= now){
-        diff = now - ms ;
-    }
-
-    return diff ;
+    return HAL_elapsedMillis(ms) ;
 }
 
 void MiniCommon_led1On(int on);

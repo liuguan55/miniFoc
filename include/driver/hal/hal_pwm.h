@@ -88,6 +88,7 @@ typedef struct {
 
 typedef struct{
     HAL_PWM_CH channel;
+    uint8_t complementary;
     uint32_t duty;
 }PWM_channel_t;
 

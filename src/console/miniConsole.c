@@ -86,6 +86,7 @@ signed short ShellWrite(char *data, unsigned short dataSize) {
  */
 int ShellLock(Shell *shell) {
     MINI_ASSERT_MSG(shell != NULL, "shell is null");
+
     HAL_MutexLock(&gConsoleDev->shellMutex, HAL_OS_WAIT_FOREVER);
 
     return 0;
@@ -98,6 +99,7 @@ int ShellLock(Shell *shell) {
  */
 int ShellUnlock(Shell *shell) {
     MINI_ASSERT_MSG(shell != NULL, "shell is null");
+
     HAL_MutexUnlock(&gConsoleDev->shellMutex);
 
     return 0;
@@ -160,6 +162,19 @@ void miniConsoleDeinit(void){
 
     HAL_Free(gConsoleDev);
     gConsoleDev = NULL;
+}
+
+void miniconsoleRun(void) {
+    if (gConsoleDev == NULL) {
+        printf("console not initialized\n");
+        return;
+    }
+
+    char data = 0;
+    Shell  *shell = &gConsoleDev->shell;
+    if (shell->read && shell->read(&data, 1) == 1) {
+        shellHandler(shell, data);
+    }
 }
 
 void miniConsoleWrite(uint8_t *data, uint32_t dataSize) {

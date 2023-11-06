@@ -66,14 +66,24 @@ void elog_port_deinit(void) {
  */
 void elog_port_output(const char *log, size_t size) {
     /* add your code here */
+#ifdef USE_SHELL
     logWriteBuffer(LOG_ALL_OBJ, LOG_DEBUG, (char *) log, size);
+#else
+    HAL_UartSend(BOARD_MAIN_UART_ID, (uint8_t *)log, size);
+#endif
 //  MiniFatfs_writeLog("mini.log", log, size);
 }
 
 void elog_port_output2(int level, const char *log, size_t size) {
-    UNUSED(size);
     /* add your code here */
+#ifdef USE_SHELL
+    UNUSED(size);
     logWrite(LOG_ALL_OBJ, level, log);
+#else
+    UNUSED(level);
+    HAL_UartSend(BOARD_MAIN_UART_ID, (uint8_t *)log, size);
+#endif
+
 //  MiniFatfs_writeLog("mini.log", log, size);
 }
 
@@ -105,7 +115,6 @@ const char *elog_port_get_time(void) {
     struct tm *t;
     static char buf[32];
 
-   char *p = buf;
    gettimeofday(&tv, NULL);
    t = localtime(&tv.tv_sec);
    memset(buf, 0, sizeof(buf));
@@ -127,8 +136,8 @@ const char *elog_port_get_p_info(void) {
     static char info[configMAX_TASK_NAME_LEN] = {0};
     memset(info, 0, sizeof(info));
 
-    osThreadId_t id = osThreadGetId();
-    const char *thName = osThreadGetName(id);
+    osThreadId_t id = HAL_ThreadGetID();
+    const char *thName =   HAL_ThreadGetName(&id);
     if (thName) {
         memcpy(info, thName, configMAX_TASK_NAME_LEN);
     }

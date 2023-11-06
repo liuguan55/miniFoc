@@ -30,7 +30,7 @@ FocCurrent_t* MiniCurrentManager_findCurrentByName(const char *currentName)
   size_t num = listLength(&g_currentList);
 
   FocCurrent_t *current = NULL;
-  for (int i = 0; i < num; ++i) {
+  for (size_t i = 0; i < num; ++i) {
 	current = listFindByindex(&g_currentList, i);
 	if (!current){
 	  break;

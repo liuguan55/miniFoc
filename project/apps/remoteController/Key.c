@@ -90,8 +90,7 @@ void keyInit(void) {
     button_attach(&confirmButton, SINGLE_CLICK, buttonCallback);
     button_start(&confirmButton);
 
-#ifdef USE_RTOS_SYSTEM
+
     osTimerId_t btnTimer = osTimerNew(buttonTickTask, osTimerPeriodic, NULL, NULL);
     osTimerStart(btnTimer, 10);
-#endif
 }

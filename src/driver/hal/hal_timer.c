@@ -88,6 +88,8 @@ HAL_Status HAL_timerInit(void){
     HAL_NVIC_EnableIRQ(TIM4_IRQn);
 
 #endif
+
+    return HAL_STATUS_OK;
 }
 
 

@@ -39,9 +39,7 @@ typedef struct {
     uint8_t rxbuffer[USART_RXBUFFER_SIZE];
     lwrb_t ringHandle;
     uint8_t ringBuffer[RINGBUFFER_BUFFER_SIZE];
-#ifdef USE_RTOS_SYSTEM
     HAL_Semaphore rxSem;
-#endif
     void (*rx_callback)(uint8_t *buf, uint16_t len);
     void (*tx_callback)(uint8_t *buf, uint16_t len);
 } HalUartPrivate_t;
@@ -207,9 +205,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
     if (huart->Instance == USART1) {
         HalUartPrivate_t *p = HAL_UartGetPrivate(HAL_UART_1);
         lwrb_write(&p->ringHandle, p->rxbuffer, sizeof(p->rxbuffer));
-#ifdef USE_RTOS_SYSTEM
         HAL_SemaphoreRelease(&p->rxSem);
-#endif
         HAL_UART_Receive_IT(huart, p->rxbuffer, sizeof(p->rxbuffer));
 
         if (p->rx_callback){
@@ -280,9 +276,7 @@ static void HAL_UartHwDeinit(HAL_UART_ID uartId) {
     HAL_UART_DeInit(&p->huart);
     HAL_NVIC_DisableIRQ(gUartIrqHandles[uartId]);
     lwrb_free(&p->ringHandle);
-#ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreDeinit(&p->rxSem);
-#endif
 }
 
 HAL_Status HAL_UartInit(HAL_UART_ID uartId, HAL_UartCfg_t *pCfg) {
@@ -305,10 +299,9 @@ HAL_Status HAL_UartInit(HAL_UART_ID uartId, HAL_UartCfg_t *pCfg) {
         HAL_UartSetPrivate(uartId, p);
     }
     memset(p, 0, sizeof(HalUartPrivate_t));
-#ifdef USE_RTOS_SYSTEM
+
     HAL_SemaphoreInit(&p->rxSem, 1, 1);
     HAL_SemaphoreWait(&p->rxSem, 100);
-#endif
     lwrb_init(&p->ringHandle, p->ringBuffer, sizeof(p->ringBuffer));
     res = Hal_UartHwInit(uartId, pCfg);
 
@@ -352,9 +345,8 @@ HAL_Status HAL_UartRecv(HAL_UART_ID uartId, uint8_t *buf, uint16_t len, uint32_t
         return HAL_STATUS_ERROR;
     }
 
-#ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreWait(&p->rxSem, 100);
-#endif
+
     *recvLen = lwrb_read(&p->ringHandle, buf, len);
     if (*recvLen == 0) {
         HAL_UART_Receive_IT(&p->huart, p->rxbuffer, sizeof(p->rxbuffer));

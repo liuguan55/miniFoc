@@ -59,7 +59,7 @@ int MultiTimerInstall(PlatformTicksFunction_t ticksFunc);
  * @param userData user data.
  * @return int 0: success, -1: fail.
  */
-int MultiTimerStart(MultiTimer* timer, uint64_t timing, MultiTimerCallback_t callback, void* userData);
+int MultiTimerStart(MultiTimer *timer, uint64_t timing, MultiTimerCallback_t callback, void *userData);
 
 /**
  * @brief Stop the timer work, remove the handle off work list.

@@ -9,6 +9,7 @@
 #include "kernel/FreeRTOS/FreeRTOS.h"
 #include "kernel/FreeRTOS/task.h"
 #include "kernel/FreeRTOS/CMSIS_RTOS_V2/cmsis_os.h"
+#include "hal_os.h"
 
 /**
  * brief: delay ms
@@ -16,7 +17,7 @@
  */
 static inline void MiniFoc_delayMs(uint32_t ms)
 {
-  osDelay(ms);
+    HAL_msleep(ms);
 }
 
 /**
@@ -25,7 +26,7 @@ static inline void MiniFoc_delayMs(uint32_t ms)
  */
 static inline uint32_t MiniFoc_millis(void)
 {
-  return osKernelGetTickCount();
+  return HAL_millis();
 }
 
 /**

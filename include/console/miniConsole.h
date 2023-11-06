@@ -53,6 +53,11 @@ void miniConsoleInit(MiniConsoleConfig_t *config);
 void miniConsoleDeinit(void);
 
 /**
+ * @brief Console task run
+ */
+void miniconsoleRun(void);
+
+/**
  * @brief write data to console
  * @param data Pointer to the buffer containing the data to be written.
  * @param dataSize Number of bytes to write.

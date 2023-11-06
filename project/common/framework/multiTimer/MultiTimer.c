@@ -23,7 +23,7 @@ int MultiTimerInstall(PlatformTicksFunction_t ticksFunc)
     return 0;
 }
 
-int MultiTimerStart(MultiTimer* timer, uint64_t timing, MultiTimerCallback_t callback, void* userData)
+int MultiTimerStart(MultiTimer *timer, uint64_t timing, MultiTimerCallback_t callback, void *userData)
 {
     if (!timer || !callback ) {
         return -1;

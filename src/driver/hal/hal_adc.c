@@ -41,10 +41,7 @@ typedef struct {
     uint32_t dmaBufferSize;
     uint16_t *adcBuffer;
     uint32_t adcBufferSize;
-#ifdef USE_RTOS_SYSTEM
     HAL_Semaphore sem;
-#endif
-
     HAL_ADC_Callback_t callback;
 
     ADC_Config_t *config;
@@ -118,9 +115,8 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc) {
         if (pAdcPrivate && pAdcPrivate->adc == hadc) {
             memcpy(pAdcPrivate->adcBuffer, pAdcPrivate->dmaBuffer, pAdcPrivate->dmaBufferSize * sizeof(uint16_t));
             pAdcPrivate->callback(pAdcPrivate->adcBuffer, pAdcPrivate->adcBufferSize);
-#ifdef USE_RTOS_SYSTEM
+
             HAL_SemaphoreRelease(pAdcPrivate->sem);
-#endif
             break;
         }
     }
@@ -359,9 +355,7 @@ void HAL_adcInit(HAL_ADC_ID id) {
 
     HAL_adcHwInit(id);
 
-#ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreInit(&pAdcPrivate->sem, 1, 1);
-#endif
 }
 
 void HAL_adcDeinit(HAL_ADC_ID id) {
@@ -372,9 +366,7 @@ void HAL_adcDeinit(HAL_ADC_ID id) {
 
     HAL_adcHwDeinit(id);
 
-#ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreDeinit(pAdcPrivate->sem);
-#endif
 
     HAL_Free(pAdcPrivate->adc);
     HAL_Free(pAdcPrivate);
@@ -412,9 +404,7 @@ uint16_t HAL_adcRead(HAL_ADC_ID id, HAL_ADC_CH ch, uint32_t msec) {
         HAL_adcInit(id);
     }
 
-#ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreWait(pAdcPrivate->sem, msec);
-#endif
 
     return pAdcPrivate->adcBuffer[ch];
 }
@@ -434,9 +424,7 @@ int32_t HAL_adcReadMulti(HAL_ADC_ID id, uint16_t *buffer, uint16_t size, uint32_
         HAL_adcInit(id);
     }
 
-#ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreWait(pAdcPrivate->sem, msec);
-#endif
 
 
     memcpy(buffer, pAdcPrivate->adcBuffer, pAdcPrivate->adcBufferSize * sizeof(uint16_t));

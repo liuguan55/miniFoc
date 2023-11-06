@@ -226,6 +226,11 @@ static __inline HAL_Status HAL_ThreadGetPriority(HAL_Thread *thread, int *priori
     return HAL_STATUS_OK;
 }
 
+static __inline const char * HAL_ThreadGetName(HAL_Thread *thread)
+{
+    return osThreadGetName(*thread);
+}
+
 static __inline HAL_Thread HAL_ThreadGetID()
 {
     return osThreadGetId();
@@ -301,6 +306,304 @@ static __inline int HAL_TimerIsActive(HAL_Timer *timer)
 {
     return osTimerIsRunning(*timer);
 }
+#else
+/* Semaphore */
+typedef void* HAL_Semaphore;
+
+static __inline HAL_Status HAL_SemaphoreInit(HAL_Semaphore *sem, uint32_t initCount, uint32_t maxCount)
+{
+    UNUSED(sem);
+    UNUSED(initCount);
+    UNUSED(maxCount);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_SemaphoreInitBinary(HAL_Semaphore *sem)
+{
+    UNUSED(sem);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_SemaphoreDeinit(HAL_Semaphore *sem)
+{
+    UNUSED(sem);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_SemaphoreWait(HAL_Semaphore *sem, uint32_t msec)
+{
+    UNUSED(sem);
+    UNUSED(msec);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_SemaphoreTryWait(HAL_Semaphore *sem)
+{
+    UNUSED(sem);
+
+    return HAL_SemaphoreWait(sem, 0);
+}
+
+static __inline HAL_Status HAL_SemaphoreRelease(HAL_Semaphore *sem)
+{
+    UNUSED(sem);
+
+    return HAL_STATUS_OK;
+}
+
+/* Mutex */
+typedef void* HAL_Mutex;
+
+#define HAL_OS_WAIT_FOREVER 0xFFFFFFFFU
+
+static __inline HAL_Status HAL_MutexInit(HAL_Mutex *mtx)
+{
+    UNUSED(mtx);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_MutexDeinit(HAL_Mutex *mtx)
+{
+    UNUSED(mtx);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_MutexLock(HAL_Mutex *mtx, uint32_t msec)
+{
+    UNUSED(mtx);
+    UNUSED(msec);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_MutexTryLock(HAL_Mutex *mtx)
+{
+    return HAL_MutexLock(mtx, 0);
+}
+
+static __inline HAL_Status HAL_MutexUnlock(HAL_Mutex *mtx)
+{
+    UNUSED(mtx);
+    return HAL_STATUS_OK;
+}
+
+typedef void* HAL_Queue;
+
+static __inline HAL_Status HAL_QueueInit(HAL_Queue *queue, uint32_t msgSize, uint32_t msgNum)
+{
+    UNUSED(queue);
+    UNUSED(msgSize);
+    UNUSED(msgNum);
+
+    return HAL_STATUS_OK;
+}
+
+
+static __inline HAL_Status HAL_QueueDeinit(HAL_Queue *queue)
+{
+    UNUSED(queue);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_QueueSend(HAL_Queue *queue, const void *msg, uint32_t msec)
+{
+    UNUSED(queue);
+    UNUSED(msg);
+    UNUSED(msec);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_QueueTrySend(HAL_Queue *queue, const void *msg)
+{
+    return HAL_QueueSend(queue, msg, 0);
+}
+
+static __inline HAL_Status HAL_QueueRecv(HAL_Queue *queue, void *msg, uint32_t msec)
+{
+    UNUSED(queue);
+    UNUSED(msg);
+    UNUSED(msec);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_QueueTryRecv(HAL_Queue *queue, void *msg)
+{
+    UNUSED(queue);
+    UNUSED(msg);
+
+    return HAL_STATUS_OK;
+}
+
+
+
+
+/* Thread */
+enum {
+    HAL_OS_PRIORITY_IDLE = 0,
+    HAL_OS_PRIORITY_LOWEST = 0,
+    HAL_OS_PRIORITY_LOW = 0,
+    HAL_OS_PRIORITY_BELOW_NORMAL = 0,
+    HAL_OS_PRIORITY_NORMAL = 0,
+    HAL_OS_PRIORITY_ABOVE_NORMAL = 0,
+    HAL_OS_PRIORITY_HIGH = 0,
+    HAL_OS_PRIORITY_REALTIME = 0,
+};
+typedef void* HAL_Thread;
+
+typedef uint8_t HAL_OS_Priority;
+
+static __inline HAL_Status HAL_ThreadCreate(void (*entry)(void *), const char *name, int stackSize, void *arg, const int priority, HAL_Thread *thread)
+{
+    UNUSED(entry);
+    UNUSED(name);
+    UNUSED(stackSize);
+    UNUSED(arg);
+    UNUSED(priority);
+    UNUSED(thread);
+
+    return HAL_STATUS_ERROR;
+}
+
+static __inline HAL_Status HAL_ThreadDelete(HAL_Thread *thread)
+{
+    UNUSED(thread);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_ThreadSuspend(HAL_Thread *thread)
+{
+    UNUSED(thread);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_ThreadResume(HAL_Thread *thread)
+{
+    UNUSED(thread);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_ThreadSetPriority(HAL_Thread *thread, int priority)
+{
+    UNUSED(thread);
+    UNUSED(priority);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_ThreadGetPriority(HAL_Thread *thread, int *priority)
+{
+    UNUSED(thread);
+    *priority = 0;
+
+    return HAL_STATUS_OK;
+}
+
+static __inline const char * HAL_ThreadGetName(HAL_Thread *thread)
+{
+    UNUSED(thread);
+
+    return "thread";
+}
+
+static __inline HAL_Thread HAL_ThreadGetID()
+{
+    return 0;
+}
+
+static __inline HAL_Status HAL_ThreadDelay(uint32_t msec)
+{
+    HAL_Delay(msec);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_ThreadSuspendScheduler(void)
+{
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_ThreadResumeScheduler(void)
+{
+    return HAL_STATUS_OK;
+}
+
+static __inline int HAL_ThreadIsSchedulerRunning(void)
+{
+    return HAL_STATUS_OK;
+}
+
+static __inline void HAL_ThreadStartScheduler(void)
+{
+}
+
+static __inline void HAL_ThreadInitilize(void)
+{
+}
+
+/* Timer */
+typedef void* HAL_Timer;
+typedef uint8_t HAL_TimerType;
+enum {
+    HAL_TIMER_PERIODIC = 0,
+    HAL_TIMER_ONESHOT = 1,
+};
+
+static __inline HAL_Status HAL_TimerInit(HAL_Timer *timer, HAL_TimerType type, void (*cb)(void *), void *arg)
+{
+    UNUSED(timer);
+    UNUSED(type);
+    UNUSED(cb);
+    UNUSED(arg);
+
+    return HAL_STATUS_ERROR;
+}
+
+static __inline HAL_Status HAL_TimerDeinit(HAL_Timer *timer)
+{
+    UNUSED(timer);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_TimerStart(HAL_Timer *timer,uint32_t msec)
+{
+    UNUSED(timer);
+    UNUSED(msec);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_TimerChangePeriod(HAL_Timer *timer, uint32_t msec)
+{
+    UNUSED(timer);
+    UNUSED(msec);
+
+    return HAL_STATUS_OK;
+}
+
+static __inline HAL_Status HAL_TimerStop(HAL_Timer *timer)
+{
+    UNUSED(timer);
+    return HAL_STATUS_OK;
+}
+
+static __inline int HAL_TimerIsActive(HAL_Timer *timer)
+{
+    UNUSED(timer);
+    return HAL_STATUS_OK;
+}
 #endif
 
 /* Keep system alive, eg. feed watchdog */
@@ -328,15 +631,15 @@ static __inline void HAL_msleep(uint32_t msec)
 #endif
 }
 
-static __inline uint32_t HAL_SecsToTicks(uint32_t sec)
+static __inline uint64_t HAL_SecsToTicks(uint32_t sec)
 {
     return sec * 1000;
 }
-static __inline uint32_t HAL_MSecsToTicks(uint32_t msec)
+static __inline uint64_t HAL_MSecsToTicks(uint32_t msec)
 {
     return msec;
 }
-static __inline uint32_t HAL_TicksToMSecs(uint32_t t)
+static __inline uint64_t HAL_TicksToMSecs(uint32_t t)
 {
     return t;
 }
@@ -345,7 +648,7 @@ static __inline uint32_t HAL_TicksToSecs(uint32_t t)
     return t / 1000;
 }
 
-static __inline uint32_t HAL_millis(void)
+static __inline uint64_t HAL_millis(void)
 {
     return HAL_TicksToMSecs(HAL_Ticks());
 }

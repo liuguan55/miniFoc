@@ -44,7 +44,7 @@ void ledTask(void  *args){
 void ledTaskStart(){
     static HAL_Timer timer;
 
-    HAL_TimerInit(&timer, osTimerPeriodic, ledTask, NULL);
+    HAL_TimerInit(&timer, HAL_TIMER_PERIODIC, ledTask, NULL);
     HAL_TimerStart(&timer, 500);
 }
 /**

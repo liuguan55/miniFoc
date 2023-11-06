@@ -34,12 +34,10 @@
 #include "sys/MiniDebug.h"
 #include "driver/hal/hal_gpio.h"
 
-//#undef  USE_RTOS_SYSTEM
+
 typedef struct {
-#ifdef USE_RTOS_SYSTEM
     HAL_Semaphore spiSem;
     HAL_Mutex spiMutex;
-#endif
     SPI_HandleTypeDef hspi;
     board_pinmux_info_t csPinmuxCfg;
     GPIO_PinMuxParam *csPin ;
@@ -208,10 +206,9 @@ HAL_Status HAL_spiInit(HAL_SPI_ID spiId, SpiConfig_t *spiConfig) {
     memset(spiPrivate, 0, sizeof(SpiPrivate_t));
     SPIHwInit(spiId, spiConfig);
 
-#ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreInit(&spiPrivate->spiSem, 1, 1);
     HAL_MutexInit(&spiPrivate->spiMutex);
-#endif
+
 
     return HAL_STATUS_OK;
 }
@@ -222,10 +219,9 @@ void HAL_spiDeinit(HAL_SPI_ID spiId) {
         return;
     }
 
-#ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreDeinit(&SPIPrivateGet(spiId)->spiSem);
     HAL_MutexDeinit(&SPIPrivateGet(spiId)->spiMutex);
-#endif
+
     SPIHwDeinit(spiId);
     HAL_Free(SPIPrivateGet(spiId));
     SPIPrivateSet(spiId, NULL);
@@ -234,17 +230,13 @@ void HAL_spiDeinit(HAL_SPI_ID spiId) {
 
 HAL_Status HAL_spiOpen(HAL_SPI_ID spiId, HAL_SPI_TCTRL_SS_SEL spiCs,uint32_t msecs){
     SpiPrivate_t *spiPrivate = SPIPrivateGet(spiId);
-#ifdef USE_RTOS_SYSTEM
     HAL_Status res = HAL_SemaphoreWait(&spiPrivate->spiSem, msecs);
     if (res != HAL_STATUS_OK) {
         return res ;
     }
-#endif
     board_pinmux_info_t *boardPinmuxInfo = &spiPrivate->csPinmuxCfg;
     if (spiCs > boardPinmuxInfo->count){
-#ifdef USE_RTOS_SYSTEM
         HAL_SemaphoreRelease(&spiPrivate->spiSem);
-#endif
         return  HAL_STATUS_INVALID;
     }
 
@@ -258,9 +250,7 @@ HAL_Status HAL_spiOpen(HAL_SPI_ID spiId, HAL_SPI_TCTRL_SS_SEL spiCs,uint32_t mse
 HAL_Status HAL_spiClose(HAL_SPI_ID spiId){
     SpiPrivate_t *spiPrivate = SPIPrivateGet(spiId);
 
-#ifdef USE_RTOS_SYSTEM
     HAL_SemaphoreRelease(&spiPrivate->spiSem);
-#endif
 
     spiPrivate->csPin = NULL;
 
@@ -294,17 +284,11 @@ HAL_Status HAL_spiTransmit(HAL_SPI_ID spiId, uint8_t *pData, uint16_t size, uint
 
     SPI_HandleTypeDef *pSpi = &spiPrivate->hspi;
 
-#ifdef USE_RTOS_SYSTEM
     HAL_MutexLock(&spiPrivate->spiMutex, timeout);
     if (HAL_SPI_Transmit(pSpi, pData, size, timeout) != HAL_OK) {
         ret = HAL_STATUS_ERROR;
     }
     HAL_MutexUnlock(&spiPrivate->spiMutex);
-#else
-    if (HAL_SPI_Transmit(pSpi, pData, size, timeout) != HAL_OK) {
-        ret = HAL_STATUS_ERROR;
-    }
-#endif
 
     return ret;
 }
@@ -322,17 +306,12 @@ HAL_Status HAL_spiReceive(HAL_SPI_ID spiId,uint8_t *pData, uint16_t size, uint32
 
     SPI_HandleTypeDef *pSpi = &spiPrivate->hspi;
 
-#ifdef USE_RTOS_SYSTEM
     HAL_MutexLock(&spiPrivate->spiMutex, timeout);
     if (HAL_SPI_Receive(pSpi, pData, size, timeout) != HAL_OK) {
         ret = HAL_STATUS_ERROR;
     }
     HAL_MutexUnlock(&spiPrivate->spiMutex);
-#else
-    if (HAL_SPI_Receive(pSpi, pData, size, timeout) != HAL_OK) {
-        ret = HAL_STATUS_ERROR;
-    }
-#endif
+
 
     return ret;
 }
@@ -351,17 +330,12 @@ HAL_Status HAL_spiTransmitReceive(HAL_SPI_ID spiId, uint8_t *pTxData, uint8_t *p
 
     SPI_HandleTypeDef *pSpi = &spiPrivate->hspi;
 
-#ifdef USE_RTOS_SYSTEM
     HAL_MutexLock(&spiPrivate->spiMutex, timeout);
     if (HAL_SPI_TransmitReceive(pSpi, pTxData, pRxData, size, timeout) != HAL_OK) {
         ret = HAL_STATUS_ERROR;
     }
     HAL_MutexUnlock(&spiPrivate->spiMutex);
-#else
-    if (HAL_SPI_TransmitReceive(pSpi, pTxData, pRxData, size, timeout) != HAL_OK) {
-        ret = HAL_STATUS_ERROR;
-    }
-#endif
+
 
     return ret;
 }

@@ -52,10 +52,8 @@ typedef struct console_priv {
     ShellFs shellFs;
     Log shellLog;
 
-#ifdef USE_RTOS_SYSTEM
     HAL_Mutex shellMutex;
     HAL_Thread shellThread;
-#endif
 } ConsoleDev_t;
 
 void MiniShell_Init(ConsoleDev_t *console);

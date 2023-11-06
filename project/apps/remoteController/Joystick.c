@@ -116,37 +116,38 @@ void Joystick_Init(void) {
 Joystick_t* Joystick_GetData(void) {
     HAL_adcReadMulti(HAL_ADC_1, g_joystickData, ADC_CHANNEL_NUM, 1000);
 
+
 //    printf("stickData %d %d %d %d %d %d %d\n", g_joystickData[0], g_joystickData[1],
 //         g_joystickData[2], g_joystickData[3], g_joystickData[4], g_joystickData[5], g_joystickData[6]);
 
-    g_Joystick.Lx = abs(g_joystickData[1] - g_JoyStickCalib.minLeftY) * 1.0 / (g_JoyStickCalib.maxLeftY - g_JoyStickCalib.minLeftY) * 1000 + 1000;
-    g_Joystick.Lx = CONTAIN(g_Joystick.Lx, 1000, 2000);
-    if (abs(g_Joystick.Lx - 1500) < g_JoyStickCalib.deadZone){
-        g_Joystick.Lx = 1500;
-    }
-
-
-    g_Joystick.Ly = abs(g_joystickData[0] - g_JoyStickCalib.minLeftX) * 1.0 / (g_JoyStickCalib.maxLeftX - g_JoyStickCalib.minLeftX) * 1000 + 1000;
+    g_Joystick.Ly = abs(4000 - g_joystickData[1] - g_JoyStickCalib.minLeftY) * 1.0 / (g_JoyStickCalib.maxLeftY - g_JoyStickCalib.minLeftY) * 1000 + 1000;
     g_Joystick.Ly = CONTAIN(g_Joystick.Ly, 1000, 2000);
     if (abs(g_Joystick.Ly - 1500) < g_JoyStickCalib.deadZone){
         g_Joystick.Ly = 1500;
     }
 
-    g_Joystick.Rx = abs(g_joystickData[3] - g_JoyStickCalib.minRightY) * 1.0 / (g_JoyStickCalib.maxRightY - g_JoyStickCalib.minRightY) * 1000 + 1000;
-    g_Joystick.Rx = CONTAIN(g_Joystick.Rx, 1000, 2000);
-    if (abs(g_Joystick.Rx - 1500) < g_JoyStickCalib.deadZone){
-        g_Joystick.Rx = 1500;
+
+    g_Joystick.Lx = abs(g_joystickData[0] - g_JoyStickCalib.minLeftX) * 1.0 / (g_JoyStickCalib.maxLeftX - g_JoyStickCalib.minLeftX) * 1000 + 1000;
+    g_Joystick.Lx = CONTAIN(g_Joystick.Lx, 1000, 2000);
+    if (abs(g_Joystick.Lx - 1500) < g_JoyStickCalib.deadZone){
+        g_Joystick.Lx = 1500;
     }
 
-    g_Joystick.Ry = abs(g_joystickData[2] - g_JoyStickCalib.minRightX) * 1.0 / (g_JoyStickCalib.maxRightX - g_JoyStickCalib.minRightX) * 1000 + 1000;
+    g_Joystick.Ry = abs(4000 - g_joystickData[3] - g_JoyStickCalib.minRightY) * 1.0 / (g_JoyStickCalib.maxRightY - g_JoyStickCalib.minRightY) * 1000 + 1000;
     g_Joystick.Ry = CONTAIN(g_Joystick.Ry, 1000, 2000);
     if (abs(g_Joystick.Ry - 1500) < g_JoyStickCalib.deadZone){
         g_Joystick.Ry = 1500;
     }
 
+    g_Joystick.Rx = abs(g_joystickData[2] - g_JoyStickCalib.minRightX) * 1.0 / (g_JoyStickCalib.maxRightX - g_JoyStickCalib.minRightX) * 1000 + 1000;
+    g_Joystick.Rx = CONTAIN(g_Joystick.Rx, 1000, 2000);
+    if (abs(g_Joystick.Rx - 1500) < g_JoyStickCalib.deadZone){
+        g_Joystick.Rx = 1500;
+    }
+
     g_Joystick.Battery = g_joystickData[6]*3.3/4096*20;
 
-//    printf("joystick lx %d ly %d rx %d ry %d lz %d rz %d bat %d\n", g_Joystick.Lx, g_Joystick.Ly,g_Joystick.Rx, g_Joystick.Ry, g_Joystick.Lz, g_Joystick.Rz, g_Joystick.Battery);
+    printf("joystick lx %d ly %d rx %d ry %d lz %d rz %d bat %d\n", g_Joystick.Lx, g_Joystick.Ly,g_Joystick.Rx, g_Joystick.Ry, g_Joystick.Lz, g_Joystick.Rz, g_Joystick.Battery);
 
     return &g_Joystick;
 }

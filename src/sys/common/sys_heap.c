@@ -289,6 +289,7 @@ size_t sys_heap_xPortGetMinimumEverFreeHeapSize(sys_heap_t *sysHeap)
 void sys_heap_vPortInitialiseBlocks(sys_heap_t *sysHeap)
 {
     /* This just exists to keep the linker quiet. */
+    UNUSED(sysHeap);
 }
 
 /*-----------------------------------------------------------*/

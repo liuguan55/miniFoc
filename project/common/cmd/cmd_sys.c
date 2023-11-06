@@ -54,14 +54,17 @@ void systemInfo(int argc, char *argv[]) {
 
     extern uint32_t system_get_heap_size(void);
     printf("hardware version: %s, software version: %s\n", HARDWARE_VERSION, SOFTWARE_VERSION);
+#ifdef USE_RTOS_SYSTEM
     printf("heap size:%d(sram) %d(rtos)\n", system_get_heap_size(), xPortGetFreeHeapSize());
+#else
+    printf("heap size:%d(sram) (no rtos)\n", system_get_heap_size());
+#endif
     printf("chipid:%x-%x-%x\n", HAL_GetUIDw0(), HAL_GetUIDw1(), HAL_GetUIDw2());
     printf("cpu freq:%d\n", HAL_RCC_GetHCLKFreq());
 }
 
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN) | SHELL_CMD_DISABLE_RETURN,
 systeminfo, systemInfo, system info);
-
 
 
 static void test_env(void) {
@@ -87,6 +90,7 @@ static void test_env(void) {
 SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC) | SHELL_CMD_DISABLE_RETURN,
                  testEnv, test_env, test env);
 
+#ifdef USE_RTOS_SYSTEM
 void RunTimeStatsTask(void) {
     const int bufferSize = 1024;
     char *infoBuffer = (char *)malloc(bufferSize);
@@ -104,3 +108,4 @@ SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0) | SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC) |
                          times
                          stats
                          task);
+#endif

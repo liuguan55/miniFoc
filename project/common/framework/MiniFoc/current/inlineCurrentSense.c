@@ -59,7 +59,7 @@ static void Current_calibrateOffsets(currentContext_t *ctx) {
     ctx->b.offset = ctx->b.offset / 1000;
     if (_isset(pinC)) ctx->c.offset = ctx->c.offset / 1000;
 
-    elog_d("foc", "offset_ia:%.4f,offset_ib:%.4f,offset_ic:%.4f.\r\n", ctx->a.offset, ctx->b.offset, ctx->c.offset);
+    log_d("offset_ia:%.4f,offset_ib:%.4f,offset_ic:%.4f.\r\n", ctx->a.offset, ctx->b.offset, ctx->c.offset);
 }
 
 static void currentInit(void) {
@@ -70,7 +70,7 @@ static void currentInit(void) {
     currentCtx.b.gain = -currentCtx.voltsToAmpsRatio;
     currentCtx.c.gain = currentCtx.voltsToAmpsRatio;
 
-    elog_d("foc", "gain_a:%.2f,gain_b:%.2f,gain_c:%.2f.\r\n", currentCtx.a.gain, currentCtx.b.gain, currentCtx.c.gain);
+    log_d("gain_a:%.2f,gain_b:%.2f,gain_c:%.2f.\r\n", currentCtx.a.gain, currentCtx.b.gain, currentCtx.c.gain);
 
     Current_calibrateOffsets(&currentCtx);
 }

@@ -150,7 +150,7 @@ int MiniFoc_init(Motor_t *motor, MotorType_t motorType, char *sensorName, char *
                       config->sensor_direction);  //(2.2,CW);(0,UNKNOWN);  //如果填入零点偏移角度和方向，将跳过上电检测。电机极对数要设置正确。
 
     ctx->vbus = LPFoperator(&motor->LPF_vBus, MiniFoc_getVbus());
-    elog_d("foc", "vBus:%4.2f ,Motor ready.", ctx->vbus);
+    log_d("vBus:%4.2f ,Motor ready.", ctx->vbus);
   if (ctx->vbus > 6.0f) {
     motor->enabled = 1;
   }

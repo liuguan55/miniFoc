@@ -190,8 +190,9 @@ int wirelessSend(uint8_t *buf, uint8_t len){
 
     int sendLen = 0;
 
-    HAL_MutexLock(&g_wirelessMutex,HAL_OS_WAIT_FOREVER);
     g_wirelessState = 1;
+    HAL_MutexLock(&g_wirelessMutex,HAL_OS_WAIT_FOREVER);
+
 
     sendLen = NRF24L01_TxPacket(&nrf24l01, buf, 32);
     HAL_MutexUnlock(&g_wirelessMutex);

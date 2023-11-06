@@ -57,7 +57,7 @@ extern "C" {
 
 /* console enable/disable */
 #ifndef PRJCONF_CONSOLE_EN
-#define PRJCONF_CONSOLE_EN              1
+#define PRJCONF_CONSOLE_EN              0
 #endif
 
 

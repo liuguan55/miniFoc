@@ -36,10 +36,8 @@
 
 typedef struct {
     I2C_HandleTypeDef hi2c;
-#ifdef USE_RTOS_SYSTEM
     HAL_Semaphore semaphore;
     HAL_Mutex mutex;
-#endif
 }I2CPrivate_t;
 
 static I2CPrivate_t *gI2cPrivate[HAL_I2C_NR] = {0};
@@ -215,10 +213,9 @@ HAL_Status HAL_I2CInit(HAL_I2C_ID i2cId, I2C_Config *i2CConfig)
         return HAL_STATUS_ERROR;
     }
 
-#ifdef USE_RTOS_SYSTEM
+
     HAL_SemaphoreInit(pI2CPrivate->semaphore, 1, 1);
     HAL_MutexInit(pI2CPrivate->mutex);
-#endif
 
     return HAL_STATUS_OK;
 }
@@ -235,10 +232,9 @@ HAL_Status HAL_I2CDeInit(HAL_I2C_ID i2cId)
 
     I2CHwDeinit(i2cId, &pI2CPrivate->hi2c);
 
-#ifdef USE_RTOS_SYSTEM
+
     HAL_SemaphoreDeinit(pI2CPrivate->semaphore);
     HAL_MutexDeinit(pI2CPrivate->mutex);
-#endif
 
     HAL_Free(pI2CPrivate);
     I2CPrivateSet(i2cId, NULL);
@@ -256,18 +252,13 @@ HAL_Status HAL_I2CTransmit(HAL_I2C_ID i2cId, uint16_t slaveAddr, uint8_t *pData,
     if(pI2CPrivate == NULL)
         return HAL_STATUS_ERROR;
 
-#ifdef USE_RTOS_SYSTEM
+
     HAL_MutexLock(&pI2CPrivate->mutex, timeout);
     if (HAL_I2C_Master_Transmit(&pI2CPrivate->hi2c, slaveAddr, pData, size, timeout) != HAL_OK) {
         HAL_MutexUnlock(&pI2CPrivate->mutex);
         return HAL_STATUS_TIMEOUT;
     }
     HAL_MutexUnlock(&pI2CPrivate->mutex);
-#else
-    if (HAL_I2C_Master_Transmit(&pI2CPrivate->hi2c, slaveAddr, pData, size, timeout) != HAL_OK) {
-        return HAL_STATUS_TIMEOUT;
-    }
-#endif
 
     return HAL_STATUS_OK;
 }
@@ -281,17 +272,12 @@ HAL_Status HAL_I2CReceive(HAL_I2C_ID i2cId, uint16_t slaveAddr, uint8_t *pData, 
     if(pI2CPrivate == NULL)
         return HAL_STATUS_ERROR;
 
-#ifdef USE_RTOS_SYSTEM
     HAL_MutexLock(&pI2CPrivate->mutex, timeout);
     if (HAL_I2C_Master_Receive(&pI2CPrivate->hi2c, slaveAddr, pData, size, timeout) != HAL_OK) {
         HAL_MutexUnlock(&pI2CPrivate->mutex);
         return HAL_STATUS_TIMEOUT;
     }
     HAL_MutexUnlock(&pI2CPrivate->mutex);
-#else
-    if (HAL_I2C_Master_Receive(&pI2CPrivate->hi2c, slaveAddr, pData, size, timeout) != HAL_OK) {
-        return HAL_STATUS_TIMEOUT;
-    }
-#endif
+
     return HAL_STATUS_OK;
 }

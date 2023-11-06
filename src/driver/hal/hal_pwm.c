@@ -39,12 +39,10 @@ typedef struct {
 static PwmPrivate_t *pwmPrivate[HAL_PWM_ID_NR];
 
 static TIM_TypeDef * const timInstance[HAL_PWM_ID_NR] = {
-#if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
+        [HAL_PWM_ID_1] = TIM1,
         [HAL_PWM_ID_2] = TIM2,
         [HAL_PWM_ID_3] = TIM3,
-#elif defined(TARGET_MCU_STM32G0)
-        [HAL_PWM_ID_1] = TIM1,
-        [HAL_PWM_ID_3] = TIM3,
+#if defined(TARGET_MCU_STM32G0)
         [HAL_PWM_ID_14] = TIM14,
         [HAL_PWM_ID_16] = TIM16,
         [HAL_PWM_ID_17] = TIM17,
@@ -56,11 +54,13 @@ static void timClockEnable(HAL_PWM_ID ch) {
         case HAL_PWM_ID_1:
 #if defined(TARGET_MCU_STM32F1) || defined(TARGET_MCU_STM32F4)
             __HAL_RCC_TIM1_CLK_ENABLE();
+
 #elif defined(TARGET_MCU_STM32G0)
             __HAL_RCC_TIM1_CLK_ENABLE();
 #endif
             break;
         case HAL_PWM_ID_2:
+            __HAL_RCC_TIM2_CLK_ENABLE();
             break;
         case HAL_PWM_ID_3:
             __HAL_RCC_TIM3_CLK_ENABLE();
@@ -118,7 +118,7 @@ static void timClockDisable(HAL_PWM_ID ch) {
 #endif
             break;
         case HAL_PWM_ID_2:
-
+            __HAL_RCC_TIM2_CLK_DISABLE();
             break;
         case HAL_PWM_ID_3:
             __HAL_RCC_TIM3_CLK_DISABLE();
@@ -177,6 +177,8 @@ static uint32_t timGetPwmMode(HAL_PWM_COUNTER_MODE mode){
         default:
             assert(NULL);
     }
+
+    return TIM_COUNTERMODE_UP;
 }
 
 static uint32_t timGetChannel(HAL_PWM_CH channel){
@@ -198,6 +200,8 @@ static uint32_t timGetChannel(HAL_PWM_CH channel){
         default:
             assert(NULL);
     }
+
+    return 0;
 }
 
 static TIM_TypeDef * PWMInstanceGet(HAL_PWM_ID id) {
@@ -224,15 +228,21 @@ HAL_Status HAL_pwmHwInit(HAL_PWM_ID id){
         return HAL_STATUS_INVALID;
     }
 
-    for (int i = 0; i < boardPwmInfo.count; ++i) {
+
+
+    for (uint32_t i = 0; i < boardPwmInfo.count; ++i) {
         if (boardPwmInfo.config[i].id != id) {
-            break;
+            continue;
         }
 
         TIM_MasterConfigTypeDef sMasterConfig = {0};
         TIM_OC_InitTypeDef sConfigOC = {0};
 
         pTim->Instance = PWMInstanceGet(id);
+        if (pTim->Instance == NULL) {
+            assert(NULL);
+        }
+
         pTim->Init.Prescaler = boardPwmInfo.config[i].prescaler;
         pTim->Init.CounterMode = timGetPwmMode(boardPwmInfo.config[i].mode);
         pTim->Init.Period = boardPwmInfo.config[i].period;
@@ -249,7 +259,7 @@ HAL_Status HAL_pwmHwInit(HAL_PWM_ID id){
         }
 
         PWM_channel_t *channel = boardPwmInfo.config[i].channel;
-        for (int j = 0; j < boardPwmInfo.config->channelNum; ++j) {
+        for (int j = 0; j < boardPwmInfo.config[i].channelNum; ++j) {
             sConfigOC.OCMode = TIM_OCMODE_PWM1;
             sConfigOC.Pulse = channel[j].duty;
             sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
@@ -260,11 +270,20 @@ HAL_Status HAL_pwmHwInit(HAL_PWM_ID id){
                 assert(NULL);
             }
 
-            if (HAL_TIM_PWM_Start(pTim, pwmChannel) != HAL_OK) {
-                assert(NULL);
+            if (channel[j].complementary){
+                if (HAL_TIMEx_PWMN_Start(pTim, pwmChannel) != HAL_OK) {
+                    assert(NULL);
+                }
+            }else {
+                if (HAL_TIM_PWM_Start(pTim, pwmChannel) != HAL_OK) {
+                    assert(NULL);
+                }
             }
         }
     }
+
+
+    return HAL_STATUS_OK;
 }
 
 /**
@@ -340,14 +359,13 @@ HAL_Status HAL_pwmOutput(HAL_PWM_ID ch, HAL_PWM_CH channel, uint32_t value){
 
     board_pwm_info_t boardPwmInfo;
     HAL_BoardIoctl(HAL_BIR_GET_CFG, HAL_MKDEV(HAL_DEV_MAJOR_PWM, ch), (uint32_t)&boardPwmInfo);
-    for (int i = 0; i < boardPwmInfo.count; ++i) {
+    for (uint32_t i = 0; i < boardPwmInfo.count; ++i) {
         if (boardPwmInfo.config[i].id != ch) {
-            break;
+            continue;
         }
 
-        TIM_OC_InitTypeDef sConfigOC = {0};
         PWM_channel_t *chan = boardPwmInfo.config[i].channel;
-        for (int j = 0; j < boardPwmInfo.config->channelNum; ++j) {
+        for (int j = 0; j < boardPwmInfo.config[i].channelNum; ++j) {
             if (chan[j].channel != channel) {
                 continue;
             }
