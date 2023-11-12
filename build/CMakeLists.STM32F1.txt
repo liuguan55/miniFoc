@@ -2,7 +2,7 @@
 SET(FPU_FLAGS "-mfloat-abi=soft")
 
 SET(COMMON_FLAGS
-    "-mcpu=cortex-m3 ${FPU_FLAGS} -mthumb  -specs=nano.specs -mthumb-interwork -ffunction-sections -fdata-sections \
+    "-mcpu=cortex-m3 ${FPU_FLAGS} -mthumb  -specs=nano.specs -u_printf_float -mthumb-interwork -ffunction-sections -fdata-sections \
     -g -fno-common -fmessage-length=0  ")
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER)

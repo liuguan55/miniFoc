@@ -5,12 +5,13 @@
 #include "Sensor.h"
 #include "common/framework/util/MiniCommon.h"
 #include "driver/hal/hal_spi.h"
+#include "driver/hal/hal_gpio.h"
 
 #undef  LOG_TAG
 #define LOG_TAG "TLE5012B"
 
 #define  TLE5012B_CPR     32768      //14bit
-#define  TLE5012B_Angle   0x8020     //command + reg,no safty word
+#define  TLE5012B_Angle   0x2180     //command + reg,no safty word
 
 typedef struct {
     uint32_t cpr;
@@ -30,27 +31,55 @@ static TLE5012BContext_t TLE5012BCtx = {0};
 #define SPI2_TX_OFF //{GPIOC->CRH&=0x0FFFFFFF;GPIOC->CRH|=0x40000000;}  //把PB15(MOSI)配置为浮空模式
 #define SPI2_TX_ON  //{GPIOC->CRH&=0x0FFFFFFF;GPIOC->CRH|=0xB0000000;}  //把PB15(MOSI)配置为复用推挽输出(50MHz)
 
+
+static void spi_tx_off()
+{
+
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+    /*Configure GPIO pins : PA7 PA15 */
+    GPIO_InitStruct.Pin =  GPIO_PIN_5;
+    GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+}
+
+static void spi_tx_on()
+{
+
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+    /*Configure GPIO pins : PA7 PA15 */
+    GPIO_InitStruct.Pin =  GPIO_PIN_5;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+}
+
 static unsigned short readRawData(SensorInterface_t *interface) {
+    assert(interface != NULL);
+
     unsigned short u16Data = 0;
-//
-//    uint16_t sendData = TLE5012B_Angle;
-//
-//    SPI2_CS1_L;
-//    HAL_SPI_TransmitReceive(interface->handle, (uint8_t *) &sendData, (uint8_t *) &u16Data, 2, interface->timeout);
-//    SPI2_TX_OFF;
-//    __NOP();
-//    __NOP();
-//    __NOP();
-//    __NOP();
-//    __NOP();
-//    __NOP();
-//    __NOP();
-//    __NOP();  //Twr_delay=130ns min
-//    sendData = 0xffff;
-//    HAL_SPI_TransmitReceive(interface->handle, (uint8_t *) &sendData, (uint8_t *) &u16Data, 2, interface->timeout);
-//
-//    SPI2_CS1_H;
-//    SPI2_TX_ON;
+    uint8_t recvData[2] = {0};
+    uint16_t sendData = TLE5012B_Angle;
+
+    uint32_t handle = interface->handle;
+    if (HAL_spiOpen(handle, HAL_SPI_TCTRL_SS_SEL_SS1, 100) != HAL_STATUS_OK){
+        return 0;
+    }
+
+    HAL_spiCsEnable(handle);
+    HAL_spiTransmitReceive(handle, (uint8_t *) &sendData, (uint8_t *)recvData, 2, interface->timeout);
+    spi_tx_off();
+
+    sendData = 0xffff;
+    HAL_spiTransmitReceive(handle, (uint8_t *) &sendData, (uint8_t *) recvData, 2, interface->timeout);
+    spi_tx_on();
+    HAL_spiCsDisable(handle);
+
+    HAL_spiClose(handle);
+
+    u16Data = ((recvData[0] << 8) | recvData[1]) & 0x7fff ;
 
     return (u16Data);
 }
@@ -62,6 +91,16 @@ static void TLE5012B_init(struct FocSensor *sensor) {
     if (!ctx) {
         return;
     }
+
+    SpiConfig_t spiConfig = {
+            .word_size = HAL_SPI_8BIT,
+            .mode = HAL_SPI_MODE_1,
+            .bit_order = HAL_SPI_MSB_FIRST,
+            .speed = 8000000,
+    };
+    assert(sensor->interface != NULL);
+
+    HAL_spiInit(sensor->interface->handle, &spiConfig);
 
     ctx->cpr = TLE5012B_CPR;
     ctx->raw_data_prev = readRawData(sensor->interface);
@@ -77,6 +116,7 @@ static float TLE5012B_getAngle(struct FocSensor *senosr) {
     }
 
     ctx->angle_data = readRawData(senosr->interface);
+//    log_d("angle_data %d", ctx->angle_data);
     // tracking the number of rotations
     // in order to expand angle range form [0,2PI] to basically infinity
     ctx->d_angle = ctx->angle_data - ctx->raw_data_prev;
@@ -142,7 +182,7 @@ static int needSearch(struct FocSensor *sensor) {
 
 static SensorInterface_t sensorDriver = {
         .interfaceName = "spi",
-        .handle = HAL_SPI_2,
+        .handle = HAL_SPI_1,
         .address = 0,
         .timeout = 100,
         .retry = 1,

@@ -29,11 +29,10 @@
 #include "driver/hal/hal_board.h"
 #include "driver/hal/hal_dev.h"
 #include "driver/hal/hal_gpio.h"
-#include "Led.h"
-#include "pwm.h"
 #include "miniConsole.h"
 #include "framework/multiTimer/multiTimer.h"
 #include "framework/MiniFoc/MiniMotor.h"
+#include "Led.h"
 
 
 #undef LOG_TAG
@@ -43,7 +42,6 @@ static MultiTimer gsLedTimer;
 static void ledTimerTask(MultiTimer* timer, void* userData)
 {
     ledToggle();
-    log_d("hello world");
 
     MultiTimerStart(timer, 1000, ledTimerTask, userData);
 }
@@ -53,7 +51,6 @@ static void ledTimerTask(MultiTimer* timer, void* userData)
   * @retval int
   */
 int main(void) {
-    pwmInit();
     MiniMotor_init();
 
     MultiTimerInstall(HAL_millis);

@@ -221,4 +221,7 @@ int MiniFoc_setController(Motor_t *motor, MotionControlType controller);
 int MiniFoc_setTorque(Motor_t *motor, TorqueControlType torque);
 int MiniFoc_setZeroElectricOffset(Motor_t *motor, float zero_electric_offset);
 int MiniFoc_setSensorDirection(Motor_t *motor, Direction sensor_direction);
+int MiniFoc_disable(Motor_t *motor);
+int MiniFoc_enable(Motor_t *motor);
+int MiniFoc_setCurrentSense(Motor_t *motor, char *name);
 #endif //MINI_FOC_LIBS_SIMPLEFOC_SIMPLEFOC_H_

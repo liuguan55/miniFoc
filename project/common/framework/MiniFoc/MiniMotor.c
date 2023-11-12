@@ -37,7 +37,17 @@ static BLDCMotor_t motor = {0};
 void MiniMotor_init(void) {
   MiniFoc_setZeroElectricOffset((Motor_t *)&motor, 2.5802);
   MiniFoc_setSensorDirection((Motor_t *)&motor, CW);
-  MiniFoc_init((Motor_t *)&motor, MOTOR_TYPE_BLDC, "AS5600@1", "3PWM");
+//  MiniFoc_setCurrentSense((Motor_t *)&motor, "downlineCurrent");
+  MiniFoc_init((Motor_t *)&motor, MOTOR_TYPE_BLDC, "TLE5012B", "3PWM");
+  MiniMotor_enable();
+}
+
+void MiniMotor_enable(void) {
+  MiniFoc_enable((Motor_t *)&motor);
+}
+
+void MiniMotor_disable(void) {
+    MiniFoc_disable((Motor_t *)&motor);
 }
 
 void MiniMotor_run(void) {

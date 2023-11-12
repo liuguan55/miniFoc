@@ -151,9 +151,6 @@ int MiniFoc_init(Motor_t *motor, MotorType_t motorType, char *sensorName, char *
 
     ctx->vbus = LPFoperator(&motor->LPF_vBus, MiniFoc_getVbus());
     log_d("vBus:%4.2f ,Motor ready.", ctx->vbus);
-  if (ctx->vbus > 6.0f) {
-    motor->enabled = 1;
-  }
   }
 
   return MINIFOC_OK;
@@ -217,7 +214,7 @@ int MiniFoc_setSensorDirection(Motor_t *motor, Direction sensor_direction) {
 }
 
 int MiniFoc_setCurrentSense(Motor_t *motor, char *name) {
-  if (motor->motorType == MOTOR_TYPE_BLDC) {
+  if (motor->motorType != MOTOR_TYPE_BLDC) {
     return -1;
   }
 

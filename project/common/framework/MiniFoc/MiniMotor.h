@@ -6,5 +6,7 @@
 #define MINIFOC_F4_CORE_SRC_MOTOR_H_
 
 void MiniMotor_init(void);
+void MiniMotor_enable(void);
+void MiniMotor_disable(void);
 void MiniMotor_run(void);
 #endif //MINIFOC_F4_CORE_SRC_MOTOR_H_

@@ -66,7 +66,7 @@ static const GPIO_PinMuxParam g_pinmux_i2c1[] = {
 
 static const GPIO_PinMuxParam g_pinmux_spi1[] = {
         { HAL_GPIO_PORT_B, HAL_GPIO_PIN_3,  { HAL_GPIO_MODE_AF_PP,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF5_SPI1} }, /* CLK */
-        { HAL_GPIO_PORT_B, HAL_GPIO_PIN_4,  { HAL_GPIO_MODE_AF_PP,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_2 ,HAL_GPIO_AF5_SPI1} }, /* MISO */
+        { HAL_GPIO_PORT_B, HAL_GPIO_PIN_4,  { HAL_GPIO_MODE_INPUT,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_2 ,HAL_GPIO_AF5_SPI1} }, /* MISO */
         { HAL_GPIO_PORT_B, HAL_GPIO_PIN_5,  { HAL_GPIO_MODE_AF_PP,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_2 ,HAL_GPIO_AF5_SPI1} }, /* MOSI */
 };
 
@@ -82,11 +82,11 @@ static const GPIO_PinMuxParam  g_pinmux_spi2_cs[] = {
 
 
 static const ADC_Channel_t g_adc1_channel[] = {
-        {ADC_CHANNEL_4,ADC_REGULAR_RANK_1,ADC_SAMPLETIME_13CYCLES_5},
-        {ADC_CHANNEL_5,ADC_REGULAR_RANK_1,ADC_SAMPLETIME_13CYCLES_5},
+        {ADC_CHANNEL_4,ADC_REGULAR_RANK_1,ADC_SAMPLETIME_28CYCLES_5},
+        {ADC_CHANNEL_5,ADC_REGULAR_RANK_2,ADC_SAMPLETIME_28CYCLES_5},
 };
 static const ADC_Config_t g_adc_info[HAL_ADC_NR] = {
-        {g_adc1_channel, HAL_ARRAY_SIZE(g_adc1_channel), ADC_EXTERNALTRIGCONV_T1_CC1, TIM1, TIM_CHANNEL_1, 71, 9999,
+        {g_adc1_channel, HAL_ARRAY_SIZE(g_adc1_channel), ADC_EXTERNALTRIGCONV_T2_CC2, NULL, 0, 0, 0,
          DMA1_Channel1}
 };
 
@@ -166,6 +166,9 @@ void board_chip_clock_init(void)
     {
         assert(NULL);
     }
+
+
+    __HAL_AFIO_REMAP_SPI1_ENABLE();
 }
 
 /**

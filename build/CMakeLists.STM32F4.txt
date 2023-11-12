@@ -7,7 +7,7 @@ add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING )
 #SET(FPU_FLAGS "-mfloat-abi=soft")
 
 SET(COMMON_FLAGS
-    "-mcpu=cortex-m4 ${FPU_FLAGS} -mthumb -mthumb-interwork -specs=nano.specs -ffunction-sections -fdata-sections \
+    "-mcpu=cortex-m4 ${FPU_FLAGS} -mthumb -mthumb-interwork -specs=nano.specs -u_printf_float -ffunction-sections -fdata-sections \
     -g -fno-common -fmessage-length=0 -Wall -Werror ")
 
 #add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -D__FPU_PRESENT=1)

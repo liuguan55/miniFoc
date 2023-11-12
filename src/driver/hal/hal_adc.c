@@ -238,55 +238,6 @@ static void HAL_adcHwInit(HAL_ADC_ID id) {
     }
     __HAL_LINKDMA(pAdc, DMA_Handle, pAdcPrivate->dma);
     ADCDmaEnable(pDma->Instance);
-
-    pAdcPrivate->adc = pAdc;
-
-    /*configuration tim for adc */
-    timerClockEnable(boardAdcInfo.config->timer);
-
-    TIM_HandleTypeDef *pTim = &pAdcPrivate->tim;
-    memset(pTim, 0, sizeof(TIM_HandleTypeDef));
-    /* USER CODE END TIM1_Init 1 */
-    pTim->Instance = boardAdcInfo.config->timer;
-    pTim->Init.Prescaler = boardAdcInfo.config->prescaler;
-    pTim->Init.CounterMode = TIM_COUNTERMODE_UP;
-    pTim->Init.Period = boardAdcInfo.config->period;
-    pTim->Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
-    pTim->Init.RepetitionCounter = 0;
-    pTim->Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
-    if (HAL_TIM_PWM_Init(pTim) != HAL_OK) {
-        assert(NULL);
-    }
-
-    TIM_MasterConfigTypeDef sMasterConfig = {0};
-    TIM_OC_InitTypeDef sConfigOC = {0};
-    TIM_BreakDeadTimeConfigTypeDef sBreakDeadTimeConfig = {0};
-    sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
-    sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
-    if (HAL_TIMEx_MasterConfigSynchronization(pTim, &sMasterConfig) != HAL_OK) {
-        assert(NULL);
-    }
-    sConfigOC.OCMode = TIM_OCMODE_PWM1;
-    sConfigOC.Pulse = 500;
-    sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
-    sConfigOC.OCNPolarity = TIM_OCNPOLARITY_HIGH;
-    sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
-    sConfigOC.OCIdleState = TIM_OCIDLESTATE_RESET;
-    sConfigOC.OCNIdleState = TIM_OCNIDLESTATE_RESET;
-    if (HAL_TIM_PWM_ConfigChannel(pTim, &sConfigOC, TIM_CHANNEL_1) != HAL_OK) {
-        assert(NULL);
-    }
-    sBreakDeadTimeConfig.OffStateRunMode = TIM_OSSR_DISABLE;
-    sBreakDeadTimeConfig.OffStateIDLEMode = TIM_OSSI_DISABLE;
-    sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
-    sBreakDeadTimeConfig.DeadTime = 0;
-    sBreakDeadTimeConfig.BreakState = TIM_BREAK_DISABLE;
-    sBreakDeadTimeConfig.BreakPolarity = TIM_BREAKPOLARITY_HIGH;
-    sBreakDeadTimeConfig.AutomaticOutput = TIM_AUTOMATICOUTPUT_DISABLE;
-    if (HAL_TIMEx_ConfigBreakDeadTime(pTim, &sBreakDeadTimeConfig) != HAL_OK) {
-        assert(NULL);
-    }
-
     pAdcPrivate->dmaBufferSize = boardAdcInfo.config->channelCount;
     pAdcPrivate->dmaBuffer = (uint16_t *)HAL_Malloc(boardAdcInfo.config->channelCount * sizeof(uint16_t));
     if (pAdcPrivate->dmaBuffer == NULL) {
@@ -297,6 +248,55 @@ static void HAL_adcHwInit(HAL_ADC_ID id) {
     pAdcPrivate->adcBuffer = (uint16_t *)HAL_Malloc(boardAdcInfo.config->channelCount * sizeof(uint16_t));
     if (pAdcPrivate->adcBuffer == NULL) {
         assert(NULL);
+    }
+    pAdcPrivate->adc = pAdc;
+
+    if (boardAdcInfo.config->timer){
+        /*configuration tim for adc */
+        timerClockEnable(boardAdcInfo.config->timer);
+
+        TIM_HandleTypeDef *pTim = &pAdcPrivate->tim;
+        memset(pTim, 0, sizeof(TIM_HandleTypeDef));
+        /* USER CODE END TIM1_Init 1 */
+        pTim->Instance = boardAdcInfo.config->timer;
+        pTim->Init.Prescaler = boardAdcInfo.config->prescaler;
+        pTim->Init.CounterMode = TIM_COUNTERMODE_UP;
+        pTim->Init.Period = boardAdcInfo.config->period;
+        pTim->Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+        pTim->Init.RepetitionCounter = 0;
+        pTim->Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+        if (HAL_TIM_PWM_Init(pTim) != HAL_OK) {
+            assert(NULL);
+        }
+
+        TIM_MasterConfigTypeDef sMasterConfig = {0};
+        TIM_OC_InitTypeDef sConfigOC = {0};
+        TIM_BreakDeadTimeConfigTypeDef sBreakDeadTimeConfig = {0};
+        sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+        sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+        if (HAL_TIMEx_MasterConfigSynchronization(pTim, &sMasterConfig) != HAL_OK) {
+            assert(NULL);
+        }
+        sConfigOC.OCMode = TIM_OCMODE_PWM1;
+        sConfigOC.Pulse = 0;
+        sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+        sConfigOC.OCNPolarity = TIM_OCNPOLARITY_HIGH;
+        sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+        sConfigOC.OCIdleState = TIM_OCIDLESTATE_RESET;
+        sConfigOC.OCNIdleState = TIM_OCNIDLESTATE_RESET;
+        if (HAL_TIM_PWM_ConfigChannel(pTim, &sConfigOC, TIM_CHANNEL_1) != HAL_OK) {
+            assert(NULL);
+        }
+        sBreakDeadTimeConfig.OffStateRunMode = TIM_OSSR_DISABLE;
+        sBreakDeadTimeConfig.OffStateIDLEMode = TIM_OSSI_DISABLE;
+        sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
+        sBreakDeadTimeConfig.DeadTime = 0;
+        sBreakDeadTimeConfig.BreakState = TIM_BREAK_DISABLE;
+        sBreakDeadTimeConfig.BreakPolarity = TIM_BREAKPOLARITY_HIGH;
+        sBreakDeadTimeConfig.AutomaticOutput = TIM_AUTOMATICOUTPUT_DISABLE;
+        if (HAL_TIMEx_ConfigBreakDeadTime(pTim, &sBreakDeadTimeConfig) != HAL_OK) {
+            assert(NULL);
+        }
     }
 }
 
