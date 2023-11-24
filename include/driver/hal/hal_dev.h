@@ -78,6 +78,7 @@ enum {
     HAL_DEV_MAJOR_CSI,
     HAL_DEV_MAJOR_SWD,
     HAL_DEV_MAJOR_USB,
+    HAL_DEV_MAJOR_CAN,
 
     /* external component */
     HAL_DEV_MAJOR_FLASH = 64,

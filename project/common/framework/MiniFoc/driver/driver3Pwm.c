@@ -62,7 +62,7 @@ static void pwmInit(void) {
 }
 
 static void setPwm(float Ta, float Tb, float Tc) {
-    log_d("Ta %4.2f %4.2f %4.2f\n",Ta,Tb,Tc);
+//    log_d("Ta %4.2f %4.2f %4.2f\n",Ta,Tb,Tc);
     pwmSetDuty(PWM_ID_0, (uint16_t)(Ta * PWM_Period));
     pwmSetDuty(PWM_ID_1, (uint16_t)(Tb * PWM_Period));
     pwmSetDuty(PWM_ID_2, (uint16_t)(Tc * PWM_Period));

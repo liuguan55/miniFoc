@@ -37,6 +37,7 @@
 #include "driver/hal/hal_sdio.h"
 #include "driver/hal/hal_usb.h"
 #include "driver/hal/hal_pwm.h"
+#include "driver/hal/hal_can.h"
 #include "common/board/BoardCommon.h"
 #include "sys/MiniDebug.h"
 
@@ -119,7 +120,10 @@ static const PWM_Config_t g_pwm_info[] = {
         { .id = HAL_PWM_ID_3, .channel = g_pwm_time3_channel, .channelNum = HAL_ARRAY_SIZE(g_pwm_time3_channel), .mode = HAL_PWM_COUNTER_MODE_CENTER, .period = 99, .prescaler = 35},
 };
 
-
+static const GPIO_PinMuxParam g_pinmux_can1[] = {
+        { HAL_GPIO_PORT_B, HAL_GPIO_PIN_8,  { HAL_GPIO_MODE_AF_PP,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF9_CAN1} }, /* RX */
+        { HAL_GPIO_PORT_B, HAL_GPIO_PIN_9,  { HAL_GPIO_MODE_AF_PP,   HAL_GPIO_PULL_NONE, HAL_GPIO_DRIVING_LEVEL_2 , HAL_GPIO_AF9_CAN1} }, /* TX */
+};
 
 
 /**
@@ -169,6 +173,7 @@ void board_chip_clock_init(void)
 
 
     __HAL_AFIO_REMAP_SPI1_ENABLE();
+    __HAL_AFIO_REMAP_CAN1_2();
 }
 
 /**
@@ -195,6 +200,16 @@ static HAL_Status board_get_pinmux_info(uint32_t major, uint32_t minor, uint32_t
             }
            
             break;
+
+        case HAL_DEV_MAJOR_CAN:
+            if (minor == HAL_CAN_0) {
+                info[0].pinmux = g_pinmux_can1;
+                info[0].count = HAL_ARRAY_SIZE(g_pinmux_can1);
+            } else {
+                ret = HAL_STATUS_INVALID;
+            }
+            break;
+
         case HAL_DEV_MAJOR_UART:
             if (minor == HAL_UART_1) {
                 info[0].pinmux = g_pinmux_uart0;
